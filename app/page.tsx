@@ -22,9 +22,9 @@ export default function Home() {
 
   const resultView = guesses.map((guess, index) => {
     if (list.includes(guess)) {
-      return (<ResultCard index={index} guess={guess} list={list} className={"text-green-500"}/>)
+      return (<ResultCard key={index} guess={guess} list={list}/>)
     } else {
-      return (<ResultCard index={index} guess={guess} list={list} className={"text-red-500"}/>)
+      return (<ResultCard key={index} guess={guess} list={list}/>)
     }
   }).reverse();
 
