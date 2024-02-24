@@ -4,32 +4,39 @@ import Fuse from 'fuse.js';
 
 const InputComponent = ({ items, handleGuess, isGameOver }) => {
   const [inputItems, setInputItems] = useState(items);
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
 
   const fuse = new Fuse(items, {
     includeScore: true,
-    threshold: 0.3, // Adjust this value based on your needs for fuzziness
+    threshold: 0.3,
   });
 
   const handleInputChange = (event) => {
     const { value } = event.target;
-    const results = fuse.search(value);
-    const matchedItems = results.map(result => result.item);
-    setInputItems(matchedItems.slice(0, 5));
-    setInputValue(value);
+    setInputValue(value); // Update inputValue on change
+
+    if (value) {
+      const results = fuse.search(value);
+      const matchedItems = results.map(result => result.item);
+      setInputItems(matchedItems.slice(0, 5));
+    } else {
+      setInputItems([]);
+    }
   };
 
   const downshiftOnChange = (selectedItem) => {
     handleGuess(selectedItem);
-    setInputValue(''); // Clear the input value when an item is selected
+    setInputValue(''); // Explicitly clear inputValue upon selection
   };
 
   return (
     <Downshift
-      inputValue={inputValue}
+      inputValue={inputValue} // Provide Downshift with the controlled inputValue
       onChange={downshiftOnChange}
-      itemToString={item => (item || '')} // Directly return the string item
-      onInputValueChange={(inputValue) => handleInputChange({ target: { value: inputValue } })}
+      onInputValueChange={(inputValue, stateAndHelpers) => {
+        // Optionally, handle additional logic here if needed
+      }}
+      itemToString={item => (item || '')}
     >
       {({
         getInputProps,
@@ -38,33 +45,28 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
         isOpen,
         highlightedIndex,
         selectedItem,
+        getRootProps,
       }) => (
-        <div className='relative w-full'>
+        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full'>
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: "bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg p-2 w-full mt-4",
+              className: "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2 w-full mt-4",
               disabled: isGameOver,
+              onChange: handleInputChange, // Use the custom handler
             })}
           />
           <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-md shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
-            {isOpen
-              ? inputItems
-                .map((item, index) => (
-                  <li
-                    key={index}
-                    {...getItemProps({ key: index, index, item })}
-                    className='w-full p-4'
-                    style={{
-                      cursor: 'pointer',
-                      backgroundColor: highlightedIndex === index ? 'whitesmoke' : 'white',
-                      fontWeight: selectedItem === item ? 'bold' : 'normal',
-                    }}
-                  >
-                    {item}
-                  </li>
-                ))
-              : null}
+            {isOpen &&
+              inputItems.map((item, index) => (
+                <li
+                  key={index}
+                  {...getItemProps({ key: index, index, item })}
+                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
+                >
+                  {item}
+                </li>
+              ))}
           </ul>
         </div>
       )}
