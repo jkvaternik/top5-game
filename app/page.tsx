@@ -55,7 +55,7 @@ export default function Home() {
           <h1 className="text-5xl" style={{ marginBottom: '-2px' }}>5</h1>
         </div>
         <p className="grow">{puzzle.category}</p>
-        <div className="self-end flex flex-row items-center gap-3">
+        <div className="self-end flex flex-row items-center gap-2">
           <HeartIcon className="h-5 w-5" />
           <span>{lives}</span>
         </div>
