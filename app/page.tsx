@@ -19,33 +19,33 @@ import 'react-toastify/dist/ReactToastify.css';
   let them guess the top 5, allow hints, show board after completion, grey if used hint 
 */
 
+const LIVES = 5
+
 export default function Home() {
   const puzzle = useDailyPuzzle();
 
-  const [guesses, setGuesses] = useState<string[]>(Array<string>(5).fill(''));
-  const [isGameOver, setGameOver] = useState(false);
-  const [lives, setLives] = useState<number>(5);
+  const [guessHistory, setGuessHistory] = useState<string[]>([]);
+  const [guesses, setGuesses] = useState<string[]>(Array<string>(LIVES).fill(''));
+  const [lives, setLives] = useState<number>(LIVES);
+  const isGameOver = lives === 0 || guesses.every(g => g.length > 0);
+
+  if (!puzzle) {
+    return null;
+  }
 
   const handleGuess = (guess: string) => {
-    if (!isGameOver && puzzle) {
-      const index = puzzle.answers.indexOf(guess);
-      if (index !== -1) { 
-        const newGuesses = guesses.map((g, i) => i === index ? guess : g);
-        setGuesses(newGuesses);
-      } else {
-        setLives(lives - 1);
-      }
-      if (guesses.every((guess) => guess !== '' || lives === 0)) {
-        setGameOver(true);
-      }
+    setGuessHistory([...guessHistory, guess]);
+
+    const index = puzzle.answers.indexOf(guess)
+    if (index === -1) {
+      setLives(lives - 1);
+    } else {
+      const newGuesses = guesses.map((g, i) => i === index ? guess : g);
+      setGuesses(newGuesses);
     }
   }
 
-  if (!puzzle) {
-    return <div>Loading puzzle...</div>;
-  }
-
-  const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers}/>));
+  const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />));
 
   const gameView = (
     <>
@@ -56,8 +56,8 @@ export default function Home() {
         </div>
         <p className="grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-3">
-            <HeartIcon className="h-5 w-5"/>
-            <span>{lives}</span>
+          <HeartIcon className="h-5 w-5" />
+          <span>{lives}</span>
         </div>
       </section>
       <section>
@@ -71,10 +71,10 @@ export default function Home() {
   )
 
   return (
-    <main style={{ margin: '5vh auto', width: '75%', height: '100vh' }}>
+    <main style={{ margin: '5vh auto', width: '75%' }}>
       <ToastContainer closeButton={false} />
       {gameView}
-      {<GameOverModal isOpen={isGameOver} score={getScore(guesses, puzzle.answers)} />}
+      {<GameOverModal isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}
     </main >
   );
 }
