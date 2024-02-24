@@ -3,12 +3,14 @@ import puzzlesData from '../data/puzzles.json';
 import optionsData from '../data/options.json';
 
 type PuzzleInput = {
+  num: number;
   category: string;
   answers: string[];
   optionsKey: string;
 }
 
-type Puzzle = {
+export type Puzzle = {
+  num: number;
   category: string;
   answers: string[];
   optionsKey: string;

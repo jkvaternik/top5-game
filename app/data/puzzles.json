@@ -1,6 +1,6 @@
 {
   "2024-02-24": {
-    "num": "1",
+    "num": 1,
     "category": "Largest countries by population",
     "answers": [
       "India",
@@ -12,7 +12,7 @@
     "optionsKey": "countries"
   },
   "2024-02-25": {
-    "num": "2",
+    "num": 2,
     "category": "Most populous cities",
     "answers": [
       "Tokyo",
@@ -24,7 +24,7 @@
     "optionsKey": "cities"
   },
   "2024-02-26": {
-    "num": "3",  
+    "num": 3,
     "category": "Highest grossing films of all time",
     "answers": [
       "Avatar",
@@ -36,7 +36,7 @@
     "optionsKey": "grossing_movies"
   },
   "2024-02-27": {
-    "num": "4",
+    "num": 4,
     "category": "Largest countries by area",
     "answers": [
       "Russia",
