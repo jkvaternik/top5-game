@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import ResultCard from "./components/ResultCard";
+import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 
 /* TODO 
@@ -15,14 +16,12 @@ import useDailyPuzzle from "./hooks/useDailyPuzzle";
 export default function Home() {
   const puzzle = useDailyPuzzle();
 
-  const [guess, setGuess] = useState('');
   const [guesses, setGuesses] = useState<string[]>([]);
   const [isGameOver, setGameOver] = useState(false);
 
-  const handleGuess = () => {
+  const handleGuess = (guess) => {
     if (!isGameOver) {
       setGuesses([...guesses, guess]);
-      setGuess('');
       if (guesses.length >= 4) {
         setGameOver(true);
       }
@@ -45,15 +44,7 @@ export default function Home() {
         <p>{puzzle.category}</p>
       </section>
       <section>
-        <input
-          type="text"
-          className="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg p-2 w-full mt-4"
-          value={guess}
-          placeholder="Enter your guess here..."
-          disabled={isGameOver}
-          onChange={(e) => setGuess(e.target.value)}
-          onKeyDown={(e) => e.key == 'Enter' ? handleGuess() : null}
-        />
+        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={isGameOver} />
       </section>
       <br></br>
       <section className="flex flex-col gap-4">

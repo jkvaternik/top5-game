@@ -1,15 +1,29 @@
 import { useState, useEffect } from 'react';
 import puzzles from '../data/puzzles.json';
+import options from '../data/options.json';
 
-const useDailyPuzzle = () => {
-  const [todayPuzzle, setTodayPuzzle] = useState(null);
+type Puzzle = {
+  category: string;
+  answers: string[];
+  optionsKey: string;
+  options: string[];
+}
+
+// This hook returns the puzzle for the current day
+// If there is no puzzle for today, it returns null
+const useDailyPuzzle: () => Puzzle | null = () => {
+  const [todayPuzzle, setTodayPuzzle] = useState<Puzzle | null>(null);
 
   useEffect(() => {
     const today = getCurrentLocalDateAsString()
-    const dailyPuzzle = puzzles[today];
+    const dailyPuzzle: Puzzle = puzzles[today];
 
     if (dailyPuzzle) {
-      setTodayPuzzle(dailyPuzzle);
+      const optionsList = options[dailyPuzzle.optionsKey]
+      setTodayPuzzle({
+        ...dailyPuzzle,
+        options: optionsList
+      });
     } else {
       // Handle the case where there is no puzzle for today
       setTodayPuzzle(null);
