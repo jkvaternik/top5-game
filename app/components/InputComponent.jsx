@@ -43,20 +43,21 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: "bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg p-2 w-full mt-4",
+              className: "relative bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg p-2 w-full mt-4",
               disabled: isGameOver,
             })}
           />
-          <ul {...getMenuProps()} className="list-none m-0 p-0">
+          <ul {...getMenuProps()} className={`list-none m-0 p-0 absolute z-10 w-full bg-white rounded-md shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
             {isOpen
               ? inputItems
                 .map((item, index) => (
                   <li
                     key={index}
                     {...getItemProps({ key: index, index, item })}
+                    className='w-full'
                     style={{
                       cursor: 'pointer',
-                      backgroundColor: highlightedIndex === index ? 'lightgray' : 'white',
+                      backgroundColor: highlightedIndex === index ? 'whitesmoke' : 'white',
                       fontWeight: selectedItem === item ? 'bold' : 'normal',
                     }}
                   >
