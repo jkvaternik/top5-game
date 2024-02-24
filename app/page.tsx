@@ -29,7 +29,7 @@ export default function Home() {
   const handleGuess = (guess: string) => {
     if (!isGameOver && puzzle) {
       const index = puzzle.answers.indexOf(guess);
-      if (index !== -1) { 
+      if (index !== -1) {
         const newGuesses = guesses.map((g, i) => i === index ? guess : g);
         setGuesses(newGuesses);
       } else {
@@ -42,10 +42,10 @@ export default function Home() {
   }
 
   if (!puzzle) {
-    return <div>Loading puzzle...</div>;
+    return null;
   }
 
-  const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers}/>));
+  const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />));
 
   const gameView = (
     <>
@@ -56,8 +56,8 @@ export default function Home() {
         </div>
         <p className="grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-3">
-            <HeartIcon className="h-5 w-5"/>
-            <span>{lives}</span>
+          <HeartIcon className="h-5 w-5" />
+          <span>{lives}</span>
         </div>
       </section>
       <section>
