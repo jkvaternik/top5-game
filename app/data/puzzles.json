@@ -1,6 +1,7 @@
 {
   "2024-02-24": {
-    "category": "largest countries by population",
+    "num": "1",
+    "category": "Largest countries by population",
     "answers": [
       "India",
       "China",
@@ -11,7 +12,8 @@
     "optionsKey": "countries"
   },
   "2024-02-25": {
-    "category": "most populous cities",
+    "num": "2",
+    "category": "Most populous cities",
     "answers": [
       "Tokyo",
       "Delhi",
@@ -19,10 +21,11 @@
       "São Paulo",
       "Mexico City"
     ],
-    "optionsKey": "world_cities_by_population"
+    "optionsKey": "cities"
   },
   "2024-02-26": {
-    "category": "highest grossing film of all time",
+    "num": "3",  
+    "category": "Highest grossing films of all time",
     "answers": [
       "Avatar",
       "Avengers: Endgame",
@@ -33,7 +36,8 @@
     "optionsKey": "grossing_movies"
   },
   "2024-02-27": {
-    "category": "largest countries by area",
+    "num": "4",
+    "category": "Largest countries by area",
     "answers": [
       "Russia",
       "Canada",
