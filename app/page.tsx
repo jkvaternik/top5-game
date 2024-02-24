@@ -4,6 +4,7 @@ import { useState } from "react";
 import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
+import { getScore } from "./utils";
 
 /* TODO 
 - implement game over overlay/sharing
@@ -34,8 +35,8 @@ export default function Home() {
 
   const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />)).reverse();
 
-  return (
-    <main style={{ margin: '5vh auto', width: '75%', height: '100vh' }}>
+  const gameView = (
+    <>
       <section className="flex flex-row gap-4 items-end">
         <div className="flex flex-col items-center" >
           <h1>top</h1>
@@ -50,6 +51,13 @@ export default function Home() {
       <section className="flex flex-col gap-4">
         {resultView}
       </section>
+    </>
+  )
+
+  return (
+    <main style={{ margin: '5vh auto', width: '75%', height: '100vh' }}>
+      {gameView}
+      {isGameOver && <div>Game Over, score: {getScore(guesses, puzzle.answers)}</div>}
     </main>
   );
 }
