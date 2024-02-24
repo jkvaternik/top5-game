@@ -1,0 +1,24 @@
+{
+  "2024-02-24": {
+    "category": "Largest countries by population",
+    "answers": [
+      "India",
+      "China",
+      "United States of America",
+      "Indonesia",
+      "Pakistan"
+    ],
+    "optionsKey": "countries"
+  },
+  "2024-02-25": {
+    "category": "Largest countries by area",
+    "answers": [
+      "Russia",
+      "Canada",
+      "China",
+      "United States of America",
+      "Brazil"
+    ],
+    "optionsKey": "countries"
+  }
+}
