@@ -71,7 +71,7 @@ export default function Home() {
   )
 
   return (
-    <main style={{ margin: '5vh auto', width: '75%', height: '100vh' }}>
+    <main style={{ margin: '5vh auto', width: '75%' }}>
       <ToastContainer closeButton={false} />
       {gameView}
       {<GameOverModal isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}
