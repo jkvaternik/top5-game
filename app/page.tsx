@@ -4,7 +4,7 @@ import { useState } from "react";
 import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getScore } from "./utils";
+import { getScore, getShareableEmojiScore } from "./utils";
 
 /* TODO 
 - implement game over overlay/sharing
@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <main style={{ margin: '5vh auto', width: '75%', height: '100vh' }}>
       {gameView}
-      {isGameOver && <div>Game Over, score: {getScore(guesses, puzzle.answers)}</div>}
+      {isGameOver && <div>Game Over, score: {getShareableEmojiScore(getScore(guesses, puzzle.answers))}</div>}
     </main>
   );
 }
