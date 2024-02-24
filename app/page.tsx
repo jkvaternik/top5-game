@@ -19,7 +19,7 @@ export default function Home() {
   const [guesses, setGuesses] = useState<string[]>([]);
   const [isGameOver, setGameOver] = useState(false);
 
-  const handleGuess = (guess) => {
+  const handleGuess = (guess: string) => {
     if (!isGameOver) {
       setGuesses([...guesses, guess]);
       if (guesses.length >= 4) {

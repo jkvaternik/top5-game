@@ -52,6 +52,7 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
               ? inputItems
                 .map((item, index) => (
                   <li
+                    key={index}
                     {...getItemProps({ key: index, index, item })}
                     style={{
                       cursor: 'pointer',
