@@ -8,7 +8,7 @@ export default function NumberIcon(props: {
     }
     return (
         <div className={`flex items-center justify-center h-12 w-12 ${getColor()} rounded-md`}>
-            <div className="text-white font-bold text-xl">{props.number != -1 ? (props.number + 1) : 'X'}</div>
+            <div className="text-white font-bold text-xl sm:text-base">{props.number != -1 ? (props.number + 1) : 'X'}</div>
         </div>
     );
 }
