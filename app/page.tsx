@@ -49,13 +49,13 @@ export default function Home() {
 
   const gameView = (
     <>
-      <section className="flex flex-row gap-4 items-end w-full">
-        <div className="flex flex-col items-center" >
+      <section className="flex flex-row gap-4 items-end w-full text-dark-maroon">
+        <div className="flex flex-col items-center">
           <h1>top</h1>
           <h1 className="text-5xl" style={{ marginBottom: '-2px' }}>5</h1>
         </div>
         <p className="grow">{puzzle.category}</p>
-        <div className="self-end flex flex-row items-center gap-3">
+        <div className="self-end flex flex-row items-center gap-2">
           <HeartIcon className="h-5 w-5" />
           <span>{lives}</span>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
   )
 
   return (
-    <main style={{ margin: '5vh auto', width: '75%' }}>
+    <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <ToastContainer closeButton={false} />
       {gameView}
       {<GameOverModal puzzle={puzzle} isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}

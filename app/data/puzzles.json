@@ -1,17 +1,17 @@
 {
-  "2024-02-24": {
+  "2024-02-25": {
     "num": 1,
-    "category": "Largest countries by population",
+    "category": "Largest countries by area",
     "answers": [
-      "India",
+      "Russia",
+      "Canada",
       "China",
       "United States of America",
-      "Indonesia",
-      "Pakistan"
+      "Brazil"
     ],
     "optionsKey": "countries"
   },
-  "2024-02-25": {
+  "2024-02-26": {
     "num": 2,
     "category": "Most populous cities",
     "answers": [
@@ -23,8 +23,20 @@
     ],
     "optionsKey": "cities"
   },
-  "2024-02-26": {
+  "2024-02-27": {
     "num": 3,
+    "category": "Best selling video games",
+    "answers": [
+      "Minecraft",
+      "Grand Theft Auto V",
+      "Tetris",
+      "Wii Sports",
+      "PlayerUnknown's Battlegrounds"
+    ],
+    "optionsKey": "video_games"
+  },
+  "2024-02-28": {
+    "num": 4,
     "category": "Highest grossing films of all time",
     "answers": [
       "Avatar",
@@ -35,16 +47,52 @@
     ],
     "optionsKey": "grossing_movies"
   },
-  "2024-02-27": {
-    "num": 4,
-    "category": "Largest countries by area",
+  "2024-02-29": {
+    "num": 5,
+    "category": "Largest countries by population",
     "answers": [
-      "Russia",
-      "Canada",
+      "India",
       "China",
       "United States of America",
-      "Brazil"
+      "Indonesia",
+      "Pakistan"
     ],
     "optionsKey": "countries"
+  },
+  "2024-03-01": {
+    "num": 6,
+    "category": "Most spoken languages by total language speakers", 
+    "answers": [
+      "English",
+      "Mandarin",
+      "Hindi",
+      "Spanish",
+      "French"
+    ],
+    "optionsKey": "languages"
+  },
+  "2024-03-02": {
+    "num": 7,
+    "category": "Most mentioned Harry Potter characters in the books",
+    "answers": [
+      "Harry Potter",
+      "Hermione Granger",
+      "Ron Weasley",
+      "Albus Dumbledore",
+      "Rubeus Hagrid"
+    ],
+    "optionsKey": "harry_potter_characters"
+  },
+  "2024-03-03": {
+    "num": 8, 
+    "category": "Most popular social networks (by number of monthly active users)",
+    "answers": [
+      "Facebook",
+      "Youtube",
+      "Whatsapp",
+      "Instagram",
+      "WeChat"
+    ],
+    "optionsKey": "social_networks"
   }
 }
