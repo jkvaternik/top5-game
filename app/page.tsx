@@ -45,7 +45,8 @@ export default function Home() {
     }
   }
 
-  const resultView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />));
+  const guessesView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />));
+  const answerView = puzzle.answers.map((answer, index) => (<ResultCard key={index} index={index} guess={answer} list={puzzle.answers} />));
 
   const gameView = (
     <>
@@ -65,7 +66,7 @@ export default function Home() {
       </section>
       <br></br>
       <section className="flex flex-col gap-4">
-        {resultView}
+        {isGameOver ? answerView : guessesView}
       </section>
     </>
   )
