@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
@@ -28,6 +28,21 @@ export default function Home() {
   const [guesses, setGuesses] = useState<string[]>(Array<string>(LIVES).fill(''));
   const [lives, setLives] = useState<number>(LIVES);
   const isGameOver = lives === 0 || guesses.every(g => g.length > 0);
+
+  const [isExploding, setIsExploding] = useState(false);
+  const [animateChange, setAnimateChange] = useState(false);
+
+  // Trigger animations on life loss
+  useEffect(() => {
+    if (lives < LIVES) {
+      setIsExploding(true);
+      setTimeout(() => {
+        setIsExploding(false);
+        setAnimateChange(true);
+        setTimeout(() => setAnimateChange(false), 500);
+      }, 500);
+    }
+  }, [lives]);
 
   if (!puzzle) {
     return null;
@@ -57,8 +72,11 @@ export default function Home() {
         </div>
         <p className="grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
-          <HeartIcon className="h-5 w-5" />
-          <span>{lives}</span>
+          <div className="relative">
+            {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
+            <HeartIcon className={`h-5 w-5 ${isExploding ? 'shrink text-red-500' : ''}`} />
+          </div>
+          <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
         </div>
       </section>
       <section>
