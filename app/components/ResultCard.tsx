@@ -13,7 +13,7 @@ export default function ResultCard({ index, guess, list } : {
   // }
 
   return (
-    <div key={index} className={`flex flex-row gap-4 items-center`}>
+    <div key={index} className={`flex flex-row gap-4 items-center text-dark-maroon`}>
       <NumberIcon number={index} isEmpty={guess.length == 0} isWrong={isWrong(guess)}/>
       <p>{guess}</p>
     </div>

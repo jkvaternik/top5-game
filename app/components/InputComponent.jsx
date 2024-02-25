@@ -47,11 +47,11 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
         selectedItem,
         getRootProps,
       }) => (
-        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full'>
+        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-dark-maroon'>
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: "bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg p-2 w-full mt-4",
+              className: "bg-gray-50 border border-gray-300 text-base rounded-lg p-2 w-full mt-4",
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
             })}
@@ -62,7 +62,7 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
                 <li
                   key={index}
                   {...getItemProps({ key: index, index, item })}
-                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
+                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} `}
                 >
                   {item}
                 </li>

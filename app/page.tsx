@@ -49,8 +49,8 @@ export default function Home() {
 
   const gameView = (
     <>
-      <section className="flex flex-row gap-4 items-end w-full">
-        <div className="flex flex-col items-center" >
+      <section className="flex flex-row gap-4 items-end w-full text-dark-maroon">
+        <div className="flex flex-col items-center">
           <h1>top</h1>
           <h1 className="text-5xl" style={{ marginBottom: '-2px' }}>5</h1>
         </div>
