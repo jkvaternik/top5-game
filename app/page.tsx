@@ -6,7 +6,7 @@ import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getScore } from "./utils";
-import { HeartIcon } from '@heroicons/react/24/solid'
+import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -23,6 +23,8 @@ export default function Home() {
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
+
+  const [showModal, setShowModal] = useState(false);
 
   // Trigger animations on life loss
   useEffect(() => {
@@ -45,7 +47,11 @@ export default function Home() {
 
     const index = puzzle.answers.indexOf(guess)
     if (index === -1) {
-      setLives(lives - 1);
+      const newlives = lives - 1;
+      if (newlives === 0) {
+        setShowModal(true);
+      }
+      setLives(newlives);
     } else {
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
       setGuesses(newGuesses);
@@ -64,11 +70,16 @@ export default function Home() {
         </div>
         <p className="grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
-          <div className="relative">
-            {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
-            <HeartIcon className={`h-5 w-5 ${isExploding ? 'shrink text-red-500' : ''}`} />
-          </div>
-          <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
+          {isGameOver ?
+            <ShareIcon className="h-5 w-5" onClick={() => setShowModal(true)}/>
+            :
+            <>
+              <div className="relative">
+                {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
+                <HeartIcon className={`h-5 w-5 ${isExploding ? 'shrink text-red-500' : ''}`} />
+              </div><span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
+            </>
+          }
         </div>
       </section>
       <section>
@@ -85,7 +96,7 @@ export default function Home() {
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <ToastContainer closeButton={false} />
       {gameView}
-      {isGameOver && <GameOverModal puzzle={puzzle} isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}
+      {isGameOver && <GameOverModal puzzle={puzzle} isOpen={isGameOver && showModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowModal(false)}/>}
     </main >
   );
 }
