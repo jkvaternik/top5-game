@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Puzzle } from "../hooks/useDailyPuzzle";
 import { getShareableEmojiScore } from "../utils";
 import { toast, Bounce } from 'react-toastify';
@@ -8,7 +9,18 @@ type Props = {
   puzzle: Puzzle;
 }
 
+const DELAY_MS = 800;
+
 const GameOverModal = ({ puzzle, score, isOpen }: Props) => {
+  const [showComponent, setShowComponent] = useState(false);
+  
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowComponent(true);
+    }, DELAY_MS);
+    return () => clearTimeout(timeoutId);
+  }, []); 
+
   const copyScore = () => {
     navigator.clipboard.writeText(`Top 5 (#${puzzle.num})\n${getShareableEmojiScore(score)}`);
 
@@ -29,8 +41,9 @@ const GameOverModal = ({ puzzle, score, isOpen }: Props) => {
 
   if (!isOpen) return null;
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center text-center">
-      <div className="bg-white p-12 rounded-lg">
+    showComponent &&
+    <div className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center text-center'>
+      <div className={`bg-white p-12 rounded-lg ${showComponent ? 'animate-fade' : ''}`}>
         <div className="mb-4">
           <h2 className="mb-4 text-2xl font-bold">Thanks for playing!</h2>
           <p className="mb-2 font-semibold">Top 5 (#{puzzle.num})</p>

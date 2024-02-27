@@ -1,21 +1,14 @@
 import NumberIcon from "./NumberIcon";
 
-export default function ResultCard({ index, guess, list } : {
+export default function ResultCard({ index, guess } : {
   index: number,
-  guess: string,
-  list: string[],
+  guess: string
 }): JSX.Element {
-  const isWrong = (guess: string): boolean => {
-    return list.indexOf(guess) == -1;
-  }
-  // const getNumber = (guess: string): number => {
-  //   return props.list.indexOf(guess);
-  // }
-
+  const isEmpty = guess.length == 0;
   return (
     <div key={index} className={`flex flex-row gap-4 items-center text-dark-maroon`}>
-      <NumberIcon number={index} isEmpty={guess.length == 0} isWrong={isWrong(guess)}/>
-      <p>{guess}</p>
+      <NumberIcon number={index} isEmpty={isEmpty}/>
+      <p className={isEmpty ? 'animate-fade' : ''}>{guess}</p>
     </div>
   );
 }
