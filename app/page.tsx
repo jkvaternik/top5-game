@@ -10,6 +10,7 @@ import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
+import React from "react";
 
 const LIVES = 5
 
