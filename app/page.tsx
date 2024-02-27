@@ -11,14 +11,6 @@ import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
 
-/* TODO 
-- implement game over overlay/sharing
-- add helper text for user
-- add more questions
-- add hints? could either let users guess w/ lives, grey if wrong or 
-  let them guess the top 5, allow hints, show board after completion, grey if used hint 
-*/
-
 const LIVES = 5
 
 export default function Home() {
