@@ -16,3 +16,15 @@ export const getShareableEmojiScore = (score: number[]) => {
 
   return emojiScore
 }
+
+export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
+  if (typeof window !== 'undefined') {
+    return JSON.parse(localStorage.getItem(key) ?? JSON.stringify(defaultValue));
+  }
+  return defaultValue;
+}
+
+export const setLocalStorageAndState = (key: string, newValue: any, setter: React.Dispatch<React.SetStateAction<any>>) => {
+  setter(newValue);
+  localStorage.setItem(key, JSON.stringify(newValue));
+}

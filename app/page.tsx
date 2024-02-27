@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getScore } from "./utils";
+import { getLocalStorageOrDefault, getScore, setLocalStorageAndState } from "./utils";
 import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import GameOverModal from "./components/GameOverModal";
 
@@ -17,9 +17,9 @@ const LIVES = 5
 export default function Home() {
   const puzzle = useDailyPuzzle();
 
-  const [guessHistory, setGuessHistory] = useState<string[]>([]);
-  const [guesses, setGuesses] = useState<string[]>(Array<string>(LIVES).fill(''));
-  const [lives, setLives] = useState<number>(LIVES);
+  const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
+  const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
+  const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
   const isGameOver = lives === 0 || guesses.every(g => g.length > 0);
 
   const [isExploding, setIsExploding] = useState(false);
@@ -44,15 +44,16 @@ export default function Home() {
   }
 
   const handleGuess = (guess: string) => {
-    setGuessHistory([...guessHistory, guess]);
+    const newGuessHistory = [...guessHistory, guess];
+    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
 
-    const index = puzzle.answers.indexOf(guess)
+    const index = puzzle.answers.indexOf(guess);
     if (index === -1) {
       const newlives = lives - 1;
-      setLives(newlives);
+      setLocalStorageAndState('lives', newlives, setLives);
     } else {
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
-      setGuesses(newGuesses);
+      setLocalStorageAndState('guesses', newGuesses, setGuesses);
     }
   }
 
