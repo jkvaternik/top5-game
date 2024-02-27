@@ -13,7 +13,7 @@
   },
   "2024-02-26": {
     "num": 2,
-    "category": "Most populous cities",
+    "category": "Most popular social networks (by # of monthly active users)",
     "answers": [
       "Tokyo",
       "Delhi",
@@ -25,15 +25,15 @@
   },
   "2024-02-27": {
     "num": 3,
-    "category": "Best selling video games",
+    "category": "Most mentioned Harry Potter characters in the books",
     "answers": [
-      "Minecraft",
-      "Grand Theft Auto V",
-      "Tetris",
-      "Wii Sports",
-      "PlayerUnknown's Battlegrounds"
+      "Harry Potter",
+      "Hermione Granger",
+      "Ron Weasley",
+      "Albus Dumbledore",
+      "Rubeus Hagrid"
     ],
-    "optionsKey": "video_games"
+    "optionsKey": "harry_potter_characters"
   },
   "2024-02-28": {
     "num": 4,
@@ -73,19 +73,19 @@
   },
   "2024-03-02": {
     "num": 7,
-    "category": "Most mentioned Harry Potter characters in the books",
+    "category": "Best selling video games",
     "answers": [
-      "Harry Potter",
-      "Hermione Granger",
-      "Ron Weasley",
-      "Albus Dumbledore",
-      "Rubeus Hagrid"
+      "Minecraft",
+      "Grand Theft Auto V",
+      "Tetris",
+      "Wii Sports",
+      "PUBG: Battlegrounds"
     ],
-    "optionsKey": "harry_potter_characters"
+    "optionsKey": "video_games"
   },
   "2024-03-03": {
     "num": 8, 
-    "category": "Most popular social networks (by number of monthly active users)",
+    "category": "",
     "answers": [
       "Facebook",
       "Youtube",

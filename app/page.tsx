@@ -60,15 +60,15 @@ export default function Home() {
     }
   }
 
-  const guessesView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} list={puzzle.answers} />));
-  const answerView = puzzle.answers.map((answer, index) => (<ResultCard key={index} index={index} guess={answer} list={puzzle.answers} />));
+  const guessesView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} />));
+  const answerView = puzzle.answers.map((answer, index) => (<ResultCard key={index} index={index} guess={answer} />));
 
   const gameView = (
     <>
       <section className="flex flex-row gap-4 items-end w-full text-dark-maroon">
         <div className="flex flex-col items-center">
           <h1>top</h1>
-          <h1 className="text-5xl" style={{ marginBottom: '-2px' }}>5</h1>
+          <h1 className="text-3xl" style={{ marginBottom: '-2px' }}>5</h1>
         </div>
         <p className="grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
@@ -93,7 +93,7 @@ export default function Home() {
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <ToastContainer closeButton={false} />
       {gameView}
-      {<GameOverModal puzzle={puzzle} isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}
+      {isGameOver && <GameOverModal puzzle={puzzle} isOpen={isGameOver} score={getScore(guessHistory, puzzle.answers)} />}
     </main >
   );
 }

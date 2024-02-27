@@ -8,13 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors : {
+      colors: {
         'dark-maroon': '#534a4a',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      animation: {
+        fade: 'fadeIn .6s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
       },
     },
   },
