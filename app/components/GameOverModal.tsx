@@ -3,6 +3,7 @@ import { Puzzle } from "../hooks/useDailyPuzzle";
 import { getShareableEmojiScore } from "../utils";
 import { toast, Bounce } from 'react-toastify';
 import { XMarkIcon } from "@heroicons/react/24/solid";
+import React from "react";
 
 type Props = {
   isOpen: boolean;
