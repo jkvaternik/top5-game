@@ -45,12 +45,10 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
   return (
     showComponent &&
     <div className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center text-center'>
-      <div className={`bg-white p-12 rounded-lg ${showComponent ? 'animate-fade' : ''}`}>
-        <div className="mb-4">
-          <div className='flex flex-row items-center mb-4 gap-4'>
-            <h2 className="text-2xl font-bold text-dark-maroon">Thanks for playing!</h2>
-            <XMarkIcon className="h-6 w-6 text-dark-maroon" onClick={() => onClose()} />
-          </div>
+      <div className={`bg-white rounded-lg ${showComponent ? 'animate-fade' : ''}`}>
+        <XMarkIcon className="h-6 w-6 ml-auto mr-6 mt-6 text-dark-maroon" onClick={() => onClose()} />
+        <div className="p-12 pt-9">
+          <h2 className="text-2xl font-bold text-dark-maroon">Thanks for playing!</h2>
           <p className="mb-2 font-semibold text-dark-maroon">Top 5 (#{puzzle.num})</p>
           <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
           <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-700 w-full" onClick={copyScore}>
