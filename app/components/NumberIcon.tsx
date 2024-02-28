@@ -9,7 +9,7 @@ export default function NumberIcon({ number, isEmpty }: {
         return !isEmpty ? basicColorRainbowBg[number] : 'bg-gray-400';
     }
     return (
-        <div className={`h-12 w-12`}>
+        <div className={`h-12 w-12 shrink-0`}>
             <div
                 className="flex items-center justify-center text-white font-bold text-xl sm:text-base rounded-md"
                 style={{ 'position': 'relative', 'width': '100%', 'height': '100%', 'transition': 'transform 0.8s', 'transformStyle': 'preserve-3d', transform: (!isEmpty ? 'rotateX(180deg)' : '') }}>
