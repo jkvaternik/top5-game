@@ -5,22 +5,29 @@ import { ToastContainer } from 'react-toastify';
 import ResultCard from "./components/ResultCard";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getScore } from "./utils";
+import { getLocalStorageOrDefault, getScore, isNewDay, setLocalStorageAndState } from "./utils";
 import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
 import React from "react";
+import { Montserrat } from "next/font/google";
 
 const LIVES = 5
+
+const montserrat = Montserrat({ 
+  weight: ['400', '500', '700'],
+  subsets: ["latin"] 
+});
+
 
 export default function Home() {
   const puzzle = useDailyPuzzle();
 
-  const [guessHistory, setGuessHistory] = useState<string[]>([]);
-  const [guesses, setGuesses] = useState<string[]>(Array<string>(LIVES).fill(''));
-  const [lives, setLives] = useState<number>(LIVES);
-  const isGameOver = lives === 0 || guesses.every(g => g.length > 0);
+  const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
+  const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
+  const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
+  const isGameOver = guesses && (lives === 0 || guesses.every(g => g.length > 0));
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -44,15 +51,17 @@ export default function Home() {
   }
 
   const handleGuess = (guess: string) => {
-    setGuessHistory([...guessHistory, guess]);
+    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
+    const newGuessHistory = [...guessHistory, guess];
+    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
 
-    const index = puzzle.answers.indexOf(guess)
+    const index = puzzle.answers.indexOf(guess);
     if (index === -1) {
-      const newlives = lives - 1;
-      setLives(newlives);
+      const newlives: number = lives - 1;
+      setLocalStorageAndState('lives', newlives, setLives);
     } else {
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
-      setGuesses(newGuesses);
+      setLocalStorageAndState('guesses', newGuesses, setGuesses);
     }
   }
 
@@ -61,12 +70,12 @@ export default function Home() {
 
   const gameView = (
     <>
-      <section className="flex flex-row gap-4 items-end w-full text-dark-maroon">
-        <div className="flex flex-col items-center">
-          <h1>top</h1>
-          <h1 className="text-3xl" style={{ marginBottom: '-2px' }}>5</h1>
+      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans font-normal ${montserrat.className}`}>
+        <div className="flex flex-col items-center" style={{marginLeft: '8px'}}>
+          <h1 className="text-sm">top</h1>
+          <h1 className="text-5xl font-semibold">5</h1>
         </div>
-        <p className="grow">{puzzle.category}</p>
+        <p className="text-base grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
           {isGameOver ?
             <ShareIcon className="h-5 w-5" onClick={() => setShowModal(true)}/>
