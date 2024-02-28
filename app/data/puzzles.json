@@ -43,7 +43,7 @@
       "Avengers: Endgame",
       "Avatar: The Way of Water",
       "Titanic",
-      "Star Wars: The Force Awakens"
+      "Star Wars: Episode VII - The Force Awakens"
     ],
     "optionsKey": "grossing_movies"
   },
@@ -61,7 +61,7 @@
   },
   "2024-03-01": {
     "num": 6,
-    "category": "Most spoken languages by total language speakers", 
+    "category": "Most spoken languages by total language speakers",
     "answers": [
       "English",
       "Mandarin",
@@ -84,7 +84,7 @@
     "optionsKey": "video_games"
   },
   "2024-03-03": {
-    "num": 8, 
+    "num": 8,
     "category": "",
     "answers": [
       "Facebook",
