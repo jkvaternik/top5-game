@@ -52,7 +52,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
           <h2 className="text-2xl mb-8 font-bold text-dark-maroon">Thanks for playing!</h2>
           <p className="mb-2 font-semibold text-dark-maroon">Top 5 (#{puzzle.num})</p>
           <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
-          <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-700 w-full" onClick={copyScore}>
+          <button className="py-2 px-4 text-white font-medium rounded hover:bg-blue-700 w-full" style={{backgroundColor: '#946969'}} onClick={copyScore}>
             Share
           </button>
         </div>
