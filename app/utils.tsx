@@ -19,9 +19,27 @@ export const getShareableEmojiScore = (score: number[]) => {
 
 export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   if (typeof window !== 'undefined') {
-    return JSON.parse(localStorage.getItem(key) ?? JSON.stringify(defaultValue));
+    if (isNewDay()) {
+      return defaultValue;
+    }
+    else {
+      const storedValue = localStorage.getItem(key);
+      if (storedValue) {
+        return JSON.parse(storedValue);
+      }
+    }
   }
-  return defaultValue;
+}
+
+export const isNewDay = () => {
+  if (typeof window !== 'undefined') {
+    const lastVisitDate = localStorage.getItem('lastVisit');
+    if (lastVisitDate === null) {
+      return true;
+    } else {
+      return new Date(JSON.parse(lastVisitDate)).getDate() !== new Date().getDate();
+    }
+  }
 }
 
 export const setLocalStorageAndState = (key: string, newValue: any, setter: React.Dispatch<React.SetStateAction<any>>) => {
