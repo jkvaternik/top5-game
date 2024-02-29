@@ -108,11 +108,11 @@
     "optionsKey": "countries"
   },
   "2024-03-05": {
-    "num": 9,
-    "category": "All-time most streamed artists on Spotify",
+    "num": 10,
+    "category": "Most streamed artists of all time",
     "answers": [
-      "Taylor Swift",
       "Drake",
+      "Taylor Swift",
       "Bad Bunny",
       "The Weeknd",
       "Ed Sheeran"
