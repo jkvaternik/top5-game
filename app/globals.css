@@ -38,3 +38,7 @@
 .lives-change {
   animation: popIn 0.5s ease;
 }
+
+.incorrect {
+  opacity: 0.5;
+}
