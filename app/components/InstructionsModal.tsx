@@ -7,8 +7,8 @@ export const InstructionsModal = ({ isOpen, onClose }:
     return (
       <ModalComponent show={isOpen} onClose={onClose}>
         <div className="p-12 pt-9">
-          <h1>How to play Top 5</h1>
-          <p>...</p>
+          <h1>How to play</h1>
+          <p>Guess the Top 5!</p>
         </div>
       </ModalComponent>
     );

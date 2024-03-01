@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
-import ResultCard from "./components/ResultCard";
+import RankItem from "./components/RankItem";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getLocalStorageOrDefault, getScore, setLocalStorageAndState } from "./utils";
@@ -14,12 +14,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import React from "react";
 import { Montserrat } from "next/font/google";
 import { InstructionsModal } from "./components/InstructionsModal";
+import RankList from "./components/RankList";
 
 const LIVES = 5
 
-const montserrat = Montserrat({ 
+const montserrat = Montserrat({
   weight: ['400', '500', '700'],
-  subsets: ["latin"] 
+  subsets: ["latin"]
 });
 
 
@@ -55,6 +56,11 @@ export default function Home() {
 
   const handleGuess = (guess: string) => {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
+
+    if (guessHistory.includes(guess)) {
+      return;
+    }
+    
     const newGuessHistory = [...guessHistory, guess];
     setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
 
@@ -68,13 +74,10 @@ export default function Home() {
     }
   }
 
-  const guessesView = guesses.map((guess, index) => (<ResultCard key={index} index={index} guess={guess} />));
-  const answerView = puzzle.answers.map((answer, index) => (<ResultCard key={index} index={index} guess={answer} />));
-
   const gameView = (
     <>
       <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans font-normal ${montserrat.className}`}>
-        <div className="flex flex-col items-center" style={{marginLeft: '8px'}}>
+        <div className="flex flex-col items-center" style={{ marginLeft: '8px' }}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
@@ -98,7 +101,7 @@ export default function Home() {
       </section>
       <br></br>
       <section className="flex flex-col gap-4">
-        {isGameOver ? answerView : guessesView}
+        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={isGameOver} />
       </section>
     </>
   )
