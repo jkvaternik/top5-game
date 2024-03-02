@@ -91,7 +91,8 @@ export default function Home() {
               <div className="relative">
                 {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
                 <HeartIcon className={`h-5 w-5 ${isExploding ? 'shrink text-red-500' : ''}`} />
-              </div><span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
+              </div>
+              <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
             </div>
           }
         </div>

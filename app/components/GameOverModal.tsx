@@ -40,7 +40,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
 
   return (
     <ModalComponent show={isOpen} onClose={onClose}>
-      <div className="p-12 pt-9">
+      <div className="p-12 pt-9 text-center">
         <h2 className={`text-2xl mb-8 font-bold text-dark-maroon ${montserrat.className}`}>Thanks for playing!</h2>
         <p className="mb-2 font-semibold text-dark-maroon">Top 5 (#{puzzle.num})</p>
         <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
