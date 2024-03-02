@@ -29,7 +29,7 @@ export default function Home() {
   const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
   const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
   const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
-  const [gameOver, setGameOver] = useState(guesses && (lives === 0 || guesses.every(g => g !== '')));
+  const [gameOver, setGameOver] = useState(getLocalStorageOrDefault('gameOver', false));
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -67,11 +67,14 @@ export default function Home() {
       const newlives: number = lives - 1;
       setLocalStorageAndState('lives', newlives, setLives);
       if (newlives === 0) {
-        setGameOver(true);
+        setLocalStorageAndState('gameOver', true, setGameOver);
       }
     } else {
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
       setLocalStorageAndState('guesses', newGuesses, setGuesses);
+      if (newGuesses.every(g => g !== '')) {
+        setLocalStorageAndState('gameOver', true, setGameOver);
+      }
     }
   }
 
@@ -84,7 +87,7 @@ export default function Home() {
         </div>
         <p className="text-base grow">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
-          {isGameOver ?
+          {gameOver ?
             <ShareIcon className="h-5 w-5" onClick={() => setShowModal(true)} />
             :
             <>
