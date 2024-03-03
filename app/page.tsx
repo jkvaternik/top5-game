@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import RankItem from "./components/RankItem";
 import InputComponent from "./components/InputComponent";
@@ -25,10 +25,11 @@ const montserrat = Montserrat({
 export default function Home() {
   const puzzle = useDailyPuzzle();
 
+  // TODO - move to a custom type -> hook
   const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
   const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
   const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
-  const isGameOver = guesses && (lives === 0 || guesses.every(g => g.length > 0));
+  const gameOver = useMemo(() => guesses && (lives === 0 || guesses.every(g => g !== '')), [lives, guesses]);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -54,7 +55,7 @@ export default function Home() {
   const handleGuess = (guess: string) => {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
 
-    if (guessHistory.includes(guess)) {
+    if (guessHistory.includes(guess) || gameOver) {
       return;
     }
     
@@ -73,14 +74,14 @@ export default function Home() {
 
   const gameView = (
     <>
-      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans font-normal ${montserrat.className}`}>
+      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans ${montserrat.className}`}>
         <div className="flex flex-col items-center" style={{ marginLeft: '8px' }}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
-        <p className="text-base grow">{puzzle.category}</p>
+        <p className="text-base grow font-medium">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
-          {isGameOver ?
+          {gameOver ?
             <ShareIcon className="h-5 w-5" onClick={() => setShowModal(true)} />
             :
             <>
@@ -93,11 +94,11 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={isGameOver} />
+        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} />
       </section>
       <br></br>
       <section className="flex flex-col gap-4">
-        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={isGameOver} />
+        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
       </section>
     </>
   )
@@ -106,7 +107,7 @@ export default function Home() {
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <ToastContainer closeButton={false} />
       {gameView}
-      {isGameOver && <GameOverModal puzzle={puzzle} isOpen={showModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowModal(false)} />}
+      {gameOver && <GameOverModal puzzle={puzzle} isOpen={showModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowModal(false)} />}
     </main >
   );
 }
