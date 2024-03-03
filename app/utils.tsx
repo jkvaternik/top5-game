@@ -27,9 +27,6 @@ export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
       if (storedValue) {
         return JSON.parse(storedValue);
       }
-      else {
-        return defaultValue;
-      }
     }
   }
 }
