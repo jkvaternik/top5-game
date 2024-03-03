@@ -74,12 +74,12 @@ export default function Home() {
 
   const gameView = (
     <>
-      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans font-normal ${montserrat.className}`}>
+      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans ${montserrat.className}`}>
         <div className="flex flex-col items-center" style={{ marginLeft: '8px' }}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
-        <p className="text-base grow">{puzzle.category}</p>
+        <p className="text-base grow font-medium">{puzzle.category}</p>
         <div className="self-end flex flex-row items-center gap-2">
           {gameOver ?
             <ShareIcon className="h-5 w-5" onClick={() => setShowModal(true)} />
