@@ -94,5 +94,29 @@
       "WeChat"
     ],
     "optionsKey": "social_networks"
+  },
+  "2024-03-04": {
+    "num": 9,
+    "category": "Countries with most pizza consumed per capita",
+    "answers": [
+      "Norway",
+      "United States of America",
+      "United Kingdom",
+      "Germany",
+      "Italy"
+    ],
+    "optionsKey": "countries"
+  },
+  "2024-03-05": {
+    "num": 10,
+    "category": "Most streamed musical artists of all time",
+    "answers": [
+      "Drake",
+      "Taylor Swift",
+      "Bad Bunny",
+      "The Weeknd",
+      "Ed Sheeran"
+    ],
+    "optionsKey": "musical_artists"
   }
 }
