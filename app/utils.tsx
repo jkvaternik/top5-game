@@ -20,6 +20,8 @@ export const getShareableEmojiScore = (score: number[]) => {
 export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   if (typeof window !== 'undefined') {
     if (isNewDay()) {
+      // clear for new day, we can update this if we want to store any stats
+      localStorage.clear();
       return defaultValue;
     }
     else {

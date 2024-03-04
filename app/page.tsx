@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import RankItem from "./components/RankItem";
 import InputComponent from "./components/InputComponent";
@@ -29,7 +29,7 @@ export default function Home() {
   const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
   const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
   const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
-  const [gameOver, setGameOver] = useState(getLocalStorageOrDefault('gameOver', false));
+  const gameOver = useMemo(() => guesses && (lives === 0 || guesses.every(g => g !== '')), [lives, guesses]);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -66,15 +66,9 @@ export default function Home() {
     if (index === -1) {
       const newlives: number = lives - 1;
       setLocalStorageAndState('lives', newlives, setLives);
-      if (newlives === 0) {
-        setLocalStorageAndState('gameOver', true, setGameOver);
-      }
     } else {
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
       setLocalStorageAndState('guesses', newGuesses, setGuesses);
-      if (newGuesses.every(g => g !== '')) {
-        setLocalStorageAndState('gameOver', true, setGameOver);
-      }
     }
   }
 
