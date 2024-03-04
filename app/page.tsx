@@ -55,7 +55,7 @@ export default function Home() {
   const handleGuess = (guess: string) => {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
 
-    if (guessHistory.includes(guess)) {
+    if (guessHistory.includes(guess) || gameOver) {
       return;
     }
     
