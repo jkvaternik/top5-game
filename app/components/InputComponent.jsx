@@ -61,7 +61,7 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
               inputItems.map((item, index) => (
                 <li
                   key={index}
-                  {...getItemProps({ key: index, index, item })}
+                  {...getItemProps({ index, item })}
                   className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} `}
                 >
                   {item}
