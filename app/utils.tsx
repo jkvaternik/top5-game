@@ -24,7 +24,7 @@ export const getScoreMessage = (score: number[]) => {
   if (incorrectGuesses === 0) {
     // Check if all guesses were guessed in order
     if (score.every((s, i) => s === i + 1)) {
-      return 'Exquisite! Taste the rainbow!';
+      return <div>Exquisite!<br />Taste the rainbow!</div>;
     }
 
     return 'Perfect!';
