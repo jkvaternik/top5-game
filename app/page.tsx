@@ -1,11 +1,10 @@
 "use client"
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
-import RankItem from "./components/RankItem";
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getLocalStorageOrDefault, getScore, isNewDay, setLocalStorageAndState } from "./utils";
+import { getScore } from "./utils";
 import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import GameOverModal from "./components/GameOverModal";
 
@@ -13,8 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import React from "react";
 import { Montserrat } from "next/font/google";
 import RankList from "./components/RankList";
-
-const LIVES = 5
+import { LIVES, useGameState } from "./hooks/useGameState";
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -24,12 +22,7 @@ const montserrat = Montserrat({
 
 export default function Home() {
   const puzzle = useDailyPuzzle();
-
-  // TODO - move to a custom type -> hook
-  const [guessHistory, setGuessHistory] = useState<string[]>(getLocalStorageOrDefault('guessHistory', []));
-  const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
-  const [lives, setLives] = useState<number>(getLocalStorageOrDefault('lives', LIVES));
-  const gameOver = useMemo(() => guesses && (lives === 0 || guesses.every(g => g !== '')), [lives, guesses]);
+  const { guessHistory, guesses, handleGuess, lives, gameOver } = useGameState(puzzle);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -50,26 +43,6 @@ export default function Home() {
 
   if (!puzzle) {
     return null;
-  }
-
-  const handleGuess = (guess: string) => {
-    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
-
-    if (guessHistory.includes(guess) || gameOver) {
-      return;
-    }
-    
-    const newGuessHistory = [...guessHistory, guess];
-    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
-
-    const index = puzzle.answers.indexOf(guess);
-    if (index === -1) {
-      const newlives: number = lives - 1;
-      setLocalStorageAndState('lives', newlives, setLives);
-    } else {
-      const newGuesses = guesses.map((g, i) => i === index ? guess : g);
-      setLocalStorageAndState('guesses', newGuesses, setGuesses);
-    }
   }
 
   const gameView = (
