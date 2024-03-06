@@ -22,6 +22,11 @@ export const getScoreMessage = (score: number[]) => {
   const correctGuesses = score.filter(s => s !== 0).length;
   const incorrectGuesses = score.length - correctGuesses;
   if (incorrectGuesses === 0) {
+    // Check if all guesses were guessed in order
+    if (score.every((s, i) => s === i + 1)) {
+      return 'Exquisite! Taste the rainbow!';
+    }
+
     return 'Perfect!';
   }
   if (correctGuesses === 0) {
