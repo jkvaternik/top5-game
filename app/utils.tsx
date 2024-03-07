@@ -17,6 +17,35 @@ export const getShareableEmojiScore = (score: number[]) => {
   return emojiScore
 }
 
+// Game must be over when this is called
+export const getScoreMessage = (score: number[]) => {
+  const correctGuesses = score.filter(s => s !== 0).length;
+  const incorrectGuesses = score.length - correctGuesses;
+  if (incorrectGuesses === 0) {
+    // Check if all guesses were guessed in order
+    if (score.every((s, i) => s === i + 1)) {
+      return 'Mastermind!';
+    }
+
+    return 'Perfect!';
+  }
+  if (correctGuesses === 0) {
+    return 'You'll get it next time!';
+  }
+  switch (correctGuesses) {
+    case 1:
+      return 'Oof, tough one!';
+    case 2:
+      return 'Way to go!';
+    case 3:
+      return 'Nice one!';
+    case 4:
+      return 'Good job!';
+    case 5:
+      return 'Amazing!';
+  }
+}
+
 export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   if (typeof window !== 'undefined') {
     if (isNewDay()) {
@@ -34,6 +63,7 @@ export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
       }
     }
   }
+  return defaultValue;
 }
 
 export const isNewDay = () => {
