@@ -17,8 +17,6 @@ const montserrat = Montserrat({
   subsets: ["latin"]
 });
 
-
-
 const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
   const copyScore = () => {
     navigator.clipboard.writeText(`Top 5 (#${puzzle.num})\n${getShareableEmojiScore(score)}`);
@@ -39,7 +37,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
   }
 
   return (
-    <ModalComponent show={isOpen} onClose={onClose}>
+    <ModalComponent show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="p-12 pt-9 text-center">
           <h2 className={`text-2xl mb-8 font-bold text-dark-maroon ${montserrat.className}`}>{getScoreMessage(score)}</h2>
           <p className="mb-2 font-semibold text-dark-maroon">Top 5 (#{puzzle.num})</p>

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getScore } from "./utils";
+import { getScore, isNewVisitor } from "./utils";
 import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
@@ -30,8 +30,14 @@ export default function Home() {
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
 
-  const [showGameOverModal, setShowGameOverModal] = useState(gameOver);
+  const [showGameOverModal, setShowGameOverModal] = useState(true); 
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
+
+  useEffect(() => {
+    if (isNewVisitor()) {
+      setShowInstructionsModal(true);
+    }
+  }, []);
 
   // Trigger animations on life loss
   useEffect(() => {
@@ -81,6 +87,8 @@ export default function Home() {
       </section>
     </>
   )
+
+  console.log('gameOver', gameOver);
 
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">

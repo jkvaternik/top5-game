@@ -81,3 +81,13 @@ export const setLocalStorageAndState = (key: string, newValue: any, setter: Reac
   setter(newValue);
   localStorage.setItem(key, JSON.stringify(newValue));
 }
+
+export const isNewVisitor = () => {
+  if (typeof window !== 'undefined') {
+    const lastVisitDate = localStorage.getItem('lastVisit');
+    if (lastVisitDate === null) {
+      return true;
+    }
+    return false;
+  }
+}
