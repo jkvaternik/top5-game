@@ -28,8 +28,7 @@ export const InstructionsModal = ({ isOpen, onClose }:
         <h1>How to play</h1>
         <p>Guess the Top 5!</p>
         <ul>
-          <li>search for the top 5 of today&apos;s list</li>
-          <li>guess the top 5 in order without making any mistakes!</li>
+          <li>guess the top 5 of today&apos;s list</li>
         </ul>
         <p>With each puzzle, you have 5 lives:</p>
         <ul>
