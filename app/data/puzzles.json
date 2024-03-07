@@ -118,5 +118,77 @@
       "Ed Sheeran"
     ],
     "optionsKey": "musical_artists"
+  },
+  "2024-03-06": {
+    "num": 11,
+    "category": "Most followed Instagram accounts",
+    "answers": [
+      "Instagram",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Selena Gomez",
+      "Kylie Jenner"
+    ],
+    "optionsKey": "celebrities"
+  },
+  "2024-03-07": {
+    "num": 12,
+    "category": "Tallest buildings in the world",
+    "answers": [
+      "Burj Khalifa",
+      "Merdeka 118",
+      "Shanghai Tower",
+      "Abraj Al-Bait Clock Tower",
+      "Ping An International Finance Centre"
+    ],
+    "optionsKey": "buildings"
+  },
+  "2024-03-08": {
+    "num": 13,
+    "category": "Most visited art museums in the world",
+    "answers": [
+      "Louvre Museum",
+      "Vatican Museums",
+      "British Museum",
+      "Tate Modern",
+      "National Museum of Korea"
+    ],
+    "optionsKey": "art_museums"
+  },
+  "2024-03-09": {
+    "num": 14,
+    "category": "Most common words in the English language",
+    "answers": [
+      "the",
+      "be",
+      "to",
+      "of",
+      "and"
+    ],
+    "optionsKey": "words"
+  },
+  "2024-03-10": {
+    "num": 15,
+    "category": "Countries with the most McDonald's restaurants",
+    "answers": [
+      "United States of America",
+      "China",
+      "Japan",
+      "France",
+      "Germany"
+    ],
+    "optionsKey": "countries"
+  },
+  "2024-03-11": {
+    "num": 16,
+    "category": "Most valuable companies by market capitalization",
+    "answers": [
+      "Microsoft",
+      "Apple",
+      "NVIDIA",
+      "Saudi Aramco",
+      "Amazon"
+    ],
+    "optionsKey": "companies"
   }
 }
