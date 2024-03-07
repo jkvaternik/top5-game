@@ -30,7 +30,7 @@ export const getScoreMessage = (score: number[]) => {
     return 'Perfect!';
   }
   if (correctGuesses === 0) {
-    return 'You'll get it next time!';
+    return 'You\'ll get it next time!';
   }
   switch (correctGuesses) {
     case 1:
