@@ -58,4 +58,6 @@ const msg = validatePuzzles();
 if (msg !== SUCCESS_MSG) {
   console.error(msg);
   process.exit(1);
+} else {
+  console.log(msg)
 }
