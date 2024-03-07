@@ -24,23 +24,23 @@ export const getScoreMessage = (score: number[]) => {
   if (incorrectGuesses === 0) {
     // Check if all guesses were guessed in order
     if (score.every((s, i) => s === i + 1)) {
-      return <div>Exquisite!<br />Taste the rainbow!</div>;
+      return 'Mastermind!';
     }
 
     return 'Perfect!';
   }
   if (correctGuesses === 0) {
-    return 'Yikes! Better luck next time...?';
+    return 'You'll get it next time!';
   }
   switch (correctGuesses) {
     case 1:
-      return 'On the board!';
+      return 'Oof, tough one!';
     case 2:
-      return 'Not bad!';
+      return 'Way to go!';
     case 3:
-      return 'Pretty good!';
+      return 'Nice one!';
     case 4:
-      return 'Great!';
+      return 'Good job!';
     case 5:
       return 'Amazing!';
   }
