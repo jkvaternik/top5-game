@@ -40,7 +40,7 @@ export const InstructionsModal = ({ isOpen, onClose }:
 
   return (
     <ModalComponent show={isOpen} onClose={onClose} showChildren={isOpen}>
-      <div className="p-12 pt-9 text-dark-maroon">
+      <div className="p-12 pt-0 text-dark-maroon">
         <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>How to play</h2>
         <p className="text-l mb-4">Guess the Top 5 of today&apos;s list!</p>
         <p className="text-l mb-2">With each puzzle, you have 5 lives:</p>
