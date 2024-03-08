@@ -42,9 +42,9 @@ export const InstructionsModal = ({ isOpen, onClose }:
     <ModalComponent show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="p-12 pt-0 text-dark-maroon">
         <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>How to play</h2>
-        <p className="text-l mb-4">Guess the Top 5 of today&apos;s list!</p>
+        <p className="text-l mb-2">Guess the Top 5 of today&apos;s list!</p>
         <p className="text-l mb-2">With each puzzle, you have 5 lives:</p>
-        <ul className="list-disc list-outside mb-4 ">
+        <ul className="list-disc list-outside ml-5 mb-4 ">
           <li className="mb-2">If your attempt is correct, the answer will show on the board</li>
           <div className="mb-4">
             <p className="text-l mb-2 font-semibold">Example</p>

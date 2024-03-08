@@ -9,7 +9,7 @@ type ModalComponentProps = {
     onClose: () => void;
 }
 
-const DELAY_MS = 800;
+const DELAY_MS = 500;
 
 export const ModalComponent = ({ children, show, showChildren, onClose}: ModalComponentProps) => {
     const [showComponent, setShowComponent] = useState(false);

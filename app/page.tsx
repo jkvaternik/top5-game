@@ -34,7 +34,8 @@ export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
   useEffect(() => {
-    if (isNewVisitor()) {
+    // TODO - remove guessHistory after 3/9 release
+    if (isNewVisitor() || guessHistory.length === 0) {
       setShowInstructionsModal(true);
     }
   }, []);
