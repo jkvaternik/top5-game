@@ -190,5 +190,17 @@
       "Amazon"
     ],
     "optionsKey": "companies"
+  },
+  "2024-03-12": {
+    "num": 17,
+    "category": "Longest running scripted American TV shows by number of seasons",
+    "answers": [
+      "The Simpsons",
+      "Law & Order: Special Victims Unit",
+      "Law & Order",
+      "Family Guy",
+      "NCIS"
+    ],
+    "optionsKey": "tv_shows"
   }
 }
