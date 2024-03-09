@@ -7,6 +7,7 @@ type PuzzleInput = {
   category: string;
   answers: string[];
   optionsKey: string;
+  url?: string;
 }
 
 export type Puzzle = {
@@ -15,6 +16,7 @@ export type Puzzle = {
   answers: string[];
   optionsKey: string;
   options: string[];
+  url?: string;
 }
 
 const puzzles: { [key: string]: PuzzleInput } = puzzlesData;

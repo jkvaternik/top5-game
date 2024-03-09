@@ -13,6 +13,7 @@ const config: Config = {
       },
       colors: {
         'dark-maroon': '#534a4a',
+        'maroon': '#946969',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

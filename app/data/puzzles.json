@@ -153,7 +153,8 @@
       "Tate Modern",
       "National Museum of Korea"
     ],
-    "optionsKey": "art_museums"
+    "optionsKey": "art_museums",
+    "url": "https://en.wikipedia.org/wiki/List_of_most-visited_art_museums"
   },
   "2024-03-09": {
     "num": 14,
@@ -165,7 +166,8 @@
       "of",
       "and"
     ],
-    "optionsKey": "words"
+    "optionsKey": "words",
+    "url": "https://web.archive.org/web/20111226085859/http://oxforddictionaries.com/words/the-oec-facts-about-the-language"
   },
   "2024-03-10": {
     "num": 15,
@@ -177,7 +179,8 @@
       "France",
       "Germany"
     ],
-    "optionsKey": "countries"
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants#Countries_and_territories_with_at_least_one_McDonald's_outlet"
   },
   "2024-03-11": {
     "num": 16,
@@ -189,7 +192,8 @@
       "Saudi Aramco",
       "Amazon"
     ],
-    "optionsKey": "companies"
+    "optionsKey": "companies",
+    "url": "https://companiesmarketcap.com/"
   },
   "2024-03-12": {
     "num": 17,
@@ -201,6 +205,7 @@
       "Family Guy",
       "NCIS"
     ],
-    "optionsKey": "tv_shows"
+    "optionsKey": "tv_shows",
+    "url": "https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series"
   }
 }
