@@ -194,5 +194,18 @@
     ],
     "optionsKey": "companies",
     "url": "https://companiesmarketcap.com/"
+  },
+  "2024-03-12": {
+    "num": 17,
+    "category": "Longest running scripted American TV shows by number of seasons",
+    "answers": [
+      "The Simpsons",
+      "Law & Order: Special Victims Unit",
+      "Law & Order",
+      "Family Guy",
+      "NCIS"
+    ],
+    "optionsKey": "tv_shows",
+    "url": "https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series"
   }
 }
