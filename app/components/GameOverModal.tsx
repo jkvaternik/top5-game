@@ -38,13 +38,14 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
 
   return (
     <ModalComponent show={isOpen} onClose={onClose} showChildren={isOpen}>
-      <div className="p-12 pt-12 text-center">
+      <div className="p-12 pt-9 text-center">
           <h2 className={`text-2xl mb-8 font-bold text-dark-maroon ${montserrat.className}`}>{getScoreMessage(score)}</h2>
           <p className="mb-2 font-semibold text-dark-maroon">Top 5 (#{puzzle.num})</p>
           <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
-          <button className="py-2 px-4 text-white font-medium rounded hover:bg-blue-700 w-full" style={{ backgroundColor: '#946969' }} onClick={copyScore}>
+          <button className="py-2 px-4 text-white font-medium rounded hover:bg-blue-700 w-full mb-6" style={{ backgroundColor: '#946969' }} onClick={copyScore}>
             Share
           </button>
+          {puzzle.url != null ? <a href={puzzle.url} className={`underline text-dark-maroon hover:text-maroon active:text-active`} target="_blank">Quiz Source</a> : null}
       </div>
     </ModalComponent>
   );
