@@ -207,5 +207,44 @@
     ],
     "optionsKey": "tv_shows",
     "url": "https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series"
+  },
+  "2024-03-13": {
+    "num": 18,
+    "category": "Countries with most Nobel prize winners",
+    "answers": [
+      "United States of America",
+      "United Kingdom",
+      "Germany",
+      "France",
+      "Sweden"
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country"
+  },
+  "2024-03-14": {
+    "num": 19,
+    "category": "Most valuable clothing & apparel brands in the world",
+    "answers": [
+      "Nike",
+      "Louis Vuitton",
+      "Chanel",
+      "Gucci",
+      "Adidas"
+    ],
+    "optionsKey": "fashion_brands",
+    "url": "https://brandirectory.com/rankings/apparel/table"
+  },
+  "2024-03-15": {
+    "num": 20,
+    "category": "Best selling car brands in the world",
+    "answers": [
+      "Toyota",
+      "Volkswagen",
+      "Honda",
+      "Hyundai",
+      "Ford"
+    ],
+    "optionsKey": "car_brands",
+    "url": "https://www.focus2move.com/world-cars-brand-ranking/#:~:text=On%20top%2C%20as%20happening%20uninterruptedly,million%20cars%20(%2B7.0%25)."
   }
 }
