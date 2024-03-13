@@ -236,6 +236,32 @@
   },
   "2024-03-15": {
     "num": 20,
+    "category": "Countries with the most beer consumed per capita (in litres)",
+    "answers": [
+      "Czech Republic",
+      "Austria",
+      "Romania",
+      "Germany",
+      "Poland"
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/beer-consumption-by-country"
+  },
+  "2024-03-16": {
+    "num": 21,
+    "category": "Oldest US National Parks",
+    "answers": [
+      "Yellowstone",
+      "Sequoia",
+      "Yosemite",
+      "Mount Rainier",
+      "Crater Lake"
+    ],
+    "optionsKey": "national_parks",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+  },
+  "2024-03-17": {
+    "num": 22,
     "category": "Best selling car brands in the world",
     "answers": [
       "Toyota",
@@ -246,5 +272,22 @@
     ],
     "optionsKey": "car_brands",
     "url": "https://www.focus2move.com/world-cars-brand-ranking/#:~:text=On%20top%2C%20as%20happening%20uninterruptedly,million%20cars%20(%2B7.0%25)."
+  },
+  "2024-03-18": {
+    "num": 23,
+    "category": "Most visited countries by number of arrivals",
+    "answers": [
+      "France",
+      "Spain",
+      "United States of America",
+      "China",
+      "Italy"
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/most-visited-countries#map"
+  },
+  "2024-03-19": {
+    "num": 24,
+    "category": ""
   }
 }
