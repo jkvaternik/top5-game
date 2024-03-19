@@ -285,5 +285,34 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.datapandas.org/ranking/most-visited-countries#map"
+<<<<<<< HEAD
+  },
+  "2024-03-19": {
+    "num": 24,
+    "category": "Most abundant elements in the Earth's crust",
+    "answers": [
+      "Oxygen",
+      "Silicon",
+      "Aluminium",
+      "Iron",
+      "Calcium"
+    ],
+    "optionsKey": "elements",
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+  },
+  "2024-03-20": {
+    "num": 25,
+    "category": "Countries with the most wine production",
+    "answers": [
+      "Italy",
+      "Spain",
+      "France",
+      "United States of America",
+      "China"
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/wine-production-by-country"
+=======
+>>>>>>> main
   }
 }
