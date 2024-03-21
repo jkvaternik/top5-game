@@ -311,5 +311,18 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.datapandas.org/ranking/wine-production-by-country"
+  },
+  "2024-03-21": {
+    "num": 26,
+    "category": "States with the most cows",
+    "answers": [
+      "Texas",
+      "Nebraska",
+      "Kansas",
+      "California",
+      "Oklahoma"
+    ],
+    "optionsKey": "us_states",
+    "url": "https://www.nationalbeefwire.com/ranking-of-states-with-the-most-cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
   }
 }
