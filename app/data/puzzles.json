@@ -317,12 +317,12 @@
     "category": "States with the most cows",
     "answers": [
       "Texas",
+      "Oklahoma",
+      "Missouri",
       "Nebraska",
-      "Kansas",
-      "California",
-      "Oklahoma"
+      "South Dakota"
     ],
     "optionsKey": "us_states",
-    "url": "https://www.nationalbeefwire.com/ranking-of-states-with-the-most-cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
+    "url": "https://app.usda-reports.penguinlabs.net/?crop=cattle_cows_beef&statistic=inventory_head&yearet=&year=2024cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
   }
 }
