@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Downshift from 'downshift';
 import Fuse from 'fuse.js';
 
-const InputComponent = ({ items, handleGuess, isGameOver }) => {
+const InputComponent = ({ items, handleGuess, isGameOver, guessHistory }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
@@ -68,7 +68,7 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
                 <li
                   key={index}
                   {...getItemProps({ index, item })}
-                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
+                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${guessHistory.includes(item) ? 'line-through' : ''}`}
                 >
                   {item}
                 </li>
