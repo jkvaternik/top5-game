@@ -17,6 +17,7 @@ export function useGameState(puzzle: Puzzle | null) {
 
   const gameOver = useMemo(() => lives === 0 || guesses.every(g => g != ''), [lives, guesses]);
 
+  // Returns true if the guess is correct, false if incorrect
   const handleGuess = (guess: string) => {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
 
@@ -29,8 +30,13 @@ export function useGameState(puzzle: Puzzle | null) {
 
     const index = puzzle!!.answers.indexOf(guess);
     if (index !== -1) {
+      // Correct Guess
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
       setLocalStorageAndState('guesses', newGuesses, setGuesses);
+      return true;
+    } else {
+      // Incorrect Guess
+      return false;
     }
   }
 

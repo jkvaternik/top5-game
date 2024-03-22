@@ -5,6 +5,7 @@ import Fuse from 'fuse.js';
 const InputComponent = ({ items, handleGuess, isGameOver }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
+  const [isIncorrect, setIsIncorrect] = useState(false);
 
   const fuse = new Fuse(items, {
     includeScore: true,
@@ -25,8 +26,12 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
   };
 
   const downshiftOnChange = (selectedItem) => {
-    handleGuess(selectedItem);
+    const isCorrect = handleGuess(selectedItem);
     setInputValue(''); // Explicitly clear inputValue upon selection
+    setIsIncorrect(!isCorrect);
+
+    // close keyboard on mobile
+    document.activeElement.blur();
   };
 
   return (
@@ -51,9 +56,10 @@ const InputComponent = ({ items, handleGuess, isGameOver }) => {
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: "bg-gray-50 border border-gray-300 text-base rounded-lg p-2 w-full mt-4",
+              className: `bg-gray-50 border border-gray-300 text-base rounded-lg p-2 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
+              onAnimationEnd: () => setIsIncorrect(false),
             })}
           />
           <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-md shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
