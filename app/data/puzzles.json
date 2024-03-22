@@ -324,5 +324,18 @@
     ],
     "optionsKey": "us_states",
     "url": "https://app.usda-reports.penguinlabs.net/?crop=cattle_cows_beef&statistic=inventory_head&yearet=&year=2024cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
+  },
+  "2024-03-22": {
+    "num": 27,
+    "category": "Best selling cereals in the US by boxes sold",
+    "answers": [
+      "Cheerios",
+      "Frosted Flakes",
+      "Honey Nut Cheerios",
+      "Honey Bunches of Oats",
+      "Cinnamon Toast Crunch"
+    ],
+    "optionsKey": "cereals",
+    "url": "https://dailyinfographic.com/most-popular-cereals-in-america"
   }
 }

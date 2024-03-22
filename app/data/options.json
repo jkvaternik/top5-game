@@ -2290,7 +2290,7 @@
     "Tennessine",
     "Oganesson"
   ],
-  "us_states" : [
+  "us_states": [
     "Alabama",
     "Alaska",
     "Arkansas",
@@ -2341,5 +2341,34 @@
     "Wisconsin",
     "West Virginia",
     "Wyoming"
+  ],
+  "cereals": [
+    "Apple Jacks",
+    "Cap'n Crunch",
+    "Cheerios",
+    "Cinnamon Toast Crunch",
+    "Cocoa Pebbles",
+    "Cocoa Puffs",
+    "Cookie Crisp",
+    "Corn Flakes",
+    "Corn Pops",
+    "Count Chocula",
+    "Froot Loops",
+    "Frosted Flakes",
+    "Frosted Mini-Wheats",
+    "Fruity Pebbles",
+    "Golden Grahams",
+    "Honey Bunches of Oats",
+    "Honey Nut Cheerios",
+    "Kix",
+    "Life",
+    "Lucky Charms",
+    "Raisin Bran",
+    "Reese's Puffs",
+    "Rice Krispies",
+    "Special K",
+    "Special K Red Berries",
+    "Trix",
+    "Wheaties"
   ]
 }
