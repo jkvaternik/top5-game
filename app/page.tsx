@@ -30,7 +30,7 @@ export default function Home() {
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
 
-  const [showGameOverModal, setShowGameOverModal] = useState(true); 
+  const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
   useEffect(() => {
@@ -64,14 +64,14 @@ export default function Home() {
         </div>
         <p className="text-base grow font-medium">{puzzle.category}</p>
         <div className="self-end flex flex-col items-end gap-6">
-        <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)}/>
+          <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)} />
           {gameOver ?
-            <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)}/>
+            <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)} />
             :
             <div className="self-end flex flex-row items-center gap-2">
               <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
               <div className="relative">
-              {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
+                {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
                 <HeartIcon className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`} />
               </div>
             </div>
@@ -88,13 +88,11 @@ export default function Home() {
     </>
   )
 
-  console.log('gameOver', gameOver);
-
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <ToastContainer closeButton={false} />
       {gameView}
-      {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)}/>}  
+      {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
       {gameOver && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
     </main >
   );

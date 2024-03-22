@@ -337,5 +337,18 @@
     ],
     "optionsKey": "cereals",
     "url": "https://dailyinfographic.com/most-popular-cereals-in-america"
+  },
+  "2024-03-23": {
+    "num": 28,
+    "category": "Highest grossing Broadway musicals of all time",
+    "answers": [
+      "The Lion King",
+      "Wicked",
+      "The Phantom of the Opera",
+      "Hamilton",
+      "The Book of Mormon"
+    ],
+    "optionsKey": "broadway_musicals",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_musical_theatre_productions"
   }
 }
