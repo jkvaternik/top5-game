@@ -5,7 +5,7 @@ import Fuse from 'fuse.js';
 const InputComponent = ({ items, handleGuess, isGameOver }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
-  const [isIncorrect, setIsIncorrect] = useState(false);
+  const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
 
   const fuse = new Fuse(items, {
     includeScore: true,
