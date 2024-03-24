@@ -363,5 +363,57 @@
     ],
     "optionsKey": "ice_cream_flavors",
     "url": "https://www.benjerry.com/whats-new/2023/12/top-flavors-2023"
+  },
+  "2024-03-25": {
+    "num": 30,
+    "category": "Countries with most renewable energy as a share of total energy consumption",
+    "answers": [
+      "Iceland",
+      "Norway",
+      "Sweden",
+      "Brazil",
+      "New Zealand"
+    ],
+    "optionsKey": "countries",
+    "url": "https://wisevoter.com/country-rankings/renewable-energy-by-country/#countries-with-the-most-renewable-energy"
+  },
+  "2024-03-26": {
+    "num": 31,
+    "category": "Most visited theme parks in the world by annual attendance",
+    "answers": [
+      "Magic Kingdom (Walt Disney World)",
+      "Disneyland Park (Anaheim)",
+      "Universal Studios Japan",
+      "Tokyo Disneyland",
+      "Universal Studios Islands of Adventure (Orlando)"
+    ],
+    "optionsKey": "theme_parks",
+    "url": "https://en.wikipedia.org/wiki/Amusement_park_rankings"
+  },
+  "2024-03-27": {
+    "num": 32,
+    "category": "Global fruit production by weight",
+    "answers": [
+      "Bananas",
+      "Watermelons",
+      "Apples",
+      "Oranges",
+      "Grapes"
+    ],
+    "optionsKey": "fruits",
+    "url": "https://www.statista.com/statistics/264001/worldwide-production-of-fruit-by-variety/"
+  },
+  "2024-03-28": {
+    "num": 33,
+    "category": "Most popular dog breeds in the US",
+    "answers": [
+      "French Bulldog",
+      "Labrador Retriever",
+      "Golden Retriever",
+      "German Shepherd",
+      "Poodle"
+    ],
+    "optionsKey": "dog_breeds",
+    "url": "https://www.akc.org/expert-advice/news/most-popular-dog-breeds-2023/"
   }
 }
