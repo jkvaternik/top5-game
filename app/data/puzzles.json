@@ -350,5 +350,18 @@
     ],
     "optionsKey": "broadway_musicals",
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_musical_theatre_productions"
+  },
+  "2024-03-24": {
+    "num": 29,
+    "category": "Most scooped Ben and Jerry's ice cream flavors",
+    "answers": [
+      "Half Baked",
+      "Cherry Garcia",
+      "Chocolate Chip Cookie Dough",
+      "Strawberry Cheesecake",
+      "Chocolate Fudge Brownie"
+    ],
+    "optionsKey": "ice_cream_flavors",
+    "url": "https://www.benjerry.com/whats-new/2023/12/top-flavors-2023"
   }
 }
