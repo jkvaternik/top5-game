@@ -28,7 +28,7 @@ const useDailyPuzzle: () => Puzzle | null = () => {
   const [todayPuzzle, setTodayPuzzle] = useState<Puzzle | null>(null);
 
   useEffect(() => {
-    const today: string = "2024-04-01" // getCurrentLocalDateAsString()
+    const today: string = getCurrentLocalDateAsString()
     const dailyPuzzle: PuzzleInput = puzzles[today]
 
     if (dailyPuzzle) {
