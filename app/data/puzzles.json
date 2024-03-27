@@ -415,5 +415,70 @@
     ],
     "optionsKey": "dog_breeds",
     "url": "https://www.akc.org/expert-advice/news/most-popular-dog-breeds-2023/"
+  },
+  "2024-03-29": {
+    "num": 34,
+    "category": "Most visited cities in the world by arrivals in 2023",
+    "answers": [
+      "Istanbul",
+      "London",
+      "Dubai",
+      "Antalya",
+      "Paris"
+    ],
+    "optionsKey": "cities",
+    "url": "https://en.wikipedia.org/wiki/World%27s_most_visited_cities"
+  },
+  "2024-03-30": {
+    "num": 35,
+    "category": "Most popular fast food chains in the US by sales",
+    "answers": [
+      "McDonald's",
+      "Starbucks",
+      "Chick-fil-A",
+      "Taco Bell",
+      "Wendy's"
+    ],
+    "optionsKey": "fast_food_chains",
+    "url": "https://www.qsrmagazine.com/operations/fast-food/the-2023-qsr-50-fast-foods-leading-annual-report/"
+  },
+  "2024-03-31": {
+    "num": 36,
+    "category": "Largest historical empires by land area",
+    "answers": [
+      "British Empire",
+      "Mongol Empire",
+      "Russian Empire",
+      "Qing dynasty",
+      "Spanish Empire"
+    ],
+    "optionsKey": "empires",
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_empires"
+  },
+  "2024-04-01": {
+    "num": 37,
+    "category": "",
+    "answers": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "optionsKey": "",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  "2024-04-02": {
+    "num": 38,
+    "category": "Biggest oceans in the world by area",
+    "answers": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Arctic Ocean"
+    ],
+    "optionsKey": "oceans",
+    "url": "https://www.worldatlas.com/articles/the-oceans-of-the-world-by-size.html"
   }
 }
