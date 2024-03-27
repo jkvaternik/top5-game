@@ -4,7 +4,7 @@ const moment = require('moment');
 const SUCCESS_MSG = 'Validation successful, all checks passed.';
 
 /*
- * Validates the following:
+ * Validates the following conditions:
  * 1. all answers in a puzzle exist exactly as spelled in corresponding options_key list
  * 2. no puzzle dates or number are duplicated
  * 3. there are no missing dates between the earliest and latest puzzle
