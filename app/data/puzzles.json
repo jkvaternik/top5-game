@@ -454,5 +454,18 @@
     ],
     "optionsKey": "empires",
     "url": "https://en.wikipedia.org/wiki/List_of_largest_empires"
+  },
+  "2024-04-01": {
+    "num": 37,
+    "category": "Biggest Oceans",
+    "answers": [
+      "The 1997 song 'Ocean Man' by Ween",
+      "Frank Ocean",
+      "Ocean's 11",
+      "Ocean Spray Cranberry Juice",
+      "Pacific Ocean"
+    ],
+    "optionsKey": "oceans_april_fools",
+    "url": "https://www.youtube.com/watch?v=tkzY_VwNIek"
   }
 }
