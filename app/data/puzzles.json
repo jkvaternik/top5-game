@@ -467,5 +467,18 @@
     ],
     "optionsKey": "oceans_april_fools",
     "url": "https://www.youtube.com/watch?v=tkzY_VwNIek"
+  },
+  "2024-04-02": {
+    "num": 38,
+    "category": "Major League Baseball franchises with most World Series appearances",
+    "answers": [
+      "New York Yankees",
+      "Los Angeles Dodgers",
+      "San Francisco Giants",
+      "St. Louis Cardinals",
+      "Oakland Athletics"
+    ],
+    "optionsKey": "mlb_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions"
   }
 }
