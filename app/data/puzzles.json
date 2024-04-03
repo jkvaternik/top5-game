@@ -480,5 +480,18 @@
     ],
     "optionsKey": "mlb_teams",
     "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions"
+  },
+  "2024-04-03": {
+    "num": 39,
+    "category": "Countries by avocado production",
+    "answers": [
+      "Mexico",
+      "Colombia",
+      "Peru",
+      "Dominican Republic",
+      "Kenya"
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production"
   }
 }
