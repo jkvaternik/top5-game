@@ -493,5 +493,31 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production"
+  },
+  "2024-04-04": {
+    "num": 40,
+    "category": "States with the largest coastlines",
+    "answers": [
+      "Alaska",
+      "Florida",
+      "Louisiana",
+      "Maine",
+      "California"
+    ],
+    "optionsKey": "us_states",
+    "url": "https://worldpopulationreview.com/state-rankings/coastline-length-by-state"
+  },
+  "2024-04-05": {
+    "num": 41,
+    "category": "NBA all-time leading scorers",
+    "answers": [
+      "LeBron James",
+      "Kareem Abdul-Jabbar",
+      "Karl Malone",
+      "Kobe Bryant",
+      "Michael Jordan"
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://www.basketball-reference.com/leaders/pts_career.html"
   }
 }
