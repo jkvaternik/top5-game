@@ -519,5 +519,18 @@
     ],
     "optionsKey": "nba_players",
     "url": "https://www.basketball-reference.com/leaders/pts_career.html"
+  },
+  "2024-04-06": {
+    "num": 42,
+    "category": "Countries with most nominations for 'Best International Feature Film' at the Academy Awards",
+    "answers": [
+      "France",
+      "Italy",
+      "Spain",
+      "Japan",
+      "Sweden"
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film"
   }
 }
