@@ -2976,5 +2976,31 @@
     "Bob McAdoo",
     "Zach Randolph",
     "Mark Aguirre"
-    ]
+  ],
+  "game_shows": [
+    "Are You Smarter Than A 5th Grader?",
+    "Cash Cab",
+    "Deal Or No Deal",
+    "Double Dare",
+    "Family Feud",
+    "Jeopardy!",
+    "Let's Make A Deal",
+    "Love Connection",
+    "Match Game",
+    "Press Your Luck",
+    "Pyramid",
+    "Supermarket Sweep",
+    "The Chase",
+    "The Dating Game",
+    "The Gong Show",
+    "The Hollywood Squares",
+    "The Newlywed Game",
+    "The Price Is Right",
+    "The Weakest Link",
+    "To Tell The Truth",
+    "What's my line?",
+    "Wheel Of Fortune",
+    "Who Wants To Be A Millionaire?",
+    "Whose Line Is It Anyway?"
+  ]
 }

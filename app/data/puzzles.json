@@ -532,5 +532,18 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film"
+  },
+  "2024-04-07": {
+    "num": 43,
+    "category": "Longest running US game shows by number of years on the air",
+    "answers": [
+      "The Price Is Right",
+      "Jeopardy!",
+      "Wheel Of Fortune",
+      "Family Feud",
+      "Let's Make A Deal"
+    ],
+    "optionsKey": "game_shows",
+    "url": "https://screenrant.com/game-shows-longest-runing-television/"
   }
 }
