@@ -545,5 +545,31 @@
     ],
     "optionsKey": "game_shows",
     "url": "https://screenrant.com/game-shows-longest-runing-television/"
+  },
+  "2024-04-08": {
+    "num": 44,
+    "category": "Most abundant elements in the Milky Way Galaxy",
+    "answers": [
+      "Hydrogen",
+      "Helium",
+      "Oxygen",
+      "Carbon",
+      "Neon"
+    ],
+    "optionsKey": "elements",
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Universe"
+  },
+  "2024-04-09": {
+    "num": 45,
+    "category": "Countries with the highest coffee production",
+    "answers": [
+      "Brazil",
+      "Vietnam",
+      "Colombia",
+      "Indonesia",
+      "Ethiopia"
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldatlas.com/articles/top-coffee-producing-countries.html#Top%20Coffee%20Producing%20Countries"
   }
 }
