@@ -597,5 +597,18 @@
     ],
     "optionsKey": "board_games",
     "url": "https://moneyinc.com/highest-selling-board-games-of-all-time/"
+  },
+  "2024-04-12": {
+    "num": 48,
+    "category": "Most popular dog names in the US",
+    "answers": [
+      "Bella",
+      "Luna",
+      "Max",
+      "Daisy",
+      "Charlie"
+    ],
+    "optionsKey": "dog_names",
+    "url": "https://www.usnews.com/insurance/pet-insurance/most-popular-dog-names-study"
   }
 }
