@@ -584,5 +584,18 @@
     ],
     "optionsKey": "us_companies",
     "url": "https://stockanalysis.com/list/most-employees/"
+  },
+  "2024-04-11": {
+    "num": 47,
+    "category": "Best selling board games of all time",
+    "answers": [
+      "Chess",
+      "Checkers",
+      "Monopoly",
+      "Scrabble",
+      "Clue"
+    ],
+    "optionsKey": "board_games",
+    "url": "https://moneyinc.com/highest-selling-board-games-of-all-time/"
   }
 }
