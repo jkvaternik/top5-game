@@ -571,5 +571,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.worldatlas.com/articles/top-coffee-producing-countries.html#Top%20Coffee%20Producing%20Countries"
+  },
+  "2024-04-10": {
+    "num": 46,
+    "category": "US companies with most employees",
+    "answers": [
+      "Walmart",
+      "Amazon.com",
+      "FedEx",
+      "United Parcel Service (UPS)",
+      "The Home Depot"
+    ],
+    "optionsKey": "us_companies",
+    "url": "https://stockanalysis.com/list/most-employees/"
+  },
+  "2024-04-11": {
+    "num": 47,
+    "category": "Best selling board games of all time",
+    "answers": [
+      "Chess",
+      "Checkers",
+      "Monopoly",
+      "Scrabble",
+      "Clue"
+    ],
+    "optionsKey": "board_games",
+    "url": "https://moneyinc.com/highest-selling-board-games-of-all-time/"
+  },
+  "2024-04-12": {
+    "num": 48,
+    "category": "Most popular dog names in the US",
+    "answers": [
+      "Bella",
+      "Luna",
+      "Max",
+      "Daisy",
+      "Charlie"
+    ],
+    "optionsKey": "dog_names",
+    "url": "https://www.usnews.com/insurance/pet-insurance/most-popular-dog-names-study"
   }
 }
