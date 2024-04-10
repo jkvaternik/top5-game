@@ -571,5 +571,18 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.worldatlas.com/articles/top-coffee-producing-countries.html#Top%20Coffee%20Producing%20Countries"
+  },
+  "2024-04-10": {
+    "num": 46,
+    "category": "US Companies with most employees",
+    "answers": [
+      "Walmart",
+      "Amazon.com",
+      "FedEx",
+      "United Parcel Service (UPS)",
+      "The Home Depot"
+    ],
+    "optionsKey": "us_companies",
+    "url": "https://stockanalysis.com/list/most-employees/"
   }
 }
