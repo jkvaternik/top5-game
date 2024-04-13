@@ -3171,5 +3171,17 @@
     "Toby",
     "Vinny",
     "Zoe"
+  ],
+  "celestial_bodies": [
+    "Sun",
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
   ]
 }

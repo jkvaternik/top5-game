@@ -610,5 +610,18 @@
     ],
     "optionsKey": "dog_names",
     "url": "https://www.usnews.com/insurance/pet-insurance/most-popular-dog-names-study"
+  },
+  "2024-04-13": {
+    "num": 49,
+    "category": "Largest celestial bodies in the Solar System",
+    "answers": [
+      "Sun",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "optionsKey": "celestial_bodies",
+    "url": "https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size"
   }
 }
