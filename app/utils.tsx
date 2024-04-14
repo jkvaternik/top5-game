@@ -49,8 +49,8 @@ export const getScoreMessage = (score: number[]) => {
 export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   if (typeof window !== 'undefined') {
     if (isNewDay()) {
-      // clear for new day, we can update this if we want to store any stats
-      // localStorage.clear();
+      // reset for new day, we can update this if we want to store any stats
+      localStorage.setItem(key, JSON.stringify(defaultValue));
       return defaultValue;
     }
     else {
