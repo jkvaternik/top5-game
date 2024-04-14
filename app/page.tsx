@@ -64,7 +64,7 @@ export default function Home() {
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
         <p className="text-base grow font-medium">{puzzle.category}</p>
-        <div className="self-end flex flex-col items-end gap-6">
+        <div className="self-end flex flex-col items-end gap-4">
           <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)} />
           {gameOver ?
             <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)} />

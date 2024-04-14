@@ -1,15 +1,20 @@
+import { Answer } from "../hooks/useDailyPuzzle";
 import NumberIcon from "./NumberIcon";
 
-export default function RankItem({ index, displayValue, className }: {
+export default function RankItem({ index, answer, className }: {
   index: number,
-  displayValue: string,
+  answer?: Answer,
   className?: string
 }): JSX.Element {
-  const isEmpty = displayValue.length == 0;
+  const isEmpty = answer === undefined;
+  const textAnimation = isEmpty ? 'animate-fade' : '';
   return (
     <div key={index} className={`flex flex-row gap-4 items-center text-dark-maroon ${className}`}>
       <NumberIcon number={index} isEmpty={isEmpty} />
-      <p className={isEmpty ? 'animate-fade' : ''}>{displayValue}</p>
+      <div>
+        <p className={`text-dark-maroon ${textAnimation}`}>{answer?.text.join(', ')}</p>
+        <p className={`text-dark-maroon text-opacity-50 ${textAnimation}`}>{answer?.stat}</p>
+      </div>
     </div>
   );
 }

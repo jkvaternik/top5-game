@@ -1,7 +1,9 @@
+import { Answer } from "./hooks/useDailyPuzzle";
+
 // 0 is incorrect, any other number is the rank guessed correctly
-export const getScore = (guessHistory: string[], answers: string[]) => {
+export const getScore = (guessHistory: string[], answers: Answer[]) => {
   return guessHistory.map((guess: string) => {
-    const rank = answers.indexOf(guess);
+    const rank = answers.map(a => a.text).findIndex(options => options.includes(guess));
     return rank === -1 ? 0 : rank + 1;
   })
 }

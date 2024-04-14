@@ -1,11 +1,16 @@
 import { useState, useEffect } from 'react';
-import puzzlesData from '../data/puzzles.json';
+import puzzlesData from '../data/puzzlesV2.json';
 import optionsData from '../data/options.json';
+
+export type Answer = {
+  text: string[];
+  stat: string;
+}
 
 type PuzzleInput = {
   num: number;
   category: string;
-  answers: string[];
+  answers: Answer[];
   optionsKey: string;
   url?: string;
 }
@@ -13,7 +18,7 @@ type PuzzleInput = {
 export type Puzzle = {
   num: number;
   category: string;
-  answers: string[];
+  answers: Answer[];
   optionsKey: string;
   options: string[];
   url?: string;
