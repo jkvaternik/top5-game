@@ -636,8 +636,6 @@
     ],
     "optionsKey": "wii_games",
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_Wii_video_games"
-<<<<<<< HEAD
-=======
   },
   "2024-04-15": {
     "num": 51,
@@ -651,6 +649,5 @@
     ],
     "optionsKey": "countries",
     "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
->>>>>>> main
   }
 }

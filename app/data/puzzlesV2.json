@@ -32,23 +32,27 @@
     "category": "Countries with the most Olympic Medals",
     "answers": [
       {
-        "text": ["United States"],
-        "stat": "2,523"
-      },
-      {
-        "text": ["Great Britain"],
-        "stat": "883"
+        "text": ["United States of America"],
+        "stat": "2,985"
       },
       {
         "text": ["Germany"],
         "stat": "1,350"
       },
       {
+        "text": ["United Kingdom"],
+        "stat": "965"
+      },
+      {
         "text": ["France"],
-        "stat": "840"
+        "stat": "910"
+      },
+      {
+        "text": ["Italy"],
+        "stat": "773"
       }
     ],
     "optionsKey": "countries",
-    "url": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_by_country"
+    "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
   }
 }
