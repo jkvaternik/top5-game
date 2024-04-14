@@ -26,7 +26,7 @@ export function useGameState(puzzle: Puzzle | null) {
     const newGuessHistory = [...guessHistory, guess];
     setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
 
-    const index = puzzle!!.answers.findIndex(answer => answer.text === guess);
+    const index = puzzle!!.answers.findIndex(answer => answer.text.includes(guess));
     if (index !== -1) {
       // Correct Guess
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
