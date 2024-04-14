@@ -1,0 +1,30 @@
+{
+  "2024-04-14": {
+    "num": 50,
+    "category": "Best selling Wii videogames of all time",
+    "answers": [
+      {
+        "text": ["Wii Sports", "Top 5"],
+        "stat": "82.90 million"
+      },
+      {
+        "text": ["Mario Kart Wii"],
+        "stat": "37.38 million"
+      },
+      {
+        "text": ["Wii Sports Resort"],
+        "stat": "33.14 million"
+      },
+      {
+        "text": ["New Super Mario Bros. Wii"],
+        "stat": "30.22 million"
+      },
+      {
+        "text": ["Wii Play"],
+        "stat": "28.02 million"
+      }
+    ],
+    "optionsKey": "wii_games",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_Wii_video_games"
+  }
+}
