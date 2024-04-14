@@ -19,8 +19,6 @@ export function useGameState(puzzle: Puzzle | null) {
 
   // Returns true if the guess is correct, false if incorrect
   const handleGuess = (guess: string) => {
-    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
-
     if (guessHistory.includes(guess) || gameOver) {
       return;
     }

@@ -34,6 +34,7 @@ export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
   useEffect(() => {
+    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }
