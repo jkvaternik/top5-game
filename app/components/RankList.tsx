@@ -14,21 +14,22 @@ const RankList = ({ guesses, answers, isGameOver }: Props) => {
         key={index}
         index={index}
         answer={answer}
-        className={`${answers.map(a => a.text)[index].includes(guesses[index]) ? 'incorrect' : ''}`}
+        className={`${answers.map(a => a.text)[index].includes(guesses[index]) ? '' : 'incorrect'}`}
       />
     ));
   }
   return guesses.map((guess, index) => {
-      const answer = answers.find(a => a.text.includes(guess));
-      return (
-        <RankItem
-          key={index}
-          index={index}
-          answer={answer}
-          className={`${answer && answers.map(a => a.text)[index].includes(guesses[index]) ? 'incorrect' : ''}`}
-        />
-      );
-    })
+    const answer = answers.find(a => a.text.includes(guess));
+    const isCorrect = answer && answers.map(a => a.text)[index].includes(guess);
+    return (
+      <RankItem
+        key={index}
+        index={index}
+        answer={answer}
+        className={`${isCorrect ? '' : 'isCorrect'}`}
+      />
+    );
+  })
 };
 
 export default RankList;
