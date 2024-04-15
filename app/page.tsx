@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guessHistory={guessHistory} />
+        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guessHistory={guessHistory} answers={puzzle.answers} />
       </section>
       <br></br>
       <section className="flex flex-col gap-4">
