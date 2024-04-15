@@ -4,23 +4,33 @@
     "category": "Best selling Wii videogames of all time",
     "answers": [
       {
-        "text": ["Wii Sports"],
+        "text": [
+          "Wii Sports"
+        ],
         "stat": "82.90 million"
       },
       {
-        "text": ["Mario Kart Wii"],
+        "text": [
+          "Mario Kart Wii"
+        ],
         "stat": "37.38 million"
       },
       {
-        "text": ["Wii Sports Resort"],
+        "text": [
+          "Wii Sports Resort"
+        ],
         "stat": "33.14 million"
       },
       {
-        "text": ["New Super Mario Bros. Wii"],
+        "text": [
+          "New Super Mario Bros. Wii"
+        ],
         "stat": "30.22 million"
       },
       {
-        "text": ["Wii Play"],
+        "text": [
+          "Wii Play"
+        ],
         "stat": "28.02 million"
       }
     ],
@@ -32,27 +42,113 @@
     "category": "Countries with the most Olympic Medals",
     "answers": [
       {
-        "text": ["United States of America"],
+        "text": [
+          "United States of America"
+        ],
         "stat": "2,985"
       },
       {
-        "text": ["Germany"],
+        "text": [
+          "Germany"
+        ],
         "stat": "1,350"
       },
       {
-        "text": ["United Kingdom"],
+        "text": [
+          "United Kingdom"
+        ],
         "stat": "965"
       },
       {
-        "text": ["France"],
+        "text": [
+          "France"
+        ],
         "stat": "910"
       },
       {
-        "text": ["Italy"],
+        "text": [
+          "Italy"
+        ],
         "stat": "773"
       }
     ],
     "optionsKey": "countries",
     "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
+  },
+  "2024-04-16": {
+    "num": 52,
+    "category": "James Bond movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Goldfinger (1964)"
+        ],
+        "stat": "99%"
+      },
+      {
+        "text": [
+          "From Russia with Love (1963)"
+        ],
+        "stat": "97%"
+      },
+      {
+        "text": [
+          "Dr. No (1962)"
+        ],
+        "stat": "95%"
+      },
+      {
+        "text": [
+          "Casino Royale (1967)"
+        ],
+        "stat": "94%"
+      },
+      {
+        "text": [
+          "Skyfall (2012)"
+        ],
+        "stat": "92%"
+      }
+    ],
+    "optionsKey": "bond_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/james-bond-movies/"
+  },
+  "2024-04-17": {
+    "num": 53,
+    "category": "Highest grossing concert tours (adjusted for inflation)",
+    "answers": [
+      {
+        "text": [
+          "Taylor Swift (The Eras Tour)"
+        ],
+        "stat": "$1,039,263,762"
+      },
+      {
+        "text": [
+          "U2 (U2 360° Tour)"
+        ],
+        "stat": "$997,437,284"
+      },
+      {
+        "text": [
+          "Elton John (Farewell Yellow Brick Road)"
+        ],
+        "stat": "$939,100,000"
+      },
+      {
+        "text": [
+          "Ed Sheeran (÷ Tour)"
+        ],
+        "stat": "$925,014,604"
+      },
+      {
+        "text": [
+          "The Rolling Stones (A Bigger Bang Tour)"
+        ],
+        "stat": "$820,315,772"
+      }
+    ],
+    "optionsKey": "concert_tours",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours"
   }
 }
