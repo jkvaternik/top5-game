@@ -23,19 +23,25 @@ export function useGameState(puzzle: Puzzle | null) {
       return;
     }
 
-    const newGuessHistory = [...guessHistory, guess];
-    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
-
     const index = puzzle!!.answers.findIndex(answer => answer.text.includes(guess));
-    if (index !== -1) {
+
+    // Check if we already have a correct guess for the index (and thus, a TIE)
+    // In this case, it is correct, but we don't want to update the guess or guess history
+    if (guesses[index]) {
+      return true;
+    }
+
+    const isCorrect = index !== -1;
+    if (isCorrect) {
       // Correct Guess
       const newGuesses = guesses.map((g, i) => i === index ? guess : g);
       setLocalStorageAndState('guesses', newGuesses, setGuesses);
-      return true;
-    } else {
-      // Incorrect Guess
-      return false;
     }
+
+    const newGuessHistory = [...guessHistory, guess];
+    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
+
+    return isCorrect;
   }
 
   return { guessHistory, setGuessHistory, guesses, setGuesses, lives, gameOver, handleGuess };
