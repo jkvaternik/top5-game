@@ -649,5 +649,31 @@
     ],
     "optionsKey": "countries",
     "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
+  },
+  "2024-04-16": {
+    "num": 52,
+    "category": "James Bond movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      "Goldfinger (1964)",
+      "From Russia with Love (1963)",
+      "Dr. No (1962)",
+      "Casino Royale (1967)",
+      "Skyfall (2012)"
+    ],
+    "optionsKey": "bond_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/james-bond-movies/"
+  },
+  "2024-04-17": {
+    "num": 53,
+    "category": "Highest grossing concert tours (adjusted for inflation)",
+    "answers": [
+      "Taylor Swift (The Eras Tour)",
+      "U2 (U2 360° Tour)",
+      "Elton John (Farewell Yellow Brick Road)",
+      "Ed Sheeran (÷ Tour)",
+      "The Rolling Stones (A Bigger Bang Tour)"
+    ],
+    "optionsKey": "concert_tours",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours"
   }
 }
