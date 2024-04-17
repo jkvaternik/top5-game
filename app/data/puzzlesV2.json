@@ -188,5 +188,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.insidermonkey.com/blog/5-countries-that-export-the-most-vodka-1235806/"
+  },
+  "2024-04-19": {
+    "num": 55,
+    "category": "Actresses with the most Academy Award nominations",
+    "answers": [
+      {
+        "text": [
+          "Meryl Streep"
+        ],
+        "stat": "21 nominations"
+      },
+      {
+        "text": [
+          "Katharine Hepburn"
+        ],
+        "stat": "12 nominations"
+      },
+      {
+        "text": [
+          "Bette Davis"
+        ],
+        "stat": "10 nominations"
+      },
+      {
+        "text": [
+          "Audrey Hepburn"
+        ],
+        "stat": "8 nominations"
+      },
+      {
+        "text": [
+          "Ingrid Bergman",
+          "Jane Fonda"
+        ],
+        "stat": "7 nominations"
+      }
+    ],
+    "optionsKey": "actresses",
+    "url": "https://en.wikipedia.org/wiki/List_of_actors_with_two_or_more_Academy_Awards_in_acting_categories"
   }
 }
