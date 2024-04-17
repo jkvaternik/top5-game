@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Downshift from 'downshift';
 import Fuse from 'fuse.js';
 
-const InputComponent = ({ items, handleGuess, isGameOver, guessHistory }) => {
+const InputComponent = ({ items, handleGuess, isGameOver, guessHistory, answers }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
@@ -33,6 +33,13 @@ const InputComponent = ({ items, handleGuess, isGameOver, guessHistory }) => {
     // close keyboard on mobile
     document.activeElement.blur();
   };
+
+  const shouldStrikethrough = (item) => {
+    const allAnswers = answers.map(answer => answer.text)
+    const correctAnswers = allAnswers.filter(options => options.some(option => guessHistory.includes(option))).flat()
+
+    return guessHistory.includes(item) || correctAnswers.includes(item)
+  }
 
   return (
     <Downshift
@@ -68,7 +75,7 @@ const InputComponent = ({ items, handleGuess, isGameOver, guessHistory }) => {
                 <li
                   key={index}
                   {...getItemProps({ index, item })}
-                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${guessHistory.includes(item) ? 'line-through' : ''}`}
+                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${shouldStrikethrough(item) ? 'line-through' : ''}`}
                 >
                   {item}
                 </li>

@@ -12,7 +12,7 @@ const SUCCESS_MSG = 'Validation successful, all checks passed.';
 
 function validatePuzzles() {
   // Load and parse JSON files
-  const puzzles = JSON.parse(fs.readFileSync('app/data/puzzles.json', 'utf8'));
+  const puzzles = JSON.parse(fs.readFileSync('app/data/puzzlesV2.json', 'utf8'));
   const options = JSON.parse(fs.readFileSync('app/data/options.json', 'utf8'));
 
   const puzzleDates = Object.keys(puzzles).sort();
@@ -44,8 +44,10 @@ function validatePuzzles() {
     }
 
     for (const answer of puzzle.answers) {
-      if (!optionList.includes(answer)) {
-        return `Answer "${answer}" not found in options for key: ${puzzle.optionsKey}`;
+      for (const text of answer.text) {
+        if (!optionList.includes(text)) {
+          return `Answer "${text}" not found in options for key: ${puzzle.optionsKey}`;
+        }
       }
     }
   }

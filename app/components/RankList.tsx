@@ -1,8 +1,9 @@
+import { Answer } from '../hooks/useDailyPuzzle';
 import RankItem from './RankItem';
 
 interface Props {
   guesses: string[];
-  answers: string[];
+  answers: Answer[];
   isGameOver: boolean;
 }
 
@@ -12,13 +13,23 @@ const RankList = ({ guesses, answers, isGameOver }: Props) => {
       <RankItem
         key={index}
         index={index}
-        displayValue={answer}
-        className={`${guesses[index] !== answers[index] ? 'incorrect' : ''}`}
+        answer={answer}
+        className={`${answers.map(a => a.text)[index].includes(guesses[index]) ? '' : 'incorrect'}`}
       />
     ));
   }
-
-  return guesses.map((guess, index) => (<RankItem key={index} index={index} displayValue={guess} />));
+  return guesses.map((guess, index) => {
+    const answer = answers.find(a => a.text.includes(guess));
+    const isCorrect = answer && answers.map(a => a.text)[index].includes(guess);
+    return (
+      <RankItem
+        key={index}
+        index={index}
+        answer={answer}
+        className={`${isCorrect ? '' : 'isCorrect'}`}
+      />
+    );
+  })
 };
 
 export default RankList;
