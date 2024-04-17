@@ -150,5 +150,43 @@
     ],
     "optionsKey": "concert_tours",
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours"
+  },
+  "2024-04-18": {
+    "num": 54,
+    "category": "Countries that export the most vodka by dollars sold (2022)",
+    "answers": [
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "$471.98 million"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "$454.39 million"
+      },
+      {
+        "text": [
+          "Poland"
+        ],
+        "stat": "$190.08 million"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "$138.96 million"
+      },
+      {
+        "text": [
+          "Netherlands"
+        ],
+        "stat": "$137.71 million"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.insidermonkey.com/blog/5-countries-that-export-the-most-vodka-1235806/"
   }
 }
