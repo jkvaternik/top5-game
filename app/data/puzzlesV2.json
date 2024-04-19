@@ -230,47 +230,6 @@
   },
   "2024-04-20": {
     "num": 56,
-    "category": "Countries with the most FIFA World Cup titles",
-    "answers": [
-      {
-        "text": [
-          "Brazil"
-        ],
-        "stat": "5 titles"
-      },
-      {
-        "text": [
-          "Germany",
-          "Italy"
-        ],
-        "stat": "4 titles"
-      },
-      {
-        "text": [
-          "Argentina"
-        ],
-        "stat": "3 titles"
-      },
-      {
-        "text": [
-          "Uruguay",
-          "France"
-        ],
-        "stat": "2 titles"
-      },
-      {
-        "text": [
-          "England",
-          "Spain"
-        ],
-        "stat": "1 title"
-      }
-    ],
-    "optionsKey": "countries",
-    "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup#Teams_reaching_the_top_four"
-  },
-  "2024-04-21": {
-    "num": 57,
     "category": "Best selling video game consoles of all time by units sold",
     "answers": [
       {
@@ -293,7 +252,7 @@
       },
       {
         "text": [
-          "Game Boy"
+          "Game Boy & Game Boy Color"
         ],
         "stat": "118.69 million"
       },
