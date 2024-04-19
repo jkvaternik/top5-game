@@ -265,5 +265,47 @@
     ],
     "optionsKey": "game_consoles",
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
+  },
+  "2024-04-21": {
+    "num": 57,
+    "category": "NBA teams with the most championship titles",
+    "answers": [
+      {
+        "text": [
+          "Boston Celtics",
+          "Los Angeles Lakers"
+        ],
+        "stat": "17 titles"
+      },
+      {
+        "text": [
+          "Golden State Warriors"
+        ],
+        "stat": "6 titles"
+      },
+      {
+        "text": [
+          "Chicago Bulls"
+        ],
+        "stat": "6 titles"
+      },
+      {
+        "text": [
+          "San Antonio Spurs"
+        ],
+        "stat": "5 titles"
+      },
+      {
+        "text": [
+          "Philadelphia 76ers",
+          "Detroit Pistons",
+          "Miami Heat",
+          "Houston Rockets"
+        ],
+        "stat": "3 titles"
+      }
+    ],
+    "optionsKey": "nba_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_NBA_champions#Results_by_team"
   }
 }
