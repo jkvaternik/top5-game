@@ -3,23 +3,22 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 import { useEffect, useState } from "react";
 
 type ModalComponentProps = {
+    delayMs: number,
     children: React.ReactNode;
     show: boolean;
     showChildren: boolean;
     onClose: () => void;
 }
 
-const DELAY_MS = 500;
-
-export const ModalComponent = ({ children, show, showChildren, onClose}: ModalComponentProps) => {
+export const ModalComponent = ({ delayMs, children, show, showChildren, onClose}: ModalComponentProps) => {
     const [showComponent, setShowComponent] = useState(false);
   
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             setShowComponent(true);
-        }, DELAY_MS);
+        }, delayMs);
         return () => clearTimeout(timeoutId);
-    }, []); 
+    }, [delayMs]); 
 
     if (!show) {
         return null;
