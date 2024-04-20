@@ -232,5 +232,85 @@
     ],
     "optionsKey": "actresses",
     "url": "https://en.m.wikipedia.org/wiki/List_of_actors_with_three_or_more_Academy_Award_nominations_in_acting_categories"
+  },
+  "2024-04-20": {
+    "num": 56,
+    "category": "Best selling video game consoles of all time by units sold",
+    "answers": [
+      {
+        "text": [
+          "PlayStation 2"
+        ],
+        "stat": "155 million"
+      },
+      {
+        "text": [
+          "Nintendo DS"
+        ],
+        "stat": "154.02 million"
+      },
+      {
+        "text": [
+          "Nintendo Switch"
+        ],
+        "stat": "139.36 million"
+      },
+      {
+        "text": [
+          "Game Boy & Game Boy Color"
+        ],
+        "stat": "118.69 million"
+      },
+      {
+        "text": [
+          "PlayStation 4"
+        ],
+        "stat": "117.2 million"
+      }
+    ],
+    "optionsKey": "game_consoles",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
+  },
+  "2024-04-21": {
+    "num": 57,
+    "category": "NBA teams with the most championship titles",
+    "answers": [
+      {
+        "text": [
+          "Boston Celtics",
+          "Los Angeles Lakers"
+        ],
+        "stat": "17 titles"
+      },
+      {
+        "text": [
+          "Golden State Warriors"
+        ],
+        "stat": "6 titles"
+      },
+      {
+        "text": [
+          "Chicago Bulls"
+        ],
+        "stat": "6 titles"
+      },
+      {
+        "text": [
+          "San Antonio Spurs"
+        ],
+        "stat": "5 titles"
+      },
+      {
+        "text": [
+          "Philadelphia 76ers",
+          "Detroit Pistons",
+          "Miami Heat",
+          "Houston Rockets"
+        ],
+        "stat": "3 titles"
+      }
+    ],
+    "optionsKey": "nba_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_NBA_champions#Results_by_team"
   }
 }
