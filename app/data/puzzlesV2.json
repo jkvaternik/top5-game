@@ -311,5 +311,82 @@
     ],
     "optionsKey": "nba_teams",
     "url": "https://en.wikipedia.org/wiki/List_of_NBA_champions#Results_by_team"
+  },
+  "2024-04-22": {
+    "num": 58,
+    "category": "Most populous cities in the United States",
+    "answers": [
+      {
+        "text": [
+          "New York City"
+        ],
+        "stat": "8,335,897"
+      },
+      {
+        "text": [
+          "Los Angeles"
+        ],
+        "stat": "3,822,238"
+      },
+      {
+        "text": [
+          "Chicago"
+        ],
+        "stat": "2,665,039"
+      },
+      {
+        "text": [
+          "Houston"
+        ],
+        "stat": "2,302,878"
+      },
+      {
+        "text": [
+          "Phoenix"
+        ],
+        "stat": "1,644,409"
+      }
+    ],
+    "optionsKey": "us_cities",
+    "url": "https://worldpopulationreview.com/us-cities"
+  },
+  "2024-04-23": {
+    "num": 59,
+    "category": "Countries with the highest elevation point",
+    "answers": [
+      {
+        "text": [
+          "Nepal",
+          "China"
+        ],
+        "stat": "8849 meters"
+      },
+      {
+        "text": [
+          "Pakistan"
+        ],
+        "stat": "8611 meters"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "8586 meters"
+      },
+      {
+        "text": [
+          "Bhutan"
+        ],
+        "stat": "7570 meters"
+      },
+      {
+        "text": [
+          "Tajikistan"
+        ],
+        "stat": "7495 meters"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country#Table"
   }
 }
