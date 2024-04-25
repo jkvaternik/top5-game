@@ -426,5 +426,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://www.scrapehero.com/location-reports/McDonalds-USA/"
+  },
+  "2024-04-25": {
+    "num": 61,
+    "category": "Best selling energy drink brands (2023)",
+    "answers": [
+      {
+        "text": [
+          "Red Bull"
+        ],
+        "stat": "$7.39 billion"
+      },
+      {
+        "text": [
+          "Monster"
+        ],
+        "stat": "$5.46 billion"
+      },
+      {
+        "text": [
+          "Celsius"
+        ],
+        "stat": "$1.02 billion"
+      },
+      {
+        "text": [
+          "Bang"
+        ],
+        "stat": "$846 million"
+      },
+      {
+        "text": [
+          "Rockstar"
+        ],
+        "stat": "$739 million"
+      }
+    ],
+    "optionsKey": "energy_drinks",
+    "url": "https://www.caffeineinformer.com/the-15-top-energy-drink-brands"
   }
 }

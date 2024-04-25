@@ -3520,5 +3520,27 @@
     "Anchorage",
     "Jersey City",
     "St. Louis"
+  ],
+  "energy_drinks": [
+    "Adrenaline Shock",
+    "Alani Nu",
+    "Bang",
+    "C4",
+    "Celsius",
+    "Fuel",
+    "Full Throttle",
+    "Ghost",
+    "Monster",
+    "Mtn Dew",
+    "NOS",
+    "Prime",
+    "Red Bull",
+    "Redline",
+    "Reign",
+    "Rockstar",
+    "Up Time",
+    "V8",
+    "Venom",
+    "Zoa"
   ]
 }
