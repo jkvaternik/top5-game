@@ -464,5 +464,53 @@
     ],
     "optionsKey": "energy_drinks",
     "url": "https://www.caffeineinformer.com/the-15-top-energy-drink-brands"
+  },
+  "2024-04-26": {
+    "num": 62,
+    "category": "NFL teams with the most Super Bowl wins",
+    "answers": [
+      {
+        "text": [
+          "Pittsburgh Steelers",
+          "New England Patriots"
+        ],
+        "stat": "6 wins"
+      },
+      {
+        "text": [
+          "San Francisco 49ers",
+          "Dallas Cowboys"
+        ],
+        "stat": "5 wins"
+      },
+      {
+        "text": [
+          "Green Bay Packers",
+          "New York Giants",
+          "Kansas City Chiefs"
+        ],
+        "stat": "4 wins"
+      },
+      {
+        "text": [
+          "Washington Commanders",
+          "Denver Broncos",
+          "Las Vegas Raiders"
+        ],
+        "stat": "3 wins"
+      },
+      {
+        "text": [
+          "Indianapolis Colts",
+          "Los Angeles Rams",
+          "Baltimore Ravens",
+          "Miami Dolphins",
+          "Tampa Bay Buccaneers"
+        ],
+        "stat": "2 wins"
+      }
+    ],
+    "optionsKey": "nfl_teams",
+    "url": "https://www.statista.com/statistics/266516/number-of-super-bowl-wins-by-nfl-team/"
   }
 }
