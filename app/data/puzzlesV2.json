@@ -556,5 +556,43 @@
     ],
     "optionsKey": "pixar_movies",
     "url": "https://editorial.rottentomatoes.com/guide/all-pixar-movies-ranked/"
+  },
+  "2024-04-28": {
+    "num": 64,
+    "category": "Countries with highest GDP (PPP)",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "35,291,015 million International$"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "28,781,083 million International$"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "14,594,460 million International$"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "6,720,962 million International$"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "5,686,531 million International$"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)"
   }
 }
