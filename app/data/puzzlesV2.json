@@ -512,5 +512,49 @@
     ],
     "optionsKey": "nfl_teams",
     "url": "https://www.statista.com/statistics/266516/number-of-super-bowl-wins-by-nfl-team/"
+  },
+  "2024-04-27": {
+    "num": 63,
+    "category": "Pixar movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Toy Story",
+          "Toy Story 2"
+        ],
+        "stat": "100%"
+      },
+      {
+        "text": [
+          "Finding Nemo"
+        ],
+        "stat": "99%"
+      },
+      {
+        "text": [
+          "Inside Out",
+          "Toy Story 3",
+          "Up"
+        ],
+        "stat": "98%"
+      },
+      {
+        "text": [
+          "Toy Story 4",
+          "Coco",
+          "The Incredibles"
+        ],
+        "stat": "97%"
+      },
+      {
+        "text": [
+          "Ratatouille",
+          "Monsters, Inc."
+        ],
+        "stat": "96%"
+      }
+    ],
+    "optionsKey": "pixar_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/all-pixar-movies-ranked/"
   }
 }
