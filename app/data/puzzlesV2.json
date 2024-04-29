@@ -594,5 +594,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)"
+  },
+  "2024-04-29": {
+    "num": 65,
+    "category": "Most common passwords in 2023",
+    "answers": [
+      {
+        "text": [
+          "123456"
+        ],
+        "stat": "4,524,867 users"
+      },
+      {
+        "text": [
+          "admin"
+        ],
+        "stat": "4,008,850 users"
+      },
+      {
+        "text": [
+          "12345678"
+        ],
+        "stat": "1,371,152 users"
+      },
+      {
+        "text": [
+          "123456789"
+        ],
+        "stat": "1,213,047 users"
+      },
+      {
+        "text": [
+          "1234"
+        ],
+        "stat": "969,811 users" 
+      }
+    ],
+    "optionsKey": "passwords",
+    "url": "https://nordpass.com/most-common-passwords-list/"
   }
 }
