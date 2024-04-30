@@ -632,5 +632,43 @@
     ],
     "optionsKey": "passwords",
     "url": "https://nordpass.com/most-common-passwords-list/"
+  },
+  "2024-04-30": {
+    "num": 66,
+    "category": "Highest grossing media franchises",
+    "answers": [
+      {
+        "text": [
+          "Pokemon"
+        ],
+        "stat": "$88 billion"
+      },
+      {
+        "text": [
+          "Mickey Mouse & Friends"
+      ],
+        "stat": "$52.2 billion"
+      },
+      {
+        "text": [
+          "Winnie the Pooh"
+        ],
+        "stat": "$48.5 billion"
+      },
+      {
+        "text": [
+          "Star Wars"
+        ],
+        "stat": "$46.7 billion"
+      },
+      {
+        "text": [
+          "Disney Princess"
+        ],
+        "stat": "$45.4 billion"
+      }
+    ],
+    "optionsKey": "media_franchises",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
   }
 }
