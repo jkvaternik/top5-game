@@ -670,5 +670,43 @@
     ],
     "optionsKey": "media_franchises",
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
+  },
+  "2024-05-01": {
+    "num": 67,
+    "category": "Countries with the most Michelin-starred restaurants",
+    "answers": [
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "625"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "414"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "380"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "328"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "248"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/statistics/1400971/countries-most-michelin-starred-restaurants-worldwide/"
   }
 }
