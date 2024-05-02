@@ -627,7 +627,7 @@
         "text": [
           "1234"
         ],
-        "stat": "969,811 users" 
+        "stat": "969,811 users"
       }
     ],
     "optionsKey": "passwords",
@@ -646,7 +646,7 @@
       {
         "text": [
           "Mickey Mouse & Friends"
-      ],
+        ],
         "stat": "$52.2 billion"
       },
       {
@@ -708,5 +708,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/statistics/1400971/countries-most-michelin-starred-restaurants-worldwide/"
+  },
+  "2024-05-02": {
+    "num": 68,
+    "category": "Cities with the longest metro systems (in total miles)",
+    "answers": [
+      {
+        "text": [
+          "Beijing"
+        ],
+        "stat": "507 miles"
+      },
+      {
+        "text": [
+          "Shanghai"
+        ],
+        "stat": "495 miles"
+      },
+      {
+        "text": [
+          "Guangzhou"
+        ],
+        "stat": "403 miles"
+      },
+      {
+        "text": [
+          "Seoul"
+        ],
+        "stat": "350 miles"
+      },
+      {
+        "text": [
+          "Moscow"
+        ],
+        "stat": "349 miles"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://en.wikipedia.org/wiki/List_of_metro_systems"
   }
 }
