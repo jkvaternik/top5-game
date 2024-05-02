@@ -784,5 +784,43 @@
     ],
     "optionsKey": "nyc_boroughs",
     "url": "https://en.wikipedia.org/wiki/Boroughs_of_New_York_City"
+  },
+  "2024-05-04": {
+    "num": 70,
+    "category": "Lord of the Rings characters ranked by mentions in the LOTR trilogy (excluding appendices)",
+    "answers": [
+      {
+        "text": [
+          "Frodo Baggins"
+        ],
+        "stat": "1983"
+      },
+      {
+        "text": [
+          "Gandalf"
+        ],
+        "stat": "1168"
+      },
+      {
+        "text": [
+          "Aragorn"
+        ],
+        "stat": "952"
+      },
+      {
+        "text": [
+          "Peregrin Took (Perry)"
+        ],
+        "stat": "734"
+      },
+      {
+        "text": [
+          "Samwise Gamgee"
+        ],
+        "stat": "714"
+      }
+    ],
+    "optionsKey": "lotr_characters",
+    "url": "https://www.vox.com/2014/12/17/7393641/hobbit-charts-lotr-tolkien"
   }
 }

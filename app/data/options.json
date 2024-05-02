@@ -3943,5 +3943,24 @@
     "Manhattan",
     "Queens",
     "Staten Island"
+  ],
+  "lotr_characters": [
+    "Aragorn",
+    "Arwen",
+    "Bilbo Baggins",
+    "Boromir",
+    "Elrond",
+    "Frodo Baggins",
+    "Galadriel",
+    "Gandalf",
+    "Gimli",
+    "Gollum",
+    "Legolas",
+    "Meriadoc Brandybuck (Merry)",
+    "Peregrin Took (Perry)",
+    "Samwise Gamgee",
+    "Saruman",
+    "Sauron",
+    "Theoden"
   ]
 }
