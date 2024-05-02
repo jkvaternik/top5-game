@@ -739,12 +739,50 @@
       },
       {
         "text": [
-          "Moscow"
+          "Chengdu"
         ],
         "stat": "349 miles"
       }
     ],
     "optionsKey": "cities",
     "url": "https://en.wikipedia.org/wiki/List_of_metro_systems"
+  },
+  "2024-05-03": {
+    "num": 69,
+    "category": "New York City boroughs ranked by population",
+    "answers": [
+      {
+        "text": [
+          "Brooklyn"
+        ],
+        "stat": "2,736,074"
+      },
+      {
+        "text": [
+          "Queens"
+        ],
+        "stat": "2,405,464"
+      },
+      {
+        "text": [
+          "Manhattan"
+        ],
+        "stat": "1,694,251"
+      },
+      {
+        "text": [
+          "The Bronx"
+        ],
+        "stat": "1,472,654"
+      },
+      {
+        "text": [
+          "Staten Island"
+        ],
+        "stat": "495,747"
+      }
+    ],
+    "optionsKey": "nyc_boroughs",
+    "url": "https://en.wikipedia.org/wiki/Boroughs_of_New_York_City"
   }
 }
