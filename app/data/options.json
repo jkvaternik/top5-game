@@ -3936,5 +3936,12 @@
     "X-Men",
     "Yo-kai Watch",
     "Yu-Gi-Oh!"
+  ],
+  "nyc_boroughs": [
+    "The Bronx",
+    "Brooklyn",
+    "Manhattan",
+    "Queens",
+    "Staten Island"
   ]
 }
