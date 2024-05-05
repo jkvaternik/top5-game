@@ -822,5 +822,43 @@
     ],
     "optionsKey": "lotr_characters",
     "url": "https://www.vox.com/2014/12/17/7393641/hobbit-charts-lotr-tolkien"
+  },
+  "2024-05-05": {
+    "num": 71,
+    "category": "States admitted to the United States most recently",
+    "answers": [
+      {
+        "text": [
+          "Hawaii"
+        ],
+        "stat": "August 21, 1959"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "January 3, 1959"
+      },
+      {
+        "text": [
+          "Arizona"
+        ],
+        "stat": "February 14, 1912"
+      },
+      {
+        "text": [
+          "New Mexico"
+        ],
+        "stat": "January 6, 1912"
+      },
+      {
+        "text": [
+          "Oklahoma"
+        ],
+        "stat": "November 16, 1907"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union"
   }
 }
