@@ -899,5 +899,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country"
+  },
+  "2024-05-07": {
+    "num": 73,
+    "category": "Rappers with the most Grammy Awards",
+    "answers": [
+      {
+        "text": [
+          "Jay-Z",
+          "Kanye West"
+        ],
+        "stat": "24"
+      },
+      {
+        "text": [
+          "Kendrick Lamar"
+        ],
+        "stat": "17"
+      },
+      {
+        "text": [
+          "Eminem"
+        ],
+        "stat": "15"
+      },
+      {
+        "text": [
+          "Pharrell Williams"
+        ],
+        "stat": "13"
+      },
+      {
+        "text": [
+          "André 3000"
+        ],
+        "stat": "9"
+      }
+    ],
+    "optionsKey": "grammy_rappers",
+    "url": "https://en.wikipedia.org/wiki/Grammy_Award_milestones"
   }
 }
