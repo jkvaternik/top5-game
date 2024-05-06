@@ -860,5 +860,44 @@
     ],
     "optionsKey": "us_states",
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union"
+  },
+  "2024-05-06": {
+    "num": 72,
+    "category": "Countries with the most UNESCO World Heritage Sites",
+    "answers": [
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "59 sites"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "57 sites"
+      },
+      {
+        "text": [
+          "France",
+          "Germany"
+        ],
+        "stat": "52 sites"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "50 sites"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "42 sites"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country"
   }
 }
