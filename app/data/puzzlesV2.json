@@ -938,5 +938,43 @@
     ],
     "optionsKey": "rappers",
     "url": "https://en.wikipedia.org/wiki/Grammy_Award_milestones"
+  },
+  "2024-05-08": {
+    "num": 74,
+    "category": "States that have produced the most NHL hockey players",
+    "answers": [
+      {
+        "text": [
+          "Minnesota"
+        ],
+        "stat": "290"
+      },
+      {
+        "text": [
+          "Massachusetts"
+        ],
+        "stat": "210"
+      },
+      {
+        "text": [
+          "Michigan"
+        ],
+        "stat": "189"
+      },
+      {
+        "text": [
+          "New York"
+        ],
+        "stat": "134"
+      },
+      {
+        "text": [
+          "Illinois"
+        ],
+        "stat": "74"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://usblog.betway.com/the-states-producing-the-most-athletes-betway-insider-usa/"
   }
 }
