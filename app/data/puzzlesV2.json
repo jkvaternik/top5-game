@@ -976,5 +976,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://usblog.betway.com/the-states-producing-the-most-athletes-betway-insider-usa/"
+  },
+  "2024-05-09": {
+    "num": 75,
+    "category": "Largest grocery stores by market share",
+    "answers": [
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "25.2%"
+      },
+      {
+        "text": [
+          "Costco"
+        ],
+        "stat": "7.1%"
+      },
+      {
+        "text": [
+          "Kroger"
+        ],
+        "stat": "5.6%"
+      },
+      {
+        "text": [
+          "Sam's Club"
+        ],
+        "stat": "4.7%"
+      },
+      {
+        "text": [
+          "Publix"
+        ],
+        "stat": "4.4%"
+      }
+    ],
+    "optionsKey": "grocery_stores",
+    "url": "https://www.axios.com/2023/04/20/most-popular-grocery-stores"
   }
 }
