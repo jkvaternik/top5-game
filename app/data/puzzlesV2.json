@@ -1014,5 +1014,43 @@
     ],
     "optionsKey": "grocery_stores",
     "url": "https://www.axios.com/2023/04/20/most-popular-grocery-stores"
+  },
+  "2024-05-10": {
+    "num": 76,
+    "category": "Countries with the longest coastlines",
+    "answers": [
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "202,080 kilometers"
+      },
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "83,281 kilometers"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "54,716 kilometers"
+      },
+      {
+        "text": [
+          "Greenland"
+        ],
+        "stat": "44,087 kilometers"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "37,653 kilometers"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline"
   }
 }
