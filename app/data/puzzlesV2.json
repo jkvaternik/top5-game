@@ -1052,5 +1052,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline"
+  },
+  "2024-05-11": {
+    "num": 77,
+    "category": "Star Wars movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Star Wars: Episode V - The Empire Strikes Back (1980)"
+        ],
+        "stat": "95%"
+      },
+      {
+        "text": [
+          "Star Wars: Episode IV - A New Hope (1977)",
+          "Star Wars: The Force Awakens (2015)"
+        ],
+        "stat": "93%"
+      },
+      {
+        "text": [
+          "Star Wars: The Last Jedi (2017)"
+        ],
+        "stat": "91%"
+      },
+      {
+        "text": [
+          "Rogue One: A Star Wars Story (2016)"
+        ],
+        "stat": "84%"
+      },
+      {
+        "text": [
+          "Star Wars: Episode VI - Return of the Jedi (1983)"
+        ],
+        "stat": "83%"
+      }
+    ],
+    "optionsKey": "star_wars_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/all-star-wars-movies-ranked/"
   }
 }

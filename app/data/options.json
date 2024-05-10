@@ -4054,5 +4054,19 @@
     "Whole Foods Market",
     "WinCo Foods",
     "Winn-Dixie"
+  ],
+  "star_wars_movies": [
+    "Star Wars: Episode IV - A New Hope (1977)",
+    "Star Wars: Episode V - The Empire Strikes Back (1980)",
+    "Star Wars: Episode VI - Return of the Jedi (1983)",
+    "Star Wars: Episode I - The Phantom Menace (1999)",
+    "Star Wars: Episode II - Attack of the Clones (2002)",
+    "Star Wars: Episode III - Revenge of the Sith (2005)",
+    "Star Wars: The Clone Wars (2008)",
+    "Star Wars: The Force Awakens (2015)",
+    "Rogue One: A Star Wars Story (2016)",
+    "Star Wars: The Last Jedi (2017)",
+    "Solo: A Star Wars Story (2018)",
+    "Star Wars: The Rise of Skywalker (2019)"
   ]
 }
