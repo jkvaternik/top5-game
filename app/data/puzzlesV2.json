@@ -1091,5 +1091,43 @@
     ],
     "optionsKey": "star_wars_movies",
     "url": "https://editorial.rottentomatoes.com/guide/all-star-wars-movies-ranked/"
+  },
+  "2024-05-12": {
+    "num": 78,
+    "category": "Longest Academy Award Best Picture winning films of all time (runtime)",
+    "answers": [
+      {
+        "text": [
+          "Gone with the Wind (1939)"
+        ],
+        "stat": "238 minutes"
+      },
+      {
+        "text": [
+          "Lawrence of Arabia (1962)"
+        ],
+        "stat": "228 minutes"
+      },
+      {
+        "text": [
+          "Ben-Hur (1959)"
+        ],
+        "stat": "222 minutes"
+      },
+      {
+        "text": [
+          "The Godfather Part II (1974)"
+        ],
+        "stat": "202 minutes"
+      },
+      {
+        "text": [
+          "The Lord of the Rings: The Return of the King (2003)"
+        ],
+        "stat": "201 minutes"
+      }
+    ],
+    "optionsKey": "best_picture_winners",
+    "url": "https://collider.com/longest-best-picture-winners-of-all-time/"
   }
 }
