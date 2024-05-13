@@ -1167,5 +1167,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_wins_by_country"
+  },
+  "2024-05-14": {
+    "num": 80,
+    "category": "Best selling artists of all time by total certified units",
+    "answers": [
+      {
+        "text": [
+          "The Beatles"
+        ],
+        "stat": "294 million"
+      },
+      {
+        "text": [
+          "Michael Jackson"
+        ],
+        "stat": "289.3 million"
+      },
+      {
+        "text": [
+          "Elvis Presley"
+        ],
+        "stat": "234.3 million"
+      },
+      {
+        "text": [
+          "Elton John"
+        ],
+        "stat": "213.1 million"
+      },
+      {
+        "text": [
+          "Queen"
+        ],
+        "stat": "186.8 million"
+      }
+    ],
+    "optionsKey": "music_artists",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_music_artists"
   }
 }
