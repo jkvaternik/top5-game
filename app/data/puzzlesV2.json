@@ -1205,5 +1205,43 @@
     ],
     "optionsKey": "musical_artists",
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_music_artists#Artists_by_reputed_sales"
+  },
+  "2024-05-15": {
+    "num": 81,
+    "category": "Book series by copies sold",
+    "answers": [
+      {
+        "text": [
+          "Harry Potter"
+        ],
+        "stat": "600 million"
+      },
+      {
+        "text": [
+          "Goosebumps"
+        ],
+        "stat": "400 million"
+      },
+      {
+        "text": [
+          "Perry Mason"
+        ],
+        "stat": "300 million"
+      },
+      {
+        "text": [
+          "Diary of a Wimpy Kid"
+        ],
+        "stat": "275 million"
+      },
+      {
+        "text": [
+          "Berenstain Bears"
+        ],
+        "stat": "260 million"
+      }
+    ],
+    "optionsKey": "book_series",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_books#List_of_best-selling_book_series"
   }
 }
