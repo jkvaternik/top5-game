@@ -1243,5 +1243,199 @@
     ],
     "optionsKey": "book_series",
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_books#List_of_best-selling_book_series"
+  },
+  "2024-05-16": {
+    "num": 82,
+    "category": "Oldest U.S. presidents at time of inauguration",
+    "answers": [
+      {
+        "text": [
+          "Joe Biden"
+        ],
+        "stat": "78 years, 61 days"
+      },
+      {
+        "text": [
+          "Donald Trump"
+        ],
+        "stat": "70 years, 220 days"
+      },
+      {
+        "text": [
+          "Ronald Reagan"
+        ],
+        "stat": "69 years, 349 days"
+      },
+      {
+        "text": [
+          "William Henry Harrison"
+        ],
+        "stat": "68 years, 23 days"
+      },
+      {
+        "text": [
+          "James Buchanan"
+        ],
+        "stat": "65 years, 315 days"
+      }
+    ],
+    "optionsKey": "us_presidents",
+    "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age"
+  },
+  "2024-05-17": {
+    "num": 83,
+    "category": "Football clubs with the most UEFA Champions League titles",
+    "answers": [
+      {
+        "text": [
+          "Real Madrid"
+        ],
+        "stat": "14 titles"
+      },
+      {
+        "text": [
+          "AC Milan"
+        ],
+        "stat": "7 titles"
+      },
+      {
+        "text": [
+          "Liverpool",
+          "Bayern Munich"
+        ],
+        "stat": "6 titles"
+      },
+      {
+        "text": [
+          "Barcelona"
+        ],
+        "stat": "5 titles"
+      },
+      {
+        "text": [
+          "Ajax"
+        ],
+        "stat": "4 titles"
+      }
+    ],
+    "optionsKey": "football_clubs",
+    "url": "https://en.wikipedia.org/wiki/European_Cup_and_UEFA_Champions_League_records_and_statistics"
+  },
+  "2024-05-18": {
+    "num": 84,
+    "category": "TV shows with most Emmy award wins of all time",
+    "answers": [
+      {
+        "text": [
+          "Saturday Night Live"
+        ],
+        "stat": "84 wins"
+      },
+      {
+        "text": [
+          "Game of Thrones"
+        ],
+        "stat": "59 wins"
+      },
+      {
+        "text": [
+          "Frasier",
+          "The Simpsons"
+        ],
+        "stat": "37 wins"
+      },
+      {
+        "text": [
+          "RuPaul's Drag Race",
+          "The Mary Tyler Moore Show"
+        ],
+        "stat": "29 wins"
+      },
+      {
+        "text": [
+          "Last Week Tonight With John Oliver",
+          "Cheers"
+        ],
+        "stat": "28 wins"
+      }
+    ],
+    "optionsKey": "emmy_tv_shows",
+    "url": "https://www.statista.com/statistics/726527/emmys-most-wins-all-time/"
+  },
+  "2024-05-19": {
+    "num": 85,
+    "category": "Countries with the most billionaires",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "813"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "406"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "200"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "132"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "120"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.forbes.com/sites/devinseanmartin/2024/04/02/the-countries-with-the-most-billionaires-2024/"
+  },
+  "2024-05-20": {
+    "num": 86,
+    "category": "Most common Pokémon types by total number of Pokémon",
+    "answers": [
+      {
+        "text": [
+          "Water"
+        ],
+        "stat": "159 species"
+      },
+      {
+        "text": [
+          "Normal"
+        ],
+        "stat": "133 species"
+      },
+      {
+        "text": [
+          "Grass"
+        ],
+        "stat": "130 species"
+      },
+      {
+        "text": [
+          "Flying"
+        ],
+        "stat": "112 species"
+      },
+      {
+        "text": [
+          "Psychic"
+        ],
+        "stat": "109 species"
+      }
+    ],
+    "optionsKey": "pokemon_types",
+    "url": "https://www.cbr.com/every-pokemon-type-ranked-by-total-number-of-pokemon/"
   }
 }
