@@ -1437,5 +1437,43 @@
     ],
     "optionsKey": "pokemon_types",
     "url": "https://www.cbr.com/every-pokemon-type-ranked-by-total-number-of-pokemon/"
+  },
+  "2024-05-21": {
+    "num": 87,
+    "category": "Universities with the largest football stadiums (by capacity)",
+    "answers": [
+      {
+        "text": [
+          "Michigan Stadium (University of Michigan)"
+        ],
+        "stat": "107,601"
+      },
+      {
+        "text": [
+          "Beaver Stadium (Penn State University)"
+        ],
+        "stat": "106,572"
+      },
+      {
+        "text": [
+          "Ohio Stadium (Ohio State University)"
+        ],
+        "stat": "102,780"
+      },
+      {
+        "text": [
+          "Kyle Field (Texas A&M University)"
+        ],
+        "stat": "102,733"
+      },
+      {
+        "text": [
+          "Tiger Stadium (Louisiana State University)"
+        ],
+        "stat": "102,321"
+      }
+    ],
+    "optionsKey": "university_stadiums",
+    "url": "https://www.collegetransitions.com/blog/largest-college-football-stadiums/"
   }
 }

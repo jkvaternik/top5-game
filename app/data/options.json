@@ -4371,5 +4371,33 @@
     "Rock",
     "Steel",
     "Water"
+  ],
+  "university_stadiums": [
+    "Autzen Stadium (University of Oregon)",
+    "Beaver Stadium (Penn State University)",
+    "Ben Hill Griffin Stadium (University of Florida)",
+    "Bryant–Denny Stadium (University of Alabama)",
+    "Camp Randall Stadium (University of Wisconsin–Madison)",
+    "Clemson Memorial Stadium (Clemson University)",
+    "Cotton Bowl (University of Texas at Dallas)",
+    "Darrell K Royal–Texas Memorial Stadium (University of Texas at Austin)",
+    "Doak Campbell Stadium (Florida State University)",
+    "Donald W. Reynolds Razorback Stadium (University of Arkansas)",
+    "Gaylord Family Oklahoma Memorial Stadium (University of Oklahoma)",
+    "Husky Stadium (University of Washington)",
+    "Jordan–Hare Stadium (Auburn University)",
+    "Kinnick Stadium (University of Iowa)",
+    "Kyle Field (Texas A&M University)",
+    "Lincoln Financial Field (Temple University)",
+    "Los Angeles Memorial Coliseum (University of Southern California)",
+    "Memorial Stadium (University of Nebraska–Lincoln)",
+    "Michigan Stadium (University of Michigan)",
+    "Neyland Stadium (University of Tennessee)",
+    "Notre Dame Stadium (University of Notre Dame)",
+    "Ohio Stadium (Ohio State University)",
+    "Rose Bowl (University of California, Los Angeles)",
+    "Spartan Stadium (Michigan State University)",
+    "Tiger Stadium (Louisiana State University)",
+    "Williams-Brice Stadium (University of South Carolina)"
   ]
 }
