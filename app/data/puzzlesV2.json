@@ -1475,5 +1475,43 @@
     ],
     "optionsKey": "university_stadiums",
     "url": "https://www.collegetransitions.com/blog/largest-college-football-stadiums/"
+  },
+  "2024-05-22": {
+    "num": 88,
+    "category": "Largest states by area",
+    "answers": [
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "665,384 square miles"
+      },
+      {
+        "text": [
+          "Texas"
+        ],
+        "stat": "268,596 square miles"
+      },
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "163,695 square miles"
+      },
+      {
+        "text": [
+          "Montana"
+        ],
+        "stat": "147,040 square miles"
+      },
+      {
+        "text": [
+          "New Mexico"
+        ],
+        "stat": "121,590 square miles"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
   }
 }
