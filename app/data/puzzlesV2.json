@@ -1475,5 +1475,43 @@
     ],
     "optionsKey": "university_stadiums",
     "url": "https://www.collegetransitions.com/blog/largest-college-football-stadiums/"
-  }
+  },
+  "2024-05-22": {
+    "num": 88,
+    "category": "Countries with the most Grand Slam tennis titles",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "351 titles"
+      },
+      {
+        "text": [
+          "Australia"
+        ],
+        "stat": "166 titles"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "98 titles"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "42 titles"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "40 titles"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_singles_champions_by_country#Total_Grand_Slam_titles_by_country"
+  },
 }
