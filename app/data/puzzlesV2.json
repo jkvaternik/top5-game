@@ -1551,5 +1551,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
+  },
+  "2024-05-24": {
+    "num": 90,
+    "category": "Largest Swiss watch brands by market share",
+    "answers": [
+      {
+        "text": [
+          "Rolex"
+        ],
+        "stat": "30%"
+      },
+      {
+        "text": [
+          "Cartier"
+        ],
+        "stat": "8%"
+      },
+      {
+        "text": [
+          "Omega"
+        ],
+        "stat": "7%"
+      },
+      {
+        "text": [
+          "Audemars Piguet"
+        ],
+        "stat": "5.1%"
+      },
+      {
+        "text": [
+          "Patek Philippe"
+        ],
+        "stat": "4.7%"
+      }
+    ],
+    "optionsKey": "swiss_watch_brands",
+    "url": "https://monochrome-watches.com/industry-news-top-50-swiss-watch-companies-of-2023-according-to-morgan-stanley-rolex-breaking-the-chf-10-billion-barrier/"
   }
 }
