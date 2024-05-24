@@ -1589,5 +1589,43 @@
     ],
     "optionsKey": "swiss_watch_brands",
     "url": "https://monochrome-watches.com/industry-news-top-50-swiss-watch-companies-of-2023-according-to-morgan-stanley-rolex-breaking-the-chf-10-billion-barrier/"
+  },
+  "2024-05-25": {
+    "num": 91,
+    "category": "Countries with the most wild tigers",
+    "answers": [
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "2,967"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "433"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "371"
+      },
+      {
+        "text": [
+          "Nepal"
+        ],
+        "stat": "355"
+      },
+      {
+        "text": [
+          "Thailand"
+        ],
+        "stat": "148-149"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldatlas.com/conservation/countries-with-the-greatest-number-of-wild-tigers.html"
   }
 }
