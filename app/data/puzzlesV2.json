@@ -1627,5 +1627,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.worldatlas.com/conservation/countries-with-the-greatest-number-of-wild-tigers.html"
+  },
+  "2024-05-26": {
+    "num": 92,
+    "category": "Largest burger chains in the US by locations",
+    "answers": [
+      {
+        "text": [
+          "McDonald's"
+        ],
+        "stat": "13,846 locations"
+      },
+      {
+        "text": [
+          "Burger King"
+        ],
+        "stat": "7,346 locations"
+      },
+      {
+        "text": [
+          "Wendy's"
+        ],
+        "stat": "5,852 locations"
+      },
+      {
+        "text": [
+          "Sonic Drive-In"
+        ],
+        "stat": "3,526 locations"
+      },
+      {
+        "text": [
+          "Jack In The Box"
+        ],
+        "stat": "2,243 locations"
+      }
+    ],
+    "optionsKey": "burger_chains",
+    "url": "https://www.restaurantbusinessonline.com/financing/largest-burger-chains-us"
   }
 }

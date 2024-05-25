@@ -4433,5 +4433,28 @@
     "Ulysse Nardin",
     "Vacheron Constantin",
     "Zenith"
+  ],
+  "burger_chains": [
+    "A&W Restaurants",
+    "Arby's",
+    "Burger King",
+    "Carl's Jr.",
+    "Checkers Drive-In Restaurants",
+    "Culver's",
+    "Dairy Queen",
+    "Five Guys",
+    "Fuddruckers",
+    "Hardee's",
+    "In-N-Out Burger",
+    "Jack In The Box",
+    "Krystal Co.",
+    "McDonald's",
+    "Shake Shack",
+    "Sonic Drive-In",
+    "Steak 'n Shake",
+    "Tasty Burger",
+    "Wendy's",
+    "Whataburger",
+    "White Castle"
   ]
 }
