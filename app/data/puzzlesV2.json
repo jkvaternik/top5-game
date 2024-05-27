@@ -1665,5 +1665,43 @@
     ],
     "optionsKey": "burger_chains",
     "url": "https://www.restaurantbusinessonline.com/financing/largest-burger-chains-us"
+  },
+  "2024-05-27": {
+    "num": 93,
+    "category": "Harry Potter movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Harry Potter and the Deathly Hallows – Part 2"
+        ],
+        "stat": "96%"
+      },
+      {
+        "text": [
+          "Harry Potter and the Prisoner of Azkaban"
+        ],
+        "stat": "90%"
+      },
+      {
+        "text": [
+          "Harry Potter and the Goblet of Fire"
+        ],
+        "stat": "88%"
+      },
+      {
+        "text": [
+          "Harry Potter and the Deathly Hallows – Part 1"
+        ],
+        "stat": "84%"
+      },
+      {
+        "text": [
+          "Harry Potter and the Order of the Phoenix"
+        ],
+        "stat": "82%"
+      }
+    ],
+    "optionsKey": "harry_potter_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/all-harry-potter-movies-ranked-by-tomatometer/"
   }
 }
