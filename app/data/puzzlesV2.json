@@ -1703,5 +1703,45 @@
     ],
     "optionsKey": "harry_potter_movies",
     "url": "https://editorial.rottentomatoes.com/guide/all-harry-potter-movies-ranked-by-tomatometer/"
+  },
+  "2024-05-28": {
+    "num": 94,
+    "category": "US states with the most national parks",
+    "answers": [
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "9 parks"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "8 parks"
+      },
+      {
+        "text": [
+          "Utah"
+        ],
+        "stat": "5 parks"
+      },
+      {
+        "text": [
+          "Colorado"
+        ],
+        "stat": "4 parks"
+      },
+      {
+        "text": [
+          "Arizona",
+          "Florida",
+          "Washington"
+        ],
+        "stat": "3 parks"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://www.nps.gov/aboutus/national-park-system.htm"
   }
 }
