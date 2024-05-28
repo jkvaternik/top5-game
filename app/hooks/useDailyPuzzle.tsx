@@ -4,7 +4,7 @@ import optionsData from '../data/options.json';
 
 export type Answer = {
   text: string[];
-  stat: string;
+  stat: string | null;
 }
 
 type PuzzleInput = {
@@ -24,17 +24,20 @@ export type Puzzle = {
   url?: string;
 }
 
-const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
+export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
 const options: { [key: string]: string[] } = optionsData;
 
 // This hook returns the puzzle for the current day
 // If there is no puzzle for today, it returns null
-const useDailyPuzzle: () => Puzzle | null = () => {
+const useDailyPuzzle: (day: string | undefined) => Puzzle | null = (day: string | undefined) => {
   const [todayPuzzle, setTodayPuzzle] = useState<Puzzle | null>(null);
 
   useEffect(() => {
-    const today: string = getCurrentLocalDateAsString()
-    const dailyPuzzle: PuzzleInput = puzzles[today]
+    let puzzleDay = day
+    if (!puzzleDay) {
+      puzzleDay = getCurrentLocalDateAsString()
+    }
+    const dailyPuzzle: PuzzleInput = puzzles[puzzleDay]
 
     if (dailyPuzzle) {
       const optionsList: string[] = options[dailyPuzzle.optionsKey]
@@ -46,10 +49,11 @@ const useDailyPuzzle: () => Puzzle | null = () => {
       // Handle the case where there is no puzzle for today
       setTodayPuzzle(null);
     }
-  }, []);
+  }, [day]);
 
   return todayPuzzle;
 }
+
 
 const getCurrentLocalDateAsString = () => {
   const now = new Date();

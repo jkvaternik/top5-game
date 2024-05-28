@@ -16,6 +16,7 @@ import RankList from "./components/RankList";
 import { InstructionsModal } from "./components/InstructionsModal";
 
 import { LIVES, useGameState } from "./hooks/useGameState";
+import ArchiveModal from "./components/ArchiveModal";
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -24,7 +25,7 @@ const montserrat = Montserrat({
 
 
 export default function Home() {
-  const puzzle = useDailyPuzzle();
+  const puzzle = useDailyPuzzle(undefined);
   const { guessHistory, guesses, handleGuess, lives, gameOver } = useGameState(puzzle);
 
   const [isExploding, setIsExploding] = useState(false);
@@ -32,6 +33,7 @@ export default function Home() {
 
   const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
+  const [showArchiveModal, setShowArchiveModal] = useState(false);
 
   useEffect(() => {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
@@ -84,7 +86,7 @@ export default function Home() {
       </section>
       <br></br>
       <section className="flex flex-col gap-4">
-        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
+        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} onGoToArchive={() => setShowArchiveModal(true)} />
       </section>
     </>
   )
@@ -94,6 +96,7 @@ export default function Home() {
       <ToastContainer closeButton={false} />
       {gameView}
       {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
+      {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => setShowArchiveModal(false)} />}
       {gameOver && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
     </main >
   );

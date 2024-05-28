@@ -19,7 +19,7 @@ const montserrat = Montserrat({
 
 const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
   const copyScore = () => {
-    navigator.clipboard.writeText(`Top 5 (#${puzzle.num})\n${getShareableEmojiScore(score)}`);
+    navigator.clipboard.writeText(`Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`);
 
     // Show a toast above the game over modal that is white text on a green background
     // and disapears after 2 seconds

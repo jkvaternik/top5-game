@@ -1,4 +1,1867 @@
 {
+  "2024-02-25": {
+    "num": 1,
+    "category": "Largest countries by area",
+    "answers": [
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "6.602 million mi²"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "3.855 million mi²"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "3.747 million mi²"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "3.618 million mi²"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "3.288 million mi²"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
+  },
+  "2024-02-26": {
+    "num": 2,
+    "category": "Most populous cities in the world",
+    "answers": [
+      {
+        "text": [
+          "Tokyo"
+        ],
+        "stat": "37,115,035 people"
+      },
+      {
+        "text": [
+          "Delhi"
+        ],
+        "stat": "33,807,403 people"
+      },
+      {
+        "text": [
+          "Shanghai"
+        ],
+        "stat": "29,867,918 people"
+      },
+      {
+        "text": [
+          "Dhaka"
+        ],
+        "stat": "23,935,652 people"
+      },
+      {
+        "text": [
+          "Sao Paulo"
+        ],
+        "stat": "22,806,704 people"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://worldpopulationreview.com/world-cities"
+  },
+  "2024-02-27": {
+    "num": 3,
+    "category": "Most mentioned Harry Potter characters in the books",
+    "answers": [
+      {
+        "text": [
+          "Harry Potter"
+        ],
+        "stat": "18,956"
+      },
+      {
+        "text": [
+          "Hermione Granger"
+        ],
+        "stat": "6,464"
+      },
+      {
+        "text": [
+          "Ron Weasley"
+        ],
+        "stat": "5,486"
+      },
+      {
+        "text": [
+          "Albus Dumbledore"
+        ],
+        "stat": "2,421"
+      },
+      {
+        "text": [
+          "Rubeus Hagrid"
+        ],
+        "stat": "2,024"
+      }
+    ],
+    "optionsKey": "harry_potter_characters",
+    "url": "https://aminoapps.com/c/harry-potter/page/blog/20-most-mentioned-characters/ZJTB_ugJEZM1ZgPWlRrrEDDRX5qX4m"
+  },
+  "2024-02-28": {
+    "num": 4,
+    "category": "Highest grossing films of all time",
+    "answers": [
+      {
+        "text": [
+          "Avatar"
+        ],
+        "stat": "$2,923,706,026"
+      },
+      {
+        "text": [
+          "Avengers: Endgame"
+        ],
+        "stat": "$2,797,501,328"
+      },
+      {
+        "text": [
+          "Avatar: The Way of Water"
+        ],
+        "stat": "$2,320,250,281"
+      },
+      {
+        "text": [
+          "Titanic"
+        ],
+        "stat": "$2,257,844,554"
+      },
+      {
+        "text": [
+          "Star Wars: Episode VII - The Force Awakens"
+        ],
+        "stat": "$2,068,223,624"
+      }
+    ],
+    "optionsKey": "grossing_movies",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films"
+  },
+  "2024-02-29": {
+    "num": 5,
+    "category": "Largest countries by population",
+    "answers": [
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "1,428,627,663"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "1,425,671,352"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "339,996,563"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "277,534,122"
+      },
+      {
+        "text": [
+          "Pakistan"
+        ],
+        "stat": "240,485,658"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldometers.info/world-population/population-by-country/"
+  },
+  "2024-03-01": {
+    "num": 6,
+    "category": "Most spoken languages by total language speakers",
+    "answers": [
+      {
+        "text": [
+          "English"
+        ],
+        "stat": "1.456 billion people"
+      },
+      {
+        "text": [
+          "Mandarin Chinese"
+        ],
+        "stat": "1.138 billion people"
+      },
+      {
+        "text": [
+          "Hindi"
+        ],
+        "stat": "610 million people"
+      },
+      {
+        "text": [
+          "Spanish"
+        ],
+        "stat": "559 million"
+      },
+      {
+        "text": [
+          "French"
+        ],
+        "stat": "310 million"
+      }
+    ],
+    "optionsKey": "languages",
+    "url": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers#Ethnologue_(2023)"
+  },
+  "2024-03-02": {
+    "num": 7,
+    "category": "Best selling video games of all time",
+    "answers": [
+      {
+        "text": [
+          "Minecraft"
+        ],
+        "stat": "300,000,000 sales"
+      },
+      {
+        "text": [
+          "Grand Theft Auto V"
+        ],
+        "stat": "200,000,000 sales"
+      },
+      {
+        "text": [
+          "Tetris"
+        ],
+        "stat": "100,000,000"
+      },
+      {
+        "text": [
+          "Wii Sports"
+        ],
+        "stat": "82,900,000"
+      },
+      {
+        "text": [
+          "PUBG: Battlegrounds"
+        ],
+        "stat": "75,000,000"
+      }
+    ],
+    "optionsKey": "video_games",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+  },
+  "2024-03-03": {
+    "num": 8,
+    "category": "Most popular social networks by monthly active users",
+    "answers": [
+      {
+        "text": [
+          "Facebook"
+        ],
+        "stat": "3.070 billion MAUs"
+      },
+      {
+        "text": [
+          "YouTube"
+        ],
+        "stat": "2.504 billion MAUs"
+      },
+      {
+        "text": [
+          "WhatsApp",
+          "Instagram"
+        ],
+        "stat": "2 billion MAUs"
+      },
+      {
+        "text": [
+          "Tiktok"
+        ],
+        "stat": "1.582 billions MAUs"
+      },
+      {
+        "text": [
+          "WeChat"
+        ],
+        "stat": "1.343 billion MAUs"
+      }
+    ],
+    "optionsKey": "social_networks",
+    "url": "https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users"
+  },
+  "2024-03-04": {
+    "num": 9,
+    "category": "Countries with most pizza consumed per capita",
+    "answers": [
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "11.40 kg/person"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "8.90 kg/person"
+      },
+      {
+        "text": [
+          "Australia"
+        ],
+        "stat": "8.60 kg/person"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "7.60 kg/person"
+      },
+      {
+        "text": [
+          "Switzerland"
+        ],
+        "stat": "7.50 kg/person"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://worldpopulationreview.com/country-rankings/pizza-consumption-by-country"
+  },
+  "2024-03-05": {
+    "num": 10,
+    "category": "Most streamed musical artists of all time",
+    "answers": [
+      {
+        "text": [
+          "Taylor Swift"
+        ],
+        "stat": "81.740 billion streams"
+      },
+      {
+        "text": [
+          "Drake"
+        ],
+        "stat": "75.948 billion streams"
+      },
+      {
+        "text": [
+          "Bad Bunny"
+        ],
+        "stat": "72.155 billion streams"
+      },
+      {
+        "text": [
+          "The Weeknd"
+        ],
+        "stat": "57.405 billion streams"
+      },
+      {
+        "text": [
+          "Ed Sheeran"
+        ],
+        "stat": "48.262 billion streams"
+      }
+    ],
+    "optionsKey": "musical_artists",
+    "url": "https://chartmasters.org/most-streamed-artists-ever-on-spotify/"
+  },
+  "2024-03-06": {
+    "num": 11,
+    "category": "Most followed Instagram accounts",
+    "answers": [
+      {
+        "text": [
+          "Instagram"
+        ],
+        "stat": "672 million followers"
+      },
+      {
+        "text": [
+          "Cristiano Ronaldo"
+        ],
+        "stat": "629 million followers"
+      },
+      {
+        "text": [
+          "Lionel Messi"
+        ],
+        "stat": "502 million followers"
+      },
+      {
+        "text": [
+          "Selena Gomez"
+        ],
+        "stat": "428 million followers"
+      },
+      {
+        "text": [
+          "Kylie Jenner"
+        ],
+        "stat": "399 million followers"
+      }
+    ],
+    "optionsKey": "celebrities",
+    "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts"
+  },
+  "2024-03-07": {
+    "num": 12,
+    "category": "Tallest buildings in the world",
+    "answers": [
+      {
+        "text": [
+          "Burj Khalifa"
+        ],
+        "stat": "828.0 m"
+      },
+      {
+        "text": [
+          "Merdeka 118"
+        ],
+        "stat": "678.9 m"
+      },
+      {
+        "text": [
+          "Shanghai Tower"
+        ],
+        "stat": "632.0 m"
+      },
+      {
+        "text": [
+          "Abraj Al-Bait Clock Tower"
+        ],
+        "stat": "601.0 m"
+      },
+      {
+        "text": [
+          "Ping An International Finance Centre"
+        ],
+        "stat": "599.1 m"
+      }
+    ],
+    "optionsKey": "buildings",
+    "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings"
+  },
+  "2024-03-08": {
+    "num": 13,
+    "category": "Most visited art museums in the world",
+    "answers": [
+      {
+        "text": [
+          "Louvre Museum"
+        ],
+        "stat": "8,860,000 people"
+      },
+      {
+        "text": [
+          "Vatican Museums"
+        ],
+        "stat": "6,764,858 people"
+      },
+      {
+        "text": [
+          "British Museum"
+        ],
+        "stat": "5,820,860 people"
+      },
+      {
+        "text": [
+          "Metropolitan Museum of Art"
+        ],
+        "stat": "5,364,000 people"
+      },
+      {
+        "text": [
+          "Tate Modern"
+        ],
+        "stat": "4,742,038 people"
+      }
+    ],
+    "optionsKey": "art_museums",
+    "url": "https://en.wikipedia.org/wiki/List_of_most-visited_art_museums"
+  },
+  "2024-03-09": {
+    "num": 14,
+    "category": "Most common words in the English language",
+    "answers": [
+      {
+        "text": [
+          "the"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "be"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "to"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "of"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "and"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "words",
+    "url": "https://web.archive.org/web/20111226085859/http://oxforddictionaries.com/words/the-oec-facts-about-the-language"
+  },
+  "2024-03-10": {
+    "num": 15,
+    "category": "Countries with the most McDonald's restaurants",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "13,682 outlets"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "4,978 outlets"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "2,900 outlets"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "1,500 outlets"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "1,422 outlets"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants#Countries_and_territories_with_at_least_one_McDonald's_outlet"
+  },
+  "2024-03-11": {
+    "num": 16,
+    "category": "Most valuable companies by market capitalization",
+    "answers": [
+      {
+        "text": [
+          "Microsoft"
+        ],
+        "stat": "$3.197 T"
+      },
+      {
+        "text": [
+          "Apple"
+        ],
+        "stat": "$2.913 T"
+      },
+      {
+        "text": [
+          "NVIDIA"
+        ],
+        "stat": "$2.618 T"
+      },
+      {
+        "text": [
+          "Alphabet (Google)"
+        ],
+        "stat": "$2.170 T"
+      },
+      {
+        "text": [
+          "Saudi Aramco"
+        ],
+        "stat": "$1.937 T"
+      }
+    ],
+    "optionsKey": "companies",
+    "url": "https://companiesmarketcap.com/"
+  },
+  "2024-03-12": {
+    "num": 17,
+    "category": "Longest running scripted American TV shows by number of seasons",
+    "answers": [
+      {
+        "text": [
+          "The Simpsons"
+        ],
+        "stat": "768 episodes"
+      },
+      {
+        "text": [
+          "Law & Order: Special Victims Unit"
+        ],
+        "stat": "551 episodes"
+      },
+      {
+        "text": [
+          "Law & Order"
+        ],
+        "stat": "501 episodes"
+      },
+      {
+        "text": [
+          "Family Guy"
+        ],
+        "stat": "424 episodes"
+      },
+      {
+        "text": [
+          "NCIS"
+        ],
+        "stat": "467 episodes"
+      }
+    ],
+    "optionsKey": "tv_shows",
+    "url": "https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series"
+  },
+  "2024-03-13": {
+    "num": 18,
+    "category": "Countries with most Nobel prize winners",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "411 winners"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "137 winners"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "115 winners"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "75 winners"
+      },
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "34 winners"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country"
+  },
+  "2024-03-14": {
+    "num": 19,
+    "category": "Most valuable clothing & apparel brands in the world",
+    "answers": [
+      {
+        "text": [
+          "Nike"
+        ],
+        "stat": "$31,307M"
+      },
+      {
+        "text": [
+          "Louis Vuitton"
+        ],
+        "stat": "$26,290M"
+      },
+      {
+        "text": [
+          "Chanel"
+        ],
+        "stat": "$19,386M"
+      },
+      {
+        "text": [
+          "Gucci"
+        ],
+        "stat": "$17,839M"
+      },
+      {
+        "text": [
+          "Adidas"
+        ],
+        "stat": "$15,660M"
+      }
+    ],
+    "optionsKey": "fashion_brands",
+    "url": "https://brandirectory.com/rankings/apparel/table"
+  },
+  "2024-03-15": {
+    "num": 20,
+    "category": "Countries with the most beer consumed per capita",
+    "answers": [
+      {
+        "text": [
+          "Czech Republic"
+        ],
+        "stat": "140 L"
+      },
+      {
+        "text": [
+          "Austria"
+        ],
+        "stat": "107.8 L"
+      },
+      {
+        "text": [
+          "Romania"
+        ],
+        "stat": "100.3 L"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "99 L"
+      },
+      {
+        "text": [
+          "Poland"
+        ],
+        "stat": "97.7 L"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/beer-consumption-by-country"
+  },
+  "2024-03-16": {
+    "num": 21,
+    "category": "Oldest US National Parks",
+    "answers": [
+      {
+        "text": [
+          "Yellowstone"
+        ],
+        "stat": "March 1, 1872"
+      },
+      {
+        "text": [
+          "Sequoia"
+        ],
+        "stat": "September 25, 1890"
+      },
+      {
+        "text": [
+          "Yosemite"
+        ],
+        "stat": "October 1, 1890"
+      },
+      {
+        "text": [
+          "Mount Rainier"
+        ],
+        "stat": "March 2, 1899"
+      },
+      {
+        "text": [
+          "Crater Lake"
+        ],
+        "stat": "May 22, 1902"
+      }
+    ],
+    "optionsKey": "national_parks",
+    "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+  },
+  "2024-03-17": {
+    "num": 22,
+    "category": "Best selling car brands in the world",
+    "answers": [
+      {
+        "text": [
+          "Toyota"
+        ],
+        "stat": "1.3 million vehicles"
+      },
+      {
+        "text": [
+          "Volkswagen"
+        ],
+        "stat": "735,284 vehicles"
+      },
+      {
+        "text": [
+          "Honda"
+        ],
+        "stat": "587,974 vehicles"
+      },
+      {
+        "text": [
+          "Ford"
+        ],
+        "stat": "578,957 vehicles"
+      },
+      {
+        "text": [
+          "Hyundai"
+        ],
+        "stat": "534,548 vehicles"
+      }
+    ],
+    "optionsKey": "car_brands",
+    "url": "https://www.focus2move.com/world-cars-brand-ranking/#:~:text=On%20top%2C%20as%20happening%20uninterruptedly,million%20cars%20(%2B7.0%25)."
+  },
+  "2024-03-18": {
+    "num": 23,
+    "category": "Most visited countries by number of arrivals",
+    "answers": [
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "89.4 million people"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "83.7 million people"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "79.3 million people"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "65.7 million people"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "64.5 million people"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/most-visited-countries#map"
+  },
+  "2024-03-19": {
+    "num": 24,
+    "category": "Most abundant elements in the Earth's crust",
+    "answers": [
+      {
+        "text": [
+          "Oxygen"
+        ],
+        "stat": "461,000 ppm"
+      },
+      {
+        "text": [
+          "Silicon"
+        ],
+        "stat": "282,000 ppm"
+      },
+      {
+        "text": [
+          "Aluminium"
+        ],
+        "stat": "82,300 ppm"
+      },
+      {
+        "text": [
+          "Iron"
+        ],
+        "stat": "56,300 ppm"
+      },
+      {
+        "text": [
+          "Calcium"
+        ],
+        "stat": "41,500 ppm"
+      }
+    ],
+    "optionsKey": "elements",
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+  },
+  "2024-03-20": {
+    "num": 25,
+    "category": "Countries with the most wine production",
+    "answers": [
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "4.8 million tons"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "4.6 million tons"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "4.3 million tons"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "3.3 million tons"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "1.7 million tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.datapandas.org/ranking/wine-production-by-country"
+  },
+  "2024-03-21": {
+    "num": 26,
+    "category": "States with the most cows",
+    "answers": [
+      {
+        "text": [
+          "Texas"
+        ],
+        "stat": "4.12 million cows"
+      },
+      {
+        "text": [
+          "Oklahoma"
+        ],
+        "stat": "1.92 million cows"
+      },
+      {
+        "text": [
+          "Missouri"
+        ],
+        "stat": "1.84 million cows"
+      },
+      {
+        "text": [
+          "Nebraska"
+        ],
+        "stat": "1.64 million cows"
+      },
+      {
+        "text": [
+          "South Dakota"
+        ],
+        "stat": "1.50 million cows"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://app.usda-reports.penguinlabs.net/?crop=cattle_cows_beef&statistic=inventory_head&yearet=&year=2024cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
+  },
+  "2024-03-22": {
+    "num": 27,
+    "category": "Best selling cereals in the US by boxes sold",
+    "answers": [
+      {
+        "text": [
+          "Cheerios"
+        ],
+        "stat": "139.1 million boxes"
+      },
+      {
+        "text": [
+          "Frosted Flakes"
+        ],
+        "stat": "132.3 million boxes"
+      },
+      {
+        "text": [
+          "Honey Nut Cheerios"
+        ],
+        "stat": "129.3 million boxes"
+      },
+      {
+        "text": [
+          "Honey Bunches of Oats"
+        ],
+        "stat": "111.3 million boxes"
+      },
+      {
+        "text": [
+          "Cinnamon Toast Crunch"
+        ],
+        "stat": "105.2 million boxes"
+      }
+    ],
+    "optionsKey": "cereals",
+    "url": "https://dailyinfographic.com/most-popular-cereals-in-america"
+  },
+  "2024-03-23": {
+    "num": 28,
+    "category": "Highest grossing Broadway musicals of all time",
+    "answers": [
+      {
+        "text": [
+          "The Lion King"
+        ],
+        "stat": "$1,957,380,113"
+      },
+      {
+        "text": [
+          "Wicked"
+        ],
+        "stat": "$1,616,910,066"
+      },
+      {
+        "text": [
+          "The Phantom of the Opera"
+        ],
+        "stat": "$1,364,632,622"
+      },
+      {
+        "text": [
+          "Hamilton"
+        ],
+        "stat": "$931,943,538"
+      },
+      {
+        "text": [
+          "The Book of Mormon"
+        ],
+        "stat": "$790,759,154"
+      }
+    ],
+    "optionsKey": "broadway_musicals",
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_musical_theatre_productions"
+  },
+  "2024-03-24": {
+    "num": 29,
+    "category": "Most scooped Ben and Jerry's ice cream flavors",
+    "answers": [
+      {
+        "text": [
+          "Half Baked"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Cherry Garcia"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Chocolate Chip Cookie Dough"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Strawberry Cheesecake"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Chocolate Fudge Brownie"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "ice_cream_flavors",
+    "url": "https://www.benjerry.com/whats-new/2023/12/top-flavors-2023"
+  },
+  "2024-03-25": {
+    "num": 30,
+    "category": "Countries with most renewable energy as a share of total energy generation",
+    "answers": [
+      {
+        "text": [
+          "Iceland"
+        ],
+        "stat": "86.87% generated"
+      },
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "71.56% generated"
+      },
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "50.92% generated"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "46.22% generated"
+      },
+      {
+        "text": [
+          "New Zealand"
+        ],
+        "stat": "40.22% generated"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://wisevoter.com/country-rankings/renewable-energy-by-country/#countries-with-the-most-renewable-energy"
+  },
+  "2024-03-26": {
+    "num": 31,
+    "category": "Most visited theme parks in the world by annual attendance",
+    "answers": [
+      {
+        "text": [
+          "Magic Kingdom (Walt Disney World)"
+        ],
+        "stat": "17,133,000 people"
+      },
+      {
+        "text": [
+          "Disneyland Park (Anaheim)"
+        ],
+        "stat": "16,881,000 people"
+      },
+      {
+        "text": [
+          "Universal Studios Japan"
+        ],
+        "stat": "12,350,000 people"
+      },
+      {
+        "text": [
+          "Tokyo Disneyland"
+        ],
+        "stat": "12,000,000 people"
+      },
+      {
+        "text": [
+          "Universal Studios Islands of Adventure (Orlando)"
+        ],
+        "stat": "11,025,000 people"
+      }
+    ],
+    "optionsKey": "theme_parks",
+    "url": "https://en.wikipedia.org/wiki/Amusement_park_rankings"
+  },
+  "2024-03-27": {
+    "num": 32,
+    "category": "Global fruit production by weight",
+    "answers": [
+      {
+        "text": [
+          "Bananas"
+        ],
+        "stat": "135.11 million metric tons"
+      },
+      {
+        "text": [
+          "Watermelons"
+        ],
+        "stat": "99.96 million metric tons"
+      },
+      {
+        "text": [
+          "Apples"
+        ],
+        "stat": "95.84 million metric tons"
+      },
+      {
+        "text": [
+          "Oranges"
+        ],
+        "stat": "76.41 million metric tons"
+      },
+      {
+        "text": [
+          "Grapes"
+        ],
+        "stat": "74.94 million metric tons"
+      }
+    ],
+    "optionsKey": "fruits",
+    "url": "https://www.statista.com/statistics/264001/worldwide-production-of-fruit-by-variety/"
+  },
+  "2024-03-28": {
+    "num": 33,
+    "category": "Most popular dog breeds in the US",
+    "answers": [
+      {
+        "text": [
+          "French Bulldog"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Labrador Retriever"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Golden Retriever"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "German Shepherd"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Poodle"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "dog_breeds",
+    "url": "https://www.akc.org/expert-advice/news/most-popular-dog-breeds-2023/"
+  },
+  "2024-03-29": {
+    "num": 34,
+    "category": "Most visited cities in the world by arrivals in 2023",
+    "answers": [
+      {
+        "text": [
+          "Istanbul"
+        ],
+        "stat": "20,200,000 arrivals"
+      },
+      {
+        "text": [
+          "London"
+        ],
+        "stat": "18,800,000 arrivals"
+      },
+      {
+        "text": [
+          "Dubai"
+        ],
+        "stat": "16,800,000 arrivals"
+      },
+      {
+        "text": [
+          "Antalya"
+        ],
+        "stat": "16,500,000 arrivals"
+      },
+      {
+        "text": [
+          "Paris"
+        ],
+        "stat": "15,500,000 arrivals"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors"
+  },
+  "2024-03-30": {
+    "num": 35,
+    "category": "Most popular fast food chains in the US by sales",
+    "answers": [
+      {
+        "text": [
+          "McDonald's"
+        ],
+        "stat": "48.734 billion sales"
+      },
+      {
+        "text": [
+          "Starbucks"
+        ],
+        "stat": "28.100 billion sales"
+      },
+      {
+        "text": [
+          "Chick-fil-A"
+        ],
+        "stat": "18.814 billion sales"
+      },
+      {
+        "text": [
+          "Taco Bell"
+        ],
+        "stat": "13.850 billion sales"
+      },
+      {
+        "text": [
+          "Wendy's"
+        ],
+        "stat": "11.694 billion sales"
+      }
+    ],
+    "optionsKey": "fast_food_chains",
+    "url": "https://www.qsrmagazine.com/operations/fast-food/the-2023-qsr-50-fast-foods-leading-annual-report/"
+  },
+  "2024-03-31": {
+    "num": 36,
+    "category": "Largest historical empires by land area",
+    "answers": [
+      {
+        "text": [
+          "British Empire"
+        ],
+        "stat": "13.71 million mi²"
+      },
+      {
+        "text": [
+          "Mongol Empire"
+        ],
+        "stat": "9.27 million mi²"
+      },
+      {
+        "text": [
+          "Russian Empire"
+        ],
+        "stat": "8.80 million mi²"
+      },
+      {
+        "text": [
+          "Qing dynasty"
+        ],
+        "stat": "5.68 million mi²"
+      },
+      {
+        "text": [
+          "Spanish Empire"
+        ],
+        "stat": "4.44 million mi²"
+      }
+    ],
+    "optionsKey": "empires",
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_empires"
+  },
+  "2024-04-01": {
+    "num": 37,
+    "category": "Biggest Oceans",
+    "answers": [
+      {
+        "text": [
+          "The 1997 song 'Ocean Man' by Ween"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Frank Ocean"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Ocean's 11"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Ocean Sрray Cranberry Juice"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Pacific Ocean"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "oceans_april_fools",
+    "url": "https://www.youtube.com/watch?v=tkzY_VwNIek"
+  },
+  "2024-04-02": {
+    "num": 38,
+    "category": "Major League Baseball franchises with most World Series appearances",
+    "answers": [
+      {
+        "text": [
+          "New York Yankees"
+        ],
+        "stat": "40 appearances"
+      },
+      {
+        "text": [
+          "Los Angeles Dodgers"
+        ],
+        "stat": "21 appearances"
+      },
+      {
+        "text": [
+          "San Francisco Giants"
+        ],
+        "stat": "20 appearances"
+      },
+      {
+        "text": [
+          "St. Louis Cardinals"
+        ],
+        "stat": "19 appearances"
+      },
+      {
+        "text": [
+          "Oakland Athletics"
+        ],
+        "stat": "14 appearances"
+      }
+    ],
+    "optionsKey": "mlb_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions"
+  },
+  "2024-04-03": {
+    "num": 39,
+    "category": "Countries with most avocados produced",
+    "answers": [
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "2,592,581"
+      },
+      {
+        "text": [
+          "Colombia"
+        ],
+        "stat": "1,090,664"
+      },
+      {
+        "text": [
+          "Peru"
+        ],
+        "stat": "866,457"
+      },
+      {
+        "text": [
+          "Dominican Republic"
+        ],
+        "stat": "737,021"
+      },
+      {
+        "text": [
+          "Kenya"
+        ],
+        "stat": "458,439"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production"
+  },
+  "2024-04-04": {
+    "num": 40,
+    "category": "US states with the largest coastlines",
+    "answers": [
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "33,904 miles"
+      },
+      {
+        "text": [
+          "Florida"
+        ],
+        "stat": "8,436 miles"
+      },
+      {
+        "text": [
+          "Louisiana"
+        ],
+        "stat": "7,721 miles"
+      },
+      {
+        "text": [
+          "Maine"
+        ],
+        "stat": "3,478 miles"
+      },
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "3,427 miles"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://worldpopulationreview.com/state-rankings/coastline-length-by-state"
+  },
+  "2024-04-05": {
+    "num": 41,
+    "category": "NBA all-time leading scorers",
+    "answers": [
+      {
+        "text": [
+          "LeBron James"
+        ],
+        "stat": "40,474 points"
+      },
+      {
+        "text": [
+          "Kareem Abdul-Jabbar"
+        ],
+        "stat": "38,387 points"
+      },
+      {
+        "text": [
+          "Karl Malone"
+        ],
+        "stat": "36,928 points"
+      },
+      {
+        "text": [
+          "Kobe Bryant"
+        ],
+        "stat": "33,643 points"
+      },
+      {
+        "text": [
+          "Michael Jordan"
+        ],
+        "stat": "32,292 points"
+      }
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://www.basketball-reference.com/leaders/pts_career.html"
+  },
+  "2024-04-06": {
+    "num": 42,
+    "category": "Countries with most nominations for 'Best International Feature Film' at the Academy Awards",
+    "answers": [
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "41 nominations"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "33 nominations"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "21 nominations"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "18 nominations"
+      },
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "16 nominations"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film"
+  },
+  "2024-04-07": {
+    "num": 43,
+    "category": "Longest running US game shows by number of years on the air",
+    "answers": [
+      {
+        "text": [
+          "The Price Is Right"
+        ],
+        "stat": "60 years"
+      },
+      {
+        "text": [
+          "Jeopardy!"
+        ],
+        "stat": "54 years"
+      },
+      {
+        "text": [
+          "Wheel Of Fortune"
+        ],
+        "stat": "48 years"
+      },
+      {
+        "text": [
+          "Family Feud"
+        ],
+        "stat": "38 years"
+      },
+      {
+        "text": [
+          "Let's Make A Deal"
+        ],
+        "stat": "37 years"
+      }
+    ],
+    "optionsKey": "game_shows",
+    "url": "https://screenrant.com/game-shows-longest-runing-television/"
+  },
+  "2024-04-08": {
+    "num": 44,
+    "category": "Most abundant elements in the Milky Way Galaxy",
+    "answers": [
+      {
+        "text": [
+          "Hydrogen"
+        ],
+        "stat": "739,000 ppm"
+      },
+      {
+        "text": [
+          "Helium"
+        ],
+        "stat": "240,000 ppm"
+      },
+      {
+        "text": [
+          "Oxygen"
+        ],
+        "stat": "10,400 ppm"
+      },
+      {
+        "text": [
+          "Carbon"
+        ],
+        "stat": "4,600 ppm"
+      },
+      {
+        "text": [
+          "Neon"
+        ],
+        "stat": "1,340 ppm"
+      }
+    ],
+    "optionsKey": "elements",
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Universe"
+  },
+  "2024-04-09": {
+    "num": 45,
+    "category": "Countries with the highest coffee production",
+    "answers": [
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "2.595 million metric tons"
+      },
+      {
+        "text": [
+          "Vietnam"
+        ],
+        "stat": "1.650 million metric tons"
+      },
+      {
+        "text": [
+          "Colombia"
+        ],
+        "stat": "0.810 million metric tons"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "0.660 million metric tons"
+      },
+      {
+        "text": [
+          "Ethiopia"
+        ],
+        "stat": "0.384 million metric tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldatlas.com/articles/top-coffee-producing-countries.html#Top%20Coffee%20Producing%20Countries"
+  },
+  "2024-04-10": {
+    "num": 46,
+    "category": "US companies with most employees",
+    "answers": [
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "2,100,000 employees"
+      },
+      {
+        "text": [
+          "Amazon.com"
+        ],
+        "stat": "1,525,000 employees"
+      },
+      {
+        "text": [
+          "FedEx"
+        ],
+        "stat": "529,000 employees"
+      },
+      {
+        "text": [
+          "United Parcel Service (UPS)"
+        ],
+        "stat": "500,000 employes"
+      },
+      {
+        "text": [
+          "The Home Depot"
+        ],
+        "stat": "463,100 employees"
+      }
+    ],
+    "optionsKey": "us_companies",
+    "url": "https://stockanalysis.com/list/most-employees/"
+  },
+  "2024-04-11": {
+    "num": 47,
+    "category": "Best selling board games of all time",
+    "answers": [
+      {
+        "text": [
+          "Chess"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Checkers"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Monopoly"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Scrabble"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Clue"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "board_games",
+    "url": "https://moneyinc.com/highest-selling-board-games-of-all-time/"
+  },
+  "2024-04-12": {
+    "num": 48,
+    "category": "Most popular dog names in the US",
+    "answers": [
+      {
+        "text": [
+          "Bella"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Luna"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Max"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Daisy"
+        ],
+        "stat": null
+      },
+      {
+        "text": [
+          "Charlie"
+        ],
+        "stat": null
+      }
+    ],
+    "optionsKey": "dog_names",
+    "url": "https://www.usnews.com/insurance/pet-insurance/most-popular-dog-names-study"
+  },
+  "2024-04-13": {
+    "num": 49,
+    "category": "Largest celestial bodies in the Solar System by radius",
+    "answers": [
+      {
+        "text": [
+          "Sun"
+        ],
+        "stat": "695,508 km"
+      },
+      {
+        "text": [
+          "Jupiter"
+        ],
+        "stat": "69,911 km"
+      },
+      {
+        "text": [
+          "Saturn"
+        ],
+        "stat": "58,232 km"
+      },
+      {
+        "text": [
+          "Uranus"
+        ],
+        "stat": "25,362 km"
+      },
+      {
+        "text": [
+          "Neptune"
+        ],
+        "stat": "24,622 km"
+      }
+    ],
+    "optionsKey": "celestial_bodies",
+    "url": "https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size"
+  },
   "2024-04-14": {
     "num": 50,
     "category": "Best selling Wii videogames of all time",
