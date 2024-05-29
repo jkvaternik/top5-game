@@ -1743,5 +1743,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://www.nps.gov/aboutus/national-park-system.htm"
+  },
+  "2024-05-29": {
+    "num": 95,
+    "category": "Longest-running Broadway shows",
+    "answers": [
+      {
+        "text": [
+          "The Phantom of the Opera"
+        ],
+        "stat": "13,981 performances"
+      },
+      {
+        "text": [
+          "Chicago (Revival)"
+        ],
+        "stat": "10,801 performances"
+      },
+      {
+        "text": [
+          "The Lion King"
+        ],
+        "stat": "10,421 performances"
+      },
+      {
+        "text": [
+          "Wicked"
+        ],
+        "stat": "7,960 performances"
+      },
+      {
+        "text": [
+          "Cats"
+        ],
+        "stat": "7,485 performances"
+      }
+    ],
+    "optionsKey": "broadway_musicals",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_longest-running_Broadway_shows"
   }
 }
