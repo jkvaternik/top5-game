@@ -1781,5 +1781,44 @@
     ],
     "optionsKey": "broadway_musicals",
     "url": "https://en.wikipedia.org/wiki/List_of_the_longest-running_Broadway_shows"
+  },
+  "2024-05-30": {
+    "num": 96,
+    "category": "Richest movie directors by estimated net worth",
+    "answers": [
+      {
+        "text": [
+          "George Lucas",
+          "Steven Spielberg"
+        ],
+        "stat": "$8 billion"
+      },
+      {
+        "text": [
+          "Peter Jackson"
+        ],
+        "stat": "$1.5 billion"
+      },
+      {
+        "text": [
+          "Tyler Perry"
+        ],
+        "stat": "$850 million"
+      },
+      {
+        "text": [
+          "James Cameron"
+        ],
+        "stat": "$800 million"
+      },
+      {
+        "text": [
+          "Michael Bay"
+        ],
+        "stat": "$450 million"
+      }
+    ],
+    "optionsKey": "directors",
+    "url": "https://www.celebritynetworth.com/list/top-50-directors/"
   }
 }
