@@ -1743,5 +1743,44 @@
     ],
     "optionsKey": "us_states",
     "url": "https://www.nps.gov/aboutus/national-park-system.htm"
+  },
+  "2024-05-29": {
+    "num": 95,
+    "category": "Richest movie directors (estimated net worth on celebritynetworth.com)",
+    "answers": [
+      {
+        "text": [
+          "George Lucas",
+          "Steven Spielberg"
+        ],
+        "stat": "$8 billion"
+      },
+      {
+        "text": [
+          "Peter Jackson"
+        ],
+        "stat": "$1.5 billion"
+      },
+      {
+        "text": [
+          "Tyler Perry"
+        ],
+        "stat": "$850 million"
+      },
+      {
+        "text": [
+          "James Cameron"
+        ],
+        "stat": "$800 million"
+      },
+      {
+        "text": [
+          "Michael Bay"
+        ],
+        "stat": "$450 million"
+      }
+    ],
+    "optionsKey": "directors",
+    "url": "https://www.celebritynetworth.com/list/top-50-directors/"
   }
 }
