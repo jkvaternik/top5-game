@@ -1820,5 +1820,43 @@
     ],
     "optionsKey": "directors",
     "url": "https://www.celebritynetworth.com/list/top-50-directors/"
+  },
+  "2024-05-31": {
+    "num": 97,
+    "category": "Countries with highest cocoa bean production",
+    "answers": [
+      {
+        "text": [
+          "Côte d'Ivoire"
+        ],
+        "stat": "2,230,000 metric tons"
+      },
+      {
+        "text": [
+          "Ghana"
+        ],
+        "stat": "1,108,663 metric tons"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "667,296 metric tons"
+      },
+      {
+        "text": [
+          "Ecuador"
+        ],
+        "stat": "337,149 metric tons"
+      },
+      {
+        "text": [
+          "Cameroon"
+        ],
+        "stat": "300,000 metric tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://worldpopulationreview.com/country-rankings/cocoa-producing-countries"
   }
 }
