@@ -1858,5 +1858,46 @@
     ],
     "optionsKey": "countries",
     "url": "https://worldpopulationreview.com/country-rankings/cocoa-producing-countries"
+  },
+  "2024-06-01": {
+    "num": 98,
+    "category": "Nations with the most Fifa World Cup titles",
+    "answers": [
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "5 titles"
+      },
+      {
+        "text": [
+          "Germany",
+          "Italy"
+        ],
+        "stat": "4 titles"
+      },
+      {
+        "text": [
+          "Argentina"
+        ],
+        "stat": "3 titles"
+      },
+      {
+        "text": [
+          "Uruguay",
+          "France"
+        ],
+        "stat": "2 titles"
+      },
+      {
+        "text": [
+          "England",
+          "Spain"
+        ],
+        "stat": "1 title"
+      }
+    ],
+    "optionsKey": "nations",
+    "url": "https://www.statista.com/statistics/266464/number-of-world-cup-titles-won-by-country-since-1930/"
   }
 }
