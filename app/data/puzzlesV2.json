@@ -1899,5 +1899,43 @@
     ],
     "optionsKey": "nations",
     "url": "https://www.statista.com/statistics/266464/number-of-world-cup-titles-won-by-country-since-1930/"
+  },
+  "2024-06-02": {
+    "num": 99,
+    "category": "Most valuable NBA teams",
+    "answers": [
+      {
+        "text": [
+          "Golden State Warriors"
+        ],
+        "stat": "$7.7 billion"
+      },
+      {
+        "text": [
+          "New York Knicks"
+        ],
+        "stat": "$6.6 billion"
+      },
+      {
+        "text": [
+          "Los Angeles Lakers"
+        ],
+        "stat": "$6.4 billion"
+      },
+      {
+        "text": [
+          "Boston Celtics"
+        ],
+        "stat": "$4.7 billion"
+      },
+      {
+        "text": [
+          "Los Angeles Clippers"
+        ],
+        "stat": "$4.65 billion"
+      }
+    ],
+    "optionsKey": "nba_teams",
+    "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NBA_clubs"
   }
 }
