@@ -2013,5 +2013,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://www.statista.com/statistics/723822/cannabis-use-within-one-year-us-adults/"
+  },
+  "2024-06-05": {
+    "num": 102,
+    "category": "Most popular smart phone apps (by downloads in 2023)",
+    "answers": [
+      {
+        "text": [
+          "Instagram"
+        ],
+        "stat": "696 million"
+      },
+      {
+        "text": [
+          "TikTok"
+        ],
+        "stat": "654 million"
+      },
+      {
+        "text": [
+          "Facebook"
+        ],
+        "stat": "553 million"
+      },
+      {
+        "text": [
+          "WhatsApp"
+        ],
+        "stat": "475 million"
+      },
+      {
+        "text": [
+          "CapCut"
+        ],
+        "stat": "389 million"
+      }
+    ],
+    "optionsKey": "smartphone_apps",
+    "url": "https://www.businessofapps.com/data/most-popular-apps/"
   }
 }
