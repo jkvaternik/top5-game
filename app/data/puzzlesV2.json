@@ -1975,5 +1975,43 @@
     ],
     "optionsKey": "rivers",
     "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+  },
+  "2024-06-04": {
+    "num": 101,
+    "category": "States with highest percentage of Marijuana users (have used in past year)",
+    "answers": [
+      {
+        "text": [
+          "Vermont"
+        ],
+        "stat": "34.4%"
+      },
+      {
+        "text": [
+          "Oregon"
+        ],
+        "stat": "32.8%"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "32.5%"
+      },
+      {
+        "text": [
+          "Washington"
+        ],
+        "stat": "30.7%"
+      },
+      {
+        "text": [
+          "Massachusetts"
+        ],
+        "stat": "29.7%"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://www.statista.com/statistics/723822/cannabis-use-within-one-year-us-adults/"
   }
 }
