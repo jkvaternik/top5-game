@@ -4731,5 +4731,37 @@
     "North Macedonia",
     "Jamaica",
     "US Virgin Islands"
-    ]
+  ],
+  "rivers": [
+    "Nile River",
+    "Amazon River",
+    "Yangtze River",
+    "Mississippi–Missouri River",
+    "Yenisey River",
+    "Huang He River",
+    "Ob–Irtysh River",
+    "Río de la Plata–Paraná–Rio Grande River",
+    "Zaïre River",
+    "Heilong Jiang River",
+    "Lena River",
+    "Lancang Jiang River",
+    "Mackenzie–Slave–Peace–Finlay River",
+    "Niger River",
+    "Brahmaputra–Yarlung Tsangpo River",
+    "Murray–Darling–Culgoa–Balonne–Condamine River",
+    "Tocantins–Araguaia River",
+    "Volga River",
+    "Shatt al-Arab–Euphrates–Murat River",
+    "Madeira–Mamoré–Grande–Caine–Rocha River",
+    "Purús River",
+    "Yukon River",
+    "Indus–Sênggê Zangbo River",
+    "São Francisco River",
+    "Syr Darya–Naryn River",
+    "Nu Jiang River",
+    "Great Lakes River",
+    "Rio Grande River",
+    "Lower Tunguska River",
+    "Colorado–Green River"
+  ]
 }

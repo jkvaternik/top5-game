@@ -1937,5 +1937,43 @@
     ],
     "optionsKey": "nba_teams",
     "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NBA_clubs"
+  },
+  "2024-06-03": {
+    "num": 100,
+    "category": "Longest rivers in the world",
+    "answers": [
+      {
+        "text": [
+          "Nile River"
+        ],
+        "stat": "4,130 miles"
+      },
+      {
+        "text": [
+          "Amazon River"
+        ],
+        "stat": "3,976 miles"
+      },
+      {
+        "text": [
+          "Yangtze River"
+        ],
+        "stat": "3,917 miles"
+      },
+      {
+        "text": [
+          "Mississippi–Missouri River"
+        ],
+        "stat": "3,902 miles"
+      },
+      {
+        "text": [
+          "Yenisey River"
+        ],
+        "stat": "3,445 miles"
+      }
+    ],
+    "optionsKey": "rivers",
+    "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
   }
 }
