@@ -2051,5 +2051,43 @@
     ],
     "optionsKey": "smartphone_apps",
     "url": "https://www.businessofapps.com/data/most-popular-apps/"
+  },
+  "2024-06-06": {
+    "num": 103,
+    "category": "US states with the highest cost of living", 
+    "answers": [
+      {
+        "text": [
+          "Hawaii"
+        ],
+        "stat": "180.3"
+      },
+      {
+        "text": [
+          "Massachusetts"
+        ],
+        "stat": "146.5"
+      },
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "138.5"
+      },
+      {
+        "text": [
+          "New York"
+        ],
+        "stat": "125.9"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "125.2"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://meric.mo.gov/data/cost-living-data-series"
   }
 }
