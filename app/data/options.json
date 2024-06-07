@@ -4810,5 +4810,28 @@
     "Rio Grande River",
     "Lower Tunguska River",
     "Colorado–Green River"
+  ],
+  "bones": [
+    "Clavicle",
+    "Scapula",
+    "Humerus",
+    "Radius",
+    "Ulna",
+    "Carpals",
+    "Metacarpals",
+    "Phalanges",
+    "Femur",
+    "Patella",
+    "Tibia",
+    "Fibula",
+    "Tarsals",
+    "Metatarsals",
+    "Phalanges",
+    "Sternum",
+    "Ribs",
+    "Vertebrae",
+    "Pelvis",
+    "Sacrum",
+    "Coccyx"
   ]
 }

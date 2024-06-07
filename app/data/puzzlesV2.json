@@ -2089,5 +2089,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://meric.mo.gov/data/cost-living-data-series"
+  },
+  "2024-06-07": {
+    "num": 104,
+    "category": "Largest bones in the human body (by average length)",
+    "answers": [
+      {
+        "text": [
+          "Femur"
+        ],
+        "stat": "19.9 inches"
+      },
+      {
+        "text": [
+          "Tibia"
+        ],
+        "stat": "16.9 inches"
+      },
+      {
+        "text": [
+          "Fibula"
+        ],
+        "stat": "15.9 inches"
+      },
+      {
+        "text": [
+          "Humerus"
+        ],
+        "stat": "14.4 inches"
+      },
+      {
+        "text": [
+          "Ulna"
+        ],
+        "stat": "11.1 inches"
+      }
+    ],
+    "optionsKey": "bones",
+    "url": "https://www.orthobullets.com/anatomy/10001/bones-of-the-human-body"
   }
 }
