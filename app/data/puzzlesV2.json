@@ -2127,5 +2127,43 @@
     ],
     "optionsKey": "bones",
     "url": "https://www.orthobullets.com/anatomy/10001/bones-of-the-human-body"
+  },
+  "2024-06-08": {
+    "num": 105,
+    "category": "Video streaming services with the most subscribers",
+    "answers": [
+      {
+        "text": [
+          "Netflix"
+        ],
+        "stat": "247.2 million"
+      },
+      {
+        "text": [
+          "Amazon Prime Video"
+        ],
+        "stat": "200 million"
+      },
+      {
+        "text": [
+          "Disney+"
+        ],
+        "stat": "150.2 million"
+      },
+      {
+        "text": [
+          "Max"
+        ],
+        "stat": "95.1 million"
+      },
+      {
+        "text": [
+          "Paramount+"
+        ],
+        "stat": "63.4 million"
+      }
+    ],
+    "optionsKey": "streaming_services",
+    "url": "https://www.forbes.com/home-improvement/internet/streaming-stats/#"
   }
 }
