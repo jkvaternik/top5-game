@@ -2165,5 +2165,45 @@
     ],
     "optionsKey": "streaming_services",
     "url": "https://www.forbes.com/home-improvement/internet/streaming-stats/#"
+  },
+  "2024-06-09": {
+    "num": 106,
+    "category": "NHL teams with the most Stanley Cup wins",
+    "answers": [
+      {
+        "text": [
+          "Montreal Canadiens"
+        ],
+        "stat": "24 wins"
+      },
+      {
+        "text": [
+          "Toronto Maple Leafs"
+        ],
+        "stat": "13 wins"
+      },
+      {
+        "text": [
+          "Detroit Red Wings"
+        ],
+        "stat": "11 wins"
+      },
+      {
+        "text": [
+          "Boston Bruins",
+          "Chicago Blackhawks"
+        ],
+        "stat": "6 wins"
+      },
+      {
+        "text": [
+          "Edmonton Oilers",
+          "Pittsburgh Penguins"
+        ],
+        "stat": "5 wins"
+      }
+    ],
+    "optionsKey": "nhl_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions#Stanley_Cup_Finals_era_(since_1915)"
   }
 }
