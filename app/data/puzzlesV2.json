@@ -2205,5 +2205,43 @@
     ],
     "optionsKey": "nhl_teams",
     "url": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions#Stanley_Cup_Finals_era_(since_1915)"
+  },
+  "2024-06-10": {
+    "num": 107,
+    "category": "Countries with the most islands",
+    "answers": [
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "267,570 islands"
+      },
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "239,057 islands"
+      },
+      {
+        "text": [
+          "Finland"
+        ],
+        "stat": "179,947 islands"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "52,455 islands"
+      },
+      {
+        "text": [
+          "United States"
+        ],
+        "stat": "18,617 islands"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/chart/15364/the-estimated-number-of-islands-by-country/"
   }
 }
