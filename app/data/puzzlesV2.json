@@ -2243,5 +2243,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/chart/15364/the-estimated-number-of-islands-by-country/"
+  },
+  "2024-06-11": {
+    "num": 108,
+    "category": "Most visited national parks in the United States (2023)",
+    "answers": [
+      {
+        "text": [
+          "Great Smoky Mountains National Park"
+        ],
+        "stat": "13.3 million visitors"
+      },
+      {
+        "text": [
+          "Grand Canyon National Park"
+        ],
+        "stat": "4.7 million visitors"
+      },
+      {
+        "text": [
+          "Zion National Park"
+        ],
+        "stat": "4.6 million visitors"
+      },
+      {
+        "text": [
+          "Yellowstone National Park"
+        ],
+        "stat": "4.5 million visitors"
+      },
+      {
+        "text": [
+          "Rocky Mountain National Park"
+        ],
+        "stat": "4.1 million visitors"
+      }
+    ],
+    "optionsKey": "us_national_parks",
+    "url": "https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Park%20Ranking%20Report%20(1979%20-%20Last%20Calendar%20Year)"
   }
 }
