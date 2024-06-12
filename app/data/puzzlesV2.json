@@ -2281,5 +2281,48 @@
     ],
     "optionsKey": "national_parks",
     "url": "https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Park%20Ranking%20Report%20(1979%20-%20Last%20Calendar%20Year)"
+  },
+  "2024-06-12": {
+    "num": 109,
+    "category": "Marvel Cinematic Universe movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Black Panther"
+        ],
+        "stat": "96%"
+      },
+      {
+        "text": [
+          "Avengers: Endgame",
+          "Iron Man"
+        ],
+        "stat": "94%"
+      },
+      {
+        "text": [
+          "Thor: Ragnarok",
+          "Spider-Man: No Way Home"
+        ],
+        "stat": "93%"
+      },
+      {
+        "text": [
+          "Spider-Man: Homecoming",
+          "Guardians of the Galaxy"
+        ],
+        "stat": "92%"
+      },
+      {
+        "text": [
+          "Shang-Chi and the Legend of the Ten Rings",
+          "The Avengers",
+          "Spider-Man: Far From Home"
+        ],
+        "stat": "91%"
+      }
+    ],
+    "optionsKey": "marvel_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/all-marvel-cinematic-universe-movies-ranked/"
   }
 }
