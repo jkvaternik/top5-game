@@ -2324,5 +2324,44 @@
     ],
     "optionsKey": "marvel_movies",
     "url": "https://editorial.rottentomatoes.com/guide/all-marvel-cinematic-universe-movies-ranked/"
+  },
+  "2024-06-13": {
+    "num": 110,
+    "category": "Largest retail companies by market capitalization",
+    "answers": [
+      {
+        "text": [
+          "Amazon"
+        ],
+        "stat": "$1.948 trillion"
+      },
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "$535.4 billion"
+      },
+      {
+        "text": [
+          "Costco"
+        ],
+        "stat": "$376.67 billion"
+      },
+      {
+        "text": [
+          "Home Depot"
+        ],
+        "stat": "$343 billion"
+      },
+      {
+        "text": [
+          "Alibaba"
+        ],
+        "stat": "$192.11 billion"
+      }
+
+    ],
+    "optionsKey": "retail_companies",
+    "url": "https://companiesmarketcap.com/retail/largest-retail-companies-by-market-cap/"
   }
 }
