@@ -2363,5 +2363,53 @@
     ],
     "optionsKey": "retail_companies",
     "url": "https://companiesmarketcap.com/retail/largest-retail-companies-by-market-cap/"
+  },
+  "2024-06-14": {
+    "num": 111,
+    "category": "NBA players with the most MVPs",
+    "answers": [
+      {
+        "text": [
+          "Kareem Abdul-Jabbar"
+        ],
+        "stat": "6"
+      },
+      {
+        "text": [
+          "Michael Jordan",
+          "Bill Russell"
+        ],
+        "stat": "5"
+      },
+      {
+        "text": [
+          "Wilt Chamberlain",
+          "LeBron James"
+        ],
+        "stat": "4"
+      },
+      {
+        "text": [
+          "Magic Johnson",
+          "Larry Bird",
+          "Moses Malone",
+          "Nikola Jokić"
+        ],
+        "stat": "3"
+      },
+      {
+        "text": [
+          "Giannis Antetokounmpo",
+          "Stephen Curry",
+          "Tim Duncan",
+          "Karl Malone",
+          "Steve Nash",
+          "Bob Pettit"
+        ],
+        "stat": "2"
+      }
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://en.wikipedia.org/wiki/NBA_Most_Valuable_Player_Award#Multiple-time_winners"
   }
 }
