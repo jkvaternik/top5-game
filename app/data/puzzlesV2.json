@@ -2359,7 +2359,6 @@
         ],
         "stat": "$192.11 billion"
       }
-
     ],
     "optionsKey": "retail_companies",
     "url": "https://companiesmarketcap.com/retail/largest-retail-companies-by-market-cap/"
@@ -2411,5 +2410,44 @@
     ],
     "optionsKey": "nba_players",
     "url": "https://en.wikipedia.org/wiki/NBA_Most_Valuable_Player_Award#Multiple-time_winners"
+  },
+  "2024-06-15": {
+    "num": 112,
+    "category": "Most popular google searches of 2023",
+    "answers": [
+      {
+        "text": [
+          "you"
+        ],
+        "stat": "Query score of 100"
+      },
+      {
+        "text": [
+          "weather"
+        ],
+        "stat": "Query score of 61"
+      },
+      {
+        "text": [
+          "google"
+        ],
+        "stat": "Query score of 51"
+      },
+      {
+        "text": [
+          "amazon",
+          "youtube"
+        ],
+        "stat": "Query score of 37"
+      },
+      {
+        "text": [
+          "news"
+        ],
+        "stat": "Query score of 31"
+      }
+    ],
+    "optionsKey": "2023_google_searches",
+    "url": "https://www.techopedia.com/top-google-searches-2023"
   }
 }
