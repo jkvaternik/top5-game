@@ -2449,5 +2449,43 @@
     ],
     "optionsKey": "2023_google_searches",
     "url": "https://www.techopedia.com/top-google-searches-2023"
+  },
+  "2024-06-16": {
+    "num": 113,
+    "category": "Countries with fastest broadband internet speed (Speedtest Global Index, 4/2024)",
+    "answers": [
+      {
+        "text": [
+          "Singapore"
+        ],
+        "stat": "284 Mbps"
+      },
+      {
+        "text": [
+          "Hong Kong"
+        ],
+        "stat": "271 Mbps"
+      },
+      {
+        "text": [
+          "Chile"
+        ],
+        "stat": "270 Mbps"
+      },
+      {
+        "text": [
+          "United Arab Emirates"
+        ],
+        "stat": "266 Mbps"
+      },
+      {
+        "text": [
+          "Iceland"
+        ],
+        "stat": "253 Mbps"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.speedtest.net/global-index"
   }
 }
