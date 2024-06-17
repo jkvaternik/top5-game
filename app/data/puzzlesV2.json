@@ -2564,5 +2564,43 @@
     ],
     "optionsKey": "snl_hosts",
     "url": "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_guests"
+  },
+  "2024-06-19": {
+    "num": 116,
+    "category": "Most popular classical composers (by monthly Spotify listeners)",
+    "answers": [
+      {
+        "text": [
+          "Johann Sebastian Bach"
+        ],
+        "stat": "7,673,876"
+      },
+      {
+        "text": [
+          "Ludwig van Beethoven"
+        ],
+        "stat": "7,315,072"
+      },
+      {
+        "text": [
+          "Wolfgang Amadeus Mozart"
+        ],
+        "stat": "6,707,799"
+      },
+      {
+        "text": [
+          "Frédéric Chopin"
+        ],
+        "stat": "6,411,865"
+      },
+      {
+        "text": [
+          "Antonio Vivaldi"
+        ],
+        "stat": "5,811,351"
+      }
+    ],
+    "optionsKey": "classical_composers",
+    "url": "https://www.spotifycharts.com/"
   }
 }
