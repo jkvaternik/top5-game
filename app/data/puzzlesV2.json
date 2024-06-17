@@ -2525,5 +2525,44 @@
     ],
     "optionsKey": "generations",
     "url": "https://www.usatoday.com/money/blueprint/investing/average-net-worth-by-age/"
+  },
+  "2024-06-18": {
+    "num": 115,
+    "category": "SNL hosts with most appearances",
+    "answers": [
+      {
+        "text": [
+          "Alec Baldwin"
+        ],
+        "stat": "17 times"
+      },
+      {
+        "text": [
+          "Steve Martin"
+        ],
+        "stat": "16 times"
+      },
+      {
+        "text": [
+          "John Goodman"
+        ],
+        "stat": "13 times"
+      },
+      {
+        "text": [
+          "Buck Henry",
+          "Tom Hanks"
+        ],
+        "stat": "10 times"
+      },
+      {
+        "text": [
+          "Chevy Chase"
+        ],
+        "stat": "8 times"
+      }
+    ],
+    "optionsKey": "snl_hosts",
+    "url": "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_guests"
   }
 }
