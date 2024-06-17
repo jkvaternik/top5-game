@@ -4984,5 +4984,12 @@
     "yahoo",
     "you",
     "youtube"
+  ],
+  "generations": [
+    "Baby Boomers (born 1946-1964)",
+    "Generation X (born 1965-1980)",
+    "Generation Z (born 1997-2012)",
+    "Millennials (born 1981-1996)",
+    "Silent Generation (born 1928-1945)"
   ]
 }

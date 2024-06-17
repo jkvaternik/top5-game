@@ -2487,5 +2487,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.speedtest.net/global-index"
+  },
+  "2024-06-17": {
+    "num": 114,
+    "category": "Wealthiest generations in the United States (by avg net worth)",
+    "answers": [
+      {
+        "text": [
+          "Baby Boomers (born 1946-1964)"
+        ],
+        "stat": "$795,900"
+      },
+      {
+        "text": [
+          "Silent Generation (born 1928-1945)"
+        ],
+        "stat": "$734,400"
+      },
+      {
+        "text": [
+          "Generation X (born 1965-1980)"
+        ],
+        "stat": "$541,200"
+      },
+      {
+        "text": [
+          "Millennials (born 1981-1996)"
+        ],
+        "stat": "$237,800"
+      },
+      {
+        "text": [
+          "Generation Z (born 1997-2012)"
+        ],
+        "stat": "$85,300"
+      }
+    ],
+    "optionsKey": "generations",
+    "url": "https://www.usatoday.com/money/blueprint/investing/average-net-worth-by-age/"
   }
 }
