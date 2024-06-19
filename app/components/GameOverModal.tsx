@@ -24,7 +24,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
       navigator.share(
         {
           title: `Top 5 #${puzzle.num}`,
-          text: `${getShareableEmojiScore(score)}`,
+          text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`,
           url: window.location.href
         }
       ).then(() => { console.log('Successful share') }).catch((error) => { 
