@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: { 
-        'sans': ['Montserrat', 'Inter', 'sans-serif']
+        'sans': ['Inter', 'sans-serif']
       },
       colors: {
         'dark-maroon': '#534a4a',

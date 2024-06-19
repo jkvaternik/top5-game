@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
-import { getScore, isNewVisitor } from "./utils";
+import { getCurrentLocalDateAsString, getScore, isNewVisitor } from "./utils";
 import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
@@ -17,6 +17,7 @@ import { InstructionsModal } from "./components/InstructionsModal";
 
 import { LIVES, useGameState } from "./hooks/useGameState";
 import ArchiveModal from "./components/ArchiveModal";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -25,8 +26,14 @@ const montserrat = Montserrat({
 
 
 export default function Home() {
-  const puzzle = useDailyPuzzle(undefined);
-  const { guessHistory, guesses, handleGuess, lives, gameOver } = useGameState(puzzle);
+  const router = useRouter()
+  const pathname = usePathname()
+
+  const searchParams = useSearchParams()
+  const date = searchParams.get('date')
+  
+  const puzzle = useDailyPuzzle(date);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -36,11 +43,11 @@ export default function Home() {
   const [showArchiveModal, setShowArchiveModal] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
+      localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
     }
-  }, []);
+  }, [date]);
 
   // Trigger animations on life loss
   useEffect(() => {
@@ -54,40 +61,54 @@ export default function Home() {
     }
   }, [lives]);
 
-  if (!puzzle) {
-    return null;
+  const resetGame = (date: string) => {
+    const gameAtDate = localStorage.getItem(date)
+    if (gameAtDate == null) {
+      setGuesses([])
+    } else {
+      setGuesses(JSON.parse(gameAtDate))
+    }
   }
 
   const gameView = (
     <>
-      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon font-sans ${montserrat.className}`}>
-        <div className="flex flex-col items-center" style={{ marginLeft: '8px' }}>
+      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon`}>
+        <div className={`flex flex-col items-center`} style={{ marginLeft: '8px' }} onClick={() => {
+          router.push(pathname)
+          setGuesses(JSON.parse(localStorage.getItem(getCurrentLocalDateAsString())!!))
+        }}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
-        <p className="text-base grow font-medium">{puzzle.category}</p>
-        <div className="self-end flex flex-col items-end gap-4">
-          <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)} />
-          {gameOver ?
-            <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)} />
-            :
-            <div className="self-end flex flex-row items-center gap-2">
-              <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
-              <div className="relative">
-                {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
-                <HeartIcon className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`} />
+        {puzzle && <>
+          <p className={`text-base grow font-medium ${montserrat.className}`}>{puzzle.category}</p>
+          <div className="self-end flex flex-col items-end gap-4">
+            <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)} />
+            {gameOver ?
+              <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)} />
+              :
+              <div className="self-end flex flex-row items-center gap-2 font-base text-base">
+                <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
+                <div className="relative">
+                  {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
+                  <HeartIcon className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`} />
+                </div>
               </div>
-            </div>
-          }
-        </div>
+            }
+          </div>
+        </>
+        }
       </section>
-      <section>
-        <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guessHistory={guessHistory} answers={puzzle.answers} />
-      </section>
-      <br></br>
-      <section className="flex flex-col gap-4">
-        <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} onGoToArchive={() => setShowArchiveModal(true)} />
-      </section>
+      {puzzle && <>
+        <section>
+          <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
+        </section>
+        <br></br>
+        <section className="flex flex-col gap-4">
+          <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
+        </section>
+      </>
+      }
     </>
   )
 
@@ -96,8 +117,8 @@ export default function Home() {
       <ToastContainer closeButton={false} />
       {gameView}
       {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
-      {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => setShowArchiveModal(false)} />}
-      {gameOver && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guessHistory, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
+      {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => setShowArchiveModal(false)} resetGame={resetGame}/>}
+      {gameOver && puzzle && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
     </main >
   );
 }

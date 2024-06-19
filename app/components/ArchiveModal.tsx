@@ -1,13 +1,13 @@
-import { Puzzle, puzzles } from "../hooks/useDailyPuzzle";
-import { getScoreMessage, getShareableEmojiScore } from "../utils";
-import { toast, Bounce } from 'react-toastify';
+import { puzzles } from "../hooks/useDailyPuzzle";
 import React from "react";
 import { Montserrat } from "next/font/google";
 import { ModalComponent } from "./ModalComponent";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
 type Props = {
   isOpen: boolean;
   onClose: () => void;
+  resetGame: (date: string) => void;
 }
 
 const montserrat = Montserrat({
@@ -15,19 +15,35 @@ const montserrat = Montserrat({
   subsets: ["latin"]
 });
 
-const ArchiveModal = ({ isOpen, onClose }: Props) => {
-  // const puzzlesView = Object.values(puzzles).map((puzzle, index) => {
-  //   return (
-  //     <div key={index} className="flex justify-between items-center py-2">
-  //       <p className="text-lg">{puzzle.num}</p>
-  //     </div>
-  //   );
-  // }).reverse();
+/* TODO:
+   - highlight or select done/completed/in progress games
+   - use pagination instead of scrolling (or with)
+*/ 
+const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
+  const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+  const setPuzzleUrl = (date: string) => {
+    const params = new URLSearchParams(searchParams.toString())
+    params.set('date', date)
+ 
+    router.push(pathname + '?' + params.toString())
+    resetGame(date)
+    onClose()
+  }
+
+  const isComplete = (key: string) => localStorage.getItem(key) !== null
+
+  const getColor = (key: string) => isComplete(key) ? 'bg-lime-200' : 'bg-gray-200'
+  
   const puzzlesView = (
     <div className="grid grid-cols-4 gap-4">
-      {Object.values(puzzles).map((puzzle, index) => (
-        <div key={index} className="flex justify-center items-center bg-gray-200 rounded">
-          <span className="text-lg p-4 text-dark-maroon flex items-center justify-center">#{puzzle.num}</span>
+      {Object.keys(puzzles).map((key, index) => (
+        <div key={index} className={`flex justify-center items-center ${getColor(key)} rounded`}>
+          <span 
+            className="text-lg p-4 text-dark-maroon flex items-center justify-center" 
+            onClick={() => setPuzzleUrl(key)}>#{puzzles[key].num}</span>
         </div>
       ))}
     </div>
