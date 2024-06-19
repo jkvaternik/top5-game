@@ -20,18 +20,18 @@ const montserrat = Montserrat({
    - use pagination instead of scrolling (or with)
 */ 
 const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
-  const router = useRouter()
-  const pathname = usePathname()
-  const searchParams = useSearchParams()
+  // const router = useRouter()
+  // const pathname = usePathname()
+  // const searchParams = useSearchParams()
 
-  const setPuzzleUrl = (date: string) => {
-    const params = new URLSearchParams(searchParams.toString())
-    params.set('date', date)
+  // const setPuzzleUrl = (date: string) => {
+  //   const params = new URLSearchParams(searchParams.toString())
+  //   params.set('date', date)
  
-    router.push(pathname + '?' + params.toString())
-    resetGame(date)
-    onClose()
-  }
+  //   router.push(pathname + '?' + params.toString())
+  //   resetGame(date)
+  //   onClose()
+  // }
 
   const isComplete = (key: string) => localStorage.getItem(key) !== null
 
@@ -43,7 +43,7 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
         <div key={index} className={`flex justify-center items-center ${getColor(key)} rounded`}>
           <span 
             className="text-lg p-4 text-dark-maroon flex items-center justify-center" 
-            onClick={() => setPuzzleUrl(key)}>#{puzzles[key].num}</span>
+            /*onClick={() => setPuzzleUrl(key)}*/>#{puzzles[key].num}</span>
         </div>
       ))}
     </div>
