@@ -41,7 +41,7 @@ const RankList = ({ guesses, answers, isGameOver }: Props) => {
     {gridView}
     {incorrectView.length > 0 ? <>
       <br></br>
-      <div className='flex flex-row gap-5 items-end w-full overflow-scroll '>
+      <div className='flex flex-row gap-3 text-nowrap items-end w-full overflow-scroll animate-fadeIn'>
         {incorrectView}
       </div>
     </>

@@ -81,11 +81,11 @@ export default function Home() {
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
         {puzzle && <>
-          <p className={`text-base grow font-medium ${montserrat.className}`}>{puzzle.category}</p>
+          <p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{puzzle.category}</p>
           <div className="self-end flex flex-col items-end gap-4">
-            <QuestionMarkCircleIcon className="h-6 w-6" onClick={() => setShowInstructionsModal(true)} />
+            <QuestionMarkCircleIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowInstructionsModal(true)} />
             {gameOver ?
-              <ShareIcon className="h-6 w-6" onClick={() => setShowGameOverModal(true)} />
+              <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
               :
               <div className="self-end flex flex-row items-center gap-2 font-base text-base">
                 <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>

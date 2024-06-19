@@ -26,7 +26,7 @@ export function IncorrectRankItem({ key, guess, isCorrectOrGameOver, className }
   className?: string
 }): JSX.Element {
   return (
-    <div key={key} className={`flex flex-row gap-2 p-2 rounded-md bg-gray-200 items-center text-dark-maroon ${className}`}>
+    <div key={key} className={`flex flex-nowrap flex-row gap-2 p-2 rounded-md bg-gray-200 items-center text-dark-maroon ${className} animated_fadeIn`}>
       <StringIcon string={'X'} isEmpty={!isCorrectOrGameOver} />
       <div>
         <p className={`text-gray-700 font-base`}>{guess}</p>
