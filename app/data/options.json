@@ -5053,5 +5053,18 @@
     "Robert Schumann",
     "Sergei Rachmaninoff",
     "Wolfgang Amadeus Mozart"
+  ],
+  "animal_phylums": [
+    "Annelida",
+    "Arthropoda",
+    "Brachiopoda",
+    "Chordata",
+    "Cnidaria",
+    "Echinodermata",
+    "Mollusca",
+    "Nematoda",
+    "Platyhelminthes",
+    "Porifera",
+    "Rotifera"
   ]
 }

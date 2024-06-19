@@ -4465,5 +4465,43 @@
     ],
     "optionsKey": "classical_composers",
     "url": "https://www.spotifycharts.com/"
+  },
+  "2024-06-20": {
+    "num": 117,
+    "category": "Animal phylums with the most described species",
+    "answers": [
+      {
+        "text": [
+          "Arthropoda"
+        ],
+        "stat": "1,257,000 species"
+      },
+      {
+        "text": [
+          "Mollusca"
+        ],
+        "stat": "85,000 species"
+      },
+      {
+        "text": [
+          "Chordata"
+        ],
+        "stat": "70,000 species"
+      },
+      {
+        "text": [
+          "Platyhelminthes"
+        ],
+        "stat": "29,500 species"
+      },
+      {
+        "text": [
+          "Nematoda"
+        ],
+        "stat": "25,000 species"
+      }
+    ],
+    "optionsKey": "animal_phylums",
+    "url": "https://en.wikipedia.org/wiki/Animal#Numbers_and_habitats_of_major_phyla"
   }
 }
