@@ -29,11 +29,11 @@ export default function Home() {
   const router = useRouter()
   const pathname = usePathname()
 
-  const searchParams = useSearchParams()
-  const date = searchParams.get('date')
+  // const searchParams = useSearchParams()
+  // const date = searchParams.get('date')
   
-  const puzzle = useDailyPuzzle(date);
-  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
+  const puzzle = useDailyPuzzle(null);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, null);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -47,7 +47,7 @@ export default function Home() {
       setShowInstructionsModal(true);
       localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
     }
-  }, [date]);
+  }, []);
 
   // Trigger animations on life loss
   useEffect(() => {
