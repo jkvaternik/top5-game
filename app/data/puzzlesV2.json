@@ -3566,5 +3566,904 @@
     ],
     "optionsKey": "harry_potter_movies",
     "url": "https://editorial.rottentomatoes.com/guide/all-harry-potter-movies-ranked-by-tomatometer/"
+  },
+  "2024-05-28": {
+    "num": 94,
+    "category": "US states with the most national parks",
+    "answers": [
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "9 parks"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "8 parks"
+      },
+      {
+        "text": [
+          "Utah"
+        ],
+        "stat": "5 parks"
+      },
+      {
+        "text": [
+          "Colorado"
+        ],
+        "stat": "4 parks"
+      },
+      {
+        "text": [
+          "Arizona",
+          "Florida",
+          "Washington"
+        ],
+        "stat": "3 parks"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://www.nps.gov/aboutus/national-park-system.htm"
+  },
+  "2024-05-29": {
+    "num": 95,
+    "category": "Longest-running Broadway shows",
+    "answers": [
+      {
+        "text": [
+          "The Phantom of the Opera"
+        ],
+        "stat": "13,981 performances"
+      },
+      {
+        "text": [
+          "Chicago (Revival)"
+        ],
+        "stat": "10,801 performances"
+      },
+      {
+        "text": [
+          "The Lion King"
+        ],
+        "stat": "10,421 performances"
+      },
+      {
+        "text": [
+          "Wicked"
+        ],
+        "stat": "7,960 performances"
+      },
+      {
+        "text": [
+          "Cats"
+        ],
+        "stat": "7,485 performances"
+      }
+    ],
+    "optionsKey": "broadway_musicals",
+    "url": "https://en.wikipedia.org/wiki/List_of_the_longest-running_Broadway_shows"
+  },
+  "2024-05-30": {
+    "num": 96,
+    "category": "Richest movie directors by estimated net worth",
+    "answers": [
+      {
+        "text": [
+          "George Lucas",
+          "Steven Spielberg"
+        ],
+        "stat": "$8 billion"
+      },
+      {
+        "text": [
+          "Peter Jackson"
+        ],
+        "stat": "$1.5 billion"
+      },
+      {
+        "text": [
+          "Tyler Perry"
+        ],
+        "stat": "$850 million"
+      },
+      {
+        "text": [
+          "James Cameron"
+        ],
+        "stat": "$800 million"
+      },
+      {
+        "text": [
+          "Michael Bay"
+        ],
+        "stat": "$450 million"
+      }
+    ],
+    "optionsKey": "directors",
+    "url": "https://www.celebritynetworth.com/list/top-50-directors/"
+  },
+  "2024-05-31": {
+    "num": 97,
+    "category": "Countries with highest cocoa bean production",
+    "answers": [
+      {
+        "text": [
+          "Côte d'Ivoire"
+        ],
+        "stat": "2,230,000 metric tons"
+      },
+      {
+        "text": [
+          "Ghana"
+        ],
+        "stat": "1,108,663 metric tons"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "667,296 metric tons"
+      },
+      {
+        "text": [
+          "Ecuador"
+        ],
+        "stat": "337,149 metric tons"
+      },
+      {
+        "text": [
+          "Cameroon"
+        ],
+        "stat": "300,000 metric tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://worldpopulationreview.com/country-rankings/cocoa-producing-countries"
+  },
+  "2024-06-01": {
+    "num": 98,
+    "category": "Nations with the most Fifa World Cup titles",
+    "answers": [
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "5 titles"
+      },
+      {
+        "text": [
+          "Germany",
+          "Italy"
+        ],
+        "stat": "4 titles"
+      },
+      {
+        "text": [
+          "Argentina"
+        ],
+        "stat": "3 titles"
+      },
+      {
+        "text": [
+          "Uruguay",
+          "France"
+        ],
+        "stat": "2 titles"
+      },
+      {
+        "text": [
+          "England",
+          "Spain"
+        ],
+        "stat": "1 title"
+      }
+    ],
+    "optionsKey": "nations",
+    "url": "https://www.statista.com/statistics/266464/number-of-world-cup-titles-won-by-country-since-1930/"
+  },
+  "2024-06-02": {
+    "num": 99,
+    "category": "Most valuable NBA teams",
+    "answers": [
+      {
+        "text": [
+          "Golden State Warriors"
+        ],
+        "stat": "$7.7 billion"
+      },
+      {
+        "text": [
+          "New York Knicks"
+        ],
+        "stat": "$6.6 billion"
+      },
+      {
+        "text": [
+          "Los Angeles Lakers"
+        ],
+        "stat": "$6.4 billion"
+      },
+      {
+        "text": [
+          "Boston Celtics"
+        ],
+        "stat": "$4.7 billion"
+      },
+      {
+        "text": [
+          "Los Angeles Clippers"
+        ],
+        "stat": "$4.65 billion"
+      }
+    ],
+    "optionsKey": "nba_teams",
+    "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NBA_clubs"
+  },
+  "2024-06-03": {
+    "num": 100,
+    "category": "Longest rivers in the world",
+    "answers": [
+      {
+        "text": [
+          "Nile River"
+        ],
+        "stat": "4,130 miles"
+      },
+      {
+        "text": [
+          "Amazon River"
+        ],
+        "stat": "3,976 miles"
+      },
+      {
+        "text": [
+          "Yangtze River"
+        ],
+        "stat": "3,917 miles"
+      },
+      {
+        "text": [
+          "Mississippi–Missouri River"
+        ],
+        "stat": "3,902 miles"
+      },
+      {
+        "text": [
+          "Yenisey River"
+        ],
+        "stat": "3,445 miles"
+      }
+    ],
+    "optionsKey": "rivers",
+    "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
+  },
+  "2024-06-04": {
+    "num": 101,
+    "category": "States with highest percentage of Marijuana users (have used in past year)",
+    "answers": [
+      {
+        "text": [
+          "Vermont"
+        ],
+        "stat": "34.4%"
+      },
+      {
+        "text": [
+          "Oregon"
+        ],
+        "stat": "32.8%"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "32.5%"
+      },
+      {
+        "text": [
+          "Washington"
+        ],
+        "stat": "30.7%"
+      },
+      {
+        "text": [
+          "Massachusetts"
+        ],
+        "stat": "29.7%"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://www.statista.com/statistics/723822/cannabis-use-within-one-year-us-adults/"
+  },
+  "2024-06-05": {
+    "num": 102,
+    "category": "Most popular smart phone apps (by downloads in 2023)",
+    "answers": [
+      {
+        "text": [
+          "Instagram"
+        ],
+        "stat": "696 million"
+      },
+      {
+        "text": [
+          "TikTok"
+        ],
+        "stat": "654 million"
+      },
+      {
+        "text": [
+          "Facebook"
+        ],
+        "stat": "553 million"
+      },
+      {
+        "text": [
+          "WhatsApp"
+        ],
+        "stat": "475 million"
+      },
+      {
+        "text": [
+          "CapCut"
+        ],
+        "stat": "389 million"
+      }
+    ],
+    "optionsKey": "smartphone_apps",
+    "url": "https://www.businessofapps.com/data/most-popular-apps/"
+  },
+  "2024-06-06": {
+    "num": 103,
+    "category": "US states with the highest cost of living",
+    "answers": [
+      {
+        "text": [
+          "Hawaii"
+        ],
+        "stat": "180.3"
+      },
+      {
+        "text": [
+          "Massachusetts"
+        ],
+        "stat": "146.5"
+      },
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "138.5"
+      },
+      {
+        "text": [
+          "New York"
+        ],
+        "stat": "125.9"
+      },
+      {
+        "text": [
+          "Alaska"
+        ],
+        "stat": "125.2"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://meric.mo.gov/data/cost-living-data-series"
+  },
+  "2024-06-07": {
+    "num": 104,
+    "category": "Largest bones in the human body (by average length)",
+    "answers": [
+      {
+        "text": [
+          "Femur"
+        ],
+        "stat": "19.9 inches"
+      },
+      {
+        "text": [
+          "Tibia"
+        ],
+        "stat": "16.9 inches"
+      },
+      {
+        "text": [
+          "Fibula"
+        ],
+        "stat": "15.9 inches"
+      },
+      {
+        "text": [
+          "Humerus"
+        ],
+        "stat": "14.4 inches"
+      },
+      {
+        "text": [
+          "Ulna"
+        ],
+        "stat": "11.1 inches"
+      }
+    ],
+    "optionsKey": "bones",
+    "url": "https://www.orthobullets.com/anatomy/10001/bones-of-the-human-body"
+  },
+  "2024-06-08": {
+    "num": 105,
+    "category": "Video streaming services with the most subscribers",
+    "answers": [
+      {
+        "text": [
+          "Netflix"
+        ],
+        "stat": "247.2 million"
+      },
+      {
+        "text": [
+          "Amazon Prime Video"
+        ],
+        "stat": "200 million"
+      },
+      {
+        "text": [
+          "Disney+"
+        ],
+        "stat": "150.2 million"
+      },
+      {
+        "text": [
+          "Max"
+        ],
+        "stat": "95.1 million"
+      },
+      {
+        "text": [
+          "Paramount+"
+        ],
+        "stat": "63.4 million"
+      }
+    ],
+    "optionsKey": "streaming_services",
+    "url": "https://www.forbes.com/home-improvement/internet/streaming-stats/#"
+  },
+  "2024-06-09": {
+    "num": 106,
+    "category": "NHL teams with the most Stanley Cup wins",
+    "answers": [
+      {
+        "text": [
+          "Montreal Canadiens"
+        ],
+        "stat": "24 wins"
+      },
+      {
+        "text": [
+          "Toronto Maple Leafs"
+        ],
+        "stat": "13 wins"
+      },
+      {
+        "text": [
+          "Detroit Red Wings"
+        ],
+        "stat": "11 wins"
+      },
+      {
+        "text": [
+          "Boston Bruins",
+          "Chicago Blackhawks"
+        ],
+        "stat": "6 wins"
+      },
+      {
+        "text": [
+          "Edmonton Oilers",
+          "Pittsburgh Penguins"
+        ],
+        "stat": "5 wins"
+      }
+    ],
+    "optionsKey": "nhl_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions#Stanley_Cup_Finals_era_(since_1915)"
+  },
+  "2024-06-10": {
+    "num": 107,
+    "category": "Countries with the most islands",
+    "answers": [
+      {
+        "text": [
+          "Sweden"
+        ],
+        "stat": "267,570 islands"
+      },
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "239,057 islands"
+      },
+      {
+        "text": [
+          "Finland"
+        ],
+        "stat": "179,947 islands"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "52,455 islands"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "18,617 islands"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/chart/15364/the-estimated-number-of-islands-by-country/"
+  },
+  "2024-06-11": {
+    "num": 108,
+    "category": "Most visited national parks in the United States (2023)",
+    "answers": [
+      {
+        "text": [
+          "Great Smoky Mountains"
+        ],
+        "stat": "13.3 million visitors"
+      },
+      {
+        "text": [
+          "Grand Canyon"
+        ],
+        "stat": "4.7 million visitors"
+      },
+      {
+        "text": [
+          "Zion"
+        ],
+        "stat": "4.6 million visitors"
+      },
+      {
+        "text": [
+          "Yellowstone"
+        ],
+        "stat": "4.5 million visitors"
+      },
+      {
+        "text": [
+          "Rocky Mountain"
+        ],
+        "stat": "4.1 million visitors"
+      }
+    ],
+    "optionsKey": "national_parks",
+    "url": "https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Park%20Ranking%20Report%20(1979%20-%20Last%20Calendar%20Year)"
+  },
+  "2024-06-12": {
+    "num": 109,
+    "category": "Marvel Cinematic Universe movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {
+        "text": [
+          "Black Panther"
+        ],
+        "stat": "96%"
+      },
+      {
+        "text": [
+          "Avengers: Endgame",
+          "Iron Man"
+        ],
+        "stat": "94%"
+      },
+      {
+        "text": [
+          "Thor: Ragnarok",
+          "Spider-Man: No Way Home"
+        ],
+        "stat": "93%"
+      },
+      {
+        "text": [
+          "Spider-Man: Homecoming",
+          "Guardians of the Galaxy"
+        ],
+        "stat": "92%"
+      },
+      {
+        "text": [
+          "Shang-Chi and the Legend of the Ten Rings",
+          "The Avengers",
+          "Spider-Man: Far From Home"
+        ],
+        "stat": "91%"
+      }
+    ],
+    "optionsKey": "marvel_movies",
+    "url": "https://editorial.rottentomatoes.com/guide/all-marvel-cinematic-universe-movies-ranked/"
+  },
+  "2024-06-13": {
+    "num": 110,
+    "category": "Largest retail companies by market capitalization",
+    "answers": [
+      {
+        "text": [
+          "Amazon"
+        ],
+        "stat": "$1.948 trillion"
+      },
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "$535.4 billion"
+      },
+      {
+        "text": [
+          "Costco"
+        ],
+        "stat": "$376.67 billion"
+      },
+      {
+        "text": [
+          "Home Depot"
+        ],
+        "stat": "$343 billion"
+      },
+      {
+        "text": [
+          "Alibaba"
+        ],
+        "stat": "$192.11 billion"
+      }
+    ],
+    "optionsKey": "retail_companies",
+    "url": "https://companiesmarketcap.com/retail/largest-retail-companies-by-market-cap/"
+  },
+  "2024-06-14": {
+    "num": 111,
+    "category": "NBA players with the most MVPs",
+    "answers": [
+      {
+        "text": [
+          "Kareem Abdul-Jabbar"
+        ],
+        "stat": "6"
+      },
+      {
+        "text": [
+          "Michael Jordan",
+          "Bill Russell"
+        ],
+        "stat": "5"
+      },
+      {
+        "text": [
+          "Wilt Chamberlain",
+          "LeBron James"
+        ],
+        "stat": "4"
+      },
+      {
+        "text": [
+          "Magic Johnson",
+          "Larry Bird",
+          "Moses Malone",
+          "Nikola Jokić"
+        ],
+        "stat": "3"
+      },
+      {
+        "text": [
+          "Giannis Antetokounmpo",
+          "Stephen Curry",
+          "Tim Duncan",
+          "Karl Malone",
+          "Steve Nash",
+          "Bob Pettit"
+        ],
+        "stat": "2"
+      }
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://en.wikipedia.org/wiki/NBA_Most_Valuable_Player_Award#Multiple-time_winners"
+  },
+  "2024-06-15": {
+    "num": 112,
+    "category": "Most popular google searches of 2023",
+    "answers": [
+      {
+        "text": [
+          "you"
+        ],
+        "stat": "Query score of 100"
+      },
+      {
+        "text": [
+          "weather"
+        ],
+        "stat": "Query score of 61"
+      },
+      {
+        "text": [
+          "google"
+        ],
+        "stat": "Query score of 51"
+      },
+      {
+        "text": [
+          "amazon",
+          "youtube"
+        ],
+        "stat": "Query score of 37"
+      },
+      {
+        "text": [
+          "news"
+        ],
+        "stat": "Query score of 31"
+      }
+    ],
+    "optionsKey": "2023_google_searches",
+    "url": "https://www.techopedia.com/top-google-searches-2023"
+  },
+  "2024-06-16": {
+    "num": 113,
+    "category": "Countries with fastest broadband internet speed (Speedtest Global Index, 4/2024)",
+    "answers": [
+      {
+        "text": [
+          "Singapore"
+        ],
+        "stat": "284 Mbps"
+      },
+      {
+        "text": [
+          "Hong Kong"
+        ],
+        "stat": "271 Mbps"
+      },
+      {
+        "text": [
+          "Chile"
+        ],
+        "stat": "270 Mbps"
+      },
+      {
+        "text": [
+          "United Arab Emirates"
+        ],
+        "stat": "266 Mbps"
+      },
+      {
+        "text": [
+          "Iceland"
+        ],
+        "stat": "253 Mbps"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.speedtest.net/global-index"
+  },
+  "2024-06-17": {
+    "num": 114,
+    "category": "Wealthiest generations in the United States (by avg net worth)",
+    "answers": [
+      {
+        "text": [
+          "Baby Boomers (born 1946-1964)"
+        ],
+        "stat": "$795,900"
+      },
+      {
+        "text": [
+          "Silent Generation (born 1928-1945)"
+        ],
+        "stat": "$734,400"
+      },
+      {
+        "text": [
+          "Generation X (born 1965-1980)"
+        ],
+        "stat": "$541,200"
+      },
+      {
+        "text": [
+          "Millennials (born 1981-1996)"
+        ],
+        "stat": "$237,800"
+      },
+      {
+        "text": [
+          "Generation Z (born 1997-2012)"
+        ],
+        "stat": "$85,300"
+      }
+    ],
+    "optionsKey": "generations",
+    "url": "https://www.usatoday.com/money/blueprint/investing/average-net-worth-by-age/"
+  },
+  "2024-06-18": {
+    "num": 115,
+    "category": "SNL hosts with most appearances",
+    "answers": [
+      {
+        "text": [
+          "Alec Baldwin"
+        ],
+        "stat": "17 times"
+      },
+      {
+        "text": [
+          "Steve Martin"
+        ],
+        "stat": "16 times"
+      },
+      {
+        "text": [
+          "John Goodman"
+        ],
+        "stat": "13 times"
+      },
+      {
+        "text": [
+          "Buck Henry",
+          "Tom Hanks"
+        ],
+        "stat": "10 times"
+      },
+      {
+        "text": [
+          "Chevy Chase"
+        ],
+        "stat": "8 times"
+      }
+    ],
+    "optionsKey": "snl_hosts",
+    "url": "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_guests"
+  },
+  "2024-06-19": {
+    "num": 116,
+    "category": "Most popular classical composers (by monthly Spotify listeners)",
+    "answers": [
+      {
+        "text": [
+          "Johann Sebastian Bach"
+        ],
+        "stat": "7,673,876"
+      },
+      {
+        "text": [
+          "Ludwig van Beethoven"
+        ],
+        "stat": "7,315,072"
+      },
+      {
+        "text": [
+          "Wolfgang Amadeus Mozart"
+        ],
+        "stat": "6,707,799"
+      },
+      {
+        "text": [
+          "Frédéric Chopin"
+        ],
+        "stat": "6,411,865"
+      },
+      {
+        "text": [
+          "Antonio Vivaldi"
+        ],
+        "stat": "5,811,351"
+      }
+    ],
+    "optionsKey": "classical_composers",
+    "url": "https://www.spotifycharts.com/"
   }
 }
