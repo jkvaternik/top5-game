@@ -18,6 +18,7 @@ const montserrat = Montserrat({
 /* TODO:
    - highlight or select done/completed/in progress games
    - use pagination instead of scrolling (or with)
+   - fix useSearchParams next.js build error (remove commented code)
 */ 
 const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   // const router = useRouter()
