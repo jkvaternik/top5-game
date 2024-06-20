@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Downshift from 'downshift';
 import Fuse from 'fuse.js';
 
-const InputComponent = ({ items, handleGuess, isGameOver, guessHistory, answers }) => {
+const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
@@ -36,9 +36,9 @@ const InputComponent = ({ items, handleGuess, isGameOver, guessHistory, answers 
 
   const shouldStrikethrough = (item) => {
     const allAnswers = answers.map(answer => answer.text)
-    const correctAnswers = allAnswers.filter(options => options.some(option => guessHistory.includes(option))).flat()
+    const correctAnswers = allAnswers.filter(options => options.some(option => guesses.includes(option))).flat()
 
-    return guessHistory.includes(item) || correctAnswers.includes(item)
+    return guesses.includes(item) || correctAnswers.includes(item)
   }
 
   return (
@@ -63,19 +63,19 @@ const InputComponent = ({ items, handleGuess, isGameOver, guessHistory, answers 
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: `bg-gray-50 border border-gray-300 text-base rounded-lg p-2 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
+              className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
               onAnimationEnd: () => setIsIncorrect(false),
             })}
           />
-          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-md shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
+          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}>
             {isOpen &&
               inputItems.map((item, index) => (
                 <li
                   key={index}
                   {...getItemProps({ index, item })}
-                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${shouldStrikethrough(item) ? 'line-through' : ''}`}
+                  className={`rounded-lg cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${shouldStrikethrough(item) ? 'line-through' : ''}`}
                 >
                   {item}
                 </li>

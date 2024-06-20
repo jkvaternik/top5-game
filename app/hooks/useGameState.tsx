@@ -1,48 +1,37 @@
 
 import { useState, useMemo } from 'react';
-import { getLocalStorageOrDefault, setLocalStorageAndState } from '../utils';
+import { getCurrentLocalDateAsString, getLocalStorageOrDefault, isCorrect, setLocalStorageAndState } from '../utils';
 import { Puzzle } from './useDailyPuzzle';
 
 export const LIVES = 5;
 
-export function useGameState(puzzle: Puzzle | null) {
-  const [guessHistory, setGuessHistory] = useState<string[]>(() => getLocalStorageOrDefault('guessHistory', []));
-  const [guesses, setGuesses] = useState<string[]>(() => getLocalStorageOrDefault('guesses', Array<string>(LIVES).fill('')));
+export function useGameState(puzzle: Puzzle | null, date: string | null) {
+  const puzzleDate = date ? date : getCurrentLocalDateAsString();
+  const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault(puzzleDate, []));
+
+  const correctGuesses = useMemo(() => guesses.filter(guess => isCorrect(guess, puzzle)).length, [puzzle, guesses]);
 
   const lives = useMemo(() => {
-    const correctGuesses = guesses.filter(g => g !== '').length;
-    const incorrectGuesses = guessHistory.length - correctGuesses;
+    const incorrectGuesses = guesses.length - correctGuesses;
     return LIVES - incorrectGuesses;
-  }, [guesses, guessHistory]);
+  }, [guesses.length, correctGuesses]);
 
-  const gameOver = useMemo(() => lives === 0 || guesses.every(g => g != ''), [lives, guesses]);
+  const gameOver = useMemo(() => lives === 0 || correctGuesses === 5, [lives, correctGuesses]);
 
   // Returns true if the guess is correct, false if incorrect
   const handleGuess = (guess: string) => {
-    if (guessHistory.includes(guess) || gameOver) {
+    if (guesses.includes(guess) || gameOver) {
       return;
     }
 
     const index = puzzle!!.answers.findIndex(answer => answer.text.includes(guess));
-
-    // Check if we already have a correct guess for the index (and thus, a TIE)
-    // In this case, it is correct, but we don't want to update the guess or guess history
-    if (guesses[index]) {
-      return true;
-    }
-
     const isCorrect = index !== -1;
-    if (isCorrect) {
-      // Correct Guess
-      const newGuesses = guesses.map((g, i) => i === index ? guess : g);
-      setLocalStorageAndState('guesses', newGuesses, setGuesses);
-    }
 
-    const newGuessHistory = [...guessHistory, guess];
-    setLocalStorageAndState('guessHistory', newGuessHistory, setGuessHistory);
+    const newGuesses = [...guesses, guess]
+    setLocalStorageAndState(puzzleDate, newGuesses, setGuesses);
 
     return isCorrect;
   }
 
-  return { guessHistory, setGuessHistory, guesses, setGuesses, lives, gameOver, handleGuess };
+  return { guesses, setGuesses, lives, gameOver, handleGuess, correctGuesses };
 }

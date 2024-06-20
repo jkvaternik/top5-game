@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: { 
-        'sans': ['Montserrat', 'Inter', 'sans-serif']
+        'sans': ['Inter', 'sans-serif']
       },
       colors: {
-        'dark-maroon': '#534a4a',
-        'maroon': '#946969',
+        'dark-maroon': '#071E22',
+        'maroon': '#071E22',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

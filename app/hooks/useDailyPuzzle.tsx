@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
 import puzzlesData from '../data/puzzlesV2.json';
 import optionsData from '../data/options.json';
+import { getCurrentLocalDateAsString } from '../utils';
 
 export type Answer = {
   text: string[];
-  stat: string;
+  stat: string | null;
 }
 
 type PuzzleInput = {
@@ -24,17 +25,20 @@ export type Puzzle = {
   url?: string;
 }
 
-const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
+export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
 const options: { [key: string]: string[] } = optionsData;
 
 // This hook returns the puzzle for the current day
 // If there is no puzzle for today, it returns null
-const useDailyPuzzle: () => Puzzle | null = () => {
+const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | null) => {
   const [todayPuzzle, setTodayPuzzle] = useState<Puzzle | null>(null);
 
   useEffect(() => {
-    const today: string = getCurrentLocalDateAsString()
-    const dailyPuzzle: PuzzleInput = puzzles[today]
+    let puzzleDay = day
+    if (!puzzleDay) {
+      puzzleDay = getCurrentLocalDateAsString()
+    }
+    const dailyPuzzle: PuzzleInput = puzzles[puzzleDay]
 
     if (dailyPuzzle) {
       const optionsList: string[] = options[dailyPuzzle.optionsKey]
@@ -46,22 +50,9 @@ const useDailyPuzzle: () => Puzzle | null = () => {
       // Handle the case where there is no puzzle for today
       setTodayPuzzle(null);
     }
-  }, []);
+  }, [day]);
 
   return todayPuzzle;
-}
-
-const getCurrentLocalDateAsString = () => {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1; // getMonth() returns 0-11
-  const day = now.getDate();
-
-  // Pad the month and day with a leading zero if they are less than 10
-  const formattedMonth = month < 10 ? `0${month}` : month;
-  const formattedDay = day < 10 ? `0${day}` : day;
-
-  return `${year}-${formattedMonth}-${formattedDay}`;
 }
 
 export default useDailyPuzzle;

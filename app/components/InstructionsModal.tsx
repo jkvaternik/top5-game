@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { HeartIcon } from '@heroicons/react/24/solid';
 import { ModalComponent } from "./ModalComponent"
-import RankItem from "./RankItem";
+import { RankItem } from "./RankItem";
 import { Montserrat } from "next/font/google";
-import { Answer } from "../hooks/useDailyPuzzle";
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -16,13 +15,13 @@ export const InstructionsModal = ({ isOpen, onClose }:
     onClose: () => void
   }) => {
   const [lives, setLives] = useState(5);
-  const [guess, setGuess] = useState<Answer | undefined>(undefined);
+  const [isCorrectOrGameOver, setNumberState] = useState<boolean>(false);
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
-      setGuess({ text: ['Pacific Ocean'], stat: '63.8 million mi²' });
+      setNumberState(true);
     }, 4000);
     setTimeout(() => {
       setLives(4);
@@ -49,7 +48,7 @@ export const InstructionsModal = ({ isOpen, onClose }:
           <li className="mb-2">If your attempt is correct, the answer will show on the board</li>
           <div className="mb-4">
             <p className="text-l mb-2 font-semibold">Example</p>
-            <RankItem index={0} answer={guess} />
+            <RankItem index={0} answer={{ text: ['Pacific Ocean'], stat: '63.8 million mi²' }} isCorrectOrGameOver={isCorrectOrGameOver}/>
           </div>
           <li className="mb-2">If your attempt is incorrect, you will lose a life </li>
           <div className="self-end flex flex-row items-center gap-2">

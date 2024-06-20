@@ -1,4 +1,4 @@
-import { Answer } from "./hooks/useDailyPuzzle";
+import { Answer, Puzzle } from "./hooks/useDailyPuzzle";
 
 // 0 is incorrect, any other number is the rank guessed correctly
 export const getScore = (guessHistory: string[], answers: Answer[]) => {
@@ -50,7 +50,7 @@ export const getScoreMessage = (score: number[]) => {
 
 export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   if (typeof window !== 'undefined') {
-    if (isNewDay()) {
+    if (localStorage.getItem(key) == null) {
       // reset for new day, we can update this if we want to store any stats
       localStorage.setItem(key, JSON.stringify(defaultValue));
       return defaultValue;
@@ -68,15 +68,17 @@ export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   return defaultValue;
 }
 
-export const isNewDay = () => {
-  if (typeof window !== 'undefined') {
-    const lastVisitDate = localStorage.getItem('lastVisit');
-    if (lastVisitDate === null) {
-      return true;
-    } else {
-      return new Date(JSON.parse(lastVisitDate)).getDate() !== new Date().getDate();
-    }
-  }
+export const getCurrentLocalDateAsString = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth() + 1; // getMonth() returns 0-11
+  const day = now.getDate();
+
+  // Pad the month and day with a leading zero if they are less than 10
+  const formattedMonth = month < 10 ? `0${month}` : month;
+  const formattedDay = day < 10 ? `0${day}` : day;
+
+  return `${year}-${formattedMonth}-${formattedDay}`;
 }
 
 export const setLocalStorageAndState = (key: string, newValue: any, setter: React.Dispatch<React.SetStateAction<any>>) => {
@@ -93,3 +95,5 @@ export const isNewVisitor = () => {
     return false;
   }
 }
+
+export const isCorrect = (guess: string, puzzle: Puzzle | null) => puzzle ? puzzle.answers.flatMap(a => a.text).includes(guess) : false

@@ -1,5 +1,5 @@
 import { Answer } from '../hooks/useDailyPuzzle';
-import RankItem from './RankItem';
+import { IncorrectRankItem, RankItem } from './RankItem';
 
 interface Props {
   guesses: string[];
@@ -8,28 +8,46 @@ interface Props {
 }
 
 const RankList = ({ guesses, answers, isGameOver }: Props) => {
-  if (isGameOver) {
-    return answers.map((answer, index) => (
-      <RankItem
-        key={index}
-        index={index}
-        answer={answer}
-        className={`${answers.map(a => a.text)[index].includes(guesses[index]) ? '' : 'incorrect'}`}
-      />
-    ));
+  const getClassName = (wasGuessed: boolean) => {
+    if (isGameOver) {
+      return wasGuessed ? 'isCorrect' : 'incorrect'
+    } else {
+      return wasGuessed ? 'isCorrect' : ''
+    }
   }
-  return guesses.map((guess, index) => {
-    const answer = answers.find(a => a.text.includes(guess));
-    const isCorrect = answer && answers.map(a => a.text)[index].includes(guess);
+  const gridView = answers.map((answer, index) => {
+    const wasGuessed = guesses.find(guess => answer.text.includes(guess)) !== undefined;
     return (
       <RankItem
         key={index}
         index={index}
         answer={answer}
-        className={`${isCorrect ? '' : 'isCorrect'}`}
+        isCorrectOrGameOver = {wasGuessed || isGameOver}
+        className={getClassName(wasGuessed)}
       />
     );
-  })
+  });
+
+  const incorrectView = guesses.filter(guess => !answers.flatMap(a => a.text).includes(guess)).map((guess, i) => {
+    return <IncorrectRankItem
+    key={i}
+    guess={guess}
+    isCorrectOrGameOver = {false}
+    className={getClassName(true)}
+/>
+  }).reverse()
+
+  return <>
+    {gridView}
+    {incorrectView.length > 0 ? <>
+      <br></br>
+      <div className='flex flex-row gap-3 text-nowrap items-end w-full overflow-scroll animate-fadeIn'>
+        {incorrectView}
+      </div>
+    </>
+      : null
+    }
+  </>
 };
 
 export default RankList;
