@@ -4503,5 +4503,71 @@
     ],
     "optionsKey": "animal_phylums",
     "url": "https://en.wikipedia.org/wiki/Animal#Numbers_and_habitats_of_major_phyla"
+  }, 
+  "2024-06-21": {
+    "num": 118,
+    "category": "Most watched Netflix TV titles",
+    "answers": [
+      {
+        "text": ["Squid Game: Season 1"],
+        "stat": "265.2 million views"
+      },
+      {
+        "text": ["Wednesday: Season 1"],
+        "stat": "252.1 million views"
+      },
+      {
+        "text": ["Stranger Things 4"],
+        "stat": "140.7 million views"
+      },
+      {
+        "text": ["DAHMER: Monster: The Jeffrey Dahmer Story"],
+        "stat": "115.6 million views"
+      },
+      {
+        "text": ["Bridgerton: Season 1"],
+        "stat": "113.3 million views"
+      }
+    ],
+    "optionsKey": "netflix_tv_titles",
+    "url": "https://www.netflix.com/tudum/top10/most-popular/tv"
+  },
+  "2024-06-22": {
+    "num": 119,
+    "category": "Countries by olive oil production (2023-2024)",
+    "answers": [
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "766,400 tonnes"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "288,900 tonnes"
+      },
+      {
+        "text": [
+          "Turkey"
+        ],
+        "stat": "210,000 tonnes"
+      },
+      {
+        "text": [
+          "Tunisia"
+        ],
+        "stat": "200,000 tonnes"
+      },
+      {
+        "text": [
+          "Greece"
+        ],
+        "stat": "195,000 tonnes"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.oliveoiltimes.com/olive-oil-production"
   }
 }
