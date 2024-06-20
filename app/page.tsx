@@ -45,8 +45,15 @@ export default function Home() {
   useEffect(() => {
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
-      localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
     }
+    // remove after 1 week
+    localStorage.removeItem('guessHistory');
+    localStorage.removeItem('lives');
+    localStorage.removeItem('guesses');
+    localStorage.removeItem('isGameOver');
+    // 
+
+    localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
   }, []);
 
   // Trigger animations on life loss
