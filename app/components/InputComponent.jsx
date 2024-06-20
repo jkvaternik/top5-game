@@ -71,11 +71,11 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
           />
           <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}>
             {isOpen &&
-              inputItems.map((item, index) => (
+              inputItems.filter(item => !shouldStrikethrough(item)).map((item, index) => (
                 <li
                   key={index}
                   {...getItemProps({ index, item })}
-                  className={`rounded-lg cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'} ${shouldStrikethrough(item) ? 'line-through' : ''}`}
+                  className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
                 >
                   {item}
                 </li>
