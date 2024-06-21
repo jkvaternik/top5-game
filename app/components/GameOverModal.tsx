@@ -31,18 +31,6 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
         console.log('Error sharing', error) 
 
         navigator.clipboard.writeText(`Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`)
-
-        toast.success('Score copied to clipboard', {
-          position: "top-center",
-          autoClose: 2000,
-          hideProgressBar: true,
-          closeOnClick: false,
-          pauseOnHover: false,
-          draggable: false,
-          progress: undefined,
-          theme: "light",
-          transition: Bounce,
-        });
       });
     } else {
       navigator.clipboard.writeText(`Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`);
@@ -59,9 +47,6 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
         transition: Bounce,
       });
     }
-
-    // Show a toast above the game over modal that is white text on a green background
-    // and disapears after 2 seconds
   }
 
   return (
