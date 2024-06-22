@@ -4569,5 +4569,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.oliveoiltimes.com/olive-oil-production"
+  },
+  "2024-06-23": {
+    "num": 120,
+    "category": "Oldest currencies still in use",
+    "answers": [
+      {
+        "text": [
+          "British pound sterling"
+        ],
+        "stat": "800 CE"
+      },
+      {
+        "text": [
+          "Russian ruble"
+        ],
+        "stat": "1200 CE"
+      },
+      {
+        "text": [
+          "Serbian dinar"
+        ],
+        "stat": "1214 CE"
+      },
+      {
+        "text": [
+          "United States dollar"
+        ],
+        "stat": "1792 CE"
+      },
+      {
+        "text": [
+          "Haitian gourde"
+        ],
+        "stat": "1813 CE"
+      }
+    ],
+    "optionsKey": "currencies",
+    "url": "https://www.oldest.org/culture/oldest-currencies-still-used-around-the-world/"
   }
 }

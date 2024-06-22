@@ -5088,5 +5088,29 @@
     "The Queen's Gambit: Limited Series",
     "Wednesday: Season 1",
     "Who Killed Sara?: Season 1"
+  ],
+  "currencies": [
+    "United States dollar",
+    "Euro",
+    "Japanese yen",
+    "British pound sterling",
+    "Australian dollar",
+    "Canadian dollar",
+    "Swiss franc",
+    "Chinese yuan",
+    "Swedish krona",
+    "New Zealand dollar",
+    "Mexican peso",
+    "Singapore dollar",
+    "Norwegian krone",
+    "South Korean won",
+    "Turkish lira",
+    "Russian ruble",
+    "Indian rupee",
+    "Brazilian real",
+    "Serbian dinar",
+    "Haitian gourde",
+    "Macanese Pataca",
+    "Dominican peso"
   ]
 }
