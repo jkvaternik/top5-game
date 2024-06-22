@@ -4607,5 +4607,43 @@
     ],
     "optionsKey": "currencies",
     "url": "https://www.oldest.org/culture/oldest-currencies-still-used-around-the-world/"
+  },
+  "2024-06-24": {
+    "num": 121,
+    "category": "Highest grossing Dreamworks movies",
+    "answers": [
+      {
+        "text": [
+          "Shrek 2"
+        ],
+        "stat": "$441,426,807"
+      },
+      {
+        "text": [
+          "Shrek the Third"
+        ],
+        "stat": "$322,719,944"
+      },
+      {
+        "text": [
+          "Shrek"
+        ],
+        "stat": "$267,851,831"
+      },
+      {
+        "text": [
+          "Shrek Forever After"
+        ],
+        "stat": "$238,736,787"
+      },
+      {
+        "text": [
+          "How to Train Your Dragon"
+        ],
+        "stat": "$217,581,231"
+      }
+    ],
+    "optionsKey": "dreamworks_movies",
+    "url": "https://www.boxofficemojo.com/brand/bn3614636546/?sort=grossToDate&ref_=bo_bn__resort#table"
   }
 }
