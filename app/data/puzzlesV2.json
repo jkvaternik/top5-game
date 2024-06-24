@@ -4645,5 +4645,43 @@
     ],
     "optionsKey": "dreamworks_movies",
     "url": "https://www.boxofficemojo.com/brand/bn3614636546/?sort=grossToDate&ref_=bo_bn__resort#table"
+  },
+  "2024-06-25": {
+    "num": 122,
+    "category": "Most streamed songs on Spotify",
+    "answers": [
+      {
+        "text": [
+          "Blinding Lights - The Weeknd"
+        ],
+        "stat": "4.299 billion streams"
+      },
+      {
+        "text": [
+          "Shape Of You - Ed Sheeran"
+        ],
+        "stat": "3.919 billion streams"
+      },
+      {
+        "text": [
+          "Someone You Loved - Lewis Capaldi"
+        ],
+        "stat": "3.443 billion streams"
+      },
+      {
+        "text": [
+          "Sunflower - Post Malone feat. Swae Lee"
+        ],
+        "stat": "3.374 billion streams"
+      },
+      {
+        "text": [
+          "As It Was - Harry Styles"
+        ],
+        "stat": "3.331 billion streams"
+      }
+    ],
+    "optionsKey": "spotify_songs",
+    "url": "https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records#Most-streamed_songs"
   }
 }
