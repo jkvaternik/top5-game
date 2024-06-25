@@ -4683,5 +4683,43 @@
     ],
     "optionsKey": "spotify_songs",
     "url": "https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records#Most-streamed_songs"
+  },
+  "2024-06-26": {
+    "num": 123,
+    "category": "Countries with the most airports",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "13,513 airports"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "4,093 airports"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "1,714 airports"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "1,467 airports"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "1,218 airports"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.worldatlas.com/articles/countries-with-the-highest-number-of-airports-in-the-world.html"
   }
 }
