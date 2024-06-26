@@ -4503,29 +4503,39 @@
     ],
     "optionsKey": "animal_phylums",
     "url": "https://en.wikipedia.org/wiki/Animal#Numbers_and_habitats_of_major_phyla"
-  }, 
+  },
   "2024-06-21": {
     "num": 118,
     "category": "Most watched Netflix TV titles",
     "answers": [
       {
-        "text": ["Squid Game: Season 1"],
+        "text": [
+          "Squid Game: Season 1"
+        ],
         "stat": "265.2 million views"
       },
       {
-        "text": ["Wednesday: Season 1"],
+        "text": [
+          "Wednesday: Season 1"
+        ],
         "stat": "252.1 million views"
       },
       {
-        "text": ["Stranger Things 4"],
+        "text": [
+          "Stranger Things 4"
+        ],
         "stat": "140.7 million views"
       },
       {
-        "text": ["DAHMER: Monster: The Jeffrey Dahmer Story"],
+        "text": [
+          "DAHMER: Monster: The Jeffrey Dahmer Story"
+        ],
         "stat": "115.6 million views"
       },
       {
-        "text": ["Bridgerton: Season 1"],
+        "text": [
+          "Bridgerton: Season 1"
+        ],
         "stat": "113.3 million views"
       }
     ],
@@ -4721,5 +4731,48 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.worldatlas.com/articles/countries-with-the-highest-number-of-airports-in-the-world.html"
+  },
+  "2024-06-27": {
+    "num": 124,
+    "category": "Celebrities who have hosted the Oscars the most times",
+    "answers": [
+      {
+        "text": [
+          "Bob Hope"
+        ],
+        "stat": "19 times"
+      },
+      {
+        "text": [
+          "Billy Crystal"
+        ],
+        "stat": "9 times"
+      },
+      {
+        "text": [
+          "Johnny Carson"
+        ],
+        "stat": "5 times"
+      },
+      {
+        "text": [
+          "Jack Lemmon",
+          "Whoopi Goldberg",
+          "Jimmy Kimmel"
+        ],
+        "stat": "4 times"
+      },
+      {
+        "text": [
+          "Steve Martin",
+          "Jerry Lewis",
+          "David Niven",
+          "Conrad Nagel"
+        ],
+        "stat": "3 times"
+      }
+    ],
+    "optionsKey": "oscar_hosts",
+    "url": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies"
   }
 }
