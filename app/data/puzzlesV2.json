@@ -4774,5 +4774,43 @@
     ],
     "optionsKey": "oscar_hosts",
     "url": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies"
+  },
+  "2024-06-28": {
+    "num": 125,
+    "category": "Most valuable football/soccer clubs in the world",
+    "answers": [
+      {
+        "text": [
+          "Real Madrid"
+        ],
+        "stat": "$6.6 billion"
+      },
+      {
+        "text": [
+          "Manchester United"
+        ],
+        "stat": "$6.55 billion"
+      },
+      {
+        "text": [
+          "Barcelona"
+        ],
+        "stat": "$5.6 billion"
+      },
+      {
+        "text": [
+          "Liverpool"
+        ],
+        "stat": "$5.37 billion"
+      },
+      {
+        "text": [
+          "Manchester City"
+        ],
+        "stat": "$5.1 billion"
+      }
+    ],
+    "optionsKey": "football_clubs",
+    "url": "https://www.forbes.com/lists/soccer-valuations/"
   }
 }
