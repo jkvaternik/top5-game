@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getCurrentLocalDateAsString, getScore, isNewVisitor } from "./utils";
-import { HeartIcon, ShareIcon } from '@heroicons/react/24/solid'
+import { HeartIcon, ShareIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
 
@@ -41,6 +41,8 @@ export default function Home() {
   const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
   const [showArchiveModal, setShowArchiveModal] = useState(false);
+  
+  const [showMenu, setShowMenu] = useState(true);
 
   useEffect(() => {
     if (isNewVisitor()) {
@@ -87,26 +89,33 @@ export default function Home() {
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
-        {puzzle && <>
-          <p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{puzzle.category}</p>
-          <div className="self-end flex flex-col items-end gap-4">
-            <QuestionMarkCircleIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowInstructionsModal(true)} />
-            {gameOver ?
-              <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
-              :
-              <div className="self-end flex flex-row items-center gap-2 font-base text-base">
-                <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
-                <div className="relative">
-                  {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
-                  <HeartIcon className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`} />
-                </div>
+        {<p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>}
+        <div className="self-end flex flex-col items-end gap-4">
+          {showMenu ? 
+            <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" onClick={() => setShowMenu(false)} />
+            : 
+            <QuestionMarkCircleIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
+          }
+          {gameOver && !showMenu ?
+            <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
+            :
+            <div className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}>
+              <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
+              <div className="relative">
+                {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
+                <HeartIcon className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`} />
               </div>
-            }
-          </div>
-        </>
-        }
+            </div>
+          }
+        </div>
       </section>
-      {puzzle && <>
+      {showMenu && 
+        <section className="flex flex-col gap-5 items-center w-full content-center text-dark-maroon">
+          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-1/2 mt-36" onClick={() => setShowInstructionsModal(true)}>How to Play</button>
+          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-1/2" onClick={() => setShowArchiveModal(true)}>Archive</button>
+        </section>
+      }
+      {puzzle && !showMenu && <>
         <section>
           <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
         </section>
