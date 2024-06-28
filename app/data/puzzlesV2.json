@@ -4812,5 +4812,43 @@
     ],
     "optionsKey": "football_clubs",
     "url": "https://www.forbes.com/lists/soccer-valuations/"
+  },
+  "2024-06-29": {
+    "num": 126,
+    "category": "Oldest universities in the United States",
+    "answers": [
+      {
+        "text": [
+          "Harvard University"
+        ],
+        "stat": "Founded in 1636"
+      },
+      {
+        "text": [
+          "College of William & Mary"
+        ],
+        "stat": "Founded in 1693"
+      },
+      {
+        "text": [
+          "St. John's College"
+        ],
+        "stat": "Founded in 1696"
+      },
+      {
+        "text": [
+          "Yale University"
+        ],
+        "stat": "Founded in 1701"
+      },
+      {
+        "text": [
+          "University of Pennsylvania"
+        ],
+        "stat": "Founded in 1740"
+      }
+    ],
+    "optionsKey": "oldest_us_universities",
+    "url": "https://www.topuniversities.com/blog/10-oldest-universities-us"
   }
 }
