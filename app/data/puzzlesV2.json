@@ -4850,5 +4850,43 @@
     ],
     "optionsKey": "oldest_us_universities",
     "url": "https://www.topuniversities.com/blog/10-oldest-universities-us"
+  },
+  "2024-06-30": {
+    "num": 127,
+    "category": "Countries with the most nuclear weapons",
+    "answers": [
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "~5,580 warheads"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "~5,044 warheads"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "~500 warheads"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "~290 warheads"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "~225 warheads"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons"
   }
 }
