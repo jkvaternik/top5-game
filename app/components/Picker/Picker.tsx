@@ -2,6 +2,7 @@ import React from 'react';
 import { Answer, puzzles } from "../../hooks/useDailyPuzzle";
 
 import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
+import { getCurrentLocalDateAsString } from '@/app/utils';
 
 interface PickerProps {
   onClick: (key: string) => void;
@@ -32,7 +33,8 @@ const Picker = ({onClick} : PickerProps) => {
     return arr3D;
   };
 
-  const puzzleMatrix = arrayTo3DArray(Object.keys(puzzles), 5)
+  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.now());
+  const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5)
 
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
 
@@ -46,7 +48,7 @@ const Picker = ({onClick} : PickerProps) => {
     const correctGuesses = guesses.filter((guess: string) => answers.includes(guess));
     const incorrectGuesses = guesses.filter((guess: string) => !answers.includes(guess));
 
-    return guesses.filter((guess: string) => answers.includes(guess)).length === 5 || incorrectGuesses.length === 5;
+    return correctGuesses.length === 5 || incorrectGuesses.length === 5;
   }
 
   const isAttempted = (key: string) => localStorage.getItem(key) !== null
@@ -85,7 +87,7 @@ const Picker = ({onClick} : PickerProps) => {
   return (
     <div>
       <div className="grid grid-cols-5 gap-4">
-        {puzzleMatrix[index].map((row: string[]) => row.map((date: string) => {
+        {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
           if (date !== undefined) {
             return (
               <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md`} onClick={() => onClick(date)}>

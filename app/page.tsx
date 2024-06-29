@@ -30,6 +30,10 @@ export default function Home() {
 
   const searchParams = useSearchParams()
   const date = searchParams.get('date')
+
+  if (date && Date.parse(date) > Date.now()) {
+    router.push(pathname)
+  }
   
   const puzzle = useDailyPuzzle(date);
   const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);

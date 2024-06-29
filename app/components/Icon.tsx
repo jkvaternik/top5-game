@@ -16,13 +16,13 @@ export function NumberIcon({ number, isEmpty }: {
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400`}>
+          className={`flex items-center justify-center rounded-md bg-gray-400 text-lg`}>
           {(number + 1)}
         </div>
         <div
           id="flip-back"
           style={{ ...styles, 'transform': 'rotateX(180deg)' }}
-          className={`flex items-center justify-center rounded-md ${getColor()}`}>
+          className={`flex items-center justify-center rounded-md ${getColor()} text-lg`}>
           {(number + 1)}
         </div>
       </div>
