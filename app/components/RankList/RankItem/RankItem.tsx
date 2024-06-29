@@ -1,4 +1,4 @@
-import { Answer } from "../hooks/useDailyPuzzle";
+import { Answer } from "../../../hooks/useDailyPuzzle";
 import { NumberIcon, StringIcon } from "./Icon";
 
 export function RankItem({ index, answer, isCorrectOrGameOver, className }: {

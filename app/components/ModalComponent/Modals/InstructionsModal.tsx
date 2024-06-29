@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { HeartIcon } from '@heroicons/react/24/solid';
-import { ModalComponent } from "./ModalComponent"
-import { RankItem } from "./RankItem";
+import { ModalComponent } from "../ModalComponent"
+import { RankItem } from "../../RankList/RankItem/RankItem";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({

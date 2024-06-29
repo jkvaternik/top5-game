@@ -1,22 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Header from './Header';
 import InputComponent from '../components/InputComponent';
-import RankList from '../components/RankList';
+import RankList from '../components/RankList/RankList';
 
-import { Puzzle } from '../hooks/useDailyPuzzle';
+import useDailyPuzzle from '../hooks/useDailyPuzzle';
+import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
+import { getScore } from '../utils';
+import { useGameState } from '../hooks/useGameState';
 
 interface GameViewProps {
-  puzzle: Puzzle | null;
-  lives: number;
-  guesses: string[];
-  handleGuess: (guess: string) => boolean | undefined;
-  gameOver: boolean;
   setShowInstructionsModal: (value: boolean) => void;
-  setShowGameOverModal: (value: boolean) => void;
 }
 
-export default function GameView( { puzzle, guesses, handleGuess, lives, gameOver, setShowInstructionsModal, setShowGameOverModal }: GameViewProps ) {
+export default function GameView( { setShowInstructionsModal }: GameViewProps ) {
+  const [showGameOverModal, setShowGameOverModal] = useState(true);
+
+  const puzzle = useDailyPuzzle(null);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, null);
 
   return (
     <>
@@ -37,6 +38,7 @@ export default function GameView( { puzzle, guesses, handleGuess, lives, gameOve
         </section>
       </>
       }
+      {gameOver && <GameOverModal puzzle={puzzle!!} isOpen={showGameOverModal} score={getScore(guesses, puzzle!!.answers)} onClose={() => setShowGameOverModal(false)} />}
     </>
   )
 };
