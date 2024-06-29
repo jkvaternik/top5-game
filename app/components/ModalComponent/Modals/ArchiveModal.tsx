@@ -1,7 +1,7 @@
-import { puzzles } from "../hooks/useDailyPuzzle";
+import { puzzles } from "../../../hooks/useDailyPuzzle";
 import React from "react";
 import { Montserrat } from "next/font/google";
-import { ModalComponent } from "./ModalComponent/ModalComponent";
+import { ModalComponent } from "../ModalComponent";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
 type Props = {
