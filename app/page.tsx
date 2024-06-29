@@ -96,7 +96,7 @@ export default function Home() {
             <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
           }
           {gameOver && !showMenu ?
-            <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
+            <ShareIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
             :
             <div className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}>
               <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
