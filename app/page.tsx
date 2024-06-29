@@ -6,7 +6,7 @@ import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getCurrentLocalDateAsString, getScore, isNewVisitor } from "./utils";
 import { HeartIcon, ArrowRightStartOnRectangleIcon, XMarkIcon } from '@heroicons/react/24/solid'
-import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
+import { Cog6ToothIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -74,8 +74,6 @@ export default function Home() {
     }
   }
 
-  console.log(gameOver, "modal", showGameOverModal)
-
   const gameView = (
     <>
       <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon`}>
@@ -89,9 +87,9 @@ export default function Home() {
         {<p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>}
         <div className="self-end flex flex-col items-end gap-4">
           {showMenu ? 
-            <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" onClick={() => setShowMenu(false)} />
+            <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowMenu(false)} />
             : 
-            <QuestionMarkCircleIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
+            <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
           }
           {gameOver && !showMenu ?
             <ArrowRightStartOnRectangleIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
