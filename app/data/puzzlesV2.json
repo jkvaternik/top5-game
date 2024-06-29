@@ -4929,6 +4929,44 @@
   },
   "2024-07-02": {
     "num": 129,
+    "category": "Most streamed Taylor Swift songs on Spotify (not including features)",
+    "answers": [
+      {
+        "text": [
+          "Cruel Summer"
+        ],
+        "stat": "2,239,434,380 streams"
+      },
+      {
+        "text": [
+          "Blank Space"
+        ],
+        "stat": "1,842,399,387 streams"
+      },
+      {
+        "text": [
+          "Anti-Hero"
+        ],
+        "stat": "1,579,623,198 streams"
+      },
+      {
+        "text": [
+          "Lover"
+        ],
+        "stat": "1,432,093,541 streams"
+      },
+      {
+        "text": [
+          "Shake It Off"
+        ],
+        "stat": "1,420,996,197 streams"
+      }
+    ],
+    "optionsKey": "taylor_swift_songs",
+    "url": "https://kworb.net/spotify/artist/06HL4z0CvFAxyc27GXpf02_songs.html"
+  },
+  "2024-07-03": {
+    "num": 130,
     "category": "Countries with the most Facebook users",
     "answers": [
       {
