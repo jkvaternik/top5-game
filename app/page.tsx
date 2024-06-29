@@ -11,8 +11,6 @@ import { isNewVisitor } from "./utils";
 
 export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
-
-  const [showMenu, setShowMenu] = useState(false);
   // const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
 
   useEffect(() => {
@@ -30,9 +28,8 @@ export default function Home() {
 
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
-      <GameView showMenu={showMenu} setShowMenu={setShowMenu} setShowInstructionsModal={setShowInstructionsModal} />
+      <GameView setShowInstructionsModal={setShowInstructionsModal} />
       <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />
-      
     </main >
   );
 }

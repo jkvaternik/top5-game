@@ -60,14 +60,12 @@ const Picker = ({onClick} : PickerProps) => {
       return localStorage.getItem(key) !== null;
     }
   }
-  
+
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      console.log('complete')
       return 'border border-2 border-green-400 bg-[#328434] text-white'
     }
     if (isAttempted(key)) {
-      console.log('eeh')
       return 'border border-2 border-amber-600 text-dark-maroon'
     } else {
       return 'border border-gray-200 text-dark-maroon'

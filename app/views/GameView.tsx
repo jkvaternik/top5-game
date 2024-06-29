@@ -1,29 +1,44 @@
+'use client'
+
 import React, { useState } from 'react';
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
 import InputComponent from '../components/InputComponent';
 import RankList from '../components/RankList/RankList';
 
 import useDailyPuzzle from '../hooks/useDailyPuzzle';
-import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
 import { getScore } from '../utils';
 import { useGameState } from '../hooks/useGameState';
 import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
+import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
+import Menu from '../components/Menu/Menu';
 
 interface GameViewProps {
-  showMenu: boolean;
-  setShowMenu: (value: boolean) => void;
   setShowInstructionsModal: (value: boolean) => void;
 }
 
-export default function GameView( { showMenu, setShowMenu, setShowInstructionsModal }: GameViewProps ) {
+export default function GameView( { setShowInstructionsModal }: GameViewProps ) {
   const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showArchiveModal, setShowArchiveModal] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
-  const puzzle = useDailyPuzzle(null);
-  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, null);
+  const router = useRouter()
+  const pathname = usePathname()
+
+  const searchParams = useSearchParams()
+  let date = searchParams.get('date')
+
+  if (date && Date.parse(date) > Date.now()) {
+    router.push(pathname)
+    date = null
+  }
+
+  const puzzle = useDailyPuzzle(date);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
 
   const resetGame = (date: string) => {
+    if (typeof window === 'undefined') return
     const gameAtDate = localStorage.getItem(date)
     if (gameAtDate == null) {
       setGuesses([])
@@ -45,6 +60,7 @@ export default function GameView( { showMenu, setShowMenu, setShowInstructionsMo
         setShowInstructionsModal={setShowInstructionsModal}
         setShowGameOverModal={setShowGameOverModal}
       />
+      <Menu showMenu={showMenu} setShowInstructionsModal={setShowInstructionsModal} setShowArchiveModal={setShowArchiveModal} />
       {puzzle && !showMenu && <>
         <section>
           <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
