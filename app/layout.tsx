@@ -21,9 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Suspense>
+      {/* Comment out Suspense block when developing */}
+      {/* <Suspense> */}
         <body className={inter.className}>{children}</body>
-      </Suspense>
+      {/* </Suspense> */}
     </html>
   );
 }

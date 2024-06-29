@@ -5,8 +5,8 @@ import { ToastContainer } from 'react-toastify';
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getCurrentLocalDateAsString, getScore, isNewVisitor } from "./utils";
-import { HeartIcon, ArrowRightStartOnRectangleIcon, XMarkIcon } from '@heroicons/react/24/solid'
-import { Cog6ToothIcon } from '@heroicons/react/24/outline';
+import { HeartIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { Cog6ToothIcon, ShareIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
 
 import 'react-toastify/dist/ReactToastify.css';
@@ -92,7 +92,7 @@ export default function Home() {
             <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
           }
           {gameOver && !showMenu ?
-            <ArrowRightStartOnRectangleIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
+            <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
             :
             <div className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}>
               <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>

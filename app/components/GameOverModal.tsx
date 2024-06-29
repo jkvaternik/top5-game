@@ -4,6 +4,7 @@ import { toast, Bounce } from 'react-toastify';
 import React from "react";
 import { Montserrat } from "next/font/google";
 import { ModalComponent } from "./ModalComponent";
+import { ShareIcon } from "@heroicons/react/24/outline";
 
 type Props = {
   isOpen: boolean;
@@ -56,7 +57,9 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
         <p className="mb-2 font-semibold text-dark-maroon">Top 5 #{puzzle.num}</p>
         <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
         <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-full mb-6" onClick={copyScore} style={{'transition': '0.3s'}}>
-          Share
+          <div className="flex flex-row justify-center gap-2">
+            Share <ShareIcon className="h-6 w-6" style={{display: 'inline'}} />
+          </div>
         </button>
         {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
       </div>
