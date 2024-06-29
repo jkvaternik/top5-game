@@ -4888,5 +4888,81 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons"
+  },
+  "2024-07-01": {
+    "num": 128,
+    "category": "NBA players with the most assists",
+    "answers": [
+      {
+        "text": [
+          "John Stockton"
+        ],
+        "stat": "15,806 assists"
+      },
+      {
+        "text": [
+          "Jason Kidd"
+        ],
+        "stat": "12,091 assists"
+      },
+      {
+        "text": [
+          "Chris Paul"
+        ],
+        "stat": "11,894 assists"
+      },
+      {
+        "text": [
+          "LeBron James"
+        ],
+        "stat": "11,009 assists"
+      },
+      {
+        "text": [
+          "Steve Nash"
+        ],
+        "stat": "10,335 assists"
+      }
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://www.statista.com/statistics/811517/all-time-nba-leaders-total-number-of-rebounds/"
+  },
+  "2024-07-02": {
+    "num": 129,
+    "category": "Countries with the most Facebook users",
+    "answers": [
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "378.5 million users"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "193.8 million users"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "119.05 million users"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "112.5 million users"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "92.7 million users"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/statistics/268136/top-15-countries-based-on-number-of-facebook-users/"
   }
 }
