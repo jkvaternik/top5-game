@@ -18,6 +18,7 @@ import { InstructionsModal } from "./components/InstructionsModal";
 import { LIVES, useGameState } from "./hooks/useGameState";
 import ArchiveModal from "./components/ArchiveModal";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { ModalComponent } from "./components/ModalComponent";
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -34,7 +35,7 @@ export default function Home() {
   if (date && Date.parse(date) > Date.now()) {
     router.push(pathname)
   }
-  
+
   const puzzle = useDailyPuzzle(date);
   const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
 
@@ -44,10 +45,16 @@ export default function Home() {
   const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
   const [showArchiveModal, setShowArchiveModal] = useState(false);
-  
+
   const [showMenu, setShowMenu] = useState(false);
+  const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
 
   useEffect(() => {
+    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
+    if (visitedSinceAnnouncement == null) {
+      setShowAnnouncementModal(true);
+      localStorage.setItem('visitedSinceAnnouncement', 'true');
+    }
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }
@@ -90,13 +97,13 @@ export default function Home() {
         </div>
         {<p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>}
         <div className="self-end flex flex-col items-end gap-4">
-          {showMenu ? 
-            <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowMenu(false)} />
-            : 
-            <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
+          {showMenu ?
+            <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(false)} />
+            :
+            <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(!showMenu)} />
           }
           {gameOver && !showMenu ?
-            <ShareIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
+            <ShareIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{ 'transition': '0.3s' }} onClick={() => setShowGameOverModal(true)} />
             :
             <div className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}>
               <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
@@ -108,7 +115,7 @@ export default function Home() {
           }
         </div>
       </section>
-      {showMenu && 
+      {showMenu &&
         <section className="flex flex-col gap-5 items-center w-full content-center text-dark-maroon">
           <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4 mt-36" onClick={() => setShowInstructionsModal(true)}>How to Play</button>
           <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4" onClick={() => setShowArchiveModal(true)}>Archive</button>
@@ -135,8 +142,18 @@ export default function Home() {
       {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => {
         setShowArchiveModal(false)
         setShowMenu(false)
-      }} resetGame={resetGame}/>}
+      }} resetGame={resetGame} />}
       {gameOver && puzzle && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
+      {/* delete after 3 days */}
+      {<ModalComponent delayMs={750} show={showAnnouncementModal} onClose={() => setShowAnnouncementModal(false)} showChildren={true} >
+        <div className="p-12 pt-0 text-dark-maroon text-pretty">
+          <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>Announcement!</h2>
+          <p className="text-l mb-4">Thank you for playing Top 5! We hope you are enjoying the game and we appreciate your feedback.</p>
+          <p className="text-l mb-4">We have an exciting new feature to announce: starting today, you can access the archive of Top 5 games!</p>
+          <p className="text-l mb-4">To access the archive, click the new <Cog6ToothIcon className="w-4 h-4" style={{ display: 'inline' }} /> icon on the top right of the page and select <b>Archive</b>.</p>
+          <p className="text-l">Enjoy!</p>
+        </div>
+      </ModalComponent>}
     </main >
   );
 }
