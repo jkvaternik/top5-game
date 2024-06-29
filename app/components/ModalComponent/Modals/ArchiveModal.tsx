@@ -1,13 +1,13 @@
-import { puzzles } from "../hooks/useDailyPuzzle";
+import { puzzles } from "../../../hooks/useDailyPuzzle";
 import React from "react";
 import { Montserrat } from "next/font/google";
-import { ModalComponent } from "./ModalComponent";
+import { ModalComponent } from "../ModalComponent";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
 type Props = {
   isOpen: boolean;
   onClose: () => void;
-  resetGame: (date: string) => void;
+  // resetGame: (date: string) => void;
 }
 
 const montserrat = Montserrat({
@@ -20,7 +20,7 @@ const montserrat = Montserrat({
    - use pagination instead of scrolling (or with)
    - fix useSearchParams next.js build error (remove commented code)
 */ 
-const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
+const ArchiveModal = ({ isOpen, onClose }: Props) => {
   // const router = useRouter()
   // const pathname = usePathname()
   // const searchParams = useSearchParams()
@@ -34,7 +34,13 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   //   onClose()
   // }
 
-  const isComplete = (key: string) => localStorage.getItem(key) !== null
+  const isComplete = (key: string) => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem(key) !== null
+    } else {
+      return false
+    }
+  }
 
   const getColor = (key: string) => isComplete(key) ? 'bg-lime-200' : 'bg-gray-200'
   
