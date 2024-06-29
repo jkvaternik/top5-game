@@ -1,9 +1,9 @@
-import { puzzles } from "../hooks/useDailyPuzzle";
+import { puzzles } from "../../../hooks/useDailyPuzzle";
 import React from "react";
 import { Montserrat } from "next/font/google";
-import { ModalComponent } from "./ModalComponent";
+import { ModalComponent } from "../ModalComponent";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import Picker from "./Picker/Picker";
+import Picker from "../../Picker/Picker";
 
 type Props = {
   isOpen: boolean;
@@ -39,7 +39,7 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
     <ModalComponent delayMs={0} show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="m-10">
         <h2 className={`text-2xl mb-6 font-bold text-dark-maroon ${montserrat.className}`}>Archive</h2>
-        <Picker onClick={(date) => setPuzzleUrl(date)} />
+        <Picker onClick={(date: string) => setPuzzleUrl(date)} />
       </div>
     </ModalComponent>
   );

@@ -39,20 +39,28 @@ const Picker = ({onClick} : PickerProps) => {
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
 
   const isComplete = (key: string) => {
-    const localStorageValue = localStorage.getItem(key);
-    if (localStorageValue === null) return false;
-    
-    const guesses: string[] = JSON.parse(localStorageValue);
-    const answers: string[] = puzzles[key].answers.flatMap((answer: Answer) => answer.text);
+    if (typeof window !== 'undefined') {
+      const localStorageValue = localStorage.getItem(key);
+      if (localStorageValue === null) return false;
+      
+      const guesses: string[] = JSON.parse(localStorageValue);
+      const answers: string[] = puzzles[key].answers.flatMap((answer: Answer) => answer.text);
 
-    const correctGuesses = guesses.filter((guess: string) => answers.includes(guess));
-    const incorrectGuesses = guesses.filter((guess: string) => !answers.includes(guess));
+      const correctGuesses = guesses.filter((guess: string) => answers.includes(guess));
+      const incorrectGuesses = guesses.filter((guess: string) => !answers.includes(guess));
 
-    return correctGuesses.length === 5 || incorrectGuesses.length === 5;
+      return correctGuesses.length === 5 || incorrectGuesses.length === 5;
+    } else {
+      return false;
+    }
   }
 
-  const isAttempted = (key: string) => localStorage.getItem(key) !== null
-
+  const isAttempted = (key: string) => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem(key) !== null;
+    }
+  }
+  
   const getColor = (key: string) => {
     if (isComplete(key)) {
       console.log('complete')

@@ -1,5 +1,5 @@
-import { Answer } from '../hooks/useDailyPuzzle';
-import { IncorrectRankItem, RankItem } from './RankItem';
+import { Answer } from '../../hooks/useDailyPuzzle';
+import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
 
 interface Props {
   guesses: string[];
