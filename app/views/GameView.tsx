@@ -1,6 +1,6 @@
 'use client'
 
-import React, { Suspense, useState } from 'react';
+import React, { useState } from 'react';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
@@ -50,7 +50,7 @@ export default function GameView( { setShowInstructionsModal }: GameViewProps ) 
   }
 
   return (
-    <Suspense>
+    <>
       <Header
         puzzle={puzzle}
         lives={lives}
@@ -76,6 +76,6 @@ export default function GameView( { setShowInstructionsModal }: GameViewProps ) 
         setShowArchiveModal(false)
         setShowMenu(false)
       }} resetGame={resetGame} />
-    </Suspense>
+    </>
   )
 };
