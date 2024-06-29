@@ -19,14 +19,13 @@ export function RankItem({ index, answer, isCorrectOrGameOver, className }: {
   );
 }
 
-export function IncorrectRankItem({ key, guess, isCorrectOrGameOver, className }: {
-  key: number,
+export function IncorrectRankItem({ guess, isCorrectOrGameOver, className }: {
   guess: string,
   isCorrectOrGameOver: boolean,
   className?: string
 }): JSX.Element {
   return (
-    <div key={key} className={`flex flex-nowrap flex-row gap-2 p-2 rounded-md bg-gray-200 items-center text-dark-maroon ${className} animated_fadeIn`}>
+    <div className={`flex flex-nowrap flex-row gap-2 p-2 rounded-md bg-gray-200 items-center text-dark-maroon ${className} animated_fadeIn`}>
       <StringIcon string={'X'} isEmpty={!isCorrectOrGameOver} />
       <div>
         <p className={`text-gray-700 font-base`}>{guess}</p>

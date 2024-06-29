@@ -34,7 +34,13 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   //   onClose()
   // }
 
-  const isComplete = (key: string) => localStorage.getItem(key) !== null
+  const isComplete = (key: string) => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem(key) !== null
+    } else {
+      return false
+    }
+  }
 
   const getColor = (key: string) => isComplete(key) ? 'bg-lime-200' : 'bg-gray-200'
   
