@@ -1,31 +1,13 @@
 import React from 'react';
-import { puzzles } from "../../hooks/useDailyPuzzle";
+import { Answer, puzzles } from "../../hooks/useDailyPuzzle";
 
 import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
-import { Puzzle } from '@/app/hooks/useDailyPuzzle';
 
 interface PickerProps {
-  items: Puzzle[];
+  onClick: (key: string) => void;
 }
 
-const Picker = () => {
-  const [index, setIndex] = React.useState(0);
-
-  const isComplete = (key: string) => isAttempted(key)
-
-  const isAttempted = (key: string) => localStorage.getItem(key) !== null
-
-  const getColor = (key: string) => {
-    if (isAttempted(key)) {
-      return 'border border-amber-600 text-dark-maroon'
-    }
-    if (isComplete(key)) {
-      return 'bg-green-600 text-white'
-    } else {
-      return 'border border-gray-200 text-dark-maroon'
-    }
-  }
-
+const Picker = ({onClick} : PickerProps) => {
   const arrayTo2DArray = (arr: any[], size: number) => {
     const arr2D = arr.reduce((acc, _, i) => {
       if (i % size === 0) {
@@ -40,7 +22,6 @@ const Picker = () => {
       lastRow.push(undefined);
     }
 
-    console.log(arr2D);
     return arr2D;
   }
 
@@ -51,7 +32,37 @@ const Picker = () => {
     return arr3D;
   };
 
-  const puzzleMatrix = arrayTo3DArray(Object.keys(puzzles), 4)
+  const puzzleMatrix = arrayTo3DArray(Object.keys(puzzles), 5)
+
+  const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
+
+  const isComplete = (key: string) => {
+    const localStorageValue = localStorage.getItem(key);
+    if (localStorageValue === null) return false;
+    
+    const guesses: string[] = JSON.parse(localStorageValue);
+    const answers: string[] = puzzles[key].answers.flatMap((answer: Answer) => answer.text);
+
+    const correctGuesses = guesses.filter((guess: string) => answers.includes(guess));
+    const incorrectGuesses = guesses.filter((guess: string) => !answers.includes(guess));
+
+    return guesses.filter((guess: string) => answers.includes(guess)).length === 5 || incorrectGuesses.length === 5;
+  }
+
+  const isAttempted = (key: string) => localStorage.getItem(key) !== null
+
+  const getColor = (key: string) => {
+    if (isComplete(key)) {
+      console.log('complete')
+      return 'border border-2 border-green-400 bg-[#328434] text-white'
+    }
+    if (isAttempted(key)) {
+      console.log('eeh')
+      return 'border border-2 border-amber-600 text-dark-maroon'
+    } else {
+      return 'border border-gray-200 text-dark-maroon'
+    }
+  }
   
   const isLeftEnabled = () => {
     return index !== 0;
@@ -64,30 +75,29 @@ const Picker = () => {
   const getButtonSize = (label: string) => {
     switch (label.length) {
       case 1:
-        return 'py-2 px-3';
       case 2:
-        return 'py-2 px-2.5';
+        return 'py-1.5 px-2';
       case 3:
-        return 'py-2 px-1.5';
+        return 'py-1.5 px-1.5';
     }
   }
 
   return (
     <div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-5 gap-4">
         {puzzleMatrix[index].map((row: string[]) => row.map((date: string) => {
           if (date !== undefined) {
             return (
-              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-full`}>
-              <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
+              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md`} onClick={() => onClick(date)}>
+                <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
               </div>
             )
           }
         }))}
       </div>
       <div className="flex flex-row justify-center mt-6">
-      <ArrowLeftCircleIcon className={`h-8 w-8 text-[#304d6d] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null } />
-      <ArrowRightCircleIcon className={`h-8 w-8 text-[#304d6d] cursor-pointer ${isRightEnabled() ? 'opacity-100': 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null}  />
+      <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null } />
+      <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isRightEnabled() ? 'opacity-100': 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null}  />
       </div>
       
     </div>

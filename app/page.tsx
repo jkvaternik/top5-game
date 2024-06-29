@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import InputComponent from "./components/InputComponent";
 import useDailyPuzzle from "./hooks/useDailyPuzzle";
 import { getCurrentLocalDateAsString, getScore, isNewVisitor } from "./utils";
-import { HeartIcon, ShareIcon, XMarkIcon } from '@heroicons/react/24/solid'
+import { HeartIcon, ArrowRightStartOnRectangleIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline';
 import GameOverModal from "./components/GameOverModal";
 
@@ -24,16 +24,15 @@ const montserrat = Montserrat({
   subsets: ["latin"]
 });
 
-
 export default function Home() {
   const router = useRouter()
   const pathname = usePathname()
 
-  // const searchParams = useSearchParams()
-  // const date = searchParams.get('date')
+  const searchParams = useSearchParams()
+  const date = searchParams.get('date')
   
-  const puzzle = useDailyPuzzle(null);
-  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, null);
+  const puzzle = useDailyPuzzle(date);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
 
   const [isExploding, setIsExploding] = useState(false);
   const [animateChange, setAnimateChange] = useState(false);
@@ -42,18 +41,12 @@ export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
   const [showArchiveModal, setShowArchiveModal] = useState(false);
   
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }
-    // remove after 1 week
-    localStorage.removeItem('guessHistory');
-    localStorage.removeItem('lives');
-    localStorage.removeItem('guesses');
-    localStorage.removeItem('isGameOver');
-    // 
 
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
   }, []);
@@ -74,10 +67,14 @@ export default function Home() {
     const gameAtDate = localStorage.getItem(date)
     if (gameAtDate == null) {
       setGuesses([])
+      setShowGameOverModal(true)
     } else {
       setGuesses(JSON.parse(gameAtDate))
+      setShowGameOverModal(true)
     }
   }
+
+  console.log(gameOver, "modal", showGameOverModal)
 
   const gameView = (
     <>
@@ -94,10 +91,10 @@ export default function Home() {
           {showMenu ? 
             <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" onClick={() => setShowMenu(false)} />
             : 
-            <QuestionMarkCircleIcon className="h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
+            <QuestionMarkCircleIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{'transition': '0.3s'}} onClick={() => setShowMenu(!showMenu)} /> 
           }
           {gameOver && !showMenu ?
-            <ShareIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
+            <ArrowRightStartOnRectangleIcon className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer" style={{'transition': '0.3s'}} onClick={() => setShowGameOverModal(true)} />
             :
             <div className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}>
               <span className={`text-xl ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
@@ -111,8 +108,8 @@ export default function Home() {
       </section>
       {showMenu && 
         <section className="flex flex-col gap-5 items-center w-full content-center text-dark-maroon">
-          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-1/2 mt-36" onClick={() => setShowInstructionsModal(true)}>How to Play</button>
-          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-1/2" onClick={() => setShowArchiveModal(true)}>Archive</button>
+          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4 mt-36" onClick={() => setShowInstructionsModal(true)}>How to Play</button>
+          <button className="py-2 px-4 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4" onClick={() => setShowArchiveModal(true)}>Archive</button>
         </section>
       }
       {puzzle && !showMenu && <>
@@ -133,7 +130,10 @@ export default function Home() {
       <ToastContainer closeButton={false} />
       {gameView}
       {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
-      {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => setShowArchiveModal(false)} resetGame={resetGame}/>}
+      {showArchiveModal && <ArchiveModal isOpen={showArchiveModal} onClose={() => {
+        setShowArchiveModal(false)
+        setShowMenu(false)
+      }} resetGame={resetGame}/>}
       {gameOver && puzzle && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
     </main >
   );
