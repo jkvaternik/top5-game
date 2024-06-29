@@ -4812,5 +4812,157 @@
     ],
     "optionsKey": "football_clubs",
     "url": "https://www.forbes.com/lists/soccer-valuations/"
+  },
+  "2024-06-29": {
+    "num": 126,
+    "category": "Oldest universities in the United States",
+    "answers": [
+      {
+        "text": [
+          "Harvard University"
+        ],
+        "stat": "c. 1636"
+      },
+      {
+        "text": [
+          "College of William & Mary"
+        ],
+        "stat": "c. 1693"
+      },
+      {
+        "text": [
+          "St. John's College"
+        ],
+        "stat": "c. 1696"
+      },
+      {
+        "text": [
+          "Yale University"
+        ],
+        "stat": "c. 1701"
+      },
+      {
+        "text": [
+          "University of Pennsylvania"
+        ],
+        "stat": "c. 1740"
+      }
+    ],
+    "optionsKey": "oldest_us_universities",
+    "url": "https://www.topuniversities.com/blog/10-oldest-universities-us"
+  },
+  "2024-06-30": {
+    "num": 127,
+    "category": "Countries with the most nuclear weapons",
+    "answers": [
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "~5,580 warheads"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "~5,044 warheads"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "~500 warheads"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "~290 warheads"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "~225 warheads"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons"
+  },
+  "2024-07-01": {
+    "num": 128,
+    "category": "NBA players with the most assists",
+    "answers": [
+      {
+        "text": [
+          "John Stockton"
+        ],
+        "stat": "15,806 assists"
+      },
+      {
+        "text": [
+          "Jason Kidd"
+        ],
+        "stat": "12,091 assists"
+      },
+      {
+        "text": [
+          "Chris Paul"
+        ],
+        "stat": "11,894 assists"
+      },
+      {
+        "text": [
+          "LeBron James"
+        ],
+        "stat": "11,009 assists"
+      },
+      {
+        "text": [
+          "Steve Nash"
+        ],
+        "stat": "10,335 assists"
+      }
+    ],
+    "optionsKey": "nba_players",
+    "url": "https://www.statista.com/statistics/811517/all-time-nba-leaders-total-number-of-rebounds/"
+  },
+  "2024-07-02": {
+    "num": 129,
+    "category": "Countries with the most Facebook users",
+    "answers": [
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "378.5 million users"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "193.8 million users"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "119.05 million users"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "112.5 million users"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "92.7 million users"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/statistics/268136/top-15-countries-based-on-number-of-facebook-users/"
   }
 }
