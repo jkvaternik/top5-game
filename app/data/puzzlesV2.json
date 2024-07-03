@@ -5002,5 +5002,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/statistics/268136/top-15-countries-based-on-number-of-facebook-users/"
+  },
+  "2024-07-04": {
+    "num": 131,
+    "category": "Best selling Pokémon games by units sold",
+    "answers": [
+      {
+        "text": [
+          "Pokémon Red / Blue / Green"
+        ],
+        "stat": "31.38 million units"
+      },
+      {
+        "text": [
+          "Pokémon Sword / Shield"
+        ],
+        "stat": "26.27 million units"
+      },
+      {
+        "text": [
+          "Pokémon Scarlett / Violet"
+        ],
+        "stat": "24.92 million units"
+      },
+      {
+        "text": [
+          "Pokémon Gold / Silver"
+        ],
+        "stat": "23.1 million units"
+      },
+      {
+        "text": [
+          "Pokémon Diamond / Pearl"
+        ],
+        "stat": "17.67 million units"
+      }
+    ],
+    "optionsKey": "pokemon_games",
+    "url": "https://www.statista.com/statistics/1072224/pokemon-unit-sales-worldwide/"
   }
 }
