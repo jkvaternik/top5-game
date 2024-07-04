@@ -5038,7 +5038,7 @@
       },
       {
         "text": [
-          "Pokémon Diamond", 
+          "Pokémon Diamond",
           "Pokémon Pearl"
         ],
         "stat": "17.67 million units"
@@ -5085,5 +5085,43 @@
     ],
     "optionsKey": "cities",
     "url": "https://inrix.com/scorecard/"
+  },
+  "2024-07-06": {
+    "num": 133,
+    "category": "Countries with the most different species of birds",
+    "answers": [
+      {
+        "text": [
+          "Colombia"
+        ],
+        "stat": "1,863 species"
+      },
+      {
+        "text": [
+          "Peru"
+        ],
+        "stat": "1,861 species"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "1,816 species"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "1,723 species"
+      },
+      {
+        "text": [
+          "Ecuador"
+        ],
+        "stat": "1,629 species"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/Megadiverse_countries"
   }
 }
