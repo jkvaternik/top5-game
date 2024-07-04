@@ -5046,5 +5046,44 @@
     ],
     "optionsKey": "pokemon_games",
     "url": "https://www.statista.com/statistics/1072224/pokemon-unit-sales-worldwide/"
+  },
+  "2024-07-05": {
+    "num": 132,
+    "category": "Most traffic-delayed cities in the world by hours lost in traffic",
+    "answers": [
+      {
+        "text": [
+          "New York City"
+        ],
+        "stat": "101 hours"
+      },
+      {
+        "text": [
+          "London"
+        ],
+        "stat": "99 hours"
+      },
+      {
+        "text": [
+          "Paris"
+        ],
+        "stat": "97 hours"
+      },
+      {
+        "text": [
+          "Chicago",
+          "Mexico City"
+        ],
+        "stat": "96 hours"
+      },
+      {
+        "text": [
+          "Istanbul"
+        ],
+        "stat": "91 hours"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://inrix.com/scorecard/"
   }
 }
