@@ -5009,31 +5009,37 @@
     "answers": [
       {
         "text": [
-          "Pokémon Red / Blue / Green"
+          "Pokémon Red",
+          "Pokémon Blue",
+          "Pokémon Green"
         ],
         "stat": "31.38 million units"
       },
       {
         "text": [
-          "Pokémon Sword / Shield"
+          "Pokémon Sword",
+          "Pokémon Shield"
         ],
         "stat": "26.27 million units"
       },
       {
         "text": [
-          "Pokémon Scarlett / Violet"
+          "Pokémon Shield",
+          "Pokémon Scarlett"
         ],
         "stat": "24.92 million units"
       },
       {
         "text": [
-          "Pokémon Gold / Silver"
+          "Pokémon Gold",
+          "Pokémon Silver"
         ],
         "stat": "23.1 million units"
       },
       {
         "text": [
-          "Pokémon Diamond / Pearl"
+          "Pokémon Diamond", 
+          "Pokémon Pearl"
         ],
         "stat": "17.67 million units"
       }
