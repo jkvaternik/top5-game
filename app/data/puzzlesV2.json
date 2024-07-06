@@ -5123,5 +5123,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/Megadiverse_countries"
+  },
+  "2024-07-07": {
+    "num": 134,
+    "category": "Countries with the most skyscrapers (+150m/492ft tall)",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "3,152 skyscrapers"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "890 skyscrapers"
+      },
+      {
+        "text": [
+          "United Arab Emirates"
+        ],
+        "stat": "335 skyscrapers"
+      },
+      {
+        "text": [
+          "Malaysia"
+        ],
+        "stat": "295 skyscrapers"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "280 skyscrapers"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_the_most_skyscrapers"
   }
 }
