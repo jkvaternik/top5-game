@@ -5161,5 +5161,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_the_most_skyscrapers"
+  },
+  "2024-07-08": {
+    "num": 135,
+    "category": "Countries with highest motor vehicle production",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "30.1 million vehicles"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "10.6 million vehicles"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "8.9 million vehicles"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "5.8 million vehicles"
+      },
+      {
+        "text": [
+          "South Korea"
+        ],
+        "stat": "4.2 million vehicles"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://worldpopulationreview.com/country-rankings/car-production-by-country"
   }
 }
