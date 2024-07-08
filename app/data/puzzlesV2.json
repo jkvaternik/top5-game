@@ -5199,5 +5199,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://worldpopulationreview.com/country-rankings/car-production-by-country"
+  },
+  "2024-07-09": {
+    "num": 136,
+    "category": "Most spoken first langauge",
+    "answers": [
+      {
+        "text": [
+          "Mandarin Chinese"
+        ],
+        "stat": "12.3%"
+      },
+      {
+        "text": [
+          "Spanish"
+        ],
+        "stat": "6%"
+      },
+      {
+        "text": [
+          "English",
+          "Arabic"
+        ],
+        "stat": "5.1%"
+      },
+      {
+        "text": [
+          "Hindi"
+        ],
+        "stat": "3.3%"
+      },
+      {
+        "text": [
+          "Bengali"
+        ],
+        "stat": "3%"
+      }
+    ],
+    "optionsKey": "languages",
+    "url": "https://www.cia.gov/the-world-factbook/countries/world/#people-and-society"
   }
 }
