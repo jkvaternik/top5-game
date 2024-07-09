@@ -5238,5 +5238,44 @@
     ],
     "optionsKey": "languages",
     "url": "https://www.cia.gov/the-world-factbook/countries/world/#people-and-society"
+  },
+  "2024-07-10": {
+    "num": 137,
+    "category": "Most read US newspapers by print circulation",
+    "answers": [
+      {
+        "text": [
+          "The Wall Street Journal"
+        ],
+        "stat": "609,650"
+      },
+      {
+        "text": [
+          "The New York Times"
+        ],
+        "stat": "296,330"
+      },
+      {
+        "text": [
+          "The Washington Post",
+          "New York Post"
+        ],
+        "stat": "135,980"
+      },
+      {
+        "text": [
+          "USA Today"
+        ],
+        "stat": "132,640"
+      },
+      {
+        "text": [
+          "Los Angeles Times"
+        ],
+        "stat": "118,760"
+      }
+    ],
+    "optionsKey": "us_newspapers",
+    "url": "https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States#Top_10_newspapers_by_subscribers_and_print_circulation"
   }
 }
