@@ -5277,5 +5277,81 @@
     ],
     "optionsKey": "us_newspapers",
     "url": "https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States#Top_10_newspapers_by_subscribers_and_print_circulation"
+  },
+  "2024-07-11": {
+    "num": 138,
+    "category": "Countries with most CO₂ emissions",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "11,396 million metric tons"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "5,057 million metric tons"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "2,829 million metric tons"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "1,652 million metric tons"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "1,053 million metric tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=table"
+  },
+  "2024-07-12": {
+    "num": 139,
+    "category": "Longest running animated TV franchises by episodes (excluding anime)",
+    "answers": [
+      {
+        "text": [
+          "Looney Tunes"
+        ],
+        "stat": "1,626 episodes"
+      },
+      {
+        "text": [
+          "Transformers"
+        ],
+        "stat": "1,199 episodes"
+      },
+      {
+        "text": [
+          "Mickey Mouse & Friends"
+        ],
+        "stat": "1,137 episodes"
+      },
+      {
+        "text": [
+          "Yogi Bear & Friends"
+        ],
+        "stat": "761 episodes"
+      },
+      {
+        "text": [
+          "Thomas & Friends"
+        ],
+        "stat": "746 episodes"
+      }
+    ],
+    "optionsKey": "animated_franchises",
+    "url": "https://en.wikipedia.org/wiki/List_of_animated_television_series_by_episode_count#Longest-running_animated_television_franchises"
   }
 }
