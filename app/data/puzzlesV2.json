@@ -5241,38 +5241,38 @@
   },
   "2024-07-10": {
     "num": 137,
-    "category": "Most read US newspapers by print circulation",
+    "category": "Most read US newspapers by average weekday print circulation",
     "answers": [
       {
         "text": [
           "The Wall Street Journal"
         ],
-        "stat": "609,650"
+        "stat": "609,650 papers"
       },
       {
         "text": [
           "The New York Times"
         ],
-        "stat": "296,330"
+        "stat": "296,330 papers"
       },
       {
         "text": [
           "The Washington Post",
           "New York Post"
         ],
-        "stat": "135,980"
+        "stat": "135,980 papers"
       },
       {
         "text": [
           "USA Today"
         ],
-        "stat": "132,640"
+        "stat": "132,640 papers"
       },
       {
         "text": [
           "Los Angeles Times"
         ],
-        "stat": "118,760"
+        "stat": "118,760 papers"
       }
     ],
     "optionsKey": "us_newspapers",
