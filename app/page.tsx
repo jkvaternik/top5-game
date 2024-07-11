@@ -14,15 +14,18 @@ export default function Home() {
   const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
 
   useEffect(() => {
-    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
-    if (visitedSinceAnnouncement == null) {
-      setShowAnnouncementModal(true);
-      localStorage.setItem('visitedSinceAnnouncement', 'true');
-    }
+    // const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
+    // if (visitedSinceAnnouncement == null) {
+    //   setShowAnnouncementModal(true);
+    //   localStorage.setItem('visitedSinceAnnouncement', 'true');
+    // }
+    if (typeof window === 'undefined') return;
+    
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }
 
+    localStorage.removeItem('visitedSinceAnnouncement')
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
   }, []);
 
