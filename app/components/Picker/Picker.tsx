@@ -96,8 +96,8 @@ const Picker = ({ onClick }: PickerProps) => {
         {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
           if (date !== undefined) {
             return (
-              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer`} onClick={() => onClick(date)}>
-                <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`} unselectable='on'>{puzzles[date].num}</span>
+              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(date)}>
+                <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
               </div>
             )
           }
