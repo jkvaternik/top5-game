@@ -17,13 +17,15 @@ export default function Home() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
+    const newUser = isNewVisitor();
+
     const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
-    if (visitedSinceAnnouncement == null) {
+    if (!newUser && visitedSinceAnnouncement == null) {
       setShowAnnouncementModal(true);
       localStorage.setItem('visitedSinceAnnouncement', 'true');
     }
-
-    if (isNewVisitor()) {
+    
+    if (newUser) {
       setShowInstructionsModal(true);
     }
 
