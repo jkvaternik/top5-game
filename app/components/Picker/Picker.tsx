@@ -33,7 +33,7 @@ const Picker = ({ onClick }: PickerProps) => {
     return arr3D;
   };
 
-  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.now());
+  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.parse(getCurrentLocalDateAsString()));
   const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5)
 
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);

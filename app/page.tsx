@@ -11,14 +11,14 @@ import { isNewVisitor } from "./utils";
 
 export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
-  // const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
+  const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
 
   useEffect(() => {
-    // const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
-    // if (visitedSinceAnnouncement == null) {
-    //   setShowAnnouncementModal(true);
-    //   localStorage.setItem('visitedSinceAnnouncement', 'true');
-    // }
+    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
+    if (visitedSinceAnnouncement == null) {
+      setShowAnnouncementModal(true);
+      localStorage.setItem('visitedSinceAnnouncement', 'true');
+    }
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }

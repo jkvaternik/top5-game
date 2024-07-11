@@ -8,7 +8,7 @@ import InputComponent from '../components/InputComponent';
 import RankList from '../components/RankList/RankList';
 
 import useDailyPuzzle from '../hooks/useDailyPuzzle';
-import { getScore } from '../utils';
+import { getCurrentLocalDateAsString, getScore } from '../utils';
 import { useGameState } from '../hooks/useGameState';
 import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
 import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
@@ -29,7 +29,7 @@ export default function GameView( { setShowInstructionsModal }: GameViewProps ) 
   const searchParams = useSearchParams()
   let date = searchParams.get('date')
 
-  if (date && Date.parse(date) > Date.now()) {
+  if (date && Date.parse(date) > Date.parse(getCurrentLocalDateAsString())) {
     router.push(pathname)
     date = null
   }
