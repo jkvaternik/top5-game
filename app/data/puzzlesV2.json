@@ -4929,6 +4929,44 @@
   },
   "2024-07-02": {
     "num": 129,
+    "category": "Most streamed Taylor Swift songs on Spotify (not including features)",
+    "answers": [
+      {
+        "text": [
+          "Cruel Summer"
+        ],
+        "stat": "2,239,434,380 streams"
+      },
+      {
+        "text": [
+          "Blank Space"
+        ],
+        "stat": "1,842,399,387 streams"
+      },
+      {
+        "text": [
+          "Anti-Hero"
+        ],
+        "stat": "1,579,623,198 streams"
+      },
+      {
+        "text": [
+          "Lover"
+        ],
+        "stat": "1,432,093,541 streams"
+      },
+      {
+        "text": [
+          "Shake It Off"
+        ],
+        "stat": "1,420,996,197 streams"
+      }
+    ],
+    "optionsKey": "taylor_swift_songs",
+    "url": "https://kworb.net/spotify/artist/06HL4z0CvFAxyc27GXpf02_songs.html"
+  },
+  "2024-07-03": {
+    "num": 130,
     "category": "Countries with the most Facebook users",
     "answers": [
       {
@@ -4964,5 +5002,356 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/statistics/268136/top-15-countries-based-on-number-of-facebook-users/"
+  },
+  "2024-07-04": {
+    "num": 131,
+    "category": "Best selling Pokémon games by units sold",
+    "answers": [
+      {
+        "text": [
+          "Pokémon Red",
+          "Pokémon Blue",
+          "Pokémon Green"
+        ],
+        "stat": "31.38 million units"
+      },
+      {
+        "text": [
+          "Pokémon Sword",
+          "Pokémon Shield"
+        ],
+        "stat": "26.27 million units"
+      },
+      {
+        "text": [
+          "Pokémon Violet",
+          "Pokémon Scarlett"
+        ],
+        "stat": "24.92 million units"
+      },
+      {
+        "text": [
+          "Pokémon Gold",
+          "Pokémon Silver"
+        ],
+        "stat": "23.1 million units"
+      },
+      {
+        "text": [
+          "Pokémon Diamond",
+          "Pokémon Pearl"
+        ],
+        "stat": "17.67 million units"
+      }
+    ],
+    "optionsKey": "pokemon_games",
+    "url": "https://www.statista.com/statistics/1072224/pokemon-unit-sales-worldwide/"
+  },
+  "2024-07-05": {
+    "num": 132,
+    "category": "Most traffic-delayed cities in the world by hours lost in traffic",
+    "answers": [
+      {
+        "text": [
+          "New York City"
+        ],
+        "stat": "101 hours"
+      },
+      {
+        "text": [
+          "London"
+        ],
+        "stat": "99 hours"
+      },
+      {
+        "text": [
+          "Paris"
+        ],
+        "stat": "97 hours"
+      },
+      {
+        "text": [
+          "Chicago",
+          "Mexico City"
+        ],
+        "stat": "96 hours"
+      },
+      {
+        "text": [
+          "Istanbul"
+        ],
+        "stat": "91 hours"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://inrix.com/scorecard/"
+  },
+  "2024-07-06": {
+    "num": 133,
+    "category": "Countries with the most different species of birds",
+    "answers": [
+      {
+        "text": [
+          "Colombia"
+        ],
+        "stat": "1,863 species"
+      },
+      {
+        "text": [
+          "Peru"
+        ],
+        "stat": "1,861 species"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "1,816 species"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "1,723 species"
+      },
+      {
+        "text": [
+          "Ecuador"
+        ],
+        "stat": "1,629 species"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/Megadiverse_countries"
+  },
+  "2024-07-07": {
+    "num": 134,
+    "category": "Countries with the most skyscrapers (+150m/492ft tall)",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "3,152 skyscrapers"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "890 skyscrapers"
+      },
+      {
+        "text": [
+          "United Arab Emirates"
+        ],
+        "stat": "335 skyscrapers"
+      },
+      {
+        "text": [
+          "Malaysia"
+        ],
+        "stat": "295 skyscrapers"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "280 skyscrapers"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_the_most_skyscrapers"
+  },
+  "2024-07-08": {
+    "num": 135,
+    "category": "Countries with highest motor vehicle production",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "30.1 million vehicles"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "10.6 million vehicles"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "8.9 million vehicles"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "5.8 million vehicles"
+      },
+      {
+        "text": [
+          "South Korea"
+        ],
+        "stat": "4.2 million vehicles"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://worldpopulationreview.com/country-rankings/car-production-by-country"
+  },
+  "2024-07-09": {
+    "num": 136,
+    "category": "Most spoken first langauges in the world",
+    "answers": [
+      {
+        "text": [
+          "Mandarin Chinese"
+        ],
+        "stat": "12.3%"
+      },
+      {
+        "text": [
+          "Spanish"
+        ],
+        "stat": "6%"
+      },
+      {
+        "text": [
+          "English",
+          "Arabic"
+        ],
+        "stat": "5.1%"
+      },
+      {
+        "text": [
+          "Hindi"
+        ],
+        "stat": "3.3%"
+      },
+      {
+        "text": [
+          "Bengali"
+        ],
+        "stat": "3%"
+      }
+    ],
+    "optionsKey": "languages",
+    "url": "https://www.cia.gov/the-world-factbook/countries/world/#people-and-society"
+  },
+  "2024-07-10": {
+    "num": 137,
+    "category": "Most read US newspapers by average weekday print circulation",
+    "answers": [
+      {
+        "text": [
+          "The Wall Street Journal"
+        ],
+        "stat": "609,650 papers"
+      },
+      {
+        "text": [
+          "The New York Times"
+        ],
+        "stat": "296,330 papers"
+      },
+      {
+        "text": [
+          "The Washington Post",
+          "New York Post"
+        ],
+        "stat": "135,980 papers"
+      },
+      {
+        "text": [
+          "USA Today"
+        ],
+        "stat": "132,640 papers"
+      },
+      {
+        "text": [
+          "Los Angeles Times"
+        ],
+        "stat": "118,760 papers"
+      }
+    ],
+    "optionsKey": "us_newspapers",
+    "url": "https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States#Top_10_newspapers_by_subscribers_and_print_circulation"
+  },
+  "2024-07-11": {
+    "num": 138,
+    "category": "Countries with most CO₂ emissions",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "11,396 million metric tons"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "5,057 million metric tons"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "2,829 million metric tons"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "1,652 million metric tons"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "1,053 million metric tons"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=table"
+  },
+  "2024-07-12": {
+    "num": 139,
+    "category": "Longest running animated TV franchises by episodes (excluding anime)",
+    "answers": [
+      {
+        "text": [
+          "Looney Tunes"
+        ],
+        "stat": "1,626 episodes"
+      },
+      {
+        "text": [
+          "Transformers"
+        ],
+        "stat": "1,199 episodes"
+      },
+      {
+        "text": [
+          "Mickey Mouse & Friends"
+        ],
+        "stat": "1,137 episodes"
+      },
+      {
+        "text": [
+          "Yogi Bear & Friends"
+        ],
+        "stat": "761 episodes"
+      },
+      {
+        "text": [
+          "Thomas & Friends"
+        ],
+        "stat": "746 episodes"
+      }
+    ],
+    "optionsKey": "animated_franchises",
+    "url": "https://en.wikipedia.org/wiki/List_of_animated_television_series_by_episode_count#Longest-running_animated_television_franchises"
   }
 }

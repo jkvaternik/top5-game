@@ -31,7 +31,7 @@ export default function Home() {
       <Suspense>
         <GameView setShowInstructionsModal={setShowInstructionsModal} />
       </Suspense>
-      <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />
+      {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
     </main >
   );
 }

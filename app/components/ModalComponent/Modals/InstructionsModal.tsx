@@ -39,7 +39,7 @@ export const InstructionsModal = ({ isOpen, onClose }:
   }, [lives]);
 
   return (
-    <ModalComponent delayMs={100} show={isOpen} onClose={onClose} showChildren={isOpen}>
+    <ModalComponent delayMs={500} show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="p-12 pt-0 text-dark-maroon">
         <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>How to play</h2>
         <p className="text-l mb-2">Guess the Top 5 of a given category.  </p>
