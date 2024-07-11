@@ -63,10 +63,10 @@ const Picker = ({ onClick }: PickerProps) => {
 
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      return 'border border-2 border-green-400 bg-[#328434] text-white'
+      return 'bg-[#D0DBF1] text-dark-maroon'
     }
     if (isAttempted(key)) {
-      return 'border border-2 border-amber-600 text-dark-maroon'
+      return 'border border-2 border-dashed border-[#B0C3E8] text-dark-maroon'
     } else {
       return 'border border-gray-200 text-dark-maroon'
     }

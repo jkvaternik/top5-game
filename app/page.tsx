@@ -8,24 +8,25 @@ import { InstructionsModal } from "./components/ModalComponent/Modals/Instructio
 import GameView from "./views/GameView";
 
 import { isNewVisitor } from "./utils";
+import { AnnouncementModal } from "./components/ModalComponent/Modals/AnnouncementModal";
 
 export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
   const [showAnnouncementModal, setShowAnnouncementModal] = useState(false);
 
   useEffect(() => {
-    // const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
-    // if (visitedSinceAnnouncement == null) {
-    //   setShowAnnouncementModal(true);
-    //   localStorage.setItem('visitedSinceAnnouncement', 'true');
-    // }
     if (typeof window === 'undefined') return;
-    
+
+    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
+    if (visitedSinceAnnouncement == null) {
+      setShowAnnouncementModal(true);
+      localStorage.setItem('visitedSinceAnnouncement', 'true');
+    }
+
     if (isNewVisitor()) {
       setShowInstructionsModal(true);
     }
 
-    localStorage.removeItem('visitedSinceAnnouncement')
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
   }, []);
 
@@ -35,6 +36,7 @@ export default function Home() {
         <GameView setShowInstructionsModal={setShowInstructionsModal} />
       </Suspense>
       {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
+      {showAnnouncementModal && <AnnouncementModal isOpen={showAnnouncementModal} onClose={() => setShowAnnouncementModal(false)} />}
     </main >
   );
 }
