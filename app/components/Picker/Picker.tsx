@@ -8,7 +8,7 @@ interface PickerProps {
   onClick: (key: string) => void;
 }
 
-const Picker = ({onClick} : PickerProps) => {
+const Picker = ({ onClick }: PickerProps) => {
   const arrayTo2DArray = (arr: any[], size: number) => {
     const arr2D = arr.reduce((acc, _, i) => {
       if (i % size === 0) {
@@ -42,7 +42,7 @@ const Picker = ({onClick} : PickerProps) => {
     if (typeof window !== 'undefined') {
       const localStorageValue = localStorage.getItem(key);
       if (localStorageValue === null) return false;
-      
+
       const guesses: string[] = JSON.parse(localStorageValue);
       const answers: string[] = puzzles[key].answers.flatMap((answer: Answer) => answer.text);
 
@@ -71,7 +71,7 @@ const Picker = ({onClick} : PickerProps) => {
       return 'border border-gray-200 text-dark-maroon'
     }
   }
-  
+
   const isLeftEnabled = () => {
     return index !== 0;
   }
@@ -96,7 +96,7 @@ const Picker = ({onClick} : PickerProps) => {
         {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
           if (date !== undefined) {
             return (
-              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md`} onClick={() => onClick(date)}>
+              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10`} onClick={() => onClick(date)}>
                 <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
               </div>
             )
@@ -104,10 +104,10 @@ const Picker = ({onClick} : PickerProps) => {
         }))}
       </div>
       <div className="flex flex-row justify-center mt-6">
-      <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null } />
-      <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isRightEnabled() ? 'opacity-100': 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null}  />
+        <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null} />
+        <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null} />
       </div>
-      
+
     </div>
   )
 }
