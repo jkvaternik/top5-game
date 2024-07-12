@@ -33,7 +33,7 @@ const Picker = ({ onClick }: PickerProps) => {
     return arr3D;
   };
 
-  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.now());
+  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.parse(getCurrentLocalDateAsString()));
   const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5)
 
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
@@ -63,10 +63,10 @@ const Picker = ({ onClick }: PickerProps) => {
 
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      return 'border border-2 border-green-400 bg-[#328434] text-white'
+      return 'bg-[#D0DBF1] text-dark-maroon'
     }
     if (isAttempted(key)) {
-      return 'border border-2 border-amber-600 text-dark-maroon'
+      return 'border border-2 border-dashed border-[#B0C3E8] text-dark-maroon'
     } else {
       return 'border border-gray-200 text-dark-maroon'
     }
@@ -96,7 +96,7 @@ const Picker = ({ onClick }: PickerProps) => {
         {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
           if (date !== undefined) {
             return (
-              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer`} onClick={() => onClick(date)}>
+              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(date)}>
                 <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
               </div>
             )
