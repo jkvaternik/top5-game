@@ -8,17 +8,18 @@ import InputComponent from '../components/InputComponent';
 import RankList from '../components/RankList/RankList';
 
 import useDailyPuzzle from '../hooks/useDailyPuzzle';
-import { getScore } from '../utils';
+import { getCurrentLocalDateAsString, getScore } from '../utils';
 import { useGameState } from '../hooks/useGameState';
 import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
 import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
 import Menu from '../components/Menu/Menu';
+import ArchiveHeader from '../components/ArchiveHeader';
 
 interface GameViewProps {
   setShowInstructionsModal: (value: boolean) => void;
 }
 
-export default function GameView( { setShowInstructionsModal }: GameViewProps ) {
+export default function GameView({ setShowInstructionsModal }: GameViewProps) {
   const [showGameOverModal, setShowGameOverModal] = useState(true);
   const [showArchiveModal, setShowArchiveModal] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
@@ -27,15 +28,23 @@ export default function GameView( { setShowInstructionsModal }: GameViewProps ) 
   const pathname = usePathname()
 
   const searchParams = useSearchParams()
-  let date = searchParams.get('date')
+  let archiveDate = searchParams.get('date')
 
-  if (date && Date.parse(date) > Date.now()) {
-    router.push(pathname)
-    date = null
+  const setPuzzleUrl = (date: string) => {
+    const params = new URLSearchParams(searchParams.toString())
+    params.set('date', date)
+    router.push(pathname + '?' + params.toString())
+    resetGame(date)
   }
 
-  const puzzle = useDailyPuzzle(date);
-  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, date);
+  if (archiveDate && Date.parse(archiveDate) > Date.now() || getCurrentLocalDateAsString() === archiveDate) {
+    router.push(pathname)
+    archiveDate = null
+  }
+
+  const isArchiveMode = !!archiveDate
+  const puzzle = useDailyPuzzle(archiveDate);
+  const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, archiveDate);
 
   const resetGame = (date: string) => {
     if (typeof window === 'undefined') return
@@ -51,13 +60,15 @@ export default function GameView( { setShowInstructionsModal }: GameViewProps ) 
 
   return (
     <>
+      {(isArchiveMode && !!puzzle) &&
+        <ArchiveHeader puzzle={puzzle} date={archiveDate!!} changePuzzle={setPuzzleUrl} />
+      }
       <Header
         puzzle={puzzle}
         lives={lives}
         gameOver={gameOver}
         showMenu={showMenu}
         setShowMenu={setShowMenu}
-        setShowInstructionsModal={setShowInstructionsModal}
         setShowGameOverModal={setShowGameOverModal}
       />
       <Menu showMenu={showMenu} setShowInstructionsModal={setShowInstructionsModal} setShowArchiveModal={setShowArchiveModal} />
