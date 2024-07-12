@@ -5353,5 +5353,43 @@
     ],
     "optionsKey": "animated_franchises",
     "url": "https://en.wikipedia.org/wiki/List_of_animated_television_series_by_episode_count#Longest-running_animated_television_franchises"
+  },
+  "2024-07-13": {
+    "num": 140,
+    "category": "Countries with the highest rice production",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "208,494,800 tonnes"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "196,245,700 tonnes"
+      },
+      {
+        "text": [
+          "Bangladesh"
+        ],
+        "stat": "57,189,193 tonnes"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "54,748,977 tonnes"
+      },
+      {
+        "text": [
+          "Vietnam"
+        ],
+        "stat": "42,672,339 tonnes"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_rice_production"
   }
 }
