@@ -13,7 +13,7 @@ const ArchiveHeader: React.FC<ArchiveHeaderProps> = ({ date, puzzle, changePuzzl
   const previousDate = getDayBefore(date)
 
   const hasNext = nextDate !== getCurrentLocalDateAsString();
-  const hasPrevious = previousDate !== '2024-02-25' // First puzzle date - THE OG
+  const hasPrevious = previousDate !== '2024-02-24' // First puzzle date is 2024-02-25
 
   return (
     <div className="flex justify-between mt-4 bg-slate-300 rounded mb-3 text-center items-center">
