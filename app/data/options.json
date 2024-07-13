@@ -3244,6 +3244,17 @@
     "Neptune",
     "Pluto"
   ],
+  "planets": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto"
+  ],
   "wii_games": [
     "Wii Sports",
     "Mario Kart Wii",
