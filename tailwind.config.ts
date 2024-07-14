@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: { 
+      fontFamily: {
         'sans': ['Inter', 'sans-serif']
       },
       colors: {
@@ -19,6 +19,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      margin: {
+        '4vh': '4vh',
       },
       animation: {
         fade: 'fadeIn .6s ease-in-out',
