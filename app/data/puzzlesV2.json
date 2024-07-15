@@ -5467,5 +5467,43 @@
     ],
     "optionsKey": "elements",
     "url": "https://en.wikipedia.org/wiki/Composition_of_the_human_body#Elements"
+  },
+  "2024-07-16": {
+    "num": 143,
+    "category": "Countries with the most universities",
+    "answers": [
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "5,349 universities"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "3,277 universities"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "3,180 universities"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "2,495 universities"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "1,264 universities"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/statistics/918403/number-of-universities-worldwide-by-country/"
   }
 }
