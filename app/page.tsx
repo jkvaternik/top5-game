@@ -24,7 +24,7 @@ export default function Home() {
       setShowAnnouncementModal(true);
       localStorage.setItem('visitedSinceAnnouncement', 'true');
     }
-    
+
     if (newUser) {
       setShowInstructionsModal(true);
     }

@@ -68,17 +68,39 @@ export const getLocalStorageOrDefault = (key: string, defaultValue: any) => {
   return defaultValue;
 }
 
-export const getCurrentLocalDateAsString = () => {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = now.getMonth() + 1; // getMonth() returns 0-11
-  const day = now.getDate();
+export const getLocalDateAsString = (date: Date) => {
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1; // getMonth() returns 0-11
+  const day = date.getDate();
 
   // Pad the month and day with a leading zero if they are less than 10
   const formattedMonth = month < 10 ? `0${month}` : month;
   const formattedDay = day < 10 ? `0${day}` : day;
 
   return `${year}-${formattedMonth}-${formattedDay}`;
+}
+
+export const getCurrentLocalDateAsString = () => {
+  const now = new Date();
+  return getLocalDateAsString(now);
+}
+
+export const parseLocalDate = (dateStr: string): Date => {
+  const [year, month, day] = dateStr.split('-').map(Number);
+  // Create a date with local timezone context explicitly set
+  return new Date(year, month - 1, day);
+}
+
+export const getDayAfter = (date: string): string => {
+  const dateObj = parseLocalDate(date);
+  dateObj.setDate(dateObj.getDate() + 1);
+  return getLocalDateAsString(dateObj);
+}
+
+export const getDayBefore = (date: string): string => {
+  const dateObj = parseLocalDate(date);
+  dateObj.setDate(dateObj.getDate() - 1);
+  return getLocalDateAsString(dateObj);
 }
 
 export const setLocalStorageAndState = (key: string, newValue: any, setter: React.Dispatch<React.SetStateAction<any>>) => {

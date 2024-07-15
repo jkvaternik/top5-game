@@ -1,4 +1,3 @@
-import { puzzles } from "../../../hooks/useDailyPuzzle";
 import React from "react";
 import { Montserrat } from "next/font/google";
 import { ModalComponent } from "../ModalComponent";
@@ -19,7 +18,7 @@ const montserrat = Montserrat({
 /* TODO:
    - highlight or select done/completed/in progress games
    - fix useSearchParams next.js build error (remove commented code)
-*/ 
+*/
 const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   const router = useRouter()
   const pathname = usePathname()
@@ -28,13 +27,13 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   const setPuzzleUrl = (date: string) => {
     const params = new URLSearchParams(searchParams.toString())
     params.set('date', date)
- 
+
     router.push(pathname + '?' + params.toString())
     resetGame(date)
     onClose()
   }
 
-  
+
   return (
     <ModalComponent delayMs={0} show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="m-8">
