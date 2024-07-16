@@ -5581,5 +5581,43 @@
     ],
     "optionsKey": "twitter_followers",
     "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts"
+  },
+  "2024-07-19": {
+    "num": 146,
+    "category": "Best selling films on VHS in the US (by copies sold)",
+    "answers": [
+      {
+        "text": [
+          "The Lion King"
+        ],
+        "stat": "32,000,000 copies"
+      },
+      {
+        "text": [
+          "Aladdin"
+        ],
+        "stat": "30,000,000 copies"
+      },
+      {
+        "text": [
+          "Snow White and the Seven Dwarfs"
+        ],
+        "stat": "28,000,000 copies"
+      },
+      {
+        "text": [
+          "Titanic"
+        ],
+        "stat": "25,000,000 copies"
+      },
+      {
+        "text": [
+          "Jurassic Park"
+        ],
+        "stat": "24,000,000 copies"
+      }
+    ],
+    "optionsKey": "vhs_best_sellers",
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_films_in_the_United_States"
   }
 }
