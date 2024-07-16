@@ -5505,5 +5505,33 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/statistics/918403/number-of-universities-worldwide-by-country/"
+  },
+  "2024-07-17": {
+    "num": 144,
+    "category": "Countries with the most lakes"
+    "answers": [
+      {
+        "text": ["Canada"]
+        "stat": "879,800"
+      },
+      {
+        "text": ["Russia"]
+        "stat": "201,200"
+      },
+      {
+        "text": ["United States of America"]
+        "stat": "102,500"
+      },
+      {
+        "text": ["China"]
+        "stat": "23,800"
+      },
+      {
+        "text": ["Sweden"]
+        "stat": "22,600"
+      }
+    ],
+    "options": "countries"
+    "url": "https://www.worldatlas.com/articles/which-country-has-the-most-lakes-in-the-world.html"
   }
 }
