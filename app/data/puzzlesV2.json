@@ -5543,5 +5543,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.worldatlas.com/articles/which-country-has-the-most-lakes-in-the-world.html"
+  },
+  "2024-07-18": {
+    "num": 145,
+    "category": "Most followed accounts on Twitter",
+    "answers": [
+      {
+        "text": [
+          "Elon Musk"
+        ],
+        "stat": "189 million followers"
+      },
+      {
+        "text": [
+          "Barack Obama"
+        ],
+        "stat": "131 million followers"
+      },
+      {
+        "text": [
+          "Cristiano Ronaldo"
+        ],
+        "stat": "112 million followers"
+      },
+      {
+        "text": [
+          "Justin Bieber"
+        ],
+        "stat": "110 million followers"
+      },
+      {
+        "text": [
+          "Rihanna"
+        ],
+        "stat": "108 million followers"
+      }
+    ],
+    "optionsKey": "twitter_followers",
+    "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts"
   }
 }
