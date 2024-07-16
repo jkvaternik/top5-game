@@ -5508,30 +5508,40 @@
   },
   "2024-07-17": {
     "num": 144,
-    "category": "Countries with the most lakes"
+    "category": "Countries with the most lakes",
     "answers": [
       {
-        "text": ["Canada"]
+        "text": [
+          "Canada"
+        ],
         "stat": "879,800"
       },
       {
-        "text": ["Russia"]
+        "text": [
+          "Russia"
+        ],
         "stat": "201,200"
       },
       {
-        "text": ["United States of America"]
+        "text": [
+          "United States of America"
+        ],
         "stat": "102,500"
       },
       {
-        "text": ["China"]
+        "text": [
+          "China"
+        ],
         "stat": "23,800"
       },
       {
-        "text": ["Sweden"]
+        "text": [
+          "Sweden"
+        ],
         "stat": "22,600"
       }
     ],
-    "options": "countries"
+    "options": "countries",
     "url": "https://www.worldatlas.com/articles/which-country-has-the-most-lakes-in-the-world.html"
   }
 }
