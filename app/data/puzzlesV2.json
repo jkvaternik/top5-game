@@ -5619,5 +5619,43 @@
     ],
     "optionsKey": "vhs_best_sellers",
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_films_in_the_United_States"
+  },
+  "2024-07-20": {
+    "num": 147,
+    "category": "Cities with the most 150m/492ft+ buildings",
+    "answers": [
+      {
+        "text": [
+          "Hong Kong"
+        ],
+        "stat": "558 buildings"
+      },
+      {
+        "text": [
+          "Shenzhen"
+        ],
+        "stat": "411 buildings"
+      },
+      {
+        "text": [
+          "New York City"
+        ],
+        "stat": "316 buildings"
+      },
+      {
+        "text": [
+          "Dubai"
+        ],
+        "stat": "263 buildings"
+      },
+      {
+        "text": [
+          "Guangzhou"
+        ],
+        "stat": "191 buildings"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_with_the_most_skyscrapers#List_of_cities_by_number_of_completed_skyscrapers_taller_than_150_m_(492_ft)"
   }
 }
