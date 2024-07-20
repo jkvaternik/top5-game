@@ -5657,5 +5657,45 @@
     ],
     "optionsKey": "cities",
     "url": "https://en.wikipedia.org/wiki/List_of_cities_with_the_most_skyscrapers#List_of_cities_by_number_of_completed_skyscrapers_taller_than_150_m_(492_ft)"
+  },
+  "2024-07-21": {
+    "num": 148,
+    "category": "Tennis players with the most Grand Slam singles titles",
+    "answers": [
+      {
+        "text": [
+          "Margaret Court",
+          "Novak Djokovic"
+        ],
+        "stat": "24 titles"
+      },
+      {
+        "text": [
+          "Serena Williams"
+        ],
+        "stat": "23 titles"
+      },
+      {
+        "text": [
+          "Rafael Nadal",
+          "Steffi Graf"
+        ],
+        "stat": "22 titles"
+      },
+      {
+        "text": [
+          "Roger Federer"
+        ],
+        "stat": "20 titles"
+      },
+      {
+        "text": [
+          "Helen Wills Moody"
+        ],
+        "stat": "19 titles"
+      }
+    ],
+    "optionsKey": "tennis_players",
+    "url": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history"
   }
 }
