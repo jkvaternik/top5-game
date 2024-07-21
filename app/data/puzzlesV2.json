@@ -5723,7 +5723,7 @@
                 "stat": "$12.22 billion"
             }
         ],
-        "options": "footwear_companies",
+        "optionsKey": "footwear_companies",
         "url": "https://companiesmarketcap.com/footwear/largest-companies-by-market-cap/"
     }
 }
