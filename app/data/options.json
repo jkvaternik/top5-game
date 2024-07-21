@@ -5486,5 +5486,28 @@
     "Serena Williams",
     "Steffi Graf",
     "Venus Williams"
-  ]
+  ],
+  “footwear_companies”: [
+	“Nike”,
+	“Adidas”,
+	“Deckers Brands”,
+	“On Holding”,
+	“ASICS Corporation”,
+	“Birkenstock”,
+	“Skechers”,
+	“Crocs”,
+	“PUMA”,
+	“VF Corporation”,
+	“Li Ning Company”,
+	“ABC-Mart”,
+	“Metro Brands”,
+	“Boot Barn Holdings”,
+	“Under Armour”,
+	“Relaxo Footwear”,
+	“Foot Locker”,
+	“Bata India”,
+	“Fila”,
+	“TOD’S”,
+	“Salvatore Ferragamo”
+]
 }
