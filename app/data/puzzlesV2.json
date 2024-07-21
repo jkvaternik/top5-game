@@ -1,4 +1,4 @@
-{
+={
   "2024-02-25": {
     "num": 1,
     "category": "Largest countries by area",
@@ -5697,5 +5697,33 @@
     ],
     "optionsKey": "tennis_players",
     "url": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history"
-  }
+  },
+  "2024-07-22": {
+        "num": 149,
+        "category": "Largest footwear companies by market cap",
+        "answers": [
+            {
+                "text": ["Nike"],
+                "stat": "$109.73 billion"
+            },
+            {
+                "text": ["Adidas"],
+                "stat": "$44.14 billion"
+            },
+            {
+                "text": ["Deckers Brands"],
+                "stat": "$22.16 billion"
+            },
+            {
+                "text": ["On Holding"],
+                "stat": "$12.79 billion"
+            },
+            {
+                "text": ["ASICS Corporation"],
+                "stat": "$12.22 billion"
+            }
+        ],
+        "options": "footwear_companies"
+        "url": "https://companiesmarketcap.com/footwear/largest-companies-by-market-cap/"
+    }
 }
