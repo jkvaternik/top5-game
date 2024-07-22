@@ -5699,31 +5699,79 @@
     "url": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history"
   },
   "2024-07-22": {
-        "num": 149,
-        "category": "Largest footwear companies by market cap",
-        "answers": [
-            {
-                "text": ["Nike"],
-                "stat": "$109.73 billion"
-            },
-            {
-                "text": ["Adidas"],
-                "stat": "$44.14 billion"
-            },
-            {
-                "text": ["Deckers Brands"],
-                "stat": "$22.16 billion"
-            },
-            {
-                "text": ["On Holding"],
-                "stat": "$12.79 billion"
-            },
-            {
-                "text": ["ASICS Corporation"],
-                "stat": "$12.22 billion"
-            }
+    "num": 149,
+    "category": "Largest footwear companies by market cap",
+    "answers": [
+      {
+        "text": [
+          "Nike"
         ],
-        "optionsKey": "footwear_companies",
-        "url": "https://companiesmarketcap.com/footwear/largest-companies-by-market-cap/"
-    }
+        "stat": "$109.73 billion"
+      },
+      {
+        "text": [
+          "Adidas"
+        ],
+        "stat": "$44.14 billion"
+      },
+      {
+        "text": [
+          "Deckers Brands"
+        ],
+        "stat": "$22.16 billion"
+      },
+      {
+        "text": [
+          "On Holding"
+        ],
+        "stat": "$12.79 billion"
+      },
+      {
+        "text": [
+          "ASICS Corporation"
+        ],
+        "stat": "$12.22 billion"
+      }
+    ],
+    "optionsKey": "footwear_companies",
+    "url": "https://companiesmarketcap.com/footwear/largest-companies-by-market-cap/"
+  },
+  "2024-07-23": {
+    "num": 150,
+    "category": "Highest grossing Marvel movies",
+    "answers": [
+      {
+        "text": [
+          "Avengers: Endgame"
+        ],
+        "stat": "$2.798 billion"
+      },
+      {
+        "text": [
+          "Avengers: Infinity War"
+        ],
+        "stat": "$2.048 billion"
+      },
+      {
+        "text": [
+          "Spider-Man: No Way Home"
+        ],
+        "stat": "$1.921 billion"
+      },
+      {
+        "text": [
+          "The Avengers"
+        ],
+        "stat": "$1.519 billion"
+      },
+      {
+        "text": [
+          "Avengers: Age of Ultron"
+        ],
+        "stat": "$1.403 billion"
+      }
+    ],
+    "optionsKey": "marvel_movies",
+    "url": "https://www.imdb.com/list/ls040671689/"
+  }
 }
