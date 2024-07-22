@@ -27,7 +27,7 @@ const ArchiveHeader: React.FC<ArchiveHeaderProps> = ({ date, puzzle, changePuzzl
         </svg>
       </button>
       <div className='text-center'>
-        Puzzle #{puzzle.num}
+        #{puzzle.num} ({date})
       </div>
       <button
         className="p-2 bg-[#304d6d] disabled:opacity-0 rounded-tr rounded-br"
