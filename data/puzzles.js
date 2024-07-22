@@ -1,4 +1,4 @@
-{
+const puzzles = {
   "2024-02-25": {
     "num": 1,
     "category": "Largest countries by area",
@@ -5775,3 +5775,5 @@
     "url": "https://www.imdb.com/list/ls040671689/"
   }
 }
+
+module.exports = puzzles;

@@ -1,4 +1,4 @@
-{
+const options = {
   "countries": [
     "Afghanistan",
     "Åland Islands",
@@ -5511,3 +5511,5 @@
     "Salvatore Ferragamo"
   ]
 }
+
+module.exports = options;
