@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
@@ -37,10 +37,11 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
     resetGame(date)
   }
 
-  if (archiveDate && Date.parse(archiveDate) > Date.now() || getCurrentLocalDateAsString() === archiveDate) {
-    router.push(pathname)
-    archiveDate = null
-  }
+  useEffect(() => {
+    if (archiveDate && (Date.parse(archiveDate) > Date.now() || getCurrentLocalDateAsString() === archiveDate)) {
+      router.push(pathname)
+    }
+  }, [archiveDate, pathname, router]);
 
   const isArchiveMode = !!archiveDate
   const puzzle = useDailyPuzzle(archiveDate);
