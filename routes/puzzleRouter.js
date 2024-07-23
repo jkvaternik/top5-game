@@ -38,7 +38,7 @@ router.get('/puzzles', (req, res) => {
     return {
       date,
       ...puzzle,
-      options: optionsList || []
+      options: [] // TODO: remove this line when types are updated to make options optional in this case
     };
   });
 

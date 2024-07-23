@@ -110,7 +110,7 @@ const Picker = ({ onClick }: PickerProps) => {
         {puzzleMatrix[index]?.map((row: Puzzle[] | undefined) => row && row.map((puzzle: Puzzle) => {
           if (puzzle) {
             return (
-              <div key={puzzle.date} className={`flex justify-center items-center ${getColor(puzzle)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(puzzle.date)}>
+              <div key={puzzle.date} className={`flex justify-center items-center ${getColor(puzzle)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(puzzle.date!!)}>
                 <span className={`text-md ${getButtonSize(`${puzzle.num}`)} flex items-center justify-center`}>{puzzle.num}</span>
               </div>
             )
