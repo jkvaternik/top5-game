@@ -5773,5 +5773,43 @@
     ],
     "optionsKey": "marvel_movies",
     "url": "https://www.imdb.com/list/ls040671689/"
+  },
+  "2024-07-24": {
+    "num": 151,
+    "category": "Countries with the largest labor force",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "781.8 million"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "554.1 million"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "168.2 million"
+      },
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "138.1 million"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "108.8 million"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.cia.gov/the-world-factbook/field/labor-force/country-comparison/"
   }
 }
