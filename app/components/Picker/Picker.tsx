@@ -3,6 +3,7 @@ import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/s
 import { getCurrentLocalDateAsString } from '@/app/utils';
 import { Answer, Puzzle } from '@/app/hooks/useDailyPuzzle';
 import { fetchAllPuzzles } from '@/app/services/services';
+import Spinner from '../Loaders/Spinner';
 
 interface PickerProps {
   onClick: (key: string) => void;
@@ -50,7 +51,10 @@ const Picker = ({ onClick }: PickerProps) => {
     });
   }, [currentDate]);
 
-  if (!puzzles) return null;
+  // Show loading state
+  if (!puzzles) {
+    return <Spinner size="lg" color="text-red-600" />
+  }
 
   const isComplete = (puzzle: Puzzle) => {
     if (typeof window !== 'undefined') {
