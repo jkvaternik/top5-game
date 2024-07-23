@@ -5,7 +5,7 @@ type SpinnerProps = {
   color?: string;
 };
 
-const Spinner = ({ size = 'md', color = 'text-blue-600' }: SpinnerProps): React.JSX.Element => {
+const Spinner = ({ size = 'md', color = 'text-dark-maroon' }: SpinnerProps): React.JSX.Element => {
   const sizeClasses = {
     sm: 'w-6 h-6',
     md: 'w-10 h-10',

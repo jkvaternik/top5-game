@@ -53,7 +53,7 @@ const Picker = ({ onClick }: PickerProps) => {
 
   // Show loading state
   if (!puzzles) {
-    return <Spinner size="lg" color="text-red-600" />
+    return <Spinner size="lg" />
   }
 
   const isComplete = (puzzle: Puzzle) => {
