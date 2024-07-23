@@ -9,9 +9,10 @@
     "dev": "next dev",
     "build": "npm run build:app && npm run build:functions",
     "build:app": "next build",
-    "build:functions": "netlify-lambda build netlify/functions",
+    "build:functions": "netlify-lambda build netlify/functions --config ./webpack.functions.js",
     "start": "next start",
-    "server": "node server.js"
+    "server": "node server.js",
+    "netlify-build": "next build && next export && npm run build:functions"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
