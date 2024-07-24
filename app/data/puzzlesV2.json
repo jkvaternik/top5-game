@@ -5889,5 +5889,43 @@
     ],
     "optionsKey": "fast_dog_breeds",
     "url": "https://spoiledhounds.com/fastest-dog-breeds/"
+  },
+  "2024-07-27": {
+    "num": 154,
+    "category": "Youngest U.S. presidents at time of inauguration",
+    "answers": [
+      {
+        "text": [
+          "Theodore Roosevelt"
+        ],
+        "stat": "42 years, 322 days"
+      },
+      {
+        "text": [
+          "John F. Kennedy"
+        ],
+        "stat": "43 years, 236 days"
+      },
+      {
+        "text": [
+          "Bill Clinton"
+        ],
+        "stat": "46 years, 154 days"
+      },
+      {
+        "text": [
+          "Ulysses S. Grant"
+        ],
+        "stat": "46 years, 311 days"
+      },
+      {
+        "text": [
+          "Barack Obama"
+        ],
+        "stat": "47 years, 169 days"
+      }
+    ],
+    "optionsKey": "us_presidents",
+    "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age"
   }
 }
