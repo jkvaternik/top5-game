@@ -5849,5 +5849,45 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.statista.com/chart/30469/tour-de-france-winners-by-nationality-country/"
+  },
+  "2024-07-26": {
+    "num": 153,
+    "category": "Fastest dog breeds by top speed",
+    "answers": [
+      {
+        "text": [
+          "Greyhound"
+        ],
+        "stat": "45 mph"
+      },
+      {
+        "text": [
+          "Saluki"
+        ],
+        "stat": "42 mph"
+      },
+      {
+        "text": [
+          "Afghan Hound",
+          "Ibizan Hound",
+          "Vizsla"
+        ],
+        "stat": "40 mph"
+      },
+      {
+        "text": [
+          "Jack Russell Terrier"
+        ],
+        "stat": "38 mph"
+      },
+      {
+        "text": [
+          "Dalmatian"
+        ],
+        "stat": "37 mph"
+      }
+    ],
+    "optionsKey": "fast_dog_breeds",
+    "url": "https://spoiledhounds.com/fastest-dog-breeds/"
   }
 }

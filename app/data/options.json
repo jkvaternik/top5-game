@@ -2783,6 +2783,28 @@
     "Wirehaired Pointing Griffon",
     "Yorkshire Terrier"
   ],
+  "fast_dog_breeds": [
+    "Afghan Hound",
+    "Border Collie",
+    "Borzoi",
+    "Dalmatian",
+    "Doberman Pinscher",
+    "German Shepherd",
+    "Giant Schnauzer",
+    "Great Dane",
+    "Greyhound",
+    "Ibizan Hound",
+    "Italian Greyhound",
+    "Jack Russell Terrier",
+    "Pharaoh Hound",
+    "Rhodesian Ridgeback",
+    "Saluki",
+    "Scottish Deerhound",
+    "Standard Poodle",
+    "Vizsla",
+    "Weimaraner",
+    "Whippet"
+  ],
   "empires": [
     "Abbasid Caliphate",
     "Achaemenid Empire",
