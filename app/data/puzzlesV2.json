@@ -5811,5 +5811,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.cia.gov/the-world-factbook/field/labor-force/country-comparison/"
+  },
+  "2024-07-25": {
+    "num": 152,
+    "category": "Countries with the most Tour de France wins",
+    "answers": [
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "36 wins"
+      },
+      {
+        "text": [
+          "Belgium"
+        ],
+        "stat": "18 wins"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "12 wins"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "10 wins"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "6 wins"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.statista.com/chart/30469/tour-de-france-winners-by-nationality-country/"
   }
 }
