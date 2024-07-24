@@ -29,3 +29,17 @@ export const fetchAllPuzzles = async (setPuzzles: (data: Puzzle[] | null) => voi
     setPuzzles(null);
   }
 }
+
+export const fetchOptions = async (key: string, setOptions: (data: string[] | null) => void) => {
+  try {
+    const response = await fetch(`/api/options?optionsKey=${key}`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch options');
+    }
+    const data = await response.json();
+    setOptions(data);
+  } catch (error) {
+    console.error('Error fetching options:', error);
+    setOptions(null);
+  }
+}

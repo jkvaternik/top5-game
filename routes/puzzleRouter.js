@@ -17,32 +17,30 @@ router.get('/puzzle', (req, res) => {
     return res.status(404).json({ error: 'No puzzle found for the given date' });
   }
 
-  const optionsList = options[puzzle.optionsKey];
-
-  if (!optionsList) {
-    return res.status(500).json({ error: 'Options not found for the puzzle' });
-  }
-
-  const fullPuzzle = {
-    ...puzzle,
-    options: optionsList
-  };
-
-  res.json(fullPuzzle);
+  res.json(puzzle);
 });
 
 // Route to return all puzzles
 router.get('/puzzles', (req, res) => {
   const allPuzzles = Object.entries(puzzles).map(([date, puzzle]) => {
-    const optionsList = options[puzzle.optionsKey];
     return {
       date,
-      ...puzzle,
-      options: [] // TODO: remove this line when types are updated to make options optional in this case
+      ...puzzle
     };
   });
 
   res.json(allPuzzles);
+});
+
+router.get('/options', (req, res) => {
+  const { optionsKey } = req.query;
+
+  if (!optionsKey) {
+    return res.status(400).json({ error: 'optionsKey parameter is required' });
+  }
+
+  const optionsList = options[optionsKey];
+  res.json(optionsList);
 });
 
 module.exports = router;

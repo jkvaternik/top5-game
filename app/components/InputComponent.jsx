@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import Downshift from 'downshift';
 import Fuse from 'fuse.js';
+import useOptions from '../hooks/useOptions';
 
-const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) => {
+const InputComponent = ({ optionsKey, handleGuess, isGameOver, guesses, answers }) => {
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
+
+  const items = useOptions(optionsKey);
 
   const fuse = new Fuse(items, {
     includeScore: true,
