@@ -5967,5 +5967,48 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_gold_production"
+  },
+  "2024-07-29": {
+    "num": 156,
+    "category": "Swimmers with the most Olympic gold medals",
+    "answers": [
+      {
+        "text": [
+          "Michael Phelps"
+        ],
+        "stat": "23 gold medals"
+      },
+      {
+        "text": [
+          "Mark Spitz"
+        ],
+        "stat": "9 gold medals"
+      },
+      {
+        "text": [
+          "Jenny Thompson",
+          "Matt Biondi",
+          "Caeleb Dressel"
+        ],
+        "stat": "8 gold medals"
+      },
+      {
+        "text": [
+          "Katie Ledecky"
+        ],
+        "stat": "7 gold medals"
+      },
+      {
+        "text": [
+          "Ryan Lochte",
+          "Emma McKeon",
+          "Kristin Otto",
+          "Amy Van Dyken"
+        ],
+        "stat": "6 gold medals"
+      }
+    ],
+    "optionsKey": "olympic_swimmers",
+    "url": "https://en.wikipedia.org/wiki/List_of_Olympic_gold_medalists_in_swimming_by_count"
   }
 }
