@@ -6010,5 +6010,44 @@
     ],
     "optionsKey": "olympic_swimmers",
     "url": "https://en.wikipedia.org/wiki/List_of_Olympic_gold_medalists_in_swimming_by_count"
+  },
+  "2024-07-30": {
+    "num": 157,
+    "category": "Musical artists with the most number-one singles",
+    "answers": [
+      {
+        "text": [
+          "The Beatles"
+        ],
+        "stat": "20 #1 singles"
+      },
+      {
+        "text": [
+          "Mariah Carey"
+        ],
+        "stat": "19 #1 singles"
+      },
+      {
+        "text": [
+          "Elvis Presley"
+        ],
+        "stat": "18 #1 singles"
+      },
+      {
+        "text": [
+          "Rihanna"
+        ],
+        "stat": "14 #1 singles"
+      },
+      {
+        "text": [
+          "Michael Jackson",
+          "Drake"
+        ],
+        "stat": "13 #1 singles"
+      }
+    ],
+    "optionsKey": "musical_artists",
+    "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones#Most_number-one_singles"
   }
 }
