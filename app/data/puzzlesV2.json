@@ -6049,5 +6049,43 @@
     ],
     "optionsKey": "musical_artists",
     "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones#Most_number-one_singles"
+  },
+  "2024-07-31": {
+    "num": 158,
+    "category": "Cities with the most metro stations",
+    "answers": [
+      {
+        "text": [
+          "New York City"
+        ],
+        "stat": "423 stations"
+      },
+      {
+        "text": [
+          "Shanghai"
+        ],
+        "stat": "403 stations"
+      },
+      {
+        "text": [
+          "Beijing"
+        ],
+        "stat": "381 stations"
+      },
+      {
+        "text": [
+          "Seoul"
+        ],
+        "stat": "337 stations"
+      },
+      {
+        "text": [
+          "Paris"
+        ],
+        "stat": "320 stations"
+      }
+    ],
+    "optionsKey": "cities",
+    "url": "https://en.wikipedia.org/wiki/List_of_metro_systems#List"
   }
 }
