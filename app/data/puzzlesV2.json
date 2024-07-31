@@ -6087,5 +6087,43 @@
     ],
     "optionsKey": "cities",
     "url": "https://en.wikipedia.org/wiki/List_of_metro_systems#List"
+  },
+  "2024-08-01": {
+    "num": 159,
+    "category": "Countries with the most Winter Olympic medals",
+    "answers": [
+      {
+        "text": [
+          "Norway"
+        ],
+        "stat": "405 medals"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "330 medals"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "267 medals"
+      },
+      {
+        "text": [
+          "Austria"
+        ],
+        "stat": "250 medals"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "225 medals"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
   }
 }
