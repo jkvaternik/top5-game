@@ -6125,5 +6125,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
+  },
+  "2024-08-02": {
+    "num": 160,
+    "category": "Countries with the most IKEA stores",
+    "answers": [
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "55 stores"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "52 stores"
+      },
+      {
+        "text": [
+          "France",
+          "China"
+        ],
+        "stat": "36 stores"
+      },
+      {
+        "text": [
+          "Spain"
+        ],
+        "stat": "30 stores"
+      },
+      {
+        "text": [
+          "Italy"
+        ],
+        "stat": "23 stores"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_IKEA_stores"
   }
 }
