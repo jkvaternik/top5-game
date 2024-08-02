@@ -6164,5 +6164,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_IKEA_stores"
+  },
+  "2024-08-03": {
+    "num": 161,
+    "category": "Most populous US states",
+    "answers": [
+      {
+        "text": [
+          "California"
+        ],
+        "stat": "38.965 million"
+      },
+      {
+        "text": [
+          "Texas"
+        ],
+        "stat": "30.503 million"
+      },
+      {
+        "text": [
+          "Florida"
+        ],
+        "stat": "22.610 million"
+      },
+      {
+        "text": [
+          "New York"
+        ],
+        "stat": "19.571 million"
+      },
+      {
+        "text": [
+          "Pennsylvania"
+        ],
+        "stat": "12.961 million"
+      }
+    ],
+    "optionsKey": "us_states",
+    "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
   }
 }
