@@ -6202,5 +6202,43 @@
     ],
     "optionsKey": "us_states",
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
+  },
+  "2024-08-04": {
+    "num": 162,
+    "category": "Longest rivers in Europe",
+    "answers": [
+      {
+        "text": [
+          "Volga River"
+        ],
+        "stat": "3,690 km / 2,290 mi"
+      },
+      {
+        "text": [
+          "Danube River"
+        ],
+        "stat": "2,860 km / 1,780 mi"
+      },
+      {
+        "text": [
+          "Ural River"
+        ],
+        "stat": "2,428 km / 1,509 mi"
+      },
+      {
+        "text": [
+          "Dnieper River"
+        ],
+        "stat": "2,290 km / 1,420 mi"
+      },
+      {
+        "text": [
+          "Don River"
+        ],
+        "stat": "1,950 km / 1,210 mi"
+      }
+    ],
+    "optionsKey": "eu_rivers",
+    "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Europe#Rivers_of_Europe_by_length"
   }
 }
