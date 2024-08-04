@@ -6240,5 +6240,43 @@
     ],
     "optionsKey": "eu_rivers",
     "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Europe#Rivers_of_Europe_by_length"
+  }, 
+  "2024-08-05": {
+    "num": 163,
+    "category": "Countries with the largest potato production",
+    "answers": [
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "95.6 million tonnes"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "56.1 million tonnes"
+      },
+      {
+        "text": [
+          "Ukraine"
+        ],
+        "stat": "20.9 million tonnes"
+      },
+      {
+        "text": [
+          "Russia"
+        ],
+        "stat": "18.9 million tonnes"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "17.7 million tonnes"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_potato_production"
   }
 }
