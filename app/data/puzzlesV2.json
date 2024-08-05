@@ -6278,5 +6278,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_potato_production"
+  },
+  "2024-08-06": {
+    "num": 164,
+    "category": "Most abundant elements in the Earth's oceans",
+    "answers": [
+      {
+        "text": [
+          "Oxygen"
+        ],
+        "stat": "85.84%"
+      },
+      {
+        "text": [
+          "Hydrogen"
+        ],
+        "stat": "10.82%"
+      },
+      {
+        "text": [
+          "Chlorine"
+        ],
+        "stat": "1.94%"
+      },
+      {
+        "text": [
+          "Sodium"
+        ],
+        "stat": "1.08%"
+      },
+      {
+        "text": [
+          "Magnesium"
+        ],
+        "stat": "0.13%"
+      }
+    ],
+    "optionsKey": "elements",
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Ocean"
   }
 }
