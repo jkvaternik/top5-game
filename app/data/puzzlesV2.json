@@ -6240,7 +6240,7 @@
     ],
     "optionsKey": "eu_rivers",
     "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Europe#Rivers_of_Europe_by_length"
-  }, 
+  },
   "2024-08-05": {
     "num": 163,
     "category": "Countries with the largest potato production",
@@ -6316,5 +6316,43 @@
     ],
     "optionsKey": "elements",
     "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Ocean"
+  },
+  "2024-08-07": {
+    "num": 165,
+    "category": "Most popular Dr. Seuss Books (by # of ratings on Goodreads)",
+    "answers": [
+      {
+        "text": [
+          "Green Eggs and Ham"
+        ],
+        "stat": "788,789 ratings"
+      },
+      {
+        "text": [
+          "The Cat in the Hat"
+        ],
+        "stat": "548,955 ratings"
+      },
+      {
+        "text": [
+          "How the Grinch Stole Christmas!"
+        ],
+        "stat": "419,513 ratings"
+      },
+      {
+        "text": [
+          "Oh, the Places You'll Go!"
+        ],
+        "stat": "413,584 ratings"
+      },
+      {
+        "text": [
+          "The Lorax"
+        ],
+        "stat": "348,274 ratings"
+      }
+    ],
+    "optionsKey": "dr_seuss_books",
+    "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss"
   }
 }
