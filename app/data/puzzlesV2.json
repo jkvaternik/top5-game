@@ -6354,5 +6354,46 @@
     ],
     "optionsKey": "dr_seuss_books",
     "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss"
+  },
+  "2024-08-08": {
+    "num": 166,
+    "category": "Countries with the most timezones (incl. territories)",
+    "answers": [
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "12 timezones"
+      },
+      {
+        "text": [
+          "United States of America",
+          "Russia"
+        ],
+        "stat": "11 timezones"
+      },
+      {
+        "text": [
+          "Australia",
+          "United Kingdom"
+        ],
+        "stat": "9 timezones"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "6 timezones"
+      },
+      {
+        "text": [
+          "Denmark",
+          "New Zealand"
+        ],
+        "stat": "5 timezones"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_time_zones_by_country"
   }
 }
