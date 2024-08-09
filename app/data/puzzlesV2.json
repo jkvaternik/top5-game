@@ -6395,5 +6395,131 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_time_zones_by_country"
+  },
+  "2024-08-09": {
+    "num": 167,
+    "category": "Olympic sports with the most gold medals available",
+    "answers": [
+      {
+        "text": [
+          "Athletics"
+        ],
+        "stat": "48 gold medals"
+      },
+      {
+        "text": [
+          "Swimming"
+        ],
+        "stat": "37 gold medals"
+      },
+      {
+        "text": [
+          "Judo",
+          "Shooting"
+        ],
+        "stat": "15 gold medals"
+      },
+      {
+        "text": [
+          "Artistic Gymnastics",
+          "Rowing"
+        ],
+        "stat": "14 gold medals"
+      },
+      {
+        "text": [
+          "Boxing"
+        ],
+        "stat": "13 gold medals"
+      }
+    ],
+    "optionsKey": "olympic_sports",
+    "url": "https://www.topendsports.com/events/summer/medal-tally/available-medals.htm#:~:text=Number%20of%20Available%20Gold%20Medals%20in%202024"
+  },
+  "2024-08-10": {
+    "num": 168,
+    "category": "Importers of video game consoles",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "1.3 billion USD"
+      },
+      {
+        "text": [
+          "Netherlands"
+        ],
+        "stat": "1.1 billion USD"
+      },
+      {
+        "text": [
+          "Germany"
+        ],
+        "stat": "1 billion USD"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "0.8 billion USD"
+      },
+      {
+        "text": [
+          "United Kingdom"
+        ],
+        "stat": "0.7 billion USD"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://oec.world/en/profile/hs/other-games-video-game-consoles-and-machines#exporters-importers"
+  },
+  "2024-08-11": {
+    "num": 169,
+    "category": "Countries that have hosted the most Olympic Games (Summer and Winter)",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "10 times"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "7 times"
+      },
+      {
+        "text": [
+          "Japan",
+          "Italy"
+        ],
+        "stat": "3 times"
+      },
+      {
+        "text": [
+          "Germany",
+          "Australia",
+          "United Kingdom",
+          "Canada"
+        ],
+        "stat": "2 times"
+      },
+      {
+        "text": [
+          "Greece",
+          "South Korea",
+          "Russia",
+          "China",
+          "Norway",
+          "Switzerland",
+          "Austria"
+        ],
+        "stat": "2 times"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities#Number_of_Olympic_Games_by_country"
   }
 }

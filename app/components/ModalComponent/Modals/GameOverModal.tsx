@@ -61,7 +61,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
         <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
         <button className="py-3 px-12 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] mb-6" onClick={copyScore} style={{'transition': '0.3s'}}>
           <div className="flex flex-row justify-center gap-2">
-            Share <ShareIcon className="h-6 w-6" style={{display: 'inline-block'}} />
+            Share score <ShareIcon className="h-6 w-6" style={{display: 'inline-block'}} />
           </div>
         </button>
         {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
