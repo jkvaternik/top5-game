@@ -6521,5 +6521,44 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities#Number_of_Olympic_Games_by_country"
+  },
+  "2024-08-12": {
+    "num": 170,
+    "category": "Countries with the most 2024 summer olympic gold medals",
+    "answers": [
+      {
+        "text": [
+          "United States of America",
+          "China"
+        ],
+        "stat": "40 gold medals"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "20 gold medals"
+      },
+      {
+        "text":[
+          "Australia"
+        ],
+        "stat": "18 gold medals"
+      },
+      {
+        "text": [
+          "France"
+        ],
+        "stat": "16 gold medals"
+      },
+      {
+        "text": [
+          "Netherlands"
+        ],
+        "stat": "15 gold medals"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://olympics.com/en/paris-2024/medals?AnonymousID=3f9c5251-c139-4d4d-b54f-c18ee2f531a5&displayAsWebView=true"
   }
 }
