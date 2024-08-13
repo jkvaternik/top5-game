@@ -6598,5 +6598,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://ourworldindata.org/grapher/orange-production?tab=table"
+  },
+  "2024-08-14": {
+    "num": 172,
+    "category": "Languages officially spoken by the most countries",
+    "answers": [
+      {
+        "text": [
+          "English"
+        ],
+        "stat": "58 countries, 31 dependencies"
+      },
+      {
+        "text": [
+          "French"
+        ],
+        "stat": "28 countries, 11 dependencies"
+      },
+      {
+        "text": [
+          "Arabic"
+        ],
+        "stat": "26 countries, 1 dependency"
+      },
+      {
+        "text": [
+          "Spanish"
+        ],
+        "stat": "20 countries, 1 dependency"
+      },
+      {
+        "text": [
+          "Portuguese"
+        ],
+        "stat": "9 countries, 1 dependency"
+      }
+    ],
+    "optionsKey": "languages",
+    "url": "https://en.wikipedia.org/wiki/Official_language#Statistics"
   }
 }
