@@ -6560,5 +6560,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://olympics.com/en/paris-2024/medals?AnonymousID=3f9c5251-c139-4d4d-b54f-c18ee2f531a5&displayAsWebView=true"
+  },
+  "2024-08-13": {
+    "num": 171,
+    "category": "Countries with largest orange production",
+    "answers": [
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "16.9 million tonnes"
+      },
+      {
+        "text": [
+          "India"
+        ],
+        "stat": "10.2 million tonnes"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "7.6 million tonnes"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "4.85 million tonnes"
+      },
+      {
+        "text": [
+          "Egypt"
+        ],
+        "stat": "3.39 million tonnes"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://ourworldindata.org/grapher/orange-production?tab=table"
   }
 }
