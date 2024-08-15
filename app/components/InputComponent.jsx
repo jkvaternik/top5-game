@@ -3,6 +3,7 @@ import Downshift from 'downshift';
 import Fuse from 'fuse.js';
 
 const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) => {
+  console.log('InputComponent rendered', items);
   const [inputItems, setInputItems] = useState(items);
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation

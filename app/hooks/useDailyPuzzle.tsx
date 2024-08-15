@@ -13,6 +13,7 @@ type PuzzleInput = {
   category: string;
   answers: Answer[];
   optionsKey: string;
+  options?: Answer[];
   url?: string;
 }
 
@@ -21,7 +22,7 @@ export type Puzzle = {
   category: string;
   answers: Answer[];
   optionsKey: string;
-  options: string[];
+  options: string[] | Answer[];
   url?: string;
 }
 
@@ -41,10 +42,11 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
     const dailyPuzzle: PuzzleInput = puzzles[puzzleDay]
 
     if (dailyPuzzle) {
-      const optionsList: string[] = options[dailyPuzzle.optionsKey]
+      // const optionsList: string[] = options[dailyPuzzle.optionsKey]
+      console.log(dailyPuzzle.options)
       setTodayPuzzle({
         ...dailyPuzzle,
-        options: optionsList
+        options: dailyPuzzle.options!!
       });
     } else {
       // Handle the case where there is no puzzle for today

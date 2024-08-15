@@ -7,7 +7,7 @@ import Header from './Header';
 import InputComponent from '../components/InputComponent';
 import RankList from '../components/RankList/RankList';
 
-import useDailyPuzzle from '../hooks/useDailyPuzzle';
+import useDailyPuzzle, { Answer, Puzzle } from '../hooks/useDailyPuzzle';
 import { getCurrentLocalDateAsString, getScore } from '../utils';
 import { useGameState } from '../hooks/useGameState';
 import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
@@ -58,6 +58,14 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
     }
   }
 
+  const getOptions = (puzzle: Puzzle) => {
+    if (puzzle.optionsKey === 'options') {
+      return (puzzle.options as Answer[]).map(a => a.text[0])
+    } else {
+      return puzzle.options
+    }
+  } 
+
   return (
     <>
       {(isArchiveMode && !!puzzle) &&
@@ -74,11 +82,11 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
       <Menu showMenu={showMenu} setShowInstructionsModal={setShowInstructionsModal} setShowArchiveModal={setShowArchiveModal} />
       {puzzle && !showMenu && <>
         <section>
-          <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
+          <InputComponent items={getOptions(puzzle)} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
         </section>
         <br></br>
         <section className="flex flex-col gap-4">
-          <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
+          <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.options as Answer[]} isGameOver={gameOver} />
         </section>
       </>
       }

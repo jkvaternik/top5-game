@@ -6672,7 +6672,57 @@
         "stat": "1,210-4,500 kg"
       }
     ],
-    "optionsKey": "land_mammals",
+    "options": [
+      {
+        "text": [
+          "African bush elephant"
+        ],
+        "stat": "5,200-10,000 kg"
+      },
+      {
+        "text": [
+          "Asian elephant"
+        ],
+        "stat": "2,400-8,000 kg"
+      },
+      {
+        "text": [
+          "African forest elephant"
+        ],
+        "stat": "1,700-6,000 kg"
+      },
+      {
+        "text": [
+          "White rhinoceros"
+        ],
+        "stat": "3,000-4,500 kg"
+      },
+      {
+        "text": [
+          "Hippopotamus"
+        ],
+        "stat": "1,210-4,500 kg"
+      },
+      {
+        "text": [
+          "Indian rhinoceros"
+        ],
+        "stat": "4,000 kg"
+      },
+      {
+        "text": [
+          "Javarian rhinoceros"
+        ],
+        "stat": "3,000 kg"
+      },
+      {
+        "text": [
+          "Samwise Gamgee"
+        ],
+        "stat": "2,000 kg"
+      }
+    ],
+    "optionsKey": "options",
     "url": "https://en.wikipedia.org/wiki/List_of_heaviest_land_mammals"
   },
   "2024-08-16": {
