@@ -31,7 +31,7 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
       } else {
         setInputItems([]);
       }
-    }, 300),
+    }, 100),
     [searchItems]
   );
 
