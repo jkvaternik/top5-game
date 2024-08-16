@@ -1,30 +1,45 @@
-import { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import Downshift from 'downshift';
-import Fuse from 'fuse.js';
+import { debounce } from 'lodash';
 
 const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) => {
-  const [inputItems, setInputItems] = useState(items);
-  const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
-  const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
+  const [inputItems, setInputItems] = useState([]);
+  const [inputValue, setInputValue] = useState('');
+  const [isIncorrect, setIsIncorrect] = useState(false);
 
-  const fuse = useMemo(() => new Fuse(items, {
-    includeScore: true,
-    threshold: 0.3,
-  }), [items]);
+  // Search function
+  const searchItems = useCallback((query) => {
+    const lowercaseQuery = query.toLowerCase();
+    return items
+      .filter(item => item.toLowerCase().includes(lowercaseQuery))
+      .sort((a, b) => {
+        const aLower = a.toLowerCase();
+        const bLower = b.toLowerCase();
+        if (aLower === lowercaseQuery) return -1;
+        if (bLower === lowercaseQuery) return 1;
+        return aLower.indexOf(lowercaseQuery) - bLower.indexOf(lowercaseQuery) || aLower.localeCompare(bLower);
+      })
+      .slice(0, 5);
+  }, [items]);
+
+  // Debounced search function
+  const debouncedSearch = useMemo(
+    () => debounce((value) => {
+      if (value) {
+        const results = searchItems(value);
+        setInputItems(results);
+      } else {
+        setInputItems([]);
+      }
+    }, 300),
+    [searchItems]
+  );
 
   const handleInputChange = useCallback((event) => {
     const { value } = event.target;
     setInputValue(value);
-
-    if (value) {
-      const results = fuse.search(value);
-      const matchedItems = results.map(result => result.item);
-      setInputItems(matchedItems.slice(0, 5));
-    } else {
-      setInputItems([]);
-    }
-  }, [fuse]);
-
+    debouncedSearch(value);
+  }, [debouncedSearch]);
 
   const downshiftOnChange = useCallback((selectedItem) => {
     if (selectedItem) {
@@ -47,12 +62,9 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
 
   return (
     <Downshift
-      inputValue={inputValue} // Provide Downshift with the controlled inputValue
+      inputValue={inputValue}
       onChange={downshiftOnChange}
-      onInputValueChange={(inputValue, stateAndHelpers) => {
-        // Optionally, handle additional logic here if needed
-      }}
-      itemToString={item => (item || '')}
+      itemToString={(item) => item || ''}
     >
       {({
         getInputProps,
@@ -60,7 +72,6 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
         getMenuProps,
         isOpen,
         highlightedIndex,
-        selectedItem,
         getRootProps,
       }) => (
         <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-dark-maroon'>
@@ -69,21 +80,24 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
               placeholder: "Enter your guess here...",
               className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
               disabled: isGameOver,
-              onChange: handleInputChange, // Use the custom handler
+              onChange: handleInputChange,
               onAnimationEnd: () => setIsIncorrect(false),
             })}
           />
-          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}>
-            {isOpen &&
-              inputItems.filter(item => !shouldStrikethrough(item)).map((item, index) => (
-                <li
-                  key={index}
-                  {...getItemProps({ index, item })}
-                  className={`rounded-md cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
-                >
-                  {item}
-                </li>
-              ))}
+          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
+            {isOpen && inputItems.map((item, index) => (
+              <li
+                key={`${item}-${index}`}
+                {...getItemProps({
+                  index,
+                  item
+                })}
+                className={`cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : ''
+                  } ${shouldStrikethrough(item) ? 'line-through text-gray-400' : ''}`}
+              >
+                {item}
+              </li>
+            ))}
           </ul>
         </div>
       )}
@@ -91,4 +105,4 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
   );
 };
 
-export default InputComponent;
+export default React.memo(InputComponent);
