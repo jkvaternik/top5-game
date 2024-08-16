@@ -6712,5 +6712,43 @@
     ],
     "optionsKey": "european_countries",
     "url": "https://en.wikipedia.org/wiki/List_of_European_countries_by_population"
+  },
+  "2024-08-17": {
+    "num": 175,
+    "category": "Highest-paid athletes in the world by total earnings (2024)",
+    "answers": [
+      {
+        "text": [
+          "Cristiano Ronaldo"
+        ],
+        "stat": "$260 million"
+      },
+      {
+        "text": [
+          "Jon Rahm"
+        ],
+        "stat": "$218 million"
+      },
+      {
+        "text": [
+          "Lionel Messi"
+        ],
+        "stat": "$135 million"
+      },
+      {
+        "text": [
+          "LeBron James"
+        ],
+        "stat": "$128.2 million"
+      },
+      {
+        "text": [
+          "Giannis Antetokounmpo"
+        ],
+        "stat": "$111 million"
+      }
+    ],
+    "optionsKey": "athletes",
+    "url": "https://www.forbes.com/lists/athletes/"
   }
 }
