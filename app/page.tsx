@@ -27,7 +27,7 @@ export default function Home() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      import('./consoleErrorLogger.js')
+      import('./consoleErrorLogger.jsx')
     }
   }, [])
 
