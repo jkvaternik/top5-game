@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { InstructionsModal } from "./components/ModalComponent/Modals/InstructionsModal";
 import GameView from "./views/GameView";
+import ErrorBoundary from "./components/ErrorBoundary"
 
 import { isNewVisitor } from "./utils";
 
@@ -27,7 +28,9 @@ export default function Home() {
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <Suspense>
-        <GameView setShowInstructionsModal={setShowInstructionsModal} />
+        <ErrorBoundary>
+          <GameView setShowInstructionsModal={setShowInstructionsModal} />
+        </ErrorBoundary>
       </Suspense>
       {showInstructionsModal && <InstructionsModal isOpen={showInstructionsModal} onClose={() => setShowInstructionsModal(false)} />}
     </main >
