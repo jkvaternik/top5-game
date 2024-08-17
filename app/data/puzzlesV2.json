@@ -2254,7 +2254,7 @@
   },
   "2024-04-24": {
     "num": 60,
-    "category": "States with the most McDonald's restaurants",
+    "category": "US States with the most McDonald's restaurants",
     "answers": [
       {
         "text": [
@@ -6750,5 +6750,43 @@
     ],
     "optionsKey": "athletes",
     "url": "https://www.forbes.com/lists/athletes/"
+  },
+  "2024-08-18": {
+    "num": 176,
+    "category": "Countries with the most Starbucks locations",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "15,952 locations"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "6,000 locations"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "2,359 locations"
+      },
+      {
+        "text": [
+          "South Korea"
+        ],
+        "stat": "1,893 locations"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "1,415 locations"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/Starbucks#Locations"
   }
 }
