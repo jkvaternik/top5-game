@@ -6788,5 +6788,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://en.wikipedia.org/wiki/Starbucks#Locations"
+  },
+  "2024-08-19": {
+    "num": 177,
+    "category": "Highest grossing Pixar movies",
+    "answers": [
+      {
+        "text": [
+          "Inside Out 2"
+        ],
+        "stat": "$1.626 million"
+      },
+      {
+        "text": [
+          "Incredibles 2"
+        ],
+        "stat": "$1.243 billion"
+      },
+      {
+        "text": [
+          "Toy Story 4"
+        ],
+        "stat": "$1.073 billion"
+      },
+      {
+        "text": [
+          "Toy Story 3"
+        ],
+        "stat": "$1.067 billion"
+      },
+      {
+        "text": [
+          "Finding Dory"
+        ],
+        "stat": "$1.028 billion"
+      }
+    ],
+    "optionsKey": "pixar_movies",
+    "url": "https://www.the-numbers.com/movies/production-company/Pixar#production_company_movies_overview=od5"
   }
 }
