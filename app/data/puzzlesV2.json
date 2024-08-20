@@ -6826,5 +6826,44 @@
     ],
     "optionsKey": "pixar_movies",
     "url": "https://www.the-numbers.com/movies/production-company/Pixar#production_company_movies_overview=od5"
+  },
+  "2024-08-20": {
+    "num": 178,
+    "category": "Major League Baseball franchises with most World Series wins",
+    "answers": [
+      {
+        "text": [
+          "New York Yankees"
+        ],
+        "stat": "27 wins"
+      },
+      {
+        "text": [
+          "St. Louis Cardinals"
+        ],
+        "stat": "11 wins"
+      },
+      {
+        "text": [
+          "Oakland Athletics",
+          "Boston Red Sox"
+        ],
+        "stat": "9 wins"
+      },
+      {
+        "text": [
+          "San Francisco Giants"
+        ],
+        "stat": "8 wins"
+      },
+      {
+        "text": [
+          "Los Angeles Dodgers"
+        ],
+        "stat": "7 wins"
+      }
+    ],
+    "optionsKey": "mlb_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions#World_Series_records_by_franchise"
   }
 }
