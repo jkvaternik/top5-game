@@ -6865,5 +6865,43 @@
     ],
     "optionsKey": "mlb_teams",
     "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions#World_Series_records_by_franchise"
+  },
+  "2024-08-21": {
+    "num": 179,
+    "category": "Heaviest human organs",
+    "answers": [
+      {
+        "text": [
+          "Skin"
+        ],
+        "stat": "4.5 kg"
+      },
+      {
+        "text": [
+          "Liver"
+        ],
+        "stat": "1.56 kg"
+      },
+      {
+        "text": [
+          "Brain"
+        ],
+        "stat": "1.5 kg"
+      },
+      {
+        "text": [
+          "Lungs"
+        ],
+        "stat": "1.3 kg"
+      },
+      {
+        "text": [
+          "Heart"
+        ],
+        "stat": "0.3 kg"
+      }
+    ],
+    "optionsKey": "human_organs",
+    "url": "https://www.sciencefocus.com/the-human-body/top-10-what-are-the-heaviest-organs-in-the-human-body"
   }
 }

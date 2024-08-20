@@ -5751,5 +5751,28 @@
     "Shohei Ohtani",
     "Stephen Curry",
     "Tiger Woods"
+  ],
+  "human_organs": [
+    "Brain",
+    "Heart",
+    "Lungs",
+    "Liver",
+    "Kidneys",
+    "Pancreas",
+    "Spleen",
+    "Stomach",
+    "Intestines",
+    "Bladder",
+    "Gallbladder",
+    "Thyroid",
+    "Adrenal glands",
+    "Pituitary gland",
+    "Pineal gland",
+    "Hypothalamus",
+    "Thymus",
+    "Ovaries",
+    "Testes",
+    "Uterus",
+    "Skin"
   ]
 }
