@@ -6903,5 +6903,43 @@
     ],
     "optionsKey": "human_organs",
     "url": "https://www.sciencefocus.com/the-human-body/top-10-what-are-the-heaviest-organs-in-the-human-body"
+  },
+  "2024-08-22": {
+    "num": 180,
+    "category": "Countries with the most threatened animal species (as of 2023)",
+    "answers": [
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "1,230 threatened species"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "1,184 threatened species"
+      },
+      {
+        "text": [
+          "Australia"
+        ],
+        "stat": "1,083 threatened species"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "1,075 threatened species"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "975 threatened species"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.iucnredlist.org/statistics"
   }
 }
