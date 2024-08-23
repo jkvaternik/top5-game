@@ -2254,7 +2254,7 @@
   },
   "2024-04-24": {
     "num": 60,
-    "category": "States with the most McDonald's restaurants",
+    "category": "US States with the most McDonald's restaurants",
     "answers": [
       {
         "text": [
@@ -6750,5 +6750,234 @@
     ],
     "optionsKey": "athletes",
     "url": "https://www.forbes.com/lists/athletes/"
+  },
+  "2024-08-18": {
+    "num": 176,
+    "category": "Countries with the most Starbucks locations",
+    "answers": [
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "15,952 locations"
+      },
+      {
+        "text": [
+          "China"
+        ],
+        "stat": "6,000 locations"
+      },
+      {
+        "text": [
+          "Canada"
+        ],
+        "stat": "2,359 locations"
+      },
+      {
+        "text": [
+          "South Korea"
+        ],
+        "stat": "1,893 locations"
+      },
+      {
+        "text": [
+          "Japan"
+        ],
+        "stat": "1,415 locations"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://en.wikipedia.org/wiki/Starbucks#Locations"
+  },
+  "2024-08-19": {
+    "num": 177,
+    "category": "Highest grossing Pixar movies",
+    "answers": [
+      {
+        "text": [
+          "Inside Out 2"
+        ],
+        "stat": "$1.626 million"
+      },
+      {
+        "text": [
+          "Incredibles 2"
+        ],
+        "stat": "$1.243 billion"
+      },
+      {
+        "text": [
+          "Toy Story 4"
+        ],
+        "stat": "$1.073 billion"
+      },
+      {
+        "text": [
+          "Toy Story 3"
+        ],
+        "stat": "$1.067 billion"
+      },
+      {
+        "text": [
+          "Finding Dory"
+        ],
+        "stat": "$1.028 billion"
+      }
+    ],
+    "optionsKey": "pixar_movies",
+    "url": "https://www.the-numbers.com/movies/production-company/Pixar#production_company_movies_overview=od5"
+  },
+  "2024-08-20": {
+    "num": 178,
+    "category": "Major League Baseball franchises with most World Series wins",
+    "answers": [
+      {
+        "text": [
+          "New York Yankees"
+        ],
+        "stat": "27 wins"
+      },
+      {
+        "text": [
+          "St. Louis Cardinals"
+        ],
+        "stat": "11 wins"
+      },
+      {
+        "text": [
+          "Oakland Athletics",
+          "Boston Red Sox"
+        ],
+        "stat": "9 wins"
+      },
+      {
+        "text": [
+          "San Francisco Giants"
+        ],
+        "stat": "8 wins"
+      },
+      {
+        "text": [
+          "Los Angeles Dodgers"
+        ],
+        "stat": "7 wins"
+      }
+    ],
+    "optionsKey": "mlb_teams",
+    "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions#World_Series_records_by_franchise"
+  },
+  "2024-08-21": {
+    "num": 179,
+    "category": "Heaviest human organs",
+    "answers": [
+      {
+        "text": [
+          "Skin"
+        ],
+        "stat": "4.5 kg"
+      },
+      {
+        "text": [
+          "Liver"
+        ],
+        "stat": "1.56 kg"
+      },
+      {
+        "text": [
+          "Brain"
+        ],
+        "stat": "1.5 kg"
+      },
+      {
+        "text": [
+          "Lungs"
+        ],
+        "stat": "1.3 kg"
+      },
+      {
+        "text": [
+          "Heart"
+        ],
+        "stat": "0.3 kg"
+      }
+    ],
+    "optionsKey": "human_organs",
+    "url": "https://www.sciencefocus.com/the-human-body/top-10-what-are-the-heaviest-organs-in-the-human-body"
+  },
+  "2024-08-22": {
+    "num": 180,
+    "category": "Countries with the most threatened animal species (as of 2023)",
+    "answers": [
+      {
+        "text": [
+          "Indonesia"
+        ],
+        "stat": "1,230 threatened species"
+      },
+      {
+        "text": [
+          "United States of America"
+        ],
+        "stat": "1,184 threatened species"
+      },
+      {
+        "text": [
+          "Australia"
+        ],
+        "stat": "1,083 threatened species"
+      },
+      {
+        "text": [
+          "Brazil"
+        ],
+        "stat": "1,075 threatened species"
+      },
+      {
+        "text": [
+          "Mexico"
+        ],
+        "stat": "975 threatened species"
+      }
+    ],
+    "optionsKey": "countries",
+    "url": "https://www.iucnredlist.org/statistics"
+  },
+  "2024-08-23": {
+    "num": 181,
+    "category": "Longest Rivers in the United States (by main stem)",
+    "answers": [
+      {
+        "text": [
+          "Missouri River"
+        ],
+        "stat": "2,341 miles"
+      },
+      {
+        "text": [
+          "Mississippi River"
+        ],
+        "stat": "2,340 miles"
+      },
+      {
+        "text": [
+          "Yukon River"
+        ],
+        "stat": "1,979 miles"
+      },
+      {
+        "text": [
+          "Rio Grande"
+        ],
+        "stat": "1,759 miles"
+      },
+      {
+        "text": [
+          "Colorado River"
+        ],
+        "stat": "1,450 miles"
+      }
+    ],
+    "optionsKey": "us_rivers",
+    "url": "https://en.wikipedia.org/wiki/List_of_longest_rivers_of_the_United_States_(by_main_stem)"
   }
 }
