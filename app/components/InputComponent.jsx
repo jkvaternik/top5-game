@@ -35,34 +35,36 @@ function inputReducer(state, action) {
 const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) => {
   const [state, dispatch] = useReducer(inputReducer, initialState);
 
-  // Search function with useCallback to prevent unnecessary re-creations
-  const searchItems = useCallback((query) => {
-    const lowercaseQuery = query.toLowerCase();
-    return items
-      .filter(item => item.toLowerCase().includes(lowercaseQuery))
-      .sort((a, b) => {
-        const aLower = a.toLowerCase();
-        const bLower = b.toLowerCase();
-        if (aLower === lowercaseQuery) return -1;
-        if (bLower === lowercaseQuery) return 1;
-        return aLower.indexOf(lowercaseQuery) - bLower.indexOf(lowercaseQuery) || aLower.localeCompare(bLower);
-      })
-      .slice(0, 5);
-  }, [items]);
+  // Memoize the search function
+  const searchItems = useCallback(
+    (query) => {
+      const lowercaseQuery = query.toLowerCase();
+      return items
+        .filter(item => item.toLowerCase().includes(lowercaseQuery))
+        .sort((a, b) => {
+          if (a.toLowerCase() === lowercaseQuery) return -1;
+          if (b.toLowerCase() === lowercaseQuery) return 1;
+          return a.toLowerCase().indexOf(lowercaseQuery) - b.toLowerCase().indexOf(lowercaseQuery);
+        })
+        .slice(0, 5);
+    },
+    [items]
+  );
 
-  // Debounced search function wrapped in useCallback
-  const debouncedSearch = useCallback(
-    debounce((value) => {
-      const results = value ? searchItems(value) : [];
-      dispatch({
-        type: 'SET_INPUT',
-        payload: {
-          inputValue: value,
-          inputItems: results,
-        },
-      });
-    }, 100),
-    [searchItems]
+  // Memoize the debounced search function
+  const debouncedSearch = useMemo(
+    () =>
+      debounce((value) => {
+        const results = value ? searchItems(value) : [];
+        dispatch({
+          type: 'SET_INPUT',
+          payload: {
+            inputValue: value,
+            inputItems: results,
+          },
+        });
+      }, 50),
+    [searchItems] // No dependencies here since `debounce` does not depend on props or state
   );
 
   useEffect(() => {
