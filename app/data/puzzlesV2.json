@@ -6540,7 +6540,7 @@
         "stat": "20 gold medals"
       },
       {
-        "text":[
+        "text": [
           "Australia"
         ],
         "stat": "18 gold medals"
@@ -6941,5 +6941,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.iucnredlist.org/statistics"
+  },
+  "2024-08-23": {
+    "num": 181,
+    "category": "Longest Rivers in the United States (by main stem)",
+    "answers": [
+      {
+        "text": [
+          "Missouri River"
+        ],
+        "stat": "2,341 miles"
+      },
+      {
+        "text": [
+          "Mississippi River"
+        ],
+        "stat": "2,340 miles"
+      },
+      {
+        "text": [
+          "Yukon River"
+        ],
+        "stat": "1,979 miles"
+      },
+      {
+        "text": [
+          "Rio Grande"
+        ],
+        "stat": "1,759 miles"
+      },
+      {
+        "text": [
+          "Colorado River"
+        ],
+        "stat": "1,450 miles"
+      }
+    ],
+    "optionsKey": "us_rivers",
+    "url": "https://en.wikipedia.org/wiki/List_of_longest_rivers_of_the_United_States_(by_main_stem)"
   }
 }
