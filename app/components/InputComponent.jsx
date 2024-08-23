@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
 import Downshift from 'downshift';
 import { debounce } from 'lodash';
 
@@ -35,10 +35,20 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
     [searchItems]
   );
 
+  useEffect(() => {
+    return () => {
+      debouncedSearch.cancel();
+    };
+  }, [debouncedSearch]);
+
   const handleInputChange = useCallback((event) => {
     const { value } = event.target;
     setInputValue(value);
-    debouncedSearch(value);
+    if (value) {
+      debouncedSearch(value);
+    } else {
+      setInputItems([]);
+    }
   }, [debouncedSearch]);
 
   const downshiftOnChange = useCallback((selectedItem) => {
@@ -59,6 +69,8 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
   const shouldStrikethrough = useCallback((item) =>
     strikethroughSet.has(item)
     , [strikethroughSet]);
+
+  const handleAnimationEnd = useCallback(() => setIsIncorrect(false), []);
 
   return (
     <Downshift
@@ -81,7 +93,7 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
               className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
               disabled: isGameOver,
               onChange: handleInputChange,
-              onAnimationEnd: () => setIsIncorrect(false),
+              onAnimationEnd: handleAnimationEnd,
             })}
           />
           <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-1 ${!isOpen && 'hidden'}`}>
