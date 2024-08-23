@@ -6941,5 +6941,43 @@
     ],
     "optionsKey": "countries",
     "url": "https://www.iucnredlist.org/statistics"
+  },
+  "2024-08-23": {
+    "num": 181,
+    "category": "Most mentioned biblical names in the Bible",
+    "answers": [
+      {
+        "text": [
+          "Jesus"
+        ],
+        "stat": "1,310 mentions"
+      },
+      {
+        "text": [
+          "David"
+        ],
+        "stat": "974 mentions"
+      },
+      {
+        "text": [
+          "Moses"
+        ],
+        "stat": "803 mentions"
+      },
+      {
+        "text": [
+          "Jacob"
+        ],
+        "stat": "363 mentions"
+      },
+      {
+        "text": [
+          "Aaron"
+        ],
+        "stat": "342 mentions"
+      }
+    ],
+    "optionsKey": "biblical_names",
+    "url": "https://www.statista.com/statistics/1367268/most-common-name-bible/"
   }
 }
