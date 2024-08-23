@@ -24,12 +24,6 @@ export default function Home() {
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
   }, []);
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      import('./consoleErrorLogger.jsx')
-    }
-  }, [])
-
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
       <Suspense>
