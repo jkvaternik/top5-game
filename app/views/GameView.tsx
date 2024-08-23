@@ -1,6 +1,4 @@
-'use client'
-
-import React, { useState } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
@@ -24,45 +22,51 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
   const [showArchiveModal, setShowArchiveModal] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
-  const router = useRouter()
-  const pathname = usePathname()
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-  const searchParams = useSearchParams()
-  let archiveDate = searchParams.get('date')
+  // Memoize the archiveDate calculation
+  const archiveDate = useMemo(() => {
+    const date = searchParams.get('date');
+    if (date && (Date.parse(date) > Date.now() || getCurrentLocalDateAsString() === date)) {
+      router.push(pathname); // Redirect if date is invalid or current
+      return null;
+    }
+    return date;
+  }, [searchParams, router, pathname]);
 
-  const setPuzzleUrl = (date: string) => {
-    const params = new URLSearchParams(searchParams.toString())
-    params.set('date', date)
-    router.push(pathname + '?' + params.toString())
-    resetGame(date)
-  }
-
-  if (archiveDate && Date.parse(archiveDate) > Date.now() || getCurrentLocalDateAsString() === archiveDate) {
-    router.push(pathname)
-    archiveDate = null
-  }
-
-  const isArchiveMode = !!archiveDate
+  const isArchiveMode = !!archiveDate;
   const puzzle = useDailyPuzzle(archiveDate);
+
+  // useGameState depends on puzzle and archiveDate
   const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(puzzle, archiveDate);
 
-  const resetGame = (date: string) => {
-    if (typeof window === 'undefined') return
-    const gameAtDate = localStorage.getItem(date)
+  // Reset game logic
+  const resetGame = useCallback((date: string) => {
+    if (typeof window === 'undefined') return;
+    const gameAtDate = localStorage.getItem(date);
     if (gameAtDate == null) {
-      setGuesses([])
-      setShowGameOverModal(true)
+      setGuesses([]);
     } else {
-      setGuesses(JSON.parse(gameAtDate))
-      setShowGameOverModal(true)
+      setGuesses(JSON.parse(gameAtDate));
     }
-  }
+    setShowGameOverModal(true);
+  }, [setGuesses]);
+
+  // Memoize the function that sets the puzzle URL and resets the game
+  const setPuzzleUrl = useCallback((date: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('date', date);
+    router.push(`${pathname}?${params.toString()}`);
+    resetGame(date);
+  }, [searchParams, router, pathname, resetGame]);
 
   return (
     <>
-      {(isArchiveMode && !!puzzle) &&
-        <ArchiveHeader puzzle={puzzle} date={archiveDate!!} changePuzzle={setPuzzleUrl} />
-      }
+      {isArchiveMode && puzzle && (
+        <ArchiveHeader puzzle={puzzle} date={archiveDate} changePuzzle={setPuzzleUrl} />
+      )}
       <Header
         puzzle={puzzle}
         lives={lives}
@@ -72,21 +76,24 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         setShowGameOverModal={setShowGameOverModal}
       />
       <Menu showMenu={showMenu} setShowInstructionsModal={setShowInstructionsModal} setShowArchiveModal={setShowArchiveModal} />
-      {puzzle && !showMenu && <>
-        <section>
-          <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
-        </section>
-        <br></br>
-        <section className="flex flex-col gap-4">
-          <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
-        </section>
-      </>
-      }
-      {gameOver && puzzle && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
+      {puzzle && !showMenu && (
+        <>
+          <section>
+            <InputComponent items={puzzle.options} handleGuess={handleGuess} isGameOver={gameOver} guesses={guesses} answers={puzzle.answers} />
+          </section>
+          <br />
+          <section className="flex flex-col gap-4">
+            <RankList guesses={guesses} answers={puzzle.answers} isGameOver={gameOver} />
+          </section>
+        </>
+      )}
+      {gameOver && puzzle && (
+        <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />
+      )}
       <ArchiveModal isOpen={showArchiveModal} onClose={() => {
-        setShowArchiveModal(false)
-        setShowMenu(false)
+        setShowArchiveModal(false);
+        setShowMenu(false);
       }} resetGame={resetGame} />
     </>
-  )
-};
+  );
+}
