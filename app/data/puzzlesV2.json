@@ -7019,5 +7019,43 @@
     ],
     "optionsKey": "james_bond_actors",
     "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"
+  },
+  "2024-08-25": {
+    "num": 183,
+    "category": "Longest Books of the Bible by Word Count",
+    "answers": [
+      {
+        "text": [
+          "Jeremiah"
+        ],
+        "stat": "33,002 words"
+      },
+      {
+        "text": [
+          "Genesis"
+        ],
+        "stat": "32,046 words"
+      },
+      {
+        "text": [
+          "Psalms"
+        ],
+        "stat": "30,147 words"
+      },
+      {
+        "text": [
+          "Ezekiel"
+        ],
+        "stat": "29,918 words"
+      },
+      {
+        "text": [
+          "Exodus"
+        ],
+        "stat": "25,957 words"
+      }
+    ],
+    "optionsKey": "bible_books",
+    "url": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible#Longest_books"
   }
 }

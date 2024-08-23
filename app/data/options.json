@@ -5843,5 +5843,27 @@
     "Roger Moore",
     "Sean Connery",
     "Timothy Dalton"
+  ],
+  "bible_books": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Acts",
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Jeremiah",
+    "John",
+    "Joshua",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Numbers",
+    "Psalms"
   ]
 }
