@@ -74,8 +74,8 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
       <ToastContainer closeButton={false} />
       <ModalComponent delayMs={750} show={isOpen} onClose={onClose} showChildren={isOpen}>
         <div className="flex flex-col p-12 pt-9 text-center items-center justify-center">
-          <h2 className={`text-2xl mb-8 font-bold text-dark-maroon ${montserrat.className}`}>{getScoreMessage(score)}</h2>
-          <p className="mb-2 font-semibold text-dark-maroon">Top 5 #{puzzle.num}</p>
+          <h2 className={`text-2xl mb-8 font-bold text-black-pearl ${montserrat.className}`}>{getScoreMessage(score)}</h2>
+          <p className="mb-2 font-semibold text-black-pearl">Top 5 #{puzzle.num}</p>
           <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
           <button className="py-3 px-12 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] mb-6" onClick={copyScore} style={{ 'transition': '0.3s' }}>
             <div className="flex flex-row justify-center gap-2">

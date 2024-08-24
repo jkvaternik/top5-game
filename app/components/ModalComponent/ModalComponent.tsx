@@ -29,7 +29,7 @@ export const ModalComponent = ({ delayMs, children, show, showChildren, onClose,
         showComponent &&
         <div className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-8 ${width}`}>
             <div className={`bg-white rounded-lg ${showComponent ? 'animate-fade' : ''}`}>
-                <XMarkIcon className="h-6 w-6 ml-auto mr-6 mt-6 text-dark-maroon cursor-pointer" onClick={() => onClose()} />
+                <XMarkIcon className="h-6 w-6 ml-auto mr-6 mt-6 text-black-pearl cursor-pointer" onClick={() => onClose()} />
                 {showChildren ? children : null}
             </div>
         </div>

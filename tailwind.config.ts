@@ -6,14 +6,14 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'media',
   theme: {
     extend: {
       fontFamily: {
         'sans': ['Inter', 'sans-serif']
       },
       colors: {
-        'dark-maroon': '#071E22',
-        'maroon': '#071E22',
+        'black-pearl': '#071E22',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -40,8 +40,8 @@ export const InstructionsModal = ({ isOpen, onClose }:
 
   return (
     <ModalComponent delayMs={500} show={isOpen} onClose={onClose} showChildren={isOpen}>
-      <div className="p-12 pt-0 text-dark-maroon">
-        <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>How to play</h2>
+      <div className="p-12 pt-0 text-black-pearl">
+        <h2 className={`text-2xl mb-4 font-bold text-black-pearl ${montserrat.className}`}>How to play</h2>
         <p className="text-l mb-2">Guess the Top 5 of a given category.  </p>
         <p className="text-l mb-2">With each puzzle, you have 5 lives:</p>
         <ul className="list-disc list-outside ml-5 mb-4 ">

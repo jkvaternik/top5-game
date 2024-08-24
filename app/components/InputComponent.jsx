@@ -59,11 +59,11 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
         selectedItem,
         getRootProps,
       }) => (
-        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-dark-maroon'>
+        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-black-pearl'>
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
+              className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''} dark:bg-black-pearl dark:text-white`,
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
               onAnimationEnd: () => setIsIncorrect(false),
