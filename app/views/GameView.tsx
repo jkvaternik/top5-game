@@ -80,7 +80,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         </section>
         <br></br>
         <section className="flex flex-col gap-4">
-          <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.options as Answer[]} isGameOver={gameOver} />
+          <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.optionsKey ? undefined : puzzle.options as Answer[]} isGameOver={gameOver} />
         </section>
       </>
       }
