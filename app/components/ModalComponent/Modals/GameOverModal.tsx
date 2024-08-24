@@ -20,22 +20,43 @@ const montserrat = Montserrat({
 });
 
 const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
+
+  const createShareMessage = (includeUrl: boolean) => includeUrl ?
+    {
+      title: `Top 5 #${puzzle.num}`,
+      text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`,
+      url: window.location.href
+    } :
+    {
+      title: `Top 5 #${puzzle.num}`,
+      text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`
+    }
+  
+  const getUrlSetting = () => {
+    if (typeof window !== 'undefined') {
+      console.log(localStorage.getItem('includeUrl'))
+      return localStorage.getItem('includeUrl') === 'true' || localStorage.getItem('includeUrl') === null;
+    } else {
+      return false
+    }
+  }
+
   const copyScore = () => {
+    const includeUrl: boolean = getUrlSetting();
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${window.location.href}` : '')}`;
+    
     if (isMobile) {
       navigator.share(
-        {
-          title: `Top 5 #${puzzle.num}`,
-          text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`,
-          url: window.location.href
-        }
+        createShareMessage(includeUrl)
       ).then(() => { console.log('Successful share') }).catch((error) => {
         console.log('Error sharing', error)
 
-        navigator.clipboard.writeText(`Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`)
+        navigator.clipboard.writeText(shareableText);
       });
     } else {
-      navigator.clipboard.writeText(`Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`);
+      navigator.clipboard.writeText(shareableText);
 
       toast.success('Score copied to clipboard', {
         position: "top-center",
