@@ -34,7 +34,8 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
       console.log(localStorage.getItem('includeUrl'))
       return localStorage.getItem('includeUrl') === 'true' || localStorage.getItem('includeUrl') === null;
     } else {
-      return false
+      // Default to true if not in browser
+      return true
     }
   }
 
