@@ -22,7 +22,7 @@ export type Puzzle = {
   category: string;
   answers: Answer[];
   optionsKey: string;
-  options: string[] | Answer[];
+  options?: Answer[];
   url?: string;
 }
 
