@@ -21,16 +21,13 @@ const montserrat = Montserrat({
 
 const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
 
-  const createShareMessage = (includeUrl: boolean) => includeUrl ?
-    {
-      title: `Top 5 #${puzzle.num}`,
-      text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`,
-      url: window.location.href
-    } :
-    {
+  const createShareMessage = (includeUrl: boolean) => {
+    const message = {
       title: `Top 5 #${puzzle.num}`,
       text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`
     }
+    return includeUrl ? { ...message, url: window.location.href } : message;
+  }
   
   const getUrlSetting = () => {
     if (typeof window !== 'undefined') {
@@ -46,7 +43,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
     const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${window.location.href}` : '')}`;
-    
+
     if (isMobile) {
       navigator.share(
         createShareMessage(includeUrl)
