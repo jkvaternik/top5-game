@@ -7,7 +7,7 @@ export const LIVES = 5;
 
 export function useGameState(puzzle: Puzzle | null, date: string | null) {
   const puzzleDate = date ? date : getCurrentLocalDateAsString();
-  const [guesses, setGuesses] = useState<string[]>(() => getLocalStorageOrDefault(puzzleDate, []));
+  const [guesses, setGuesses] = useState<string[]>(getLocalStorageOrDefault(puzzleDate, []));
 
   const correctGuesses = useMemo(() => guesses.filter(guess => isCorrect(guess, puzzle)).length, [puzzle, guesses]);
 
