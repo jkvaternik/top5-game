@@ -6,7 +6,7 @@ export function NumberIcon({ number, isEmpty }: {
 }): JSX.Element {
   const styles: React.CSSProperties = { position: 'absolute', width: '100%', height: '100%', WebkitBackfaceVisibility: 'hidden', backfaceVisibility: 'hidden' };
   const getColor = () => {
-    return !isEmpty ? basicColorRainbowBg[number] : 'bg-gray-400';
+    return !isEmpty ? basicColorRainbowBg[number] : 'bg-gray-400 dark:bg-gray-600';
   }
   return (
     <div className={`h-12 w-12 shrink-0`}>
@@ -16,7 +16,7 @@ export function NumberIcon({ number, isEmpty }: {
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400 text-lg`}>
+          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600 text-lg`}>
           {(number + 1)}
         </div>
         <div
@@ -44,7 +44,7 @@ export function StringIcon({ string, isEmpty }: {
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400`}>
+          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600`}>
           {string}
         </div>
       </div>

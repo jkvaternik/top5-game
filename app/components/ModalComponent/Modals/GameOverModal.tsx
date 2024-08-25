@@ -74,15 +74,15 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
       <ToastContainer closeButton={false} />
       <ModalComponent delayMs={750} show={isOpen} onClose={onClose} showChildren={isOpen}>
         <div className="flex flex-col p-12 pt-9 text-center items-center justify-center">
-          <h2 className={`text-2xl mb-8 font-bold text-dark-maroon ${montserrat.className}`}>{getScoreMessage(score)}</h2>
-          <p className="mb-2 font-semibold text-dark-maroon">Top 5 #{puzzle.num}</p>
+          <h2 className={`text-2xl mb-8 font-bold ${montserrat.className}`}>{getScoreMessage(score)}</h2>
+          <p className="mb-2 font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-12 text-3xl">{getShareableEmojiScore(score)}</p>
-          <button className="py-3 px-12 bg-[#304d6d] text-white font-medium rounded-full hover:bg-[#82A0BC] mb-6" onClick={copyScore} style={{ 'transition': '0.3s' }}>
+          <button className="py-3 px-12 bg-[#304d6d] dark:bg-[#4F6479] text-white font-medium rounded-full hover:bg-[#82A0BC] mb-6" onClick={copyScore} style={{ 'transition': '0.3s' }}>
             <div className="flex flex-row justify-center gap-2">
               Share score <ShareIcon className="h-6 w-6" style={{ display: 'inline-block' }} />
             </div>
           </button>
-          {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
+          {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] dark:text-white hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
         </div>
       </ModalComponent>
     </>

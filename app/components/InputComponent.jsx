@@ -59,23 +59,23 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
         selectedItem,
         getRootProps,
       }) => (
-        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-dark-maroon'>
+        <div {...getRootProps({}, { suppressRefError: true })} className='relative w-full text-black-pearl'>
           <input
             {...getInputProps({
               placeholder: "Enter your guess here...",
-              className: `border border-gray-300 text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''}`,
+              className: `border border-gray-300 dark:border-[#4B585E] text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''} dark:bg-dark-purple dark:text-white`,
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
               onAnimationEnd: () => setIsIncorrect(false),
             })}
           />
-          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}>
+          <ul {...getMenuProps()} className={`absolute list-none m-0 p-0 z-10 w-full bg-white dark:bg-dark-purple dark:text-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}>
             {isOpen &&
               inputItems.filter(item => !shouldStrikethrough(item)).map((item, index) => (
                 <li
                   key={index}
                   {...getItemProps({ index, item })}
-                  className={`rounded-md cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100' : 'bg-white'}`}
+                  className={`rounded-md cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100 dark:bg-[#18283B] dark:text-white' : 'bg-white dark:bg-dark-purple dark:text-white'}`}
                 >
                   {item}
                 </li>
