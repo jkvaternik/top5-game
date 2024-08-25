@@ -1,5 +1,6 @@
 import { getLocalStorageOrDefault, setLocalStorageAndState } from '@/app/utils';
 import React from 'react'
+import Switch from './Switch';
 
 interface MenuProps {
   showMenu: boolean;
@@ -12,12 +13,12 @@ export default function Menu({ showMenu, setShowInstructionsModal, setShowArchiv
 
   if (showMenu) {
     return (
-      <section className="flex flex-col gap-5 items-center w-full content-center text-black-pearl">
+      <section className="flex flex-col gap-5 w-full items-center content-center text-black-pearl">
         <button className="py-2 px-4 bg-[#304d6d] dark:bg-[#4F6479] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4 mt-36" onClick={() => setShowInstructionsModal(true)}>How to Play</button>
         <button className="py-2 px-4 bg-[#304d6d] dark:bg-[#4F6479] text-white font-medium rounded-full hover:bg-[#82A0BC] w-3/4" onClick={() => setShowArchiveModal(true)}>Archive</button>
-        <div>
-          <span className="text-s text-black-pearl text-opacity-70 dark:text-white">Include URL in clipboard</span>
-          <input type="checkbox" className="ml-2" checked={includeUrl} onChange={(event) => setLocalStorageAndState('includeUrl', event.target.checked, setIncludeUrl)} />
+        <div className='w-3/4 flex justify-between'>
+          <p className="text-s text-black-pearl text-opacity-70 dark:text-white">Include URL in clipboard</p>
+          <Switch isChecked={includeUrl} onChange={(checked) => setLocalStorageAndState('includeUrl', checked, setIncludeUrl)} />
         </div>
       </section>
     )

@@ -11,6 +11,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Top 5: Daily Trivia Game",
   description: "A daily trivia game in which players guess the top five results of a given topic. Each day there is a new topic to test your knowledge, try to guess them in order if you can! Play today's list and share with your friends!",
+  robots: {
+    index: false,
+    follow: false,
+  }
 };
 
 export default function RootLayout({
