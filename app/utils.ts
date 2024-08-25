@@ -9,9 +9,10 @@ export const getScore = (guessHistory: string[], answers: Answer[]) => {
 }
 
 export const getShareableEmojiScore = (score: number[]) => {
+  const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const emojiScore = score.map((rank: number) => {
     if (rank === 0) {
-      return '⬜';
+      return isDarkMode ? '⬛️' : '⬜';
     }
     return ['🟥', '🟧', '🟨', '🟩', '🟦'][rank - 1];
   }).join('');

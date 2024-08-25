@@ -37,7 +37,7 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
   return (
     <ModalComponent delayMs={0} show={isOpen} onClose={onClose} showChildren={isOpen}>
       <div className="m-8">
-        <h2 className={`text-2xl mb-6 font-bold text-black-pearl ${montserrat.className}`}>Archive</h2>
+        <h2 className={`text-2xl mb-6 font-bold ${montserrat.className}`}>Archive</h2>
         <Picker onClick={(date: string) => setPuzzleUrl(date)} />
       </div>
     </ModalComponent>

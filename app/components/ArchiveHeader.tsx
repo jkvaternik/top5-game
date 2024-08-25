@@ -16,9 +16,9 @@ const ArchiveHeader: React.FC<ArchiveHeaderProps> = ({ date, puzzle, changePuzzl
   const hasPrevious = previousDate !== '2024-02-24' // First puzzle date is 2024-02-25
 
   return (
-    <div className="m-4vh shadow-lg fixed z-50 bottom-0 left-0 right-0 flex justify-between mt-4 bg-[#E0E8F5] text-center items-center md:relative rounded md:mb-3 md:shadow-none md:m-0">
+    <div className="m-4vh shadow-lg fixed z-50 bottom-0 left-0 right-0 flex justify-between mt-4 bg-[#E0E8F5] dark:bg-[#3F4F60] dark:text-white text-center items-center md:relative rounded md:mb-3 md:shadow-none md:m-0">
       <button
-        className="p-2 bg-[#304d6d] disabled:opacity-0 rounded-tl rounded-bl"
+        className="p-2 bg-[#304d6d] dark:bg-[#4F6479] disabled:opacity-0 rounded-tl rounded-bl"
         onClick={() => changePuzzle(previousDate)}
         disabled={!hasPrevious}
       >
@@ -30,7 +30,7 @@ const ArchiveHeader: React.FC<ArchiveHeaderProps> = ({ date, puzzle, changePuzzl
         #{puzzle.num} ({date})
       </div>
       <button
-        className="p-2 bg-[#304d6d] disabled:opacity-0 rounded-tr rounded-br"
+        className="p-2 bg-[#304d6d] dark:bg-[#4F6479] disabled:opacity-0 rounded-tr rounded-br"
         onClick={() => changePuzzle(nextDate)}
         disabled={!hasNext}
       >

@@ -13,6 +13,7 @@ const config: Config = {
         'sans': ['Inter', 'sans-serif']
       },
       colors: {
+        'dark-purple': '#28394C',
         'black-pearl': '#071E22',
       },
       backgroundImage: {
