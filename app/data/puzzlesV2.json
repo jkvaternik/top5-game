@@ -7017,7 +7017,47 @@
         "stat": "1 movie"
       }
     ],
-    "optionsKey": "james_bond_actors",
+    "options": [
+      {
+        "text": [
+          "Roger Moore",
+          "Sean Connery"
+        ],
+        "stat": "7 movies"
+      },
+      {
+        "text": [
+          "Daniel Craig"
+        ],
+        "stat": "5 movies"
+      },
+      {
+        "text": [
+          "Pierce Brosnan"
+        ],
+        "stat": "4 movies"
+      },
+      {
+        "text": [
+          "Timothy Dalton"
+        ],
+        "stat": "2 movies"
+      },
+      {
+        "text": [
+          "George Lazenby",
+          "David Niven"
+        ],
+        "stat": "1 movie"
+      },
+      {
+        "text": [
+          "Jaime Kvaternik",
+          "Romey Sklar"
+        ],
+        "stat": "0 movies"
+      }
+    ],
     "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"
   },
   "2024-08-25": {
