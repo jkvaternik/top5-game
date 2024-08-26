@@ -59,7 +59,7 @@ export const InstructionsModal = ({ isOpen, onClose }:
             <span className={`text-l ${animateChange ? 'lives-change' : ''}`}>{lives}</span>
           </div>
         </ul>
-        <p className="text-l mb-2">Want an extra challenge? Try to guess the top five items in order.</p>
+        <p className="text-l mb-2">Want an extra challenge? Try to guess the top five items in order!</p>
         <p className="text-l"> A new list is available every day at midnight. Good luck!</p>
       </div>
     </ModalComponent>

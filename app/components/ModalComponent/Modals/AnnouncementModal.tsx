@@ -18,7 +18,7 @@ export const AnnouncementModal = ({ isOpen, onClose }:
         <h2 className={`text-2xl mb-4 font-bold text-dark-maroon ${montserrat.className}`}>Top 5 Update</h2>
         <p className="text-l mb-2">Updates! We&apos;ve got a few new exciting updates:</p>
         <ul className="list-disc list-outside ml-5 mb-4 ">
-          <li className="mb-2"><b>Incorrect Guess Stats 🥸</b> New puzzles will show begin showing stats for incorrect guesses, as well as their spot in the list.</li>
+          <li className="mb-2"><b>Incorrect Guess Stats 🥸</b> New puzzles will begin showing stats for incorrect guesses, as well as their spot in the list.</li>
           <div className="mb-4">
             <p className="text-l mb-2 font-semibold">Example</p>
             <IncorrectRankItem guess={"Not Top 5"} index={6} stat="123" isCorrectOrGameOver={false} />
