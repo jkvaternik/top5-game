@@ -36,7 +36,6 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
       index={(options?.findIndex(o => o.text.includes(guess)) ?? 0) + 1}
       stat={options?.find(o => o.text.includes(guess))?.stat || ''}
       isCorrectOrGameOver={false}
-      className={getClassName(true)}
     />
   }).reverse()
 

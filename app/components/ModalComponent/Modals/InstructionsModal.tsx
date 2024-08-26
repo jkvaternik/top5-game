@@ -40,17 +40,17 @@ export const InstructionsModal = ({ isOpen, onClose }:
 
   return (
     <ModalComponent delayMs={500} show={isOpen} onClose={onClose} showChildren={isOpen}>
-      <div className="p-12 pt-0">
+      <div className="p-10 pt-0">
         <h2 className={`text-2xl mb-4 font-bold ${montserrat.className}`}>How to play</h2>
-        <p className="text-l mb-2">Guess the Top 5 of a given category.  </p>
-        <p className="text-l mb-2">With each puzzle, you have 5 lives:</p>
+        <p className="text-l mb-2">Guess the Top 5 of a given category.</p>
+        <p className="text-l mb-2">With each puzzle, you have a list of options to pick from and 5 lives:</p>
         <ul className="list-disc list-outside ml-5 mb-4 ">
-          <li className="mb-2">If your attempt is correct, the answer will show on the board</li>
+          <li className="mb-2">If your guess is correct, the answer will show on the board</li>
           <div className="mb-4">
             <p className="text-l mb-2 font-semibold">Example</p>
             <RankItem index={0} answer={{ text: ['Pacific Ocean'], stat: '63.8 million mi²' }} isCorrectOrGameOver={isCorrectOrGameOver}/>
           </div>
-          <li className="mb-2">If your attempt is incorrect, you will lose a life </li>
+          <li className="mb-2">If your guess is incorrect, you will lose a life </li>
           <div className="self-end flex flex-row items-center gap-2">
             <div className="relative">
               {isExploding && <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>}
