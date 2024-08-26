@@ -7049,15 +7049,9 @@
           "David Niven"
         ],
         "stat": "1 movie"
-      },
-      {
-        "text": [
-          "Jaime Kvaternik",
-          "Romey Sklar"
-        ],
-        "stat": "0 movies"
       }
     ],
+    "optionsKey": "james_bond_actors",
     "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"
   },
   "2024-08-25": {
