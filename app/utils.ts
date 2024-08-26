@@ -12,7 +12,7 @@ export const getShareableEmojiScore = (score: number[]) => {
   const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const emojiScore = score.map((rank: number) => {
     if (rank === 0) {
-      return isDarkMode ? '⬛️' : '⬜';
+      return '⬜';
     }
     return ['🟥', '🟧', '🟨', '🟩', '🟦'][rank - 1];
   }).join('');
