@@ -40,7 +40,7 @@ export default function Header({ puzzle, lives, gameOver, showMenu, setShowMenu,
 
   return (
     <>
-      <section className={`flex flex-row gap-5 items-end w-full text-dark-maroon`}>
+      <section className={`flex flex-row gap-5 items-end w-full text-black-pearl dark:text-white`}>
         <div className={`flex flex-col items-center`} style={{ marginLeft: '8px' }}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
@@ -49,7 +49,7 @@ export default function Header({ puzzle, lives, gameOver, showMenu, setShowMenu,
           <p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>
           <div className="self-end flex flex-col items-end gap-4">
             {showMenu ?
-              <XMarkIcon className="h-6 w-6 text-dark-maroon cursor-pointer" style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(false)} />
+              <XMarkIcon className="h-6 w-6 cursor-pointer" style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(false)} />
               :
               <Cog6ToothIcon className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`} style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(!showMenu)} />
             }

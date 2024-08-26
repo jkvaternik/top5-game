@@ -63,12 +63,12 @@ const Picker = ({ onClick }: PickerProps) => {
 
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      return 'bg-[#D0DBF1] text-dark-maroon'
+      return 'bg-[#D0DBF1] text-black-pearl'
     }
     if (isAttempted(key)) {
-      return 'border border-2 border-dashed border-[#B0C3E8] text-dark-maroon'
+      return 'border border-2 border-dashed border-[#B0C3E8] text-black-pearl dark:text-white'
     } else {
-      return 'border border-gray-200 text-dark-maroon'
+      return 'border border-gray-200 text-black-pearl dark:text-white'
     }
   }
 
@@ -104,8 +104,8 @@ const Picker = ({ onClick }: PickerProps) => {
         }))}
       </div>
       <div className="flex flex-row justify-center mt-6">
-        <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null} />
-        <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null} />
+        <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null} />
+        <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null} />
       </div>
 
     </div>

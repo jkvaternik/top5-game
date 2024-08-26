@@ -30,6 +30,18 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
     const newGuesses = [...guesses, guess]
     setLocalStorageAndState(puzzleDate, newGuesses, setGuesses);
 
+    if (puzzleDate === getCurrentLocalDateAsString()) {
+      if (lives === 1 && !isCorrect) {
+        localStorage.setItem('streak', '0');
+      }
+  
+      if (correctGuesses === 4 && isCorrect) {
+        let streak = getLocalStorageOrDefault('streak', 0);
+        streak += 1;
+        localStorage.setItem('streak', streak.toString());
+      }  
+    }
+    
     return isCorrect;
   }
 

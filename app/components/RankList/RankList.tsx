@@ -4,10 +4,11 @@ import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
 interface Props {
   guesses: string[];
   answers: Answer[];
+  options?: Answer[];
   isGameOver: boolean;
 }
 
-const RankList = ({ guesses, answers, isGameOver }: Props) => {
+const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
   const getClassName = (wasGuessed: boolean) => {
     if (isGameOver) {
       return wasGuessed ? 'isCorrect' : 'incorrect'
@@ -32,8 +33,9 @@ const RankList = ({ guesses, answers, isGameOver }: Props) => {
     return <IncorrectRankItem
       key={i}
       guess={guess}
+      index={(options?.findIndex(o => o.text.includes(guess)) ?? 0) + 1}
+      stat={options?.find(o => o.text.includes(guess))?.stat || ''}
       isCorrectOrGameOver={false}
-      className={getClassName(true)}
     />
   }).reverse()
 
