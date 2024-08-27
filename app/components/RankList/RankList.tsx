@@ -1,10 +1,10 @@
-import { Answer } from '../../hooks/useDailyPuzzle';
+import { Answer, RankedAnswer } from '../../hooks/useDailyPuzzle';
 import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
 
 interface Props {
   guesses: string[];
   answers: Answer[];
-  options?: Answer[];
+  options?: RankedAnswer[];
   isGameOver: boolean;
 }
 
@@ -30,10 +30,11 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
   });
 
   const incorrectView = guesses.filter(guess => !answers.flatMap(a => a.text).includes(guess)).map((guess, i) => {
+    const indexOfGuess = options?.find(o => o.text.includes(guess))?.rank ?? -1
     return <IncorrectRankItem
       key={i}
       guess={guess}
-      index={(options?.findIndex(o => o.text.includes(guess)) ?? 0) + 1}
+      index={indexOfGuess}
       stat={options?.find(o => o.text.includes(guess))?.stat || ''}
       isCorrectOrGameOver={false}
     />

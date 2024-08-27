@@ -38,15 +38,37 @@ function validatePuzzles() {
     seenNumbers.add(puzzle.num);
 
     // Check if all answers exist in the corresponding optionsKey list
-    const optionList = options[puzzle.optionsKey];
+    const isNewOptionsFormat = !!puzzle.options
+    const optionList = isNewOptionsFormat ? puzzle.options : options[puzzle.optionsKey];
     if (!optionList) {
       return `Options key not found: ${puzzle.optionsKey}`;
     }
 
-    for (const answer of puzzle.answers) {
-      for (const text of answer.text) {
-        if (!optionList.includes(text)) {
-          return `Answer "${text}" not found in options for key: ${puzzle.optionsKey}`;
+    if (isNewOptionsFormat) {
+      for (const answer of puzzle.answers) {
+        let matchFound = false;
+
+        for (const option of puzzle.options) {
+          // Check if both text and stat match
+          const textMatch = answer.text.every((text, index) => text === option.text[index]);
+          const statMatch = answer.stat === option.stat;
+
+          if (textMatch && statMatch) {
+            matchFound = true;
+            break;
+          }
+        }
+
+        if (!matchFound) {
+          return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" not found in options for key: ${puzzle.optionsKey}`;
+        }
+      }
+    } else {
+      for (const answer of puzzle.answers) {
+        for (const text of answer.text) {
+          if (!optionList.includes(text)) {
+            return `Answer "${text}" not found in options for key: ${puzzle.optionsKey}`;
+          }
         }
       }
     }
