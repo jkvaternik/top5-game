@@ -7017,40 +7017,6 @@
         "stat": "1 movie"
       }
     ],
-    "options": [
-      {
-        "text": [
-          "Roger Moore",
-          "Sean Connery"
-        ],
-        "stat": "7 movies"
-      },
-      {
-        "text": [
-          "Daniel Craig"
-        ],
-        "stat": "5 movies"
-      },
-      {
-        "text": [
-          "Pierce Brosnan"
-        ],
-        "stat": "4 movies"
-      },
-      {
-        "text": [
-          "Timothy Dalton"
-        ],
-        "stat": "2 movies"
-      },
-      {
-        "text": [
-          "George Lazenby",
-          "David Niven"
-        ],
-        "stat": "1 movie"
-      }
-    ],
     "optionsKey": "james_bond_actors",
     "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"
   },
@@ -7091,5 +7057,27 @@
     ],
     "optionsKey": "bible_books",
     "url": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible#Longest_books"
+  },
+  "2024-08-26": {
+    "num": 184,
+    "category": "Latest countries to gain independence",
+    "answers": [
+        {"text": ["South Sudan"], "stat": "2011"},
+        {"text": ["Kosovo"], "stat": "2008"},
+        {"text": ["Montenegro"], "stat": "2006"},
+        {"text": ["Serbia"], "stat": "2000"},
+        {"text": ["Palau"], "stat": "1994"}
+    ],
+    "options": [
+        {"text": ["South Sudan"], "stat": "2011"},
+        {"text": ["Kosovo"], "stat": "2008"},
+        {"text": ["Montenegro"], "stat": "2006"},
+        {"text": ["Serbia"], "stat": "2000"},
+        {"text": ["Palau"], "stat": "1994"},
+        {"text": ["Czech Republic", "Slovakia", "Eritrea", "North Macedonia"], "stat": "1993"},
+        {"text": ["Uzbekistan", "Kazakhstan", "Tajikistan", "Azerbaijan", "Turkmenistan", "Kyrgyzstan", "Croatia", "Georgia", "Bosnia and Herzegovina", "Moldova", "Armenia", "Slovenia"], "stat": "1992"},
+        {"text": ["Russia", "Belarus", "Lithuania", "Latvia", "Estonia", "Micronesia"], "stat": "1991"}
+    ],
+    "url": "https://worldpopulationreview.com/country-rankings/newest-countries"
   }
 }
