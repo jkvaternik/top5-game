@@ -8,6 +8,10 @@ export type Answer = {
   stat: string | null;
 }
 
+export type IncorrectAnswer = Answer & {
+  rank: number
+}
+
 type PuzzleInput = {
   num: number;
   category: string;
@@ -29,7 +33,7 @@ export type Puzzle = {
 export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
 const options: { [key: string]: string[] } = optionsData;
 
-function sortOptionsByText(options: Answer[]): Answer[] {
+function sortOptionsByText(options: IncorrectAnswer[]): IncorrectAnswer[] {
   return options.sort((a, b) => a.text[0].localeCompare(b.text[0]));
 }
 
@@ -47,7 +51,11 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
 
     if (dailyPuzzle) {
       if (!dailyPuzzle.optionsKey) {
-        const sortedOptions = sortOptionsByText(dailyPuzzle.options!!)
+        const incorrectOptions: IncorrectAnswer[] = dailyPuzzle.options!!.map((option, index) => ({
+          ...option,
+          rank: index + 1
+        }))
+        const sortedOptions = sortOptionsByText(incorrectOptions)
         setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey]
