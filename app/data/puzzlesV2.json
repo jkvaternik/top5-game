@@ -7062,21 +7062,105 @@
     "num": 184,
     "category": "Latest countries to gain independence",
     "answers": [
-        {"text": ["South Sudan"], "stat": "2011"},
-        {"text": ["Kosovo"], "stat": "2008"},
-        {"text": ["Montenegro"], "stat": "2006"},
-        {"text": ["Serbia"], "stat": "2000"},
-        {"text": ["Palau"], "stat": "1994"}
+      {
+        "text": [
+          "South Sudan"
+        ],
+        "stat": "2011"
+      },
+      {
+        "text": [
+          "Kosovo"
+        ],
+        "stat": "2008"
+      },
+      {
+        "text": [
+          "Montenegro"
+        ],
+        "stat": "2006"
+      },
+      {
+        "text": [
+          "Serbia"
+        ],
+        "stat": "2000"
+      },
+      {
+        "text": [
+          "Palau"
+        ],
+        "stat": "1994"
+      }
     ],
     "options": [
-        {"text": ["South Sudan"], "stat": "2011"},
-        {"text": ["Kosovo"], "stat": "2008"},
-        {"text": ["Montenegro"], "stat": "2006"},
-        {"text": ["Serbia"], "stat": "2000"},
-        {"text": ["Palau"], "stat": "1994"},
-        {"text": ["Czech Republic", "Slovakia", "Eritrea", "North Macedonia"], "stat": "1993"},
-        {"text": ["Uzbekistan", "Kazakhstan", "Tajikistan", "Azerbaijan", "Turkmenistan", "Kyrgyzstan", "Croatia", "Georgia", "Bosnia and Herzegovina", "Moldova", "Armenia", "Slovenia"], "stat": "1992"},
-        {"text": ["Russia", "Belarus", "Lithuania", "Latvia", "Estonia", "Micronesia"], "stat": "1991"}
+      {
+        "text": [
+          "South Sudan"
+        ],
+        "stat": "2011"
+      },
+      {
+        "text": [
+          "Kosovo"
+        ],
+        "stat": "2008"
+      },
+      {
+        "text": [
+          "Montenegro"
+        ],
+        "stat": "2006"
+      },
+      {
+        "text": [
+          "Serbia"
+        ],
+        "stat": "2000"
+      },
+      {
+        "text": [
+          "Palau"
+        ],
+        "stat": "1994"
+      },
+      {
+        "text": [
+          "Czech Republic",
+          "Slovakia",
+          "Eritrea",
+          "North Macedonia"
+        ],
+        "stat": "1993"
+      },
+      {
+        "text": [
+          "Uzbekistan",
+          "Kazakhstan",
+          "Tajikistan",
+          "Azerbaijan",
+          "Turkmenistan",
+          "Kyrgyzstan",
+          "Croatia",
+          "Georgia",
+          "Bosnia and Herzegovina",
+          "Moldova",
+          "Armenia",
+          "Slovenia"
+        ],
+        "stat": "1992"
+      },
+      {
+        "text": [
+          "Russia",
+          "Belarus",
+          "Lithuania",
+          "Latvia",
+          "Estonia",
+          "Micronesia"
+        ],
+        "stat": "1991"
+      }
     ],
     "url": "https://worldpopulationreview.com/country-rankings/newest-countries"
   },
@@ -7084,39 +7168,306 @@
     "num": 185,
     "category": "Global retail companies by revenue",
     "answers": [
-        {"text": ["Walmart"], "stat": "$559,151 million USD"},
-        {"text": ["Amazon"], "stat": "$213,573 million USD"},
-        {"text": ["Schwarz Gruppe"], "stat": "$167,200 million USD"},
-        {"text": ["Costco"], "stat": "$166,761 million USD"},
-        {"text": ["The Home Depot"], "stat": "$132,110 million USD"}
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "$559,151 million USD"
+      },
+      {
+        "text": [
+          "Amazon"
+        ],
+        "stat": "$213,573 million USD"
+      },
+      {
+        "text": [
+          "Schwarz Gruppe"
+        ],
+        "stat": "$167,200 million USD"
+      },
+      {
+        "text": [
+          "Costco"
+        ],
+        "stat": "$166,761 million USD"
+      },
+      {
+        "text": [
+          "The Home Depot"
+        ],
+        "stat": "$132,110 million USD"
+      }
     ],
     "options": [
-        {"text": ["Walmart"], "stat": "$559,151 million USD"},
-        {"text": ["Amazon"], "stat": "$213,573 million USD"},
-        {"text": ["Schwarz Gruppe"], "stat": "$167,200 million USD"},
-        {"text": ["Costco"], "stat": "$166,761 million USD"},
-        {"text": ["The Home Depot"], "stat": "$132,110 million USD"},
-        {"text": ["The Kroger Company"], "stat": "$131,620 million USD"},
-        {"text": ["Walgreens Boots Alliance"], "stat": "$117,705 million USD"},
-        {"text": ["Aldi"], "stat": "$117,047 million USD"},
-        {"text": ["JD.com"], "stat": "$94,423 million USD"},
-        {"text": ["Target Corporation"], "stat": "$92,400 million USD"},
-        {"text": ["CVS Health"], "stat": "$91,198 million USD"},
-        {"text": ["Lowe's"], "stat": "$89,597 million USD"},
-        {"text": ["Ahold Delhaize"], "stat": "$85,177 million USD"},
-        {"text": ["Æon"], "stat": "$75,077 million USD"},
-        {"text": ["Tesco"], "stat": "$73,888 million USD"},
-        {"text": ["Albertsons"], "stat": "$69,690 million USD"},
-        {"text": ["Edeka"], "stat": "$68,268 million USD"},
-        {"text": ["Rewe Group"], "stat": "$61,853 million USD"},
-        {"text": ["Seven & I Holdings"], "stat": "$52,317 million USD"},
-        {"text": ["Best Buy"], "stat": "$47,262 million USD"},
-        {"text": ["Publix"], "stat": "$45,204 million USD"},
-        {"text": ["E.Leclerc"], "stat": "$44,676 million USD"},
-        {"text": ["Woolworths Group"], "stat": "$41,533 million USD"},
-        {"text": ["IKEA"], "stat": "$39,174 million USD"},
-        {"text": ["Loblaw Companies"], "stat": "$38,663 million USD"}
+      {
+        "text": [
+          "Walmart"
+        ],
+        "stat": "$559,151 million USD"
+      },
+      {
+        "text": [
+          "Amazon"
+        ],
+        "stat": "$213,573 million USD"
+      },
+      {
+        "text": [
+          "Schwarz Gruppe"
+        ],
+        "stat": "$167,200 million USD"
+      },
+      {
+        "text": [
+          "Costco"
+        ],
+        "stat": "$166,761 million USD"
+      },
+      {
+        "text": [
+          "The Home Depot"
+        ],
+        "stat": "$132,110 million USD"
+      },
+      {
+        "text": [
+          "The Kroger Company"
+        ],
+        "stat": "$131,620 million USD"
+      },
+      {
+        "text": [
+          "Walgreens Boots Alliance"
+        ],
+        "stat": "$117,705 million USD"
+      },
+      {
+        "text": [
+          "Aldi"
+        ],
+        "stat": "$117,047 million USD"
+      },
+      {
+        "text": [
+          "JD.com"
+        ],
+        "stat": "$94,423 million USD"
+      },
+      {
+        "text": [
+          "Target Corporation"
+        ],
+        "stat": "$92,400 million USD"
+      },
+      {
+        "text": [
+          "CVS Health"
+        ],
+        "stat": "$91,198 million USD"
+      },
+      {
+        "text": [
+          "Lowe's"
+        ],
+        "stat": "$89,597 million USD"
+      },
+      {
+        "text": [
+          "Ahold Delhaize"
+        ],
+        "stat": "$85,177 million USD"
+      },
+      {
+        "text": [
+          "Æon"
+        ],
+        "stat": "$75,077 million USD"
+      },
+      {
+        "text": [
+          "Tesco"
+        ],
+        "stat": "$73,888 million USD"
+      },
+      {
+        "text": [
+          "Albertsons"
+        ],
+        "stat": "$69,690 million USD"
+      },
+      {
+        "text": [
+          "Edeka"
+        ],
+        "stat": "$68,268 million USD"
+      },
+      {
+        "text": [
+          "Rewe Group"
+        ],
+        "stat": "$61,853 million USD"
+      },
+      {
+        "text": [
+          "Seven & I Holdings"
+        ],
+        "stat": "$52,317 million USD"
+      },
+      {
+        "text": [
+          "Best Buy"
+        ],
+        "stat": "$47,262 million USD"
+      },
+      {
+        "text": [
+          "Publix"
+        ],
+        "stat": "$45,204 million USD"
+      },
+      {
+        "text": [
+          "E.Leclerc"
+        ],
+        "stat": "$44,676 million USD"
+      },
+      {
+        "text": [
+          "Woolworths Group"
+        ],
+        "stat": "$41,533 million USD"
+      },
+      {
+        "text": [
+          "IKEA"
+        ],
+        "stat": "$39,174 million USD"
+      },
+      {
+        "text": [
+          "Loblaw Companies"
+        ],
+        "stat": "$38,663 million USD"
+      }
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_largest_retail_companies"
+  },
+  "2024-08-28": {
+    "num": 186,
+    "category": "Biggest beer companies by volume produced",
+    "answers": [
+      {
+        "text": [
+          "Anheuser-Busch InBev"
+        ],
+        "stat": "505.90 million hl"
+      },
+      {
+        "text": [
+          "Heineken"
+        ],
+        "stat": "242.60 million hl"
+      },
+      {
+        "text": [
+          "China Resources Snow Breweries"
+        ],
+        "stat": "111.51 million hl"
+      },
+      {
+        "text": [
+          "Carlsberg"
+        ],
+        "stat": "101.00 million hl"
+      },
+      {
+        "text": [
+          "Molson Coors"
+        ],
+        "stat": "83.77 million hl"
+      }
+    ],
+    "options": [
+      {
+        "text": [
+          "Anheuser-Busch InBev"
+        ],
+        "stat": "505.90 million hl"
+      },
+      {
+        "text": [
+          "Heineken"
+        ],
+        "stat": "242.60 million hl"
+      },
+      {
+        "text": [
+          "China Resources Snow Breweries"
+        ],
+        "stat": "111.51 million hl"
+      },
+      {
+        "text": [
+          "Carlsberg"
+        ],
+        "stat": "101.00 million hl"
+      },
+      {
+        "text": [
+          "Molson Coors"
+        ],
+        "stat": "83.77 million hl"
+      },
+      {
+        "text": [
+          "Tsingtao Brewery Group"
+        ],
+        "stat": "74.10 million hl"
+      },
+      {
+        "text": [
+          "Asahi Group"
+        ],
+        "stat": "65.00 million hl"
+      },
+      {
+        "text": [
+          "BGI / Group Castel"
+        ],
+        "stat": "42.70 million hl"
+      },
+      {
+        "text": [
+          "Yanjing"
+        ],
+        "stat": "39.42 million hl"
+      },
+      {
+        "text": [
+          "Efes Group"
+        ],
+        "stat": "35.70 million hl"
+      },
+      {
+        "text": [
+          "Constellation Brands"
+        ],
+        "stat": "34.40 million hl"
+      },
+      {
+        "text": [
+          "Diageo (Guinness)"
+        ],
+        "stat": "24.66 million hl"
+      },
+      {
+        "text": [
+          "Kirin"
+        ],
+        "stat": "23.51 million hl"
+      }
+    ],
+    "url": "https://vinepair.com/booze-news/40-biggest-beer-producers-2024/"
   }
 }

@@ -29,6 +29,10 @@ export type Puzzle = {
 export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
 const options: { [key: string]: string[] } = optionsData;
 
+function sortOptionsByText(options: Answer[]): Answer[] {
+  return options.sort((a, b) => a.text[0].localeCompare(b.text[0]));
+}
+
 // This hook returns the puzzle for the current day
 // If there is no puzzle for today, it returns null
 const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | null) => {
@@ -43,8 +47,8 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
 
     if (dailyPuzzle) {
       if (!dailyPuzzle.optionsKey) {
-        console.log(dailyPuzzle.options)
-        setTodayPuzzle({...dailyPuzzle, options: dailyPuzzle.options!!})
+        const sortedOptions = sortOptionsByText(dailyPuzzle.options!!)
+        setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey]
 
