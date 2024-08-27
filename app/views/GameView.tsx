@@ -58,7 +58,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
     }
   }
 
-  const getOptions = (puzzle: Puzzle) => !puzzle.optionsKey ? (puzzle.options as Answer[]).flatMap((option: Answer) => option.text) : puzzle.options as string[]
+  const getOptions = (puzzle: Puzzle) => !puzzle.optionsKey ? (puzzle.options as RankedAnswer[]).flatMap((option: Answer) => option.text) : puzzle.options as string[]
 
   return (
     <>
