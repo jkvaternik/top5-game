@@ -7508,5 +7508,28 @@
         {"text": ["Atacama Desert"], "stat": "140,000 km² / 54,054 mi²"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
+  },
+  "2024-08-30": {
+    "num": 188,
+    "category": "Longest Mountain Chains on Earth",
+    "answers": [
+      {"text": ["Andes"], "stat": "7,000 km"},
+      {"text": ["Great Escarpment"], "stat": "5,000 km"},
+      {"text": ["Rocky Mountains"], "stat": "4,800 km"},
+      {"text": ["Transantarctic Mountains", "Great Dividing Range"], "stat": "3,500 km"},
+      {"text": ["Appalachian Mountains"], "stat": "3,200 km"}
+    ],
+    "options": [
+      {"text": ["Andes"], "stat": "7,000 km"},
+      {"text": ["Great Escarpment"], "stat": "5,000 km"},
+      {"text": ["Rocky Mountains"], "stat": "4,800 km"},
+      {"text": ["Transantarctic Mountains", "Great Dividing Range"], "stat": "3,500 km"},
+      {"text": ["Appalachian Mountains"], "stat": "3,200 km"},
+      {"text": ["Himalayas"], "stat": "2,600 km"},
+      {"text": ["Ural Mountains"], "stat": "2,500 km"},
+      {"text": ["Atlas Mountains"], "stat": "2,500 km"},
+      {"text": ["Appalachian Mountains"], "stat": "2,400 km"}
+    ],
+    "url": "https://www.geeksforgeeks.org/list-of-longest-mountain-ranges-in-the-world/"
   }
 }
