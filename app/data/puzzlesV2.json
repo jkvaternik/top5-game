@@ -7469,5 +7469,44 @@
       }
     ],
     "url": "https://vinepair.com/booze-news/40-biggest-beer-producers-2024/"
+  },
+  "2024-08-29": {
+    "num": 187,
+    "category": "Largest deserts by area",
+    "answers": [
+        {"text": ["Antarctic Desert"], "stat": "14,200,000 km² / 5,481,420 mi²"},
+        {"text": ["Arctic Desert"], "stat": "13,900,000 km² / 5,366,790 mi²"},
+        {"text": ["Saharan Desert"], "stat": "9,200,000 km² / 3,552,120 mi²"},
+        {"text": ["Great Australian Desert"], "stat": "2,700,000 km² / 1,042,470 mi²"},
+        {"text": ["Arabian Desert"], "stat": "2,330,000 km² / 899,618 mi²"}
+    ],
+    "options": [
+        {"text": ["Antarctic Desert"], "stat": "14,200,000 km² / 5,481,420 mi²"},
+        {"text": ["Arctic Desert"], "stat": "13,900,000 km² / 5,366,790 mi²"},
+        {"text": ["Saharan Desert"], "stat": "9,200,000 km² / 3,552,120 mi²"},
+        {"text": ["Great Australian Desert"], "stat": "2,700,000 km² / 1,042,470 mi²"},
+        {"text": ["Arabian Desert"], "stat": "2,330,000 km² / 899,618 mi²"},
+        {"text": ["Gobi Desert"], "stat": "1,295,000 km² / 500,256 mi²"},
+        {"text": ["Kalahari Desert"], "stat": "900,000 km² / 347,490 mi²"},
+        {"text": ["Patagonian Desert"], "stat": "673,000 km² / 259,820 mi²"},
+        {"text": ["Syrian Desert"], "stat": "500,000 km² / 193,050 mi²"},
+        {"text": ["Great Basin Desert"], "stat": "492,098 km² / 190,000 mi²"},
+        {"text": ["Chihuahuan Desert"], "stat": "453,248 km² / 174,117 mi²"},
+        {"text": ["Karakum Desert"], "stat": "350,000 km² / 135,135 mi²"},
+        {"text": ["Taklamakan Desert"], "stat": "337,000 km² / 130,067 mi²"},
+        {"text": ["Colorado Plateau"], "stat": "336,700 km² / 129,949 mi²"},
+        {"text": ["Sonoran Desert"], "stat": "310,000 km² / 119,607 mi²"},
+        {"text": ["Kyzylkum Desert"], "stat": "300,000 km² / 115,830 mi²"},
+        {"text": ["Ogaden Desert"], "stat": "256,000 km² / 98,842 mi²"},
+        {"text": ["Thar Desert"], "stat": "238,254 km² / 92,003 mi²"},
+        {"text": ["Puntland Desert"], "stat": "200,000 km² / 77,220 mi²"},
+        {"text": ["Ustyurt Plateau"], "stat": "200,000 km² / 77,220 mi²"},
+        {"text": ["Guban Desert"], "stat": "175,000 km² / 67,568 mi²"},
+        {"text": ["Namib Desert"], "stat": "160,000 km² / 61,776 mi²"},
+        {"text": ["Margo Desert"], "stat": "150,000 km² / 57,915 mi²"},
+        {"text": ["Registan Desert"], "stat": "146,000 km² / 56,336 mi²"},
+        {"text": ["Atacama Desert"], "stat": "140,000 km² / 54,054 mi²"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
   }
 }
