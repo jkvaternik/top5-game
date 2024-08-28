@@ -7531,5 +7531,31 @@
       {"text": ["Appalachian Mountains"], "stat": "2,400 km"}
     ],
     "url": "https://www.geeksforgeeks.org/list-of-longest-mountain-ranges-in-the-world/"
+  },
+  "2024-08-31": {
+    "num": 189,
+    "category": "Highest-Earning Film Actors for a Single Production",
+    "answers": [
+      {"text": ["Keanu Reeves"], "stat": "$156 million"},
+      {"text": ["Tom Cruise", "Will Smith", "Bruce Willis"], "stat": "$100 million"},
+      {"text": ["Alec Guinness"], "stat": "$95 million"},
+      {"text": ["Robert Downey Jr."], "stat": "$75 million"},
+      {"text": ["Sandra Bullock", "Tom Hanks"], "stat": "$70 million"}
+    ],
+    "options": [
+      {"text": ["Keanu Reeves"], "stat": "$156 million"},
+      {"text": ["Tom Cruise", "Will Smith", "Bruce Willis"], "stat": "$100 million"},
+      {"text": ["Alec Guinness"], "stat": "$95 million"},
+      {"text": ["Robert Downey Jr."], "stat": "$75 million"},
+      {"text": ["Sandra Bullock", "Tom Hanks"], "stat": "$70 million"},
+      {"text": ["Harrison Ford"], "stat": "$65 million"},
+      {"text": ["Jack Nicholson"], "stat": "$60 million"},
+      {"text": ["Leonardo DiCaprio"], "stat": "$59 million"},
+      {"text": ["Johnny Depp"], "stat": "$55 million"},
+      {"text": ["Jackie Chan"], "stat": "$53.7 million"},
+      {"text": ["Robert Downey Jr."], "stat": "$50 million"},
+      {"text": ["Margot Robbie"], "stat": "$50 million"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-paid_film_actors"
   }
 }
