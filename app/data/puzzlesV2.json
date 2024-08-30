@@ -7527,8 +7527,7 @@
       {"text": ["Appalachian Mountains"], "stat": "3,200 km"},
       {"text": ["Himalayas"], "stat": "2,600 km"},
       {"text": ["Ural Mountains"], "stat": "2,500 km"},
-      {"text": ["Atlas Mountains"], "stat": "2,500 km"},
-      {"text": ["Appalachian Mountains"], "stat": "2,400 km"}
+      {"text": ["Atlas Mountains"], "stat": "2,500 km"}
     ],
     "url": "https://www.geeksforgeeks.org/list-of-longest-mountain-ranges-in-the-world/"
   },
