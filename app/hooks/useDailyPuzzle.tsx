@@ -64,24 +64,10 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
         const allOptions = [...correctOptions, ...incorrectOptions]
 
         // Ensure options are sorted alphabetically
-        let sortedOptions: RankedAnswer[] = []
-
-        if (dailyPuzzle.optionsKey) {
-          // Options lists are already sorted alphabetically
-          const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
-          
-          let optionsMap = new Map(allOptions.map(option => [option., obj.value]));
-
-          
-          optionsList.map()
-
-
-          sortOptionsByText(allOptions)
-        }
+        const sortedOptions = sortOptionsByText(allOptions)
 
         setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
       } else {
-        // Options lists are already sorted alphabetically
         const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
 
         setTodayPuzzle({
