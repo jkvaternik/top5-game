@@ -10,6 +10,18 @@ const SUCCESS_MSG = 'Validation successful, all checks passed.';
  * 3. there are no missing dates between the earliest and latest puzzle
  */
 
+function isSortedAlphabetically(arr, optionsKey) {
+  const arrayCopy = [...arr]
+  arrayCopy.sort()
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] !== arrayCopy[i]) {
+      console.log("options: " + optionsKey + ", " + arr[i] + " " + arrayCopy[i])
+      return false
+    }
+  }
+  return true;
+}
+
 function validatePuzzles() {
   // Load and parse JSON files
   const puzzles = JSON.parse(fs.readFileSync('app/data/puzzlesV2.json', 'utf8'));
@@ -46,21 +58,13 @@ function validatePuzzles() {
 
     if (isNewOptionsFormat) {
       for (const answer of puzzle.answers) {
-        let matchFound = false;
-
         for (const option of puzzle.options) {
           // Check if both text and stat match
           const textMatch = answer.text.every((text, index) => text === option.text[index]);
-          const statMatch = answer.stat === option.stat;
 
-          if (textMatch && statMatch) {
-            matchFound = true;
-            break;
+          if (textMatch) {
+            return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" is incorrectly duplicated in options for puzzle: ${puzzle.num}`;
           }
-        }
-
-        if (!matchFound) {
-          return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" not found in options for key: ${puzzle.optionsKey}`;
         }
       }
     } else {
@@ -70,6 +74,11 @@ function validatePuzzles() {
             return `Answer "${text}" not found in options for key: ${puzzle.optionsKey}`;
           }
         }
+      }
+
+      // Verify options list is sorted alphabetically
+      if (!isSortedAlphabetically(optionList, puzzle.optionsKey)) {
+        return `Puzzle ${puzzle.num} is not sorted`
       }
     }
 
