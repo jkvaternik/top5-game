@@ -53,14 +53,9 @@ function validatePuzzles() {
           const textMatch = answer.text.every((text, index) => text === option.text[index]);
           const statMatch = answer.stat === option.stat;
 
-          if (textMatch && statMatch) {
-            matchFound = true;
-            break;
+          if (textMatch) {
+            return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" is incorrectly duplicated in options for puzzle: ${puzzle.num}`;
           }
-        }
-
-        if (!matchFound) {
-          return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" not found in options for key: ${puzzle.optionsKey}`;
         }
       }
     } else {

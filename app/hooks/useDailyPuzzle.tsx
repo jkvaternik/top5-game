@@ -53,12 +53,24 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
       if (!dailyPuzzle.optionsKey) {
         const incorrectOptions: RankedAnswer[] = dailyPuzzle.options!!.map((option, index) => ({
           ...option,
+          rank: index + 6 // Exclude the top 5 correct options and add 1 for 0-indexing
+        }))
+        const correctOptions: RankedAnswer[] = dailyPuzzle.answers.map((answer, index) => ({
+          ...answer,
           rank: index + 1
         }))
-        const sortedOptions = sortOptionsByText(incorrectOptions)
+        
+        // Aggregate correct and incorrect options into one list
+        const allOptions = [...correctOptions, ...incorrectOptions]
+
+        // Ensure options are sorted alphabetically
+        const sortedOptions = sortOptionsByText(allOptions)
+
         setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey]
+
+        optionsList.sort() // Ensure options are sorted alphabetically
 
         setTodayPuzzle({
           ...dailyPuzzle,
