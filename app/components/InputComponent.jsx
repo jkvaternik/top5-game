@@ -7,13 +7,11 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
 
-  // Memoize Fuse instance
   const fuse = useMemo(() => new Fuse(items, {
     includeScore: true,
     threshold: 0.3,
   }), [items]);
 
-  // Memoize shouldStrikethrough function
   const shouldStrikethrough = useCallback((item) => {
     const allAnswers = answers.map(answer => answer.text).flat();
     const correctAnswers = allAnswers.filter(option => guesses.includes(option));
