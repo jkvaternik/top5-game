@@ -50,7 +50,7 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
     const dailyPuzzle: PuzzleInput = puzzles[puzzleDay]
 
     if (dailyPuzzle) {
-      if (!dailyPuzzle.optionsKey) {
+      if (dailyPuzzle.options) {
         const incorrectOptions: RankedAnswer[] = dailyPuzzle.options!!.map((option, index) => ({
           ...option,
           rank: index + 6 // Exclude the top 5 correct options and add 1 for 0-indexing
@@ -64,11 +64,25 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
         const allOptions = [...correctOptions, ...incorrectOptions]
 
         // Ensure options are sorted alphabetically
-        const sortedOptions = sortOptionsByText(allOptions)
+        let sortedOptions: RankedAnswer[] = []
+
+        if (dailyPuzzle.optionsKey) {
+          // Options lists are already sorted alphabetically
+          const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
+          
+          let optionsMap = new Map(allOptions.map(option => [option., obj.value]));
+
+          
+          optionsList.map()
+
+
+          sortOptionsByText(allOptions)
+        }
 
         setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
       } else {
-        const optionsList: string[] = options[dailyPuzzle.optionsKey]
+        // Options lists are already sorted alphabetically
+        const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
 
         setTodayPuzzle({
           ...dailyPuzzle,

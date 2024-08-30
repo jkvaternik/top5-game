@@ -2548,8 +2548,42 @@
       {"text": ["Leonardo DiCaprio"], "stat": "$59 million"},
       {"text": ["Johnny Depp"], "stat": "$55 million"},
       {"text": ["Jackie Chan"], "stat": "$53.7 million"},
-      {"text": ["Margot Robbie"], "stat": "$50 million"}
+      {"text": ["Margot Robbie"], "stat": "$50 million"},
+      {"text": ["Cameron Diaz"], "stat": "$42 million"},
+      {"text": ["Denzel Washington"], "stat": "$40 million"},
+      {"text": ["Aamir Khan"], "stat": "$39 million"},
+      {"text": ["Jim Carey"], "stat": "$35 million"},
+      {"text": ["Arnold Schwarzenegger", "Mel Gibson", "Brad Pitt"], "stat": "$35 million"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_highest-paid_film_actors"
+  },
+  "2024-09-01": {
+    "num": 190,
+    "category": "Largest European cities by population within city limits",
+    "answers": [
+      {"text": ["Moscow"], "stat": "13,149,803"},
+      {"text": ["Istanbul"], "stat": "10,030,990"},
+      {"text": ["London"], "stat": "8,866,180"},
+      {"text": ["Saint Petersburg"], "stat": "5,597,763"},
+      {"text": ["Berlin"], "stat": "3,755,251"}
+    ],
+    "options": [
+      {"text": ["Madrid"], "stat": "3,332,035"},
+      {"text": ["Kyiv"], "stat": "2,952,301"},
+      {"text": ["Rome"], "stat": "2,754,719"},
+      {"text": ["Baku"], "stat": "2,336,600"},
+      {"text": ["Paris"], "stat": "2,087,577"},
+      {"text": ["Vienna"], "stat": "2,018,653"},
+      {"text": ["Minsk"], "stat": "1,992,862"},
+      {"text": ["Hamburg"], "stat": "1,892,122"},
+      {"text": ["Warsaw"], "stat": "1,861,644"},
+      {"text": ["Bucharest"], "stat": "1,739,297"},
+      {"text": ["Belgrade"], "stat": "1,683,229"},
+      {"text": ["Budapest"], "stat": "1,671,004"},
+      {"text": ["Barcelona"], "stat": "1,660,122"},
+      {"text": ["Munich"], "stat": "1,512,491"},
+      {"text": ["Kharkiv"], "stat": "1,421,225"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_European_cities_by_population_within_city_limits"
   }
 }
