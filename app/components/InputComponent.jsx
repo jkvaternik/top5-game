@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import Downshift from 'downshift';
 import Fuse from 'fuse.js';
 
@@ -7,12 +7,20 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
   const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
 
-  const fuse = new Fuse(items, {
+  // Memoize Fuse instance
+  const fuse = useMemo(() => new Fuse(items, {
     includeScore: true,
     threshold: 0.3,
-  });
+  }), [items]);
 
-  const handleInputChange = (event) => {
+  // Memoize shouldStrikethrough function
+  const shouldStrikethrough = useCallback((item) => {
+    const allAnswers = answers.map(answer => answer.text).flat();
+    const correctAnswers = allAnswers.filter(option => guesses.includes(option));
+    return guesses.includes(item) || correctAnswers.includes(item);
+  }, [guesses, answers]);
+
+  const handleInputChange = useCallback((event) => {
     const { value } = event.target;
     setInputValue(value); // Update inputValue on change
 
@@ -23,7 +31,7 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
     } else {
       setInputItems([]);
     }
-  };
+  }, [fuse]);
 
   const downshiftOnChange = (selectedItem) => {
     const isCorrect = handleGuess(selectedItem);
@@ -33,13 +41,6 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
     // close keyboard on mobile
     document.activeElement.blur();
   };
-
-  const shouldStrikethrough = (item) => {
-    const allAnswers = answers.map(answer => answer.text)
-    const correctAnswers = allAnswers.filter(options => options.some(option => guesses.includes(option))).flat()
-
-    return guesses.includes(item) || correctAnswers.includes(item)
-  }
 
   return (
     <Downshift
