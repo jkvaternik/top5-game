@@ -13,9 +13,9 @@ const InputComponent = ({ items, handleGuess, isGameOver, guesses, answers }) =>
   }), [items]);
 
   const shouldStrikethrough = useCallback((item) => {
-    const allAnswers = answers.map(answer => answer.text).flat();
-    const correctAnswers = allAnswers.filter(option => guesses.includes(option));
-    return guesses.includes(item) || correctAnswers.includes(item);
+    const allAnswers = answers.map(answer => answer.text)
+    const correctAnswers = allAnswers.filter(options => options.some(option => guesses.includes(option))).flat()
+    return guesses.includes(item) || correctAnswers.includes(item)
   }, [guesses, answers]);
 
   const handleInputChange = useCallback((event) => {
