@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
@@ -58,7 +58,12 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
     }
   }
 
-  const getOptions = (puzzle: Puzzle) => !puzzle.optionsKey ? (puzzle.options as RankedAnswer[]).flatMap((option: Answer) => option.text) : puzzle.options as string[]
+  const getOptions = useCallback((puzzle: Puzzle): string[] => {
+    if (puzzle.optionsRanked) {
+      return puzzle.optionsRanked.flatMap((option: RankedAnswer) => option.text).sort();
+    }
+    return puzzle.options as string[]; // Preset options lists are already sorted
+  }, []);
 
   return (
     <>
