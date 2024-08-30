@@ -70,8 +70,6 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey]
 
-        optionsList.sort() // Ensure options are sorted alphabetically
-
         setTodayPuzzle({
           ...dailyPuzzle,
           options: optionsList
