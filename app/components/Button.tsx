@@ -4,18 +4,22 @@ interface ButtonProps {
   onClick: () => void;
   children: React.ReactNode;
   colorClasses?: string;
-  hasOutline?: boolean;
+  invert?: boolean;
 }
 
-export default function Button({ onClick, children, colorClasses, hasOutline }: ButtonProps) {
-  const colors = colorClasses || "text-white bg-[#304d6d] dark:bg-[#4F6479] hover:bg-[#82A0BC]";
-  const outline = hasOutline 
-    ? "relative before:absolute before:top-1 before:right-1 before:bottom-1 before:left-1 before:border-2 before:border-white before:rounded-full before:pointer-events-none"
-    : "";
+export default function Button({ onClick, children, colorClasses, invert }: ButtonProps) {
+  // Default color classes
+  const defaultColors = "text-white bg-[#304d6d] dark:bg-[#4F6479] hover:bg-[#82A0BC]";
+  
+  // Inverted color classes using box-shadow instead of outline or border
+  const invertedColors = "text-[#304d6d] bg-white dark:bg-white hover:bg-[#f0f0f0] shadow-[inset_0_0_0_2px_#304d6d]";
+  
+  // Determine which color classes to use based on the invert prop
+  const colors = invert ? invertedColors : (colorClasses || defaultColors);
 
   return (
     <button 
-      className={`py-3 px-12 text-white font-medium rounded-full mb-4 ${colors} ${outline}`} 
+      className={`py-3 px-12 font-medium rounded-full mb-4 ${colors}`} 
       onClick={onClick} 
       style={{ transition: '0.3s' }}
     >
