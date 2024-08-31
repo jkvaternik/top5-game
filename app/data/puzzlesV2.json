@@ -2585,5 +2585,34 @@
       {"text": ["Kharkiv"], "stat": "1,421,225"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_European_cities_by_population_within_city_limits"
+  },
+  "2024-09-02": {
+    "num": 191,
+    "category": "Most populous islands in the world",
+    "answers": [
+      {"text": ["Java"], "stat": "148,756,685"},
+      {"text": ["Honshū"], "stat": "102,579,606"},
+      {"text": ["Great Britain"], "stat": "65,686,000"},
+      {"text": ["Luzon"], "stat": "64,260,312"},
+      {"text": ["Sumatra"], "stat": "59,185,500"}
+    ],
+    "options": [
+      {"text": ["Madagascar"], "stat": "28,479,665"},
+      {"text": ["Mindanao"], "stat": "27,021,036"},
+      {"text": ["Taiwan"], "stat": "23,865,820"},
+      {"text": ["Salsette"], "stat": "23,729,378"},
+      {"text": ["Borneo"], "stat": "23,720,000"},
+      {"text": ["Hispaniola"], "stat": "22,278,000"},
+      {"text": ["Sri Lanka"], "stat": "21,919,000"},
+      {"text": ["Sulawesi"], "stat": "20,160,000"},
+      {"text": ["New Guinea"], "stat": "14,800,000"},
+      {"text": ["Kyūshū"], "stat": "12,346,465"},
+      {"text": ["Cuba"], "stat": "11,318,747"},
+      {"text": ["Hainan"], "stat": "10,081,232"},
+      {"text": ["Long Island"], "stat": "8,063,262"},
+      {"text": ["Ireland"], "stat": "7,026,636"},
+      {"text": ["Singapore Island"], "stat": "5,882,440"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_islands_by_population"
   }
 }
