@@ -84,7 +84,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         </section>
       </>
       }
-      {gameOver && puzzle && <GameOverModal puzzle={puzzle} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
+      {gameOver && puzzle && <GameOverModal puzzle={puzzle} isArchiveMode={isArchiveMode} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
       <ArchiveModal isOpen={showArchiveModal} onClose={() => {
         setShowArchiveModal(false)
         setShowMenu(false)
