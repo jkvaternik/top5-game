@@ -41,7 +41,7 @@ export default function Header({ puzzle, lives, gameOver, showMenu, setShowMenu,
   return (
     <>
       <section className={`flex flex-row gap-5 items-end w-full text-black-pearl dark:text-white`}>
-        <div className={`flex flex-col items-center`} style={{ marginLeft: '8px' }}>
+        <div className={`flex flex-col items-center cursor-pointer`} style={{ marginLeft: '8px' }} onClick={() => window.location.href = '/'}>
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
         </div>

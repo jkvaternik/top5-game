@@ -5,10 +5,12 @@ import { Montserrat } from "next/font/google";
 import { ModalComponent } from "../ModalComponent";
 import { Puzzle } from '@/app/hooks/useDailyPuzzle';
 import { getShareableEmojiScore, getScoreMessage, getLocalStorageOrDefault } from '@/app/utils';
-import { ShareIcon } from "@heroicons/react/24/outline";
+import { ShareIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
+import Button from '../../Button';
 
 type Props = {
   isOpen: boolean;
+  isArchiveMode: boolean;
   score: number[];
   puzzle: Puzzle;
   onClose: () => void;
@@ -19,7 +21,7 @@ const montserrat = Montserrat({
   subsets: ["latin"]
 });
 
-const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
+const GameOverModal = ({ puzzle, score, isOpen, onClose, isArchiveMode }: Props) => {
   const streak = getLocalStorageOrDefault('streak', 0);
   const createShareMessage = (includeUrl: boolean) => {
     const message = {
@@ -73,15 +75,16 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose }: Props) => {
     <>
       <ToastContainer closeButton={false} />
       <ModalComponent delayMs={750} show={isOpen} onClose={onClose} showChildren={isOpen}>
-        <div className="flex flex-col p-12 pt-9 text-center justify-center">
+        <div className="flex flex-col p-12 pt-3 text-center justify-center">
           <h2 className={`text-2xl mb-8 font-bold ${montserrat.className}`}>{getScoreMessage(score)}</h2>
           <p className="mb-2 left-align font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-4 text-3xl">{getShareableEmojiScore(score)}</p>
-          <button className="py-3 px-12 bg-[#304d6d] dark:bg-[#4F6479] text-white font-medium rounded-full hover:bg-[#82A0BC] mb-4" onClick={copyScore} style={{ 'transition': '0.3s' }}>
-            <div className="flex flex-row justify-center gap-2">
-              Share <ShareIcon className="h-6 w-6" style={{ display: 'inline-block' }} />
-            </div>
-          </button>
+          <Button onClick={copyScore}>
+            Share <ShareIcon className="h-6 w-6" style={{ display: 'inline-block' }} />
+          </Button>
+          {!!isArchiveMode && <Button onClick={() => window.location.href = '/'} buttonType="secondary">
+            Play Today&apos;s Quiz!
+          </Button>}
           <div className="relative flex py-3 items-center">
             <div className="flex-grow border-t border-gray-500 dark:border-gray-400"></div>
             <span className="flex-shrink mx-4 text-gray-500 dark:text-gray-400">Statistics</span>
