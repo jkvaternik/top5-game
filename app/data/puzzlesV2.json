@@ -2639,5 +2639,39 @@
       {"text": ["Singapore Island"], "stat": "5,882,440"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_islands_by_population"
+  },
+  "2024-09-03": {
+    "num": 192,
+    "category": "First countries to reach space",
+    "answers": [
+        {"text": ["Soviet Union"], "stat": "April 12, 1961"},
+        {"text": ["United States"], "stat": "May 5, 1961"},
+        {"text": ["Czechoslovakia"], "stat": "March 2, 1978"},
+        {"text": ["Poland"], "stat": "June 27, 1978"},
+        {"text": ["East Germany"], "stat": "August 26, 1978"}
+    ],
+    "options": [
+        {"text": ["Bulgaria"], "stat": "April 10, 1979"},
+        {"text": ["Hungary"], "stat": "May 26, 1980"},
+        {"text": ["Vietnam"], "stat": "July 23, 1980"},
+        {"text": ["Cuba"], "stat": "September 18, 1980"},
+        {"text": ["Mongolia"], "stat": "March 22, 1981"},
+        {"text": ["Romania"], "stat": "May 14, 1981"},
+        {"text": ["France"], "stat": "June 24, 1982"},
+        {"text": ["India"], "stat": "April 3, 1984"},
+        {"text": ["Canada"], "stat": "October 5, 1984"},
+        {"text": ["Saudi Arabia"], "stat": "June 17, 1985"},
+        {"text": ["Netherlands"], "stat": "October 30, 1985"},
+        {"text": ["Mexico"], "stat": "November 26, 1985"},
+        {"text": ["Syria"], "stat": "July 22, 1987"},
+        {"text": ["Afghanistan"], "stat": "August 29, 1988"},
+        {"text": ["United Kingdom"], "stat": "May 6, 1991"},
+        {"text": ["Austria"], "stat": "October 2, 1991"},
+        {"text": ["Kazakhstan"], "stat": "October 2, 1991"},
+        {"text": ["Japan"], "stat": "February 7, 1994"},
+        {"text": ["Ukraine"], "stat": "March 16, 1995"},
+        {"text": ["Spain"], "stat": "October 29, 1998"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Timeline_of_space_travel_by_nationality"
   }
 }
