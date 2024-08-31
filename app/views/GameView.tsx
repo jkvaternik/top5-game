@@ -1,13 +1,13 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import Header from './Header';
 import InputComponent from '../components/InputComponent';
 import RankList from '../components/RankList/RankList';
 
-import useDailyPuzzle, { Answer, Puzzle, RankedAnswer } from '../hooks/useDailyPuzzle';
+import useDailyPuzzle, { Puzzle, RankedAnswer } from '../hooks/useDailyPuzzle';
 import { getCurrentLocalDateAsString, getScore } from '../utils';
 import { useGameState } from '../hooks/useGameState';
 import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
@@ -58,7 +58,12 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
     }
   }
 
-  const getOptions = (puzzle: Puzzle) => !puzzle.optionsKey ? (puzzle.options as RankedAnswer[]).flatMap((option: Answer) => option.text) : puzzle.options as string[]
+  const getOptions = useCallback((puzzle: Puzzle): string[] => {
+    if (puzzle.optionsRanked) {
+      return puzzle.optionsRanked.flatMap((option: RankedAnswer) => option.text).sort();
+    }
+    return puzzle.options as string[]; // Preset options lists are already sorted
+  }, []);
 
   return (
     <>
@@ -80,7 +85,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         </section>
         <br></br>
         <section className="flex flex-col gap-4">
-          <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.optionsKey ? undefined : puzzle.options as RankedAnswer[]} isGameOver={gameOver} />
+          <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.optionsRanked as RankedAnswer[]} isGameOver={gameOver} />
         </section>
       </>
       }

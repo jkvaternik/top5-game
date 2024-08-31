@@ -26,16 +26,13 @@ export type Puzzle = {
   category: string;
   answers: Answer[];
   optionsKey?: string;
-  options: string[] | Answer[];
+  options?: string[];
+  optionsRanked?: RankedAnswer[];
   url?: string;
 }
 
 export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;
 const options: { [key: string]: string[] } = optionsData;
-
-function sortOptionsByText(options: RankedAnswer[]): RankedAnswer[] {
-  return options.sort((a, b) => a.text[0].localeCompare(b.text[0]));
-}
 
 // This hook returns the puzzle for the current day
 // If there is no puzzle for today, it returns null
@@ -51,22 +48,19 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
 
     if (dailyPuzzle) {
       if (dailyPuzzle.options) {
-        const incorrectOptions: RankedAnswer[] = dailyPuzzle.options!!.map((option, index) => ({
-          ...option,
-          rank: index + 6 // Exclude the top 5 correct options and add 1 for 0-indexing
-        }))
         const correctOptions: RankedAnswer[] = dailyPuzzle.answers.map((answer, index) => ({
           ...answer,
           rank: index + 1
         }))
+        const incorrectOptions: RankedAnswer[] = dailyPuzzle.options!!.map((option, index) => ({
+          ...option,
+          rank: index + 6 // Exclude the top 5 correct options and add 1 for 0-indexing
+        }))
         
         // Aggregate correct and incorrect options into one list
-        const allOptions = [...correctOptions, ...incorrectOptions]
+        const allOptions: RankedAnswer[] = [...correctOptions, ...incorrectOptions]
 
-        // Ensure options are sorted alphabetically
-        const sortedOptions = sortOptionsByText(allOptions)
-
-        setTodayPuzzle({ ...dailyPuzzle, options: sortedOptions })
+        setTodayPuzzle({ ...dailyPuzzle, options: undefined, optionsRanked: allOptions })
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
 
