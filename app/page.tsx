@@ -3,6 +3,7 @@
 import React, { Suspense } from "react";
 import { useEffect, useState } from "react";
 import 'react-toastify/dist/ReactToastify.css';
+import { useSearchParams } from "next/navigation";
 
 import { InstructionsModal } from "./components/ModalComponent/Modals/InstructionsModal";
 import GameView from "./views/GameView";
@@ -12,12 +13,14 @@ import { isNewVisitor } from "./utils";
 export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
     const newUser = isNewVisitor();
+    const isArchiveMode = window.location.href.includes('date')
 
-    if (newUser) {
+    if (newUser && !isArchiveMode) {
       setShowInstructionsModal(true);
     }
 
