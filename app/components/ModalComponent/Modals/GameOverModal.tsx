@@ -82,7 +82,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose, isArchiveMode }: Props)
           <Button onClick={copyScore}>
             Share <ShareIcon className="h-6 w-6" style={{ display: 'inline-block' }} />
           </Button>
-          {!!isArchiveMode && <Button onClick={() => window.location.href = '/'} invert={true}>
+          {!!isArchiveMode && <Button onClick={() => window.location.href = '/'} buttonType="secondary">
             Play Today&apos;s Quiz!
           </Button>}
           <div className="relative flex py-3 items-center">
