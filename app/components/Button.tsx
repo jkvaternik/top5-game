@@ -14,7 +14,7 @@ export default function Button({ onClick, children, colorClasses, buttonType = '
   const defaultColors = "text-white bg-[#304d6d] dark:bg-[#4F6479] hover:bg-[#82A0BC]";
   
   // Inverted color classes using box-shadow instead of outline or border
-  const invertedColors = "text-[#304d6d] bg-white dark:bg-white hover:bg-[#f0f0f0] shadow-[inset_0_0_0_2px_#304d6d]";
+  const invertedColors = "text-[#304d6d] bg-white dark:bg-white hover:bg-[#f0f0f0] shadow-[inset_0_0_0_2px_#304d6d] dark:shadow-none";
   
   // Determine which color classes to use based on the invert prop
   const colors = buttonType === 'secondary' ? invertedColors : (colorClasses || defaultColors);
