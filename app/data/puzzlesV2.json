@@ -2639,5 +2639,44 @@
       {"text": ["Singapore Island"], "stat": "5,882,440"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_islands_by_population"
+  },
+  "2024-09-03": {
+    "num": 192,
+    "category": "Most streamed Queen songs on spotify",
+    "answers": [
+      {"text": ["Bohemian Rhapsody - Remastered 2011"], "stat": "2,562,088,481"},
+      {"text": ["Don't Stop Me Now - Remastered 2011"], "stat": "2,062,941,595"},
+      {"text": ["Another One Bites The Dust - Remastered 2011"], "stat": "1,942,532,227"},
+      {"text": ["Under Pressure - Remastered 2011"], "stat": "1,678,591,125"},
+      {"text": ["We Will Rock You - Remastered 2011"], "stat": "1,350,491,370"}
+    ],
+    "options": [
+      {"text": ["Crazy Little Thing Called Love - Remastered 2011"], "stat": "942,453,148"},
+      {"text": ["Somebody To Love - Remastered 2011"], "stat": "914,697,247"},
+      {"text": ["Killer Queen - Remastered 2011"], "stat": "871,574,622"},
+      {"text": ["We Are The Champions - Remastered 2011"], "stat": "736,945,284"},
+      {"text": ["I Want To Break Free - Remastered 2011"], "stat": "637,293,092"},
+      {"text": ["Radio Ga Ga - Remastered 2011"], "stat": "584,277,948"},
+      {"text": ["Love Of My Life - Remastered 2011"], "stat": "468,334,703"},
+      {"text": ["The Show Must Go On - 2011 Remaster"], "stat": "428,262,311"},
+      {"text": ["You're My Best Friend - Remastered 2011"], "stat": "364,892,246"},
+      {"text": ["Good Old-Fashioned Lover Boy - Remastered 2011"], "stat": "343,904,809"},
+      {"text": ["Fat Bottomed Girls - Remastered 2011"], "stat": "309,952,374"},
+      {"text": ["I Want To Break Free"], "stat": "289,620,791"},
+      {"text": ["I Want To Break Free - Remastered 2011"], "stat": "279,252,336"},
+      {"text": ["A Kind Of Magic - Remastered 2011"], "stat": "272,969,290"},
+      {"text": ["Thank God It's Christmas - 2011 Remaster"], "stat": "255,498,197"},
+      {"text": ["I Want It All - Remastered 2011"], "stat": "198,881,725"},
+      {"text": ["Radio Ga Ga - Live Aid"], "stat": "179,674,760"},
+      {"text": ["Don't Stop Me Now - …revisited"], "stat": "158,837,655"},
+      {"text": ["Bicycle Race - Remastered 2011"], "stat": "156,722,112"},
+      {"text": ["Who Wants To Live Forever - Remastered 2011"], "stat": "122,307,353"},
+      {"text": ["Hammer To Fall - Remastered 2011"], "stat": "119,464,570"},
+      {"text": ["We Are The Champions - Live Aid"], "stat": "118,629,485"},
+      {"text": ["Too Much Love Will Kill You - Remastered 2011"], "stat": "111,763,623"},
+      {"text": ["Save Me - Remastered 2011"], "stat": "106,675,929"},
+      {"text": ["Friends Will Be Friends - Remastered 2011"], "stat": "101,412,209"}
+    ],
+    "url": "https://kworb.net/spotify/artist/1dfeR4HaWDbWqFHLkxsg1d_songs.html"
   }
 }
