@@ -15,8 +15,6 @@ export default function Home() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    localStorage.removeItem('visitedSinceAnnouncement')
-
     const newUser = isNewVisitor();
 
     if (newUser) {
