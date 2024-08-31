@@ -13,20 +13,19 @@ import { isNewVisitor } from "./utils";
 export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
-  const searchParams = useSearchParams()
-  const isArchiveMode = searchParams.has('date')
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
     const newUser = isNewVisitor();
+    const isArchiveMode = window.location.href.includes('date')
 
     if (newUser && !isArchiveMode) {
       setShowInstructionsModal(true);
     }
 
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
-  }, [isArchiveMode]);
+  }, []);
 
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">
