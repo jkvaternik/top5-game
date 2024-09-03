@@ -92,7 +92,7 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose, isArchiveMode }: Props)
           </div>
           <div className='w-full flex justify-between mb-2'>
             <p className="mb-2">Streak</p>
-            <p className="mb-2">{streak === 0 ? `${streak} 😔` : `${streak} 🔥`}</p>
+            <p className="mb-2">{streak === 0 ? `${streak}` : `${streak} 🔥`}</p>
           </div>
           {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] dark:text-white hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
         </div>
