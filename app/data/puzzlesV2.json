@@ -2712,5 +2712,38 @@
         {"text": ["Spain"], "stat": "October 29, 1998"}
     ],
     "url": "https://en.wikipedia.org/wiki/Timeline_of_space_travel_by_nationality"
+  },
+  "2024-09-05": {
+    "num": 194,
+    "category": "Football clubs with the most Premier League titles",
+    "answers": [
+        {"text": ["Manchester United"], "stat": "20"},
+        {"text": ["Liverpool"], "stat": "19"},
+        {"text": ["Arsenal"], "stat": "13"},
+        {"text": ["Manchester City"], "stat": "10"},
+        {"text": ["Everton"], "stat": "9"}
+    ],
+    "options": [
+        {"text": ["Aston Villa"], "stat": "7"},
+        {"text": ["Chelsea"], "stat": "6"},
+        {"text": ["Sunderland"], "stat": "6"},
+        {"text": ["Newcastle United"], "stat": "4"},
+        {"text": ["Sheffield Wednesday"], "stat": "4"},
+        {"text": ["Leeds United"], "stat": "3"},
+        {"text": ["Wolverhampton Wanderers"], "stat": "3"},
+        {"text": ["Huddersfield Town"], "stat": "3"},
+        {"text": ["Blackburn Rovers"], "stat": "3"},
+        {"text": ["Preston North End"], "stat": "2"},
+        {"text": ["Tottenham Hotspur"], "stat": "2"},
+        {"text": ["Burnley"], "stat": "2"},
+        {"text": ["Derby County"], "stat": "2"},
+        {"text": ["Portsmouth"], "stat": "2"},
+        {"text": ["Ipswich Town"], "stat": "1"},
+        {"text": ["Nottingham Forest"], "stat": "1"},
+        {"text": ["Sheffield United"], "stat": "1"},
+        {"text": ["West Bromwich Albion"], "stat": "1"},
+        {"text": ["Leicester City"], "stat": "1"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_football_clubs_in_England_by_competitive_honours_won#Summary_totals"
   }
 }
