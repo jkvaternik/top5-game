@@ -2745,5 +2745,37 @@
         {"text": ["Leicester City"], "stat": "1"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_football_clubs_in_England_by_competitive_honours_won#Summary_totals"
+  },
+  "2024-09-06": {
+    "num": 195,
+    "category": "Latest Best Animated Feature Oscar winners",
+    "answers": [
+        {"text": ["The Boy and The Heron"], "stat": "2023"},
+        {"text": ["Guillermo del Toro's Pinocchio"], "stat": "2022"},
+        {"text": ["Encanto"], "stat": "2021"},
+        {"text": ["Soul"], "stat": "2020"},
+        {"text": ["Toy Story 4"], "stat": "2019"}
+    ],
+    "options": [
+        {"text": ["Spider-Man: Into the Spider-Verse"], "stat": "2018"},
+        {"text": ["Coco"], "stat": "2017"},
+        {"text": ["Zootopia"], "stat": "2016"},
+        {"text": ["Inside Out"], "stat": "2015"},
+        {"text": ["Big Hero 6"], "stat": "2014"},
+        {"text": ["Frozen"], "stat": "2013"},
+        {"text": ["Brave"], "stat": "2012"},
+        {"text": ["Rango"], "stat": "2011"},
+        {"text": ["Toy Story 3"], "stat": "2010"},
+        {"text": ["Up"], "stat": "2009"},
+        {"text": ["WALL-E"], "stat": "2008"},
+        {"text": ["Ratatouille"], "stat": "2007"},
+        {"text": ["Happy Feet"], "stat": "2006"},
+        {"text": ["Wallace & Gromit: The Curse of the Were-Rabbit"], "stat": "2005"},
+        {"text": ["The Incredibles"], "stat": "2004"},
+        {"text": ["Finding Nemo"], "stat": "2003"},
+        {"text": ["Spirited Away"], "stat": "2002"},
+        {"text": ["Shrek"], "stat": "2001"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature"
   }
 }
