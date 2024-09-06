@@ -2777,5 +2777,28 @@
         {"text": ["Shrek"], "stat": "2001"}
     ],
     "url": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature"
+  },
+  "2024-09-07": {
+    "num": 196,
+    "category": "Countries with the most Costco locations",
+    "answers": [
+        {"text": ["United States"], "stat": "611"},
+        {"text": ["Canada"], "stat": "108"},
+        {"text": ["Mexico"], "stat": "40"},
+        {"text": ["Japan"], "stat": "33"},
+        {"text": ["United Kingdom"], "stat": "29"}
+    ],
+    "options": [
+        {"text": ["Korea"], "stat": "18"},
+        {"text": ["Australia"], "stat": "15"},
+        {"text": ["Taiwan"], "stat": "14"},
+        {"text": ["China"], "stat": "7"},
+        {"text": ["Spain"], "stat": "4"},
+        {"text": ["France"], "stat": "2"},
+        {"text": ["Iceland"], "stat": "1"},
+        {"text": ["New Zealand"], "stat": "1"},
+        {"text": ["Sweden"], "stat": "1"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Costco#Locations"
   }
 }
