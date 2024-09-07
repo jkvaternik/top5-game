@@ -2800,5 +2800,38 @@
         {"text": ["Sweden"], "stat": "1"}
     ],
     "url": "https://en.wikipedia.org/wiki/Costco#Locations"
+  },
+  "2024-09-08": {
+    "num": 197,
+    "category": "U.S. presidents with the shortest time in office",
+    "answers": [
+        {"text": ["William Henry Harrison"], "stat": "31 days"},
+        {"text": ["James A. Garfield"], "stat": "199 days"},
+        {"text": ["Zachary Taylor"], "stat": "492 days"},
+        {"text": ["Warren G. Harding"], "stat": "881 days"},
+        {"text": ["Gerald Ford"], "stat": "895 days"}
+    ],
+    "options": [
+        {"text": ["Millard Fillmore"], "stat": "969 days"},
+        {"text": ["John F. Kennedy"], "stat": "1,036 days"},
+        {"text": ["Chester A. Arthur"], "stat": "1,262 days"},
+        {"text": ["Joe Biden"], "stat": "1,326 days"},
+        {"text": ["Andrew Johnson"], "stat": "1,419 days"},
+        {"text": ["John Tyler"], "stat": "1,430 days"},
+        {"text": ["John Adams"], "stat": "1,460 days"},
+        {"text": ["John Quincy Adams"], "stat": "1,461 days"},
+        {"text": ["Martin Van Buren"], "stat": "1,461 days"},
+        {"text": ["James K. Polk"], "stat": "1,461 days"},
+        {"text": ["Franklin Pierce"], "stat": "1,461 days"},
+        {"text": ["James Buchanan"], "stat": "1,461 days"},
+        {"text": ["Rutherford B. Hayes"], "stat": "1,461 days"},
+        {"text": ["Benjamin Harrison"], "stat": "1,461 days"},
+        {"text": ["William Howard Taft"], "stat": "1,461 days"},
+        {"text": ["Herbert Hoover"], "stat": "1,461 days"},
+        {"text": ["Jimmy Carter"], "stat": "1,461 days"},
+        {"text": ["George H. W. Bush"], "stat": "1,461 days"},
+        {"text": ["Donald Trump"], "stat": "1,461 days"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States_by_time_in_office"
   }
 }
