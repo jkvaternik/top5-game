@@ -2833,5 +2833,44 @@
         {"text": ["Donald Trump"], "stat": "1,461 days"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States_by_time_in_office"
+  },
+  "2024-09-09": {
+    "num": 198,
+    "category": "Countries with the longest paved road networks",
+    "answers": [
+      {"text": ["China"], "stat": "5,350,000 km"},
+      {"text": ["United States"], "stat": "5,124,000 km"},
+      {"text": ["India"], "stat": "4,500,000 km"},
+      {"text": ["France"], "stat": "1,053,215 km"},
+      {"text": ["Japan"], "stat": "992,835 km"}
+  ],
+    "options": [
+      {"text": ["Germany"], "stat": "830,000 km"},
+      {"text": ["Spain"], "stat": "683,175 km"},
+      {"text": ["Russia"], "stat": "677,105 km"},
+      {"text": ["Italy"], "stat": "487,700 km"},
+      {"text": ["United Kingdom"], "stat": "424,129 km"},
+      {"text": ["Canada"], "stat": "415,600 km"},
+      {"text": ["Indonesia"], "stat": "329,189 km"},
+      {"text": ["Poland"], "stat": "293,800 km"},
+      {"text": ["Vietnam"], "stat": "280,663 km"},
+      {"text": ["Egypt"], "stat": "240,000 km"},
+      {"text": ["Brazil"], "stat": "214,000 km"},
+      {"text": ["Malaysia"], "stat": "198,932 km"},
+      {"text": ["Iran"], "stat": "195,485 km"},
+      {"text": ["Pakistan"], "stat": "185,463 km"},
+      {"text": ["Mexico"], "stat": "175,536 km"},
+      {"text": ["Ukraine"], "stat": "166,095 km"},
+      {"text": ["South Africa"], "stat": "158,124 km"},
+      {"text": ["Australia"], "stat": "145,928 km"},
+      {"text": ["Sweden"], "stat": "140,100 km"},
+      {"text": ["Uzbekistan"], "stat": "120,289 km"},
+      {"text": ["Belgium"], "stat": "118,414 km"},
+      {"text": ["Greece"], "stat": "117,000 km"},
+      {"text": ["Algeria"], "stat": "117,000 km"},
+      {"text": ["Bangladesh"], "stat": "110,311 km"},
+      {"text": ["Ireland"], "stat": "99,830 km"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_road_network_size"
   }
 }
