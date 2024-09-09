@@ -2872,5 +2872,45 @@
       {"text": ["Ireland"], "stat": "99,830 km"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_road_network_size"
+  },
+  "2024-09-10": {
+    "num": 199,
+    "category": "Airlines by revenue",
+    "answers": [
+        {"text": ["Delta Air Lines"], "stat": "$60.12 billion"},
+        {"text": ["United Airlines Holdings"], "stat": "$55.64 billion"},
+        {"text": ["American Airlines"], "stat": "$53.45 billion"},
+        {"text": ["Lufthansa"], "stat": "$39.27 billion"},
+        {"text": ["Air France-KLM"], "stat": "$33.06 billion"}
+    ],
+    "options": [
+        {"text": ["International Consolidated Airlines"], "stat": "$30.62 billion"},
+        {"text": ["Southwest Airlines"], "stat": "$27.03 billion"},
+        {"text": ["China Southern Airlines"], "stat": "$23.76 billion"},
+        {"text": ["Air China"], "stat": "$21.75 billion"},
+        {"text": ["China Eastern Airlines"], "stat": "$17.37 billion"},
+        {"text": ["Air Canada"], "stat": "$16.46 billion"},
+        {"text": ["Ryanair"], "stat": "$14.43 billion"},
+        {"text": ["Singapore Airlines"], "stat": "$14.29 billion"},
+        {"text": ["ANA Holdings"], "stat": "$14.03 billion"},
+        {"text": ["Qantas Airways"], "stat": "$12.92 billion"},
+        {"text": ["Korean Air Lines"], "stat": "$12.92 billion"},
+        {"text": ["LATAM Airlines"], "stat": "$12.49 billion"},
+        {"text": ["Japan Airlines"], "stat": "$11.27 billion"},
+        {"text": ["Alaska Airlines"], "stat": "$10.81 billion"},
+        {"text": ["easyJet"], "stat": "$9.97 billion"},
+        {"text": ["JetBlue Airways"], "stat": "$9.32 billion"},
+        {"text": ["Hainan Airlines"], "stat": "$8.78 billion"},
+        {"text": ["InterGlobe Aviation"], "stat": "$8.62 billion"},
+        {"text": ["EVA Air"], "stat": "$6.74 billion"},
+        {"text": ["Cathay Pacific"], "stat": "$6.53 billion"},
+        {"text": ["Jet2"], "stat": "$6.24 billion"},
+        {"text": ["China Airlines"], "stat": "$6.09 billion"},
+        {"text": ["Asiana Airlines"], "stat": "$6.02 billion"},
+        {"text": ["Spirit Airlines"], "stat": "$5.13 billion"},
+        {"text": ["Wizz Air"], "stat": "$4.38 billion"},
+        {"text": ["Scandinavian Airlines System (SAS)"], "stat": "$4.10 billion"}
+    ],
+    "url": "https://companiesmarketcap.com/airlines/largest-airlines-by-revenue/"
   }
 }

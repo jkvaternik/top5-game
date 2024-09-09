@@ -36,13 +36,11 @@ export const getScoreMessage = (score: number[]) => {
   }
   switch (correctGuesses) {
     case 1:
-      return 'Oof, tough one!';
     case 2:
-      return 'Way to go!';
     case 3:
-      return 'Nice one!';
+      return 'Better luck next time!';
     case 4:
-      return 'Good job!';
+      return 'Oof, close!';
     case 5:
       return 'Amazing!';
   }
