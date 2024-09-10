@@ -2912,5 +2912,48 @@
         {"text": ["Scandinavian Airlines System (SAS)"], "stat": "$4.10 billion"}
     ],
     "url": "https://companiesmarketcap.com/airlines/largest-airlines-by-revenue/"
+  },
+  "2024-09-11": {
+    "num": 200,
+    "category": "Production companies with the most movies released",
+    "answers": [
+        {"text": ["Universal Pictures"], "stat": "331"},
+        {"text": ["Warner Bros."], "stat": "324"},
+        {"text": ["Columbia Pictures"], "stat": "300"},
+        {"text": ["Paramount Pictures"], "stat": "259"},
+        {"text": ["Lionsgate"], "stat": "251"}
+    ],
+    "options": [
+        {"text": ["Canal Plus"], "stat": "236"},
+        {"text": ["BBC Films"], "stat": "179"},
+        {"text": ["Walt Disney Pictures"], "stat": "172"},
+        {"text": ["Netflix"], "stat": "167"},
+        {"text": ["The Hallmark Channel"], "stat": "166"},
+        {"text": ["Regency Enterprises"], "stat": "151"},
+        {"text": ["New Line Cinema"], "stat": "149"},
+        {"text": ["Metro-Goldwyn-Mayer Pictures"], "stat": "145"},
+        {"text": ["Blumhouse"], "stat": "140"},
+        {"text": ["BFI"], "stat": "138"},
+        {"text": ["StudioCanal"], "stat": "135"},
+        {"text": ["Cine Plus"], "stat": "127"},
+        {"text": ["Relativity Media"], "stat": "118"},
+        {"text": ["Telefilm Canada"], "stat": "118"},
+        {"text": ["20th Century Fox"], "stat": "116"},
+        {"text": ["Magnolia Pictures"], "stat": "108"},
+        {"text": ["Participant Media"], "stat": "107"},
+        {"text": ["Working Title Films"], "stat": "106"},
+        {"text": ["Focus Features"], "stat": "106"},
+        {"text": ["France 2 Cinema"], "stat": "106"},
+        {"text": ["Vertical Entertainment"], "stat": "104"},
+        {"text": ["Ingenious Media"], "stat": "92"},
+        {"text": ["Samuel Goldwyn Films"], "stat": "91"},
+        {"text": ["XYZ Films"], "stat": "91"},
+        {"text": ["Village Roadshow Productions"], "stat": "88"},
+        {"text": ["Arte"], "stat": "88"},
+        {"text": ["DreamWorks Pictures"], "stat": "87"},
+        {"text": ["A24"], "stat": "87"},
+        {"text": ["Amazon Studios"], "stat": "87"}
+    ],
+    "url": "https://www.the-numbers.com/movies/production-companies/#production_companies_overview=od1"
   }
 }
