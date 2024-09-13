@@ -2998,6 +2998,45 @@
   },
   "2024-09-13": {
     "num": 202,
+    "category": "Top coffee-drinking countries by average daily cups per capita",
+    "answers": [
+      {"text": ["Luxembourg"], "stat": "5.31 cups per day"},
+      {"text": ["Finland"], "stat": "3.77 cups per day"},
+      {"text": ["Sweden"], "stat": "2.59 cups per day"},
+      {"text": ["Norway"], "stat": "2.57 cups per day"},
+      {"text": ["Denmark"], "stat": "2.04 cups per day"}
+    ],
+    "options": [
+      {"text": ["Austria"], "stat": "2.03 cups per day"},
+      {"text": ["Switzerland"], "stat": "1.87 cups per day"},
+      {"text": ["Netherlands"], "stat": "1.79 cups per day"},
+      {"text": ["Greece"], "stat": "1.71 cups per day"},
+      {"text": ["Germany"], "stat": "1.61 cups per day"},
+      {"text": ["Lebanon"], "stat": "1.60 cups per day"},
+      {"text": ["Brazil"], "stat": "1.58 cups per day"},
+      {"text": ["Canada"], "stat": "1.57 cups per day"},
+      {"text": ["Belgium"], "stat": "1.57 cups per day"},
+      {"text": ["France"], "stat": "1.48 cups per day"},
+      {"text": ["Slovenia"], "stat": "1.49 cups per day"},
+      {"text": ["Croatia"], "stat": "1.47 cups per day"},
+      {"text": ["Italy"], "stat": "1.44 cups per day"},
+      {"text": ["Estonia"], "stat": "1.44 cups per day"},
+      {"text": ["Lithuania"], "stat": "1.43 cups per day"},
+      {"text": ["Cyprus"], "stat": "1.42 cups per day"},
+      {"text": ["Portugal"], "stat": "1.41 cups per day"},
+      {"text": ["Czech Republic"], "stat": "1.25 cups per day"},
+      {"text": ["USA"], "stat": "1.22 cups per day"},
+      {"text": ["Australia"], "stat": "1.14 cups per day"},
+      {"text": ["Ireland"], "stat": "1.13 cups per day"},
+      {"text": ["Spain"], "stat": "1.06 cups per day"},
+      {"text": ["Costa Rica"], "stat": "1.05 cups per day"},
+      {"text": ["Poland"], "stat": "0.95 cups per day"},
+      {"text": ["Japan"], "stat": "0.93 cups per day"}
+    ],
+    "url": "https://cafely.com/blogs/research/which-country-consumes-the-most-coffee#full-data"
+  },
+  "2024-09-14": {
+    "num": 203,
     "category": "Largest countries by area in the Americas",
     "answers": [
         {"text": ["Canada"], "stat": "9,984,670 km²"},
