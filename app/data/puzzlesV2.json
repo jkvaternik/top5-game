@@ -3034,5 +3034,24 @@
       {"text": ["Japan"], "stat": "0.93 cups per day"}
     ],
     "url": "https://cafely.com/blogs/research/which-country-consumes-the-most-coffee#full-data"
+  },
+  "2024-09-14": {
+    "num": 203,
+    "category": "Highest grossing Quentin Tarantino Movies by Worldwide Box Office",
+    "answers": [
+      {"text": ["Django Unchained"], "stat": "$449,841,566"},
+      {"text": ["Once Upon a Time In Hollywood"], "stat": "$377,426,903"},
+      {"text": ["Inglourious Basterds"], "stat": "$316,802,281"},
+      {"text": ["Pulp Fiction"], "stat": "$212,891,760"},
+      {"text": ["Kill Bill Vol. 1"], "stat": "$176,469,428"}
+    ],
+    "options": [
+      {"text": ["Kill Bill Vol. 2"], "stat": "$153,535,982"},
+      {"text": ["The Hateful Eight"], "stat": "$151,813,358"},
+      {"text": ["Jackie Brown"], "stat": "$74,727,492"},
+      {"text": ["Death Proof"], "stat": "$31,126,421"},
+      {"text": ["Reservoir Dogs"], "stat": "$2,990,680"}
+    ],
+    "url": "https://collider.com/every-quentin-tarantino-movie-ranked-by-box-office/"
   }
 }
