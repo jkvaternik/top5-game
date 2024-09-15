@@ -3086,5 +3086,36 @@
       {"text": ["Reservoir Dogs"], "stat": "$2,990,680"}
     ],
     "url": "https://collider.com/every-quentin-tarantino-movie-ranked-by-box-office/"
+  },
+  "2024-09-16": {
+    "num": 205,
+    "category": "Most Produced Shakespeare Plays (Since 2012)",
+    "answers": [
+      {"text": ["A Midsummer Night's Dream"], "stat": "188 productions"},
+      {"text": ["Hamlet"], "stat": "147 productions"},
+      {"text": ["Romeo and Juliet"], "stat": "146 productions"},
+      {"text": ["Macbeth"], "stat": "142 productions"},
+      {"text": ["Twelfth Night"], "stat": "136 productions"}
+    ],
+    "options": [
+      {"text": ["Much Ado About Nothing"], "stat": "130 productions"},
+      {"text": ["As You Like It"], "stat": "127 productions"},
+      {"text": ["The Tempest"], "stat": "113 productions"},
+      {"text": ["The Comedy of Errors"], "stat": "100 productions"},
+      {"text": ["Julius Caesar"], "stat": "98 productions"},
+      {"text": ["The Taming of the Shrew"], "stat": "95 productions"},
+      {"text": ["King Lear"], "stat": "80 productions"},
+      {"text": ["Othello", "The Merry Wives of Windsor"], "stat": "78 productions"},
+      {"text": ["The Winter's Tale", "Richard III"], "stat": "74 productions"},
+      {"text": ["Love's Labour's Lost"], "stat": "65 productions"},
+      {"text": ["Henry V"], "stat": "61 productions"},
+      {"text": ["Measure for Measure"], "stat": "59 productions"},
+      {"text": ["The Merchant of Venice"], "stat": "56 productions"},
+      {"text": ["The Two Gentlemen of Verona"], "stat": "53 productions"},
+      {"text": ["Antony and Cleopatra", "Pericles, Prince of Tyre"], "stat": "45 productions"},
+      {"text": ["Henry IV, Part One"], "stat": "44 productions"},
+      {"text": ["Titus Andronicus"], "stat": "43 productions"}
+    ],
+    "url": "https://www.shakespeareances.com/wherewill/Play_Popularity_Index.html"
   }
 }
