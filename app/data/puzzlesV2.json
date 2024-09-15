@@ -3037,6 +3037,39 @@
   },
   "2024-09-14": {
     "num": 203,
+    "category": "Largest countries by area in the Americas",
+    "answers": [
+        {"text": ["Canada"], "stat": "9,984,670 km²"},
+        {"text": ["United States of America"], "stat": "9,629,091 km²"},
+        {"text": ["Brazil"], "stat": "8,514,877 km²"},
+        {"text": ["Argentina"], "stat": "2,766,890 km²"},
+        {"text": ["Greenland (Denmark)"], "stat": "2,166,086 km²"}
+    ],
+    "options": [
+        {"text": ["Mexico"], "stat": "1,964,375 km²"},
+        {"text": ["Peru"], "stat": "1,285,220 km²"},
+        {"text": ["Colombia"], "stat": "1,138,910 km²"},
+        {"text": ["Bolivia"], "stat": "1,098,580 km²"},
+        {"text": ["Venezuela"], "stat": "916,445 km²"},
+        {"text": ["Chile"], "stat": "756,950 km²"},
+        {"text": ["Paraguay"], "stat": "406,750 km²"},
+        {"text": ["Ecuador"], "stat": "283,560 km²"},
+        {"text": ["Guyana"], "stat": "214,999 km²"},
+        {"text": ["Uruguay"], "stat": "176,220 km²"},
+        {"text": ["Suriname"], "stat": "163,270 km²"},
+        {"text": ["Nicaragua"], "stat": "130,373 km²"},
+        {"text": ["Honduras"], "stat": "112,492 km²"},
+        {"text": ["Cuba"], "stat": "109,886 km²"},
+        {"text": ["Guatemala"], "stat": "108,889 km²"},
+        {"text": ["Panama"], "stat": "75,417 km²"},
+        {"text": ["Costa Rica"], "stat": "51,100 km²"},
+        {"text": ["Dominican Republic"], "stat": "48,671 km²"},
+        {"text": ["Haiti"], "stat": "27,750 km²"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Americas#Countries_and_territories"
+  },
+  "2024-09-15": {
+    "num": 204,
     "category": "Highest grossing Quentin Tarantino Movies by Worldwide Box Office",
     "answers": [
       {"text": ["Django Unchained"], "stat": "$449,841,566"},
