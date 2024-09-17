@@ -3151,5 +3151,75 @@
       {"text": ["Charlotte's Web"], "stat": "50 million copies"}
     ],
     "url": "https://jamesclear.com/best-books/best-selling"
+  },
+  "2024-09-18": {
+    "num": 207,
+    "category": "Most Popular Computer Brands in the US (by %)",
+    "answers": [
+        {"text": ["HP"], "stat": "32%"},
+        {"text": ["Apple"], "stat": "28%"},
+        {"text": ["Dell"], "stat": "24%"},
+        {"text": ["Acer"], "stat": "14%"},
+        {"text": ["Lenovo"], "stat": "12%"}
+    ],
+    "options": [
+        {"text": ["Samsung"], "stat": "12%"},
+        {"text": ["Microsoft"], "stat": "10%"},
+        {"text": ["ASUS"], "stat": "9%"},
+        {"text": ["Toshiba"], "stat": "5%"},
+        {"text": ["Alienware"], "stat": "4%"},
+        {"text": ["DigitalStorm"], "stat": "2%"},
+        {"text": ["Falcon Northwest"], "stat": "2%"},
+        {"text": ["Huawei"], "stat": "2%"},
+        {"text": ["MSI"], "stat": "2%"},
+        {"text": ["Vaio"], "stat": "1%"}
+    ],
+    "url": "https://www.visualcapitalist.com/what-laptop-brands-do-americans-use-in-2024/"
+  },
+  "2024-09-19": {
+    "num": 208,
+    "category": "U.S. states with the most Fortune 500 company HQs",
+    "answers": [
+        {"text": ["California"], "stat": "57"},
+        {"text": ["New York"], "stat": "52"},
+        {"text": ["Texas"], "stat": "52"},
+        {"text": ["Illinois"], "stat": "32"},
+        {"text": ["Ohio"], "stat": "27"}
+    ],
+    "options": [
+        {"text": ["Virginia"], "stat": "24"},
+        {"text": ["Florida"], "stat": "22"},
+        {"text": ["Pennsylvania"], "stat": "20"},
+        {"text": ["Georgia"], "stat": "18"},
+        {"text": ["Minnesota"], "stat": "17"},
+        {"text": ["Massachusetts"], "stat": "16"},
+        {"text": ["Michigan"], "stat": "16"},
+        {"text": ["Connecticut"], "stat": "15"},
+        {"text": ["New Jersey"], "stat": "14"},
+        {"text": ["North Carolina"], "stat": "12"},
+        {"text": ["Washington"], "stat": "12"},
+        {"text": ["Arizona"], "stat": "10"},
+        {"text": ["Tennessee"], "stat": "10"},
+        {"text": ["Colorado"], "stat": "9"},
+        {"text": ["Indiana"], "stat": "8"},
+        {"text": ["Wisconsin"], "stat": "8"},
+        {"text": ["Missouri"], "stat": "7"},
+        {"text": ["Oklahoma"], "stat": "6"},
+        {"text": ["Rhode Island"], "stat": "5"},
+        {"text": ["Arkansas"], "stat": "4"},
+        {"text": ["Nebraska"], "stat": "4"},
+        {"text": ["District Of Columbia"], "stat": "3"},
+        {"text": ["Maryland"], "stat": "3"},
+        {"text": ["Nevada"], "stat": "3"},
+        {"text": ["Alabama"], "stat": "2"},
+        {"text": ["Idaho"], "stat": "2"},
+        {"text": ["Iowa"], "stat": "2"},
+        {"text": ["Kentucky"], "stat": "2"},
+        {"text": ["Louisiana"], "stat": "2"},
+        {"text": ["Oregon"], "stat": "2"},
+        {"text": ["Delaware"], "stat": "1"},
+        {"text": ["Kansas"], "stat": "1"}
+    ],
+    "url": "https://www.visualcapitalist.com/map-the-number-of-fortune-500-companies-in-each-u-s-state/"
   }
 }
