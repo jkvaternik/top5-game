@@ -3117,5 +3117,39 @@
       {"text": ["Titus Andronicus"], "stat": "43 productions"}
     ],
     "url": "https://www.shakespeareances.com/wherewill/Play_Popularity_Index.html"
+  },
+  "2024-09-17": {
+    "num": 206,
+    "category": "Best selling novels",
+    "answers": [
+      {"text": ["Don Quixote"], "stat": "500 million copies"},
+      {"text": ["A Tale of Two Cities"], "stat": "200 million copies"},
+      {"text": ["The Lord of the Rings"], "stat": "150 million copies"},
+      {"text": ["The Little Prince"], "stat": "142 million copies"},
+      {"text": ["Harry Potter and the Philosopher's Stone"], "stat": "107 million copies"}
+    ],
+    "options": [
+      {"text": ["And Then There Were None"], "stat": "100 million copies"},
+      {"text": ["Dream of the Red Chamber"], "stat": "100 million copies"},
+      {"text": ["The Hobbit"], "stat": "100 million copies"},
+      {"text": ["She: A History of Adventure"], "stat": "100 million copies"},
+      {"text": ["The Lion, the Witch and the Wardrobe"], "stat": "85 million copies"},
+      {"text": ["The Da Vinci Code"], "stat": "80 million copies"},
+      {"text": ["Think and Grow Rich"], "stat": "70 million copies"},
+      {"text": ["Harry Potter and the Half-Blood Prince"], "stat": "65 million copies"},
+      {"text": ["The Catcher in the Rye"], "stat": "65 million copies"},
+      {"text": ["The Alchemist"], "stat": "65 million copies"},
+      {"text": ["Harry Potter and the Chamber of Secrets"], "stat": "60 million copies"},
+      {"text": ["Harry Potter and the Prisoner of Azkaban"], "stat": "55 million copies"},
+      {"text": ["Harry Potter and the Goblet of Fire"], "stat": "55 million copies"},
+      {"text": ["Harry Potter and the Order of the Phoenix"], "stat": "55 million copies"},
+      {"text": ["Harry Potter and the Deathly Hallows"], "stat": "50 million copies"},
+      {"text": ["One Hundred Years of Solitude"], "stat": "50 million copies"},
+      {"text": ["Lolita"], "stat": "50 million copies"},
+      {"text": ["Anne of Green Gables"], "stat": "50 million copies"},
+      {"text": ["Black Beauty"], "stat": "50 million copies"},
+      {"text": ["Charlotte's Web"], "stat": "50 million copies"}
+    ],
+    "url": "https://jamesclear.com/best-books/best-selling"
   }
 }
