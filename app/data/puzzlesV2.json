@@ -3181,13 +3181,12 @@
     "category": "U.S. states with the most Fortune 500 company HQs",
     "answers": [
         {"text": ["California"], "stat": "57"},
-        {"text": ["New York"], "stat": "52"},
-        {"text": ["Texas"], "stat": "52"},
+        {"text": ["New York", "Texas"], "stat": "52"},
         {"text": ["Illinois"], "stat": "32"},
-        {"text": ["Ohio"], "stat": "27"}
+        {"text": ["Ohio"], "stat": "27"},
+        {"text": ["Virginia"], "stat": "24"}
     ],
     "options": [
-        {"text": ["Virginia"], "stat": "24"},
         {"text": ["Florida"], "stat": "22"},
         {"text": ["Pennsylvania"], "stat": "20"},
         {"text": ["Georgia"], "stat": "18"},
