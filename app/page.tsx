@@ -14,18 +14,31 @@ export default function Home() {
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
 
 
+  const searchParams = useSearchParams()
+  const isArchiveMode = searchParams.has('date')
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
     const newUser = isNewVisitor();
     const isArchiveMode = window.location.href.includes('date')
 
+<<<<<<< Updated upstream
+=======
+    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
+    if (!newUser && visitedSinceAnnouncement == null) {
+      setShowAnnouncementModal(true);
+      localStorage.setItem('visitedSinceAnnouncement', 'true');
+    }
+
+
+>>>>>>> Stashed changes
     if (newUser && !isArchiveMode) {
       setShowInstructionsModal(true);
     }
 
     localStorage.setItem('lastVisit', JSON.stringify(new Date().toLocaleString()));
-  }, []);
+  }, [isArchiveMode]);
 
   return (
     <main style={{ margin: '4vh auto' }} className="w-10/12 sm:w-8/12 md:w-1/2">

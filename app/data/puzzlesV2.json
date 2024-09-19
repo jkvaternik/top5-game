@@ -3220,5 +3220,38 @@
         {"text": ["Kansas"], "stat": "1"}
     ],
     "url": "https://www.visualcapitalist.com/map-the-number-of-fortune-500-companies-in-each-u-s-state/"
+  },
+  "2024-09-20": {
+    "num": 209,
+    "category": "Simpsons characters by number of lines",
+    "answers": [
+      {"text": ["Homer Simpson"], "stat": "29,842 lines"},
+      {"text": ["Marge Simpson"], "stat": "14,159 lines"},
+      {"text": ["Bart Simpson"], "stat": "13,777 lines"},
+      {"text": ["Lisa Simpson"], "stat": "11,502 lines"},
+      {"text": ["C. Montgomery Burns"], "stat": "3,172 lines"}
+    ],
+    "options": [
+      {"text": ["Moe Szyslak"], "stat": "2,864 lines"},
+      {"text": ["Seymour Skinner"], "stat": "2,443 lines"},
+      {"text": ["Ned Flanders"], "stat": "2,145 lines"},
+      {"text": ["Grampa Simpson"], "stat": "1,886 lines"},
+      {"text": ["Milhouse Van Houten"], "stat": "1,862 lines"},
+      {"text": ["Chief Wiggum"], "stat": "1,836 lines"},
+      {"text": ["Krusty the Clown"], "stat": "1,772 lines"},
+      {"text": ["Nelson Muntz"], "stat": "1,174 lines"},
+      {"text": ["Lenny Leonard"], "stat": "1,166 lines"},
+      {"text": ["Apu Nahasapeemapetilon"], "stat": "1,006 lines"},
+      {"text": ["Waylon Smithers"], "stat": "1,004 lines"},
+      {"text": ["Kent Brockman"], "stat": "894 lines"},
+      {"text": ["Carl Carlson"], "stat": "883 lines"},
+      {"text": ["Edna Krabappel-Flanders"], "stat": "745 lines"},
+      {"text": ["Dr. Julius Hibbert"], "stat": "693 lines"},
+      {"text": ["Selma Bouvier"], "stat": "612 lines"},
+      {"text": ["Barney Gumble"], "stat": "612 lines"},
+      {"text": ["Sideshow Bob"], "stat": "576 lines"},
+      {"text": ["Rev. Timothy Lovejoy"], "stat": "562 lines"}
+    ],
+    "url": "https://www.reddit.com/r/dataisbeautiful/comments/hv2e4f/simpsons_characters_by_number_of_lines_oc/"
   }
 }
