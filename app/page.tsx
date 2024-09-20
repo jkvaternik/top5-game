@@ -23,16 +23,6 @@ export default function Home() {
     const newUser = isNewVisitor();
     const isArchiveMode = window.location.href.includes('date')
 
-<<<<<<< Updated upstream
-=======
-    const visitedSinceAnnouncement = localStorage.getItem('visitedSinceAnnouncement');
-    if (!newUser && visitedSinceAnnouncement == null) {
-      setShowAnnouncementModal(true);
-      localStorage.setItem('visitedSinceAnnouncement', 'true');
-    }
-
-
->>>>>>> Stashed changes
     if (newUser && !isArchiveMode) {
       setShowInstructionsModal(true);
     }
