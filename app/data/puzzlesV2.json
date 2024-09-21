@@ -3253,5 +3253,81 @@
       {"text": ["Rev. Timothy Lovejoy"], "stat": "562 lines"}
     ],
     "url": "https://www.reddit.com/r/dataisbeautiful/comments/hv2e4f/simpsons_characters_by_number_of_lines_oc/"
+  },
+  "2024-09-21": {
+    "num": 210,
+    "category": "Most populous countries in Africa",
+    "answers": [
+        {"text": ["Nigeria"], "stat": "206,139,589"},
+        {"text": ["Ethiopia"], "stat": "114,963,588"},
+        {"text": ["Egypt"], "stat": "104,258,327"},
+        {"text": ["Democratic Republic of the Congo"], "stat": "101,780,263"},
+        {"text": ["Tanzania"], "stat": "61,498,437"}
+    ],
+    "options": [
+        {"text": ["South Africa"], "stat": "64,007,187"},
+        {"text": ["Kenya"], "stat": "56,432,944"},
+        {"text": ["Sudan"], "stat": "50,448,963"},
+        {"text": ["Uganda"], "stat": "50,015,092"},
+        {"text": ["Algeria"], "stat": "46,814,308"},
+        {"text": ["Morocco"], "stat": "38,081,173"},
+        {"text": ["Angola"], "stat": "37,885,849"},
+        {"text": ["Mozambique"], "stat": "34,631,766"},
+        {"text": ["Ghana"], "stat": "34,427,414"},
+        {"text": ["Madagascar"], "stat": "31,964,956"},
+        {"text": ["Côte d'Ivoire"], "stat": "31,934,230"},
+        {"text": ["Cameroon"], "stat": "29,123,744"},
+        {"text": ["Niger"], "stat": "27,032,412"},
+        {"text": ["Mali"], "stat": "24,478,595"},
+        {"text": ["Burkina Faso"], "stat": "23,548,781"},
+        {"text": ["Malawi"], "stat": "21,655,286"},
+        {"text": ["Zambia"], "stat": "21,314,956"},
+        {"text": ["Chad"], "stat": "20,299,123"},
+        {"text": ["Somalia"], "stat": "19,009,151"},
+        {"text": ["Senegal"], "stat": "18,501,984"},
+        {"text": ["Zimbabwe"], "stat": "16,634,373"},
+        {"text": ["Guinea"], "stat": "14,754,785"},
+        {"text": ["Benin"], "stat": "14,462,724"},
+        {"text": ["Rwanda"], "stat": "14,256,567"}
+    ],
+    "url": "https://www.worldometers.info/population/countries-in-africa-by-population/"
+  },
+  "2024-09-22": {
+    "num": 211,
+    "category": "Best selling media franchises",
+    "answers": [
+        {"text": ["Pokémon"], "stat": "$98.8 billion"},
+        {"text": ["Mickey Mouse & Friends"], "stat": "$61.2 billion"},
+        {"text": ["Winnie the Pooh"], "stat": "$48.5 billion"},
+        {"text": ["Star Wars"], "stat": "$46.7 billion"},
+        {"text": ["Disney Princess"], "stat": "$45.4 billion"}
+    ],
+    "options": [
+        {"text": ["Anpanman"], "stat": "$38.4 billion"},
+        {"text": ["Wizarding World (Harry Potter)"], "stat": "$34.6 billion"},
+        {"text": ["Barbie"], "stat": "$33.9 billion"},
+        {"text": ["Marvel Cinematic Universe (MCU)"], "stat": "$32.9 billion"},
+        {"text": ["Call of Duty"], "stat": "$31 billion"},
+        {"text": ["Batman"], "stat": "$29.6 billion"},
+        {"text": ["Hello Kitty"], "stat": "$29.3 billion"},
+        {"text": ["Spider-Man"], "stat": "$25.5 billion"},
+        {"text": ["Transformers"], "stat": "$25 billion"},
+        {"text": ["Dungeon Fighter Online (DFO)"], "stat": "$22 billion"},
+        {"text": ["Cars"], "stat": "$21.5 billion"},
+        {"text": ["Candy Crush"], "stat": "$20 billion"},
+        {"text": ["Looney Tunes"], "stat": "$17.4 billion"},
+        {"text": ["Teenage Mutant Ninja Turtles"], "stat": "$17.4 billion"},
+        {"text": ["Dora the Explorer"], "stat": "$15.8 billion"},
+        {"text": ["Pac-Man"], "stat": "$15.4 billion"},
+        {"text": ["The Lion King"], "stat": "$15.2 billion"},
+        {"text": ["Toy Story"], "stat": "$14.8 billion"},
+        {"text": ["Peanuts"], "stat": "$14.4 billion"},
+        {"text": ["PAW Patrol"], "stat": "$14.4 billion"},
+        {"text": ["Avengers"], "stat": "$14.3 billion"},
+        {"text": ["Frozen"], "stat": "$13.9 billion"},
+        {"text": ["Space Invaders"], "stat": "$13.9 billion"},
+        {"text": ["SpongeBob SquarePants"], "stat": "$13.7 billion"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
   }
 }
