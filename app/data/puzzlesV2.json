@@ -3258,11 +3258,11 @@
     "num": 210,
     "category": "Most populous countries in Africa",
     "answers": [
-        {"text": ["Nigeria"], "stat": "206,139,589"},
-        {"text": ["Ethiopia"], "stat": "114,963,588"},
-        {"text": ["Egypt"], "stat": "104,258,327"},
-        {"text": ["Democratic Republic of the Congo"], "stat": "101,780,263"},
-        {"text": ["Tanzania"], "stat": "61,498,437"}
+        {"text": ["Nigeria"], "stat": "232,679,478"},
+        {"text": ["Ethiopia"], "stat": "132,059,767"},
+        {"text": ["Egypt"], "stat": "116,538,258"},
+        {"text": ["Democratic Republic of the Congo"], "stat": "109,276,265"},
+        {"text": ["Tanzania"], "stat": "68,560,157"}
     ],
     "options": [
         {"text": ["South Africa"], "stat": "64,007,187"},
