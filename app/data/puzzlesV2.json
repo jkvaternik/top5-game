@@ -3312,5 +3312,33 @@
       {"text": ["Following"], "stat": "$240,495"}
     ],
     "url": "https://movieweb.com/christopher-nolan-movies-ranked-by-box-office-performance/"
+  },
+  "2024-09-23": {
+    "num": 212,
+    "category": "Largest pizza chains by number of locations",
+    "answers": [
+      {"text": ["Domino's"], "stat": "19,519 locations"},
+      {"text": ["Pizza Hut"], "stat": "18,807 locations"},
+      {"text": ["Hunt Brothers Pizza"], "stat": "8,000 locations"},
+      {"text": ["Papa John's"], "stat": "5,589 locations"},
+      {"text": ["Little Caesars"], "stat": "5,403 locations"}
+    ],
+    "options": [
+      {"text": ["Telepizza"], "stat": "1,440 locations"},
+      {"text": ["Papa Murphy's"], "stat": "1,301 locations"},
+      {"text": ["Marco's Pizza"], "stat": "1,100 locations"},
+      {"text": ["Dodo Pizza"], "stat": "893 locations"},
+      {"text": ["Sbarro"], "stat": "630 locations"},
+      {"text": ["Pizza Pizza"], "stat": "624 locations"},
+      {"text": ["Chuck E. Cheese", "Godfather's Pizza"], "stat": "600+ locations"},
+      {"text": ["Hungry Howie's Pizza"], "stat": "530 locations"},
+      {"text": ["MOD Pizza"], "stat": "520 locations"},
+      {"text": ["Round Table Pizza"], "stat": "410 locations"},
+      {"text": ["Jet's Pizza"], "stat": "400 locations"},
+      {"text": ["Boston Pizza"], "stat": "377 locations"},
+      {"text": ["Blaze Pizza"], "stat": "342 locations"},
+      {"text": ["Cici's Pizza"], "stat": "300+ locations"}
+    ],
+    "url": "https://finance.yahoo.com/news/25-largest-pizza-chains-world-205948170.html"
   }
 }
