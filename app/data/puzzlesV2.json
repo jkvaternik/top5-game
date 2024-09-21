@@ -3340,5 +3340,26 @@
       {"text": ["Cici's Pizza"], "stat": "300+ locations"}
     ],
     "url": "https://finance.yahoo.com/news/25-largest-pizza-chains-world-205948170.html"
+  },
+  "2024-09-24": {
+    "num": 213,
+    "category": "Most common birth month in the US (by 2023 births)",
+    "answers": [
+      {"text": ["August"], "stat": "322,359 births"},
+      {"text": ["July"], "stat": "311,595 births"},
+      {"text": ["October"], "stat": "309,117 births"},
+      {"text": ["September"], "stat": "305,511 births"},
+      {"text": ["June"], "stat": "303,321 births"}
+    ],
+    "options": [
+      {"text": ["May"], "stat": "299,543 births"},
+      {"text": ["January"], "stat": "299,465 births"},
+      {"text": ["March"], "stat": "299,356 births"},
+      {"text": ["November"], "stat": "298,039 births"},
+      {"text": ["December"], "stat": "298,039 births"},
+      {"text": ["April"], "stat": "278,629 births"},
+      {"text": ["February"], "stat": "270,844 births"}
+    ],
+    "url": "https://www.babycenter.com/family/birthdays/most-common-birthday-month_41002206"
   }
 }
