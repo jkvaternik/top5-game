@@ -22,6 +22,63 @@ function isSortedAlphabetically(arr, optionsKey) {
   return true;
 }
 
+const statParser = (stat) => {
+  // Example 1: "1.2 million" -> 1200000
+  // Example 2: "1,200" -> 1200
+  // Example 3: "1,200.50" -> 1200.5
+  // Example 4: "5.6 billion" -> 5600000000
+  const regex = /[-+]?[0-9]*\.?[0-9]+/g;
+  const cleanedStat = stat.replace(/,/g, '');
+  const matches = cleanedStat.match(regex);
+  
+  if (!matches) return NaN;
+  
+  const parsedNumber = parseFloat(matches[0]);
+  
+  if (cleanedStat.toLowerCase().includes('billion')) {
+    return parsedNumber * 1e9;
+  } else if (cleanedStat.toLowerCase().includes('million')) {
+    return parsedNumber * 1e6;
+  }
+  
+  return parsedNumber;
+}
+
+
+const skipStatValidationForThesePuzzles = [
+  193 // Dates
+] 
+
+function validateStatsAreInOrder(puzzle) {
+  if (skipStatValidationForThesePuzzles.includes(puzzle.num)) {
+    return
+  }
+  const answerStats = puzzle.answers.map(answer => statParser(answer.stat));
+  const optionStats = puzzle.options.map(option => statParser(option.stat));
+  const allStats = [...answerStats, ...optionStats];
+
+  const validateHighestFirst = allStats[0] > allStats[1]
+
+  // Ensure that all stats are in order,
+  // If any stat is not in order, return the puzzle number
+  // We are flexible about whether sorting is descending or ascending (since that depends on the puzzle)
+  // but they must be in order
+
+  if (validateHighestFirst) {
+    for (let i = 0; i < allStats.length - 1; i++) {
+      if (allStats[i] < allStats[i + 1]) {
+        return `Puzzle ${puzzle.num} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+      }
+    }
+  } else {
+    for (let i = 0; i < allStats.length - 1; i++) {
+      if (allStats[i] > allStats[i + 1]) {
+        return `Puzzle ${puzzle.num} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+      }
+    }
+  }
+}
+
 function validatePuzzles() {
   // Load and parse JSON files
   const puzzles = JSON.parse(fs.readFileSync('app/data/puzzlesV2.json', 'utf8'));
@@ -57,15 +114,30 @@ function validatePuzzles() {
     }
 
     if (isNewOptionsFormat) {
-      for (const answer of puzzle.answers) {
-        for (const option of puzzle.options) {
-          // Check if both text and stat match
-          const textMatch = answer.text.every((text, index) => text === option.text[index]);
+      // Create a set of all the text values in the answers list
+      const answerTextSet = new Set();
+      puzzle.answers.forEach(answer => {
+        answer.text.forEach(text => answerTextSet.add(text));
+      });
 
-          if (textMatch) {
-            return `Answer "${answer.text.join(', ')}" with stat "${answer.stat}" is incorrectly duplicated in options for puzzle: ${puzzle.num}`;
-          }
+      for (const option of puzzle.options) {
+        // Check if text matches
+        const textMatch = answerTextSet.has(option.text);
+        if (textMatch) {
+          return `Answer "${option.text}" with stat "${option.stat}" is incorrectly duplicated in options for puzzle: ${puzzle.num}`;
         }
+      }
+
+      // Verify options are all sorted by stat
+      // However, stat is often not a number, so we need to convert it to a number
+      // Do this by removing non-numeric characters (except for '.') and then checking for "billion" or "million"
+      // Example 1: "1.2 million" -> "1.2"
+      // Example 2: "1,200" -> "1200"
+      // Example 3: "1,200.50" -> "1200.5"
+
+      const error = validateStatsAreInOrder(puzzle)
+      if (error) {
+        return error
       }
     } else {
       for (const answer of puzzle.answers) {

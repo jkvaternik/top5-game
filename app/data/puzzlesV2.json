@@ -2989,9 +2989,9 @@
         {"text": ["Nanda Devi"], "stat": "7,816 m / 25,643 ft"},
         {"text": ["Chomo Lonzo"], "stat": "7,804 m / 25,604 ft"},
         {"text": ["Batura Sar"], "stat": "7,795 m / 25,574 ft"},
-        {"text": ["Kanjut Sar"], "stat": "7,760 m / 25,459 ft"},
         {"text": ["Rakaposhi"], "stat": "7,788 m / 25,551 ft"},
         {"text": ["Namcha Barwa"], "stat": "7,782 m / 25,531 ft"},
+        {"text": ["Kanjut Sar"], "stat": "7,760 m / 25,459 ft"},
         {"text": ["Kamet"], "stat": "7,756 m / 25,446 ft"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth#List_of_world's_highest_peaks"
@@ -3016,8 +3016,8 @@
       {"text": ["Brazil"], "stat": "1.58 cups per day"},
       {"text": ["Canada"], "stat": "1.57 cups per day"},
       {"text": ["Belgium"], "stat": "1.57 cups per day"},
-      {"text": ["France"], "stat": "1.48 cups per day"},
       {"text": ["Slovenia"], "stat": "1.49 cups per day"},
+      {"text": ["France"], "stat": "1.48 cups per day"},
       {"text": ["Croatia"], "stat": "1.47 cups per day"},
       {"text": ["Italy"], "stat": "1.44 cups per day"},
       {"text": ["Estonia"], "stat": "1.44 cups per day"},
@@ -3306,8 +3306,8 @@
       {"text": ["Dunkirk"], "stat": "$527 million"},
       {"text": ["Batman Begins"], "stat": "$373.7 million"},
       {"text": ["Tenet"], "stat": "$365.2 million"},
-      {"text": ["The Prestige"], "stat": "$109.7 million"},
       {"text": ["Insomnia"], "stat": "$113.7 million"},
+      {"text": ["The Prestige"], "stat": "$109.7 million"},
       {"text": ["Memento"], "stat": "$40.1 million"},
       {"text": ["Following"], "stat": "$240,495"}
     ],
