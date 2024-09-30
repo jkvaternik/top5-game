@@ -3598,5 +3598,44 @@
       {"text": ["Macao (China)"], "stat": "115 km² (< 0.1%)"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Asian_countries_by_area"
+  },
+  "2024-10-01": {
+    "num": 220,
+    "category": "Largest clothing companies by market cap",
+    "answers": [
+        {"text": ["LVMH"], "stat": "$382,565 million"},
+        {"text": ["Hermès"], "stat": "$256,795 million"},
+        {"text": ["Inditex"], "stat": "$186,209 million"},
+        {"text": ["Nike"], "stat": "$133,413 million"},
+        {"text": ["TJX Companies"], "stat": "$132,153 million"}
+    ],
+    "options": [
+        {"text": ["Dior"], "stat": "$130,150 million"},
+        {"text": ["Fast Retailing"], "stat": "$102,101 million"},
+        {"text": ["Cintas"], "stat": "$82,954 million"},
+        {"text": ["Ross Stores"], "stat": "$49,864 million"},
+        {"text": ["Adidas"], "stat": "$47,190 million"},
+        {"text": ["Kering"], "stat": "$34,957 million"},
+        {"text": ["lululemon athletica"], "stat": "$33,770 million"},
+        {"text": ["H&M"], "stat": "$27,022 million"},
+        {"text": ["Prada"], "stat": "$19,696 million"},
+        {"text": ["Moncler"], "stat": "$17,189 million"},
+        {"text": ["Burlington Stores"], "stat": "$16,769 million"},
+        {"text": ["Next plc"], "stat": "$15,330 million"},
+        {"text": ["Ralph Lauren"], "stat": "$12,045 million"},
+        {"text": ["Tapestry"], "stat": "$10,885 million"},
+        {"text": ["JD Sports Fashion"], "stat": "$10,544 million"},
+        {"text": ["Gap Inc."], "stat": "$9,208 million"},
+        {"text": ["Levi Strauss"], "stat": "$8,662 million"},
+        {"text": ["Zalando"], "stat": "$8,548 million"},
+        {"text": ["VF Corporation"], "stat": "$7,712 million"},
+        {"text": ["Gildan"], "stat": "$7,622 million"},
+        {"text": ["LPP SA"], "stat": "$7,580 million"},
+        {"text": ["Brunello Cucinelli"], "stat": "$7,272 million"},
+        {"text": ["Abercrombie & Fitch"], "stat": "$6,917 million"},
+        {"text": ["Bosideng"], "stat": "$6,314 million"},
+        {"text": ["PUMA"], "stat": "$6,264 million"}
+    ],
+    "url": "https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/"
   }
 }
