@@ -3656,5 +3656,40 @@
       {"text": ["Aryna Sabalenka"], "stat": "$13.7 million"}
     ],
     "url": "https://www.forbes.com/sites/brettknight/2024/08/23/the-worlds-highest-paid-tennis-players-2024/"
+  },
+  "2024-10-03": {
+    "num": 222,
+    "category": "Countries with the highest fertility rates",
+    "answers": [
+        {"text": ["Niger"], "stat": "6.6 births/woman"},
+        {"text": ["Chad", "DR Congo", "Somalia"], "stat": "6.0 births/woman"},
+        {"text": ["Central African Republic", "Mali"], "stat": "5.7 births/woman"},
+        {"text": ["Angola", "Nigeria"], "stat": "5.0 births/woman"},
+        {"text": ["Burundi"], "stat": "4.8 births/woman"}
+    ],
+    "options": [
+        {"text": ["Benin"], "stat": "4.7 births/woman"},
+        {"text": ["Burkina Faso"], "stat": "4.5 births/woman"},
+        {"text": ["Tanzania"], "stat": "4.5 births/woman"},
+        {"text": ["Gambia"], "stat": "4.4 births/woman"},
+        {"text": ["Mozambique"], "stat": "4.4 births/woman"},
+        {"text": ["Afghanistan"], "stat": "4.3 births/woman"},
+        {"text": ["Sudan"], "stat": "4.3 births/woman"},
+        {"text": ["Cameroon"], "stat": "4.2 births/woman"},
+        {"text": ["Ivory Coast"], "stat": "4.2 births/woman"},
+        {"text": ["Mauritania"], "stat": "4.2 births/woman"},
+        {"text": ["Senegal"], "stat": "4.2 births/woman"},
+        {"text": ["Uganda"], "stat": "4.2 births/woman"},
+        {"text": ["Guinea"], "stat": "4.1 births/woman"},
+        {"text": ["South Sudan"], "stat": "4.1 births/woman"},
+        {"text": ["Togo"], "stat": "4.1 births/woman"},
+        {"text": ["Zambia"], "stat": "4.1 births/woman"},
+        {"text": ["Congo"], "stat": "4.0 births/woman"},
+        {"text": ["Equatorial Guinea"], "stat": "4.0 births/woman"},
+        {"text": ["Ethiopia"], "stat": "3.9 births/woman"},
+        {"text": ["Liberia"], "stat": "3.9 births/woman"},
+        {"text": ["Comoros"], "stat": "3.8 births/woman"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_total_fertility_rate#Country_ranking_by_international_organizations"
   }
 }
