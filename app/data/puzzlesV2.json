@@ -3787,5 +3787,39 @@
         {"text": ["Zephyr"], "stat": "0.3%"}
     ],
     "url": "https://www.statista.com/statistics/793628/worldwide-developer-survey-most-used-languages/"
+  },
+  "2024-10-06": {
+    "num": 225,
+    "category": "Electronics companies by market cap",
+    "answers": [
+        {"text": ["Apple"], "stat": "$3,448,289 million"},
+        {"text": ["NVIDIA"], "stat": "$3,064,287 million"},
+        {"text": ["Samsung"], "stat": "$302,791 million"},
+        {"text": ["Advanced Micro Devices"], "stat": "$276,598 million"},
+        {"text": ["Cisco"], "stat": "$210,511 million"}
+    ],
+    "options": [
+        {"text": ["Arista Networks"], "stat": "$124,395 million"},
+        {"text": ["Sony"], "stat": "$115,695 million"},
+        {"text": ["Dell"], "stat": "$84,534 million"},
+        {"text": ["Foxconn (Hon Hai Precision Industry)"], "stat": "$83,250 million"},
+        {"text": ["Tokyo Electron"], "stat": "$79,787 million"},
+        {"text": ["Xiaomi"], "stat": "$78,039 million"},
+        {"text": ["Synopsys"], "stat": "$76,672 million"},
+        {"text": ["Amphenol"], "stat": "$75,148 million"},
+        {"text": ["Cadence Design Systems"], "stat": "$73,562 million"},
+        {"text": ["Nintendo"], "stat": "$60,803 million"},
+        {"text": ["Monolithic Power Systems"], "stat": "$45,613 million"},
+        {"text": ["TE Connectivity"], "stat": "$44,205 million"},
+        {"text": ["Hikvision"], "stat": "$42,487 million"},
+        {"text": ["Delta Electronics (Thailand)"], "stat": "$40,643 million"},
+        {"text": ["Ametek"], "stat": "$39,386 million"},
+        {"text": ["Gree Electric Appliances"], "stat": "$38,473 million"},
+        {"text": ["Murata Manufacturing (Murata Seisakusho)"], "stat": "$35,562 million"},
+        {"text": ["HP"], "stat": "$34,673 million"},
+        {"text": ["Mitsubishi Electric"], "stat": "$33,894 million"},
+        {"text": ["Garmin"], "stat": "$32,682 million"}
+    ],
+    "url": "https://companiesmarketcap.com/electronics/largest-electronic-manufacturing-by-market-cap/"
   }
 }
