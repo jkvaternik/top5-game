@@ -3737,7 +3737,7 @@
     "answers": [
         {"text": ["JavaScript"], "stat": "62.3%"},
         {"text": ["HTML/CSS"], "stat": "52.9%"},
-        {"text": ["Python, SQL"], "stat": "51%"},
+        {"text": ["Python", "SQL"], "stat": "51%"},
         {"text": ["TypeScript"], "stat": "38.5%"},
         {"text": ["Bash/Shell (all shells)"], "stat": "33.9%"}
     ],
