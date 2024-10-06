@@ -3821,5 +3821,29 @@
         {"text": ["Garmin"], "stat": "$32,682 million"}
     ],
     "url": "https://companiesmarketcap.com/electronics/largest-electronic-manufacturing-by-market-cap/"
+  },
+  "2024-10-07": {
+    "num": 226,
+    "category": "Highest-grossing horror movies (adjusted for inflation)",
+    "answers": [
+        {"text": ["The Exorcist"], "stat": "$2,826,528,589"},
+        {"text": ["Jaws"], "stat": "$2,627,088,613"},
+        {"text": ["Jaws 2"], "stat": "$937,667,387"},
+        {"text": ["It"], "stat": "$836,959,323"},
+        {"text": ["Alien"], "stat": "$744,285,705"}
+    ],
+    "options": [
+        {"text": ["The Silence of the Lambs"], "stat": "$592,459,852"},
+        {"text": ["Hannibal"], "stat": "$578,536,924"},
+        {"text": ["It: Chapter Two"], "stat": "$535,226,330"},
+        {"text": ["Bram Stoker's Dracula"], "stat": "$450,274,187"},
+        {"text": ["Interview with the Vampire"], "stat": "$441,481,017"},
+        {"text": ["The Blair Witch Project"], "stat": "$436,173,130"},
+        {"text": ["The Nun"], "stat": "$423,312,046"},
+        {"text": ["The Ring"], "stat": "$403,794,263"},
+        {"text": ["The Conjuring"], "stat": "$397,581,826"},
+        {"text": ["Resident Evil: Afterlife"], "stat": "$397,096,652"}
+    ],
+    "url": "https://www.visualcapitalist.com/the-highest-grossing-horror-movies-of-all-time/"
   }
 }
