@@ -3845,5 +3845,44 @@
         {"text": ["Resident Evil: Afterlife"], "stat": "$397,096,652"}
     ],
     "url": "https://www.visualcapitalist.com/the-highest-grossing-horror-movies-of-all-time/"
+  },
+  "2024-10-08": {
+    "num": 227,
+    "category": "Top Full-Service Restaurant Chains in America (by 2022 Sales)",
+    "answers": [
+        {"text": ["Olive Garden"], "stat": "$4,664.30 million"},
+        {"text": ["Texas Roadhouse"], "stat": "$4,231.70 million"},
+        {"text": ["Chili's"], "stat": "$3,863.40 million"},
+        {"text": ["Applebee's"], "stat": "$3,727.30 million"},
+        {"text": ["Buffalo Wild Wings"], "stat": "$3,491.10 million"}
+    ],
+    "options": [
+        {"text": ["IHOP"], "stat": "$2,841.30 million"},
+        {"text": ["Cracker Barrel (Old Cntry Str)"], "stat": "$2,599.60 million"},
+        {"text": ["Outback Steakhouse"], "stat": "$2,558.30 million"},
+        {"text": ["LongHorn Steakhouse"], "stat": "$2,520.70 million"},
+        {"text": ["Denny's"], "stat": "$2,504.10 million"},
+        {"text": ["The Cheesecake Factory"], "stat": "$2,194.10 million"},
+        {"text": ["Golden Corral"], "stat": "$1,894.10 million"},
+        {"text": ["Red Lobster"], "stat": "$1,864.00 million"},
+        {"text": ["Red Robin"], "stat": "$1,460.80 million"},
+        {"text": ["Waffle House"], "stat": "$1,299.40 million"},
+        {"text": ["BJ's Restaurant & Brewhouse"], "stat": "$1,257.40 million"},
+        {"text": ["First Watch"], "stat": "$914.80 million"},
+        {"text": ["TGI Fridays"], "stat": "$841.40 million"},
+        {"text": ["P.F. Chang's"], "stat": "$761.70 million"},
+        {"text": ["Hooters"], "stat": "$710.60 million"},
+        {"text": ["Dave & Busters"], "stat": "$678.30 million"},
+        {"text": ["Carrabba's Italian Grill"], "stat": "$677.30 million"},
+        {"text": ["Bob Evans"], "stat": "$579.90 million"},
+        {"text": ["California Pizza Kitchen"], "stat": "$568.80 million"},
+        {"text": ["Perkins"], "stat": "$566.10 million"},
+        {"text": ["The Capital Grille"], "stat": "$560.80 million"},
+        {"text": ["Bonefish Grill"], "stat": "$559.60 million"},
+        {"text": ["Cheddar's Scratch Kitchen"], "stat": "$532.70 million"},
+        {"text": ["Fogo de Chão"], "stat": "$511.70 million"},
+        {"text": ["Ruby Tuesday"], "stat": "$484.70 million"}
+    ],
+    "url": "https://www.fsrmagazine.com/growth/chain-restaurants/the-30-top-full-service-restaurant-chains-in-america/"
   }
 }
