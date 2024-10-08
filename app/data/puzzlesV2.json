@@ -3884,5 +3884,38 @@
         {"text": ["Ruby Tuesday"], "stat": "$484.70 million"}
     ],
     "url": "https://www.fsrmagazine.com/growth/chain-restaurants/the-30-top-full-service-restaurant-chains-in-america/"
+  },
+  "2024-10-09": {
+    "num": 228,
+    "category": "Countries with most foreign-born residents (2024)",
+    "answers": [
+      {"text": ["United States"], "stat": "50.6 million"},
+      {"text": ["Germany"], "stat": "15.8 million"},
+      {"text": ["Saudi Arabia"], "stat": "13.5 million"},
+      {"text": ["Russia"], "stat": "11.6 million"},
+      {"text": ["United Kingdom"], "stat": "9.4 million"}
+    ],
+    "options": [
+      {"text": ["United Arab Emirates"], "stat": "8.7 million"},
+      {"text": ["France"], "stat": "8.5 million"},
+      {"text": ["Canada"], "stat": "8 million"},
+      {"text": ["Australia"], "stat": "7.7 million"},
+      {"text": ["Spain"], "stat": "6.8 million"},
+      {"text": ["Italy"], "stat": "6.4 million"},
+      {"text": ["Turkey"], "stat": "6.1 million"},
+      {"text": ["Ukraine"], "stat": "5 million"},
+      {"text": ["India"], "stat": "4.9 million"},
+      {"text": ["Kazakhstan"], "stat": "3.7 million"},
+      {"text": ["Thailand"], "stat": "3.6 million"},
+      {"text": ["Malaysia"], "stat": "3.5 million"},
+      {"text": ["Jordan"], "stat": "3.5 million"},
+      {"text": ["Pakistan"], "stat": "3.3 million"},
+      {"text": ["Kuwait"], "stat": "3.1 million"},
+      {"text": ["Hong Kong"], "stat": "3 million"},
+      {"text": ["South Africa"], "stat": "2.9 million"},
+      {"text": ["Iran"], "stat": "2.8 million"},
+      {"text": ["Japan"], "stat": "2.8 million"}
+    ],
+    "url": "https://worldpopulationreview.com/country-rankings/immigration-by-country"
   }
 }
