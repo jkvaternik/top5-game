@@ -3938,5 +3938,33 @@
         {"text": ["Nintendo Wii U"], "stat": "13.6 million units"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
+  },
+  "2024-10-11": {
+    "num": 230,
+    "category": "Countries with the most Pritzker Architecture Prize winners",
+    "answers": [
+        {"text": ["Japan"], "stat": "9"},
+        {"text": ["United States"], "stat": "8"},
+        {"text": ["United Kingdom"], "stat": "6"},
+        {"text": ["Spain", "France"], "stat": "4"},
+        {"text": ["Italy", "Ireland", "Switzerland", "Germany"], "stat": "3"}
+    ],
+    "options": [
+      {"text": ["Brazil"], "stat": "2"},
+      {"text": ["Portugal"], "stat": "2"},
+      {"text": ["Australia"], "stat": "1"},
+      {"text": ["Austria"], "stat": "1"},
+      {"text": ["Burkina Faso"], "stat": "1"},
+      {"text": ["Canada"], "stat": "1"},
+      {"text": ["Chile"], "stat": "1"},
+      {"text": ["China"], "stat": "1"},
+      {"text": ["Denmark"], "stat": "1"},
+      {"text": ["India"], "stat": "1"},
+      {"text": ["Iraq"], "stat": "1"},
+      {"text": ["Mexico"], "stat": "1"},
+      {"text": ["Netherlands"], "stat": "1"},
+      {"text": ["Norway"], "stat": "1"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Pritzker_Architecture_Prize"
   }
 }
