@@ -3917,5 +3917,26 @@
       {"text": ["Japan"], "stat": "2.8 million"}
     ],
     "url": "https://worldpopulationreview.com/country-rankings/immigration-by-country"
+  },
+  "2024-10-10": {
+    "num": 229,
+    "category": "Best selling Nintendo consoles",
+    "answers": [
+        {"text": ["Nintendo DS"], "stat": "154.0 million units"},
+        {"text": ["Nintendo Switch"], "stat": "143.4 million units"},
+        {"text": ["Game Boy"], "stat": "118.7 million units"},
+        {"text": ["Wii"], "stat": "101.6 million units"},
+        {"text": ["Game Boy Advance"], "stat": "81.5 million units"}
+    ],
+    "options": [
+        {"text": ["Nintendo 3DS"], "stat": "75.9 million units"},
+        {"text": ["Nintendo Entertainment System (NES)"], "stat": "61.9 million units"},
+        {"text": ["Super Nintendo Entertainment System (SNES)"], "stat": "49.1 million units"},
+        {"text": ["Nintendo 64"], "stat": "32.9 million units"},
+        {"text": ["GameCube"], "stat": "21.7 million units"},
+        {"text": ["Nintendo Switch Lite"], "stat": "21.0 million units"},
+        {"text": ["Nintendo Wii U"], "stat": "13.6 million units"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
   }
 }
