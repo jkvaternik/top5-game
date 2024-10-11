@@ -3966,5 +3966,51 @@
       {"text": ["Norway"], "stat": "1"}
     ],
     "url": "https://en.wikipedia.org/wiki/Pritzker_Architecture_Prize"
+  },
+  "2024-10-12": {
+    "num": 231,
+    "category": "Musical artists with the most platinum albums (RIAA)",
+    "answers": [
+        {"text": ["Elvis Presley"], "stat": "30"},
+        {"text": ["George Strait"], "stat": "24"},
+        {"text": ["The Beatles"], "stat": "19"},
+        {"text": ["The Rolling Stones"], "stat": "18"},
+        {"text": ["Barbra Streisand"], "stat": "17"}
+    ],
+    "options": [
+        {"text": ["Elton John"], "stat": "16"},
+        {"text": ["Reba McEntire"], "stat": "15"},
+        {"text": ["Alabama"], "stat": "15"},
+        {"text": ["Luther Vandross"], "stat": "15"},
+        {"text": ["AC/DC"], "stat": "14"},
+        {"text": ["Rush"], "stat": "14"},
+        {"text": ["Kenny Rogers"], "stat": "14"},
+        {"text": ["KISS"], "stat": "14"},
+        {"text": ["Rod Stewart"], "stat": "13"},
+        {"text": ["Jay Z"], "stat": "13"},
+        {"text": ["Bruce Springsteen"], "stat": "13"},
+        {"text": ["Chicago"], "stat": "13"},
+        {"text": ["U2"], "stat": "12"},
+        {"text": ["Alan Jackson"], "stat": "12"},
+        {"text": ["Prince"], "stat": "12"},
+        {"text": ["Mariah Carey"], "stat": "12"},
+        {"text": ["Garth Brooks"], "stat": "11"},
+        {"text": ["Aerosmith"], "stat": "11"},
+        {"text": ["Bob Dylan"], "stat": "11"},
+        {"text": ["Billy Joel"], "stat": "11"},
+        {"text": ["James Taylor"], "stat": "11"},
+        {"text": ["Willie Nelson"], "stat": "11"},
+        {"text": ["Linda Ronstadt"], "stat": "11"},
+        {"text": ["Kenny Chesney"], "stat": "11"},
+        {"text": ["Madonna"], "stat": "10"},
+        {"text": ["Neil Diamond"], "stat": "10"},
+        {"text": ["Celine Dion"], "stat": "10"},
+        {"text": ["John Mellencamp"], "stat": "10"},
+        {"text": ["Metallica"], "stat": "10"},
+        {"text": ["Van Halen"], "stat": "10"},
+        {"text": ["Eminem"], "stat": "10"},
+        {"text": ["Taylor Swift"], "stat": "10"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/RIAA_certification#Most_Platinum"
   }
 }
