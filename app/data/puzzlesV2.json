@@ -1,6 +1,5 @@
 {
   "2024-02-25": {
-    "num": 1,
     "category": "Largest countries by area",
     "answers": [
       { "text": ["Russia"], "stat": "6.602 million mi²" },
@@ -13,7 +12,6 @@
     "url": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
   },
   "2024-02-26": {
-    "num": 2,
     "category": "Most populous cities in the world",
     "answers": [
       { "text": ["Tokyo"], "stat": "37,115,035 people" },
@@ -26,7 +24,6 @@
     "url": "https://worldpopulationreview.com/world-cities"
   },
   "2024-02-27": {
-    "num": 3,
     "category": "Most mentioned Harry Potter characters in the books",
     "answers": [
       { "text": ["Harry Potter"], "stat": "18,956" },
@@ -39,7 +36,6 @@
     "url": "https://aminoapps.com/c/harry-potter/page/blog/20-most-mentioned-characters/ZJTB_ugJEZM1ZgPWlRrrEDDRX5qX4m"
   },
   "2024-02-28": {
-    "num": 4,
     "category": "Highest grossing films of all time",
     "answers": [
       { "text": ["Avatar"], "stat": "$2,923,706,026" },
@@ -52,7 +48,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films"
   },
   "2024-02-29": {
-    "num": 5,
     "category": "Largest countries by population",
     "answers": [
       { "text": ["India"], "stat": "1,428,627,663" },
@@ -65,7 +60,6 @@
     "url": "https://www.worldometers.info/world-population/population-by-country/"
   },
   "2024-03-01": {
-    "num": 6,
     "category": "Most spoken languages by total language speakers",
     "answers": [
       { "text": ["English"], "stat": "1.456 billion people" },
@@ -78,7 +72,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers#Ethnologue_(2023)"
   },
   "2024-03-02": {
-    "num": 7,
     "category": "Best selling video games of all time",
     "answers": [
       { "text": ["Minecraft"], "stat": "300,000,000 sales" },
@@ -91,7 +84,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
   },
   "2024-03-03": {
-    "num": 8,
     "category": "Most popular social networks by monthly active users",
     "answers": [
       { "text": ["Facebook"], "stat": "3.070 billion MAUs" },
@@ -104,7 +96,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users"
   },
   "2024-03-04": {
-    "num": 9,
     "category": "Countries with most pizza consumed per capita",
     "answers": [
       { "text": ["Norway"], "stat": "11.40 kg/person" },
@@ -117,7 +108,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/pizza-consumption-by-country"
   },
   "2024-03-05": {
-    "num": 10,
     "category": "Most streamed musical artists of all time",
     "answers": [
       { "text": ["Taylor Swift"], "stat": "81.740 billion streams" },
@@ -130,7 +120,6 @@
     "url": "https://chartmasters.org/most-streamed-artists-ever-on-spotify/"
   },
   "2024-03-06": {
-    "num": 11,
     "category": "Most followed Instagram accounts",
     "answers": [
       { "text": ["Instagram"], "stat": "672 million followers" },
@@ -143,7 +132,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts"
   },
   "2024-03-07": {
-    "num": 12,
     "category": "Tallest buildings in the world",
     "answers": [
       { "text": ["Burj Khalifa"], "stat": "828.0 m" },
@@ -156,7 +144,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings"
   },
   "2024-03-08": {
-    "num": 13,
     "category": "Most visited art museums in the world",
     "answers": [
       { "text": ["Louvre Museum"], "stat": "8,860,000 people" },
@@ -169,7 +156,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_most-visited_art_museums"
   },
   "2024-03-09": {
-    "num": 14,
     "category": "Most common words in the English language",
     "answers": [
       { "text": ["the"], "stat": null
@@ -187,7 +173,6 @@
     "url": "https://web.archive.org/web/20111226085859/http://oxforddictionaries.com/words/the-oec-facts-about-the-language"
   },
   "2024-03-10": {
-    "num": 15,
     "category": "Countries with the most McDonald's restaurants",
     "answers": [
       { "text": ["United States of America"], "stat": "13,682 outlets" },
@@ -200,7 +185,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants#Countries_and_territories_with_at_least_one_McDonald's_outlet"
   },
   "2024-03-11": {
-    "num": 16,
     "category": "Most valuable companies by market capitalization",
     "answers": [
       { "text": ["Microsoft"], "stat": "$3.197 T" },
@@ -213,7 +197,6 @@
     "url": "https://companiesmarketcap.com/"
   },
   "2024-03-12": {
-    "num": 17,
     "category": "Longest running scripted American TV shows by number of seasons",
     "answers": [
       { "text": ["The Simpsons"], "stat": "768 episodes" },
@@ -226,7 +209,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series"
   },
   "2024-03-13": {
-    "num": 18,
     "category": "Countries with most Nobel prize winners",
     "answers": [
       { "text": ["United States of America"], "stat": "411 winners" },
@@ -239,7 +221,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country"
   },
   "2024-03-14": {
-    "num": 19,
     "category": "Most valuable clothing & apparel brands in the world",
     "answers": [
       { "text": ["Nike"], "stat": "$31,307M" },
@@ -252,7 +233,6 @@
     "url": "https://brandirectory.com/rankings/apparel/table"
   },
   "2024-03-15": {
-    "num": 20,
     "category": "Countries with the most beer consumed per capita",
     "answers": [
       { "text": ["Czech Republic"], "stat": "140 L" },
@@ -265,7 +245,6 @@
     "url": "https://www.datapandas.org/ranking/beer-consumption-by-country"
   },
   "2024-03-16": {
-    "num": 21,
     "category": "Oldest US National Parks",
     "answers": [
       { "text": ["Yellowstone"], "stat": "March 1, 1872" },
@@ -278,7 +257,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
   },
   "2024-03-17": {
-    "num": 22,
     "category": "Best selling car brands in the world",
     "answers": [
       { "text": ["Toyota"], "stat": "1.3 million vehicles" },
@@ -291,7 +269,6 @@
     "url": "https://www.focus2move.com/world-cars-brand-ranking/#:~:text=On%20top%2C%20as%20happening%20uninterruptedly,million%20cars%20(%2B7.0%25)."
   },
   "2024-03-18": {
-    "num": 23,
     "category": "Most visited countries by number of arrivals",
     "answers": [
       { "text": ["France"], "stat": "89.4 million people" },
@@ -304,7 +281,6 @@
     "url": "https://www.datapandas.org/ranking/most-visited-countries#map"
   },
   "2024-03-19": {
-    "num": 24,
     "category": "Most abundant elements in the Earth's crust",
     "answers": [
       { "text": ["Oxygen"], "stat": "461,000 ppm" },
@@ -317,7 +293,6 @@
     "url": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
   },
   "2024-03-20": {
-    "num": 25,
     "category": "Countries with the most wine production",
     "answers": [
       { "text": ["Italy"], "stat": "4.8 million tons" },
@@ -330,7 +305,6 @@
     "url": "https://www.datapandas.org/ranking/wine-production-by-country"
   },
   "2024-03-21": {
-    "num": 26,
     "category": "States with the most cows",
     "answers": [
       { "text": ["Texas"], "stat": "4.12 million cows" },
@@ -343,7 +317,6 @@
     "url": "https://app.usda-reports.penguinlabs.net/?crop=cattle_cows_beef&statistic=inventory_head&yearet=&year=2024cattle-texas-had-the-most-cattle-in-the-united-states-in-2023-followed-by-nebraska-and-kansas#"
   },
   "2024-03-22": {
-    "num": 27,
     "category": "Best selling cereals in the US by boxes sold",
     "answers": [
       { "text": ["Cheerios"], "stat": "139.1 million boxes" },
@@ -356,7 +329,6 @@
     "url": "https://dailyinfographic.com/most-popular-cereals-in-america"
   },
   "2024-03-23": {
-    "num": 28,
     "category": "Highest grossing Broadway musicals of all time",
     "answers": [
       { "text": ["The Lion King"], "stat": "$1,957,380,113" },
@@ -369,7 +341,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_musical_theatre_productions"
   },
   "2024-03-24": {
-    "num": 29,
     "category": "Most scooped Ben and Jerry's ice cream flavors",
     "answers": [
       { "text": ["Half Baked"], "stat": null
@@ -387,7 +358,6 @@
     "url": "https://www.benjerry.com/whats-new/2023/12/top-flavors-2023"
   },
   "2024-03-25": {
-    "num": 30,
     "category": "Countries with most renewable energy as a share of total energy generation",
     "answers": [
       { "text": ["Iceland"], "stat": "86.87% generated" },
@@ -400,7 +370,6 @@
     "url": "https://wisevoter.com/country-rankings/renewable-energy-by-country/#countries-with-the-most-renewable-energy"
   },
   "2024-03-26": {
-    "num": 31,
     "category": "Most visited theme parks in the world by annual attendance",
     "answers": [
       { "text": ["Magic Kingdom (Walt Disney World)"], "stat": "17,133,000 people" },
@@ -413,7 +382,6 @@
     "url": "https://en.wikipedia.org/wiki/Amusement_park_rankings"
   },
   "2024-03-27": {
-    "num": 32,
     "category": "Global fruit production by weight",
     "answers": [
       { "text": ["Bananas"], "stat": "135.11 million metric tons" },
@@ -426,7 +394,6 @@
     "url": "https://www.statista.com/statistics/264001/worldwide-production-of-fruit-by-variety/"
   },
   "2024-03-28": {
-    "num": 33,
     "category": "Most popular dog breeds in the US",
     "answers": [
       { "text": ["French Bulldog"], "stat": null
@@ -444,7 +411,6 @@
     "url": "https://www.akc.org/expert-advice/news/most-popular-dog-breeds-2023/"
   },
   "2024-03-29": {
-    "num": 34,
     "category": "Most visited cities in the world by arrivals in 2023",
     "answers": [
       { "text": ["Istanbul"], "stat": "20,200,000 arrivals" },
@@ -457,7 +423,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors"
   },
   "2024-03-30": {
-    "num": 35,
     "category": "Most popular fast food chains in the US by sales",
     "answers": [
       { "text": ["McDonald's"], "stat": "48.734 billion sales" },
@@ -470,7 +435,6 @@
     "url": "https://www.qsrmagazine.com/operations/fast-food/the-2023-qsr-50-fast-foods-leading-annual-report/"
   },
   "2024-03-31": {
-    "num": 36,
     "category": "Largest historical empires by land area",
     "answers": [
       { "text": ["British Empire"], "stat": "13.71 million mi²" },
@@ -483,7 +447,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_largest_empires"
   },
   "2024-04-01": {
-    "num": 37,
     "category": "Biggest Oceans",
     "answers": [
       { "text": ["The 1997 song 'Ocean Man' by Ween"], "stat": null
@@ -501,7 +464,6 @@
     "url": "https://www.youtube.com/watch?v=tkzY_VwNIek"
   },
   "2024-04-02": {
-    "num": 38,
     "category": "Major League Baseball franchises with most World Series appearances",
     "answers": [
       { "text": ["New York Yankees"], "stat": "40 appearances" },
@@ -514,7 +476,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions"
   },
   "2024-04-03": {
-    "num": 39,
     "category": "Countries with most avocados produced",
     "answers": [
       { "text": ["Mexico"], "stat": "2,592,581" },
@@ -527,7 +488,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production"
   },
   "2024-04-04": {
-    "num": 40,
     "category": "US states with the largest coastlines",
     "answers": [
       { "text": ["Alaska"], "stat": "33,904 miles" },
@@ -540,7 +500,6 @@
     "url": "https://worldpopulationreview.com/state-rankings/coastline-length-by-state"
   },
   "2024-04-05": {
-    "num": 41,
     "category": "NBA all-time leading scorers",
     "answers": [
       { "text": ["LeBron James"], "stat": "40,474 points" },
@@ -553,7 +512,6 @@
     "url": "https://www.basketball-reference.com/leaders/pts_career.html"
   },
   "2024-04-06": {
-    "num": 42,
     "category": "Countries with most nominations for 'Best International Feature Film' at the Academy Awards",
     "answers": [
       { "text": ["France"], "stat": "41 nominations" },
@@ -566,7 +524,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film"
   },
   "2024-04-07": {
-    "num": 43,
     "category": "Longest running US game shows by number of years on the air",
     "answers": [
       { "text": ["The Price Is Right"], "stat": "60 years" },
@@ -579,7 +536,6 @@
     "url": "https://screenrant.com/game-shows-longest-runing-television/"
   },
   "2024-04-08": {
-    "num": 44,
     "category": "Most abundant elements in the Milky Way Galaxy",
     "answers": [
       { "text": ["Hydrogen"], "stat": "739,000 ppm" },
@@ -592,7 +548,6 @@
     "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Universe"
   },
   "2024-04-09": {
-    "num": 45,
     "category": "Countries with the highest coffee production",
     "answers": [
       { "text": ["Brazil"], "stat": "2.595 million metric tons" },
@@ -605,7 +560,6 @@
     "url": "https://www.worldatlas.com/articles/top-coffee-producing-countries.html#Top%20Coffee%20Producing%20Countries"
   },
   "2024-04-10": {
-    "num": 46,
     "category": "US companies with most employees",
     "answers": [
       { "text": ["Walmart"], "stat": "2,100,000 employees" },
@@ -618,7 +572,6 @@
     "url": "https://stockanalysis.com/list/most-employees/"
   },
   "2024-04-11": {
-    "num": 47,
     "category": "Best selling board games of all time",
     "answers": [
       { "text": ["Chess"], "stat": null
@@ -636,7 +589,6 @@
     "url": "https://moneyinc.com/highest-selling-board-games-of-all-time/"
   },
   "2024-04-12": {
-    "num": 48,
     "category": "Most popular dog names in the US",
     "answers": [
       { "text": ["Bella"], "stat": null
@@ -654,7 +606,6 @@
     "url": "https://www.usnews.com/insurance/pet-insurance/most-popular-dog-names-study"
   },
   "2024-04-13": {
-    "num": 49,
     "category": "Largest celestial bodies in the Solar System by radius",
     "answers": [
       { "text": ["Sun"], "stat": "695,508 km" },
@@ -667,7 +618,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size"
   },
   "2024-04-14": {
-    "num": 50,
     "category": "Best selling Wii videogames of all time",
     "answers": [
       { "text": ["Wii Sports"], "stat": "82.90 million" },
@@ -680,7 +630,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_Wii_video_games"
   },
   "2024-04-15": {
-    "num": 51,
     "category": "Countries with the most Olympic Medals",
     "answers": [
       { "text": ["United States of America"], "stat": "2,985" },
@@ -693,7 +642,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/olympic-medals-by-country"
   },
   "2024-04-16": {
-    "num": 52,
     "category": "James Bond movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
     "answers": [
       { "text": ["Goldfinger (1964)"], "stat": "99%" },
@@ -706,7 +654,6 @@
     "url": "https://editorial.rottentomatoes.com/guide/james-bond-movies/"
   },
   "2024-04-17": {
-    "num": 53,
     "category": "Highest grossing concert tours (adjusted for inflation)",
     "answers": [
       { "text": ["Taylor Swift (The Eras Tour)"], "stat": "$1,039,263,762" },
@@ -719,7 +666,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours"
   },
   "2024-04-18": {
-    "num": 54,
     "category": "Countries that export the most vodka by dollars sold (2022)",
     "answers": [
       { "text": ["Sweden"], "stat": "$471.98 million" },
@@ -732,7 +678,6 @@
     "url": "https://www.insidermonkey.com/blog/5-countries-that-export-the-most-vodka-1235806/"
   },
   "2024-04-19": {
-    "num": 55,
     "category": "Actresses with the most Academy Award nominations",
     "answers": [
       { "text": ["Meryl Streep"], "stat": "21 nominations" },
@@ -745,7 +690,6 @@
     "url": "https://en.m.wikipedia.org/wiki/List_of_actors_with_three_or_more_Academy_Award_nominations_in_acting_categories"
   },
   "2024-04-20": {
-    "num": 56,
     "category": "Best selling video game consoles of all time by units sold",
     "answers": [
       { "text": ["PlayStation 2"], "stat": "155 million" },
@@ -758,7 +702,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
   },
   "2024-04-21": {
-    "num": 57,
     "category": "NBA teams with the most championship titles",
     "answers": [
       { "text": ["Boston Celtics", "Los Angeles Lakers"], "stat": "17 titles" },
@@ -771,7 +714,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_NBA_champions#Results_by_team"
   },
   "2024-04-22": {
-    "num": 58,
     "category": "Most populous cities in the United States",
     "answers": [
       { "text": ["New York City"], "stat": "8,335,897" },
@@ -784,7 +726,6 @@
     "url": "https://worldpopulationreview.com/us-cities"
   },
   "2024-04-23": {
-    "num": 59,
     "category": "Countries with the highest elevation point",
     "answers": [
       { "text": ["Nepal", "China"], "stat": "8849 meters" },
@@ -797,7 +738,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_elevation_extremes_by_country#Table"
   },
   "2024-04-24": {
-    "num": 60,
     "category": "US States with the most McDonald's restaurants",
     "answers": [
       { "text": ["California"], "stat": "1,221" },
@@ -810,7 +750,6 @@
     "url": "https://www.scrapehero.com/location-reports/McDonalds-USA/"
   },
   "2024-04-25": {
-    "num": 61,
     "category": "Best selling energy drink brands in the US (2023)",
     "answers": [
       { "text": ["Red Bull"], "stat": "$7.39 billion" },
@@ -823,7 +762,6 @@
     "url": "https://www.caffeineinformer.com/the-15-top-energy-drink-brands"
   },
   "2024-04-26": {
-    "num": 62,
     "category": "NFL teams with the most Super Bowl wins",
     "answers": [
       { "text": ["Pittsburgh Steelers", "New England Patriots"], "stat": "6 wins" },
@@ -836,7 +774,6 @@
     "url": "https://www.statista.com/statistics/266516/number-of-super-bowl-wins-by-nfl-team/"
   },
   "2024-04-27": {
-    "num": 63,
     "category": "Pixar movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
     "answers": [
       { "text": ["Toy Story", "Toy Story 2"], "stat": "100%" },
@@ -849,7 +786,6 @@
     "url": "https://editorial.rottentomatoes.com/guide/all-pixar-movies-ranked/"
   },
   "2024-04-28": {
-    "num": 64,
     "category": "Countries with highest GDP (PPP)",
     "answers": [
       { "text": ["China"], "stat": "35,291,015 million International$" },
@@ -862,7 +798,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)"
   },
   "2024-04-29": {
-    "num": 65,
     "category": "Most common passwords in 2023",
     "answers": [
       { "text": ["123456"], "stat": "4,524,867 users" },
@@ -875,7 +810,6 @@
     "url": "https://nordpass.com/most-common-passwords-list/"
   },
   "2024-04-30": {
-    "num": 66,
     "category": "Highest grossing media franchises",
     "answers": [
       { "text": ["Pokemon"], "stat": "$88 billion" },
@@ -888,7 +822,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
   },
   "2024-05-01": {
-    "num": 67,
     "category": "Countries with the most Michelin-starred restaurants",
     "answers": [
       { "text": ["France"], "stat": "625" },
@@ -901,7 +834,6 @@
     "url": "https://www.statista.com/statistics/1400971/countries-most-michelin-starred-restaurants-worldwide/"
   },
   "2024-05-02": {
-    "num": 68,
     "category": "Cities with the longest metro systems (in total miles)",
     "answers": [
       { "text": ["Beijing"], "stat": "507 miles" },
@@ -914,7 +846,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_metro_systems"
   },
   "2024-05-03": {
-    "num": 69,
     "category": "New York City boroughs ranked by population",
     "answers": [
       { "text": ["Brooklyn"], "stat": "2,736,074" },
@@ -927,7 +858,6 @@
     "url": "https://en.wikipedia.org/wiki/Boroughs_of_New_York_City"
   },
   "2024-05-04": {
-    "num": 70,
     "category": "Lord of the Rings characters ranked by mentions in the LOTR trilogy (excluding appendices)",
     "answers": [
       { "text": ["Frodo Baggins"], "stat": "1983" },
@@ -940,7 +870,6 @@
     "url": "https://www.vox.com/2014/12/17/7393641/hobbit-charts-lotr-tolkien"
   },
   "2024-05-05": {
-    "num": 71,
     "category": "States admitted to the United States most recently",
     "answers": [
       { "text": ["Hawaii"], "stat": "August 21, 1959" },
@@ -953,7 +882,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union"
   },
   "2024-05-06": {
-    "num": 72,
     "category": "Countries with the most UNESCO World Heritage Sites",
     "answers": [
       { "text": ["Italy"], "stat": "59 sites" },
@@ -966,7 +894,6 @@
     "url": "https://en.wikipedia.org/wiki/World_Heritage_Sites_by_country"
   },
   "2024-05-07": {
-    "num": 73,
     "category": "Rappers with the most Grammy Awards",
     "answers": [
       { "text": ["Jay-Z", "Kanye West"], "stat": "24" },
@@ -979,7 +906,6 @@
     "url": "https://en.wikipedia.org/wiki/Grammy_Award_milestones"
   },
   "2024-05-08": {
-    "num": 74,
     "category": "States that have produced the most NHL hockey players",
     "answers": [
       { "text": ["Minnesota"], "stat": "290" },
@@ -992,7 +918,6 @@
     "url": "https://usblog.betway.com/the-states-producing-the-most-athletes-betway-insider-usa/"
   },
   "2024-05-09": {
-    "num": 75,
     "category": "Largest grocery stores by market share",
     "answers": [
       { "text": ["Walmart"], "stat": "25.2%" },
@@ -1005,7 +930,6 @@
     "url": "https://www.axios.com/2023/04/20/most-popular-grocery-stores"
   },
   "2024-05-10": {
-    "num": 76,
     "category": "Countries with the longest coastlines",
     "answers": [
       { "text": ["Canada"], "stat": "202,080 kilometers" },
@@ -1018,7 +942,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_length_of_coastline"
   },
   "2024-05-11": {
-    "num": 77,
     "category": "Star Wars movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
     "answers": [
       { "text": ["Star Wars: Episode V - The Empire Strikes Back (1980)"], "stat": "95%" },
@@ -1031,7 +954,6 @@
     "url": "https://editorial.rottentomatoes.com/guide/all-star-wars-movies-ranked/"
   },
   "2024-05-12": {
-    "num": 78,
     "category": "Longest Academy Award Best Picture winning films of all time (runtime)",
     "answers": [
       { "text": ["Gone with the Wind (1939)"], "stat": "238 minutes" },
@@ -1044,7 +966,6 @@
     "url": "https://collider.com/longest-best-picture-winners-of-all-time/"
   },
   "2024-05-13": {
-    "num": 79,
     "category": "Countries with the most Formula 1 Grand Prix wins",
     "answers": [
       { "text": ["United Kingdom"], "stat": "309 wins" },
@@ -1057,7 +978,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_wins_by_country"
   },
   "2024-05-14": {
-    "num": 80,
     "category": "Best selling artists of all time by total certified units",
     "answers": [
       { "text": ["The Beatles"], "stat": "294 million" },
@@ -1070,7 +990,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_music_artists#Artists_by_reputed_sales"
   },
   "2024-05-15": {
-    "num": 81,
     "category": "Book series by copies sold",
     "answers": [
       { "text": ["Harry Potter"], "stat": "600 million" },
@@ -1083,7 +1002,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_books#List_of_best-selling_book_series"
   },
   "2024-05-16": {
-    "num": 82,
     "category": "Oldest U.S. presidents at time of inauguration",
     "answers": [
       { "text": ["Joe Biden"], "stat": "78 years, 61 days" },
@@ -1096,7 +1014,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age"
   },
   "2024-05-17": {
-    "num": 83,
     "category": "Football clubs with the most UEFA Champions League titles",
     "answers": [
       { "text": ["Real Madrid"], "stat": "14 titles" },
@@ -1109,7 +1026,6 @@
     "url": "https://en.wikipedia.org/wiki/European_Cup_and_UEFA_Champions_League_records_and_statistics"
   },
   "2024-05-18": {
-    "num": 84,
     "category": "TV shows with most Emmy award wins of all time",
     "answers": [
       { "text": ["Saturday Night Live"], "stat": "84 wins" },
@@ -1122,7 +1038,6 @@
     "url": "https://www.statista.com/statistics/726527/emmys-most-wins-all-time/"
   },
   "2024-05-19": {
-    "num": 85,
     "category": "Countries with the most billionaires",
     "answers": [
       { "text": ["United States of America"], "stat": "813" },
@@ -1135,7 +1050,6 @@
     "url": "https://www.forbes.com/sites/devinseanmartin/2024/04/02/the-countries-with-the-most-billionaires-2024/"
   },
   "2024-05-20": {
-    "num": 86,
     "category": "Most common Pokémon types (excl. combined types)",
     "answers": [
       { "text": ["Water"], "stat": "159 species" },
@@ -1148,7 +1062,6 @@
     "url": "https://www.cbr.com/every-pokemon-type-ranked-by-total-number-of-pokemon/"
   },
   "2024-05-21": {
-    "num": 87,
     "category": "Universities with the largest football stadiums (by capacity)",
     "answers": [
       { "text": ["Michigan Stadium (University of Michigan)"], "stat": "107,601" },
@@ -1161,7 +1074,6 @@
     "url": "https://www.collegetransitions.com/blog/largest-college-football-stadiums/"
   },
   "2024-05-22": {
-    "num": 88,
     "category": "Countries with the most Grand Slam tennis titles",
     "answers": [
       { "text": ["United States of America"], "stat": "351 titles" },
@@ -1174,7 +1086,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_singles_champions_by_country#Total_Grand_Slam_titles_by_country"
   },
   "2024-05-23": {
-    "num": 89,
     "category": "Largest states by area",
     "answers": [
       { "text": ["Alaska"], "stat": "665,384 square miles" },
@@ -1187,7 +1098,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_area"
   },
   "2024-05-24": {
-    "num": 90,
     "category": "Largest Swiss watch brands by market share",
     "answers": [
       { "text": ["Rolex"], "stat": "30%" },
@@ -1200,7 +1110,6 @@
     "url": "https://monochrome-watches.com/industry-news-top-50-swiss-watch-companies-of-2023-according-to-morgan-stanley-rolex-breaking-the-chf-10-billion-barrier/"
   },
   "2024-05-25": {
-    "num": 91,
     "category": "Countries with the most wild tigers",
     "answers": [
       { "text": ["India"], "stat": "2,967" },
@@ -1213,7 +1122,6 @@
     "url": "https://www.worldatlas.com/conservation/countries-with-the-greatest-number-of-wild-tigers.html"
   },
   "2024-05-26": {
-    "num": 92,
     "category": "Largest burger chains in the US by locations",
     "answers": [
       { "text": ["McDonald's"], "stat": "13,846 locations" },
@@ -1226,7 +1134,6 @@
     "url": "https://www.restaurantbusinessonline.com/financing/largest-burger-chains-us"
   },
   "2024-05-27": {
-    "num": 93,
     "category": "Harry Potter movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
     "answers": [
       { "text": ["Harry Potter and the Deathly Hallows – Part 2"], "stat": "96%" },
@@ -1239,7 +1146,6 @@
     "url": "https://editorial.rottentomatoes.com/guide/all-harry-potter-movies-ranked-by-tomatometer/"
   },
   "2024-05-28": {
-    "num": 94,
     "category": "US states with the most national parks",
     "answers": [
       { "text": ["California"], "stat": "9 parks" },
@@ -1252,7 +1158,6 @@
     "url": "https://www.nps.gov/aboutus/national-park-system.htm"
   },
   "2024-05-29": {
-    "num": 95,
     "category": "Longest-running Broadway shows",
     "answers": [
       { "text": ["The Phantom of the Opera"], "stat": "13,981 performances" },
@@ -1265,7 +1170,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_the_longest-running_Broadway_shows"
   },
   "2024-05-30": {
-    "num": 96,
     "category": "Richest movie directors by estimated net worth",
     "answers": [
       { "text": ["George Lucas", "Steven Spielberg"], "stat": "$8 billion" },
@@ -1278,7 +1182,6 @@
     "url": "https://www.celebritynetworth.com/list/top-50-directors/"
   },
   "2024-05-31": {
-    "num": 97,
     "category": "Countries with highest cocoa bean production",
     "answers": [
       { "text": ["Côte d'Ivoire"], "stat": "2,230,000 metric tons" },
@@ -1291,7 +1194,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/cocoa-producing-countries"
   },
   "2024-06-01": {
-    "num": 98,
     "category": "Nations with the most Fifa World Cup titles",
     "answers": [
       { "text": ["Brazil"], "stat": "5 titles" },
@@ -1304,7 +1206,6 @@
     "url": "https://www.statista.com/statistics/266464/number-of-world-cup-titles-won-by-country-since-1930/"
   },
   "2024-06-02": {
-    "num": 99,
     "category": "Most valuable NBA teams",
     "answers": [
       { "text": ["Golden State Warriors"], "stat": "$7.7 billion" },
@@ -1317,7 +1218,6 @@
     "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NBA_clubs"
   },
   "2024-06-03": {
-    "num": 100,
     "category": "Longest rivers in the world",
     "answers": [
       { "text": ["Nile River"], "stat": "4,130 miles" },
@@ -1330,7 +1230,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_river_systems_by_length"
   },
   "2024-06-04": {
-    "num": 101,
     "category": "States with highest percentage of Marijuana users (have used in past year)",
     "answers": [
       { "text": ["Vermont"], "stat": "34.4%" },
@@ -1343,7 +1242,6 @@
     "url": "https://www.statista.com/statistics/723822/cannabis-use-within-one-year-us-adults/"
   },
   "2024-06-05": {
-    "num": 102,
     "category": "Most popular smart phone apps (by downloads in 2023)",
     "answers": [
       { "text": ["Instagram"], "stat": "696 million" },
@@ -1356,7 +1254,6 @@
     "url": "https://www.businessofapps.com/data/most-popular-apps/"
   },
   "2024-06-06": {
-    "num": 103,
     "category": "US states with the highest cost of living",
     "answers": [
       { "text": ["Hawaii"], "stat": "180.3" },
@@ -1369,7 +1266,6 @@
     "url": "https://meric.mo.gov/data/cost-living-data-series"
   },
   "2024-06-07": {
-    "num": 104,
     "category": "Largest bones in the human body (by average length)",
     "answers": [
       { "text": ["Femur"], "stat": "19.9 inches" },
@@ -1382,7 +1278,6 @@
     "url": "https://www.orthobullets.com/anatomy/10001/bones-of-the-human-body"
   },
   "2024-06-08": {
-    "num": 105,
     "category": "Video streaming services with the most subscribers",
     "answers": [
       { "text": ["Netflix"], "stat": "247.2 million" },
@@ -1395,7 +1290,6 @@
     "url": "https://www.forbes.com/home-improvement/internet/streaming-stats/#"
   },
   "2024-06-09": {
-    "num": 106,
     "category": "NHL teams with the most Stanley Cup wins",
     "answers": [
       { "text": ["Montreal Canadiens"], "stat": "24 wins" },
@@ -1408,7 +1302,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Stanley_Cup_champions#Stanley_Cup_Finals_era_(since_1915)"
   },
   "2024-06-10": {
-    "num": 107,
     "category": "Countries with the most islands",
     "answers": [
       { "text": ["Sweden"], "stat": "267,570 islands" },
@@ -1421,7 +1314,6 @@
     "url": "https://www.statista.com/chart/15364/the-estimated-number-of-islands-by-country/"
   },
   "2024-06-11": {
-    "num": 108,
     "category": "Most visited national parks in the United States (2023)",
     "answers": [
       { "text": ["Great Smoky Mountains"], "stat": "13.3 million visitors" },
@@ -1434,7 +1326,6 @@
     "url": "https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Annual%20Park%20Ranking%20Report%20(1979%20-%20Last%20Calendar%20Year)"
   },
   "2024-06-12": {
-    "num": 109,
     "category": "Marvel Cinematic Universe movies ranked by Rotten Tomatoes 'Tomatometer' score (critics)",
     "answers": [
       { "text": ["Black Panther"], "stat": "96%" },
@@ -1447,7 +1338,6 @@
     "url": "https://editorial.rottentomatoes.com/guide/all-marvel-cinematic-universe-movies-ranked/"
   },
   "2024-06-13": {
-    "num": 110,
     "category": "Largest retail companies by market capitalization",
     "answers": [
       { "text": ["Amazon"], "stat": "$1.948 trillion" },
@@ -1460,7 +1350,6 @@
     "url": "https://companiesmarketcap.com/retail/largest-retail-companies-by-market-cap/"
   },
   "2024-06-14": {
-    "num": 111,
     "category": "NBA players with the most MVPs",
     "answers": [
       { "text": ["Kareem Abdul-Jabbar"], "stat": "6" },
@@ -1473,7 +1362,6 @@
     "url": "https://en.wikipedia.org/wiki/NBA_Most_Valuable_Player_Award#Multiple-time_winners"
   },
   "2024-06-15": {
-    "num": 112,
     "category": "Most popular google searches of 2023",
     "answers": [
       { "text": ["you"], "stat": "Query score of 100" },
@@ -1486,7 +1374,6 @@
     "url": "https://www.techopedia.com/top-google-searches-2023"
   },
   "2024-06-16": {
-    "num": 113,
     "category": "Countries with fastest broadband internet speed (Speedtest Global Index, 4/2024)",
     "answers": [
       { "text": ["Singapore"], "stat": "284 Mbps" },
@@ -1499,7 +1386,6 @@
     "url": "https://www.speedtest.net/global-index"
   },
   "2024-06-17": {
-    "num": 114,
     "category": "Wealthiest generations in the United States (by avg net worth)",
     "answers": [
       { "text": ["Baby Boomers (born 1946-1964)"], "stat": "$795,900" },
@@ -1512,7 +1398,6 @@
     "url": "https://www.usatoday.com/money/blueprint/investing/average-net-worth-by-age/"
   },
   "2024-06-18": {
-    "num": 115,
     "category": "SNL hosts with most appearances",
     "answers": [
       { "text": ["Alec Baldwin"], "stat": "17 times" },
@@ -1525,7 +1410,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_guests"
   },
   "2024-06-19": {
-    "num": 116,
     "category": "Most popular classical composers (by monthly Spotify listeners)",
     "answers": [
       { "text": ["Johann Sebastian Bach"], "stat": "7,673,876" },
@@ -1538,7 +1422,6 @@
     "url": "https://www.spotifycharts.com/"
   },
   "2024-06-20": {
-    "num": 117,
     "category": "Animal phylums with the most described species",
     "answers": [
       { "text": ["Arthropoda"], "stat": "1,257,000 species" },
@@ -1551,7 +1434,6 @@
     "url": "https://en.wikipedia.org/wiki/Animal#Numbers_and_habitats_of_major_phyla"
   },
   "2024-06-21": {
-    "num": 118,
     "category": "Most watched Netflix TV titles",
     "answers": [
       { "text": ["Squid Game: Season 1"], "stat": "265.2 million views" },
@@ -1564,7 +1446,6 @@
     "url": "https://www.netflix.com/tudum/top10/most-popular/tv"
   },
   "2024-06-22": {
-    "num": 119,
     "category": "Countries by olive oil production (2023-2024)",
     "answers": [
       { "text": ["Spain"], "stat": "766,400 tonnes" },
@@ -1577,7 +1458,6 @@
     "url": "https://www.oliveoiltimes.com/olive-oil-production"
   },
   "2024-06-23": {
-    "num": 120,
     "category": "Oldest currencies still in use",
     "answers": [
       { "text": ["British pound sterling"], "stat": "800 CE" },
@@ -1590,7 +1470,6 @@
     "url": "https://www.oldest.org/culture/oldest-currencies-still-used-around-the-world/"
   },
   "2024-06-24": {
-    "num": 121,
     "category": "Highest grossing Dreamworks movies",
     "answers": [
       { "text": ["Shrek 2"], "stat": "$441,426,807" },
@@ -1603,7 +1482,6 @@
     "url": "https://www.boxofficemojo.com/brand/bn3614636546/?sort=grossToDate&ref_=bo_bn__resort#table"
   },
   "2024-06-25": {
-    "num": 122,
     "category": "Most streamed songs on Spotify",
     "answers": [
       { "text": ["Blinding Lights - The Weeknd"], "stat": "4.299 billion streams" },
@@ -1616,7 +1494,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records#Most-streamed_songs"
   },
   "2024-06-26": {
-    "num": 123,
     "category": "Countries with the most airports",
     "answers": [
       { "text": ["United States of America"], "stat": "13,513 airports" },
@@ -1629,7 +1506,6 @@
     "url": "https://www.worldatlas.com/articles/countries-with-the-highest-number-of-airports-in-the-world.html"
   },
   "2024-06-27": {
-    "num": 124,
     "category": "Celebrities who have hosted the Oscars the most times",
     "answers": [
       { "text": ["Bob Hope"], "stat": "19 times" },
@@ -1642,7 +1518,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies"
   },
   "2024-06-28": {
-    "num": 125,
     "category": "Most valuable football/soccer clubs in the world",
     "answers": [
       { "text": ["Real Madrid"], "stat": "$6.6 billion" },
@@ -1655,7 +1530,6 @@
     "url": "https://www.forbes.com/lists/soccer-valuations/"
   },
   "2024-06-29": {
-    "num": 126,
     "category": "Oldest universities in the United States",
     "answers": [
       { "text": ["Harvard University"], "stat": "c. 1636" },
@@ -1668,7 +1542,6 @@
     "url": "https://www.topuniversities.com/blog/10-oldest-universities-us"
   },
   "2024-06-30": {
-    "num": 127,
     "category": "Countries with the most nuclear weapons",
     "answers": [
       { "text": ["Russia"], "stat": "~5,580 warheads" },
@@ -1681,7 +1554,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons"
   },
   "2024-07-01": {
-    "num": 128,
     "category": "NBA players with the most assists",
     "answers": [
       { "text": ["John Stockton"], "stat": "15,806 assists" },
@@ -1694,7 +1566,6 @@
     "url": "https://www.statista.com/statistics/811517/all-time-nba-leaders-total-number-of-rebounds/"
   },
   "2024-07-02": {
-    "num": 129,
     "category": "Most streamed Taylor Swift songs on Spotify (not including features)",
     "answers": [
       { "text": ["Cruel Summer"], "stat": "2,239,434,380 streams" },
@@ -1707,7 +1578,6 @@
     "url": "https://kworb.net/spotify/artist/06HL4z0CvFAxyc27GXpf02_songs.html"
   },
   "2024-07-03": {
-    "num": 130,
     "category": "Countries with the most Facebook users",
     "answers": [
       { "text": ["India"], "stat": "378.5 million users" },
@@ -1720,7 +1590,6 @@
     "url": "https://www.statista.com/statistics/268136/top-15-countries-based-on-number-of-facebook-users/"
   },
   "2024-07-04": {
-    "num": 131,
     "category": "Best selling Pokémon games by units sold",
     "answers": [
       { "text": ["Pokémon Red", "Pokémon Blue", "Pokémon Green"], "stat": "31.38 million units" },
@@ -1733,7 +1602,6 @@
     "url": "https://www.statista.com/statistics/1072224/pokemon-unit-sales-worldwide/"
   },
   "2024-07-05": {
-    "num": 132,
     "category": "Most traffic-delayed cities in the world by hours lost in traffic",
     "answers": [
       { "text": ["New York City"], "stat": "101 hours" },
@@ -1746,7 +1614,6 @@
     "url": "https://inrix.com/scorecard/"
   },
   "2024-07-06": {
-    "num": 133,
     "category": "Countries with the most different species of birds",
     "answers": [
       { "text": ["Colombia"], "stat": "1,863 species" },
@@ -1759,7 +1626,6 @@
     "url": "https://en.wikipedia.org/wiki/Megadiverse_countries"
   },
   "2024-07-07": {
-    "num": 134,
     "category": "Countries with the most skyscrapers (+150m/492ft tall)",
     "answers": [
       { "text": ["China"], "stat": "3,152 skyscrapers" },
@@ -1772,7 +1638,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_the_most_skyscrapers"
   },
   "2024-07-08": {
-    "num": 135,
     "category": "Countries with highest motor vehicle production",
     "answers": [
       { "text": ["China"], "stat": "30.1 million vehicles" },
@@ -1785,7 +1650,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/car-production-by-country"
   },
   "2024-07-09": {
-    "num": 136,
     "category": "Most spoken first langauges in the world",
     "answers": [
       { "text": ["Mandarin Chinese"], "stat": "12.3%" },
@@ -1798,7 +1662,6 @@
     "url": "https://www.cia.gov/the-world-factbook/countries/world/#people-and-society"
   },
   "2024-07-10": {
-    "num": 137,
     "category": "Most read US newspapers by average weekday print circulation",
     "answers": [
       { "text": ["The Wall Street Journal"], "stat": "609,650 papers" },
@@ -1811,7 +1674,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States#Top_10_newspapers_by_subscribers_and_print_circulation"
   },
   "2024-07-11": {
-    "num": 138,
     "category": "Countries with most CO₂ emissions",
     "answers": [
       { "text": ["China"], "stat": "11,396 million metric tons" },
@@ -1824,7 +1686,6 @@
     "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?tab=table"
   },
   "2024-07-12": {
-    "num": 139,
     "category": "Longest running animated TV franchises by episodes (excluding anime)",
     "answers": [
       { "text": ["Looney Tunes"], "stat": "1,626 episodes" },
@@ -1837,7 +1698,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_animated_television_series_by_episode_count#Longest-running_animated_television_franchises"
   },
   "2024-07-13": {
-    "num": 140,
     "category": "Countries with the highest rice production",
     "answers": [
       { "text": ["China"], "stat": "208,494,800 tonnes" },
@@ -1850,7 +1710,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_rice_production"
   },
   "2024-07-14": {
-    "num": 141,
     "category": "Planets with the most moons in the Solar System",
     "answers": [
       { "text": ["Saturn"], "stat": "146 moons" },
@@ -1863,7 +1722,6 @@
     "url": "https://science.nasa.gov/solar-system/moons/"
   },
   "2024-07-15": {
-    "num": 142,
     "category": "Most common periodic elements in the human body by mass",
     "answers": [
       { "text": ["Oxygen"], "stat": "65%" },
@@ -1876,7 +1734,6 @@
     "url": "https://en.wikipedia.org/wiki/Composition_of_the_human_body#Elements"
   },
   "2024-07-16": {
-    "num": 143,
     "category": "Countries with the most universities",
     "answers": [
       { "text": ["India"], "stat": "5,349 universities" },
@@ -1889,7 +1746,6 @@
     "url": "https://www.statista.com/statistics/918403/number-of-universities-worldwide-by-country/"
   },
   "2024-07-17": {
-    "num": 144,
     "category": "Countries with the most lakes",
     "answers": [
       { "text": ["Canada"], "stat": "879,800" },
@@ -1902,7 +1758,6 @@
     "url": "https://www.worldatlas.com/articles/which-country-has-the-most-lakes-in-the-world.html"
   },
   "2024-07-18": {
-    "num": 145,
     "category": "Most followed accounts on Twitter",
     "answers": [
       { "text": ["Elon Musk"], "stat": "189 million followers" },
@@ -1915,7 +1770,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts"
   },
   "2024-07-19": {
-    "num": 146,
     "category": "Best selling films on VHS in the US (by copies sold)",
     "answers": [
       { "text": ["The Lion King"], "stat": "32,000,000 copies" },
@@ -1928,7 +1782,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_films_in_the_United_States"
   },
   "2024-07-20": {
-    "num": 147,
     "category": "Cities with the most 150m/492ft+ buildings",
     "answers": [
       { "text": ["Hong Kong"], "stat": "558 buildings" },
@@ -1941,7 +1794,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_cities_with_the_most_skyscrapers#List_of_cities_by_number_of_completed_skyscrapers_taller_than_150_m_(492_ft)"
   },
   "2024-07-21": {
-    "num": 148,
     "category": "Tennis players with the most Grand Slam singles titles",
     "answers": [
       { "text": ["Margaret Court", "Novak Djokovic"], "stat": "24 titles" },
@@ -1954,7 +1806,6 @@
     "url": "https://www.espn.com/tennis/story/_/id/39364315/who-won-most-grand-slams-tennis-history"
   },
   "2024-07-22": {
-    "num": 149,
     "category": "Largest footwear companies by market cap",
     "answers": [
       { "text": ["Nike"], "stat": "$109.73 billion" },
@@ -1967,7 +1818,6 @@
     "url": "https://companiesmarketcap.com/footwear/largest-companies-by-market-cap/"
   },
   "2024-07-23": {
-    "num": 150,
     "category": "Highest grossing Marvel movies",
     "answers": [
       { "text": ["Avengers: Endgame"], "stat": "$2.798 billion" },
@@ -1980,7 +1830,6 @@
     "url": "https://www.imdb.com/list/ls040671689/"
   },
   "2024-07-24": {
-    "num": 151,
     "category": "Countries with the largest labor force",
     "answers": [
       { "text": ["China"], "stat": "781.8 million" },
@@ -1993,7 +1842,6 @@
     "url": "https://www.cia.gov/the-world-factbook/field/labor-force/country-comparison/"
   },
   "2024-07-25": {
-    "num": 152,
     "category": "Countries with the most Tour de France wins",
     "answers": [
       { "text": ["France"], "stat": "36 wins" },
@@ -2006,7 +1854,6 @@
     "url": "https://www.statista.com/chart/30469/tour-de-france-winners-by-nationality-country/"
   },
   "2024-07-26": {
-    "num": 153,
     "category": "Fastest dog breeds by top speed",
     "answers": [
       { "text": ["Greyhound"], "stat": "45 mph" },
@@ -2019,7 +1866,6 @@
     "url": "https://spoiledhounds.com/fastest-dog-breeds/"
   },
   "2024-07-27": {
-    "num": 154,
     "category": "Youngest U.S. presidents at time of inauguration",
     "answers": [
       { "text": ["Theodore Roosevelt"], "stat": "42 years, 322 days" },
@@ -2032,7 +1878,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age"
   },
   "2024-07-28": {
-    "num": 155,
     "category": "Countries with the largest gold production",
     "answers": [
       { "text": ["China"], "stat": "330 tonnes" },
@@ -2045,7 +1890,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_gold_production"
   },
   "2024-07-29": {
-    "num": 156,
     "category": "Swimmers with the most Olympic gold medals",
     "answers": [
       { "text": ["Michael Phelps"], "stat": "23 gold medals" },
@@ -2058,7 +1902,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Olympic_gold_medalists_in_swimming_by_count"
   },
   "2024-07-30": {
-    "num": 157,
     "category": "Musical artists with the most number-one singles",
     "answers": [
       { "text": ["The Beatles"], "stat": "20 #1 singles" },
@@ -2071,7 +1914,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_chart_achievements_and_milestones#Most_number-one_singles"
   },
   "2024-07-31": {
-    "num": 158,
     "category": "City metro networks with the most stations",
     "answers": [
       { "text": ["New York City"], "stat": "423 stations" },
@@ -2084,7 +1926,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_metro_systems#List"
   },
   "2024-08-01": {
-    "num": 159,
     "category": "Countries with the most Winter Olympic medals",
     "answers": [
       { "text": ["Norway"], "stat": "405 medals" },
@@ -2097,7 +1938,6 @@
     "url": "https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table"
   },
   "2024-08-02": {
-    "num": 160,
     "category": "Countries with the most IKEA stores",
     "answers": [
       { "text": ["Germany"], "stat": "55 stores" },
@@ -2110,7 +1950,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_IKEA_stores"
   },
   "2024-08-03": {
-    "num": 161,
     "category": "Most populous US states",
     "answers": [
       { "text": ["California"], "stat": "38.965 million" },
@@ -2123,7 +1962,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
   },
   "2024-08-04": {
-    "num": 162,
     "category": "Longest rivers in Europe",
     "answers": [
       { "text": ["Volga River"], "stat": "3,690 km / 2,290 mi" },
@@ -2136,7 +1974,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_rivers_of_Europe#Rivers_of_Europe_by_length"
   },
   "2024-08-05": {
-    "num": 163,
     "category": "Countries with the largest potato production",
     "answers": [
       { "text": ["China"], "stat": "95.6 million tonnes" },
@@ -2149,7 +1986,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_potato_production"
   },
   "2024-08-06": {
-    "num": 164,
     "category": "Most abundant elements in the Earth's oceans",
     "answers": [
       { "text": ["Oxygen"], "stat": "85.84%" },
@@ -2162,7 +1998,6 @@
     "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements#Ocean"
   },
   "2024-08-07": {
-    "num": 165,
     "category": "Most popular Dr. Seuss Books (by # of ratings on Goodreads)",
     "answers": [
       { "text": ["Green Eggs and Ham"], "stat": "788,789 ratings" },
@@ -2175,7 +2010,6 @@
     "url": "https://www.goodreads.com/author/show/61105.Dr_Seuss"
   },
   "2024-08-08": {
-    "num": 166,
     "category": "Countries with the most timezones (incl. territories)",
     "answers": [
       { "text": ["France"], "stat": "12 timezones" },
@@ -2188,7 +2022,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_time_zones_by_country"
   },
   "2024-08-09": {
-    "num": 167,
     "category": "Olympic sports with the most gold medals available",
     "answers": [
       { "text": ["Athletics"], "stat": "48 gold medals" },
@@ -2201,7 +2034,6 @@
     "url": "https://www.topendsports.com/events/summer/medal-tally/available-medals.htm#:~:text=Number%20of%20Available%20Gold%20Medals%20in%202024"
   },
   "2024-08-10": {
-    "num": 168,
     "category": "Importers of video game consoles",
     "answers": [
       { "text": ["United States of America"], "stat": "1.3 billion USD" },
@@ -2214,7 +2046,6 @@
     "url": "https://oec.world/en/profile/hs/other-games-video-game-consoles-and-machines#exporters-importers"
   },
   "2024-08-11": {
-    "num": 169,
     "category": "Countries that have hosted the most Olympic Games (Summer and Winter)",
     "answers": [
       { "text": ["United States of America"], "stat": "10 times" },
@@ -2227,7 +2058,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities#Number_of_Olympic_Games_by_country"
   },
   "2024-08-12": {
-    "num": 170,
     "category": "Countries with the most 2024 summer olympic gold medals",
     "answers": [
       { "text": ["United States of America", "China"], "stat": "40 gold medals" },
@@ -2240,7 +2070,6 @@
     "url": "https://olympics.com/en/paris-2024/medals?AnonymousID=3f9c5251-c139-4d4d-b54f-c18ee2f531a5&displayAsWebView=true"
   },
   "2024-08-13": {
-    "num": 171,
     "category": "Countries with largest orange production",
     "answers": [
       { "text": ["Brazil"], "stat": "16.9 million tonnes" },
@@ -2253,7 +2082,6 @@
     "url": "https://ourworldindata.org/grapher/orange-production?tab=table"
   },
   "2024-08-14": {
-    "num": 172,
     "category": "Languages officially spoken by the most countries",
     "answers": [
       { "text": ["English"], "stat": "58 countries, 31 dependencies" },
@@ -2266,7 +2094,6 @@
     "url": "https://en.wikipedia.org/wiki/Official_language#Statistics"
   },
   "2024-08-15": {
-    "num": 173,
     "category": "Heaviest land mammals",
     "answers": [
       { "text": ["African bush elephant"], "stat": "5,200-10,000 kg" },
@@ -2279,7 +2106,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_heaviest_land_mammals"
   },
   "2024-08-16": {
-    "num": 174,
     "category": "Most populous european countries",
     "answers": [
       { "text": ["Russia"], "stat": "144.4 million" },
@@ -2292,7 +2118,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_European_countries_by_population"
   },
   "2024-08-17": {
-    "num": 175,
     "category": "Highest-paid athletes in the world by total earnings (2024)",
     "answers": [
       { "text": ["Cristiano Ronaldo"], "stat": "$260 million" },
@@ -2305,7 +2130,6 @@
     "url": "https://www.forbes.com/lists/athletes/"
   },
   "2024-08-18": {
-    "num": 176,
     "category": "Countries with the most Starbucks locations",
     "answers": [
       { "text": ["United States of America"], "stat": "15,952 locations" },
@@ -2318,7 +2142,6 @@
     "url": "https://en.wikipedia.org/wiki/Starbucks#Locations"
   },
   "2024-08-19": {
-    "num": 177,
     "category": "Highest grossing Pixar movies",
     "answers": [
         {"text": ["Inside Out 2"], "stat": "$1.65 billion USD"},
@@ -2356,7 +2179,6 @@
     "url": "https://www.the-numbers.com/movies/production-company/Pixar#production_company_movies_overview=od5"
   },
   "2024-08-20": {
-    "num": 178,
     "category": "Major League Baseball franchises with most World Series wins",
     "answers": [
       { "text": ["New York Yankees"], "stat": "27 wins" },
@@ -2369,7 +2191,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_World_Series_champions#World_Series_records_by_franchise"
   },
   "2024-08-21": {
-    "num": 179,
     "category": "Heaviest human organs",
     "answers": [
       { "text": ["Skin"], "stat": "4.5 kg" },
@@ -2382,7 +2203,6 @@
     "url": "https://www.sciencefocus.com/the-human-body/top-10-what-are-the-heaviest-organs-in-the-human-body"
   },
   "2024-08-22": {
-    "num": 180,
     "category": "Countries with the most threatened animal species (as of 2023)",
     "answers": [
       { "text": ["Indonesia"], "stat": "1,230 threatened species" },
@@ -2395,7 +2215,6 @@
     "url": "https://www.iucnredlist.org/statistics"
   },
   "2024-08-23": {
-    "num": 181,
     "category": "Longest Rivers in the United States (by main stem)",
     "answers": [
       { "text": ["Missouri River"], "stat": "2,341 miles" },
@@ -2408,7 +2227,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_longest_rivers_of_the_United_States_(by_main_stem)"
   },
   "2024-08-24": {
-    "num": 182,
     "category": "Actors Who Played James Bond in the Most Movies",
     "answers": [
       { "text": ["Roger Moore", "Sean Connery"], "stat": "7 movies" },
@@ -2421,7 +2239,6 @@
     "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"
   },
   "2024-08-25": {
-    "num": 183,
     "category": "Longest Books of the Bible by Word Count",
     "answers": [
       { "text": ["Jeremiah"], "stat": "33,002 words" },
@@ -2434,7 +2251,6 @@
     "url": "https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible#Longest_books"
   },
   "2024-08-26": {
-    "num": 184,
     "category": "Latest countries to gain independence",
     "answers": [
       { "text": ["South Sudan"], "stat": "2011" },
@@ -2451,7 +2267,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/newest-countries"
   },
   "2024-08-27": {
-    "num": 185,
     "category": "Largest global retail companies (by revenue from retail operations)",
     "answers": [
       { "text": ["Walmart"], "stat": "$559,151 million USD" },
@@ -2485,7 +2300,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_largest_retail_companies"
   },
   "2024-08-28": {
-    "num": 186,
     "category": "Biggest beer companies by volume produced",
     "answers": [
       { "text": ["Anheuser-Busch InBev"], "stat": "505.90 million hL" },
@@ -2507,7 +2321,6 @@
     "url": "https://vinepair.com/booze-news/40-biggest-beer-producers-2024/"
   },
   "2024-08-29": {
-    "num": 187,
     "category": "Largest deserts by area",
     "answers": [
         {"text": ["Antarctic Desert"], "stat": "14,200,000 km² / 5,481,420 mi²"},
@@ -2541,7 +2354,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area"
   },
   "2024-08-30": {
-    "num": 188,
     "category": "Longest Mountain Chains on Earth",
     "answers": [
       {"text": ["Andes"], "stat": "7,000 km"},
@@ -2558,7 +2370,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_longest_mountain_chains_on_Earth"
   },
   "2024-08-31": {
-    "num": 189,
     "category": "Highest-Earning Film Actors for a Single Production",
     "answers": [
       {"text": ["Keanu Reeves"], "stat": "$156 million"},
@@ -2583,7 +2394,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest-paid_film_actors"
   },
   "2024-09-01": {
-    "num": 190,
     "category": "Largest European cities by population within city limits",
     "answers": [
       {"text": ["Moscow"], "stat": "13,149,803"},
@@ -2612,7 +2422,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_European_cities_by_population_within_city_limits"
   },
   "2024-09-02": {
-    "num": 191,
     "category": "Most populous islands in the world",
     "answers": [
       {"text": ["Java"], "stat": "148,756,685"},
@@ -2641,7 +2450,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_islands_by_population"
   },
   "2024-09-03": {
-    "num": 192,
     "category": "Most streamed Queen songs on spotify",
     "answers": [
       {"text": ["Bohemian Rhapsody - Remastered 2011"], "stat": "2,562,088,481"},
@@ -2680,7 +2488,6 @@
     "url": "https://kworb.net/spotify/artist/1dfeR4HaWDbWqFHLkxsg1d_songs.html"
   },
   "2024-09-04": {
-    "num": 193,
     "category": "First countries to reach space",
     "answers": [
         {"text": ["Soviet Union"], "stat": "April 12, 1961"},
@@ -2714,7 +2521,6 @@
     "url": "https://en.wikipedia.org/wiki/Timeline_of_space_travel_by_nationality"
   },
   "2024-09-05": {
-    "num": 194,
     "category": "Football clubs with the most Premier League titles",
     "answers": [
         {"text": ["Manchester United"], "stat": "20"},
@@ -2747,7 +2553,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_football_clubs_in_England_by_competitive_honours_won#Summary_totals"
   },
   "2024-09-06": {
-    "num": 195,
     "category": "Latest Best Animated Feature Oscar winners",
     "answers": [
         {"text": ["The Boy and The Heron"], "stat": "2023"},
@@ -2779,7 +2584,6 @@
     "url": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Animated_Feature"
   },
   "2024-09-07": {
-    "num": 196,
     "category": "Countries with the most Costco locations",
     "answers": [
         {"text": ["United States"], "stat": "611"},
@@ -2802,7 +2606,6 @@
     "url": "https://en.wikipedia.org/wiki/Costco#Locations"
   },
   "2024-09-08": {
-    "num": 197,
     "category": "U.S. presidents with the shortest time in office",
     "answers": [
         {"text": ["William Henry Harrison"], "stat": "31 days"},
@@ -2835,7 +2638,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States_by_time_in_office"
   },
   "2024-09-09": {
-    "num": 198,
     "category": "Countries with the longest paved road networks",
     "answers": [
       {"text": ["China"], "stat": "5,350,000 km"},
@@ -2874,7 +2676,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_road_network_size"
   },
   "2024-09-10": {
-    "num": 199,
     "category": "Airlines by revenue",
     "answers": [
         {"text": ["Delta Air Lines"], "stat": "$60.12 billion"},
@@ -2914,7 +2715,6 @@
     "url": "https://companiesmarketcap.com/airlines/largest-airlines-by-revenue/"
   },
   "2024-09-11": {
-    "num": 200,
     "category": "Production companies with the most movies released",
     "answers": [
         {"text": ["Universal Pictures"], "stat": "331"},
@@ -2957,7 +2757,6 @@
     "url": "https://www.the-numbers.com/movies/production-companies/#production_companies_overview=od1"
   },
   "2024-09-12": {
-    "num": 201,
     "category": "Highest mountains in the world",
     "answers": [
         {"text": ["Mount Everest"], "stat": "8,848 m / 29,029 ft"},
@@ -2997,7 +2796,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth#List_of_world's_highest_peaks"
   },
   "2024-09-13": {
-    "num": 202,
     "category": "Top coffee-drinking countries by average daily cups per capita",
     "answers": [
       {"text": ["Luxembourg"], "stat": "5.31 cups per day"},
@@ -3036,7 +2834,6 @@
     "url": "https://cafely.com/blogs/research/which-country-consumes-the-most-coffee#full-data"
   },
   "2024-09-14": {
-    "num": 203,
     "category": "Largest countries by area in the Americas",
     "answers": [
         {"text": ["Canada"], "stat": "9,984,670 km²"},
@@ -3069,7 +2866,6 @@
     "url": "https://en.wikipedia.org/wiki/Americas#Countries_and_territories"
   },
   "2024-09-15": {
-    "num": 204,
     "category": "Highest grossing Quentin Tarantino Movies by Worldwide Box Office",
     "answers": [
       {"text": ["Django Unchained"], "stat": "$449,841,566"},
@@ -3088,7 +2884,6 @@
     "url": "https://collider.com/every-quentin-tarantino-movie-ranked-by-box-office/"
   },
   "2024-09-16": {
-    "num": 205,
     "category": "Most Produced Shakespeare Plays (Since 2012)",
     "answers": [
       {"text": ["A Midsummer Night's Dream"], "stat": "188 productions"},
@@ -3119,7 +2914,6 @@
     "url": "https://www.shakespeareances.com/wherewill/Play_Popularity_Index.html"
   },
   "2024-09-17": {
-    "num": 206,
     "category": "Best selling novels",
     "answers": [
       {"text": ["Don Quixote"], "stat": "500 million copies"},
@@ -3153,7 +2947,6 @@
     "url": "https://jamesclear.com/best-books/best-selling"
   },
   "2024-09-18": {
-    "num": 207,
     "category": "Most Popular Computer Brands in the US (by %)",
     "answers": [
         {"text": ["HP"], "stat": "32%"},
@@ -3177,7 +2970,6 @@
     "url": "https://www.visualcapitalist.com/what-laptop-brands-do-americans-use-in-2024/"
   },
   "2024-09-19": {
-    "num": 208,
     "category": "U.S. states with the most Fortune 500 company HQs",
     "answers": [
         {"text": ["California"], "stat": "57"},
@@ -3222,7 +3014,6 @@
     "url": "https://www.visualcapitalist.com/map-the-number-of-fortune-500-companies-in-each-u-s-state/"
   },
   "2024-09-20": {
-    "num": 209,
     "category": "Simpsons characters by number of lines",
     "answers": [
       {"text": ["Homer Simpson"], "stat": "29,842 lines"},
@@ -3255,7 +3046,6 @@
     "url": "https://www.reddit.com/r/dataisbeautiful/comments/hv2e4f/simpsons_characters_by_number_of_lines_oc/"
   },
   "2024-09-21": {
-    "num": 210,
     "category": "Most populous countries in Africa",
     "answers": [
         {"text": ["Nigeria"], "stat": "232,679,478"},
@@ -3293,7 +3083,6 @@
     "url": "https://www.worldometers.info/population/countries-in-africa-by-population/"
   },
   "2024-09-22": {
-    "num": 211,
     "category": "Top Grossing Christopher Nolan Films by Box Office",
     "answers": [
       {"text": ["The Dark Knight Rises"], "stat": "$1.085 billion"},
@@ -3314,7 +3103,6 @@
     "url": "https://movieweb.com/christopher-nolan-movies-ranked-by-box-office-performance/"
   },
   "2024-09-23": {
-    "num": 212,
     "category": "Largest pizza chains by number of locations",
     "answers": [
       {"text": ["Domino's"], "stat": "19,519 locations"},
@@ -3342,7 +3130,6 @@
     "url": "https://finance.yahoo.com/news/25-largest-pizza-chains-world-205948170.html"
   },
   "2024-09-24": {
-    "num": 213,
     "category": "Most common birth month in the US (by 2023 births)",
     "answers": [
       {"text": ["August"], "stat": "322,359 births"},
@@ -3363,7 +3150,6 @@
     "url": "https://www.babycenter.com/family/birthdays/most-common-birthday-month_41002206"
   },
   "2024-09-25": {
-    "num": 214,
     "category": "Football clubs with most Premier Leagues games won",
     "answers": [
       {"text": ["Manchester United"], "stat": "746 wins"},
@@ -3392,7 +3178,6 @@
     "url": "https://www.premierleague.com/stats/top/clubs/wins?co=1&se=-1"
   },
   "2024-09-26": {
-    "num": 215,
     "category": "Countries with the largest sugarcane production (UN FAO 2022)",
     "answers": [
         {"text": ["Brazil"], "stat": "724.43 million tonnes"},
@@ -3427,7 +3212,6 @@
     "url": "https://www.fao.org/faostat/en/#data/QCL?regions=5000>&elements=2510&items=156&years=2022&output_type=table&file_type=csv&submit=true"
   },
   "2024-09-27": {
-    "num": 216,
     "category": "Largest LEGO sets by piece count",
     "answers": [
       {"text": ["LEGO Art World Map"], "stat": "11,695 pieces"},
@@ -3455,7 +3239,6 @@
     ]
   },
   "2024-09-28": {
-    "num": 217,
     "category": "Countries with the most chess grandmasters",
     "answers": [
         {"text": ["Russia"], "stat": "256 GMs"},
@@ -3489,7 +3272,6 @@
     "url": "https://ratings.fide.com/topfed.phtml"
   },
   "2024-09-29": {
-    "num": 218,
     "category": "Grossing leading stars by cumulative box office",
     "answers": [
       {"text": ["Samuel L. Jackson"], "stat": "$5,849,181,459"},
@@ -3538,7 +3320,6 @@
     "url": "https://www.the-numbers.com/box-office-star-records/domestic/lifetime-acting/top-grossing-leading-stars"
   },
   "2024-09-30": {
-    "num": 219,
     "category": "Largest countries by area in Asia",
     "answers": [
       {"text": ["Russia"], "stat": "13,083,100 km² (29.3%)"},
@@ -3600,7 +3381,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_Asian_countries_by_area"
   },
   "2024-10-01": {
-    "num": 220,
     "category": "Largest clothing companies by market cap",
     "answers": [
         {"text": ["LVMH"], "stat": "$382,565 million"},
@@ -3639,7 +3419,6 @@
     "url": "https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/"
   },
   "2024-10-02": {
-    "num": 221,
     "category": "Highest paid tennis players in 2024",
     "answers": [
       {"text": ["Carlos Alcaraz"], "stat": "$42.3 million"},
@@ -3658,7 +3437,6 @@
     "url": "https://www.forbes.com/sites/brettknight/2024/08/23/the-worlds-highest-paid-tennis-players-2024/"
   },
   "2024-10-03": {
-    "num": 222,
     "category": "Countries with the highest fertility rates",
     "answers": [
         {"text": ["Niger"], "stat": "6.6 births/woman"},
@@ -3693,7 +3471,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_total_fertility_rate#Country_ranking_by_international_organizations"
   },
   "2024-10-04": {
-    "num": 223,
     "category": "Most watched YouTube videos",
     "answers": [
         {"text": ["Baby Shark Dance"], "stat": "15.12 billion views"},
@@ -3732,7 +3509,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_most-viewed_YouTube_videos#Top_videos"
   },
   "2024-10-05": {
-    "num": 224, 
     "category": "Most used programming languages (Statista, 2024)",
     "answers": [
         {"text": ["JavaScript"], "stat": "62.3%"},
@@ -3789,7 +3565,6 @@
     "url": "https://www.statista.com/statistics/793628/worldwide-developer-survey-most-used-languages/"
   },
   "2024-10-06": {
-    "num": 225,
     "category": "Electronics companies by market cap",
     "answers": [
         {"text": ["Apple"], "stat": "$3,448,289 million"},
@@ -3823,7 +3598,6 @@
     "url": "https://companiesmarketcap.com/electronics/largest-electronic-manufacturing-by-market-cap/"
   },
   "2024-10-07": {
-    "num": 226,
     "category": "Highest-grossing horror movies (adjusted for inflation)",
     "answers": [
         {"text": ["The Exorcist"], "stat": "$2,826,528,589"},
@@ -3847,7 +3621,6 @@
     "url": "https://www.visualcapitalist.com/the-highest-grossing-horror-movies-of-all-time/"
   },
   "2024-10-08": {
-    "num": 227,
     "category": "Top Full-Service Restaurant Chains in America (by 2022 Sales)",
     "answers": [
         {"text": ["Olive Garden"], "stat": "$4,664.30 million"},
@@ -3886,7 +3659,6 @@
     "url": "https://www.fsrmagazine.com/growth/chain-restaurants/the-30-top-full-service-restaurant-chains-in-america/"
   },
   "2024-10-09": {
-    "num": 228,
     "category": "Countries with most foreign-born residents (2024)",
     "answers": [
       {"text": ["United States"], "stat": "50.6 million"},
@@ -3919,7 +3691,6 @@
     "url": "https://worldpopulationreview.com/country-rankings/immigration-by-country"
   },
   "2024-10-10": {
-    "num": 229,
     "category": "Best selling Nintendo consoles",
     "answers": [
         {"text": ["Nintendo DS"], "stat": "154.0 million units"},
@@ -3940,7 +3711,6 @@
     "url": "https://en.wikipedia.org/wiki/List_of_best-selling_game_consoles"
   },
   "2024-10-11": {
-    "num": 230,
     "category": "Countries with the most Pritzker Architecture Prize winners",
     "answers": [
         {"text": ["Japan"], "stat": "9"},
@@ -3968,7 +3738,6 @@
     "url": "https://en.wikipedia.org/wiki/Pritzker_Architecture_Prize"
   },
   "2024-10-12": {
-    "num": 231,
     "category": "Musical artists with the most platinum albums (RIAA)",
     "answers": [
         {"text": ["Elvis Presley"], "stat": "30"},
@@ -4014,7 +3783,6 @@
     "url": "https://en.wikipedia.org/wiki/RIAA_certification#Most_Platinum"
   },
   "2024-10-13": {
-    "num": 232,
     "category": "Highest-grossing Romantic Comedies (by inflation adjusted US box office)",
     "answers": [
       {"text": ["My Big Fat Greek Wedding"], "stat": "$447,053,133"},
@@ -4048,7 +3816,6 @@
     "url": "https://www.the-numbers.com/market/genre/Romantic-Comedy"
   },
   "2024-10-14": {
-    "num": 233,
     "category": "Market share for U.S. movie genres (1995-2024, box office)",
     "answers": [
       {"text": ["Adventure"], "stat": "25.42%"},

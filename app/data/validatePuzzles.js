@@ -46,11 +46,11 @@ const statParser = (stat) => {
 
 
 const skipStatValidationForThesePuzzles = [
-  193 // Dates
+  "2024-09-04" // Dates
 ] 
 
-function validateStatsAreInOrder(puzzle) {
-  if (skipStatValidationForThesePuzzles.includes(puzzle.num)) {
+function validateStatsAreInOrder(puzzle, date) {
+  if (skipStatValidationForThesePuzzles.includes(date)) {
     return
   }
   const answerStats = puzzle.answers.map(answer => statParser(answer.stat));
@@ -67,13 +67,13 @@ function validateStatsAreInOrder(puzzle) {
   if (validateHighestFirst) {
     for (let i = 0; i < allStats.length - 1; i++) {
       if (allStats[i] < allStats[i + 1]) {
-        return `Puzzle ${puzzle.num} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
       }
     }
   } else {
     for (let i = 0; i < allStats.length - 1; i++) {
       if (allStats[i] > allStats[i + 1]) {
-        return `Puzzle ${puzzle.num} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
       }
     }
   }
@@ -95,16 +95,9 @@ function validatePuzzles() {
     }
   }
 
-  const seenNumbers = new Set();
   // Validate puzzles
   for (const date of puzzleDates) {
     const puzzle = puzzles[date];
-
-    // Check for duplicate puzzle numbers
-    if (seenNumbers.has(puzzle.num)) {
-      return `Duplicate puzzle number found: ${puzzle.num}`;
-    }
-    seenNumbers.add(puzzle.num);
 
     // Check if all answers exist in the corresponding optionsKey list
     const isNewOptionsFormat = !!puzzle.options
@@ -124,7 +117,7 @@ function validatePuzzles() {
         // Check if text matches
         const textMatch = answerTextSet.has(option.text);
         if (textMatch) {
-          return `Answer "${option.text}" with stat "${option.stat}" is incorrectly duplicated in options for puzzle: ${puzzle.num}`;
+          return `Answer "${option.text}" with stat "${option.stat}" is incorrectly duplicated in options for puzzle: ${date}`;
         }
       }
 
@@ -135,7 +128,7 @@ function validatePuzzles() {
       // Example 2: "1,200" -> "1200"
       // Example 3: "1,200.50" -> "1200.5"
 
-      const error = validateStatsAreInOrder(puzzle)
+      const error = validateStatsAreInOrder(puzzle, date)
       if (error) {
         return error
       }
@@ -150,7 +143,7 @@ function validatePuzzles() {
 
       // Verify options list is sorted alphabetically
       if (!isSortedAlphabetically(optionList, puzzle.optionsKey)) {
-        return `Puzzle ${puzzle.num} is not sorted`
+        return `Puzzle ${date} is not sorted`
       }
     }
 
