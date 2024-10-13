@@ -4012,5 +4012,39 @@
         {"text": ["Taylor Swift"], "stat": "10"}
     ],
     "url": "https://en.wikipedia.org/wiki/RIAA_certification#Most_Platinum"
+  },
+  "2024-10-13": {
+    "num": 232,
+    "category": "Highest-grossing Romantic Comedies (by inflation adjusted US box office)",
+    "answers": [
+      {"text": ["My Big Fat Greek Wedding"], "stat": "$447,053,133"},
+      {"text": ["There's Something About Mary"], "stat": "$405,338,467"},
+      {"text": ["Jerry Maguire"], "stat": "$369,098,511"},
+      {"text": ["What Women Want"], "stat": "$359,213,887"},
+      {"text": ["As Good as it Gets"], "stat": "$343,359,148"}
+    ],
+    "options": [
+      {"text": ["Runaway Bride"], "stat": "$323,086,000"},
+      {"text": ["Hitch"], "stat": "$298,988,183"},
+      {"text": ["My Best Friend's Wedding"], "stat": "$297,829,463"},
+      {"text": ["You’ve Got Mail"], "stat": "$259,547,678"},
+      {"text": ["Notting Hill"], "stat": "$246,347,772"},
+      {"text": ["Sweet Home Alabama"], "stat": "$235,959,431"},
+      {"text": ["The Proposal"], "stat": "$235,662,345"},
+      {"text": ["Knocked Up"], "stat": "$233,088,922"},
+      {"text": ["Something's Gotta Give"], "stat": "$220,650,570"},
+      {"text": ["Shakespeare in Love"], "stat": "$214,553,424"},
+      {"text": ["50 First Dates"], "stat": "$209,657,687"},
+      {"text": ["Crazy Rich Asians"], "stat": "$206,527,336"},
+      {"text": ["While You Were Sleeping"], "stat": "$200,872,321"},
+      {"text": ["The Break-Up"], "stat": "$195,362,027"},
+      {"text": ["How to Lose a Guy in 10 Days"], "stat": "$189,155,065"},
+      {"text": ["The Wedding Singer"], "stat": "$184,445,390"},
+      {"text": ["The 40 Year-old Virgin"], "stat": "$184,065,945"},
+      {"text": ["America's Sweethearts"], "stat": "$178,284,577"},
+      {"text": ["Grumpier Old Men"], "stat": "$175,635,004"},
+      {"text": ["Maid in Manhattan"], "stat": "$173,093,414"}
+    ],
+    "url": "https://www.the-numbers.com/market/genre/Romantic-Comedy"
   }
 }
