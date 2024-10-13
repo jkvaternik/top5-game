@@ -4046,5 +4046,29 @@
       {"text": ["Maid in Manhattan"], "stat": "$173,093,414"}
     ],
     "url": "https://www.the-numbers.com/market/genre/Romantic-Comedy"
+  },
+  "2024-10-14": {
+    "num": 233,
+    "category": "Market share for U.S. movie genres (1995-2024, box office)",
+    "answers": [
+      {"text": ["Adventure"], "stat": "25.42%"},
+      {"text": ["Action"], "stat": "22.83%"},
+      {"text": ["Drama"], "stat": "14.30%"},
+      {"text": ["Comedy"], "stat": "14.29%"},
+      {"text": ["Thriller/Suspense"], "stat": "7.44%"}
+    ],
+    "options": [
+      {"text": ["Horror"], "stat": "6.01%"},
+      {"text": ["Romantic Comedy"], "stat": "4.52%"},
+      {"text": ["Musical"], "stat": "2.17%"},
+      {"text": ["Black Comedy"], "stat": "1.04%"},
+      {"text": ["Documentary"], "stat": "0.91%"},
+      {"text": ["Western"], "stat": "0.67%"},
+      {"text": ["Concert/Performance"], "stat": "0.26%"},
+      {"text": ["Reality"], "stat": "0.08%"},
+      {"text": ["Multiple Genres"], "stat": "0.03%"},
+      {"text": ["Educational"], "stat": "<0.01%"}
+    ],
+    "url": "https://www.the-numbers.com/market/genres"
   }
 }
