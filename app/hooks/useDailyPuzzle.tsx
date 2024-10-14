@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import puzzlesData from '../data/puzzlesV2.json';
 import optionsData from '../data/options.json';
-import { getCurrentLocalDateAsString } from '../utils';
+import { getCurrentLocalDateAsString, getPuzzleNumber } from '../utils';
 
 export type Answer = {
   text: string[];
@@ -13,7 +13,6 @@ export type RankedAnswer = Answer & {
 }
 
 type PuzzleInput = {
-  num: number;
   category: string;
   answers: Answer[];
   optionsKey?: string;
@@ -47,6 +46,10 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
     const dailyPuzzle: PuzzleInput = puzzles[puzzleDay]
 
     if (dailyPuzzle) {
+
+      // Set puzzle # to the # of days from 2024-02-25 to the puzzleDay
+      const puzzleNumber = getPuzzleNumber(puzzleDay)
+
       if (dailyPuzzle.options) {
         const correctOptions: RankedAnswer[] = dailyPuzzle.answers.map((answer, index) => ({
           ...answer,
@@ -60,12 +63,19 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (day: string | nul
         // Aggregate correct and incorrect options into one list
         const allOptions: RankedAnswer[] = [...correctOptions, ...incorrectOptions]
 
-        setTodayPuzzle({ ...dailyPuzzle, options: undefined, optionsRanked: allOptions })
+        setTodayPuzzle({ 
+          ...dailyPuzzle, 
+          num: puzzleNumber,
+          options: undefined, 
+          optionsRanked: allOptions 
+        })
       } else {
         const optionsList: string[] = options[dailyPuzzle.optionsKey!!]
 
+
         setTodayPuzzle({
           ...dailyPuzzle,
+          num: puzzleNumber,
           options: optionsList
         });
       }

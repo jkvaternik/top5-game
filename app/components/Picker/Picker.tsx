@@ -2,7 +2,7 @@ import React from 'react';
 import { Answer, puzzles } from "../../hooks/useDailyPuzzle";
 
 import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
-import { getCurrentLocalDateAsString } from '@/app/utils';
+import { getCurrentLocalDateAsString, getPuzzleNumber } from '@/app/utils';
 
 interface PickerProps {
   onClick: (key: string) => void;
@@ -95,9 +95,10 @@ const Picker = ({ onClick }: PickerProps) => {
       <div className="grid grid-cols-5 gap-4">
         {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
           if (date !== undefined) {
+            const puzzleNumber = getPuzzleNumber(date)
             return (
               <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(date)}>
-                <span className={`text-md ${getButtonSize(`${puzzles[date].num}`)} flex items-center justify-center`}>{puzzles[date].num}</span>
+                <span className={`text-md ${getButtonSize(`${puzzleNumber}`)} flex items-center justify-center`}>{puzzleNumber}</span>
               </div>
             )
           }

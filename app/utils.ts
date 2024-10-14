@@ -116,4 +116,11 @@ export const isNewVisitor = () => {
   }
 }
 
+export const getPuzzleNumber = (puzzleDay: string) => {
+  const d1 = parseLocalDate("2024-02-25"); // 1st day of puzzles
+  const d2 = parseLocalDate(puzzleDay);
+  const diffTime = Math.abs(d2.getTime() - d1.getTime());
+  return Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+}
+
 export const isCorrect = (guess: string, puzzle: Puzzle | null) => puzzle ? puzzle.answers.flatMap(a => a.text).includes(guess) : false
