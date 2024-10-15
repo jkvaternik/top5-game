@@ -3837,5 +3837,38 @@
       {"text": ["Educational"], "stat": "<0.01%"}
     ],
     "url": "https://www.the-numbers.com/market/genres"
+  },
+  "2024-10-15": {
+    "category": "Largest lakes in the world (by area)",
+    "answers": [
+        {"text": ["Caspian Sea"], "stat": "389,000 km²"},
+        {"text": ["Lake Superior"], "stat": "82,100 km²"},
+        {"text": ["Lake Victoria"], "stat": "59,940 km²"},
+        {"text": ["Lake Huron"], "stat": "59,590 km²"},
+        {"text": ["Lake Michigan"], "stat": "58,030 km²"}
+    ],
+    "options": [
+        {"text": ["Lake Tanganyika"], "stat": "32,900 km²"},
+        {"text": ["Lake Baikal"], "stat": "31,722 km²"},
+        {"text": ["Great Bear Lake"], "stat": "31,153 km²"},
+        {"text": ["Lake Malawi"], "stat": "29,600 km²"},
+        {"text": ["Great Slave Lake"], "stat": "27,200 km²"},
+        {"text": ["Lake Erie"], "stat": "25,667 km²"},
+        {"text": ["Lake Winnipeg"], "stat": "24,514 km²"},
+        {"text": ["Lake Ontario"], "stat": "18,970 km²"},
+        {"text": ["Lake Ladoga"], "stat": "17,700 km²"},
+        {"text": ["Lake Balkhash"], "stat": "16,400 km²"},
+        {"text": ["Lake Vostok"], "stat": "12,500 km²"},
+        {"text": ["Lake Onega"], "stat": "9,700 km²"},
+        {"text": ["Lake Titicaca"], "stat": "8,372 km²"},
+        {"text": ["Lake Nicaragua"], "stat": "8,264 km²"},
+        {"text": ["Lake Athabasca"], "stat": "7,850 km²"},
+        {"text": ["Reindeer Lake"], "stat": "6,650 km²"},
+        {"text": ["Lake Turkana"], "stat": "6,405 km²"},
+        {"text": ["Issyk-Kul Lake"], "stat": "6,236 km²"},
+        {"text": ["Lake Vänern"], "stat": "5,650 km²"},
+        {"text": ["Lake Albert"], "stat": "5,590 km²"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_lakes_by_area"
   }
 }
