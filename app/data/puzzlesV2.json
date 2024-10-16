@@ -3903,5 +3903,27 @@
       {"text": ["Please Come Home For Christmas - Eagles"], "stat": "#25"}
     ],
     "url": "https://www.billboard.com/charts/greatest-of-all-time-holiday-100-songs/"
+  },
+  "2024-10-17": {
+    "category": "Longest running US reality TV shows by years on air",
+    "answers": [
+        {"text": ["Cops"], "stat": "32 years"},
+        {"text": ["The Real World"], "stat": "29 years"},
+        {"text": ["The Challenge"], "stat": "23 years"},
+        {"text": ["Survivor", "Big Brother"], "stat": "21 years"},
+        {"text": ["The Amazing Race"], "stat": "20 years"}
+    ],
+    "options": [
+        {"text": ["The Bachelor", "American Idol"], "stat": "19 years"},
+        {"text": ["The Bachelorette"], "stat": "18 years"},
+        {"text": ["Project Runway"], "stat": "17 years"},
+        {"text": ["Hell's Kitchen"], "stat": "16 years"},
+        {"text": ["America's Next Top Model", "The Real Housewives of Orange County", "Top Chef"], "stat": "15 years"},
+        {"text": ["Keeping Up With The Kardashians", "Say Yes To The Dress", "The X Factor"], "stat": "14 years"},
+        {"text": ["The Real Housewives of New York City"], "stat": "13 years"},
+        {"text": ["The Real Housewives of Atlanta"], "stat": "13 years"},
+        {"text": ["The Real Housewives of New Jersey", "RuPaul's Drag Race"], "stat": "12 years"}
+    ],
+    "url": "https://www.newsweek.com/longest-running-reality-tv-series-1615366"
   }
 }
