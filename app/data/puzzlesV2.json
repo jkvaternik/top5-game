@@ -3870,5 +3870,38 @@
         {"text": ["Lake Albert"], "stat": "5,590 km²"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_lakes_by_area"
+  },
+  "2024-10-16": {
+    "category": "Most popular holiday songs (by Billboard chart rankings)",
+    "answers": [
+      {"text": ["All I Want For Christmas Is You - Mariah Carey"], "stat": "#1"},
+      {"text": ["Rockin' Around The Christmas Tree - Brenda Lee"], "stat": "#2"},
+      {"text": ["Jingle Bell Rock - Bob- Helms"], "stat": "#3"},
+      {"text": ["The Christmas Song (Merry Christmas To You) - Nat \"King\" Cole"], "stat": "#4"},
+      {"text": ["A Holly Jolly Christmas - Burl Ives"], "stat": "#5"}
+    ],
+    "options": [
+      {"text": ["Feliz Navidad - Jose Feliciano"], "stat": "#6"},
+      {"text": ["It's The Most Wonderful Time Of The Year - Andy Williams"], "stat": "#7"},
+      {"text": ["Last Christmas - Wham!"], "stat": "#8"},
+      {"text": ["Let It Snow, Let It Snow, Let It Snow! - Dean Martin"], "stat": "#9"},
+      {"text": ["White Christmas - Bing Crosby With Ken Darby Singers & John Scott Trotter & His Orchestra"], "stat": "#10"},
+      {"text": ["Christmas Eve (Sarajevo 12/24) - Trans-Siberian Orchestra"], "stat": "#11"},
+      {"text": ["Rudolph The Red-Nosed Reindeer - Gene Autry & The Pinafores"], "stat": "#12"},
+      {"text": ["Sleigh Ride - The Ronettes"], "stat": "#13"},
+      {"text": ["It's Beginning To Look A Lot Like Christmas - Michael Buble"], "stat": "#14"},
+      {"text": ["Mary, Did You Know? - Pentatonix"], "stat": "#15"},
+      {"text": ["Happy Xmas (War Is Over) - John & Yoko/The Plastic Ono Band With The Harlem Community Choir"], "stat": "#16"},
+      {"text": ["Mistletoe - Justin Bieber"], "stat": "#17"},
+      {"text": ["Blue Christmas - Elvis Presley"], "stat": "#18"},
+      {"text": ["Santa Tell Me - Ariana Grande"], "stat": "#19"},
+      {"text": ["Wonderful Christmastime - Paul McCartney"], "stat": "#20"},
+      {"text": ["Christmas Canon - Trans-Siberian Orchestra"], "stat": "#21"},
+      {"text": ["Underneath The Tree - Kelly Clarkson"], "stat": "#22"},
+      {"text": ["Happy Holiday / The Holiday Season - Andy Williams"], "stat": "#23"},
+      {"text": ["You're A Mean One, Mr. Grinch - Thurl Ravenscroft"], "stat": "#24"},
+      {"text": ["Please Come Home For Christmas - Eagles"], "stat": "#25"}
+    ],
+    "url": "https://www.billboard.com/charts/greatest-of-all-time-holiday-100-songs/"
   }
 }
