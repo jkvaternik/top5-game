@@ -4044,5 +4044,39 @@
         {"text": ["Louisiana"], "stat": "11 acres"}
     ],
     "url": "https://www.stockingblue.com/article/329/apple-production-in-the-united-states"
+  },
+  "2024-10-20": {
+    "category": "Film franchises with most Oscar nominations",
+    "answers": [
+        {"text": ["Star Wars"], "stat": "38 nominations"},
+        {"text": ["Middle-earth (The Lord of the Rings and The Hobbit)"], "stat": "37 nominations"},
+        {"text": ["Batman"], "stat": "29 nominations"},
+        {"text": ["The Godfather"], "stat": "28 nominations"},
+        {"text": ["Marvel Cinematic Universe"], "stat": "27 nominations"}
+    ],
+    "options": [
+        {"text": ["James Bond"], "stat": "19 nominations"},
+        {"text": ["Star Trek"], "stat": "16 nominations"},
+        {"text": ["Indiana Jones"], "stat": "15 nominations"},
+        {"text": ["Wizarding World"], "stat": "14 nominations"},
+        {"text": ["Avatar"], "stat": "13 nominations"},
+        {"text": ["Tom and Jerry"], "stat": "13 nominations"},
+        {"text": ["Rocky"], "stat": "12 nominations"},
+        {"text": ["Pirates of the Caribbean"], "stat": "11 nominations"},
+        {"text": ["The Sting"], "stat": "11 nominations"},
+        {"text": ["Top Gun"], "stat": "10 nominations"},
+        {"text": ["Alien"], "stat": "10 nominations"},
+        {"text": ["Mickey Mouse"], "stat": "10 nominations"},
+        {"text": ["Spider-Man"], "stat": "8 nominations"},
+        {"text": ["Blade Runner"], "stat": "7 nominations"},
+        {"text": ["Transformers"], "stat": "7 nominations"},
+        {"text": ["Wallace and Gromit"], "stat": "7 nominations"},
+        {"text": ["Shrek"], "stat": "6 nominations"},
+        {"text": ["Back to the Future"], "stat": "5 nominations"},
+        {"text": ["The Incredibles"], "stat": "5 nominations"},
+        {"text": ["The Thin Man"], "stat": "5 nominations"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Academy_Awards#By_franchises"
   }
+
 }
