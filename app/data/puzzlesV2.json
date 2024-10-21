@@ -4077,6 +4077,70 @@
         {"text": ["The Thin Man"], "stat": "5 nominations"}
     ],
     "url": "https://en.wikipedia.org/wiki/Academy_Awards#By_franchises"
+  },
+  "2024-10-21": {
+    "category": "Most traded products by value in the world (2022)",
+    "answers": [
+        {"text": ["Crude Petroleum"], "stat": "$1.45 trillion"},
+        {"text": ["Refined Petroleum"], "stat": "$1.08 trillion"},
+        {"text": ["Integrated Circuits"], "stat": "$961 billion"},
+        {"text": ["Petroleum Gas"], "stat": "$827 billion"},
+        {"text": ["Cars"], "stat": "$782 billion"}
+    ],
+    "options": [
+        {"text": ["Broadcasting Equipment"], "stat": "$571 billion"},
+        {"text": ["Gold"], "stat": "$478 billion"},
+        {"text": ["Packaged Medicaments"], "stat": "$460 billion"},
+        {"text": ["Motor vehicles; parts and accessories (8701 to 8705)"], "stat": "$422 billion"},
+        {"text": ["Computers"], "stat": "$357 billion"},
+        {"text": ["Vaccines, blood, antisera, toxins and cultures"], "stat": "$330 billion"},
+        {"text": ["Office Machine Parts"], "stat": "$299 billion"},
+        {"text": ["Coal Briquettes"], "stat": "$283 billion"},
+        {"text": ["Machinery Having Individual Functions"], "stat": "$212 billion"},
+        {"text": ["Insulated Wire"], "stat": "$162 billion"},
+        {"text": ["Iron Ore"], "stat": "$159 billion"},
+        {"text": ["Medical Instruments"], "stat": "$157 billion"},
+        {"text": ["Delivery Trucks"], "stat": "$157 billion"},
+        {"text": ["Other Plastic Products"], "stat": "$157 billion"},
+        {"text": ["Semiconductor Devices"], "stat": "$156 billion"},
+        {"text": ["Gas Turbines"], "stat": "$150 billion"},
+        {"text": ["Electrical Transformers"], "stat": "$143 billion"},
+        {"text": ["Electricity"], "stat": "$131 billion"},
+        {"text": ["Electric Batteries"], "stat": "$130 billion"},
+        {"text": ["Diamonds"], "stat": "$123 billion"}
+    ],
+    "url": "https://oec.world/en/profile/world/wld#total-trade"
+  },
+  "2024-10-22": {
+    "category": "Football players with the most World Cup appearances",
+    "answers": [
+        {"text": ["Lionel Messi"], "stat": "26 matches"},
+        {"text": ["Lothar Matthäus"], "stat": "25 matches"},
+        {"text": ["Miroslav Klose"], "stat": "24 matches"},
+        {"text": ["Paolo Maldini"], "stat": "23 matches"},
+        {"text": ["Cristiano Ronaldo"], "stat": "22 matches"}
+    ],
+    "options": [
+        {"text": ["Diego Maradona"], "stat": "21 matches"},
+        {"text": ["Uwe Seeler"], "stat": "21 matches"},
+        {"text": ["Władysław Żmuda"], "stat": "21 matches"},
+        {"text": ["Cafu"], "stat": "20 matches"},
+        {"text": ["Philipp Lahm"], "stat": "20 matches"},
+        {"text": ["Grzegorz Lato"], "stat": "20 matches"},
+        {"text": ["Hugo Lloris"], "stat": "20 matches"},
+        {"text": ["Javier Mascherano"], "stat": "20 matches"},
+        {"text": ["Bastian Schweinsteiger"], "stat": "20 matches"},
+        {"text": ["Antoine Griezmann"], "stat": "19 matches"},
+        {"text": ["Rafael Márquez"], "stat": "19 matches"},
+        {"text": ["Per Mertesacker"], "stat": "19 matches"},
+        {"text": ["Luka Modrić"], "stat": "19 matches"},
+        {"text": ["Thomas Müller"], "stat": "19 matches"},
+        {"text": ["Manuel Neuer"], "stat": "19 matches"},
+        {"text": ["Wolfgang Overath"], "stat": "19 matches"},
+        {"text": ["Ronaldo"], "stat": "19 matches"},
+        {"text": ["Karl-Heinz Rummenigge"], "stat": "19 matches"},
+        {"text": ["Berti Vogts"], "stat": "19 matches"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_players_who_have_appeared_in_the_most_FIFA_World_Cups"
   }
-
 }
