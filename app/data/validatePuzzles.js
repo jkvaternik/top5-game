@@ -35,7 +35,9 @@ const statParser = (stat) => {
   
   const parsedNumber = parseFloat(matches[0]);
   
-  if (cleanedStat.toLowerCase().includes('billion')) {
+  if (cleanedStat.toLowerCase().includes('trillion')) {
+    return parsedNumber * 1e12;
+  } else if (cleanedStat.toLowerCase().includes('billion')) {
     return parsedNumber * 1e9;
   } else if (cleanedStat.toLowerCase().includes('million')) {
     return parsedNumber * 1e6;
@@ -67,13 +69,13 @@ function validateStatsAreInOrder(puzzle, date) {
   if (validateHighestFirst) {
     for (let i = 0; i < allStats.length - 1; i++) {
       if (allStats[i] < allStats[i + 1]) {
-        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectly listed before ${allStats[i + 1]}`;
       }
     }
   } else {
     for (let i = 0; i < allStats.length - 1; i++) {
       if (allStats[i] > allStats[i + 1]) {
-        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectlylisted before ${allStats[i + 1]}`;
+        return `Puzzle ${date} is not sorted: ${allStats[i]} is incorrectly listed before ${allStats[i + 1]}`;
       }
     }
   }

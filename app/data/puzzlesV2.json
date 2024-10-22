@@ -4142,5 +4142,42 @@
         {"text": ["Berti Vogts"], "stat": "19 matches"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_players_who_have_appeared_in_the_most_FIFA_World_Cups"
+  },
+  "2024-10-23": {
+    "category": "U.S. states with the highest minimum wage",
+    "answers": [
+        {"text": ["District of Columbia"], "stat": "$17.50"},
+        {"text": ["Washington"], "stat": "$16.28"},
+        {"text": ["California", "New York"], "stat": "$16.00"},
+        {"text": ["Oregon"], "stat": "$15.95"},
+        {"text": ["Connecticut"], "stat": "$15.69"}
+    ],
+    "options": [
+        {"text": ["New Jersey"], "stat": "$15.13"},
+        {"text": ["Massachusetts"], "stat": "$15.00"},
+        {"text": ["Maryland"], "stat": "$15.00"},
+        {"text": ["Colorado"], "stat": "$14.42"},
+        {"text": ["Arizona"], "stat": "$14.35"},
+        {"text": ["Maine"], "stat": "$14.15"},
+        {"text": ["Hawaii"], "stat": "$14.00"},
+        {"text": ["Illinois"], "stat": "$14.00"},
+        {"text": ["Rhode Island"], "stat": "$14.00"},
+        {"text": ["Delaware"], "stat": "$13.25"},
+        {"text": ["Missouri"], "stat": "$12.30"},
+        {"text": ["Nevada"], "stat": "$12.006"},
+        {"text": ["Virginia"], "stat": "$12.00"},
+        {"text": ["Florida"], "stat": "$12.00"},
+        {"text": ["Nebraska"], "stat": "$12.00"},
+        {"text": ["New Mexico"], "stat": "$12.00"},
+        {"text": ["Minnesota"], "stat": "$10.85"},
+        {"text": ["U.S. Virgin Islands"], "stat": "$10.50"},
+        {"text": ["Puerto Rico"], "stat": "$10.50"},
+        {"text": ["Ohio"], "stat": "$10.45"},
+        {"text": ["Michigan"], "stat": "$10.33"},
+        {"text": ["Montana"], "stat": "$10.30"},
+        {"text": ["Guam"], "stat": "$9.25"},
+        {"text": ["West Virginia"], "stat": "$8.75"}
+    ],
+    "url": "https://fred.stlouisfed.org/release/tables?eid=243906&rid=387"
   }
 }
