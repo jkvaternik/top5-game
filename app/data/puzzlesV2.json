@@ -4179,5 +4179,28 @@
         {"text": ["West Virginia"], "stat": "$8.75"}
     ],
     "url": "https://fred.stlouisfed.org/release/tables?eid=243906&rid=387"
+  },
+  "2024-10-24": {
+    "category": "Longest flights in the world by distance",
+    "answers": [
+        {"text": ["New York – Singapore"], "stat": "9,537 miles"},
+        {"text": ["Newark – Singapore"], "stat": "9,535 miles"},
+        {"text": ["Auckland – Doha"], "stat": "9,032 miles"},
+        {"text": ["London – Perth"], "stat": "9,009 miles"},
+        {"text": ["Dallas – Melbourne"], "stat": "8,992 miles"}
+    ],
+    "options": [
+        {"text": ["Paris – Perth"], "stat": "8,863 miles"},
+        {"text": ["Auckland – New York"], "stat": "8,828 miles"},
+        {"text": ["Auckland – Dubai"], "stat": "8,824 miles"},
+        {"text": ["Shenzhen – Mexico City"], "stat": "8,790 miles"},
+        {"text": ["Los Angeles – Singapore"], "stat": "8,770 miles"},
+        {"text": ["Bengaluru – San Francisco"], "stat": "8,701 miles"},
+        {"text": ["Houston – Sydney"], "stat": "8,596 miles"},
+        {"text": ["Sydney – Dallas"], "stat": "8,578 miles"},
+        {"text": ["Singapore – San Francisco"], "stat": "8,446 miles"},
+        {"text": ["Atlanta – Johannesburg"], "stat": "8,439 miles"}
+    ],
+    "url": "https://aviationa2z.com/index.php/2024/08/03/top-15-non-stop-longest-flight-in-the-world/"
   }
 }
