@@ -4202,5 +4202,67 @@
         {"text": ["Atlanta – Johannesburg"], "stat": "8,439 miles"}
     ],
     "url": "https://aviationa2z.com/index.php/2024/08/03/top-15-non-stop-longest-flight-in-the-world/"
+  },
+  "2024-10-25": {
+    "category": "Most popular generative AI platforms (March 2024)",
+    "answers": [
+        {"text": ["ChatGPT"], "stat": "2,343.2 million visits"},
+        {"text": ["Gemini"], "stat": "132.9 million visits"},
+        {"text": ["Poe"], "stat": "43.4 million visits"},
+        {"text": ["Perplexity"], "stat": "40.2 million visits"},
+        {"text": ["Claude"], "stat": "32.3 million visits"}
+    ],
+    "options": [
+        {"text": ["DeepAI"], "stat": "31.1 million visits"},
+        {"text": ["Copilot"], "stat": "26.2 million visits"},
+        {"text": ["Midjourney"], "stat": "24.7 million visits"},
+        {"text": ["Prezi"], "stat": "18.0 million visits"},
+        {"text": ["Nightcafe"], "stat": "13.9 million visits"},
+        {"text": ["Leonardo"], "stat": "13.6 million visits"},
+        {"text": ["Gamma"], "stat": "11.6 million visits"},
+        {"text": ["Pixai"], "stat": "9.6 million visits"},
+        {"text": ["Runway"], "stat": "9.0 million visits"},
+        {"text": ["Ideogram"], "stat": "8.9 million visits"}
+    ],
+    "url": "https://www.visualcapitalist.com/ranked-the-most-popular-generative-ai-tools-in-2024/"
+  },
+  "2024-10-26": {
+    "category": "U.S. staes with the most billionaires",
+    "answers": [
+        {"text": ["California"], "stat": "186"},
+        {"text": ["New York"], "stat": "135"},
+        {"text": ["Florida"], "stat": "78"},
+        {"text": ["Texas"], "stat": "73"},
+        {"text": ["Illinois"], "stat": "23"}
+    ],
+    "options": [
+        {"text": ["Massachusetts"], "stat": "22"},
+        {"text": ["Georgia"], "stat": "18"},
+        {"text": ["Pennsylvania"], "stat": "18"},
+        {"text": ["Nevada"], "stat": "17"},
+        {"text": ["Connecticut"], "stat": "13"},
+        {"text": ["Washington"], "stat": "13"},
+        {"text": ["Colorado"], "stat": "12"},
+        {"text": ["Washington D.C."], "stat": "11"},
+        {"text": ["Maryland"], "stat": "11"},
+        {"text": ["Tennessee"], "stat": "11"},
+        {"text": ["Arizona"], "stat": "11"},
+        {"text": ["Michigan"], "stat": "11"},
+        {"text": ["Oklahoma"], "stat": "8"},
+        {"text": ["Wisconsin"], "stat": "7"},
+        {"text": ["Missouri"], "stat": "7"},
+        {"text": ["Virginia"], "stat": "7"},
+        {"text": ["Ohio"], "stat": "7"},
+        {"text": ["Wyoming"], "stat": "6"},
+        {"text": ["Arkansas"], "stat": "6"},
+        {"text": ["Utah"], "stat": "6"},
+        {"text": ["North Carolina"], "stat": "6"},
+        {"text": ["New Jersey"], "stat": "5"},
+        {"text": ["Montana"], "stat": "4"},
+        {"text": ["Minnesota"], "stat": "4"},
+        {"text": ["Nebraska"], "stat": "3"},
+        {"text": ["Oregon"], "stat": "3"}
+    ],
+    "url": "https://www.visualcapitalist.com/mapped-the-number-of-u-s-billionaires-in-each-state/"
   }
 }
