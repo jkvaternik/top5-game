@@ -4294,5 +4294,44 @@
         {"text": ["Charlotte Douglas International Airport"], "stat": "53,445,770 passengers"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"
+  },
+  "2024-10-28": {
+    "category": "Countries/Areas with the most expensive Big Macs",
+    "answers": [
+        {"text": ["Switzerland"], "stat": "$8.07 USD"},
+        {"text": ["Uruguay"], "stat": "$7.07 USD"},
+        {"text": ["Norway"], "stat": "$6.77 USD"},
+        {"text": ["Argentina"], "stat": "$6.55 USD"},
+        {"text": ["European Union"], "stat": "$6.06 USD"}
+    ],
+    "options": [
+        {"text": ["Britain"], "stat": "$5.90 USD"},
+        {"text": ["Sri Lanka"], "stat": "$5.69 USD"},
+        {"text": ["United States"], "stat": "$5.69 USD"},
+        {"text": ["Denmark"], "stat": "$5.66 USD"},
+        {"text": ["Costa Rica"], "stat": "$5.62 USD"},
+        {"text": ["Sweden"], "stat": "$5.60 USD"},
+        {"text": ["Canada"], "stat": "$5.52 USD"},
+        {"text": ["Poland"], "stat": "$5.27 USD"},
+        {"text": ["Mexico"], "stat": "$5.10 USD"},
+        {"text": ["Australia"], "stat": "$5.06 USD"},
+        {"text": ["Saudi Arabia"], "stat": "$5.06 USD"},
+        {"text": ["New Zealand"], "stat": "$4.99 USD"},
+        {"text": ["Singapore"], "stat": "$4.97 USD"},
+        {"text": ["Colombia"], "stat": "$4.90 USD"},
+        {"text": ["United Arab Emirates"], "stat": "$4.90 USD"},
+        {"text": ["Turkey"], "stat": "$4.68 USD"},
+        {"text": ["Czechia"], "stat": "$4.63 USD"},
+        {"text": ["Kuwait"], "stat": "$4.58 USD"},
+        {"text": ["Peru"], "stat": "$4.55 USD"},
+        {"text": ["Chile"], "stat": "$4.54 USD"},
+        {"text": ["Israel"], "stat": "$4.52 USD"},
+        {"text": ["Bahrain"], "stat": "$4.51 USD"},
+        {"text": ["Nicaragua"], "stat": "$4.34 USD"},
+        {"text": ["Brazil"], "stat": "$4.23 USD"},
+        {"text": ["Honduras"], "stat": "$4.11 USD"},
+        {"text": ["Guatemala"], "stat": "$4.00 USD"}
+    ],
+    "url": "https://www.statista.com/statistics/274326/big-mac-index-global-prices-for-a-big-mac/"
   }
 }
