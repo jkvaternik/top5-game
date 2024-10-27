@@ -4264,5 +4264,35 @@
         {"text": ["Oregon"], "stat": "3"}
     ],
     "url": "https://www.visualcapitalist.com/mapped-the-number-of-u-s-billionaires-in-each-state/"
+  },
+  "2024-10-27": {
+    "category": "Busiest airports by passenger traffic",
+    "answers": [
+        {"text": ["Hartsfield–Jackson Atlanta International Airport"], "stat": "104,653,451 passengers"},
+        {"text": ["Dubai International Airport"], "stat": "86,994,365 passengers"},
+        {"text": ["Dallas Fort Worth International Airport"], "stat": "81,755,538 passengers"},
+        {"text": ["Heathrow Airport"], "stat": "79,183,364 passengers"},
+        {"text": ["Tokyo Haneda Airport"], "stat": "78,719,302 passengers"}
+    ],
+    "options": [
+        {"text": ["Denver International Airport"], "stat": "77,837,917 passengers"},
+        {"text": ["Istanbul Airport"], "stat": "76,027,321 passengers"},
+        {"text": ["Los Angeles International Airport"], "stat": "75,050,875 passengers"},
+        {"text": ["O'Hare International Airport"], "stat": "73,894,226 passengers"},
+        {"text": ["Indira Gandhi International Airport"], "stat": "72,214,841 passengers"},
+        {"text": ["Charles de Gaulle Airport"], "stat": "67,421,316 passengers"},
+        {"text": ["Guangzhou Baiyun International Airport"], "stat": "63,169,169 passengers"},
+        {"text": ["John F. Kennedy International Airport"], "stat": "62,464,331 passengers"},
+        {"text": ["Amsterdam Airport Schiphol"], "stat": "61,889,586 passengers"},
+        {"text": ["Adolfo Suárez Madrid–Barajas Airport"], "stat": "60,181,604 passengers"},
+        {"text": ["Frankfurt Airport"], "stat": "59,355,389 passengers"},
+        {"text": ["Singapore Changi Airport"], "stat": "58,946,000 passengers"},
+        {"text": ["Orlando International Airport"], "stat": "57,735,726 passengers"},
+        {"text": ["Harry Reid International Airport"], "stat": "57,666,456 passengers"},
+        {"text": ["Seoul Incheon International Airport"], "stat": "56,235,412 passengers"},
+        {"text": ["Shanghai Pudong International Airport"], "stat": "54,476,397 passengers"},
+        {"text": ["Charlotte Douglas International Airport"], "stat": "53,445,770 passengers"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"
   }
 }
