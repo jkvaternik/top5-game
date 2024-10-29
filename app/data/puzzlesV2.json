@@ -4335,6 +4335,34 @@
     "url": "https://www.statista.com/statistics/274326/big-mac-index-global-prices-for-a-big-mac/"
   },
   "2024-10-29": {
+    "category": "Top-Grossing Comedy Movies 1995-2024 (Adjusted for Inflation)",
+    "answers": [
+      {"text": ["Barbie"], "stat": "$636,238,421"},
+      {"text": ["Meet the Fockers"], "stat": "$478,288,625"},
+      {"text": ["Austin Powers: The Spy Who Shagged Me"], "stat": "$437,226,785"},
+      {"text": ["Bruce Almighty"], "stat": "$433,890,516"},
+      {"text": ["Liar Liar"], "stat": "$426,058,037"}
+    ],
+    "options": [
+      {"text": ["The Hangover"], "stat": "$398,604,881"},
+      {"text": ["Austin Powers in Goldmember"], "stat": "$395,423,358"},
+      {"text": ["The Waterboy"], "stat": "$369,169,390"},
+      {"text": ["Wedding Crashers"], "stat": "$351,852,409"},
+      {"text": ["Big Daddy"], "stat": "$346,911,848"},
+      {"text": ["The Hangover Part II"], "stat": "$345,917,426"},
+      {"text": ["Meet the Parents"], "stat": "$331,982,616"},
+      {"text": ["Doctor Dolittle"], "stat": "$331,344,774"},
+      {"text": ["Elf"], "stat": "$317,993,539"},
+      {"text": ["The Nutty Professor"], "stat": "$314,166,316"},
+      {"text": ["Scary Movie"], "stat": "$314,039,532"},
+      {"text": ["The Birdcage"], "stat": "$302,573,018"},
+      {"text": ["Patch Adams"], "stat": "$298,065,394"},
+      {"text": ["Ted"], "stat": "$296,132,745"},
+      {"text": ["Beetlejuice Beetlejuice"], "stat": "$288,644,415"}
+    ],
+    "url": "https://www.the-numbers.com/market/genre/Comedy"
+  },
+  "2024-10-30": {
     "category": "Best selling mobile phones of all time",
     "answers": [
         {"text": ["Nokia 1100"], "stat": "250 million units"},
