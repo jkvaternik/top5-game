@@ -4333,5 +4333,33 @@
         {"text": ["Guatemala"], "stat": "$4.00 USD"}
     ],
     "url": "https://www.statista.com/statistics/274326/big-mac-index-global-prices-for-a-big-mac/"
+  },
+  "2024-10-29": {
+    "category": "Best selling mobile phones of all time",
+    "answers": [
+        {"text": ["Nokia 1100"], "stat": "250 million units"},
+        {"text": ["Nokia 1110"], "stat": "248 million units"},
+        {"text": ["iPhone 6/6 Plus"], "stat": "222 million units"},
+        {"text": ["Nokia 105 Series"], "stat": "200 million units"},
+        {"text": ["iPhone 6S/6S Plus"], "stat": "174 million units"}
+    ],
+    "options": [
+        {"text": ["iPhone 5s"], "stat": "165 million units"},
+        {"text": ["Nokia 3210"], "stat": "161 million units"},
+        {"text": ["iPhone 7/7 Plus"], "stat": "160 million units"},
+        {"text": ["iPhone 11/11 Pro/11 Pro Max"], "stat": "159 million units"},
+        {"text": ["iPhone XR/XS/XS Max"], "stat": "151 million units"},
+        {"text": ["Nokia 6600"], "stat": "150 million units"},
+        {"text": ["Nokia 1200"], "stat": "150 million units"},
+        {"text": ["Nokia 5230"], "stat": "150 million units"},
+        {"text": ["Samsung E1100"], "stat": "150 million units"},
+        {"text": ["iPhone 5"], "stat": "146 million units"},
+        {"text": ["Nokia 2600/2610/2626/2630"], "stat": "135 million units"},
+        {"text": ["Motorola RAZR V3"], "stat": "130 million units"},
+        {"text": ["Nokia 1600/1650/1661"], "stat": "130 million units"},
+        {"text": ["Nokia 3310"], "stat": "126 million units"},
+        {"text": ["iPhone 8/8 Plus"], "stat": "125 million units"}
+    ],
+    "url": "https://www.visualcapitalist.com/top-15-most-sold-mobile-phones-all-time/"
   }
 }
