@@ -4389,5 +4389,22 @@
         {"text": ["iPhone 8/8 Plus"], "stat": "125 million units"}
     ],
     "url": "https://www.visualcapitalist.com/top-15-most-sold-mobile-phones-all-time/"
+  },
+  "2024-10-31": {
+    "category": "Most popular chocolate candy brands by weight sold on Instacart (2021)",
+    "answers": [
+      {"text": ["Reese's Peanut Butter Cups"], "stat": "116 tons"},
+      {"text": ["Peanut M&M's"], "stat": "98 tons%"},
+      {"text": ["M&M's"], "stat": "94 tons"},
+      {"text": ["Snickers", "Hershey's Milk"], "stat": "65 tons%"},
+      {"text": ["Twizzlers"], "stat": "56 tons"}
+    ],
+    "options": [
+      {"text": ["KitKat"], "stat": "49 tons"},
+      {"text": ["Twix"], "stat": "48 tons"},
+      {"text": ["Starburst"], "stat": "37 tons"},
+      {"text": ["Milky Way"], "stat": "36 tons"}
+    ],
+    "url": "https://www.instacart.com/company/updates/halloweens-ultimate-candy-contenders/"
   }
 }
