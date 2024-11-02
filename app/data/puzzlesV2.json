@@ -4440,5 +4440,21 @@
         {"text": ["Saving Private Ryan"], "stat": "8.6"}
     ],
     "url": "https://www.imdb.com/chart/top/?sort=user_rating%2Cdesc"
+  },
+  "2024-11-02": {
+    "category": "Most popular desktop brands in the U.S.",
+    "answers": [
+        {"text": ["Dell"], "stat": "29%"},
+        {"text": ["HP"], "stat": "26%"},
+        {"text": ["Apple"], "stat": "20%"},
+        {"text": ["Microsoft"], "stat": "11%"},
+        {"text": ["Acer"], "stat": "9%"}
+    ],
+    "options": [
+        {"text": ["Asus"], "stat": "7%"},
+        {"text": ["Lenovo"], "stat": "6%"},
+        {"text": ["Alienware"], "stat": "6%"}
+    ],
+    "url": "https://proxy.parisjc.edu:8293/chart/24686/desktop-pc-market-share-in-the-us/"
   }
 }
