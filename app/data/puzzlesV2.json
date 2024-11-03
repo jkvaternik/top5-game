@@ -4456,5 +4456,87 @@
         {"text": ["Alienware"], "stat": "6%"}
     ],
     "url": "https://proxy.parisjc.edu:8293/chart/24686/desktop-pc-market-share-in-the-us/"
+  },
+  "2024-11-03": {
+    "category": "U.S. states with highest beer consumption per capita",
+    "answers": [
+        {"text": ["New Hampshire"], "stat": "1.66 gallons"},
+        {"text": ["Montana"], "stat": "1.58 gallons"},
+        {"text": ["Vermont"], "stat": "1.54 gallons"},
+        {"text": ["North Dakota"], "stat": "1.38 gallons"},
+        {"text": ["Pennsylvania"], "stat": "1.33 gallons"}
+    ],
+    "options": [
+        {"text": ["Nevada"], "stat": "1.30 gallons"},
+        {"text": ["Maine"], "stat": "1.28 gallons"},
+        {"text": ["South Dakota"], "stat": "1.26 gallons"},
+        {"text": ["Louisiana"], "stat": "1.24 gallons"},
+        {"text": ["Hawaii"], "stat": "1.23 gallons"},
+        {"text": ["Oregon"], "stat": "1.21 gallons"},
+        {"text": ["Wyoming"], "stat": "1.20 gallons"},
+        {"text": ["Wisconsin"], "stat": "1.19 gallons"},
+        {"text": ["Iowa"], "stat": "1.18 gallons"},
+        {"text": ["New Mexico"], "stat": "1.17 gallons"},
+        {"text": ["Texas"], "stat": "1.15 gallons"},
+        {"text": ["Mississippi"], "stat": "1.14 gallons"},
+        {"text": ["Colorado"], "stat": "1.13 gallons"},
+        {"text": ["District of Columbia"], "stat": "1.13 gallons"},
+        {"text": ["California"], "stat": "1.10 gallons"},
+        {"text": ["West Virginia"], "stat": "1.10 gallons"},
+        {"text": ["Nebraska"], "stat": "1.09 gallons"},
+        {"text": ["Ohio"], "stat": "1.07 gallons"},
+        {"text": ["Kansas"], "stat": "1.06 gallons"},
+        {"text": ["Minnesota"], "stat": "1.06 gallons"},
+        {"text": ["Delaware"], "stat": "1.05 gallons"},
+        {"text": ["Florida"], "stat": "1.04 gallons"},
+        {"text": ["Missouri"], "stat": "1.04 gallons"},
+        {"text": ["Arizona"], "stat": "1.03 gallons"},
+        {"text": ["North Carolina"], "stat": "1.03 gallons"},
+        {"text": ["Tennessee"], "stat": "1.01 gallons"},
+        {"text": ["Illinois"], "stat": "1.00 gallons"},
+        {"text": ["South Carolina"], "stat": "1.00 gallons"},
+        {"text": ["Alaska"], "stat": "0.99 gallons"},
+        {"text": ["Alabama"], "stat": "0.95 gallons"},
+        {"text": ["Indiana"], "stat": "0.95 gallons"},
+        {"text": ["Oklahoma"], "stat": "0.94 gallons"},
+        {"text": ["Michigan"], "stat": "0.93 gallons"},
+        {"text": ["Arkansas"], "stat": "0.92 gallons"},
+        {"text": ["Kentucky"], "stat": "0.92 gallons"},
+        {"text": ["Georgia"], "stat": "0.89 gallons"},
+        {"text": ["Virginia"], "stat": "0.89 gallons"},
+        {"text": ["Washington"], "stat": "0.84 gallons"},
+        {"text": ["New York"], "stat": "0.83 gallons"},
+        {"text": ["Massachusetts"], "stat": "0.80 gallons"},
+        {"text": ["Idaho"], "stat": "0.74 gallons"},
+        {"text": ["New Jersey"], "stat": "0.74 gallons"},
+        {"text": ["Rhode Island"], "stat": "0.74 gallons"},
+        {"text": ["Connecticut"], "stat": "0.72 gallons"},
+        {"text": ["Maryland"], "stat": "0.63 gallons"},
+        {"text": ["Utah"], "stat": "0.50 gallons"}
+    ],
+    "url": "https://www.visualcapitalist.com/mapped-americas-beer-consumption-by-state/"
+  },
+  "2024-11-04": {
+    "category": "Companies with the most startup acquisitions (2000-2024)",
+    "answers": [
+        {"text": ["Alphabet"], "stat": "222 acquisitions"},
+        {"text": ["Microsoft"], "stat": "140 acquisitions"},
+        {"text": ["Cisco Systems"], "stat": "134 acquisitions"},
+        {"text": ["Accenture"], "stat": "119 acquisitions"},
+        {"text": ["Apple"], "stat": "102 acquisitions"}
+    ],
+    "options": [
+        {"text": ["Meta Platforms"], "stat": "98 acquisitions"},
+        {"text": ["IBM"], "stat": "93 acquisitions"},
+        {"text": ["Amazon"], "stat": "76 acquisitions"},
+        {"text": ["Oracle"], "stat": "76 acquisitions"},
+        {"text": ["Salesforce"], "stat": "63 acquisitions"},
+        {"text": ["Intel"], "stat": "57 acquisitions"},
+        {"text": ["Siemens"], "stat": "40 acquisitions"},
+        {"text": ["Qualcomm"], "stat": "34 acquisitions"},
+        {"text": ["Roche Group"], "stat": "32 acquisitions"},
+        {"text": ["Samsung Electronics"], "stat": "32 acquisitions"}
+    ],
+    "url": "https://www.visualcapitalist.com/ranked-the-companies-acquiring-the-most-startups-2000-2024/"
   }
 }
