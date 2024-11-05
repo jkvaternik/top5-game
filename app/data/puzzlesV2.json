@@ -4538,5 +4538,49 @@
         {"text": ["Samsung Electronics"], "stat": "32 acquisitions"}
     ],
     "url": "https://www.visualcapitalist.com/ranked-the-companies-acquiring-the-most-startups-2000-2024/"
+  },
+  "2024-11-05": {
+    "category": "Biggest U.S. presidential election landslides by % of electoral college votes won",
+    "answers": [
+        {"text": ["George Washington (1788–1789, 1792)"], "stat": "100%"},
+        {"text": ["James Monroe (1820)"], "stat": "99.57%"},
+        {"text": ["Franklin D. Roosevelt (1936)"], "stat": "98.49%"},
+        {"text": ["Ronald Reagan (1984)"], "stat": "97.58%"},
+        {"text": ["Richard Nixon (1972)"], "stat": "96.65%"}
+    ],
+    "options": [
+        {"text": ["Thomas Jefferson (1804)"], "stat": "92.05%"},
+        {"text": ["Abraham Lincoln (1864)"], "stat": "90.99%"},
+        {"text": ["Ronald Reagan (1980)"], "stat": "90.89%"},
+        {"text": ["Lyndon B. Johnson (1964)"], "stat": "90.33%"},
+        {"text": ["Franklin D. Roosevelt (1932)"], "stat": "88.89%"},
+        {"text": ["Dwight D. Eisenhower (1956)"], "stat": "86.06%"},
+        {"text": ["Franklin Pierce (1852)"], "stat": "85.81%"},
+        {"text": ["Franklin D. Roosevelt (1940)"], "stat": "84.56%"},
+        {"text": ["James Monroe (1816)"], "stat": "84.33%"},
+        {"text": ["Herbert Hoover (1928)"], "stat": "83.62%"},
+        {"text": ["Dwight D. Eisenhower (1952)"], "stat": "83.24%"},
+        {"text": ["Ulysses S. Grant (1872)"], "stat": "81.95%"},
+        {"text": ["Woodrow Wilson (1912)"], "stat": "81.92%"},
+        {"text": ["Franklin D. Roosevelt (1944)"], "stat": "81.36%"},
+        {"text": ["William Henry Harrison (1840)"], "stat": "79.59%"},
+        {"text": ["George H. W. Bush (1988)"], "stat": "79.18%"},
+        {"text": ["Andrew Jackson (1832)"], "stat": "76.57%"},
+        {"text": ["Warren G. Harding (1920)"], "stat": "76.08%"},
+        {"text": ["Ulysses S. Grant (1868)"], "stat": "72.79%"},
+        {"text": ["Calvin Coolidge (1924)"], "stat": "71.94%"},
+        {"text": ["Theodore Roosevelt (1904)"], "stat": "70.59%"},
+        {"text": ["Bill Clinton (1996)"], "stat": "70.45%"},
+        {"text": ["James Madison (1808)"], "stat": "69.71%"},
+        {"text": ["Bill Clinton (1992)"], "stat": "68.77%"},
+        {"text": ["Andrew Jackson (1828)"], "stat": "68.20%"},
+        {"text": ["Barack Obama (2008)"], "stat": "67.84%"},
+        {"text": ["William Howard Taft (1908)"], "stat": "66.46%"},
+        {"text": ["William McKinley (1900)"], "stat": "65.32%"},
+        {"text": ["Grover Cleveland (1892)"], "stat": "62.39%"},
+        {"text": ["James K. Polk (1844)"], "stat": "61.82%"},
+        {"text": ["Barack Obama (2012)"], "stat": "61.71%"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_Electoral_College_margin"
   }
 }
