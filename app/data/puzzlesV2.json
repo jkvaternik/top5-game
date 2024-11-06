@@ -4584,7 +4584,7 @@
     "url": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_Electoral_College_margin"
   },
   "2024-11-06": {
-    "category": "Top ESPN Athletes of the 21st Century",
+    "category": "Greatest Athletes of the 21st Century (according to ESPN)",
     "answers": [
         {"text": ["Michael Phelps"], "stat": "#1"},
         {"text": ["Serena Williams"], "stat": "#2"},
@@ -4614,6 +4614,5 @@
         {"text": ["Albert Pujols"], "stat": "#24"}
     ],
     "url": "https://www.espn.com/espn/story/_/id/40446224/top-100-athletes-21st-century"
-}
-
+  }
 }
