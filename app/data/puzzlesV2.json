@@ -4582,5 +4582,38 @@
         {"text": ["Barack Obama (2012)"], "stat": "61.71%"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_United_States_presidential_elections_by_Electoral_College_margin"
-  }
+  },
+  "2024-11-06": {
+    "category": "Top ESPN Athletes of the 21st Century",
+    "answers": [
+        {"text": ["Michael Phelps"], "stat": "#1"},
+        {"text": ["Serena Williams"], "stat": "#2"},
+        {"text": ["Lionel Messi"], "stat": "#3"},
+        {"text": ["LeBron James"], "stat": "#4"},
+        {"text": ["Tom Brady"], "stat": "#5"}
+    ],
+    "options": [
+        {"text": ["Roger Federer"], "stat": "#6"},
+        {"text": ["Simone Biles"], "stat": "#7"},
+        {"text": ["Tiger Woods"], "stat": "#8"},
+        {"text": ["Usain Bolt"], "stat": "#9"},
+        {"text": ["Kobe Bryant"], "stat": "#10"},
+        {"text": ["Novak Djokovic"], "stat": "#11"},
+        {"text": ["Rafael Nadal"], "stat": "#12"},
+        {"text": ["Cristiano Ronaldo"], "stat": "#13"},
+        {"text": ["Stephen Curry"], "stat": "#14"},
+        {"text": ["Katie Ledecky"], "stat": "#15"},
+        {"text": ["Tim Duncan"], "stat": "#16"},
+        {"text": ["Shaquille O'Neal"], "stat": "#17"},
+        {"text": ["Patrick Mahomes"], "stat": "#18"},
+        {"text": ["Lewis Hamilton"], "stat": "#19"},
+        {"text": ["Aaron Donald"], "stat": "#20"},
+        {"text": ["Diana Taurasi"], "stat": "#21"},
+        {"text": ["Sidney Crosby"], "stat": "#22"},
+        {"text": ["Kevin Garnett"], "stat": "#23"},
+        {"text": ["Albert Pujols"], "stat": "#24"}
+    ],
+    "url": "https://www.espn.com/espn/story/_/id/40446224/top-100-athletes-21st-century"
+}
+
 }
