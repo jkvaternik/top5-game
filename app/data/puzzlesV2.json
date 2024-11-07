@@ -4614,5 +4614,62 @@
         {"text": ["Albert Pujols"], "stat": "#24"}
     ],
     "url": "https://www.espn.com/espn/story/_/id/40446224/top-100-athletes-21st-century"
+  },
+  "2024-11-07": {
+    "category": "Most populous cities in North America",
+    "answers": [
+        {"text": ["Mexico City, Mexico"], "stat": "9,209,942 ppl."},
+        {"text": ["New York City, United States"], "stat": "8,335,898 ppl."},
+        {"text": ["Los Angeles, United States"], "stat": "3,822,235 ppl."},
+        {"text": ["Toronto, Canada"], "stat": "3,025,657 ppl."},
+        {"text": ["Chicago, United States"], "stat": "2,665,039 ppl."}
+    ],
+    "options": [
+        {"text": ["Houston, United States"], "stat": "2,314,157 ppl."},
+        {"text": ["Havana, Cuba"], "stat": "2,137,847 ppl."},
+        {"text": ["Tijuana, Mexico"], "stat": "1,810,645 ppl."},
+        {"text": ["Montreal, Canada"], "stat": "1,791,512 ppl."},
+        {"text": ["Ecatepec de Morelos, Mexico"], "stat": "1,643,623 ppl."},
+        {"text": ["Phoenix, United States"], "stat": "1,644,409 ppl."},
+        {"text": ["Philadelphia, United States"], "stat": "1,567,258 ppl."},
+        {"text": ["Puebla, Mexico"], "stat": "1,542,232 ppl."},
+        {"text": ["Juárez, Mexico"], "stat": "1,501,551 ppl."},
+        {"text": ["Zapopan, Mexico"], "stat": "1,476,491 ppl."},
+        {"text": ["San Antonio, United States"], "stat": "1,472,909 ppl."},
+        {"text": ["Calgary, Canada"], "stat": "1,413,800 ppl."},
+        {"text": ["Guadalajara, Mexico"], "stat": "1,385,621 ppl."},
+        {"text": ["San Diego, United States"], "stat": "1,381,162 ppl."},
+        {"text": ["Dallas, United States"], "stat": "1,299,544 ppl."},
+        {"text": ["Guatemala City, Guatemala"], "stat": "1,221,739 ppl."},
+        {"text": ["Port-au-Prince, Haiti"], "stat": "1,200,000 ppl."},
+        {"text": ["Monterrey, Mexico"], "stat": "1,142,952 ppl."},
+        {"text": ["Tegucigalpa, Honduras"], "stat": "1,132,000 ppl."}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_North_American_cities_by_population"
+  },
+  "2024-11-08": {
+    "category": "Most Bikeable Cities in the U.S.",
+    "answers": [
+        {"text": ["Portland, OR", "Minneapolis, MN"], "stat": "Bikeability Score: 83"},
+        {"text": ["Salt Lake City, UT"], "stat": "Bikeability Score: 74"},
+        {"text": ["San Francisco, CA", "Chicago, IL", "Denver, CO"], "stat": "Bikeability Score: 72"},
+        {"text": ["Seattle, WA"], "stat": "Bikeability Score: 71"}
+    ],
+    "options": [
+        {"text": ["Washington, DC"], "stat": "Bikeability Score: 70"},
+        {"text": ["New York, NY"], "stat": "Bikeability Score: 69"},
+        {"text": ["Boston, MA"], "stat": "Bikeability Score: 69"},
+        {"text": ["Philadelphia, PA"], "stat": "Bikeability Score: 67"},
+        {"text": ["Sacramento, CA"], "stat": "Bikeability Score: 67"},
+        {"text": ["New Orleans, LA"], "stat": "Bikeability Score: 66"},
+        {"text": ["Los Angeles, CA"], "stat": "Bikeability Score: 59"},
+        {"text": ["Milwaukee, WI"], "stat": "Bikeability Score: 58"},
+        {"text": ["Orlando, FL"], "stat": "Bikeability Score: 57"},
+        {"text": ["Tampa, FL"], "stat": "Bikeability Score: 55"},
+        {"text": ["Austin, TX"], "stat": "Bikeability Score: 54"},
+        {"text": ["Richmond, VA"], "stat": "Bikeability Score: 51"},
+        {"text": ["San Diego, CA"], "stat": "Bikeability Score: 43"}
+    ],
+    "url": "https://anytimeestimate.com/research/most-bike-friendly-cities-us-2022/"
   }
 }
