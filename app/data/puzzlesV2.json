@@ -4653,7 +4653,8 @@
         {"text": ["Portland, OR", "Minneapolis, MN"], "stat": "Bikeability Score: 83"},
         {"text": ["Salt Lake City, UT"], "stat": "Bikeability Score: 74"},
         {"text": ["San Francisco, CA", "Chicago, IL", "Denver, CO"], "stat": "Bikeability Score: 72"},
-        {"text": ["Seattle, WA"], "stat": "Bikeability Score: 71"}
+        {"text": ["Seattle, WA"], "stat": "Bikeability Score: 71"},
+        {"text": ["Washington, DC"], "stat": "Bikeability Score: 70"}
     ],
     "options": [
         {"text": ["Washington, DC"], "stat": "Bikeability Score: 70"},
