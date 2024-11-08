@@ -4657,7 +4657,6 @@
         {"text": ["Washington, DC"], "stat": "Bikeability Score: 70"}
     ],
     "options": [
-        {"text": ["Washington, DC"], "stat": "Bikeability Score: 70"},
         {"text": ["New York, NY"], "stat": "Bikeability Score: 69"},
         {"text": ["Boston, MA"], "stat": "Bikeability Score: 69"},
         {"text": ["Philadelphia, PA"], "stat": "Bikeability Score: 67"},
