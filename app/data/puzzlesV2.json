@@ -4629,8 +4629,8 @@
         {"text": ["Havana, Cuba"], "stat": "2,137,847 ppl."},
         {"text": ["Tijuana, Mexico"], "stat": "1,810,645 ppl."},
         {"text": ["Montreal, Canada"], "stat": "1,791,512 ppl."},
-        {"text": ["Ecatepec de Morelos, Mexico"], "stat": "1,643,623 ppl."},
         {"text": ["Phoenix, United States"], "stat": "1,644,409 ppl."},
+        {"text": ["Ecatepec de Morelos, Mexico"], "stat": "1,643,623 ppl."},
         {"text": ["Philadelphia, United States"], "stat": "1,567,258 ppl."},
         {"text": ["Puebla, Mexico"], "stat": "1,542,232 ppl."},
         {"text": ["Juárez, Mexico"], "stat": "1,501,551 ppl."},
@@ -4671,5 +4671,34 @@
         {"text": ["San Diego, CA"], "stat": "Bikeability Score: 43"}
     ],
     "url": "https://anytimeestimate.com/research/most-bike-friendly-cities-us-2022/"
+  },
+  "2024-11-09": {
+    "category": "Countries with highest crude oil production",
+    "answers": [
+        {"text": ["United States"], "stat": "13,308,000 bbl/day"},
+        {"text": ["Russia (OPEC+)"], "stat": "10,272,000 bbl/day"},
+        {"text": ["Saudi Arabia (OPEC)"], "stat": "8,950,000 bbl/day"},
+        {"text": ["Canada"], "stat": "4,990,000 bbl/day"},
+        {"text": ["Iraq (OPEC)"], "stat": "4,445,000 bbl/day"}
+    ],
+    "options": [
+        {"text": ["China"], "stat": "4,173,000 bbl/day"},
+        {"text": ["Iran (OPEC)"], "stat": "4,084,000 bbl/day"},
+        {"text": ["Brazil"], "stat": "3,585,000 bbl/day"},
+        {"text": ["United Arab Emirates (OPEC)"], "stat": "3,300,000 bbl/day"},
+        {"text": ["Kuwait (OPEC)"], "stat": "2,644,000 bbl/day"},
+        {"text": ["Mexico (OPEC+)"], "stat": "1,903,000 bbl/day"},
+        {"text": ["Kazakhstan (OPEC+)"], "stat": "1,897,000 bbl/day"},
+        {"text": ["Norway"], "stat": "1,894,000 bbl/day"},
+        {"text": ["Nigeria (OPEC)"], "stat": "1,573,000 bbl/day"},
+        {"text": ["Qatar"], "stat": "1,305,000 bbl/day"},
+        {"text": ["Libya (OPEC)"], "stat": "1,248,000 bbl/day"},
+        {"text": ["Angola"], "stat": "1,235,000 bbl/day"},
+        {"text": ["Algeria (OPEC)"], "stat": "1,160,000 bbl/day"},
+        {"text": ["Oman (OPEC+)"], "stat": "1,040,000 bbl/day"},
+        {"text": ["Colombia"], "stat": "787,000 bbl/day"},
+        {"text": ["Venezuela (OPEC)"], "stat": "770,000 bbl/day"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_production"
   }
 }
