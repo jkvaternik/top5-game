@@ -4700,5 +4700,38 @@
         {"text": ["Venezuela (OPEC)"], "stat": "770,000 bbl/day"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_production"
+  },
+  "2024-11-10": {
+    "category": "Smallest countries by area",
+    "answers": [
+        {"text": ["Vatican City"], "stat": "0.19 mi² (0.49 km²)"},
+        {"text": ["Monaco"], "stat": "0.78 mi² (2.02 km²)"},
+        {"text": ["Nauru"], "stat": "8.1 mi² (21 km²)"},
+        {"text": ["Tuvalu"], "stat": "10 mi² (26 km²)"},
+        {"text": ["San Marino"], "stat": "24 mi² (61 km²)"}
+    ],
+    "options": [
+        {"text": ["Liechtenstein"], "stat": "62 mi² (160 km²)"},
+        {"text": ["Marshall Islands"], "stat": "70 mi² (181 km²)"},
+        {"text": ["Saint Kitts and Nevis"], "stat": "101 mi² (261 km²)"},
+        {"text": ["Maldives"], "stat": "120 mi² (311 km²)"},
+        {"text": ["Malta"], "stat": "122 mi² (316 km²)"},
+        {"text": ["Grenada"], "stat": "133 mi² (344 km²)"},
+        {"text": ["Saint Vincent and the Grenadines"], "stat": "150 mi² (389 km²)"},
+        {"text": ["Barbados"], "stat": "170 mi² (439 km²)"},
+        {"text": ["Antigua and Barbuda"], "stat": "171 mi² (442 km²)"},
+        {"text": ["Seychelles"], "stat": "175 mi² (452 km²)"},
+        {"text": ["Palau"], "stat": "177 mi² (459 km²)"},
+        {"text": ["Andorra"], "stat": "181 mi² (468 km²)"},
+        {"text": ["Saint Lucia"], "stat": "238 mi² (617 km²)"},
+        {"text": ["Federated States of Micronesia"], "stat": "271 mi² (702 km²)"},
+        {"text": ["Singapore"], "stat": "280 mi² (725 km²)"},
+        {"text": ["Tonga"], "stat": "288 mi² (747 km²)"},
+        {"text": ["Dominica"], "stat": "290 mi² (751 km²)"},
+        {"text": ["Bahrain"], "stat": "300 mi² (777 km²)"},
+        {"text": ["Kiribati"], "stat": "313 mi² (811 km²)"},
+        {"text": ["São Tomé and Príncipe"], "stat": "372 mi² (964 km²)"}
+    ],
+    "url": "https://www.visualcapitalist.com/worlds-100-smallest-countries/"
   }
 }
