@@ -4825,5 +4825,33 @@
         {"text": ["West Virginia"], "stat": "$167,110"}
     ],
     "url": "https://www.visualcapitalist.com/mapped-median-home-sale-price-by-u-s-state/"
+  },
+  "2024-11-13": {
+    "category": "Chocolate exporters by country",
+    "answers": [
+        {"text": ["Germany"], "stat": "$5.6 billion (16.7%)"},
+        {"text": ["Belgium"], "stat": "$3.0 billion (9.0%)"},
+        {"text": ["Italy"], "stat": "$2.5 billion (7.3%)"},
+        {"text": ["Poland"], "stat": "$2.4 billion (7.1%)"},
+        {"text": ["Netherlands"], "stat": "$2.1 billion (6.3%)"}
+    ],
+    "options": [
+        {"text": ["Canada"], "stat": "$2.0 billion (5.9%)"},
+        {"text": ["U.S."], "stat": "$1.7 billion (5.1%)"},
+        {"text": ["France"], "stat": "$1.5 billion (4.3%)"},
+        {"text": ["UK"], "stat": "$1.0 billion (3.0%)"},
+        {"text": ["Switzerland"], "stat": "$0.9 billion (2.7%)"},
+        {"text": ["Türkiye"], "stat": "$0.9 billion (2.5%)"},
+        {"text": ["Spain"], "stat": "$0.6 billion (1.9%)"},
+        {"text": ["Russia"], "stat": "$0.6 billion (1.8%)"},
+        {"text": ["Austria"], "stat": "$0.6 billion (1.7%)"},
+        {"text": ["Sweden"], "stat": "$0.4 billion (1.3%)"},
+        {"text": ["China"], "stat": "$0.4 billion (1.2%)"},
+        {"text": ["Malaysia"], "stat": "$0.4 billion (1.1%)"},
+        {"text": ["Ireland"], "stat": "$0.3 billion (1.0%)"},
+        {"text": ["Bulgaria"], "stat": "$0.3 billion (0.8%)"},
+        {"text": ["Croatia"], "stat": "$0.2 billion (0.7%)"}
+    ],
+    "url": "https://www.visualcapitalist.com/worlds-biggest-chocolate-exporters/"
   }
 }
