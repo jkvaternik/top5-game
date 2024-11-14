@@ -4917,5 +4917,82 @@
         {"text": ["Poland"], "stat": "9,483 thousand ha"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_forest_area#Countries_and_territories"
+  },
+  "2024-11-15": {
+    "category": "Longest-running video game franchises",
+    "answers": [
+        {"text": ["Space Invaders"], "stat": "45 years, 1 month"},
+        {"text": ["Mario"], "stat": "43 years, 3 months"},
+        {"text": ["The Oregon Trail"], "stat": "42 years, 11 months"},
+        {"text": ["Donkey Kong"], "stat": "42 years, 7 months"},
+        {"text": ["Pac-Man"], "stat": "42 years, 1 month"}
+    ],
+    "options": [
+        {"text": ["Wizardry"], "stat": "42 years"},
+        {"text": ["Bomberman"], "stat": "40 years, 2 months"},
+        {"text": ["Nobunaga's Ambition"], "stat": "39 years, 4 months"},
+        {"text": ["Galaxian"], "stat": "39 years, 3 months"},
+        {"text": ["Romance of the Three Kingdoms"], "stat": "38 years, 10 months"},
+        {"text": ["The Legend of Zelda"], "stat": "38 years, 7 months"},
+        {"text": ["Dragon Slayer"], "stat": "38 years"},
+        {"text": ["Castlevania"], "stat": "37 years, 11 months"},
+        {"text": ["Wolfenstein"], "stat": "37 years, 10 months"},
+        {"text": ["Microsoft Flight Simulator"], "stat": "37 years, 9 months"},
+        {"text": ["Test Drive"], "stat": "37 years, 8 months"},
+        {"text": ["Dragon Quest"], "stat": "37 years, 6 months"},
+        {"text": ["BurgerTime"], "stat": "37 years, 1 month"},
+        {"text": ["Contra"], "stat": "37 years"},
+        {"text": ["Q*bert"], "stat": "36 years, 11 months"},
+        {"text": ["Bubble Bobble"], "stat": "36 years, 9 months"},
+        {"text": ["Tetris"], "stat": "36 years, 9 months"},
+        {"text": ["Kunio-kun"], "stat": "36 years, 7 months"},
+        {"text": ["Arkanoid"], "stat": "36 years, 6 months"},
+        {"text": ["Metroid"], "stat": "36 years, 6 months"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_longest-running_video_game_franchises"
+  },
+  "2024-11-16": {
+    "category": "Artists with Most MTV Video Music Awards",
+    "answers": [
+        {"text": ["Taylor Swift"], "stat": "30 awards"},
+        {"text": ["Beyoncé"], "stat": "27 awards"},
+        {"text": ["Madonna"], "stat": "20 awards"},
+        {"text": ["Lady Gaga"], "stat": "18 awards"},
+        {"text": ["Eminem"], "stat": "15 awards"}
+    ],
+    "options": [
+        {"text": ["Peter Gabriel"], "stat": "13 awards"},
+        {"text": ["R.E.M."], "stat": "12 awards"},
+        {"text": ["Justin Timberlake"], "stat": "11 awards"},
+        {"text": ["Green Day"], "stat": "11 awards"},
+        {"text": ["Ariana Grande"], "stat": "10 awards"},
+        {"text": ["Aerosmith"], "stat": "10 awards"},
+        {"text": ["BTS"], "stat": "10 awards"},
+        {"text": ["Fatboy Slim"], "stat": "9 awards"},
+        {"text": ["Janet Jackson"], "stat": "9 awards"},
+        {"text": ["Red Hot Chili Peppers"], "stat": "9 awards"},
+        {"text": ["A-ha"], "stat": "8 awards"},
+        {"text": ["Lil Nas X"], "stat": "8 awards"},
+        {"text": ["Michael Jackson"], "stat": "8 awards"},
+        {"text": ["Nicki Minaj"], "stat": "8 awards"},
+        {"text": ["Kendrick Lamar"], "stat": "8 awards"},
+        {"text": ["Rihanna"], "stat": "7 awards"},
+        {"text": ["NSYNC"], "stat": "7 awards"},
+        {"text": ["The Smashing Pumpkins"], "stat": "7 awards"},
+        {"text": ["Jay-Z"], "stat": "7 awards"},
+        {"text": ["Katy Perry"], "stat": "7 awards"},
+        {"text": ["P!nk"], "stat": "7 awards"},
+        {"text": ["En Vogue"], "stat": "7 awards"},
+        {"text": ["Billie Eilish"], "stat": "7 awards"},
+        {"text": ["Coldplay"], "stat": "7 awards"},
+        {"text": ["Beck"], "stat": "6 awards"},
+        {"text": ["Post Malone"], "stat": "6 awards"},
+        {"text": ["Britney Spears"], "stat": "6 awards"},
+        {"text": ["Justin Bieber"], "stat": "6 awards"},
+        {"text": ["Missy Elliott"], "stat": "6 awards"},
+        {"text": ["Shakira"], "stat": "6 awards"},
+        {"text": ["U2"], "stat": "6 awards"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/MTV_Video_Music_Awards#Most_wins_overall"
   }
 }
