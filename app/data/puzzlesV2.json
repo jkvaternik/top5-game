@@ -4994,5 +4994,96 @@
         {"text": ["U2"], "stat": "6 awards"}
     ],
     "url": "https://en.wikipedia.org/wiki/MTV_Video_Music_Awards#Most_wins_overall"
+  },
+  "2024-11-17": {
+    "category": "Largest software companies by market capitalization",
+    "answers": [
+      {"text": ["Apple"], "stat": "$3.401 trillion USD"},
+      {"text": ["Microsoft"], "stat": "$3.085 trillion USD"},
+      {"text": ["Alphabet (Google)"], "stat": "$2.116 trillion USD"},
+      {"text": ["Oracle"], "stat": "$509.15 billion USD"},
+      {"text": ["Salesforce"], "stat": "$310.94 billion USD"}
+    ],
+    "options": [
+      {"text": ["SAP"], "stat": "$268.13 billion USD"},
+      {"text": ["Adobe"], "stat": "$221.58 billion USD"},
+      {"text": ["ServiceNow"], "stat": "$208.66 billion USD"},
+      {"text": ["Intuit"], "stat": "$192.80 billion USD"},
+      {"text": ["IBM"], "stat": "$189.54 billion USD"},
+      {"text": ["Palantir"], "stat": "$149.82 billion USD"},
+      {"text": ["Schneider Electric"], "stat": "$143.72 billion USD"},
+      {"text": ["Shopify"], "stat": "$140.90 billion USD"},
+      {"text": ["Palo Alto Networks"], "stat": "$126.64 billion USD"},
+      {"text": ["Automatic Data Processing"], "stat": "$121.27 billion USD"},
+      {"text": ["AppLovin"], "stat": "$97.68 billion USD"},
+      {"text": ["CrowdStrike"], "stat": "$82.54 billion USD"},
+      {"text": ["Synopsys"], "stat": "$79.99 billion USD"},
+      {"text": ["Cadence Design Systems"], "stat": "$79.45 billion USD"},
+      {"text": ["Fortinet"], "stat": "$72.19 billion USD"},
+      {"text": ["MicroStrategy"], "stat": "$71.80 billion USD"},
+      {"text": ["Workday"], "stat": "$68.74 billion USD"},
+      {"text": ["Constellation Software"], "stat": "$66.49 billion USD"},
+      {"text": ["Autodesk"], "stat": "$64.46 billion USD"},
+      {"text": ["Atlassian"], "stat": "$62.51 billion USD"}
+    ],
+    "url": "https://companiesmarketcap.com/software/largest-software-companies-by-market-cap/"
+  },
+  "2024-11-18": {
+    "category": "Most populous metropolitan areas in South America",
+    "answers": [
+      {"text": ["São Paulo"], "stat": "21,090,792"},
+      {"text": ["Buenos Aires"], "stat": "13,693,657"},
+      {"text": ["Rio de Janeiro"], "stat": "12,280,702"},
+      {"text": ["Lima"], "stat": "9,904,727"},
+      {"text": ["Bogotá"], "stat": "9,286,225"}
+    ],
+    "options": [
+      {"text": ["Santiago"], "stat": "6,683,852"},
+      {"text": ["Belo Horizonte"], "stat": "5,829,923"},
+      {"text": ["Caracas"], "stat": "5,322,310"},
+      {"text": ["Porto Alegre"], "stat": "4,258,926"},
+      {"text": ["Brasília"], "stat": "4,201,737"},
+      {"text": ["Fortaleza"], "stat": "3,985,297"},
+      {"text": ["Salvador"], "stat": "3,953,290"},
+      {"text": ["Recife"], "stat": "3,914,397"},
+      {"text": ["Medellín"], "stat": "3,777,009"},
+      {"text": ["Curitiba"], "stat": "3,502,804"},
+      {"text": ["Campinas"], "stat": "3,094,181"},
+      {"text": ["Guayaquil"], "stat": "2,952,159"},
+      {"text": ["Cali"], "stat": "2,911,278"},
+      {"text": ["Quito"], "stat": "2,653,330"},
+      {"text": ["Maracaibo"], "stat": "2,576,836"},
+      {"text": ["Manaus"], "stat": "2,523,819"},
+      {"text": ["Asunción"], "stat": "2,482,760"},
+      {"text": ["Paraíba Valley and North Coast"], "stat": "2,453,387"},
+      {"text": ["Goiânia"], "stat": "2,421,833"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_South_American_metropolitan_areas_by_population"
+  },
+  "2024-11-19": {
+    "category": "First countries to grant women the right to vote",
+    "answers": [
+      {"text": ["New Zealand"], "stat": "1893"},
+      {"text": ["Australia"], "stat": "1902"},
+      {"text": ["Finland"], "stat": "1906"},
+      {"text": ["Norway"], "stat": "1913"},
+      {"text": ["Denmark", "Iceland"], "stat": "1915"}
+    ],
+    "options": [
+      {"text": ["Estonia"], "stat": "1917"},
+      {"text": ["Latvia"], "stat": "1917"},
+      {"text": ["Lithuania"], "stat": "1917"},
+      {"text": ["Belarus"], "stat": "1917"},
+      {"text": ["Ukraine"], "stat": "1917"},
+      {"text": ["Russia"], "stat": "1917"},
+      {"text": ["Uruguay"], "stat": "1917"},
+      {"text": ["Austria"], "stat": "1918"},
+      {"text": ["Germany"], "stat": "1918"},
+      {"text": ["Poland"], "stat": "1918"},
+      {"text": ["Azerbaijan"], "stat": "1918"},
+      {"text": ["Kyrgyzstan"], "stat": "1918"},
+      {"text": ["Soviet Union"], "stat": "1918"}
+    ],
+    "url": "https://sos.oregon.gov/archives/exhibits/suffrage/Pages/timeline-international.aspx"
   }
 }
