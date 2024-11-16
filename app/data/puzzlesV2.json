@@ -5867,35 +5867,7 @@
     ],
     "url": "https://www.qsrmagazine.com/growth/finance/ranked-the-top-50-fast-food-chains-in-america/"
  },
-  "2024-12-14": {
-    "category": "",
-    "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
-    ],
-    "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
-    ],
-    "url": ""
-  },
-  "2024-12-15": {
+ "2024-12-14": {
     "category": "Most populous Chinese cities",
     "answers": [
         {"text": ["Shanghai"], "stat": "21,909,814 people"},
