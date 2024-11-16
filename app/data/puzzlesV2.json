@@ -5150,32 +5150,39 @@
     "url": "https://en.wikipedia.org/wiki/List_of_epidemics_and_pandemics"
   },
   "2024-11-22": {
-    "category": "Most MVPs in american sports",
+    "category": "Most MVPs in American sports",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Wayne Gretzky"], "stat": "9 MVPs"},
+        {"text": ["Barry Bonds"], "stat": "7 MVPs"},
+        {"text": ["Kareem Abdul-Jabbar", "Gordie Howe"], "stat": "6 MVPs"},
+        {"text": ["Michael Jordan", "Peyton Manning", "Bill Russell"], "stat": "5 MVPs"},
+        {"text": ["Wilt Chamberlain", "LeBron James", "Aaron Rodgers", "Eddie Shore"], "stat": "4 MVPs"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Larry Bird"], "stat": "3 MVPs"},
+        {"text": ["Magic Johnson"], "stat": "3 MVPs"},
+        {"text": ["Nikola Jokić"], "stat": "3 MVPs"},
+        {"text": ["Moses Malone"], "stat": "3 MVPs"},
+        {"text": ["Tom Brady"], "stat": "3 MVPs"},
+        {"text": ["Alex Rodriguez"], "stat": "3 MVPs"},
+        {"text": ["Albert Pujols"], "stat": "3 MVPs"},
+        {"text": ["Mike Trout"], "stat": "3 MVPs"},
+        {"text": ["Jimmie Foxx"], "stat": "3 MVPs"},
+        {"text": ["Joe DiMaggio"], "stat": "3 MVPs"},
+        {"text": ["Stan Musial"], "stat": "3 MVPs"},
+        {"text": ["Yogi Berra"], "stat": "3 MVPs"},
+        {"text": ["Roy Campanella"], "stat": "3 MVPs"},
+        {"text": ["Mickey Mantle"], "stat": "3 MVPs"},
+        {"text": ["Mike Schmidt"], "stat": "3 MVPs"},
+        {"text": ["Connor McDavid"], "stat": "3 MVPs"},
+        {"text": ["Bobby Orr"], "stat": "3 MVPs"},
+        {"text": ["Bobby Clarke"], "stat": "3 MVPs"},
+        {"text": ["Jim Brown"], "stat": "3 MVPs"},
+        {"text": ["Johnny Unitas"], "stat": "3 MVPs"},
+        {"text": ["Brett Favre"], "stat": "3 MVPs"},
+        {"text": ["Babe Ruth"], "stat": "1 MVP"}
     ],
-    "url": ""
+"url": ""
   },
   "2024-11-23": {
     "category": "Top gas station chains in the United States by number of locations",
