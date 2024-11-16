@@ -5087,34 +5087,35 @@
     "url": "https://sos.oregon.gov/archives/exhibits/suffrage/Pages/timeline-international.aspx"
   },
   "2024-11-20": {
-    "category": "Countries with the most Spanish speakers",
+    "category": "Countries with most Spanish speakers",
     "answers": [
-      {"text": ["Mexico"], "stat": "129,875,529"},
-      {"text": ["United States"], "stat": "53,000,000"},
-      {"text": ["Colombia"], "stat": "52,085,170"},
-      {"text": ["Argentina"], "stat": "47,327,407"},
-      {"text": ["Spain"], "stat": "47,163,418"}
+        {"text": ["Mexico"], "stat": "130,118,356 speakers"},
+        {"text": ["United States"], "stat": "56,757,391 speakers"},
+        {"text": ["Colombia"], "stat": "51,609,474 speakers"},
+        {"text": ["Spain"], "stat": "47,615,034 speakers"},
+        {"text": ["Argentina"], "stat": "46,234,830 speakers"}
     ],
     "options": [
-      {"text": ["Venezuela"], "stat": "30,518,260"},
-      {"text": ["Peru"], "stat": "34,352,720"},
-      {"text": ["Chile"], "stat": "19,629,588"},
-      {"text": ["Ecuador"], "stat": "17,483,326"},
-      {"text": ["Guatemala"], "stat": "17,980,803"},
-      {"text": ["Cuba"], "stat": "11,089,511"},
-      {"text": ["Dominican Republic"], "stat": "11,434,005"},
-      {"text": ["Honduras"], "stat": "9,571,352"},
-      {"text": ["Paraguay"], "stat": "6,218,879"},
-      {"text": ["El Salvador"], "stat": "6,602,370"},
-      {"text": ["Nicaragua"], "stat": "6,359,689"},
-      {"text": ["Costa Rica"], "stat": "5,044,197"},
-      {"text": ["Puerto Rico"], "stat": "3,193,694"},
-      {"text": ["Uruguay"], "stat": "3,444,263"},
-      {"text": ["Panama"], "stat": "4,337,768"},
-      {"text": ["Bolivia"], "stat": "12,186,079"}
+        {"text": ["Peru"], "stat": "33,470,569 speakers"},
+        {"text": ["Venezuela"], "stat": "33,360,238 speakers"},
+        {"text": ["Chile"], "stat": "19,828,563 speakers"},
+        {"text": ["Guatemala"], "stat": "17,357,886 speakers"},
+        {"text": ["Ecuador"], "stat": "16,149,014 speakers"},
+        {"text": ["Bolivia"], "stat": "12,006,031 speakers"},
+        {"text": ["Cuba"], "stat": "11,305,652 speakers"},
+        {"text": ["Dominican Republic"], "stat": "10,621,938 speakers"},
+        {"text": ["Honduras"], "stat": "9,523,621 speakers"},
+        {"text": ["Paraguay"], "stat": "7,453,695 speakers"},
+        {"text": ["Nicaragua"], "stat": "6,779,100 speakers"},
+        {"text": ["El Salvador"], "stat": "6,550,389 speakers"},
+        {"text": ["Costa Rica"], "stat": "5,213,374 speakers"},
+        {"text": ["Panama"], "stat": "4,446,964 speakers"},
+        {"text": ["Uruguay"], "stat": "3,444,263 speakers"},
+        {"text": ["Puerto Rico"], "stat": "3,285,874 speakers"},
+        {"text": ["Equatorial Guinea"], "stat": "1,454,789 speakers"}
     ],
     "url": "https://en.wikipedia.org/wiki/Hispanophone#Countries"
-  },
+ },
   "2024-11-21": {
     "category": "Deadliest pandemics in history",
     "answers": [
@@ -5291,31 +5292,43 @@
   "2024-11-27": {
     "category": "Countries with the most public libraries",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["China"], "stat": "51,311 libraries"},
+        {"text": ["Russia"], "stat": "46,000 libraries"},
+        {"text": ["India"], "stat": "29,800 libraries"},
+        {"text": ["Ukraine"], "stat": "18,323 libraries"},
+        {"text": ["United States"], "stat": "9,042 libraries"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Poland"], "stat": "8,290 libraries"},
+        {"text": ["Germany"], "stat": "8,195 libraries"},
+        {"text": ["Mexico"], "stat": "7,260 libraries"},
+        {"text": ["Italy"], "stat": "7,000 libraries"},
+        {"text": ["Vietnam"], "stat": "6,691 libraries"},
+        {"text": ["Brazil"], "stat": "6,545 libraries"},
+        {"text": ["Czech Republic"], "stat": "5,407 libraries"},
+        {"text": ["Belarus"], "stat": "5,000 libraries"},
+        {"text": ["Azerbaijan"], "stat": "4,382 libraries"},
+        {"text": ["Spain"], "stat": "4,164 libraries"},
+        {"text": ["Kazakhstan"], "stat": "4,004 libraries"},
+        {"text": ["Iran"], "stat": "3,950 libraries"},
+        {"text": ["France"], "stat": "3,410 libraries"},
+        {"text": ["Canada"], "stat": "3,311 libraries"},
+        {"text": ["Japan"], "stat": "3,126 libraries"},
+        {"text": ["Romania"], "stat": "2,943 libraries"},
+        {"text": ["Bulgaria"], "stat": "2,722 libraries"},
+        {"text": ["Georgia"], "stat": "2,251 libraries"},
+        {"text": ["Thailand"], "stat": "2,116 libraries"},
+        {"text": ["Sweden"], "stat": "2,090 libraries"},
+        {"text": ["Switzerland"], "stat": "2,000 libraries"},
+        {"text": ["Tajikistan"], "stat": "1,994 libraries"},
+        {"text": ["Slovakia"], "stat": "1,916 libraries"},
+        {"text": ["South Africa"], "stat": "1,800 libraries"},
+        {"text": ["Colombia"], "stat": "1,609 libraries"},
+        {"text": ["Argentina"], "stat": "1,545 libraries"},
+        {"text": ["Austria"], "stat": "1,473 libraries"}
     ],
-    "url": ""
-  },
+    "url": "https://www.mapsofworld.com/answers/regions/country-public-libraries-world/#"
+ },
   "2024-11-28": {
     "category": "turkey consumption by country per capita",
     "answers": [
@@ -5653,33 +5666,40 @@
     "url": ""
   },
   "2024-12-09": {
-    "category": "Most passing yards NFL",
+    "category": "NFL Passing Touchdown leaders",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Tom Brady"], "stat": "649 touchdowns"},
+        {"text": ["Drew Brees"], "stat": "571 touchdowns"},
+        {"text": ["Peyton Manning"], "stat": "539 touchdowns"},
+        {"text": ["Brett Favre"], "stat": "508 touchdowns"},
+        {"text": ["Aaron Rodgers"], "stat": "490 touchdowns"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Philip Rivers"], "stat": "421 touchdowns"},
+        {"text": ["Dan Marino"], "stat": "420 touchdowns"},
+        {"text": ["Ben Roethlisberger"], "stat": "418 touchdowns"},
+        {"text": ["Matt Ryan"], "stat": "381 touchdowns"},
+        {"text": ["Eli Manning", "Matthew Stafford"], "stat": "366 touchdowns"},
+        {"text": ["Fran Tarkenton"], "stat": "342 touchdowns"},
+        {"text": ["Russell Wilson"], "stat": "340 touchdowns"},
+        {"text": ["John Elway"], "stat": "300 touchdowns"},
+        {"text": ["Carson Palmer"], "stat": "294 touchdowns"},
+        {"text": ["Warren Moon"], "stat": "291 touchdowns"},
+        {"text": ["Johnny Unitas"], "stat": "290 touchdowns"},
+        {"text": ["Kirk Cousins"], "stat": "287 touchdowns"},
+        {"text": ["Vinny Testaverde"], "stat": "275 touchdowns"},
+        {"text": ["Joe Montana"], "stat": "273 touchdowns"},
+        {"text": ["Dave Krieg"], "stat": "261 touchdowns"},
+        {"text": ["Sonny Jurgensen"], "stat": "255 touchdowns"},
+        {"text": ["Joe Flacco", "Dan Fouts"], "stat": "254 touchdowns"},
+        {"text": ["Derek Carr", "Andy Dalton"], "stat": "253 touchdowns"},
+        {"text": ["Drew Bledsoe"], "stat": "251 touchdowns"},
+        {"text": ["Tony Romo"], "stat": "248 touchdowns"},
+        {"text": ["Boomer Esiason"], "stat": "247 touchdowns"},
+        {"text": ["John Hadl"], "stat": "244 touchdowns"}
     ],
-    "url": ""
-  },
+    "url": "https://www.pro-football-reference.com/leaders/pass_td_career.htm"
+ },
   "2024-12-10": {
     "category": "",
     "answers": [
