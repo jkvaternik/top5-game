@@ -5200,32 +5200,32 @@
     "url": "https://www.locationscloud.com/intelligence-reports/largest-gas-stations-in-the-united-states/"
   },
   "2024-11-24": {
-    "category": "Most popular artists by decade",
+    "category": "Top-selling music artists of 2000–2010 by EAS (Equivalent Album Sales)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Eminem"], "stat": "142,901,000 EAS"},
+        {"text": ["Linkin Park"], "stat": "83,660,000 EAS"},
+        {"text": ["Coldplay"], "stat": "77,596,000 EAS"},
+        {"text": ["Britney Spears"], "stat": "69,276,000 EAS"},
+        {"text": ["Beyoncé"], "stat": "62,209,000 EAS"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Pink"], "stat": "54,392,000 EAS"},
+        {"text": ["Black Eyed Peas"], "stat": "53,935,000 EAS"},
+        {"text": ["Jay-Z"], "stat": "53,398,000 EAS"},
+        {"text": ["Kanye West"], "stat": "52,466,000 EAS"},
+        {"text": ["Nickelback"], "stat": "51,885,000 EAS"},
+        {"text": ["Norah Jones"], "stat": "50,830,000 EAS"},
+        {"text": ["Robbie Williams"], "stat": "49,115,000 EAS"},
+        {"text": ["Alicia Keys"], "stat": "47,875,000 EAS"},
+        {"text": ["Rihanna"], "stat": "46,316,000 EAS"},
+        {"text": ["Michael Bublé"], "stat": "45,363,000 EAS"},
+        {"text": ["Shakira"], "stat": "42,098,000 EAS"},
+        {"text": ["Lady Gaga"], "stat": "41,882,000 EAS"},
+        {"text": ["Avril Lavigne"], "stat": "41,730,000 EAS"},
+        {"text": ["Ayumi Hamasaki"], "stat": "41,205,000 EAS"},
+        {"text": ["Madonna"], "stat": "40,337,000 EAS"}
     ],
-    "url": ""
+    "url": "https://chartmasters.org/most-successful-artists-by-decade/"
   },
   "2024-11-25": {
     "category": "U.S. states with highest salary needed to live comfortably",
