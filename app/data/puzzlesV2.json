@@ -5752,33 +5752,37 @@
     ],
     "url": "https://www.pro-football-reference.com/leaders/pass_td_career.htm"
  },
-  "2024-12-10": {
-    "category": "Most corrupt countries",
+ "2024-12-10": {
+    "category": "Top countries by perceived public sector corruption (CPI index, 2023)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Somalia"], "stat": "Score: 12"},
+        {"text": ["Syria"], "stat": "Score: 13"},
+        {"text": ["South Sudan"], "stat": "Score: 13"},
+        {"text": ["Venezuela"], "stat": "Score: 14"},
+        {"text": ["Yemen"], "stat": "Score: 16"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["North Korea"], "stat": "Score: 17"},
+        {"text": ["Haiti"], "stat": "Score: 17"},
+        {"text": ["Equatorial Guinea"], "stat": "Score: 17"},
+        {"text": ["Burundi"], "stat": "Score: 19"},
+        {"text": ["Libya"], "stat": "Score: 19"},
+        {"text": ["Afghanistan"], "stat": "Score: 20"},
+        {"text": ["Guinea-Bissau"], "stat": "Score: 21"},
+        {"text": ["Democratic Republic of the Congo"], "stat": "Score: 21"},
+        {"text": ["Sudan"], "stat": "Score: 22"},
+        {"text": ["Chad"], "stat": "Score: 22"},
+        {"text": ["Nicaragua"], "stat": "Score: 23"},
+        {"text": ["Comoros"], "stat": "Score: 24"},
+        {"text": ["Central African Republic"], "stat": "Score: 24"},
+        {"text": ["Cambodia"], "stat": "Score: 24"},
+        {"text": ["Angola"], "stat": "Score: 25"},
+        {"text": ["Tajikistan"], "stat": "Score: 25"},
+        {"text": ["Eritrea"], "stat": "Score: 25"},
+        {"text": ["Iraq"], "stat": "Score: 26"},
+        {"text": ["Burundi"], "stat": "Score: 26"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/Corruption_Perceptions_Index"
   },
   "2024-12-11": {
     "category": "Cheapest game consoles by release day price (adjusted for inflation)",
@@ -5914,5 +5918,5 @@
         {"text": ["Xiamen"], "stat": "4,617,251 people"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_cities_in_China_by_population#List_of_major_cities_by_population"
- }
+  }
 }
