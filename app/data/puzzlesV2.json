@@ -5123,7 +5123,7 @@
       {"text": ["Black Death"], "stat": "50 million deaths"},
       {"text": ["HIV/AIDS pandemic"], "stat": "43 million deaths"},
       {"text": ["COVID-19 pandemic"], "stat": "35 million deaths"},
-      {"text": ["Cocoliztli epidemics"], "stat": "15 million deaths"},
+      {"text": ["Cocoliztli epidemics"], "stat": "15 million deaths"}
     ],
     "options": [
       {"text": ["Third plague pandemic"], "stat": "12 million deaths"},
