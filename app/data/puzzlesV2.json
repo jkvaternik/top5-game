@@ -5178,32 +5178,22 @@
     "url": ""
   },
   "2024-11-23": {
-    "category": "Actors with most Emmy nominations",
+    "category": "Top gas station chains in the United States by number of locations",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Shell"], "stat": "12,283 locations"},
+        {"text": ["Exxon Mobil"], "stat": "11,892 locations"},
+        {"text": ["BP"], "stat": "7,111 locations"},
+        {"text": ["Chevron"], "stat": "7,023 locations"},
+        {"text": ["Circle K"], "stat": "6,965 locations"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Citgo"], "stat": "4,309 locations"},
+        {"text": ["Speedway"], "stat": "3,258 locations"},
+        {"text": ["Phillips 66"], "stat": "2,548 locations"},
+        {"text": ["76"], "stat": "1,820 locations"},
+        {"text": ["Conoco"], "stat": "1,732 locations"}
     ],
-    "url": ""
+    "url": "https://www.locationscloud.com/intelligence-reports/largest-gas-stations-in-the-united-states/"
   },
   "2024-11-24": {
     "category": "Most popular artists by decade",
