@@ -5681,7 +5681,7 @@
     "url": ""
   },
   "2024-12-10": {
-    "category": "",
+    "category": "Most corrupt countries",
     "answers": [
         {"text": [""], "stat": ""},
         {"text": [""], "stat": ""},
@@ -5709,32 +5709,32 @@
     "url": ""
   },
   "2024-12-11": {
-    "category": "",
+    "category": "Cheapest game consoles by release day price (adjusted for inflation)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Game Boy Color"], "stat": "$153"},
+      {"text": ["Game Boy Advance"], "stat": "$175"},
+      {"text": ["Game Boy"], "stat": "$225"},
+      {"text": ["Nintendo Switch Lite"], "stat": "$244"},
+      {"text": ["Nintendo DS"], "stat": "$246"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Playstation Vita"], "stat": "$344"},
+      {"text": ["Game Gear"], "stat": "$347"},
+      {"text": ["Nintendo 3DS"], "stat": "$351"},
+      {"text": ["GameCube"], "stat": "$353"},
+      {"text": ["Xbox Series S"], "stat": "$362"},
+      {"text": ["Virtual Boy"], "stat": "$369"},
+      {"text": ["Sega Nomad"], "stat": "$369"},
+      {"text": ["Dreamcast"], "stat": "$373"},
+      {"text": ["Nintendo Switch"], "stat": "$386"},
+      {"text": ["Wii"], "stat": "$389"},
+      {"text": ["Nintendo 64"], "stat": "$397"},
+      {"text": ["Nintendo Switch (OLED)"], "stat": "$397"},
+      {"text": ["Atari 7800"], "stat": "$402"},
+      {"text": ["Playstation Portable"], "stat": "$406"},
+      {"text": ["Steam Deck"], "stat": "$429"}
     ],
-    "url": ""
+    "url": "https://www.visualcapitalist.com/game-console-launch-prices-adjusted-for-inflation-1975-2024/"
   },
   "2024-12-12": {
     "category": "",
