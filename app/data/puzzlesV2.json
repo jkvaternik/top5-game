@@ -5470,32 +5470,35 @@
     "url": ""
   },
   "2024-12-01": {
-    "category": "countries by military expenditure",
+    "category": "Top countries by military expenditure in 2023",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "$916.0 billion"},
+        {"text": ["China"], "stat": "$296.0 billion"},
+        {"text": ["Russia"], "stat": "$130.0 billion"},
+        {"text": ["India"], "stat": "$83.6 billion"},
+        {"text": ["Saudi Arabia"], "stat": "$75.8 billion"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United Kingdom"], "stat": "$74.9 billion"},
+        {"text": ["Germany"], "stat": "$66.8 billion"},
+        {"text": ["Ukraine"], "stat": "$64.8 billion"},
+        {"text": ["France"], "stat": "$61.3 billion"},
+        {"text": ["Japan"], "stat": "$50.2 billion"},
+        {"text": ["South Korea"], "stat": "$47.9 billion"},
+        {"text": ["Turkey"], "stat": "$40.5 billion"},
+        {"text": ["Italy"], "stat": "$35.5 billion"},
+        {"text": ["Australia"], "stat": "$32.3 billion"},
+        {"text": ["Poland"], "stat": "$31.6 billion"},
+        {"text": ["Israel"], "stat": "$27.5 billion"},
+        {"text": ["Canada"], "stat": "$27.2 billion"},
+        {"text": ["Spain"], "stat": "$23.7 billion"},
+        {"text": ["Brazil"], "stat": "$22.9 billion"},
+        {"text": ["Algeria"], "stat": "$18.3 billion"},
+        {"text": ["Netherlands"], "stat": "$16.6 billion"},
+        {"text": ["Taiwan"], "stat": "$16.6 billion"},
+        {"text": ["Singapore"], "stat": "$13.2 billion"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_highest_military_expenditures"
   },
   "2024-12-02": {
     "category": "List of wars by death toll",
