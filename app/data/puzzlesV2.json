@@ -5659,33 +5659,23 @@
   }
 ,
   "2024-12-07": {
-    "category": "Most Watched Netflix Content 2023",
+    "category": "Countries with largest gold reserves",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "8,133 tonnes"},
+        {"text": ["Germany"], "stat": "3,351 tonnes"},
+        {"text": ["Italy"], "stat": "2,452 tonnes"},
+        {"text": ["France"], "stat": "2,437 tonnes"},
+        {"text": ["Russia"], "stat": "2,336 tonnes"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["China"], "stat": "2,264 tonnes"},
+        {"text": ["Switzerland"], "stat": "1,040 tonnes"},
+        {"text": ["Japan"], "stat": "846 tonnes"},
+        {"text": ["India"], "stat": "831 tonnes"},
+        {"text": ["Netherlands"], "stat": "612 tonnes"}
     ],
-    "url": ""
-  },
+    "url": "https://www.visualcapitalist.com/the-top-10-countries-by-gold-reserves-in-2024/"
+ },
   "2024-12-08": {
     "category": "Top countries by proven oil reserves (billions of barrels)",
     "answers": [
