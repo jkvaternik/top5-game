@@ -5456,32 +5456,32 @@
     "url": "https://www.the-numbers.com/box-office-records/worldwide/all-movies/theatrical-distributors/a24"
   },
   "2024-11-31": {
-    "category": "Most popular artists of the 1970s",
+    "category": "Top-selling music artists of the 1970s by EAS (Equivalent Album Sales)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Pink Floyd"], "stat": "175,872,000 EAS"},
+        {"text": ["Eagles"], "stat": "168,786,000 EAS"},
+        {"text": ["Led Zeppelin"], "stat": "143,914,000 EAS"},
+        {"text": ["Queen"], "stat": "139,637,000 EAS"},
+        {"text": ["Elton John"], "stat": "136,684,000 EAS"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Abba"], "stat": "131,876,000 EAS"},
+        {"text": ["Bob Marley"], "stat": "117,741,000 EAS"},
+        {"text": ["Rod Stewart & Faces"], "stat": "110,454,000 EAS"},
+        {"text": ["Bee Gees"], "stat": "109,626,000 EAS"},
+        {"text": ["Eric Clapton"], "stat": "101,899,000 EAS"},
+        {"text": ["Fleetwood Mac"], "stat": "97,944,000 EAS"},
+        {"text": ["Santana"], "stat": "76,232,000 EAS"},
+        {"text": ["Billy Joel"], "stat": "75,569,000 EAS"},
+        {"text": ["Rolling Stones"], "stat": "74,789,000 EAS"},
+        {"text": ["AC/DC"], "stat": "73,169,000 EAS"},
+        {"text": ["David Bowie"], "stat": "72,405,000 EAS"},
+        {"text": ["Deep Purple"], "stat": "71,288,000 EAS"},
+        {"text": ["Paul McCartney"], "stat": "68,931,000 EAS"},
+        {"text": ["Black Sabbath"], "stat": "64,682,000 EAS"},
+        {"text": ["Aerosmith"], "stat": "63,779,000 EAS"}
     ],
-    "url": ""
+    "url": "https://chartmasters.org/most-successful-artists-by-decade/"
   },
   "2024-12-01": {
     "category": "Top countries by military expenditure in 2023",
@@ -5672,33 +5672,23 @@
   }
 ,
   "2024-12-07": {
-    "category": "Most Watched Netflix Content 2023",
+    "category": "Countries with largest gold reserves",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "8,133 tonnes"},
+        {"text": ["Germany"], "stat": "3,351 tonnes"},
+        {"text": ["Italy"], "stat": "2,452 tonnes"},
+        {"text": ["France"], "stat": "2,437 tonnes"},
+        {"text": ["Russia"], "stat": "2,336 tonnes"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["China"], "stat": "2,264 tonnes"},
+        {"text": ["Switzerland"], "stat": "1,040 tonnes"},
+        {"text": ["Japan"], "stat": "846 tonnes"},
+        {"text": ["India"], "stat": "831 tonnes"},
+        {"text": ["Netherlands"], "stat": "612 tonnes"}
     ],
-    "url": ""
-  },
+    "url": "https://www.visualcapitalist.com/the-top-10-countries-by-gold-reserves-in-2024/"
+ },
   "2024-12-08": {
     "category": "Top countries by proven oil reserves (billions of barrels)",
     "answers": [
