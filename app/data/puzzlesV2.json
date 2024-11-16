@@ -5141,8 +5141,8 @@
       {"text": ["Great Plague of London"], "stat": "100,000 deaths"},
       {"text": ["Great Plague of Marseille"], "stat": "100,000 deaths"},
       {"text": ["West African Ebola epidemic"], "stat": "11,325 deaths"},
-      {"text": ["SARS outbreak"], "stat": "774 deaths"},
-      {"text": ["MERS outbreak"], "stat": "858 deaths"}
+      {"text": ["MERS outbreak"], "stat": "858 deaths"},
+      {"text": ["SARS outbreak"], "stat": "774 deaths"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_epidemics_and_pandemics"
   },
@@ -5857,8 +5857,8 @@
         {"text": ["Arby's"], "stat": "3,415 locations"},
         {"text": ["Papa Johns"], "stat": "3,376 locations"},
         {"text": ["Chipotle"], "stat": "3,129 locations"},
-        {"text": ["Chick-fil-A"], "stat": "2,837 locations"},
         {"text": ["Popeyes Louisiana Kitchen"], "stat": "2,946 locations"},
+        {"text": ["Chick-fil-A"], "stat": "2,837 locations"},
         {"text": ["Jersey Mike's"], "stat": "2,397 locations"},
         {"text": ["Panda Express"], "stat": "2,358 locations"},
         {"text": ["Jack in the Box"], "stat": "2,180 locations"},
