@@ -5501,32 +5501,36 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_with_highest_military_expenditures"
   },
   "2024-12-02": {
-    "category": "List of wars by death toll",
+    "category": "Wars by Death Toll",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["World War II"], "stat": "85 million"},
+      {"text": ["Mongol invasions and conquests"], "stat": "60 million"},
+      {"text": ["Three Kingdoms"], "stat": "34 million"},
+      {"text": ["Taiping Rebellion", "World War I"], "stat": "30 million"},
+      {"text": ["Manchu Conquest of China"], "stat": "25 million"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Conquests of Timur"], "stat": "20 million"},
+      {"text": ["An Lushan rebellion"], "stat": "13 million"},
+      {"text": ["Thirty Years' War"], "stat": "12 million"},
+      {"text": ["Spanish conquest of Mexico"], "stat": "10.5 million"},
+      {"text": ["Spanish conquest of the Inca Empire"], "stat": "10 million"},
+      {"text": ["Russian Civil War"], "stat": "10 million"},
+      {"text": ["Chinese Civil War"], "stat": "9 million"},
+      {"text": ["Crusades"], "stat": "9 million"},
+      {"text": ["Reconquista"], "stat": "7 million"},
+      {"text": ["French Revolutionary and Napoleonic Wars"], "stat": "7 million"},
+      {"text": ["Conquests of Menelik II"], "stat": "6 million"},
+      {"text": ["Second Congo War"], "stat": "5.4 million"},
+      {"text": ["Spanish conquest of New Granada"], "stat": "5.25 million"},
+      {"text": ["Deccan wars"], "stat": "5 million"},
+      {"text": ["Nigerian Civil War"], "stat": "4.1 million"},
+      {"text": ["Deluge"], "stat": "4 million"},
+      {"text": ["French Wars of Religion"], "stat": "4 million"},
+      {"text": ["Korean War"], "stat": "3.5 million"},
+      {"text": ["Vietnam War"], "stat": "3.4 million"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_wars_by_death_toll"
   },
   "2024-12-03": {
     "category": "Most Valuable NFL teams",
