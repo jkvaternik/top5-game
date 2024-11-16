@@ -5386,32 +5386,42 @@
     "url": ""
   },
   "2024-11-30": {
-    "category": "A24 movies by worldwide box office",
+    "category": "A24 Movies by Worldwide Box Office",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Everything Everywhere All At Once"], "stat": "$111,419,433"},
+      {"text": ["Civil War"], "stat": "$106,547,052"},
+      {"text": ["Talk To Me"], "stat": "$92,181,818"},
+      {"text": ["Hereditary"], "stat": "$80,942,650"},
+      {"text": ["Lady Bird"], "stat": "$80,120,944"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Moonlight"], "stat": "$64,895,106"},
+      {"text": ["The Whale"], "stat": "$54,044,481"},
+      {"text": ["Uncut Gems"], "stat": "$50,023,780"},
+      {"text": ["Midsommar"], "stat": "$46,721,621"},
+      {"text": ["Past Lives"], "stat": "$42,913,181"},
+      {"text": ["The Iron Claw"], "stat": "$42,816,090"},
+      {"text": ["The Witch"], "stat": "$40,374,032"},
+      {"text": ["Ex Machina"], "stat": "$38,261,299"},
+      {"text": ["Room"], "stat": "$36,316,727"},
+      {"text": ["Spring Breakers"], "stat": "$31,149,251"},
+      {"text": ["Priscilla"], "stat": "$30,977,065"},
+      {"text": ["The Disaster Artist"], "stat": "$28,717,667"},
+      {"text": ["We Live in Time"], "stat": "$27,600,166"},
+      {"text": ["The Zone of Interest"], "stat": "$26,059,709"},
+      {"text": ["The Farewell"], "stat": "$25,466,013"},
+      {"text": ["Amy"], "stat": "$23,778,585"},
+      {"text": ["MaXXXine"], "stat": "$21,456,370"},
+      {"text": ["Heretic"], "stat": "$20,251,507"},
+      {"text": ["The Green Knight"], "stat": "$20,022,491"},
+      {"text": ["It Comes at Night"], "stat": "$19,720,203"},
+      {"text": ["The Lighthouse"], "stat": "$18,262,464"},
+      {"text": ["While We're Young"], "stat": "$17,503,828"},
+      {"text": ["Minari"], "stat": "$15,474,659"},
+      {"text": ["X"], "stat": "$15,113,105"},
+      {"text": ["Eighth Grade"], "stat": "$14,348,020"}
     ],
-    "url": ""
+    "url": "https://www.the-numbers.com/box-office-records/worldwide/all-movies/theatrical-distributors/a24"
   },
   "2024-11-31": {
     "category": "Most popular artists of the 1970s",
@@ -5582,33 +5592,36 @@
     "url": ""
   },
   "2024-12-06": {
-    "category": "Richest NBA players all time",
+    "category": "Richest NBA Players by Net Worth",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Michael Jordan"], "stat": "$2.6 billion"},
+      {"text": ["LeBron James", "Magic Johnson"], "stat": "$800 million"},
+      {"text": ["Junior Bridgeman"], "stat": "$600 million"},
+      {"text": ["Shaquille O'Neal", "Vinnie Johnson"], "stat": "$500 million"},
+      {"text": ["Hakeem Olajuwon", "Kevin Durant", "Russell Westbrook"], "stat": "$300 million"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Grant Hill"], "stat": "$250 million"},
+      {"text": ["Steph Curry"], "stat": "$240 million"},
+      {"text": ["David Robinson"], "stat": "$200 million"},
+      {"text": ["Luol Deng"], "stat": "$200 million"},
+      {"text": ["Chris Paul"], "stat": "$180 million"},
+      {"text": ["Dwyane Wade"], "stat": "$170 million"},
+      {"text": ["James Harden"], "stat": "$165 million"},
+      {"text": ["Anthony Davis"], "stat": "$160 million"},
+      {"text": ["Carmelo Anthony"], "stat": "$160 million"},
+      {"text": ["Yao Ming"], "stat": "$160 million"},
+      {"text": ["Dirk Nowitzki"], "stat": "$140 million"},
+      {"text": ["Dwight Howard"], "stat": "$140 million"},
+      {"text": ["Tim Duncan"], "stat": "$130 million"},
+      {"text": ["Kawhi Leonard"], "stat": "$120 million"},
+      {"text": ["Kevin Garnett"], "stat": "$120 million"},
+      {"text": ["Pat Riley"], "stat": "$120 million"},
+      {"text": ["Pau Gasol"], "stat": "$120 million"}
     ],
-    "url": ""
-  },
+    "url": "https://www.celebritynetworth.com/list/top-nba-player-net-worths"
+  }
+,
   "2024-12-07": {
     "category": "Most Watched Netflix Content 2023",
     "answers": [
