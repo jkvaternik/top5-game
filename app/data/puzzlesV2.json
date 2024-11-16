@@ -5686,32 +5686,36 @@
     "url": ""
   },
   "2024-12-08": {
-    "category": "Oil reserves by country",
+    "category": "Top countries by proven oil reserves (billions of barrels)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Venezuela"], "stat": "303.008 billion barrels"},
+        {"text": ["Saudi Arabia"], "stat": "267.230 billion barrels"},
+        {"text": ["Iran"], "stat": "208.600 billion barrels"},
+        {"text": ["Iraq"], "stat": "145.019 billion barrels"},
+        {"text": ["United Arab Emirates"], "stat": "113.000 billion barrels"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Kuwait"], "stat": "101.500 billion barrels"},
+        {"text": ["Russia"], "stat": "80.000 billion barrels"},
+        {"text": ["Libya"], "stat": "48.363 billion barrels"},
+        {"text": ["United States"], "stat": "47.730 billion barrels"},
+        {"text": ["Nigeria"], "stat": "37.500 billion barrels"},
+        {"text": ["Kazakhstan"], "stat": "30.000 billion barrels"},
+        {"text": ["China"], "stat": "27.889 billion barrels"},
+        {"text": ["Qatar"], "stat": "25.244 billion barrels"},
+        {"text": ["Brazil"], "stat": "14.856 billion barrels"},
+        {"text": ["Algeria"], "stat": "12.200 billion barrels"},
+        {"text": ["Ecuador"], "stat": "8.273 billion barrels"},
+        {"text": ["Norway"], "stat": "7.642 billion barrels"},
+        {"text": ["Azerbaijan"], "stat": "7.000 billion barrels"},
+        {"text": ["Mexico"], "stat": "5.674 billion barrels"},
+        {"text": ["Sudan"], "stat": "5.000 billion barrels"},
+        {"text": ["Oman"], "stat": "4.905 billion barrels"},
+        {"text": ["India"], "stat": "4.849 billion barrels"},
+        {"text": ["Canada"], "stat": "4.711 billion barrels"},
+        {"text": ["Vietnam"], "stat": "4.400 billion barrels"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_proven_oil_reserves"
   },
   "2024-12-09": {
     "category": "NFL Passing Touchdown leaders",
