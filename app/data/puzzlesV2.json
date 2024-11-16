@@ -5569,33 +5569,36 @@
     "url": ""
   },
   "2024-12-06": {
-    "category": "Richest NBA players all time",
+    "category": "Richest NBA Players by Net Worth",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Michael Jordan"], "stat": "$2.6 billion"},
+      {"text": ["LeBron James", "Magic Johnson"], "stat": "$800 million"},
+      {"text": ["Junior Bridgeman"], "stat": "$600 million"},
+      {"text": ["Shaquille O'Neal", "Vinnie Johnson"], "stat": "$500 million"},
+      {"text": ["Hakeem Olajuwon", "Kevin Durant", "Russell Westbrook"], "stat": "$300 million"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Grant Hill"], "stat": "$250 million"},
+      {"text": ["Steph Curry"], "stat": "$240 million"},
+      {"text": ["David Robinson"], "stat": "$200 million"},
+      {"text": ["Luol Deng"], "stat": "$200 million"},
+      {"text": ["Chris Paul"], "stat": "$180 million"},
+      {"text": ["Dwyane Wade"], "stat": "$170 million"},
+      {"text": ["James Harden"], "stat": "$165 million"},
+      {"text": ["Anthony Davis"], "stat": "$160 million"},
+      {"text": ["Carmelo Anthony"], "stat": "$160 million"},
+      {"text": ["Yao Ming"], "stat": "$160 million"},
+      {"text": ["Dirk Nowitzki"], "stat": "$140 million"},
+      {"text": ["Dwight Howard"], "stat": "$140 million"},
+      {"text": ["Tim Duncan"], "stat": "$130 million"},
+      {"text": ["Kawhi Leonard"], "stat": "$120 million"},
+      {"text": ["Kevin Garnett"], "stat": "$120 million"},
+      {"text": ["Pat Riley"], "stat": "$120 million"},
+      {"text": ["Pau Gasol"], "stat": "$120 million"}
     ],
-    "url": ""
-  },
+    "url": "https://www.celebritynetworth.com/list/top-nba-player-net-worths"
+  }
+,
   "2024-12-07": {
     "category": "Most Watched Netflix Content 2023",
     "answers": [
