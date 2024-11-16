@@ -5178,32 +5178,22 @@
     "url": ""
   },
   "2024-11-23": {
-    "category": "Actors with most Emmy nominations",
+    "category": "Top gas station chains in the United States by number of locations",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Shell"], "stat": "12,283 locations"},
+        {"text": ["Exxon Mobil"], "stat": "11,892 locations"},
+        {"text": ["BP"], "stat": "7,111 locations"},
+        {"text": ["Chevron"], "stat": "7,023 locations"},
+        {"text": ["Circle K"], "stat": "6,965 locations"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Citgo"], "stat": "4,309 locations"},
+        {"text": ["Speedway"], "stat": "3,258 locations"},
+        {"text": ["Phillips 66"], "stat": "2,548 locations"},
+        {"text": ["76"], "stat": "1,820 locations"},
+        {"text": ["Conoco"], "stat": "1,732 locations"}
     ],
-    "url": ""
+    "url": "https://www.locationscloud.com/intelligence-reports/largest-gas-stations-in-the-united-states/"
   },
   "2024-11-24": {
     "category": "Most popular artists by decade",
@@ -5234,32 +5224,61 @@
     "url": ""
   },
   "2024-11-25": {
-    "category": "the Income It Takes to Live Comfortably in Each U.S. State",
+    "category": "U.S. states with highest salary needed to live comfortably",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Massachusetts"], "stat": "$116,022/yr"},
+      {"text": ["Hawaii"], "stat": "$113,693/yr"},
+      {"text": ["California"], "stat": "$113,651/yr"},
+      {"text": ["New York"], "stat": "$111,738/yr"},
+      {"text": ["Washington"], "stat": "$106,496/yr"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
-    ],
-    "url": ""
+      {"text": ["Colorado"], "stat": "$103,293/yr"},
+      {"text": ["New Jersey"], "stat": "$103,002/yr"},
+      {"text": ["Maryland"], "stat": "$102,918/yr"},
+      {"text": ["Oregon"], "stat": "$101,088/yr"},
+      {"text": ["Rhode Island"], "stat": "$100,838/yr"},
+      {"text": ["Connecticut"], "stat": "$100,381/yr"},
+      {"text": ["Virginia"], "stat": "$99,965/yr"},
+      {"text": ["New Hampshire"], "stat": "$98,093/yr"},
+      {"text": ["Arizona"], "stat": "$97,344/yr"},
+      {"text": ["Georgia"], "stat": "$96,886/yr"},
+      {"text": ["Alaska"], "stat": "$96,762/yr"},
+      {"text": ["Vermont"], "stat": "$95,763/yr"},
+      {"text": ["Illinois"], "stat": "$95,098/yr"},
+      {"text": ["Delaware"], "stat": "$94,141/yr"},
+      {"text": ["Utah"], "stat": "$93,683/yr"},
+      {"text": ["Nevada"], "stat": "$93,434/yr"},
+      {"text": ["Florida"], "stat": "$93,309/yr"},
+      {"text": ["Maine"], "stat": "$91,686/yr"},
+      {"text": ["Pennsylvania"], "stat": "$91,312/yr"},
+      {"text": ["North Carolina"], "stat": "$89,690/yr"},
+      {"text": ["Minnesota"], "stat": "$89,232/yr"},
+      {"text": ["Idaho"], "stat": "$88,733/yr"},
+      {"text": ["South Carolina"], "stat": "$88,317/yr"},
+      {"text": ["Wyoming"], "stat": "$87,651/yr"},
+      {"text": ["Texas"], "stat": "$87,027/yr"},
+      {"text": ["Tennessee"], "stat": "$86,403/yr"},
+      {"text": ["Indiana"], "stat": "$85,030/yr"},
+      {"text": ["Montana"], "stat": "$84,739/yr"},
+      {"text": ["Kansas"], "stat": "$84,656/yr"},
+      {"text": ["Michigan"], "stat": "$84,365/yr"},
+      {"text": ["Wisconsin"], "stat": "$84,115/yr"},
+      {"text": ["Missouri"], "stat": "$84,032/yr"},
+      {"text": ["Alabama"], "stat": "$83,824/yr"},
+      {"text": ["Nebraska"], "stat": "$83,699/yr"},
+      {"text": ["New Mexico"], "stat": "$83,616/yr"},
+      {"text": ["Iowa"], "stat": "$83,366/yr"},
+      {"text": ["Mississippi"], "stat": "$82,742/yr"},
+      {"text": ["Louisiana"], "stat": "$82,451/yr"},
+      {"text": ["South Dakota"], "stat": "$81,453/yr"},
+      {"text": ["Kentucky", "Ohio"], "stat": "$80,704/yr"},
+      {"text": ["North Dakota"], "stat": "$80,538/yr"},
+      {"text": ["Oklahoma"], "stat": "$80,413/yr"},
+      {"text": ["Arkansas"], "stat": "$79,456/yr"},
+      {"text": ["West Virginia"], "stat": "$78,790/yr"}
+     ],
+   "url": "https://smartasset.com/data-studies/state-salary-living-comfortably-2024"
   },
   "2024-11-26": {
     "category": "Countries with the most Nobel Peace Prize winners",
@@ -5360,30 +5379,29 @@
   "2024-11-29": {
     "category": "Actors with most Emmy nominations",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["David Letterman"], "stat": "50 nominations"},
+        {"text": ["Stephen Colbert", "Tina Fey"], "stat": "45 nominations"},
+        {"text": ["Alan Alda"], "stat": "34 nominations"},
+        {"text": ["Seth Meyers"], "stat": "30 nominations"},
+        {"text": ["Larry David"], "stat": "29 nominations"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Julia Louis-Dreyfus"], "stat": "26 nominations"},
+        {"text": ["Lily Tomlin"], "stat": "25 nominations"},
+        {"text": ["Seth MacFarlane"], "stat": "24 nominations"},
+        {"text": ["Heidi Klum"], "stat": "23 nominations"},
+        {"text": ["Cloris Leachman"], "stat": "22 nominations"},
+        {"text": ["Betty White"], "stat": "21 nominations"},
+        {"text": ["Debbie Allen"], "stat": "21 nominations"},
+        {"text": ["Chris Rock"], "stat": "20 nominations"},
+        {"text": ["Carl Reiner"], "stat": "18 nominations"},
+        {"text": ["Michael J. Fox"], "stat": "18 nominations"},
+        {"text": ["Angela Lansbury"], "stat": "18 nominations"},
+        {"text": ["Alfre Woodward"], "stat": "17 nominations"},
+        {"text": ["Ed Asner"], "stat": "17 nominations"},
+        {"text": ["Kelsey Grammer"], "stat": "17 nominations"}
     ],
-    "url": ""
+    "url": "https://movieweb.com/most-emmy-nominated-actors/"
   },
   "2024-11-30": {
     "category": "A24 Movies by Worldwide Box Office",
@@ -5452,32 +5470,35 @@
     "url": ""
   },
   "2024-12-01": {
-    "category": "countries by military expenditure",
+    "category": "Top countries by military expenditure in 2023",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "$916.0 billion"},
+        {"text": ["China"], "stat": "$296.0 billion"},
+        {"text": ["Russia"], "stat": "$130.0 billion"},
+        {"text": ["India"], "stat": "$83.6 billion"},
+        {"text": ["Saudi Arabia"], "stat": "$75.8 billion"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United Kingdom"], "stat": "$74.9 billion"},
+        {"text": ["Germany"], "stat": "$66.8 billion"},
+        {"text": ["Ukraine"], "stat": "$64.8 billion"},
+        {"text": ["France"], "stat": "$61.3 billion"},
+        {"text": ["Japan"], "stat": "$50.2 billion"},
+        {"text": ["South Korea"], "stat": "$47.9 billion"},
+        {"text": ["Turkey"], "stat": "$40.5 billion"},
+        {"text": ["Italy"], "stat": "$35.5 billion"},
+        {"text": ["Australia"], "stat": "$32.3 billion"},
+        {"text": ["Poland"], "stat": "$31.6 billion"},
+        {"text": ["Israel"], "stat": "$27.5 billion"},
+        {"text": ["Canada"], "stat": "$27.2 billion"},
+        {"text": ["Spain"], "stat": "$23.7 billion"},
+        {"text": ["Brazil"], "stat": "$22.9 billion"},
+        {"text": ["Algeria"], "stat": "$18.3 billion"},
+        {"text": ["Netherlands"], "stat": "$16.6 billion"},
+        {"text": ["Taiwan"], "stat": "$16.6 billion"},
+        {"text": ["Singapore"], "stat": "$13.2 billion"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_with_highest_military_expenditures"
   },
   "2024-12-02": {
     "category": "Wars by Death Toll",
@@ -5512,33 +5533,40 @@
     "url": "https://en.wikipedia.org/wiki/List_of_wars_by_death_toll"
   },
   "2024-12-03": {
-    "category": "Most valuable nfl teams",
+    "category": "Most Valuable NFL teams",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Dallas Cowboys"], "stat": "$10.1 billion"},
+        {"text": ["Los Angeles Rams"], "stat": "$7.6 billion"},
+        {"text": ["New England Patriots"], "stat": "$7.4 billion"},
+        {"text": ["New York Giants"], "stat": "$7.3 billion"},
+        {"text": ["New York Jets"], "stat": "$6.9 billion"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["San Francisco 49ers"], "stat": "$6.8 billion"},
+        {"text": ["Las Vegas Raiders"], "stat": "$6.7 billion"},
+        {"text": ["Philadelphia Eagles"], "stat": "$6.6 billion"},
+        {"text": ["Chicago Bears"], "stat": "$6.4 billion"},
+        {"text": ["Washington Commanders"], "stat": "$6.3 billion"},
+        {"text": ["Miami Dolphins"], "stat": "$6.2 billion"},
+        {"text": ["Houston Texans"], "stat": "$6.1 billion"},
+        {"text": ["Green Bay Packers"], "stat": "$5.6 billion"},
+        {"text": ["Denver Broncos"], "stat": "$5.5 billion"},
+        {"text": ["Seattle Seahawks", "Tampa Bay Buccaneers"], "stat": "$5.4 billion"},
+        {"text": ["Pittsburgh Steelers"], "stat": "$5.3 billion"},
+        {"text": ["Atlanta Falcons"], "stat": "$5.2 billion"},
+        {"text": ["Cleveland Browns", "Los Angeles Chargers"], "stat": "$5.1 billion"},
+        {"text": ["Minnesota Vikings", "Baltimore Ravens"], "stat": "$5.0 billion"},
+        {"text": ["Tennessee Titans"], "stat": "$4.9 billion"},
+        {"text": ["Kansas City Chiefs", "Indianapolis Colts"], "stat": "$4.8 billion"},
+        {"text": ["Jacksonville Jaguars"], "stat": "$4.6 billion"},
+        {"text": ["Carolina Panthers"], "stat": "$4.5 billion"},
+        {"text": ["New Orleans Saints"], "stat": "$4.4 billion"},
+        {"text": ["Arizona Cardinals"], "stat": "$4.3 billion"},
+        {"text": ["Buffalo Bills"], "stat": "$4.2 billion"},
+        {"text": ["Detroit Lions", "Cincinnati Bengals"], "stat": "$4.1 billion"}
     ],
-    "url": ""
-  },
+    "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NFL_teams"
+ },
   "2024-12-04": {
     "category": "Best broadway musicals turned movies",
     "answers": [
@@ -5568,32 +5596,35 @@
     "url": ""
   },
   "2024-12-05": {
-    "category": "countries by import volume",
+    "category": "Top countries by total imports (2022)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "$3,277 billion"},
+        {"text": ["China"], "stat": "$2,716 billion"},
+        {"text": ["Germany"], "stat": "$1,574 billion"},
+        {"text": ["Netherlands"], "stat": "$1,008 billion"},
+        {"text": ["Japan"], "stat": "$897 billion"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["France"], "stat": "$894 billion"},
+        {"text": ["United Kingdom"], "stat": "$844 billion"},
+        {"text": ["Hong Kong"], "stat": "$804 billion"},
+        {"text": ["South Korea"], "stat": "$731 billion"},
+        {"text": ["India"], "stat": "$723 billion"},
+        {"text": ["Italy"], "stat": "$702 billion"},
+        {"text": ["Belgium"], "stat": "$697 billion"},
+        {"text": ["Canada"], "stat": "$688 billion"},
+        {"text": ["Mexico"], "stat": "$604 billion"},
+        {"text": ["Singapore"], "stat": "$601 billion"},
+        {"text": ["Spain"], "stat": "$563 billion"},
+        {"text": ["Taiwan"], "stat": "$478 billion"},
+        {"text": ["Poland"], "stat": "$471 billion"},
+        {"text": ["Switzerland"], "stat": "$469 billion"},
+        {"text": ["Vietnam"], "stat": "$368 billion"},
+        {"text": ["Austria"], "stat": "$366 billion"},
+        {"text": ["Thailand"], "stat": "$356 billion"},
+        {"text": ["Malaysia"], "stat": "$353 billion"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_imports"
   },
   "2024-12-06": {
     "category": "Richest NBA Players by Net Worth",
@@ -5655,32 +5686,36 @@
     "url": ""
   },
   "2024-12-08": {
-    "category": "Oil reserves by country",
+    "category": "Top countries by proven oil reserves (billions of barrels)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Venezuela"], "stat": "303.008 billion barrels"},
+        {"text": ["Saudi Arabia"], "stat": "267.230 billion barrels"},
+        {"text": ["Iran"], "stat": "208.600 billion barrels"},
+        {"text": ["Iraq"], "stat": "145.019 billion barrels"},
+        {"text": ["United Arab Emirates"], "stat": "113.000 billion barrels"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Kuwait"], "stat": "101.500 billion barrels"},
+        {"text": ["Russia"], "stat": "80.000 billion barrels"},
+        {"text": ["Libya"], "stat": "48.363 billion barrels"},
+        {"text": ["United States"], "stat": "47.730 billion barrels"},
+        {"text": ["Nigeria"], "stat": "37.500 billion barrels"},
+        {"text": ["Kazakhstan"], "stat": "30.000 billion barrels"},
+        {"text": ["China"], "stat": "27.889 billion barrels"},
+        {"text": ["Qatar"], "stat": "25.244 billion barrels"},
+        {"text": ["Brazil"], "stat": "14.856 billion barrels"},
+        {"text": ["Algeria"], "stat": "12.200 billion barrels"},
+        {"text": ["Ecuador"], "stat": "8.273 billion barrels"},
+        {"text": ["Norway"], "stat": "7.642 billion barrels"},
+        {"text": ["Azerbaijan"], "stat": "7.000 billion barrels"},
+        {"text": ["Mexico"], "stat": "5.674 billion barrels"},
+        {"text": ["Sudan"], "stat": "5.000 billion barrels"},
+        {"text": ["Oman"], "stat": "4.905 billion barrels"},
+        {"text": ["India"], "stat": "4.849 billion barrels"},
+        {"text": ["Canada"], "stat": "4.711 billion barrels"},
+        {"text": ["Vietnam"], "stat": "4.400 billion barrels"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_proven_oil_reserves"
   },
   "2024-12-09": {
     "category": "NFL Passing Touchdown leaders",
@@ -5774,32 +5809,22 @@
     "url": "https://www.visualcapitalist.com/game-console-launch-prices-adjusted-for-inflation-1975-2024/"
   },
   "2024-12-12": {
-    "category": "",
+    "category": "Cities with the most centi-millionaires",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["New York City"], "stat": "744 centi-millionaires"},
+        {"text": ["Bay Area"], "stat": "675 centi-millionaires"},
+        {"text": ["Los Angeles"], "stat": "496 centi-millionaires"},
+        {"text": ["London"], "stat": "370 centi-millionaires"},
+        {"text": ["Beijing"], "stat": "347 centi-millionaires"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Singapore"], "stat": "336 centi-millionaires"},
+        {"text": ["Shanghai"], "stat": "322 centi-millionaires"},
+        {"text": ["Hong Kong"], "stat": "320 centi-millionaires"},
+        {"text": ["Chicago"], "stat": "290 centi-millionaires"},
+        {"text": ["Paris"], "stat": "286 centi-millionaires"}
     ],
-    "url": ""
+    "url": "https://www.visualcapitalist.com/mapped-cities-with-the-most-centi-millionaires/"
   },
   "2024-12-13": {
     "category": "",
@@ -5858,31 +5883,36 @@
     "url": ""
   },
   "2024-12-15": {
-    "category": "Most populous cities in China",
+    "category": "Most populous Chinese cities",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Shanghai"], "stat": "21,909,814 people"},
+        {"text": ["Beijing"], "stat": "18,960,744 people"},
+        {"text": ["Shenzhen"], "stat": "17,444,609 people"},
+        {"text": ["Guangzhou"], "stat": "16,096,724 people"},
+        {"text": ["Chengdu"], "stat": "13,568,357 people"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Tianjin"], "stat": "11,052,404 people"},
+        {"text": ["Wuhan"], "stat": "10,494,879 people"},
+        {"text": ["Dongguan"], "stat": "9,644,871 people"},
+        {"text": ["Chongqing"], "stat": "9,580,819 people"},
+        {"text": ["Xi'an"], "stat": "9,392,938 people"},
+        {"text": ["Hangzhou"], "stat": "9,236,032 people"},
+        {"text": ["Foshan"], "stat": "9,042,509 people"},
+        {"text": ["Nanjing"], "stat": "7,519,814 people"},
+        {"text": ["Shenyang"], "stat": "7,026,358 people"},
+        {"text": ["Zhengzhou"], "stat": "6,461,013 people"},
+        {"text": ["Qingdao"], "stat": "6,165,279 people"},
+        {"text": ["Suzhou"], "stat": "5,892,892 people"},
+        {"text": ["Jinan"], "stat": "5,648,162 people"},
+        {"text": ["Changsha"], "stat": "5,630,256 people"},
+        {"text": ["Kunming"], "stat": "5,273,144 people"},
+        {"text": ["Harbin"], "stat": "5,242,897 people"},
+        {"text": ["Shijiazhuang"], "stat": "5,090,440 people"},
+        {"text": ["Hefei"], "stat": "5,055,978 people"},
+        {"text": ["Dalian"], "stat": "4,913,879 people"},
+        {"text": ["Xiamen"], "stat": "4,617,251 people"}
     ],
-    "url": ""
-  }
+    "url": "https://en.wikipedia.org/wiki/List_of_cities_in_China_by_population#List_of_major_cities_by_population"
+ }
 }
