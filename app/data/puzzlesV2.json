@@ -5592,32 +5592,35 @@
     "url": ""
   },
   "2024-12-05": {
-    "category": "countries by import volume",
+    "category": "Top countries by total imports (2022)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "$3,277 billion"},
+        {"text": ["China"], "stat": "$2,716 billion"},
+        {"text": ["Germany"], "stat": "$1,574 billion"},
+        {"text": ["Netherlands"], "stat": "$1,008 billion"},
+        {"text": ["Japan"], "stat": "$897 billion"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["France"], "stat": "$894 billion"},
+        {"text": ["United Kingdom"], "stat": "$844 billion"},
+        {"text": ["Hong Kong"], "stat": "$804 billion"},
+        {"text": ["South Korea"], "stat": "$731 billion"},
+        {"text": ["India"], "stat": "$723 billion"},
+        {"text": ["Italy"], "stat": "$702 billion"},
+        {"text": ["Belgium"], "stat": "$697 billion"},
+        {"text": ["Canada"], "stat": "$688 billion"},
+        {"text": ["Mexico"], "stat": "$604 billion"},
+        {"text": ["Singapore"], "stat": "$601 billion"},
+        {"text": ["Spain"], "stat": "$563 billion"},
+        {"text": ["Taiwan"], "stat": "$478 billion"},
+        {"text": ["Poland"], "stat": "$471 billion"},
+        {"text": ["Switzerland"], "stat": "$469 billion"},
+        {"text": ["Vietnam"], "stat": "$368 billion"},
+        {"text": ["Austria"], "stat": "$366 billion"},
+        {"text": ["Thailand"], "stat": "$356 billion"},
+        {"text": ["Malaysia"], "stat": "$353 billion"}
     ],
-    "url": ""
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_imports"
   },
   "2024-12-06": {
     "category": "Richest NBA Players by Net Worth",
