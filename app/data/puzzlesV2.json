@@ -5822,33 +5822,38 @@
     "url": "https://www.visualcapitalist.com/mapped-cities-with-the-most-centi-millionaires/"
   },
   "2024-12-13": {
-    "category": "",
+    "category": "Fast food chains with the most U.S. locations",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Subway"], "stat": "20,576 locations"},
+        {"text": ["Starbucks"], "stat": "15,873 locations"},
+        {"text": ["McDonald's"], "stat": "13,444 locations"},
+        {"text": ["Dunkin'"], "stat": "9,370 locations"},
+        {"text": ["Taco Bell"], "stat": "7,198 locations"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Burger King"], "stat": "7,043 locations"},
+        {"text": ["Domino's"], "stat": "6,686 locations"},
+        {"text": ["Pizza Hut"], "stat": "6,561 locations"},
+        {"text": ["Wendy's"], "stat": "5,994 locations"},
+        {"text": ["Dairy Queen"], "stat": "4,307 locations"},
+        {"text": ["Little Caesars"], "stat": "4,173 locations"},
+        {"text": ["KFC"], "stat": "3,918 locations"},
+        {"text": ["Sonic Drive-In"], "stat": "3,546 locations"},
+        {"text": ["Arby's"], "stat": "3,415 locations"},
+        {"text": ["Papa Johns"], "stat": "3,376 locations"},
+        {"text": ["Chipotle"], "stat": "3,129 locations"},
+        {"text": ["Chick-fil-A"], "stat": "2,837 locations"},
+        {"text": ["Popeyes Louisiana Kitchen"], "stat": "2,946 locations"},
+        {"text": ["Jersey Mike's"], "stat": "2,397 locations"},
+        {"text": ["Panda Express"], "stat": "2,358 locations"},
+        {"text": ["Jack in the Box"], "stat": "2,180 locations"},
+        {"text": ["Panera Bread"], "stat": "2,102 locations"},
+        {"text": ["Whataburger"], "stat": "925 locations"},
+        {"text": ["Culver's"], "stat": "892 locations"},
+        {"text": ["Raising Cane's"], "stat": "646 locations"}
     ],
-    "url": ""
-  },
+    "url": "https://www.qsrmagazine.com/growth/finance/ranked-the-top-50-fast-food-chains-in-america/"
+ },
   "2024-12-14": {
     "category": "",
     "answers": [
