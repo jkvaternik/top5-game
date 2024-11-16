@@ -5564,32 +5564,32 @@
     "url": "https://en.wikipedia.org/wiki/Forbes_list_of_the_most_valuable_NFL_teams"
  },
   "2024-12-04": {
-    "category": "Best broadway musicals turned movies",
+    "category": "Best Broadway musicals adapted into films (according to Fandango)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Singin' in the Rain"], "stat": "#1"},
+        {"text": ["The Wizard of Oz"], "stat": "#2"},
+        {"text": ["West Side Story"], "stat": "#3"},
+        {"text": ["My Fair Lady"], "stat": "#4"},
+        {"text": ["Chicago"], "stat": "#5"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["The Sound of Music"], "stat": "#6"},
+        {"text": ["Cabaret"], "stat": "#7"},
+        {"text": ["An American in Paris"], "stat": "#8"},
+        {"text": ["Moulin Rouge!"], "stat": "#9"},
+        {"text": ["A Star Is Born"], "stat": "#10"},
+        {"text": ["Mary Poppins"], "stat": "#11"},
+        {"text": ["Little Shop of Horrors"], "stat": "#12"},
+        {"text": ["Fiddler on the Roof"], "stat": "#13"},
+        {"text": ["Funny Girl"], "stat": "#14"},
+        {"text": ["Dreamgirls"], "stat": "#15"},
+        {"text": ["Gentlemen Prefer Blondes"], "stat": "#16"},
+        {"text": ["The Music Man"], "stat": "#17"},
+        {"text": ["Meet Me in St. Louis"], "stat": "#18"},
+        {"text": ["Top Hat"], "stat": "#19"},
+        {"text": ["Oliver!"], "stat": "#20"}
     ],
-    "url": ""
+    "url": "https://www.fandango.com/movie-news/20-best-broadway-musicals-turned-movies-754983"
   },
   "2024-12-05": {
     "category": "Top countries by total imports (2022)",
