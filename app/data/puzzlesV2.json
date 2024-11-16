@@ -5278,33 +5278,30 @@
    "url": "https://smartasset.com/data-studies/state-salary-living-comfortably-2024"
   },
   "2024-11-26": {
-    "category": "Countries with the most Nobel Peace Prize winners",
+    "category": "Countries with most Nobel Peace Prize winners",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["United States"], "stat": "27 recipients"},
+        {"text": ["United Kingdom", "Switzerland"], "stat": "14 recipients"},
+        {"text": ["France"], "stat": "9 recipients"},
+        {"text": ["Sweden"], "stat": "5 recipients"},
+        {"text": ["Germany", "South Africa", "Belgium"], "stat": "4 recipients"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Israel"], "stat": "3 recipients"},
+        {"text": ["Austria"], "stat": "3 recipients"},
+        {"text": ["Bangladesh"], "stat": "2 recipients"},
+        {"text": ["Egypt"], "stat": "2 recipients"},
+        {"text": ["Argentina"], "stat": "2 recipients"},
+        {"text": ["Timor-Leste"], "stat": "2 recipients"},
+        {"text": ["Norway"], "stat": "2 recipients"},
+        {"text": ["Canada"], "stat": "2 recipients"},
+        {"text": ["Russia"], "stat": "2 recipients"},
+        {"text": ["Finland"], "stat": "1 recipient"},
+        {"text": ["Poland"], "stat": "1 recipient"},
+        {"text": ["Ireland"], "stat": "1 recipient"}
     ],
-    "url": ""
-  },
+    "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/"
+ },
   "2024-11-27": {
     "category": "Countries with the most public libraries",
     "answers": [
