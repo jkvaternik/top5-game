@@ -5202,32 +5202,32 @@
     "url": "https://www.locationscloud.com/intelligence-reports/largest-gas-stations-in-the-united-states/"
   },
   "2024-11-24": {
-    "category": "Most popular artists by decade",
+    "category": "Top-selling music artists of 2000–2010 by EAS (Equivalent Album Sales)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Eminem"], "stat": "142,901,000 EAS"},
+        {"text": ["Linkin Park"], "stat": "83,660,000 EAS"},
+        {"text": ["Coldplay"], "stat": "77,596,000 EAS"},
+        {"text": ["Britney Spears"], "stat": "69,276,000 EAS"},
+        {"text": ["Beyoncé"], "stat": "62,209,000 EAS"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Pink"], "stat": "54,392,000 EAS"},
+        {"text": ["Black Eyed Peas"], "stat": "53,935,000 EAS"},
+        {"text": ["Jay-Z"], "stat": "53,398,000 EAS"},
+        {"text": ["Kanye West"], "stat": "52,466,000 EAS"},
+        {"text": ["Nickelback"], "stat": "51,885,000 EAS"},
+        {"text": ["Norah Jones"], "stat": "50,830,000 EAS"},
+        {"text": ["Robbie Williams"], "stat": "49,115,000 EAS"},
+        {"text": ["Alicia Keys"], "stat": "47,875,000 EAS"},
+        {"text": ["Rihanna"], "stat": "46,316,000 EAS"},
+        {"text": ["Michael Bublé"], "stat": "45,363,000 EAS"},
+        {"text": ["Shakira"], "stat": "42,098,000 EAS"},
+        {"text": ["Lady Gaga"], "stat": "41,882,000 EAS"},
+        {"text": ["Avril Lavigne"], "stat": "41,730,000 EAS"},
+        {"text": ["Ayumi Hamasaki"], "stat": "41,205,000 EAS"},
+        {"text": ["Madonna"], "stat": "40,337,000 EAS"}
     ],
-    "url": ""
+    "url": "https://chartmasters.org/most-successful-artists-by-decade/"
   },
   "2024-11-25": {
     "category": "U.S. states with highest salary needed to live comfortably",
@@ -5837,33 +5837,38 @@
     "url": "https://www.visualcapitalist.com/mapped-cities-with-the-most-centi-millionaires/"
   },
   "2024-12-13": {
-    "category": "",
+    "category": "Fast food chains with the most U.S. locations",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Subway"], "stat": "20,576 locations"},
+        {"text": ["Starbucks"], "stat": "15,873 locations"},
+        {"text": ["McDonald's"], "stat": "13,444 locations"},
+        {"text": ["Dunkin'"], "stat": "9,370 locations"},
+        {"text": ["Taco Bell"], "stat": "7,198 locations"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Burger King"], "stat": "7,043 locations"},
+        {"text": ["Domino's"], "stat": "6,686 locations"},
+        {"text": ["Pizza Hut"], "stat": "6,561 locations"},
+        {"text": ["Wendy's"], "stat": "5,994 locations"},
+        {"text": ["Dairy Queen"], "stat": "4,307 locations"},
+        {"text": ["Little Caesars"], "stat": "4,173 locations"},
+        {"text": ["KFC"], "stat": "3,918 locations"},
+        {"text": ["Sonic Drive-In"], "stat": "3,546 locations"},
+        {"text": ["Arby's"], "stat": "3,415 locations"},
+        {"text": ["Papa Johns"], "stat": "3,376 locations"},
+        {"text": ["Chipotle"], "stat": "3,129 locations"},
+        {"text": ["Chick-fil-A"], "stat": "2,837 locations"},
+        {"text": ["Popeyes Louisiana Kitchen"], "stat": "2,946 locations"},
+        {"text": ["Jersey Mike's"], "stat": "2,397 locations"},
+        {"text": ["Panda Express"], "stat": "2,358 locations"},
+        {"text": ["Jack in the Box"], "stat": "2,180 locations"},
+        {"text": ["Panera Bread"], "stat": "2,102 locations"},
+        {"text": ["Whataburger"], "stat": "925 locations"},
+        {"text": ["Culver's"], "stat": "892 locations"},
+        {"text": ["Raising Cane's"], "stat": "646 locations"}
     ],
-    "url": ""
-  },
+    "url": "https://www.qsrmagazine.com/growth/finance/ranked-the-top-50-fast-food-chains-in-america/"
+ },
   "2024-12-14": {
     "category": "",
     "answers": [
