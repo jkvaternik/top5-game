@@ -5350,32 +5350,45 @@
     "url": "https://www.mapsofworld.com/answers/regions/country-public-libraries-world/#"
  },
   "2024-11-28": {
-    "category": "turkey consumption by country per capita",
+    "category": "Wild Turkey Population by State",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["Texas"], "stat": "510,500"},
+      {"text": ["Kentucky", "California"], "stat": "400,000"},
+      {"text": ["Missouri"], "stat": "390,000"},
+      {"text": ["Alabama"], "stat": "365,000"},
+      {"text": ["Mississippi"], "stat": "275,000"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+      {"text": ["North Carolina"], "stat": "270,000"},
+      {"text": ["Tennessee"], "stat": "250,000"},
+      {"text": ["Virginia"], "stat": "180,000"},
+      {"text": ["New York"], "stat": "170,000"},
+      {"text": ["Ohio"], "stat": "170,000"},
+      {"text": ["Indiana"], "stat": "125,000"},
+      {"text": ["Iowa"], "stat": "120,000"},
+      {"text": ["Montana"], "stat": "120,000"},
+      {"text": ["Arkansas"], "stat": "100,000"},
+      {"text": ["South Carolina"], "stat": "100,000"},
+      {"text": ["West Virginia"], "stat": "100,000"},
+      {"text": ["Oklahoma"], "stat": "90,000"},
+      {"text": ["Maine"], "stat": "70,000"},
+      {"text": ["Idaho"], "stat": "55,000"},
+      {"text": ["New Hampshire"], "stat": "45,000"},
+      {"text": ["Oregon"], "stat": "45,000"},
+      {"text": ["Vermont"], "stat": "45,000"},
+      {"text": ["Louisiana"], "stat": "40,000"},
+      {"text": ["Maryland"], "stat": "40,000"},
+      {"text": ["Colorado"], "stat": "35,000"},
+      {"text": ["Connecticut"], "stat": "35,000"},
+      {"text": ["Massachusetts"], "stat": "35,000"},
+      {"text": ["Utah"], "stat": "35,000"},
+      {"text": ["New Mexico"], "stat": "30,000"},
+      {"text": ["New Jersey"], "stat": "25,000"},
+      {"text": ["Arizona"], "stat": "22,250"},
+      {"text": ["Delaware"], "stat": "6,000"},
+      {"text": ["Rhode Island"], "stat": "4,000"}
     ],
-    "url": ""
+    "url": "https://worldpopulationreview.com/state-rankings/wild-turkey-population-by-state"
   },
   "2024-11-29": {
     "category": "Actors with most Emmy nominations",
@@ -5443,32 +5456,32 @@
     "url": "https://www.the-numbers.com/box-office-records/worldwide/all-movies/theatrical-distributors/a24"
   },
   "2024-11-31": {
-    "category": "Most popular artists of the 1970s",
+    "category": "Top-selling music artists of the 1970s by EAS (Equivalent Album Sales)",
     "answers": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Pink Floyd"], "stat": "175,872,000 EAS"},
+        {"text": ["Eagles"], "stat": "168,786,000 EAS"},
+        {"text": ["Led Zeppelin"], "stat": "143,914,000 EAS"},
+        {"text": ["Queen"], "stat": "139,637,000 EAS"},
+        {"text": ["Elton John"], "stat": "136,684,000 EAS"}
     ],
     "options": [
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""},
-        {"text": [""], "stat": ""}
+        {"text": ["Abba"], "stat": "131,876,000 EAS"},
+        {"text": ["Bob Marley"], "stat": "117,741,000 EAS"},
+        {"text": ["Rod Stewart & Faces"], "stat": "110,454,000 EAS"},
+        {"text": ["Bee Gees"], "stat": "109,626,000 EAS"},
+        {"text": ["Eric Clapton"], "stat": "101,899,000 EAS"},
+        {"text": ["Fleetwood Mac"], "stat": "97,944,000 EAS"},
+        {"text": ["Santana"], "stat": "76,232,000 EAS"},
+        {"text": ["Billy Joel"], "stat": "75,569,000 EAS"},
+        {"text": ["Rolling Stones"], "stat": "74,789,000 EAS"},
+        {"text": ["AC/DC"], "stat": "73,169,000 EAS"},
+        {"text": ["David Bowie"], "stat": "72,405,000 EAS"},
+        {"text": ["Deep Purple"], "stat": "71,288,000 EAS"},
+        {"text": ["Paul McCartney"], "stat": "68,931,000 EAS"},
+        {"text": ["Black Sabbath"], "stat": "64,682,000 EAS"},
+        {"text": ["Aerosmith"], "stat": "63,779,000 EAS"}
     ],
-    "url": ""
+    "url": "https://chartmasters.org/most-successful-artists-by-decade/"
   },
   "2024-12-01": {
     "category": "Top countries by military expenditure in 2023",
