@@ -2471,7 +2471,6 @@
       {"text": ["Good Old-Fashioned Lover Boy - Remastered 2011"], "stat": "343,904,809"},
       {"text": ["Fat Bottomed Girls - Remastered 2011"], "stat": "309,952,374"},
       {"text": ["I Want To Break Free"], "stat": "289,620,791"},
-      {"text": ["I Want To Break Free - Remastered 2011"], "stat": "279,252,336"},
       {"text": ["A Kind Of Magic - Remastered 2011"], "stat": "272,969,290"},
       {"text": ["Thank God It's Christmas - 2011 Remaster"], "stat": "255,498,197"},
       {"text": ["I Want It All - Remastered 2011"], "stat": "198,881,725"},
@@ -5129,7 +5128,6 @@
       {"text": ["Third plague pandemic"], "stat": "12 million deaths"},
       {"text": ["Antonine Plague"], "stat": "10 million deaths"},
       {"text": ["Hong Kong flu"], "stat": "4 million deaths"},
-      {"text": ["Hong Kong flu"], "stat": "4 million deaths"},
       {"text": ["Russian typhus epidemic"], "stat": "2.5 million deaths"},
       {"text": ["Asian flu"], "stat": "2 million deaths"},
       {"text": ["Third cholera pandemic"], "stat": "1 million deaths"},
@@ -5784,8 +5782,7 @@
         {"text": ["Angola"], "stat": "Score: 25"},
         {"text": ["Tajikistan"], "stat": "Score: 25"},
         {"text": ["Eritrea"], "stat": "Score: 25"},
-        {"text": ["Iraq"], "stat": "Score: 26"},
-        {"text": ["Burundi"], "stat": "Score: 26"}
+        {"text": ["Iraq"], "stat": "Score: 26"}
     ],
     "url": "https://en.wikipedia.org/wiki/Corruption_Perceptions_Index"
   },
