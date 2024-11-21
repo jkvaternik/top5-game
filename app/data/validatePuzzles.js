@@ -149,10 +149,11 @@ function validatePuzzles() {
       }
     }
 
-    // Check if all answers are unique
+    // Check if all answers and options are unique
     const answerSet = new Set();
-    for (const answer of puzzle.answers) {
-      for (const text of answer.text) {
+    const answersAndOptions = isNewOptionsFormat ? [...puzzle.answers, ...puzzle.options] : puzzle.answers
+    for (const option of answersAndOptions) {
+      for (const text of option.text) {
         if (answerSet.has(text)) {
           return `Duplicate answer found: ${text}`;
         }
