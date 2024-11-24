@@ -5900,5 +5900,31 @@
         {"text": ["Xiamen"], "stat": "4,617,251 people"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_cities_in_China_by_population#List_of_major_cities_by_population"
+  },
+  "2024-12-15": {
+    "category": "Most popular ice cream flavors (% who chose it as a Top 5 favorite flavor)",
+    "answers": [
+      {"text": ["Vanilla"], "stat": "38%"},
+      {"text": ["Chocolate"], "stat": "32%"},
+      {"text": ["Strawberry"], "stat": "25%"},
+      {"text": ["Butter Pecan", "Cookie Dough", "Cookies and Cream"], "stat": "21%"},
+      {"text": ["Mint Chocolate Chip"], "stat": "20%"}
+    ],
+    "options": [
+      {"text": ["Chocolate Chip"], "stat": "18%"},
+      {"text": ["Rocky Road"], "stat": "16%"},
+      {"text": ["Peanut Butter"], "stat": "15%"},
+      {"text": ["Caramel/Salted Caramel"], "stat": "14%"},
+      {"text": ["Coffee"], "stat": "14%"},
+      {"text": ["Brownie"], "stat": "12%"},
+      {"text": ["Moose Tracks"], "stat": "11%"},
+      {"text": ["Birthday Cake/Batter"], "stat": "10%"},
+      {"text": ["Cherry/Black Cherry"], "stat": "10%"},
+      {"text": ["Neapolitan"], "stat": "10%"},
+      {"text": ["Pistachio"], "stat": "10%"},
+      {"text": ["Banana Pudding"], "stat": "8%"},
+      {"text": ["Fudge Swirl"], "stat": "8%"}
+    ],
+    "url": "https://www.idfa.org/wordpress/wp-content/uploads/2024/05/2404080_IDFA_Ice_Cream_Analysis_Final3.pdf"
   }
 }
