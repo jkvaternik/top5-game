@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "validate": "node app/data/validatePuzzles.js",
     "prepush": "yarn run lint && yarn run validate",
     "dev": "next dev",
