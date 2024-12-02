@@ -5948,8 +5948,8 @@
       {"text": ["Virginia Avenue"], "stat": "$160"},
       {"text": ["States Avenue"], "stat": "$140"},
       {"text": ["St. Charles Place"], "stat": "$140"},
-      {"text": ["Connecticut Avenue"], "stat": "$120"},
       {"text": ["Vermont Avenue"], "stat": "$100"},
+      {"text": ["Connecticut Avenue"], "stat": "$120"},
       {"text": ["Oriental Avenue"], "stat": "$100"},
       {"text": ["Mediterranean Avenue"], "stat": "$60"},
       {"text": ["Baltic Avenue"], "stat": "$60"}
