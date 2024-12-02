@@ -5,7 +5,6 @@
   "scripts": {
     "prepare": "husky",
     "validate": "node app/data/validatePuzzles.js",
-    "prepush": "yarn run lint && yarn run validate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

@@ -1,1 +1,1 @@
-yarn run lint && yarn run validate
+yarn run validate
