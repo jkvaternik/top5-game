@@ -5955,5 +5955,38 @@
       {"text": ["Baltic Avenue"], "stat": "$60"}
     ],
     "url": "https://en.wikipedia.org/wiki/Monopoly_(game)"
+  },
+  "2024-12-17": {
+    "category": "Largest sports contracts",
+    "answers": [
+      {"text": ["Juan Soto"], "stat": "$765 million"},
+      {"text": ["Shohei Ohtani"], "stat": "$700 million"},
+      {"text": ["Lionel Messi"], "stat": "$674 million"},
+      {"text": ["Cristiano Ronaldo"], "stat": "$536 million"},
+      {"text": ["Patrick Mahomes"], "stat": "$450 million"}
+    ],
+    "options": [
+      {"text": ["Karim Benzema"], "stat": "$447 million"},
+      {"text": ["Mike Trout"], "stat": "$426 million"},
+      {"text": ["Canelo Álvarez"], "stat": "$365 million"},
+      {"text": ["Mookie Betts"], "stat": "$365 million"},
+      {"text": ["Aaron Judge"], "stat": "$360 million"},
+      {"text": ["Manny Machado"], "stat": "$350 million"},
+      {"text": ["Francisco Lindor"], "stat": "$341 million"},
+      {"text": ["Fernando Tatís Jr."], "stat": "$340 million"},
+      {"text": ["Max Verstappen"], "stat": "$330 million"},
+      {"text": ["Bryce Harper"], "stat": "$330 million"},
+      {"text": ["Giancarlo Stanton"], "stat": "$325 million"},
+      {"text": ["Yoshinobu Yamamoto"], "stat": "$325 million"},
+      {"text": ["Corey Seager"], "stat": "$325 million"},
+      {"text": ["Gerrit Cole"], "stat": "$324 million"},
+      {"text": ["Jayson Tatum"], "stat": "$314 million"},
+      {"text": ["Rafael Devers"], "stat": "$313 million"},
+      {"text": ["Jaylen Brown"], "stat": "$303 million"},
+      {"text": ["Trea Turner"], "stat": "$300 million"},
+      {"text": ["Bobby Witt Jr."], "stat": "$288 million"},
+      {"text": ["Xander Bogaerts"], "stat": "$280 million"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_sports_contracts"
   }
 }
