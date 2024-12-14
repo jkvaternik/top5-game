@@ -5988,5 +5988,36 @@
       {"text": ["Xander Bogaerts"], "stat": "$280 million"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_largest_sports_contracts"
-  }
+  },
+  "2024-12-18": {
+    "category": "Top ranked Christmas movies (IMDb)",
+    "answers": [
+        {"text": ["It's a Wonderful Life (1946)"], "stat": "8.6 stars"},
+        {"text": ["How the Grinch Stole Christmas! (1966)", "A Charlie Brown Christmas (1965)"], "stat": "8.3 stars"},
+        {"text": ["Die Hard (1988)", "Klaus (2019)"], "stat": "8.2 stars"},
+        {"text": ["Fanny and Alexander (1982)", "A Christmas Carol (1951)"], "stat": "8.1 stars"},
+        {"text": ["Rudolph the Red-Nosed Reindeer (1964)"], "stat": "8.0 stars"}
+    ],
+    "options": [
+        {"text": ["The Holdovers (2023)"], "stat": "7.9 stars"},
+        {"text": ["The Nightmare Before Christmas (1993)"], "stat": "7.9 stars"},
+        {"text": ["A Christmas Story (1983)"], "stat": "7.9 stars"},
+        {"text": ["Miracle on 34th Street (1947)"], "stat": "7.9 stars"},
+        {"text": ["A Christmas Carol (1984)"],"stat": "7.8 stars"},
+        {"text": ["The Muppet Christmas Carol (1992)"],"stat": "7.8 stars"},
+        {"text": ["The Year Without a Santa Claus (1974)"], "stat": "7.7 stars"},
+        {"text": ["Home Alone (1990)"], "stat": "7.7 stars"},
+        {"text": ["Santa Claus is Comin' to Town (1970)"], "stat": "7.7 stars"},
+        {"text": ["Joyeux Noel (2005)"], "stat": "7.6 stars"},
+        {"text": ["Love Actually (2003)"], "stat": "7.6 stars"},
+        {"text": ["White Christmas (1954)"], "stat": "7.6 stars"},
+        {"text": ["National Lampoon's Christmas Vacation (1989)"], "stat": "7.5 stars"},
+        {"text": ["Trading Places (1983)"], "stat": "7.5 stars"},
+        {"text": ["Scrooge (1970)"], "stat": "7.5 stars"},
+        {"text": ["Meet Me in St. Louis (1944)"], "stat": "7.5 stars"},
+        {"text": ["Gremlins (1984)"], "stat": "7.3 stars"},
+        {"text": ["Frosty the Snowman (1969)"], "stat": "7.3 stars"}
+    ],
+    "url": "https://www.imdb.com/list/ls566244283/"
+   }
 }
