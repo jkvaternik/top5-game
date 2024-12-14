@@ -6019,5 +6019,28 @@
         {"text": ["Frosty the Snowman (1969)"], "stat": "7.3 stars"}
     ],
     "url": "https://www.imdb.com/list/ls566244283/"
-   }
+   },
+  "2024-12-25": {
+    "category": "Most popular Christmas tree decorations (% of Americans who use this decoration)",
+    "answers": [
+      {"text": ["Ornaments"], "stat": "71%"},
+      {"text": ["Light strings"], "stat": "61%"},
+      {"text": ["Christmas tree balls"], "stat": "53%"},
+      {"text": ["Candy canes"], "stat": "49%"},
+      {"text": ["Angels"], "stat": "44%"}
+    ],
+    "options": [
+      {"text": ["Self-made decorations"], "stat": "38%"},
+      {"text": ["Ribbons"], "stat": "32%"},
+      {"text": ["Tinsel"], "stat": "30%"},
+      {"text": ["Wooden figures"], "stat": "22%"},
+      {"text": ["Hearts"], "stat": "17%"},
+      {"text": ["Straw stars / figures, etc."], "stat": "17%"},
+      {"text": ["Candles"], "stat": "16%"},
+      {"text": ["Letterings"], "stat": "13%"},
+      {"text": ["Other"], "stat": "6%"},
+      {"text": ["I don't decorate my Christmas tree"], "stat": "1%"}
+    ],
+    "url": "https://www.statista.com/statistics/1075397/most-popular-christmas-tree-decorations-in-the-united-states/"
+  }
 }
