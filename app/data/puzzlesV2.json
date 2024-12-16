@@ -6076,11 +6076,27 @@
     "url": "https://worldpopulationreview.com/state-rankings/snowiest-states"
   },
   "2024-12-20": {
-    "category": "",
-    "answers": [
-    ],
-    "options": [
-    ]
+    "category": "Categories of mobile applications by revenue (2023)",
+   "answers": [
+       {"text": ["Digital Entertainment"], "stat": "$8.2 billion"},
+       {"text": ["Dating"], "stat": "$5.7 billion"},
+       {"text": ["Short Videos"], "stat": "$4.3 billion"},
+       {"text": ["Video Sharing"], "stat": "$2.4 billion"},
+       {"text": ["Comics"], "stat": "$2.3 billion"}
+   ],
+   "options": [
+       {"text": ["Music/Podcasts"], "stat": "$2.1 billion"},
+       {"text": ["File Management"], "stat": "$2.0 billion"},
+       {"text": ["Live Sports"], "stat": "$1.2 billion"},
+       {"text": ["Live Streaming"], "stat": "$1.2 billion"},
+       {"text": ["Communication"], "stat": "$1.1 billion"},
+       {"text": ["Photo Editing"], "stat": "$1.0 billion"},
+       {"text": ["Language Learning"], "stat": "$0.9 billion"},
+       {"text": ["Business Software"], "stat": "$0.9 billion"},
+       {"text": ["Fiction"], "stat": "$0.9 billion"},
+       {"text": ["Fitness"], "stat": "$0.8 billion"}
+   ],
+   "url": "https://www.visualcapitalist.com/what-types-of-apps-do-people-actually-pay-for/"
   },
   "2024-12-21": {
     "category": "",
