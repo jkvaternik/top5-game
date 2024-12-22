@@ -6158,11 +6158,24 @@
    "url": "https://www.visualcapitalist.com/gas-price-in-each-us-state-2024/"
   },
   "2024-12-22": {
-    "category": "",
+    "category": "Most popular Girl Scout cookies (% who chose each cookie)",
     "answers": [
+      {"text": ["Thin Mints"], "stat": "24%"},
+      {"text": ["Caramel deLites", "Samoas"], "stat": "16%"},
+      {"text": ["Peanut Butter Patties", "Tagalongs"], "stat": "10%"},
+      {"text": ["Shortbread", "Trefoils"], "stat": "7%"},
+      {"text": ["Caramel Chocolate Chip"], "stat": "6%"}
     ],
     "options": [
-    ]
+      {"text": ["Do-si-dos"], "stat": "5%"},
+      {"text": ["Peanut Butter Sandwich"], "stat": "5%"},
+      {"text": ["Girl Scout S'mores"], "stat": "3%"},
+      {"text": ["Lemon-Ups"], "stat": "3%"},
+      {"text": ["Lemonades"], "stat": "3%"},
+      {"text": ["Thanks-A-Lot"], "stat": "1%"},
+      {"text": ["Toffee-tastic"], "stat": "1%"}
+    ],
+    "url": "https://today.yougov.com/consumer/articles/27995-best-favorite-girl-scout-cookie-poll-survey"
   },
   "2024-12-23": {
     "category": "",
