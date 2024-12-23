@@ -6202,12 +6202,22 @@
   ],
   "url": "https://www.the-numbers.com/movie/budgets"
 },
-"2024-12-24": {
-    "category": "",
+  
+  "2024-12-24": {
+    "category": "SNL hosts by appearances",
     "answers": [
+      {"text": ["Alec Baldwin"], "stat": "17 appearances"},
+      {"text": ["Steve Martin"], "stat": "16 appearances"},
+      {"text": ["John Goodman"], "stat": "13 appearances"},
+      {"text": ["Buck Henry", "Tom Hanks"], "stat": "10 appearances"},
+      {"text": ["Chevy Chase"], "stat": "8 appearances"}
     ],
     "options": [
-    ]
+      {"text": ["Christopher Walken"], "stat": "7 appearances"},
+      {"text": ["Elliott Gould", "Danny DeVito", "Drew Barrymore", "Tina Fey", "Scarlett Johansson", "John Mulaney"], "stat": "6 appearances"},
+      {"text": ["Candice Bergen", "Paul Simon", "Bill Murray", "Justin Timberlake", "Ben Affleck", "Melissa McCarthy", "Dwayne Johnson", "Jonah Hill", "Will Ferrell", "Paul Rudd", "Woody Harrelson", "Emma Stone", "Kristen Wiig", "Martin Short"], "stat": "5 appearances"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_Saturday_Night_Live_guests"
   },
   "2024-12-25": {
     "category": "Most popular Christmas tree decorations (% of Americans who use this decoration)",
