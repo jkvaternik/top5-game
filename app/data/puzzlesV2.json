@@ -6177,14 +6177,32 @@
     ],
     "url": "https://today.yougov.com/consumer/articles/27995-best-favorite-girl-scout-cookie-poll-survey"
   },
-  "2024-12-23": {
-    "category": "",
-    "answers": [
-    ],
-    "options": [
-    ]
-  },
-  "2024-12-24": {
+"2024-12-23": {
+  "category": "Highest budget movies",
+  "answers": [
+    {"text": ["Star Wars Ep. VII: The Force Awakens (2015)"], "stat": "$533,200,000"},
+    {"text": ["Avatar: The Way of Water (2022)"], "stat": "$460,000,000"},
+    {"text": ["Indiana Jones and the Dial of Destiny (2023)"], "stat": "$402,300,000"},
+    {"text": ["Avengers: Endgame (2019)"], "stat": "$400,000,000"},
+    {"text": ["Pirates of the Caribbean: On Stranger Tides (2011)"], "stat": "$379,000,000"}
+  ],
+  "options": [
+    {"text": ["Avengers: Age of Ultron (2015)"], "stat": "$365,000,000"},
+    {"text": ["Fast X (2023)"], "stat": "$340,000,000"},
+    {"text": ["Solo: A Star Wars Story (2018)"], "stat": "$330,400,000"},
+    {"text": ["Pirates of the Caribbean: At World’s End (2007)", "Avengers: Infinity War (2018)", "Justice League (2017)"], "stat": "$300,000,000"},
+    {"text": ["Mission: Impossible Dead Reckoning Part One (2023)"], "stat": "$290,000,000"},
+    {"text": ["Rogue One: A Star Wars Story (2016)"], "stat": "$280,200,000"},
+    {"text": ["Star Wars: The Rise of Skywalker (2019)"], "stat": "$275,000,000"},
+    {"text": ["The Marvels (2023)"], "stat": "$274,800,000"},
+    {"text": ["John Carter (2012)"], "stat": "$263,700,000"},
+    {"text": ["Batman v Superman: Dawn of Justice (2016)"], "stat": "$263,000,000"},
+    {"text": ["Star Wars Ep. VIII: The Last Jedi (2017)"], "stat": "$262,000,000"},
+    {"text": ["Tangled (2010)", "The Lion King (2019)"], "stat": "$260,000,000"}
+  ],
+  "url": "https://www.the-numbers.com/movie/budgets"
+},
+"2024-12-24": {
     "category": "",
     "answers": [
     ],
