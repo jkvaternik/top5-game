@@ -6241,5 +6241,28 @@
       {"text": ["I don't decorate my Christmas tree"], "stat": "1%"}
     ],
     "url": "https://www.statista.com/statistics/1075397/most-popular-christmas-tree-decorations-in-the-united-states/"
+  },
+  "2024-12-26": {
+    "category": "Singles of 2024 (by weeks at #1)",
+    "answers": [
+      { "text": ["\"A Bar Song (Tipsy)\" - Shaboozey"], "stat": "19 weeks" },
+      { "text": ["\"I Had Some Help\" - Post Malone featuring Morgan Wallen"], "stat": "6 weeks" },
+      { "text": ["\"Lovin on Me\" - Jack Harlow"], "stat": "5 weeks" },
+      { "text": ["\"Like That\" - Future, Metro Boomin and Kendrick Lamar", "\"All I Want for Christmas Is You\" - Mariah Carey"], "stat": "3 weeks" },
+      { "text": ["\"Not Like Us\" - Kendrick Lamar", "\"Texas Hold 'Em\" - Beyoncé", "\"Fortnight\" - Taylor Swift featuring Post Malone"], "stat": "2 weeks" }
+    ],
+    "options": [
+      { "text": ["\"Yes, And?\" - Ariana Grande"], "stat": "1 week" },
+      { "text": ["\"Squabble Up\" - Kendrick Lamar"], "stat": "1 week" },
+      { "text": ["\"Carnival\" - ¥$: Ye and Ty Dolla Sign featuring Rich the Kid and Playboi Carti"], "stat": "1 week" },
+      { "text": ["\"Please Please Please\" - Sabrina Carpenter"], "stat": "1 week" },
+      { "text": ["\"Rockin' Around the Christmas Tree\" - Brenda Lee"], "stat": "1 week" },
+      { "text": ["\"Hiss\" - Megan Thee Stallion"], "stat": "1 week" },
+      { "text": ["\"We Can't Be Friends (Wait for Your Love)\" - Ariana Grande"], "stat": "1 week" },
+      { "text": ["\"Lose Control\" - Teddy Swims"], "stat": "1 week" },
+      { "text": ["\"Too Sweet\" - Hozier"], "stat": "1 week" },
+      { "text": ["\"Love Somebody\" - Morgan Wallen"], "stat": "1 week" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2024"
   }
 }
