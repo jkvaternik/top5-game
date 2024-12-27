@@ -6264,5 +6264,33 @@
       { "text": ["\"Love Somebody\" - Morgan Wallen"], "stat": "1 week" }
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number_ones_of_2024"
+  },
+  "2024-12-27": {
+    "category": "Albums of 2024 (by weeks at #1)",
+    "answers": [
+      {"text": ["The Tortured Poets Department - Taylor Swift"], "stat": "17 weeks"},
+      {"text": ["Short n' Sweet - Sabrina Carpenter"], "stat": "4 weeks"},
+      {"text": ["Chromakopia - Tyler, the Creator"], "stat": "3 weeks"},
+      {"text": ["One Thing at a Time - Morgan Wallen"], "stat": "3 weeks"},
+      {"text": ["Cowboy Carter - Beyoncé", "American Dream - 21 Savage", "Vultures 1 - ¥$: Ye and Ty Dolla Sign", "Eternal Sunshine - Ariana Grande", "1989 (Taylor's Version) - Taylor Swift"], "stat": "2 weeks"}
+    ],
+    "options": [
+      {"text": ["GNX - Kendrick Lamar"], "stat": "1 week"},
+      {"text": ["We Don't Trust You - Future and Metro Boomin"], "stat": "1 week"},
+      {"text": ["We Still Don't Trust You - Future and Metro Boomin"], "stat": "1 week"},
+      {"text": ["The Death of Slim Shady (Coup de Grâce) - Eminem"], "stat": "1 week"},
+      {"text": ["Ate - Stray Kids"], "stat": "1 week"},
+      {"text": ["F-1 Trillion - Post Malone"], "stat": "1 week"},
+      {"text": ["Hop - Stray Kids"], "stat": "1 week"},
+      {"text": ["With You-th - Twice"], "stat": "1 week"},
+      {"text": ["Days Before Rodeo - Travis Scott"], "stat": "1 week"},
+      {"text": ["Beautifully Broken - Jelly Roll"], "stat": "1 week"},
+      {"text": ["Golden Hour: Part.2 - Ateez"], "stat": "1 week"},
+      {"text": ["Lyfestyle - Yeat"], "stat": "1 week"},
+      {"text": ["35 Biggest Hits - Toby Keith"], "stat": "1 week"},
+      {"text": ["Mixtape Pluto - Future"], "stat": "1 week"},
+      {"text": ["Moon Music - Coldplay"], "stat": "1 week"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_2024"
   }
 }
