@@ -6292,5 +6292,33 @@
       {"text": ["Moon Music - Coldplay"], "stat": "1 week"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Billboard_200_number-one_albums_of_2024"
+  },
+  "2024-12-28": {
+    "category": "Books of 2024 (Most popular on Goodreads)",
+    "answers": [
+      {"text": ["Funny Story - Emily Henry", "The Women - Kristin Hannah"], "stat": "1,000,000 shelvings"},
+      {"text": ["Just for the Summer - Abby Jimenez"], "stat": "956,000 shelvings"},
+      {"text": ["First Lie Wins - Ashley Elston"], "stat": "951,000 shelvings"},
+      {"text": ["The Teacher - Freida McFadden"], "stat": "808,000 shelvings"},
+      {"text": ["House of Flame and Shadow - Sarah J. Maas"], "stat": "764,000 shelvings"}
+    ],
+    "options": [
+      {"text": ["Bride - Ali Hazelwood"], "stat": "743,000 shelvings"},
+      {"text": ["The Housemaid Is Watching - Freida McFadden"], "stat": "609,000 shelvings"},
+      {"text": ["The God of the Woods - Liz Moore"], "stat": "531,000 shelvings"},
+      {"text": ["The Paradise Problem - Christina Lauren"], "stat": "522,000 shelvings"},
+      {"text": ["When the Moon Hatched - Sarah A. Parker"], "stat": "509,000 shelvings"},
+      {"text": ["Reckless - Lauren Roberts"], "stat": "495,000 shelvings"},
+      {"text": ["This Summer Will Be Different - Carley Fortune"], "stat": "469,000 shelvings"},
+      {"text": ["Listen for the Lie - Amy Tintera"], "stat": "448,000 shelvings"},
+      {"text": ["Heartless Hunter - Kristen Ciccarelli"], "stat": "422,000 shelvings"},
+      {"text": ["The Boyfriend - Freida McFadden"], "stat": "412,000 shelvings"},
+      {"text": ["All the Colors of the Dark - Chris Whitaker"], "stat": "410,000 shelvings"},
+      {"text": ["The Wedding People - Alison Espach"], "stat": "408,000 shelvings"},
+      {"text": ["A Fate Inked in Blood - Danielle L. Jensen"], "stat": "407,000 shelvings"},
+      {"text": ["Home Is Where the Bodies Are - Jeneva Rose"], "stat": "395,000 shelvings"}
+    ],
+    "url": "https://www.goodreads.com/book/popular_by_date/2024"
   }
+
 }
