@@ -6319,6 +6319,35 @@
       {"text": ["Home Is Where the Bodies Are - Jeneva Rose"], "stat": "395,000 shelvings"}
     ],
     "url": "https://www.goodreads.com/book/popular_by_date/2024"
+  },
+  "2024-12-29": {
+    "category": "Nonfiction books of 2024 (by weeks as #1 bestseller)",
+    "answers": [
+      {"text": ["Killers of the Flower Moon - David Grann"], "stat": "6 weeks"},
+      {"text": ["The Anxious Generation - Jonathan Haidt", "The Demon of Unrest - Erik Larson", "Melania - Melania Trump"], "stat": "5 weeks"},
+      {"text": ["Hillbilly Elegy - J.D. Vance"], "stat": "4 weeks"},
+      {"text": ["Cher: The Memoir, Part One - Cher"], "stat": "3 weeks"},
+      {"text": ["The Wager - David Grann", "Blood Money - Peter Schweizer", "On Call - Anthony Fauci"], "stat": "2 weeks"}
+    ],
+    "options": [
+      {"text": ["The Boys in the Boat - Daniel James Brown"], "stat": "1 week"},
+      {"text": ["The House of Hidden Meanings - RuPaul"], "stat": "1 week"},
+      {"text": ["Oath and Honor - Liz Cheney"], "stat": "1 week"},
+      {"text": ["Somehow - Anne Lamott"], "stat": "1 week"},
+      {"text": ["An Unfinished Love Story - Doris Kearns Goodwin"], "stat": "1 week"},
+      {"text": ["The Situation Room - George Stephanopoulos with Lisa Dickey"], "stat": "1 week"},
+      {"text": ["What This Comedian Said Will Shock You - Bill Maher"], "stat": "1 week"},
+      {"text": ["The War on Warriors - Pete Hegseth"], "stat": "1 week"},
+      {"text": ["Shameless - Brian Tyler Cohen"], "stat": "1 week"},
+      {"text": ["Imminent - Luis Elizondo"], "stat": "1 week"},
+      {"text": ["Lovely One - Ketanji Brown Jackson"], "stat": "1 week"},
+      {"text": ["Confronting the Presidents - Bill O'Reilly and Martin Dugard"], "stat": "1 week"},
+      {"text": ["Something Lost, Something Gained - Hillary Rodham Clinton"], "stat": "1 week"},
+      {"text": ["The Small and the Mighty - Sharon McMahon"], "stat": "1 week"},
+      {"text": ["Be Ready When the Luck Happens - Ina Garten"], "stat": "1 week"},
+      {"text": ["War - Bob Woodward"], "stat": "1 week"},
+      {"text": ["Framed - John Grisham and Jim McCloskey"], "stat": "1 week"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_The_New_York_Times_number-one_books_of_2024#Nonfiction"
   }
-
 }
