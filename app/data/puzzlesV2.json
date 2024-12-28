@@ -6409,5 +6409,38 @@
       {"text": ["Conclave"], "stat": "$53,112,134"}
     ],
     "url": "https://www.boxofficemojo.com/year/world/2024/"
+  },
+  "2024-12-31": {
+    "category": "Wikipedia articles of 2024 (by pageviews)",
+    "answers": [
+      {"text": ["Deaths in 2024"], "stat": "44,440,344 pageviews"},
+      {"text": ["Kamala Harris"], "stat": "28,960,278 pageviews"},
+      {"text": ["2024 United States presidential election"], "stat": "27,910,346 pageviews"},
+      {"text": ["Lyle and Erik Menendez"], "stat": "26,126,811 pageviews"},
+      {"text": ["Donald Trump"], "stat": "25,293,855 pageviews"}
+    ],
+    "options": [
+      {"text": ["Indian Premier League"], "stat": "24,560,689 pageviews"},
+      {"text": ["JD Vance"], "stat": "23,303,160 pageviews"},
+      {"text": ["Deadpool & Wolverine"], "stat": "22,362,102 pageviews"},
+      {"text": ["Project 2025"], "stat": "19,741,623 pageviews"},
+      {"text": ["2024 Indian general election"], "stat": "18,149,666 pageviews"},
+      {"text": ["Taylor Swift"], "stat": "17,089,827 pageviews"},
+      {"text": ["ChatGPT"], "stat": "16,595,350 pageviews"},
+      {"text": ["2020 United States presidential election"], "stat": "16,351,730 pageviews"},
+      {"text": ["2024 Summer Olympics"], "stat": "16,061,381 pageviews"},
+      {"text": ["UEFA Euro 2024"], "stat": "15,680,913 pageviews"},
+      {"text": ["United States"], "stat": "15,657,243 pageviews"},
+      {"text": ["Elon Musk"], "stat": "15,535,053 pageviews"},
+      {"text": ["Kalki 2898 AD"], "stat": "14,588,383 pageviews"},
+      {"text": ["Joe Biden"], "stat": "14,536,522 pageviews"},
+      {"text": ["Cristiano Ronaldo"], "stat": "13,698,372 pageviews"},
+      {"text": ["Griselda Blanco"], "stat": "13,491,792 pageviews"},
+      {"text": ["Sean Combs"], "stat": "13,112,437 pageviews"},
+      {"text": ["Dune: Part Two"], "stat": "12,788,834 pageviews"},
+      {"text": ["Robert F. Kennedy Jr."], "stat": "12,375,410 pageviews"},
+      {"text": ["Liam Payne"], "stat": "12,087,141 pageviews"}
+    ],
+    "url": "https://wikimediafoundation.org/news/2024/12/03/announcing-english-wikipedias-most-popular-articles-of-2024/"
   }
 }
