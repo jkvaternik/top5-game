@@ -6442,5 +6442,32 @@
       {"text": ["Liam Payne"], "stat": "12,087,141 pageviews"}
     ],
     "url": "https://wikimediafoundation.org/news/2024/12/03/announcing-english-wikipedias-most-popular-articles-of-2024/"
+  },
+  "2025-01-01": {
+    "category": "Most common New Year's Resolutions for 2025",
+    "answers": [
+      {"text": ["Saving more money"], "stat": "26%"},
+      {"text": ["Improving physical health", "Exercising more", "Being happy"], "stat": "22%"},
+      {"text": ["Eating healthier"], "stat": "20%"},
+      {"text": ["Losing weight", "Improving mental health"], "stat": "17%"},
+      {"text": ["Learning something new", "Reading more"], "stat": "15%"}
+    ],
+    "options": [
+      {"text": ["Improving relationships with friends or family"], "stat": "14%"},
+      {"text": ["Spending more time with family"], "stat": "14%"},
+      {"text": ["Paying down debts"], "stat": "13%"},
+      {"text": ["Focusing on spiritual matters"], "stat": "12%"},
+      {"text": ["Traveling"], "stat": "12%"},
+      {"text": ["Quitting a bad habit"], "stat": "11%"},
+      {"text": ["Pursuing a career goal"], "stat": "11%"},
+      {"text": ["Getting a new job"], "stat": "9%"},
+      {"text": ["Spending more time with friends"], "stat": "9%"},
+      {"text": ["Pursuing a new hobby"], "stat": "8%"},
+      {"text": ["Moving"], "stat": "6%"},
+      {"text": ["Not sure"], "stat": "3%"},
+      {"text": ["Other"], "stat": "1%"},
+      {"text": ["None of these"], "stat": "1%"}
+    ],
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/New_Year_s_Resolutions_poll_results_Hqr5hDT.pdf"
   }
 }
