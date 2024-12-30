@@ -6469,5 +6469,54 @@
       {"text": ["None of these"], "stat": "1%"}
     ],
     "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/New_Year_s_Resolutions_poll_results_Hqr5hDT.pdf"
+  },
+  "2025-01-02": {
+    "category": "Longest-living U.S. Presidents",
+    "answers": [
+      {"text": ["Jimmy Carter"], "stat": "100 years, 89 days"},
+      {"text": ["George H. W. Bush"], "stat": "94 years, 171 days"},
+      {"text": ["Gerald Ford"], "stat": "93 years, 165 days"},
+      {"text": ["Ronald Reagan"], "stat": "93 years, 120 days"},
+      {"text": ["John Adams"], "stat": "90 years, 247 days"}
+    ],
+    "options": [
+      {"text": ["Herbert Hoover"], "stat": "90 years, 71 days"},
+      {"text": ["Harry S. Truman"], "stat": "88 years, 232 days"},
+      {"text": ["James Madison"], "stat": "85 years, 104 days"},
+      {"text": ["Thomas Jefferson"], "stat": "83 years, 82 days"},
+      {"text": ["Joe Biden"], "stat": "82 years, 43 days"},
+      {"text": ["Richard Nixon"], "stat": "81 years, 103 days"},
+      {"text": ["John Quincy Adams"], "stat": "80 years, 227 days"},
+      {"text": ["Martin Van Buren"], "stat": "79 years, 231 days"},
+      {"text": ["Andrew Jackson"], "stat": "78 years, 85 days"},
+      {"text": ["James Buchanan"], "stat": "77 years, 39 days"},
+      {"text": ["Millard Fillmore"], "stat": "74 years, 60 days"},
+      {"text": ["James Monroe"], "stat": "73 years, 67 days"},
+      {"text": ["William Howard Taft"], "stat": "72 years, 174 days"},
+      {"text": ["John Tyler"], "stat": "71 years, 295 days"},
+      {"text": ["Grover Cleveland"], "stat": "71 years, 98 days"},
+      {"text": ["Rutherford B. Hayes"], "stat": "70 years, 105 days"},
+      {"text": ["William Henry Harrison"], "stat": "68 years, 54 days"},
+      {"text": ["George Washington"], "stat": "67 years, 295 days"},
+      {"text": ["Benjamin Harrison"], "stat": "67 years, 205 days"},
+      {"text": ["Woodrow Wilson"], "stat": "67 years, 37 days"},
+      {"text": ["Andrew Johnson"], "stat": "66 years, 214 days"},
+      {"text": ["Zachary Taylor"], "stat": "65 years, 227 days"},
+      {"text": ["Franklin Pierce"], "stat": "64 years, 319 days"},
+      {"text": ["Lyndon B. Johnson"], "stat": "64 years, 148 days"},
+      {"text": ["Barack Obama"], "stat": "63 years, 148 days"},
+      {"text": ["Ulysses S. Grant"], "stat": "63 years, 87 days"},
+      {"text": ["Franklin D. Roosevelt"], "stat": "63 years, 72 days"},
+      {"text": ["Calvin Coolidge"], "stat": "60 years, 185 days"},
+      {"text": ["Theodore Roosevelt"], "stat": "60 years, 71 days"},
+      {"text": ["William McKinley"], "stat": "58 years, 228 days"},
+      {"text": ["Warren G. Harding"], "stat": "57 years, 273 days"},
+      {"text": ["Chester A. Arthur"], "stat": "57 years, 44 days"},
+      {"text": ["Abraham Lincoln"], "stat": "56 years, 62 days"},
+      {"text": ["James K. Polk"], "stat": "53 years, 225 days"},
+      {"text": ["James A. Garfield"], "stat": "49 years, 304 days"},
+      {"text": ["John F. Kennedy"], "stat": "46 years, 177 days"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States_by_age"
   }
 }
