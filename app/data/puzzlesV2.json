@@ -6536,5 +6536,34 @@
       {"text": ["Protestor"], "stat": "0% - not a word"}
     ],
     "url": "https://images.prismic.io/wordtips/fc82a7bf-7c1c-433f-89f1-66391bf27f66_09_Most-Misspelled-English-Word-in-the-US_Hi-RES.png"
+  },
+  "2025-01-04": {
+    "category": "Highest calorie Cheesecake Factory dishes",
+    "answers": [
+      {"text": ["Bruléed French Toast with Bacon"], "stat": "2310 calories"},
+      {"text": ["Louisiana Chicken Pasta", "Bruléed French Toast with Grilled Ham"], "stat": "2270 calories"},
+      {"text": ["Gluten Free Pasta Carbonara with Chicken"], "stat": "2250 calories"},
+      {"text": ["Spicy Cashew Chicken", "Gluten Free Italian Sausage and Fresh Mushroom Rigatoni"], "stat": "2190 calories"},
+      {"text": ["Bistro Shrimp Pasta"], "stat": "2170 calories"}
+    ],
+    "options": [
+      {"text": ["Pasta Carbonara with Chicken"], "stat": "2160 calories"},
+      {"text": ["Gluten Free Pasta Carbonara"], "stat": "2120 calories"},
+      {"text": ["Bruléed French Toast"], "stat": "2110 calories"},
+      {"text": ["Italian Sausage and Fresh Mushroom Rigatoni"], "stat": "2100 calories"},
+      {"text": ["Breakfast Burrito"], "stat": "2080 calories"},
+      {"text": ["Fettuccini Alfredo with Chicken"], "stat": "2060 calories"},
+      {"text": ["Cinnamon Roll Pancakes"], "stat": "2040 calories"},
+      {"text": ["Pasta Carbonara"], "stat": "2030 calories"},
+      {"text": ["Chicken Bellagio"], "stat": "2020 calories"},
+      {"text": ["Chicken 'Littles'"], "stat": "1990 calories"},
+      {"text": ["Monte Cristo Sandwich"], "stat": "1960 calories"},
+      {"text": ["Barbeque Ranch Chicken Salad"], "stat": "1950 calories"},
+      {"text": ["Chicken Parmesan 'Pizza Style'", "Fried Shrimp Platter"], "stat": "1940 calories"},
+      {"text": ["Famous Factory Meatloaf", "Fettuccini Alfredo"], "stat": "1930 calories"},
+      {"text": ["Spaghetti and Meatballs"], "stat": "1920 calories"},
+      {"text": ["Gluten Free Pasta with Chicken and Roasted Garlic"], "stat": "1900 calories"}
+    ],
+    "url": "https://www.thecheesecakefactory.com/media/631/download?inline="
   }
 }
