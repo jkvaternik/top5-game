@@ -6565,5 +6565,39 @@
       {"text": ["Gluten Free Pasta with Chicken and Roasted Garlic"], "stat": "1900 calories"}
     ],
     "url": "https://www.thecheesecakefactory.com/media/631/download?inline="
+  },
+  "2025-01-05": {
+    "category": "Steven Spielberg Movies by Rotten Tomatoes 'Tomatometer' score (critics)",
+    "answers": [
+      {"text": ["E.T. the Extra-Terrestrial"], "stat": "99%"},
+      {"text": ["Schindler's List"], "stat": "98%"},
+      {"text": ["Jaws"], "stat": "97%"},
+      {"text": ["Catch Me if You Can"], "stat": "96%"},
+      {"text": ["Saving Private Ryan"], "stat": "94%"}
+    ],
+    "options": [
+      {"text": ["Raiders of the Lost Ark"], "stat": "93%"},
+      {"text": ["The Fabelmans"], "stat": "92%"},
+      {"text": ["West Side Story", "Bridge of Spies", "Jurassic Park"], "stat": "91%"},
+      {"text": ["Close Encounters of the Third Kind", "Lincoln"], "stat": "90%"},
+      {"text": ["Minority Report", "Duel"], "stat": "89%"},
+      {"text": ["The Post"], "stat": "88%"},
+      {"text": ["The Sugarland Express"], "stat": "87%"},
+      {"text": ["Indiana Jones and the Last Crusade"], "stat": "84%"},
+      {"text": ["Munich", "Amistad"], "stat": "78%"},
+      {"text": ["Indiana Jones and the Temple of Doom", "Indiana Jones and the Kingdom of the Crystal Skull", "Empire of the Sun"], "stat": "77%"},
+      {"text": ["A.I.: Artificial Intelligence", "War of the Worlds"], "stat": "76%"},
+      {"text": ["The Adventures of Tintin"], "stat": "75%"},
+      {"text": ["War Horse", "The BFG"], "stat": "74%"},
+      {"text": ["The Color Purple"], "stat": "73%"},
+      {"text": ["Ready Player One"], "stat": "71%"},
+      {"text": ["Always"], "stat": "70%"},
+      {"text": ["The Terminal"], "stat": "61%"},
+      {"text": ["Twilight Zone: The Movie"], "stat": "59%"},
+      {"text": ["The Lost World: Jurassic Park"], "stat": "53%"},
+      {"text": ["1941"], "stat": "39%"},
+      {"text": ["Hook"], "stat": "29%"}
+    ],
+    "url": "https://editorial.rottentomatoes.com/guide/every-steven-spielberg-movie-ranked-by-tomatometer/"
   }
 }
