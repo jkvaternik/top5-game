@@ -6638,5 +6638,75 @@
       {"text": ["Minnesota"], "stat": "4.3"}
     ],
     "url": "https://worldpopulationreview.com/state-rankings/murder-rate-by-state"
+  },
+  "2025-01-07": {
+    "category": "Most valuable companies by market cap",
+    "answers": [
+       {"text": ["Apple"], "stat": "$3.703 trillion"},
+       {"text": ["NVIDIA"], "stat": "$3.659 trillion"},
+       {"text": ["Microsoft"], "stat": "$3.181 trillion"},
+       {"text": ["Amazon"], "stat": "$2.393 trillion"},
+       {"text": ["Alphabet (Google)"], "stat": "$2.355 trillion"}
+   ],
+   "options": [
+       {"text": ["Saudi Aramco"], "stat": "$1.802 trillion"},
+       {"text": ["Meta Platforms"], "stat": "$1.526 trillion"},
+       {"text": ["Tesla"], "stat": "$1.319 trillion"},
+       {"text": ["TSMC"], "stat": "$1.141 trillion"},
+       {"text": ["Broadcom"], "stat": "$1.108 trillion"},
+       {"text": ["Berkshire Hathaway"], "stat": "$978.67 billion"},
+       {"text": ["Walmart"], "stat": "$734.49 billion"},
+       {"text": ["Eli Lilly"], "stat": "$703.24 billion"},
+       {"text": ["JPMorgan Chase"], "stat": "$684.91 billion"},
+       {"text": ["Visa"], "stat": "$609.81 billion"},
+       {"text": ["Tencent"], "stat": "$487.12 billion"},
+       {"text": ["Mastercard"], "stat": "$478.52 billion"},
+       {"text": ["Exxon Mobil"], "stat": "$474.05 billion"},
+       {"text": ["UnitedHealth"], "stat": "$472.72 billion"},
+       {"text": ["Oracle"], "stat": "$465.18 billion"},
+       {"text": ["Costco"], "stat": "$409.59 billion"},
+       {"text": ["Novo Nordisk"], "stat": "$393.74 billion"},
+       {"text": ["Procter & Gamble"], "stat": "$388.88 billion"},
+       {"text": ["Home Depot"], "stat": "$386.78 billion"},
+       {"text": ["Netflix"], "stat": "$376.92 billion"},
+       {"text": ["Bank of America"], "stat": "$348.34 billion"},
+       {"text": ["Johnson & Johnson"], "stat": "$347.15 billion"},
+       {"text": ["LVMH"], "stat": "$342.05 billion"},
+       {"text": ["AbbVie"], "stat": "$320.24 billion"},
+       {"text": ["Salesforce"], "stat": "$318.58 billion"}
+   ],
+   "url": "https://companiesmarketcap.com/"
+  },
+  "2025-01-08": {
+    "category": "All-time NBA players with most 30 point games",
+    "answers": [
+       {"text": ["LeBron James"], "stat": "563 games"},
+       {"text": ["Michael Jordan"], "stat": "562 games"},
+       {"text": ["Wilt Chamberlain"], "stat": "516 games"},
+       {"text": ["Karl Malone"], "stat": "435 games"},
+       {"text": ["Kobe Bryant"], "stat": "431 games"}
+    ],
+    "options": [
+      {"text": ["Kareem Abdul-Jabbar"], "stat": "429 games"},
+      {"text": ["Kevin Durant"], "stat": "399 games"},
+      {"text": ["Oscar Robertson"], "stat": "387 games"},
+      {"text": ["Jerry West"], "stat": "350 games"},
+      {"text": ["Dominique Wilkins"], "stat": "346 games"},
+      {"text": ["Allen Iverson"], "stat": "345 games"},
+      {"text": ["Elgin Baylor"], "stat": "343 games"},
+      {"text": ["James Harden"], "stat": "321 games"},
+      {"text": ["Adrian Dantley"], "stat": "314 games"},
+      {"text": ["Shaquille O'Neal"], "stat": "313 games"},
+      {"text": ["George Gervin"], "stat": "297 games"},
+      {"text": ["Stephen Curry"], "stat": "296 games"},
+      {"text": ["Bob Pettit"], "stat": "284 games"},
+      {"text": ["Alex English"], "stat": "276 games"},
+      {"text": ["Giannis Antetokounmpo", "Carmelo Anthony"], "stat": "272 games"},
+      {"text": ["Damian Lillard"], "stat": "260 games"},
+      {"text": ["Elvin Hayes"], "stat": "253 games"},
+      {"text": ["Dirk Nowitzki"], "stat": "245 games"},
+      {"text": ["Bob McAdoo"], "stat": "236 games"}
+    ],
+    "url": "https://www.statmuse.com/nba/ask/most-30-point-games-in-the-nba"
   }
 }
