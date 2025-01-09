@@ -6708,5 +6708,26 @@
       {"text": ["Bob McAdoo"], "stat": "236 games"}
     ],
     "url": "https://www.statmuse.com/nba/ask/most-30-point-games-in-the-nba"
+  },
+  "2025-01-09": {
+    "category": "Most-nominated movies at the 2025 Golden Globes",
+    "answers": [
+      {"text": ["Emilia Pérez"], "stat": "10 nominations"},
+      {"text": ["The Brutalist"], "stat": "7 nominations"},
+      {"text": ["Conclave"], "stat": "6 nominations"},
+      {"text": ["Anora", "The Substance"], "stat": "5 nominations"},
+      {"text": ["Challengers", "A Real Pain", "Wicked", "The Wild Robot"], "stat": "4 nominations"}
+    ],
+    "options": [
+      {"text": ["A Complete Unknown"], "stat": "3 nominations"},
+      {"text": ["All We Imagine as Light"], "stat": "2 nominations"},
+      {"text": ["The Apprentice"], "stat": "2 nominations"},
+      {"text": ["Dune: Part Two"], "stat": "2 nominations"},
+      {"text": ["Gladiator II"], "stat": "2 nominations"},
+      {"text": ["I'm Still Here"], "stat": "2 nominations"},
+      {"text": ["Inside Out 2"], "stat": "2 nominations"},
+      {"text": ["The Last Showgirl"], "stat": "2 nominations"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/82nd_Golden_Globe_Awards#Films_with_multiple_nominations"
   }
 }
