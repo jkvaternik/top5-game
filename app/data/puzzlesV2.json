@@ -6729,5 +6729,25 @@
       {"text": ["The Last Showgirl"], "stat": "2 nominations"}
     ],
     "url": "https://en.wikipedia.org/wiki/82nd_Golden_Globe_Awards#Films_with_multiple_nominations"
+  },
+  "2025-01-10": {
+    "category": "Countries with the largest silver production",
+    "answers": [
+        {"text": ["Mexico"], "stat": "6,400 tonnes"},
+        {"text": ["China"], "stat": "3,400 tonnes"},
+        {"text": ["Peru"], "stat": "3,100 tonnes"},
+        {"text": ["Chile"], "stat": "1,400 tonnes"},
+        {"text": ["Poland"], "stat": "1,300 tonnes"}
+    ],
+    "options": [
+        {"text": ["Australia"], "stat": "1,200 tonnes"},
+        {"text": ["Bolivia"], "stat": "1,200 tonnes"},
+        {"text": ["Russia"], "stat": "1,200 tonnes"},
+        {"text": ["United States"], "stat": "1,000 tonnes"},
+        {"text": ["Kazakhstan"], "stat": "990 tonnes"},
+        {"text": ["Argentina"], "stat": "910 tonnes"},
+        {"text": ["India"], "stat": "690 tonnes"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_silver_production"
   }
 }
