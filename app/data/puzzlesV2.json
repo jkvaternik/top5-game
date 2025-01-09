@@ -6749,5 +6749,48 @@
         {"text": ["India"], "stat": "690 tonnes"}
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_silver_production"
+  },
+  "2025-01-11": {
+    "category": "Countries with the strongest passport",
+    "answers": [
+       {"text": ["Singapore"], "stat": "195 countries"},
+       {"text": ["Japan"], "stat": "193 countries"},
+       {"text": ["Finland", "France", "Germany", "Italy", "South Korea", "Spain"], "stat": "192 countries"},
+       {"text": ["Austria", "Denmark", "Ireland", "Luxembourg", "Netherlands", "Norway", "Sweden"], "stat": "191 countries"},
+       {"text": ["Belgium", "New Zealand", "Portugal", "Switzerland", "United Kingdom"], "stat": "190 countries"}
+   ],
+   "options": [
+       {"text": ["Australia"], "stat": "189 countries"},
+       {"text": ["Greece"], "stat": "189 countries"},
+       {"text": ["Canada"], "stat": "188 countries"},
+       {"text": ["Malta"], "stat": "188 countries"},
+       {"text": ["Poland"], "stat": "188 countries"},
+       {"text": ["Czechia"], "stat": "187 countries"},
+       {"text": ["Hungary"], "stat": "187 countries"},
+       {"text": ["Estonia"], "stat": "186 countries"},
+       {"text": ["United States"], "stat": "186 countries"},
+       {"text": ["Latvia"], "stat": "185 countries"},
+       {"text": ["Lithuania"], "stat": "185 countries"},
+       {"text": ["Slovenia"], "stat": "185 countries"},
+       {"text": ["United Arab Emirates"], "stat": "185 countries"},
+       {"text": ["Croatia"], "stat": "184 countries"},
+       {"text": ["Iceland"], "stat": "184 countries"},
+       {"text": ["Slovakia"], "stat": "184 countries"},
+       {"text": ["Malaysia"], "stat": "183 countries"},
+       {"text": ["Liechtenstein"], "stat": "182 countries"},
+       {"text": ["Cyprus"], "stat": "179 countries"},
+       {"text": ["Bulgaria"], "stat": "178 countries"},
+       {"text": ["Monaco"], "stat": "178 countries"},
+       {"text": ["Romania"], "stat": "178 countries"},
+       {"text": ["Chile"], "stat": "176 countries"},
+       {"text": ["Argentina"], "stat": "172 countries"},
+       {"text": ["Andorra"], "stat": "171 countries"},
+       {"text": ["Brazil"], "stat": "171 countries"},
+       {"text": ["Hong Kong"], "stat": "171 countries"},
+       {"text": ["San Marino"], "stat": "171 countries"},
+       {"text": ["Israel"], "stat": "170 countries"},
+       {"text": ["Brunei"], "stat": "166 countries"}
+   ],
+   "url": "https://www.henleyglobal.com/passport-index/ranking"
   }
 }
