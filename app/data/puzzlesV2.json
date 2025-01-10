@@ -6832,5 +6832,75 @@
       {"text": ["Retrievers (Curly-Coated)"], "stat": "95 pounds"}
     ],
     "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
+  },
+  "2025-01-14": {
+    "category": "Highest countries by average elevation",
+    "answers": [
+        {"text": ["Bhutan"], "stat": "10,761 ft"},
+        {"text": ["Nepal"], "stat": "10,712 ft"},
+        {"text": ["Tajikistan"], "stat": "10,453 ft"},
+        {"text": ["Kyrgyzstan"], "stat": "9,803 ft"},
+        {"text": ["Antarctica"], "stat": "7,546 ft"}
+    ],
+    "options": [
+        {"text": ["Lesotho"], "stat": "7,090 ft"},
+        {"text": ["Andorra"], "stat": "6,549 ft"},
+        {"text": ["Afghanistan"], "stat": "6,181 ft"},
+        {"text": ["Chile"], "stat": "6,138 ft"},
+        {"text": ["China"], "stat": "6,037 ft"},
+        {"text": ["Armenia", "Greenland"], "stat": "5,879 ft"},
+        {"text": ["Rwanda"], "stat": "5,243 ft"},
+        {"text": ["Mongolia"], "stat": "5,184 ft"},
+        {"text": ["Peru"], "stat": "5,102 ft"},
+        {"text": ["Burundi"], "stat": "4,934 ft"},
+        {"text": ["Georgia"], "stat": "4,698 ft"},
+        {"text": ["Switzerland"], "stat": "4,429 ft"},
+        {"text": ["Ethiopia"], "stat": "4,364 ft"},
+        {"text": ["Iran"], "stat": "4,281 ft"},
+        {"text": ["Lebanon"], "stat": "4,101 ft"},
+        {"text": ["Bolivia"], "stat": "3,911 ft"},
+        {"text": ["Taiwan"], "stat": "3,773 ft"},
+        {"text": ["Namibia", "Turkey"], "stat": "3,743 ft"},
+        {"text": ["Zambia"], "stat": "3,734 ft"},
+        {"text": ["Ecuador"], "stat": "3,665 ft"},
+        {"text": ["Angola"], "stat": "3,648 ft"},
+        {"text": ["Mexico"], "stat": "3,645 ft"}
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_countries_by_average_elevation"
+  },
+  "2025-01-15": {
+    "category": "Lowest countries by average elevation",
+    "answers": [
+        {"text": ["Maldives"], "stat": "5 ft"},
+        {"text": ["Tuvalu"], "stat": "6 ft"},
+        {"text": ["Kiribati", "Marshall Islands"], "stat": "7 ft"},
+        {"text": ["Singapore"], "stat": "49 ft"},
+        {"text": ["Qatar"], "stat": "92 ft"}
+    ],
+    "options": [
+        {"text": ["Netherlands"], "stat": "98 ft"},
+        {"text": ["Denmark", "Gambia"], "stat": "112 ft"},
+        {"text": ["Estonia"], "stat": "200 ft"},
+        {"text": ["Senegal"], "stat": "226 ft"},
+        {"text": ["Guinea-Bissau"], "stat": "230 ft"},
+        {"text": ["Trinidad and Tobago"], "stat": "272 ft"},
+        {"text": ["Bangladesh"], "stat": "279 ft"},
+        {"text": ["Latvia"], "stat": "285 ft"},
+        {"text": ["Cyprus"], "stat": "299 ft"},
+        {"text": ["Cuba", "Kuwait"], "stat": "354 ft"},
+        {"text": ["Uruguay"], "stat": "358 ft"},
+        {"text": ["Lithuania"], "stat": "361 ft"},
+        {"text": ["Ireland"], "stat": "387 ft"},
+        {"text": ["Cambodia"], "stat": "413 ft"},
+        {"text": ["Moldova"], "stat": "456 ft"},
+        {"text": ["Hungary"], "stat": "469 ft"},
+        {"text": ["United Arab Emirates"], "stat": "489 ft"},
+        {"text": ["Belarus"], "stat": "525 ft"},
+        {"text": ["United Kingdom"], "stat": "531 ft"},
+        {"text": ["Finland"], "stat": "538 ft"},
+        {"text": ["French Guiana"], "stat": "551 ft"},
+        {"text": ["Belize"], "stat": "568 ft"}
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_countries_by_average_elevation"
   }
 }
