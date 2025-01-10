@@ -6792,5 +6792,27 @@
        {"text": ["Brunei"], "stat": "166 countries"}
    ],
    "url": "https://www.henleyglobal.com/passport-index/ranking"
+  },
+  "2025-01-12": {
+    "category": "Largest dog breeds by max weight",
+    "answers": [
+      {"text": ["Mastiffs"], "stat": "230 pounds"},
+      {"text": ["St. Bernards"], "stat": "180 pounds"},
+      {"text": ["Great Danes"], "stat": "175 pounds"},
+      {"text": ["Neapolitan Mastiffs", "Anatolian Shepherd Dogs", "Newfoundlands", "Tibetan Mastiffs"], "stat": "150 pounds"},
+      {"text": ["Greater Swiss Mountain Dogs"], "stat": "140 pounds"}
+    ],
+    "options": [
+      {"text": ["Rottweilers"], "stat": "135 pounds"},
+      {"text": ["Akitas", "Black Russian Terriers", "Bullmastiffs"], "stat": "130 pounds"},
+      {"text": ["Irish Wolfhounds"], "stat": "120 pounds"},
+      {"text": ["Fox Terriers (Wire)"], "stat": "118 pounds"},
+      {"text": ["Otterhounds", "Bernese Mountain Dogs", "Kuvaszok"], "stat": "115 pounds"},
+      {"text": ["Dogues de Bordeaux", "Beaucerons", "Black and Tan Coonhounds", "Bloodhounds", "Bouviers des Flandres", "Scottish Deerhounds"], "stat": "110 pounds"},
+      {"text": ["Borzois"], "stat": "105 pounds"},
+      {"text": ["Great Pyrenees", "Komondorok", "Briards", "Doberman Pinschers", "Old English Sheepdogs"], "stat": "100 pounds"},
+      {"text": ["Retrievers (Curly-Coated)"], "stat": "95 pounds"}
+    ],
+    "url": "https://www.akc.org/expert-advice/nutrition/breed-weight-chart/"
   }
 }
