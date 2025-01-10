@@ -6751,6 +6751,24 @@
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_silver_production"
   },
   "2025-01-11": {
+    "category": "Longest NFL postseason appearance droughts",
+    "answers": [
+        {"text": ["New York Jets"], "stat": "14 seasons"},
+        {"text": ["Carolina Panthers","Atlanta Falcons"], "stat": "7 seasons"},
+        {"text": ["Indianapolis Colts", "Chicago Bears", "New Orleans Saints"], "stat": "4 seasons"},
+        {"text": ["New England Patriots", "Arizona Cardinals", "Tennessee Titans", "Las Vegas Raiders"], "stat": "3 seasons"},
+        {"text": ["Seattle Seahawks", "Jacksonville Jaguars", "New York Giants", "Cincinnati Bengals"], "stat": "2 seasons"}
+    ],
+    "options": [
+        {"text": ["Cleveland Browns", "Miami Dolphins", "Dallas Cowboys", "San Francisco 49ers"], "stat": "1 season"},
+        {"text": ["Buffalo Bills", "Houston Texans", "Baltimore Ravens", "Pittsburgh Steelers"], "stat": "0 seasons"},
+        {"text": ["Los Angeles Chargers", "Denver Broncos", "Kansas City Chiefs", "Philadelphia Eagles"], "stat": "0 seasons"},
+        {"text": ["Green Bay Packers", "Washington Commanders", "Tampa Bay Buccaneers", "Los Angeles Rams"], "stat": "0 seasons"},
+        {"text": ["Minnesota Vikings", "Detroit Lions"], "stat": "0 seasons"}
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_NFL_franchise_post-season_droughts"
+  },
+  "2025-01-12": {
     "category": "Countries with the strongest passport",
     "answers": [
        {"text": ["Singapore"], "stat": "195 countries"},
@@ -6793,7 +6811,7 @@
    ],
    "url": "https://www.henleyglobal.com/passport-index/ranking"
   },
-  "2025-01-12": {
+  "2025-01-13": {
     "category": "Largest dog breeds by max weight",
     "answers": [
       {"text": ["Mastiffs"], "stat": "230 pounds"},
