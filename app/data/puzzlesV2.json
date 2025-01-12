@@ -6902,5 +6902,32 @@
         {"text": ["Belize"], "stat": "568 ft"}
     ],
     "url": "https://en.m.wikipedia.org/wiki/List_of_countries_by_average_elevation"
+  },
+  "2025-01-16": {
+    "category": "Largest moons in our solar system",
+    "answers": [
+      {"text": ["Ganymede"], "stat": "2,634.1 km"},
+      {"text": ["Titan"], "stat": "2,574.7 km"},
+      {"text": ["Callisto"], "stat": "2,410.3 km"},
+      {"text": ["Io"], "stat": "1,821.6 km"},
+      {"text": ["Moon (Luna)"], "stat": "1,737.1 km"}
+    ],
+    "options": [
+      {"text": ["Europa"], "stat": "1,560.8 km"},
+      {"text": ["Triton"], "stat": "1,353.4 km"},
+      {"text": ["Titania"], "stat": "788.9 km"},
+      {"text": ["Rhea"], "stat": "764.3 km"},
+      {"text": ["Oberon"], "stat": "761.4 km"},
+      {"text": ["Iapetus"], "stat": "735.6 km"},
+      {"text": ["Charon"], "stat": "603.6 km"},
+      {"text": ["Umbriel"], "stat": "584.7 km"},
+      {"text": ["Ariel"], "stat": "578.9 km"},
+      {"text": ["Dione"], "stat": "561.4 km"},
+      {"text": ["Tethys"], "stat": "533.0 km"},
+      {"text": ["Enceladus"], "stat": "252.1 km"},
+      {"text": ["Miranda"], "stat": "235.8 km"},
+      {"text": ["Mimas"], "stat": "198.2 km"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Planetary-mass_moon#List"
   }
 }
