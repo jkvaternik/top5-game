@@ -6944,5 +6944,76 @@
        {"text": ["Antarctica"], "stat": "0 people"}
    ],
    "url": "https://www.worldometers.info/geography/7-continents/"
+  },
+  "2025-01-18": {
+    "category": "NFL teams with most playoff appearances",
+    "answers": [
+       {"text": ["Green Bay Packers"], "stat": "37 appearances"},
+       {"text": ["Dallas Cowboys"], "stat": "36 appearances"},
+       {"text": ["Pittsburgh Steelers"], "stat": "35 appearances"},
+       {"text": ["Los Angeles Rams", "New York Giants"], "stat": "33 appearances"},
+       {"text": ["Minnesota Vikings"], "stat": "32 appearances"}
+   ],
+   "options": [
+       {"text": ["Philadelphia Eagles"], "stat": "31 appearances"},
+       {"text": ["San Francisco 49ers"], "stat": "30 appearances"},
+       {"text": ["Indianapolis Colts"], "stat": "29 appearances"},
+       {"text": ["New England Patriots"], "stat": "28 appearances"},
+       {"text": ["Kansas City Chiefs"], "stat": "27 appearances"},
+       {"text": ["Chicago Bears"], "stat": "27 appearances"},
+       {"text": ["Washington Commanders"], "stat": "26 appearances"},
+       {"text": ["Cleveland Browns"], "stat": "25 appearances"},
+       {"text": ["Tennessee Titans"], "stat": "25 appearances"},
+       {"text": ["Miami Dolphins"], "stat": "25 appearances"},
+       {"text": ["Buffalo Bills"], "stat": "24 appearances"},
+       {"text": ["Denver Broncos"], "stat": "23 appearances"},
+       {"text": ["Las Vegas Raiders"], "stat": "23 appearances"},
+       {"text": ["Los Angeles Chargers"], "stat": "21 appearances"},
+       {"text": ["Seattle Seahawks"], "stat": "20 appearances"},
+       {"text": ["Detroit Lions"], "stat": "20 appearances"},
+       {"text": ["Baltimore Ravens"], "stat": "16 appearances"},
+       {"text": ["Cincinnati Bengals"], "stat": "16 appearances"},
+       {"text": ["Tampa Bay Buccaneers"], "stat": "15 appearances"},
+       {"text": ["Atlanta Falcons"], "stat": "14 appearances"},
+       {"text": ["New Orleans Saints"], "stat": "14 appearances"},
+       {"text": ["New York Jets"], "stat": "14 appearances"},
+       {"text": ["Arizona Cardinals"], "stat": "11 appearances"},
+       {"text": ["Houston Texans"], "stat": "8 appearances"},
+       {"text": ["Carolina Panthers"], "stat": "8 appearances"},
+       {"text": ["Jacksonville Jaguars"], "stat": "8 appearances"}
+   ],
+   "url": "https://en.wikipedia.org/wiki/NFL_playoffs#Appearances_by_active_teams"
+  },
+  "2025-01-19": {
+    "answers": [
+       {"text": ["San Jose"], "stat": "$3,695/month"},
+       {"text": ["New York"], "stat": "$3,639/month"},
+       {"text": ["Boston"], "stat": "$3,410/month"},
+       {"text": ["San Francisco"], "stat": "$3,359/month"},
+       {"text": ["San Diego"], "stat": "$3,324/month"}
+   ],
+   "options": [
+       {"text": ["Los Angeles"], "stat": "$3,113/month"},
+       {"text": ["Seattle"], "stat": "$3,049/month"},
+       {"text": ["Washington"], "stat": "$2,991/month"},
+       {"text": ["Miami"], "stat": "$2,867/month"},
+       {"text": ["Portland"], "stat": "$2,758/month"},
+       {"text": ["Denver"], "stat": "$2,743/month"},
+       {"text": ["Atlanta"], "stat": "$2,678/month"},
+       {"text": ["Austin"], "stat": "$2,612/month"},
+       {"text": ["Fort Lauderdale"], "stat": "$2,555/month"},
+       {"text": ["Sacramento"], "stat": "$2,459/month"},
+       {"text": ["Las Vegas"], "stat": "$2,407/month"},
+       {"text": ["Phoenix"], "stat": "$2,395/month"},
+       {"text": ["Colorado Springs"], "stat": "$2,393/month"},
+       {"text": ["Tampa"], "stat": "$2,393/month"},
+       {"text": ["Dallas"], "stat": "$2,370/month"},
+       {"text": ["Charlotte"], "stat": "$2,339/month"},
+       {"text": ["Chicago"], "stat": "$2,334/month"},
+       {"text": ["Saint Paul"], "stat": "$2,302/month"},
+       {"text": ["Baltimore"], "stat": "$2,287/month"},
+       {"text": ["Orlando"], "stat": "$2,251/month"}
+   ],
+   "url": "https://www.visualcapitalist.com/ranked-the-25-least-affordable-cities-in-america/"
   }
 }
