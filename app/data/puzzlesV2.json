@@ -7016,5 +7016,23 @@
        {"text": ["Orlando"], "stat": "$2,251/month"}
    ],
    "url": "https://www.visualcapitalist.com/ranked-the-25-least-affordable-cities-in-america/"
+  },
+  "2025-01-20": {
+    "category": "Most well-known insurance mascots",
+    "answers": [
+      {"text": ["Martin the Gecko - GEICO"], "stat": "98%"},
+      {"text": ["Flo - Progressive"], "stat": "95%"},
+      {"text": ["The Aflac Duck - Aflac"], "stat": "92%"},
+      {"text": ["Jamie - Progressive"], "stat": "87%"},
+      {"text": ["LiMu Emu and Doug - Liberty Mutual"], "stat": "84%"}
+    ],
+    "options": [
+      {"text": ["Jake from State Farm - State Farm"], "stat": "83%"},
+      {"text": ["Mayhem - Allstate"], "stat": "79%"},
+      {"text": ["The original Jake - State Farm"], "stat": "77%"},
+      {"text": ["Professor Burke - Farmers"], "stat": "76%"},
+      {"text": ["Dr. Rick - Progressive"], "stat": "54%"}
+    ],
+    "url": "https://www.insurancebusinessmag.com/us/guides/who-are-the-best-insurance-mascots-of-all-time-445994.aspx"
   }
 }
