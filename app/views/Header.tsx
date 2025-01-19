@@ -49,7 +49,7 @@ export default function Header({ puzzle, lives, gameOver, showMenu, setShowMenu,
         {puzzle && <>
           <div>
             <p className={`text-base text-pretty grow font-medium mb-2 ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>
-            <SubmittedByFooter submitter={puzzle.submitter} />
+            <SubmittedByFooter submitter={puzzle?.submitter} />
           </div>
           <div className="self-end flex flex-col items-end gap-4">
             {showMenu ?
