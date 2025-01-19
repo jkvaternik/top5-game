@@ -21,6 +21,17 @@ const montserrat = Montserrat({
   subsets: ["latin"]
 });
 
+const SuggestionLink = () => (
+  <>
+    <p className="text-sm">
+      Have an idea for a Top 5 puzzle?
+    </p>
+    <p className="text-sm">
+      Submit it <a href="" className="underline">here</a>.
+    </p>
+  </>
+);
+
 const GameOverModal = ({ puzzle, score, isOpen, onClose, isArchiveMode }: Props) => {
   const streak = getLocalStorageOrDefault('streak', 0);
   const createShareMessage = (includeUrl: boolean) => {
@@ -94,7 +105,8 @@ const GameOverModal = ({ puzzle, score, isOpen, onClose, isArchiveMode }: Props)
             <p className="mb-2">Streak</p>
             <p className="mb-2">{streak === 0 ? `${streak}` : `${streak} 🔥`}</p>
           </div>
-          {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm text-[#304d6d] dark:text-white hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
+          {puzzle.url != null ? <a href={puzzle.url} className={`underline text-sm mb-4 text-[#304d6d] dark:text-white hover:text-[#82A0BC] active:text-[#38405F]`} target="_blank">Quiz Source</a> : null}
+          <SuggestionLink />
         </div>
       </ModalComponent>
     </>
