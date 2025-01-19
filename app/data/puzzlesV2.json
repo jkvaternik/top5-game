@@ -7018,6 +7018,34 @@
    "url": "https://www.visualcapitalist.com/ranked-the-25-least-affordable-cities-in-america/"
   },
   "2025-01-20": {
+    "category": "Countries by number of TikTok users (2024)",
+    "answers": [
+      {"text": ["Indonesia"], "stat": "165 million"},
+      {"text": ["United States"], "stat": "138 million"},
+      {"text": ["Brazil"], "stat": "111 million"},
+      {"text": ["Mexico"], "stat": "81 million"},
+      {"text": ["Vietnam"], "stat": "69 million"}
+    ],
+    "options": [
+      {"text": ["Pakistan"], "stat": "64 million"},
+      {"text": ["Philippines"], "stat": "58 million"},
+      {"text": ["Russia"], "stat": "57 million"},
+      {"text": ["Thailand"], "stat": "54 million"},
+      {"text": ["Bangladesh"], "stat": "44 million"},
+      {"text": ["Turkey"], "stat": "39 million"},
+      {"text": ["Egypt"], "stat": "39 million"},
+      {"text": ["Iraq"], "stat": "34 million"},
+      {"text": ["Nigeria"], "stat": "33 million"},
+      {"text": ["Saudi Arabia"], "stat": "33 million"},
+      {"text": ["Colombia"], "stat": "30 million"},
+      {"text": ["Malaysia"], "stat": "29 million"},
+      {"text": ["Japan"], "stat": "26 million"},
+      {"text": ["United Kingdom"], "stat": "24 million"},
+      {"text": ["France"], "stat": "24 million"}
+    ],
+    "url": "https://images.squarespace-cdn.com/content/v1/5b79011d266c077298791201/79b1b027-f605-4de4-80af-cb8900cd2923/28+TikTok+Adult+Reach+Rate+Ranking+Table+-+DataReportal+20241021+Digital+2024+October+Global+Statshot+Report+p362.png?format=2500w"
+  },
+  "2025-01-21": {
     "category": "Most well-known insurance mascots",
     "answers": [
       {"text": ["Martin the Gecko - GEICO"], "stat": "98%"},
