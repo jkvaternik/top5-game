@@ -27,7 +27,7 @@ const SuggestionLink = () => (
       Have an idea for a Top 5 puzzle?
     </p>
     <p className="text-sm">
-      Submit it <a href="" className="underline">here</a>.
+      Submit it <a href="https://forms.gle/WgG9wnRADQxwZjEE9" target="_blank" className="underline">here</a>.
     </p>
   </>
 );
