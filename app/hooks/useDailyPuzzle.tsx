@@ -28,6 +28,7 @@ export type Puzzle = {
   options?: string[];
   optionsRanked?: RankedAnswer[];
   url?: string;
+  submitter?: string;
 }
 
 export const puzzles: { [key: string]: PuzzleInput } = puzzlesData;

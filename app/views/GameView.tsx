@@ -14,6 +14,7 @@ import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
 import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
 import Menu from '../components/Menu/Menu';
 import ArchiveHeader from '../components/ArchiveHeader';
+import SubmittedByFooter from '../components/SubmittedByFooter';
 
 interface GameViewProps {
   setShowInstructionsModal: (value: boolean) => void;
@@ -87,6 +88,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         <section className="flex flex-col gap-4">
           <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.optionsRanked as RankedAnswer[]} isGameOver={gameOver} />
         </section>
+        {puzzle.submitter && <SubmittedByFooter submitter={puzzle.submitter} />}
       </>
       }
       {gameOver && puzzle && <GameOverModal puzzle={puzzle} isArchiveMode={isArchiveMode} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
