@@ -80,7 +80,7 @@ export const getLocalDateAsString = (date: Date) => {
 
 export const getCurrentLocalDateAsString = () => {
     const now = new Date();
-    return "2025-01-20"; // getLocalDateAsString(now);
+    return getLocalDateAsString(now);
 }
 
 export const parseLocalDate = (dateStr: string): Date => {

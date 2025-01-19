@@ -6,7 +6,6 @@ import { Montserrat } from "next/font/google";
 
 import { LIVES } from "../hooks/useGameState";
 import { Puzzle } from '../hooks/useDailyPuzzle';
-import SubmittedByFooter from '../components/SubmittedByFooter';
 
 const montserrat = Montserrat({
   weight: ['400', '500', '700'],
@@ -47,10 +46,7 @@ export default function Header({ puzzle, lives, gameOver, showMenu, setShowMenu,
           <h1 className="text-5xl font-semibold">5</h1>
         </div>
         {puzzle && <>
-          <div>
-            <p className={`text-base text-pretty grow font-medium mb-2 ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>
-            <SubmittedByFooter submitter={puzzle?.submitter} />
-          </div>
+          <p className={`text-base text-pretty grow font-medium ${montserrat.className}`}>{showMenu ? null : puzzle?.category}</p>
           <div className="self-end flex flex-col items-end gap-4">
             {showMenu ?
               <XMarkIcon className="h-6 w-6 cursor-pointer" style={{ 'transition': '0.3s' }} onClick={() => setShowMenu(false)} />

@@ -88,7 +88,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
         <section className="flex flex-col gap-4">
           <RankList guesses={guesses} answers={puzzle.answers} options={puzzle.optionsRanked as RankedAnswer[]} isGameOver={gameOver} />
         </section>
-        <SubmittedByFooter submitter={puzzle.submitter}/>
+        {puzzle.submitter && <SubmittedByFooter submitter={puzzle.submitter} />}
       </>
       }
       {gameOver && puzzle && <GameOverModal puzzle={puzzle} isArchiveMode={isArchiveMode} isOpen={showGameOverModal} score={getScore(guesses, puzzle.answers)} onClose={() => setShowGameOverModal(false)} />}
