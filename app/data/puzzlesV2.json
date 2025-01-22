@@ -7063,5 +7063,27 @@
     ],
     "url": "https://www.insurancebusinessmag.com/us/guides/who-are-the-best-insurance-mascots-of-all-time-445994.aspx",
     "submitter":  "Matt"
+  },
+  "2025-01-22": {
+    "category": "NFL teams with the most Super Bowl appearances",
+    "answers": [
+       {"text": ["New England Patriots"], "stat": "11 appearances"},
+       {"text": ["San Francisco 49ers", "Denver Broncos", "Pittsburgh Steelers", "Dallas Cowboys"], "stat": "8 appearances"},
+       {"text": ["Kansas City Chiefs"], "stat": "6 appearances"},
+       {"text": ["New York Giants", "Los Angeles Rams", "Washington Commanders", "Miami Dolphins", "Las Vegas Raiders", "Green Bay Packers"], "stat": "5 appearances"},
+       {"text": ["Buffalo Bills", "Philadelphia Eagles", "Minnesota Vikings", "Indianapolis Colts"], "stat": "4 appearances"}
+    ],
+    "options": [
+       {"text": ["Seattle Seahawks"], "stat": "3 appearances"},
+       {"text": ["Cincinnati Bengals"], "stat": "3 appearances"},
+       {"text": ["Carolina Panthers"], "stat": "2 appearances"},
+       {"text": ["Tampa Bay Buccaneers"], "stat": "2 appearances"},
+       {"text": ["Baltimore Ravens"], "stat": "2 appearances"},
+       {"text": ["Atlanta Falcons"], "stat": "2 appearances"},
+       {"text": ["Chicago Bears"], "stat": "2 appearances"},
+       {"text": ["New Orleans Saints"], "stat": "1 appearance"},
+       {"text": ["Arizona Cardinals"], "stat": "1 appearance"}
+    ],
+    "url": "https://www.statmuse.com/nfl/ask/which-nfl-team-has-the-most-super-bowl-appearances"
   }
 }
