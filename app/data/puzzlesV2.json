@@ -7085,5 +7085,37 @@
        {"text": ["Arizona Cardinals"], "stat": "1 appearance"}
     ],
     "url": "https://www.statmuse.com/nfl/ask/which-nfl-team-has-the-most-super-bowl-appearances"
+  },
+  "2025-01-23": {
+    "category": "US agricultural exports (2022)",
+    "answers": [
+      {"text": ["Soybeans"], "stat": "$34.6 billion"},
+      {"text": ["Corn"], "stat": "$19.3 billion"},
+      {"text": ["Wheat"], "stat": "$9.2 billion"},
+      {"text": ["Other Nuts"], "stat": "$8.3 billion"},
+      {"text": ["Sorghum"], "stat": "$2.2 billion"}
+    ],
+    "options": [
+      {"text": ["Forage Crops"], "stat": "$2.0 billion"},
+      {"text": ["Rice"], "stat": "$1.8 billion"},
+      {"text": ["Other Fruits"], "stat": "$1.1 billion"},
+      {"text": ["Coffee"], "stat": "$1.1 billion"},
+      {"text": ["Apples and Pears"], "stat": "$1.0 billion"},
+      {"text": ["Grapes"], "stat": "$963 million"},
+      {"text": ["Sowing Seeds"], "stat": "$955 million"},
+      {"text": ["Dried Legumes"], "stat": "$884 million"},
+      {"text": ["Other Vegetables"], "stat": "$817 million"},
+      {"text": ["Citrus"], "stat": "$793 million"},
+      {"text": ["Lettuce"], "stat": "$640 million"},
+      {"text": ["Vegetable Saps"], "stat": "$640 million"},
+      {"text": ["Pitted Fruits"], "stat": "$559 million"},
+      {"text": ["Ground Nuts"], "stat": "$543 million"},
+      {"text": ["Cabbages"], "stat": "$508 million"},
+      {"text": ["Oil Seed Flower"], "stat": "$412 million"},
+      {"text": ["Other live plants, cuttings and slips; mushroom spawn"], "stat": "$376 million"},
+      {"text": ["Tropical Fruits"], "stat": "$329 million"},
+      {"text": ["Potatoes"], "stat": "$316 million"}
+    ],
+    "url": "https://oec.world/en/profile/country/usa#yearly-trade"
   }
 }
