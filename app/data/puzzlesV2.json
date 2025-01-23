@@ -7087,6 +7087,40 @@
     "url": "https://www.statmuse.com/nfl/ask/which-nfl-team-has-the-most-super-bowl-appearances"
   },
   "2025-01-23": {
+    "category": "Largest accounting firms by revenue",
+    "answers": [
+      {"text": ["Deloitte"], "stat": "$32.7 billion"},
+      {"text": ["PwC"], "stat": "$23.5 billion"},
+      {"text": ["Ernst & Young LLP"], "stat": "$21.5 billion"},
+      {"text": ["KPMG LLP"], "stat": "$14.6 billion"},
+      {"text": ["RSM US LLP"], "stat": "$4.0 billion"}
+    ],
+    "options": [
+      {"text": ["BDO USA"], "stat": "$2.9 billion"},
+      {"text": ["Grant Thornton LLP"], "stat": "$2.4 billion"},
+      {"text": ["Forvis Mazars LLP"], "stat": "$2.2 billion"},
+      {"text": ["CLA"], "stat": "$2.0 billion"},
+      {"text": ["Baker Tilly"], "stat": "$1.7 billion"},
+      {"text": ["CBIZ & MHM"], "stat": "$1.4 billion"},
+      {"text": ["Crowe LLP"], "stat": "$1.3 billion"},
+      {"text": ["Marcum LLP"], "stat": "$1.3 billion"},
+      {"text": ["Moss Adams LLP"], "stat": "$1.3 billion"},
+      {"text": ["Plante Moran"], "stat": "$1.1 billion"},
+      {"text": ["CohnReznick LLP"], "stat": "$1.1 billion"},
+      {"text": ["Eisner Advisory Group LLC"], "stat": "$849 million"},
+      {"text": ["Eide Bailly LLP"], "stat": "$705 million"},
+      {"text": ["Citrin Cooperman"], "stat": "$674 million"},
+      {"text": ["Armanino LLP"], "stat": "$640 million"},
+      {"text": ["Andersen"], "stat": "$634 million"},
+      {"text": ["Wipfli LLP"], "stat": "$589 million"},
+      {"text": ["WithumSmith+Brown PC"], "stat": "$584 million"},
+      {"text": ["Cherry Bekaert"], "stat": "$572 million"},
+      {"text": ["Carr Riggs & Ingram LLC"], "stat": "$455 million"}
+    ],
+    "url": "https://insidepublicaccounting.com/ipa-top-500-firms/",
+    "submitter": "Maggie Wang"
+  },
+  "2025-01-24": {
     "category": "US agricultural exports (2022)",
     "answers": [
       {"text": ["Soybeans"], "stat": "$34.6 billion"},
@@ -7118,7 +7152,7 @@
     ],
     "url": "https://oec.world/en/profile/country/usa#yearly-trade"
   },
-  "2025-01-24": {
+  "2025-01-25": {
     "category": "Cities in California by population",
     "answers": [
       {"text": ["Los Angeles"], "stat": "3,820,914"},
