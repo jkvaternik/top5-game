@@ -7117,5 +7117,38 @@
       {"text": ["Potatoes"], "stat": "$316 million"}
     ],
     "url": "https://oec.world/en/profile/country/usa#yearly-trade"
+  },
+  "2025-01-24": {
+    "category": "Cities in California by population",
+    "answers": [
+      {"text": ["Los Angeles"], "stat": "3,820,914"},
+      {"text": ["San Diego"], "stat": "1,388,320"},
+      {"text": ["San Jose"], "stat": "969,655"},
+      {"text": ["San Francisco"], "stat": "808,988"},
+      {"text": ["Fresno"], "stat": "545,716"}
+    ],
+    "options": [
+      {"text": ["Sacramento"], "stat": "526,384"},
+      {"text": ["Long Beach"], "stat": "449,468"},
+      {"text": ["Oakland"], "stat": "436,504"},
+      {"text": ["Bakersfield"], "stat": "413,381"},
+      {"text": ["Anaheim"], "stat": "340,512"},
+      {"text": ["Stockton"], "stat": "319,543"},
+      {"text": ["Riverside"], "stat": "318,858"},
+      {"text": ["Irvine"], "stat": "314,621"},
+      {"text": ["Santa Ana"], "stat": "310,539"},
+      {"text": ["Chula Vista"], "stat": "274,333"},
+      {"text": ["Fremont"], "stat": "226,208"},
+      {"text": ["Santa Clarita"], "stat": "224,028"},
+      {"text": ["San Bernardino"], "stat": "223,728"},
+      {"text": ["Modesto"], "stat": "218,915"},
+      {"text": ["Fontana"], "stat": "215,465"},
+      {"text": ["Moreno Valley"], "stat": "212,392"},
+      {"text": ["Oxnard"], "stat": "202,726"},
+      {"text": ["Huntington Beach"], "stat": "192,129"},
+      {"text": ["Glendale"], "stat": "187,050"},
+      {"text": ["Ontario"], "stat": "182,457"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_largest_cities_in_California_by_population"
   }
 }
