@@ -7243,5 +7243,25 @@
     ],
     "url": "https://en.m.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_elevation#Elevations",
     "submitter": "Jack Wesley"
+  },
+  "2025-01-27": {
+    "category": "Most well-known spirits by YouGov polling (US only, Q4 2024)",
+    "answers": [
+      {"text": ["Jack Daniel's"], "stat": "98%"},
+      {"text": ["Smirnoff"], "stat": "96%"},
+      {"text": ["Jim Beam"], "stat": "92%"},
+      {"text": ["Mike's Hard Lemonade", "Bacardi"], "stat": "91%"}
+    ],
+    "options": [
+      {"text": ["Captain Morgan", "Crown Royal", "Baileys"], "stat": "89%"},
+      {"text": ["Smirnoff Ice"], "stat": "88%"},
+      {"text": ["Hennessy"], "stat": "87%"},
+      {"text": ["Southern Comfort", "Seagram's"], "stat": "86%"},
+      {"text": ["Jose Cuervo", "Malibu Rum", "Kahlúa", "Johnnie Walker"], "stat": "82%"},
+      {"text": ["Jägermeister", "Wild Turkey"], "stat": "81%"},
+      {"text": ["Tito's Vodka", "Jameson"], "stat": "79%"}
+    ],
+    "url": "https://today.yougov.com/ratings/consumer/fame/spirits/all",
+    "submitter": "Aaron Gill"
   }
 }
