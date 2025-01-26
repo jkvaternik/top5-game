@@ -7263,5 +7263,33 @@
     ],
     "url": "https://today.yougov.com/ratings/consumer/fame/spirits/all",
     "submitter": "Aaron Gill"
+  },
+  "2025-01-28": {
+    "category": "Countries by crude steel production (2024, million metric tons)",
+    "answers": [
+      {"text": ["China"], "stat": "1,005.1"},
+      {"text": ["India"], "stat": "149.6"},
+      {"text": ["Japan"], "stat": "84.0"},
+      {"text": ["United States"], "stat": "79.4"},
+      {"text": ["Russia"], "stat": "70.7"}
+    ],
+    "options": [
+      {"text": ["South Korea"], "stat": "63.5"},
+      {"text": ["Germany"], "stat": "37.2"},
+      {"text": ["Turkey"], "stat": "36.9"},
+      {"text": ["Brazil"], "stat": "33.7"},
+      {"text": ["Iran"], "stat": "30.9"},
+      {"text": ["Vietnam"], "stat": "22.1"},
+      {"text": ["Italy"], "stat": "20.0"},
+      {"text": ["Taiwan"], "stat": "19.1"},
+      {"text": ["Indonesia"], "stat": "17.0"},
+      {"text": ["Mexico"], "stat": "13.7"},
+      {"text": ["Canada"], "stat": "12.2"},
+      {"text": ["Spain"], "stat": "11.8"},
+      {"text": ["France"], "stat": "10.8"},
+      {"text": ["Egypt"], "stat": "10.7"},
+      {"text": ["Saudi Arabia"], "stat": "9.6"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_steel_production"
   }
 }
