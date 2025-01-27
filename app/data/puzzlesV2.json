@@ -7250,10 +7250,10 @@
       {"text": ["Jack Daniel's"], "stat": "98%"},
       {"text": ["Smirnoff"], "stat": "96%"},
       {"text": ["Jim Beam"], "stat": "92%"},
-      {"text": ["Mike's Hard Lemonade", "Bacardi"], "stat": "91%"}
+      {"text": ["Mike's Hard Lemonade", "Bacardi"], "stat": "91%"},
+      {"text": ["Captain Morgan", "Crown Royal", "Baileys"], "stat": "89%"}
     ],
     "options": [
-      {"text": ["Captain Morgan", "Crown Royal", "Baileys"], "stat": "89%"},
       {"text": ["Smirnoff Ice"], "stat": "88%"},
       {"text": ["Hennessy"], "stat": "87%"},
       {"text": ["Southern Comfort", "Seagram's"], "stat": "86%"},
