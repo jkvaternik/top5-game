@@ -109,6 +109,10 @@ function validatePuzzles() {
     }
 
     if (isNewOptionsFormat) {
+      if (puzzle.answers.length != 5) {   
+        return `Puzzle ${date} has ${puzzle.answers.length} answers`;
+      }
+
       // Create a set of all the text values in the answers list
       const answerTextSet = new Set();
       puzzle.answers.forEach(answer => {
