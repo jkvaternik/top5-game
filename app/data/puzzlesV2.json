@@ -7292,24 +7292,64 @@
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_steel_production"
   },
-"2025-01-29": {
+  "2025-01-29": {
     "category": "Anime according to IMDb",
     "answers": [
-        {"text": ["Fullmetal Alchemist: Brotherhood", "Attack on Titan"], "stat": "9.1"},
-        {"text": ["One Piece", "Hunter x Hunter"], "stat": "9.0"},
-        {"text": ["Death Note", "Cowboy Bebop"], "stat": "8.9"},
-        {"text": ["Dragon Ball Z", "Steins;Gate"], "stat": "8.8"},
-        {"text": ["Naruto: Shippuden", "Monster", "Berserk", "One Punch Man", "Code Geass"], "stat": "8.7"}
+      {"text": ["Fullmetal Alchemist: Brotherhood", "Attack on Titan"], "stat": "9.1"},
+      {"text": ["One Piece", "Hunter x Hunter"], "stat": "9.0"},
+      {"text": ["Death Note", "Cowboy Bebop"], "stat": "8.9"},
+      {"text": ["Dragon Ball Z", "Steins;Gate"], "stat": "8.8"},
+      {"text": ["Naruto: Shippuden", "Monster", "Berserk", "One Punch Man", "Code Geass"], "stat": "8.7"}
     ],
     "options": [
-        {"text": ["Rurouni Kenshin: Trust and Betrayal"], "stat": "8.6"},
-        {"text": ["Neon Genesis Evangelion", "Dragon Ball", "Fullmetal Alchemist", "Detective Conan", "Samurai Champloo", "Rurouni Kenshin", "Yu Yu Hakusho: Ghost Files", "Mushi-Shi", "Ghost in the Shell: Stand Alone Complex"], "stat": "8.5"},
-        {"text": ["Naruto"], "stat": "8.4"},
-        {"text": ["Dragon Ball Super", "Parasyte: The Maxim", "Gurren Lagann", "Dragon Ball Z Kai"], "stat": "8.3"},
-        {"text": ["Bleach", "Hellsing Ultimate", "Trigun", "Baccano!"], "stat": "8.2"}
+      {"text": ["Rurouni Kenshin: Trust and Betrayal"], "stat": "8.6"},
+      {"text": ["Neon Genesis Evangelion", "Dragon Ball", "Fullmetal Alchemist", "Detective Conan", "Samurai Champloo", "Rurouni Kenshin", "Yu Yu Hakusho: Ghost Files", "Mushi-Shi", "Ghost in the Shell: Stand Alone Complex"], "stat": "8.5"},
+      {"text": ["Naruto"], "stat": "8.4"},
+      {"text": ["Dragon Ball Super", "Parasyte: The Maxim", "Gurren Lagann", "Dragon Ball Z Kai"], "stat": "8.3"},
+      {"text": ["Bleach", "Hellsing Ultimate", "Trigun", "Baccano!"], "stat": "8.2"}
     ],
     "url": "https://www.imdb.com/list/ls033398199/?view=compact&sort=user_rating%2Cdesc",
     "submitter": "Karen Brown"
-}
-
+  },
+  "2025-01-30": {
+    "category": "NFL teams by average home game attendance",
+    "answers": [
+      {"text": ["Dallas Cowboys"], "stat": "92,972"},
+      {"text": ["New York Jets"], "stat": "78,789"},
+      {"text": ["New York Giants"], "stat": "78,470"},
+      {"text": ["Green Bay Packers"], "stat": "78,003"},
+      {"text": ["Denver Broncos"], "stat": "73,969"}
+    ],
+    "options": [
+      {"text": ["Kansas City Chiefs"], "stat": "73,593"},
+      {"text": ["Los Angeles Rams"], "stat": "73,194"},
+      {"text": ["San Francisco 49ers"], "stat": "71,422"},
+      {"text": ["Atlanta Falcons"], "stat": "71,381"},
+      {"text": ["Houston Texans"], "stat": "71,333"},
+      {"text": ["Baltimore Ravens"], "stat": "71,052"},
+      {"text": ["Buffalo Bills"], "stat": "70,695"},
+      {"text": ["Carolina Panthers"], "stat": "70,612"},
+      {"text": ["New Orleans Saints"], "stat": "70,012"},
+      {"text": ["Los Angeles Chargers"], "stat": "69,966"},
+      {"text": ["Philadelphia Eagles"], "stat": "69,879"},
+      {"text": ["Seattle Seahawks"], "stat": "68,660"},
+      {"text": ["Cleveland Browns"], "stat": "67,726"},
+      {"text": ["Pittsburgh Steelers"], "stat": "66,880"},
+      {"text": ["Cincinnati Bengals"], "stat": "66,294"},
+      {"text": ["Minnesota Vikings"], "stat": "66,286"},
+      {"text": ["Indianapolis Colts"], "stat": "65,767"},
+      {"text": ["Jacksonville Jaguars"], "stat": "65,764"},
+      {"text": ["Miami Dolphins"], "stat": "65,643"},
+      {"text": ["Detroit Lions"], "stat": "64,922"},
+      {"text": ["Tennessee Titans"], "stat": "64,819"},
+      {"text": ["New England Patriots"], "stat": "64,634"},
+      {"text": ["Arizona Cardinals"], "stat": "63,975"},
+      {"text": ["Tampa Bay Buccaneers"], "stat": "63,689"},
+      {"text": ["Washington Commanders"], "stat": "63,428"},
+      {"text": ["Las Vegas Raiders"], "stat": "62,175"},
+      {"text": ["Chicago Bears"], "stat": "58,649"}
+    ],
+    "url": "https://www.statista.com/statistics/240377/average-per-game-attendance-of-national-football-league-teams/",
+    "submitter": "Aaron Gill"
+  }
 }
