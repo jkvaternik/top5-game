@@ -7351,5 +7351,30 @@
     ],
     "url": "https://www.statista.com/statistics/240377/average-per-game-attendance-of-national-football-league-teams/",
     "submitter": "Aaron Gill"
+  },
+  "2025-01-31": {
+    "category": "Most commonly-used 4-digit PINs",
+    "answers": [
+      {"text": ["1234"], "stat": "9.01%"},
+      {"text": ["1111"], "stat": "1.58%"},
+      {"text": ["0000"], "stat": "1.12%"},
+      {"text": ["1342"], "stat": "0.58%"},
+      {"text": ["1212"], "stat": "0.40%"}
+    ],
+    "options": [
+      {"text": ["2222", "4444"], "stat": "0.29%"},
+      {"text": ["1122", "1986", "2020", "7777"], "stat": "0.27%"},
+      {"text": ["5555", "1989"], "stat": "0.26%"},
+      {"text": ["9999"], "stat": "0.24%"},
+      {"text": ["6969"], "stat": "0.23%"},
+      {"text": ["2004"], "stat": "0.22%"},
+      {"text": ["1010", "4321", "6666"], "stat": "0.21%"},
+      {"text": ["1984", "1987", "1985"], "stat": "0.20%"},
+      {"text": ["8888", "2000", "1980", "1988"], "stat": "0.19%"},
+      {"text": ["1982", "2580", "1313"], "stat": "0.18%"},
+      {"text": ["1990"], "stat": "0.17%"}
+    ],
+    "url": "https://github.com/Slon104/Common-PIN-Analysis-from-haveibeenpwned.com",
+    "submitter": "Speenah"
   }
 }
