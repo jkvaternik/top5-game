@@ -7376,5 +7376,32 @@
     ],
     "url": "https://github.com/Slon104/Common-PIN-Analysis-from-haveibeenpwned.com",
     "submitter": "Speenah"
+  },
+  "2025-02-01": {
+    "category": "Least corrupt countries by Corruption Perceptions Index (2023)",
+    "answers": [
+      {"text": ["Denmark"], "stat": "90"},
+      {"text": ["Finland"], "stat": "87"},
+      {"text": ["New Zealand"], "stat": "85"},
+      {"text": ["Norway"], "stat": "84"},
+      {"text": ["Singapore"], "stat": "83"}
+    ],
+    "options": [
+      {"text": ["Sweden", "Switzerland"], "stat": "82"},
+      {"text": ["Netherlands"], "stat": "79"},
+      {"text": ["Germany", "Luxembourg"], "stat": "78"},
+      {"text": ["Ireland"], "stat": "77"},
+      {"text": ["Canada", "Estonia"], "stat": "76"},
+      {"text": ["Australia", "Hong Kong"], "stat": "75"},
+      {"text": ["Belgium", "Japan", "Uruguay"], "stat": "73"},
+      {"text": ["Iceland"], "stat": "72"},
+      {"text": ["Austria", "France", "Seychelles", "United Kingdom"], "stat": "71"},
+      {"text": ["Barbados", "United States"], "stat": "69"},
+      {"text": ["Bhutan", "United Arab Emirates"], "stat": "68"},
+      {"text": ["Taiwan"], "stat": "67"},
+      {"text": ["Chile"], "stat": "66"},
+      {"text": ["Bahamas"], "stat": "64"}
+    ],
+    "url": "https://en.wikipedia.org/wiki/Corruption_Perceptions_Index"
   }
 }
