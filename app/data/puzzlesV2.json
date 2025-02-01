@@ -7403,5 +7403,38 @@
       {"text": ["Bahamas"], "stat": "64"}
     ],
     "url": "https://en.wikipedia.org/wiki/Corruption_Perceptions_Index"
+  },
+  "2025-02-02": {
+    "category": "Imports from Mexico to the U.S.",
+    "answers": [
+        {"text": ["Computers"], "stat": "$36.8 billion USD"},
+        {"text": ["Cars"], "stat": "$34.1 billion USD"},
+        {"text": ["Motor vehicles; parts and accessories"], "stat": "$31.8 billion USD"},
+        {"text": ["Delivery Trucks"], "stat": "$25.1 billion USD"},
+        {"text": ["Crude Petroleum"], "stat": "$21.2 billion USD"}
+    ],
+    "options": [
+        {"text": ["Insulated Wire"], "stat": "$15.3 billion USD"},
+        {"text": ["Video Displays"], "stat": "$12.4 billion USD"},
+        {"text": ["Medical Instruments"], "stat": "$9.5 billion USD"},
+        {"text": ["Broadcasting Equipment"], "stat": "$8.4 billion USD"},
+        {"text": ["Refrigerators"], "stat": "$6.2 billion USD"},
+        {"text": ["Electrical Control Boards"], "stat": "$6.2 billion USD"},
+        {"text": ["Air Conditioners"], "stat": "$5.9 billion USD"},
+        {"text": ["Refined Petroleum"], "stat": "$5.5 billion USD"},
+        {"text": ["Beer"], "stat": "$5.4 billion USD"},
+        {"text": ["Electrical Transformers"], "stat": "$4.3 billion USD"},
+        {"text": ["Office Machine Parts"], "stat": "$4.3 billion USD"},
+        {"text": ["Low-voltage Protection Equipment"], "stat": "$4.2 billion USD"},
+        {"text": ["Hard Liquor"], "stat": "$4.2 billion USD"},
+        {"text": ["Engine Parts"], "stat": "$4.1 billion USD"},
+        {"text": ["Electric Motors"], "stat": "$3.9 billion USD"},
+        {"text": ["Trailers and semi-trailers, not mechanically propelled vehicles"], "stat": "$3.7 billion USD"},
+        {"text": ["Tropical Fruits"], "stat": "$3.3 billion USD"},
+        {"text": ["Centrifuges"], "stat": "$3.3 billion USD"},
+        {"text": ["Air Pumps"], "stat": "$3.3 billion USD"},
+        {"text": ["Electrical Lighting and Signalling Equipment"], "stat": "$3.1 billion USD"}
+    ],
+    "url": "https://oec.world/en/profile/bilateral-country/mex/partner/usa"
   }
 }
