@@ -7436,5 +7436,24 @@
         {"text": ["Electrical Lighting and Signalling Equipment"], "stat": "$3.1 billion USD"}
     ],
     "url": "https://oec.world/en/profile/bilateral-country/mex/partner/usa"
+  },
+  "2025-02-03": {
+    "category": "Taylor Swift boyfriends by length of relationship",
+    "answers": [
+        {"text": ["Joe Alwyn"], "stat": "71 months"},
+        {"text": ["Travis Kelce"], "stat": "18 months"},
+        {"text": ["Calvin Harris"], "stat": "15 months"},
+        {"text": ["Tom Hiddleston"], "stat": "4 months"},
+        {"text": ["Joe Jonas", "Jake Gyllenhaal", "Connor Kennedy"], "stat": "3 months"}
+    ],
+    "options": [
+        {"text": ["John Mayer"], "stat": "2 months"},
+        {"text": ["Harry Styles"], "stat": "2 months"},
+        {"text": ["Lucas Till"], "stat": "1 month"},
+        {"text": ["Matty Healy"], "stat": "1 month"},
+        {"text": ["Taylor Lautner"], "stat": "0 months"}
+    ],
+    "url": "https://www.cosmopolitan.com/entertainment/celebs/a29684699/taylor-swift-dating-boyfriend-history/#fall-2009-taylor-lautner",
+    "submitter": "Jackie"
   }
 }
