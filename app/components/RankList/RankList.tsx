@@ -30,17 +30,26 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
     );
   });
 
-  const incorrectView = guesses
+  const incorrectGuesses: RankedAnswer[] = guesses
     .filter(guess => !answers.flatMap(a => a.text).includes(guess))
+    .map(
+      guess =>
+        options?.find(o => o.text.includes(guess)) ?? {
+          text: [guess],
+          stat: null,
+          rank: -1,
+        }
+    );
+
+  const incorrectView = incorrectGuesses
+    .sort((a, b) => b.rank - a.rank)
     .map((guess, i) => {
-      const indexOfGuess =
-        options?.find(o => o.text.includes(guess))?.rank ?? -1;
       return (
         <IncorrectRankItem
           key={i}
-          guess={guess}
-          index={indexOfGuess}
-          stat={options?.find(o => o.text.includes(guess))?.stat || ''}
+          guess={guess.text[0]}
+          index={guess.rank}
+          stat={guess.stat ?? ''}
           isCorrectOrGameOver={false}
         />
       );
@@ -52,8 +61,7 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
       {gridView}
       {incorrectView.length > 0 ? (
         <>
-          <br></br>
-          <div className="flex flex-row gap-3 text-nowrap items-end w-full overflow-scroll animate-fadeIn mb-12">
+          <div className="flex flex-col gap-3 text-nowrap w-full overflow-scroll animate-fadeIn mt-2 mb-8">
             {incorrectView}
           </div>
         </>
