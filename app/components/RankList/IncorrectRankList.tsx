@@ -62,7 +62,7 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
                 flex flex-nowrap flex-row gap-4 rounded-md 
                 ${isNewItem ? `p-2 border border-gray-400 dark:border-gray-400 border-dashed` : ``}
                 items-center text-black-pearl dark:text-white
-                bg-white
+                bg-white dark:bg-dark-purple
               `}
               style={{
                 position: 'absolute',
