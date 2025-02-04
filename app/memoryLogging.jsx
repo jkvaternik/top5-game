@@ -1,6 +1,6 @@
 (function () {
   if (!performance || !performance.memory) {
-    console.log('Memory API not supported');
+    console.log("Memory API not supported");
     return;
   }
 
@@ -12,7 +12,7 @@
       jsHeapSizeLimit: Math.round(memory.jsHeapSizeLimit / 1048576),
       totalJSHeapSize: Math.round(memory.totalJSHeapSize / 1048576),
       usedJSHeapSize: Math.round(memory.usedJSHeapSize / 1048576),
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
     };
     memoryLogs.push(usage);
 
@@ -21,7 +21,9 @@
       memoryLogs.shift();
     }
 
-    console.log(`Memory Usage: ${usage.usedJSHeapSize}MB / ${usage.totalJSHeapSize}MB`);
+    console.log(
+      `Memory Usage: ${usage.usedJSHeapSize}MB / ${usage.totalJSHeapSize}MB`,
+    );
   }
 
   // Log memory usage every 5 seconds
@@ -34,4 +36,4 @@
 })();
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default {}
+export default {};

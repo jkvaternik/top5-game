@@ -1,6 +1,13 @@
 {
   "useTabs": false,
   "tabWidth": 2,
-  "printWidth": 1000,
-  "proseWrap": "never"
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 1000,
+        "proseWrap": "never"
+      }
+    }
+  ]
 }
