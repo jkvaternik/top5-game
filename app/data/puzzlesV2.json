@@ -7505,5 +7505,77 @@
         {"text": ["Clipperton Island"], "stat": "2 square miles"}
     ],
     "url": "https://en.m.wikipedia.org/wiki/List_of_North_American_countries_by_area"
+  },
+  "2025-02-05": {
+    "category": "Most streamed female artists on Spotify",
+    "answers": [
+        {"text": ["Taylor Swift"], "stat": "97.9 billion streams"},
+        {"text": ["Ariana Grande"], "stat": "51.3 billion streams"},
+        {"text": ["Billie Eilish"], "stat": "44.3 billion streams"},
+        {"text": ["Rihanna"], "stat": "36.8 billion streams"},
+        {"text": ["Dua Lipa"], "stat": "34.6 billion streams"}
+    ],
+    "options": [
+        {"text": ["Lana Del Rey"], "stat": "29.0 billion streams"},
+        {"text": ["KAROL G"], "stat": "28.1 billion streams"},
+        {"text": ["Beyoncé"], "stat": "26.0 billion streams"},
+        {"text": ["Lady Gaga"], "stat": "26.0 billion streams"},
+        {"text": ["Adele"], "stat": "23.6 billion streams"},
+        {"text": ["Shakira"], "stat": "22.6 billion streams"},
+        {"text": ["SZA"], "stat": "21.6 billion streams"},
+        {"text": ["Doja Cat"], "stat": "21.1 billion streams"},
+        {"text": ["Olivia Rodrigo"], "stat": "20.9 billion streams"},
+        {"text": ["Nicki Minaj"], "stat": "20.4 billion streams"},
+        {"text": ["Katy Perry"], "stat": "20.3 billion streams"},
+        {"text": ["Selena Gomez"], "stat": "19.9 billion streams"},
+        {"text": ["Sia"], "stat": "19.9 billion streams"},
+        {"text": ["Halsey"], "stat": "18.5 billion streams"},
+        {"text": ["Miley Cyrus"], "stat": "17.7 billion streams"},
+        {"text": ["Camila Cabello"], "stat": "16.2 billion streams"},
+        {"text": ["Ellie Goulding"], "stat": "13.3 billion streams"},
+        {"text": ["Sabrina Carpenter"], "stat": "12.9 billion streams"},
+        {"text": ["P!nk"], "stat": "12.4 billion streams"},
+        {"text": ["Cardi B"], "stat": "11.7 billion streams"}
+    ],
+    "url": "https://chartmasters.org/most-streamed-artists-ever-on-spotify/",
+    "submitter": "Abigail Naylor"
+  },
+  "2025-02-06": {
+    "category": "Maple sugar/syrup exporters by country",
+    "answers": [
+        {"text": ["Canada"], "stat": "$476.6 million"},
+        {"text": ["United States"], "stat": "$30.0 million"},
+        {"text": ["Netherlands"], "stat": "$11.0 million"},
+        {"text": ["Germany"], "stat": "$9.8 million"},
+        {"text": ["France"], "stat": "$8.8 million"}
+    ],
+    "options": [
+        {"text": ["Denmark"], "stat": "$8.2 million"},
+        {"text": ["United Kingdom"], "stat": "$2.8 million"},
+        {"text": ["Sweden"], "stat": "$1.7 million"},
+        {"text": ["Belgium"], "stat": "$1.5 million"},
+        {"text": ["United Arab Emirates"], "stat": "$1.3 million"},
+        {"text": ["Poland"], "stat": "$0.9 million"},
+        {"text": ["Czechia"], "stat": "$0.7 million"},
+        {"text": ["Australia"], "stat": "$0.7 million"},
+        {"text": ["Spain"], "stat": "$0.6 million"},
+        {"text": ["Brazil"], "stat": "$0.5 million"},
+        {"text": ["China"], "stat": "$0.5 million"},
+        {"text": ["Hungary"], "stat": "$0.4 million"},
+        {"text": ["Chinese Taipei"], "stat": "$0.4 million"},
+        {"text": ["Italy"], "stat": "$0.3 million"},
+        {"text": ["Guatemala"], "stat": "$0.3 million"},
+        {"text": ["Latvia"], "stat": "$0.3 million"},
+        {"text": ["Slovenia"], "stat": "$0.3 million"},
+        {"text": ["New Zealand"], "stat": "$0.3 million"},
+        {"text": ["Turkey"], "stat": "$0.3 million"},
+        {"text": ["Ecuador"], "stat": "$0.3 million"},
+        {"text": ["Austria"], "stat": "$0.2 million"},
+        {"text": ["South Africa"], "stat": "$0.2 million"},
+        {"text": ["Slovakia"], "stat": "$0.2 million"},
+        {"text": ["Lithuania"], "stat": "$0.2 million"},
+        {"text": ["Ireland"], "stat": "$0.2 million"}
+    ],
+    "url": "https://oec.world/en/visualize/tree_map/hs92/export/show/all/4170220/2022"
   }
 }
