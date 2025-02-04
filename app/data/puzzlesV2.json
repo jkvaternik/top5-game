@@ -7543,7 +7543,7 @@
     "url": "https://www.basketball-reference.com/leaders/pts_active.html",
     "submitter": "Aaron Gill"
   },
-  "2025-03-07": {
+  "2025-02-07": {
     "category": "Unicorn companies by value",
     "answers": [
       { "text": ["ByteDance"], "stat": "$220 billion" },
@@ -7577,7 +7577,7 @@
     "url": "https://news.crunchbase.com/unicorn-company-list/",
     "submitter": "Maggie Wang"
   },
-  "2025-03-08": {
+  "2025-02-08": {
     "category": "Most populous US cities in 2000",
     "answers": [
       { "text": ["New York"], "stat": "8,008,278 people" },
@@ -7610,7 +7610,7 @@
     ],
     "url": "https://en.wikipedia.org/wiki/2000_United_States_census#City_rankings"
   },
-  "2025-03-09": {
+  "2025-02-09": {
     "category": "NFL QBs with most Super Bowl passing touchdowns",
     "answers": [
       { "text": ["Tom Brady"], "stat": "21 touchdowns" },
@@ -7638,7 +7638,7 @@
     ],
     "url": "https://www.statmuse.com/nfl/ask/most-td-passes-in-super-bowl-history"
   },
-  "2025-03-10": {
+  "2025-02-10": {
     "category": "Riskiest meats (per CSPI)",
     "answers": [
       { "text": ["Ground Beef"], "stat": "869 severity index" },
@@ -7658,7 +7658,7 @@
     ],
     "url": "https://www.cspinet.org/eating-healthy/avoiding-foodborne-illness/risky-meat"
   },
-  "2025-03-11": {
+  "2025-02-11": {
     "category": "Most watched American TV series finales",
     "answers": [
       { "text": ["M*A*S*H"], "stat": "105.0 million viewers" },
@@ -7686,7 +7686,7 @@
     ],
     "url": "https://en.wikipedia.org/wiki/Series_finale#Most-watched_American_series_finales"
   },
-  "2025-03-12": {
+  "2025-02-12": {
     "category": "Maple sugar/syrup exporters by country",
     "answers": [
       { "text": ["Canada"], "stat": "$476.6 million" },
@@ -7724,7 +7724,7 @@
     ],
     "url": "https://oec.world/en/visualize/tree_map/hs92/export/show/all/4170220/2022"
   },
-  "2025-03-13": {
+  "2025-02-13": {
     "category": "Countries with the most Nobel laureates in Literature",
     "answers": [
       { "text": ["France"], "stat": "16 laureates" },
@@ -7752,7 +7752,7 @@
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Literature#Nobel_laureates_by_country_and_birthplace"
   },
-  "2025-03-14": {
+  "2025-02-14": {
     "category": "Most nominated movies at the 2025 Oscars",
     "answers": [
       { "text": ["Emilia Pérez"], "stat": "13 nominations" },
