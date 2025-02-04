@@ -1,0 +1,24 @@
+{
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 1000,
+        "proseWrap": "never"
+      }
+    },
+    {
+      "files": "*.{js,jsx,ts,tsx}",
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "semi": true,
+        "printWidth": 80,
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "avoid"
+      }
+    }
+  ]
+}

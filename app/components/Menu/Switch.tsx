@@ -12,9 +12,11 @@ const Switch: React.FC<SwitchProps> = ({ isChecked, onChange }) => {
         type="checkbox"
         className="sr-only"
         checked={isChecked}
-        onChange={(e) => onChange(e.target.checked)}
+        onChange={e => onChange(e.target.checked)}
       />
-      <div className={`w-11 h-6 rounded-full ${isChecked ? `bg-[#304d6d] dark:bg-blue-600` : `bg-gray-400`} relative transition-colors`}>
+      <div
+        className={`w-11 h-6 rounded-full ${isChecked ? `bg-[#304d6d] dark:bg-blue-600` : `bg-gray-400`} relative transition-colors`}
+      >
         <span
           className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white border border-gray-300 rounded-full transition-transform ${isChecked ? 'transform translate-x-5' : ''}`}
         ></span>

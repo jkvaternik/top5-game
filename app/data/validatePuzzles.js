@@ -11,18 +11,20 @@ const SUCCESS_MSG = 'Validation successful, all checks passed.';
  */
 
 function isSortedAlphabetically(arr, optionsKey) {
-  const arrayCopy = [...arr]
-  arrayCopy.sort()
+  const arrayCopy = [...arr];
+  arrayCopy.sort();
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i] !== arrayCopy[i]) {
-      console.log("options: " + optionsKey + ", " + arr[i] + " " + arrayCopy[i])
-      return false
+      console.log(
+        'options: ' + optionsKey + ', ' + arr[i] + ' ' + arrayCopy[i]
+      );
+      return false;
     }
   }
   return true;
 }
 
-const statParser = (stat) => {
+const statParser = stat => {
   // Example 1: "1.2 million" -> 1200000
   // Example 2: "1,200" -> 1200
   // Example 3: "1,200.50" -> 1200.5
@@ -30,11 +32,11 @@ const statParser = (stat) => {
   const regex = /[-+]?[0-9]*\.?[0-9]+/g;
   const cleanedStat = stat.replace(/,/g, '');
   const matches = cleanedStat.match(regex);
-  
+
   if (!matches) return NaN;
-  
+
   const parsedNumber = parseFloat(matches[0]);
-  
+
   if (cleanedStat.toLowerCase().includes('trillion')) {
     return parsedNumber * 1e12;
   } else if (cleanedStat.toLowerCase().includes('billion')) {
@@ -42,24 +44,23 @@ const statParser = (stat) => {
   } else if (cleanedStat.toLowerCase().includes('million')) {
     return parsedNumber * 1e6;
   }
-  
-  return parsedNumber;
-}
 
+  return parsedNumber;
+};
 
 const skipStatValidationForThesePuzzles = [
-  "2024-09-04" // Dates
-] 
+  '2024-09-04', // Dates
+];
 
 function validateStatsAreInOrder(puzzle, date) {
   if (skipStatValidationForThesePuzzles.includes(date)) {
-    return
+    return;
   }
   const answerStats = puzzle.answers.map(answer => statParser(answer.stat));
   const optionStats = puzzle.options.map(option => statParser(option.stat));
   const allStats = [...answerStats, ...optionStats];
 
-  const validateHighestFirst = allStats[0] > allStats[1]
+  const validateHighestFirst = allStats[0] > allStats[1];
 
   // Ensure that all stats are in order,
   // If any stat is not in order, return the puzzle number
@@ -83,7 +84,9 @@ function validateStatsAreInOrder(puzzle, date) {
 
 function validatePuzzles() {
   // Load and parse JSON files
-  const puzzles = JSON.parse(fs.readFileSync('app/data/puzzlesV2.json', 'utf8'));
+  const puzzles = JSON.parse(
+    fs.readFileSync('app/data/puzzlesV2.json', 'utf8')
+  );
   const options = JSON.parse(fs.readFileSync('app/data/options.json', 'utf8'));
 
   const puzzleDates = Object.keys(puzzles).sort();
@@ -91,7 +94,11 @@ function validatePuzzles() {
   const latestDate = moment(puzzleDates[puzzleDates.length - 1]);
 
   // Validate no missing dates
-  for (let m = moment(earliestDate); m.diff(latestDate, 'days') <= 0; m.add(1, 'days')) {
+  for (
+    let m = moment(earliestDate);
+    m.diff(latestDate, 'days') <= 0;
+    m.add(1, 'days')
+  ) {
     if (!puzzles[m.format('YYYY-MM-DD')]) {
       return `Missing date: ${m.format('YYYY-MM-DD')}`;
     }
@@ -102,14 +109,16 @@ function validatePuzzles() {
     const puzzle = puzzles[date];
 
     // Check if all answers exist in the corresponding optionsKey list
-    const isNewOptionsFormat = !!puzzle.options
-    const optionList = isNewOptionsFormat ? puzzle.options : options[puzzle.optionsKey];
+    const isNewOptionsFormat = !!puzzle.options;
+    const optionList = isNewOptionsFormat
+      ? puzzle.options
+      : options[puzzle.optionsKey];
     if (!optionList) {
       return `Options key not found: ${puzzle.optionsKey}`;
     }
 
     if (isNewOptionsFormat) {
-      if (puzzle.answers.length != 5) {   
+      if (puzzle.answers.length != 5) {
         return `Puzzle ${date} has ${puzzle.answers.length} answers`;
       }
 
@@ -134,9 +143,9 @@ function validatePuzzles() {
       // Example 2: "1,200" -> "1200"
       // Example 3: "1,200.50" -> "1200.5"
 
-      const error = validateStatsAreInOrder(puzzle, date)
+      const error = validateStatsAreInOrder(puzzle, date);
       if (error) {
-        return error
+        return error;
       }
     } else {
       for (const answer of puzzle.answers) {
@@ -149,13 +158,15 @@ function validatePuzzles() {
 
       // Verify options list is sorted alphabetically
       if (!isSortedAlphabetically(optionList, puzzle.optionsKey)) {
-        return `Puzzle ${date} is not sorted`
+        return `Puzzle ${date} is not sorted`;
       }
     }
 
     // Check if all answers and options are unique
     const answerSet = new Set();
-    const answersAndOptions = isNewOptionsFormat ? [...puzzle.answers, ...puzzle.options] : puzzle.answers
+    const answersAndOptions = isNewOptionsFormat
+      ? [...puzzle.answers, ...puzzle.options]
+      : puzzle.answers;
     for (const option of answersAndOptions) {
       for (const text of option.text) {
         if (answerSet.has(text)) {
@@ -175,5 +186,5 @@ if (msg !== SUCCESS_MSG) {
   console.error(msg);
   process.exit(1);
 } else {
-  console.log(msg)
+  console.log(msg);
 }

@@ -1,7 +1,10 @@
 import React from 'react';
-import { Answer, puzzles } from "../../hooks/useDailyPuzzle";
+import { Answer, puzzles } from '../../hooks/useDailyPuzzle';
 
-import { ArrowLeftCircleIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
+import {
+  ArrowLeftCircleIcon,
+  ArrowRightCircleIcon,
+} from '@heroicons/react/24/solid';
 import { getCurrentLocalDateAsString, getPuzzleNumber } from '@/app/utils';
 
 interface PickerProps {
@@ -24,7 +27,7 @@ const Picker = ({ onClick }: PickerProps) => {
     }
 
     return arr2D;
-  }
+  };
 
   const arrayTo3DArray = (arr: any[], size: number) => {
     const arr2D = arrayTo2DArray(arr, size);
@@ -33,8 +36,11 @@ const Picker = ({ onClick }: PickerProps) => {
     return arr3D;
   };
 
-  const puzzleKeys = Object.keys(puzzles).filter((key: string) => Date.parse(key) <= Date.parse(getCurrentLocalDateAsString()));
-  const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5)
+  const puzzleKeys = Object.keys(puzzles).filter(
+    (key: string) =>
+      Date.parse(key) <= Date.parse(getCurrentLocalDateAsString())
+  );
+  const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5);
 
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
 
@@ -44,41 +50,47 @@ const Picker = ({ onClick }: PickerProps) => {
       if (localStorageValue === null) return false;
 
       const guesses: string[] = JSON.parse(localStorageValue);
-      const answers: string[] = puzzles[key].answers.flatMap((answer: Answer) => answer.text);
+      const answers: string[] = puzzles[key].answers.flatMap(
+        (answer: Answer) => answer.text
+      );
 
-      const correctGuesses = guesses.filter((guess: string) => answers.includes(guess));
-      const incorrectGuesses = guesses.filter((guess: string) => !answers.includes(guess));
+      const correctGuesses = guesses.filter((guess: string) =>
+        answers.includes(guess)
+      );
+      const incorrectGuesses = guesses.filter(
+        (guess: string) => !answers.includes(guess)
+      );
 
       return correctGuesses.length === 5 || incorrectGuesses.length === 5;
     } else {
       return false;
     }
-  }
+  };
 
   const isAttempted = (key: string) => {
     if (typeof window !== 'undefined') {
       return localStorage.getItem(key) !== null;
     }
-  }
+  };
 
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      return 'bg-[#D0DBF1] text-black-pearl'
+      return 'bg-[#D0DBF1] text-black-pearl';
     }
     if (isAttempted(key)) {
-      return 'border border-2 border-dashed border-[#B0C3E8] text-black-pearl dark:text-white'
+      return 'border border-2 border-dashed border-[#B0C3E8] text-black-pearl dark:text-white';
     } else {
-      return 'border border-gray-200 text-black-pearl dark:text-white'
+      return 'border border-gray-200 text-black-pearl dark:text-white';
     }
-  }
+  };
 
   const isLeftEnabled = () => {
     return index !== 0;
-  }
+  };
 
   const isRightEnabled = () => {
     return index !== puzzleMatrix.length - 1;
-  }
+  };
 
   const getButtonSize = (label: string) => {
     switch (label.length) {
@@ -88,29 +100,46 @@ const Picker = ({ onClick }: PickerProps) => {
       case 3:
         return 'py-1.5 px-1.5';
     }
-  }
+  };
 
   return (
     <div>
       <div className="grid grid-cols-5 gap-4">
-        {puzzleMatrix[index].map((row: string[] | undefined) => row && row.map((date: string) => {
-          if (date !== undefined) {
-            const puzzleNumber = getPuzzleNumber(date)
-            return (
-              <div key={date} className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer select-none`} onClick={() => onClick(date)}>
-                <span className={`text-md ${getButtonSize(`${puzzleNumber}`)} flex items-center justify-center`}>{puzzleNumber}</span>
-              </div>
-            )
-          }
-        }))}
+        {puzzleMatrix[index].map(
+          (row: string[] | undefined) =>
+            row &&
+            row.map((date: string) => {
+              if (date !== undefined) {
+                const puzzleNumber = getPuzzleNumber(date);
+                return (
+                  <div
+                    key={date}
+                    className={`flex justify-center items-center ${getColor(date)} rounded-md w-10 cursor-pointer select-none`}
+                    onClick={() => onClick(date)}
+                  >
+                    <span
+                      className={`text-md ${getButtonSize(`${puzzleNumber}`)} flex items-center justify-center`}
+                    >
+                      {puzzleNumber}
+                    </span>
+                  </div>
+                );
+              }
+            })
+        )}
       </div>
       <div className="flex flex-row justify-center mt-6">
-        <ArrowLeftCircleIcon className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isLeftEnabled() ? setIndex(index - 1) : null} />
-        <ArrowRightCircleIcon className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`} onClick={() => isRightEnabled() ? setIndex(index + 1) : null} />
+        <ArrowLeftCircleIcon
+          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`}
+          onClick={() => (isLeftEnabled() ? setIndex(index - 1) : null)}
+        />
+        <ArrowRightCircleIcon
+          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`}
+          onClick={() => (isRightEnabled() ? setIndex(index + 1) : null)}
+        />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default Picker;
