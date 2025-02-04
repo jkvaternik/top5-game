@@ -1,5 +1,6 @@
 import { Answer, RankedAnswer } from '../../hooks/useDailyPuzzle';
-import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
+import IncorrectRankList from './IncorrectRankList';
+import { RankItem } from './RankItem/RankItem';
 
 interface Props {
   guesses: string[];
@@ -41,30 +42,18 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
         }
     );
 
-  const incorrectView = incorrectGuesses
-    .sort((a, b) => b.rank - a.rank)
-    .map((guess, i) => {
-      return (
-        <IncorrectRankItem
-          key={i}
-          guess={guess.text[0]}
-          index={guess.rank}
-          stat={guess.stat ?? ''}
-          isCorrectOrGameOver={false}
-        />
-      );
-    })
-    .reverse();
-
   return (
     <>
       {gridView}
-      {incorrectView.length > 0 ? (
-        <>
-          <div className="flex flex-col gap-3 text-nowrap w-full overflow-scroll animate-fadeIn mt-2 mb-8">
-            {incorrectView}
-          </div>
-        </>
+      {incorrectGuesses.length > 0 ? (
+        <IncorrectRankList
+          newIncorrectGuess={
+            incorrectGuesses.slice(incorrectGuesses.length - 1)[0]
+          }
+          incorrectAnswers={incorrectGuesses
+            .slice(0, incorrectGuesses.length - 1)
+            .sort((a, b) => a.rank - b.rank)}
+        />
       ) : null}
     </>
   );
