@@ -1,5 +1,6 @@
 import { Answer, RankedAnswer } from '../../hooks/useDailyPuzzle';
-import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
+import IncorrectRankList from './IncorrectRankList';
+import { RankItem } from './RankItem/RankItem';
 
 interface Props {
   guesses: string[];
@@ -30,33 +31,29 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
     );
   });
 
-  const incorrectView = guesses
+  const incorrectGuesses: RankedAnswer[] = guesses
     .filter(guess => !answers.flatMap(a => a.text).includes(guess))
-    .map((guess, i) => {
-      const indexOfGuess =
-        options?.find(o => o.text.includes(guess))?.rank ?? -1;
-      return (
-        <IncorrectRankItem
-          key={i}
-          guess={guess}
-          index={indexOfGuess}
-          stat={options?.find(o => o.text.includes(guess))?.stat || ''}
-          isCorrectOrGameOver={false}
-        />
-      );
-    })
-    .reverse();
+    .map(
+      guess =>
+        options?.find(o => o.text.includes(guess)) ?? {
+          text: [guess],
+          stat: null,
+          rank: -1,
+        }
+    );
 
   return (
     <>
       {gridView}
-      {incorrectView.length > 0 ? (
-        <>
-          <br></br>
-          <div className="flex flex-row gap-3 text-nowrap items-end w-full overflow-scroll animate-fadeIn mb-12">
-            {incorrectView}
-          </div>
-        </>
+      {incorrectGuesses.length > 0 ? (
+        <IncorrectRankList
+          newIncorrectGuess={
+            incorrectGuesses.slice(incorrectGuesses.length - 1)[0]
+          }
+          incorrectAnswers={incorrectGuesses
+            .slice(0, incorrectGuesses.length - 1)
+            .sort((a, b) => a.rank - b.rank)}
+        />
       ) : null}
     </>
   );
