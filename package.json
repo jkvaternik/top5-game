@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
+    "lint": "npx prettier --config .prettierrc --write \"**/puzzlesV2.json\"",
     "validate": "node app/data/validatePuzzles.js",
     "dev": "next dev",
     "build": "next build",
