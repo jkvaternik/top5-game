@@ -1,10 +1,10 @@
-import React from "react";
-import { Puzzle } from "../hooks/useDailyPuzzle";
+import React from 'react';
+import { Puzzle } from '../hooks/useDailyPuzzle';
 import {
   getCurrentLocalDateAsString,
   getDayAfter,
   getDayBefore,
-} from "../utils";
+} from '../utils';
 
 interface ArchiveHeaderProps {
   date: string;
@@ -21,7 +21,7 @@ const ArchiveHeader: React.FC<ArchiveHeaderProps> = ({
   const previousDate = getDayBefore(date);
 
   const hasNext = nextDate !== getCurrentLocalDateAsString();
-  const hasPrevious = previousDate !== "2024-02-24"; // First puzzle date is 2024-02-25
+  const hasPrevious = previousDate !== '2024-02-24'; // First puzzle date is 2024-02-25
 
   return (
     <div className="m-4vh shadow-lg fixed z-50 bottom-0 left-0 right-0 flex justify-between mt-4 bg-[#E0E8F5] dark:bg-[#3F4F60] dark:text-white text-center items-center md:relative rounded md:mb-3 md:shadow-none md:m-0">

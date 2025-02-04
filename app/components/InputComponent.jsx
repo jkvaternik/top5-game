@@ -1,6 +1,6 @@
-import { useState, useCallback, useMemo } from "react";
-import Downshift from "downshift";
-import Fuse from "fuse.js";
+import { useState, useCallback, useMemo } from 'react';
+import Downshift from 'downshift';
+import Fuse from 'fuse.js';
 
 const InputComponent = ({
   items,
@@ -10,7 +10,7 @@ const InputComponent = ({
   answers,
 }) => {
   const [inputItems, setInputItems] = useState(items);
-  const [inputValue, setInputValue] = useState(""); // Control inputValue explicitly
+  const [inputValue, setInputValue] = useState(''); // Control inputValue explicitly
   const [isIncorrect, setIsIncorrect] = useState(false); // For controlling shake animation
 
   const fuse = useMemo(
@@ -19,39 +19,39 @@ const InputComponent = ({
         includeScore: true,
         threshold: 0.3,
       }),
-    [items],
+    [items]
   );
 
   const shouldStrikethrough = useCallback(
-    (item) => {
-      const allAnswers = answers.map((answer) => answer.text);
+    item => {
+      const allAnswers = answers.map(answer => answer.text);
       const correctAnswers = allAnswers
-        .filter((options) => options.some((option) => guesses.includes(option)))
+        .filter(options => options.some(option => guesses.includes(option)))
         .flat();
       return guesses.includes(item) || correctAnswers.includes(item);
     },
-    [guesses, answers],
+    [guesses, answers]
   );
 
   const handleInputChange = useCallback(
-    (event) => {
+    event => {
       const { value } = event.target;
       setInputValue(value); // Update inputValue on change
 
       if (value) {
         const results = fuse.search(value);
-        const matchedItems = results.map((result) => result.item);
+        const matchedItems = results.map(result => result.item);
         setInputItems(matchedItems.slice(0, 5));
       } else {
         setInputItems([]);
       }
     },
-    [fuse],
+    [fuse]
   );
 
-  const downshiftOnChange = (selectedItem) => {
+  const downshiftOnChange = selectedItem => {
     const isCorrect = handleGuess(selectedItem);
-    setInputValue(""); // Explicitly clear inputValue upon selection
+    setInputValue(''); // Explicitly clear inputValue upon selection
     setIsIncorrect(!isCorrect);
 
     // close keyboard on mobile
@@ -65,7 +65,7 @@ const InputComponent = ({
       onInputValueChange={(inputValue, stateAndHelpers) => {
         // Optionally, handle additional logic here if needed
       }}
-      itemToString={(item) => item || ""}
+      itemToString={item => item || ''}
     >
       {({
         getInputProps,
@@ -82,8 +82,8 @@ const InputComponent = ({
         >
           <input
             {...getInputProps({
-              placeholder: "Enter your guess here...",
-              className: `border border-gray-300 dark:border-[#4B585E] text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? "shake" : ""} dark:bg-dark-purple dark:text-white`,
+              placeholder: 'Enter your guess here...',
+              className: `border border-gray-300 dark:border-[#4B585E] text-base rounded-md py-2 px-4 w-full mt-4 ${isIncorrect ? 'shake' : ''} dark:bg-dark-purple dark:text-white`,
               disabled: isGameOver,
               onChange: handleInputChange, // Use the custom handler
               onAnimationEnd: () => setIsIncorrect(false),
@@ -91,16 +91,16 @@ const InputComponent = ({
           />
           <ul
             {...getMenuProps()}
-            className={`absolute list-none m-0 p-0 z-10 w-full bg-white dark:bg-dark-purple dark:text-white rounded-lg shadow-lg mt-0 ${!isOpen && "hidden"}`}
+            className={`absolute list-none m-0 p-0 z-10 w-full bg-white dark:bg-dark-purple dark:text-white rounded-lg shadow-lg mt-0 ${!isOpen && 'hidden'}`}
           >
             {isOpen &&
               inputItems
-                .filter((item) => !shouldStrikethrough(item))
+                .filter(item => !shouldStrikethrough(item))
                 .map((item, index) => (
                   <li
                     key={index}
                     {...getItemProps({ index, item })}
-                    className={`rounded-md cursor-pointer p-2 ${highlightedIndex === index ? "bg-gray-100 dark:bg-[#18283B] dark:text-white" : "bg-white dark:bg-dark-purple dark:text-white"}`}
+                    className={`rounded-md cursor-pointer p-2 ${highlightedIndex === index ? 'bg-gray-100 dark:bg-[#18283B] dark:text-white' : 'bg-white dark:bg-dark-purple dark:text-white'}`}
                   >
                     {item}
                   </li>

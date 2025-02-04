@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import puzzlesData from "../data/puzzlesV2.json";
-import optionsData from "../data/options.json";
-import { getCurrentLocalDateAsString, getPuzzleNumber } from "../utils";
+import { useState, useEffect } from 'react';
+import puzzlesData from '../data/puzzlesV2.json';
+import optionsData from '../data/options.json';
+import { getCurrentLocalDateAsString, getPuzzleNumber } from '../utils';
 
 export type Answer = {
   text: string[];
@@ -37,7 +37,7 @@ const options: { [key: string]: string[] } = optionsData;
 // This hook returns the puzzle for the current day
 // If there is no puzzle for today, it returns null
 const useDailyPuzzle: (day: string | null) => Puzzle | null = (
-  day: string | null,
+  day: string | null
 ) => {
   const [todayPuzzle, setTodayPuzzle] = useState<Puzzle | null>(null);
 
@@ -57,13 +57,13 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (
           (answer, index) => ({
             ...answer,
             rank: index + 1,
-          }),
+          })
         );
         const incorrectOptions: RankedAnswer[] = dailyPuzzle.options!!.map(
           (option, index) => ({
             ...option,
             rank: index + 6, // Exclude the top 5 correct options and add 1 for 0-indexing
-          }),
+          })
         );
 
         // Aggregate correct and incorrect options into one list

@@ -1,8 +1,8 @@
-import React from "react";
-import { Montserrat } from "next/font/google";
-import { ModalComponent } from "../ModalComponent";
-import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import Picker from "../../Picker/Picker";
+import React from 'react';
+import { Montserrat } from 'next/font/google';
+import { ModalComponent } from '../ModalComponent';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import Picker from '../../Picker/Picker';
 
 type Props = {
   isOpen: boolean;
@@ -11,8 +11,8 @@ type Props = {
 };
 
 const montserrat = Montserrat({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
 });
 
 /* TODO:
@@ -26,9 +26,9 @@ const ArchiveModal = ({ isOpen, onClose, resetGame }: Props) => {
 
   const setPuzzleUrl = (date: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    params.set("date", date);
+    params.set('date', date);
 
-    router.push(pathname + "?" + params.toString());
+    router.push(pathname + '?' + params.toString());
     resetGame(date);
     onClose();
   };

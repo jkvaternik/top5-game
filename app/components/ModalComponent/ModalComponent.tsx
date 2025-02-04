@@ -1,5 +1,5 @@
-import { XMarkIcon } from "@heroicons/react/24/solid";
-import { useEffect, useState } from "react";
+import { XMarkIcon } from '@heroicons/react/24/solid';
+import { useEffect, useState } from 'react';
 
 type ModalComponentProps = {
   delayMs: number;
@@ -37,7 +37,7 @@ export const ModalComponent = ({
         className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-6 ${width}`}
       >
         <div
-          className={`max-h-full bg-white text-black-pearl dark:bg-dark-purple dark:text-white rounded-lg ${showComponent ? "animate-fade" : ""} overflow-scroll`}
+          className={`max-h-full bg-white text-black-pearl dark:bg-dark-purple dark:text-white rounded-lg ${showComponent ? 'animate-fade' : ''} overflow-scroll`}
         >
           <XMarkIcon
             className="h-6 w-6 ml-auto mr-6 mt-6 text-black-pearl dark:text-white cursor-pointer"

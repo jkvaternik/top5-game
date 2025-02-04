@@ -1,23 +1,23 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo } from 'react';
 import {
   getCurrentLocalDateAsString,
   getLocalStorageOrDefault,
   isCorrect,
   setLocalStorageAndState,
-} from "../utils";
-import { Puzzle } from "./useDailyPuzzle";
+} from '../utils';
+import { Puzzle } from './useDailyPuzzle';
 
 export const LIVES = 5;
 
 export function useGameState(puzzle: Puzzle | null, date: string | null) {
   const puzzleDate = date ? date : getCurrentLocalDateAsString();
   const [guesses, setGuesses] = useState<string[]>(
-    getLocalStorageOrDefault(puzzleDate, []),
+    getLocalStorageOrDefault(puzzleDate, [])
   );
 
   const correctGuesses = useMemo(
-    () => guesses.filter((guess) => isCorrect(guess, puzzle)).length,
-    [puzzle, guesses],
+    () => guesses.filter(guess => isCorrect(guess, puzzle)).length,
+    [puzzle, guesses]
   );
 
   const lives = useMemo(() => {
@@ -27,7 +27,7 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
 
   const gameOver = useMemo(
     () => lives === 0 || correctGuesses === 5,
-    [lives, correctGuesses],
+    [lives, correctGuesses]
   );
 
   // Returns true if the guess is correct, false if incorrect
@@ -36,8 +36,8 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
       return;
     }
 
-    const index = puzzle!!.answers.findIndex((answer) =>
-      answer.text.includes(guess),
+    const index = puzzle!!.answers.findIndex(answer =>
+      answer.text.includes(guess)
     );
     const isCorrect = index !== -1;
 
@@ -46,13 +46,13 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
 
     if (puzzleDate === getCurrentLocalDateAsString()) {
       if (lives === 1 && !isCorrect) {
-        localStorage.setItem("streak", "0");
+        localStorage.setItem('streak', '0');
       }
 
       if (correctGuesses === 4 && isCorrect) {
-        let streak = getLocalStorageOrDefault("streak", 0);
+        let streak = getLocalStorageOrDefault('streak', 0);
         streak += 1;
-        localStorage.setItem("streak", streak.toString());
+        localStorage.setItem('streak', streak.toString());
       }
     }
 

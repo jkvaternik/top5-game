@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import React, { useState, useCallback } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import React, { useState, useCallback } from 'react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
-import Header from "./Header";
-import InputComponent from "../components/InputComponent";
-import RankList from "../components/RankList/RankList";
+import Header from './Header';
+import InputComponent from '../components/InputComponent';
+import RankList from '../components/RankList/RankList';
 
-import useDailyPuzzle, { Puzzle, RankedAnswer } from "../hooks/useDailyPuzzle";
-import { getCurrentLocalDateAsString, getScore } from "../utils";
-import { useGameState } from "../hooks/useGameState";
-import ArchiveModal from "../components/ModalComponent/Modals/ArchiveModal";
-import GameOverModal from "../components/ModalComponent/Modals/GameOverModal";
-import Menu from "../components/Menu/Menu";
-import ArchiveHeader from "../components/ArchiveHeader";
-import SubmittedByFooter from "../components/SubmittedByFooter";
+import useDailyPuzzle, { Puzzle, RankedAnswer } from '../hooks/useDailyPuzzle';
+import { getCurrentLocalDateAsString, getScore } from '../utils';
+import { useGameState } from '../hooks/useGameState';
+import ArchiveModal from '../components/ModalComponent/Modals/ArchiveModal';
+import GameOverModal from '../components/ModalComponent/Modals/GameOverModal';
+import Menu from '../components/Menu/Menu';
+import ArchiveHeader from '../components/ArchiveHeader';
+import SubmittedByFooter from '../components/SubmittedByFooter';
 
 interface GameViewProps {
   setShowInstructionsModal: (value: boolean) => void;
@@ -29,12 +29,12 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
   const pathname = usePathname();
 
   const searchParams = useSearchParams();
-  let archiveDate = searchParams.get("date");
+  let archiveDate = searchParams.get('date');
 
   const setPuzzleUrl = (date: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    params.set("date", date);
-    router.push(pathname + "?" + params.toString());
+    params.set('date', date);
+    router.push(pathname + '?' + params.toString());
     resetGame(date);
   };
 
@@ -50,11 +50,11 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
   const puzzle = useDailyPuzzle(archiveDate);
   const { guesses, setGuesses, handleGuess, lives, gameOver } = useGameState(
     puzzle,
-    archiveDate,
+    archiveDate
   );
 
   const resetGame = (date: string) => {
-    if (typeof window === "undefined") return;
+    if (typeof window === 'undefined') return;
     const gameAtDate = localStorage.getItem(date);
     if (gameAtDate == null) {
       setGuesses([]);

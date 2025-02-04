@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import { HeartIcon } from "@heroicons/react/24/solid";
-import { ModalComponent } from "../ModalComponent";
-import { RankItem } from "../../RankList/RankItem/RankItem";
-import { Montserrat } from "next/font/google";
+import { useEffect, useState } from 'react';
+import { HeartIcon } from '@heroicons/react/24/solid';
+import { ModalComponent } from '../ModalComponent';
+import { RankItem } from '../../RankList/RankItem/RankItem';
+import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
 });
 
 export const InstructionsModal = ({
@@ -63,12 +63,12 @@ export const InstructionsModal = ({
             <p className="text-l mb-2 font-semibold">Example</p>
             <RankItem
               index={0}
-              answer={{ text: ["Pacific Ocean"], stat: "63.8 million mi²" }}
+              answer={{ text: ['Pacific Ocean'], stat: '63.8 million mi²' }}
               isCorrectOrGameOver={isCorrectOrGameOver}
             />
           </div>
           <li className="mb-2">
-            If your guess is incorrect, you will lose a life{" "}
+            If your guess is incorrect, you will lose a life{' '}
           </li>
           <div className="self-end flex flex-row items-center gap-2">
             <div className="relative">
@@ -76,10 +76,10 @@ export const InstructionsModal = ({
                 <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>
               )}
               <HeartIcon
-                className={`h-5 w-5 ${isExploding ? "shrink text-red-500" : ""}`}
+                className={`h-5 w-5 ${isExploding ? 'shrink text-red-500' : ''}`}
               />
             </div>
-            <span className={`text-l ${animateChange ? "lives-change" : ""}`}>
+            <span className={`text-l ${animateChange ? 'lives-change' : ''}`}>
               {lives}
             </span>
           </div>
@@ -88,7 +88,7 @@ export const InstructionsModal = ({
           Want an extra challenge? Try to guess the top five items in order!
         </p>
         <p className="text-l">
-          {" "}
+          {' '}
           A new list is available every day at midnight. Good luck!
         </p>
       </div>

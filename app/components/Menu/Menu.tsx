@@ -1,6 +1,6 @@
-import { getLocalStorageOrDefault, setLocalStorageAndState } from "@/app/utils";
-import React from "react";
-import Switch from "./Switch";
+import { getLocalStorageOrDefault, setLocalStorageAndState } from '@/app/utils';
+import React from 'react';
+import Switch from './Switch';
 
 interface MenuProps {
   showMenu: boolean;
@@ -14,7 +14,7 @@ export default function Menu({
   setShowArchiveModal,
 }: MenuProps) {
   const [includeUrl, setIncludeUrl] = React.useState(
-    getLocalStorageOrDefault("includeUrl", true),
+    getLocalStorageOrDefault('includeUrl', true)
   );
 
   if (showMenu) {
@@ -38,8 +38,8 @@ export default function Menu({
           </p>
           <Switch
             isChecked={includeUrl}
-            onChange={(checked) =>
-              setLocalStorageAndState("includeUrl", checked, setIncludeUrl)
+            onChange={checked =>
+              setLocalStorageAndState('includeUrl', checked, setIncludeUrl)
             }
           />
         </div>

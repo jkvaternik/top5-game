@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 
-import { HeartIcon, ShareIcon, XMarkIcon } from "@heroicons/react/24/solid";
-import { Cog6ToothIcon } from "@heroicons/react/24/outline";
-import { Montserrat } from "next/font/google";
+import { HeartIcon, ShareIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import { Cog6ToothIcon } from '@heroicons/react/24/outline';
+import { Montserrat } from 'next/font/google';
 
-import { LIVES } from "../hooks/useGameState";
-import { Puzzle } from "../hooks/useDailyPuzzle";
+import { LIVES } from '../hooks/useGameState';
+import { Puzzle } from '../hooks/useDailyPuzzle';
 
 const montserrat = Montserrat({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
 });
 
 interface HeaderProps {
@@ -51,8 +51,8 @@ export default function Header({
       >
         <div
           className={`flex flex-col items-center cursor-pointer`}
-          style={{ marginLeft: "8px" }}
-          onClick={() => (window.location.href = "/")}
+          style={{ marginLeft: '8px' }}
+          onClick={() => (window.location.href = '/')}
         >
           <h1 className="text-sm">top</h1>
           <h1 className="text-5xl font-semibold">5</h1>
@@ -68,28 +68,28 @@ export default function Header({
               {showMenu ? (
                 <XMarkIcon
                   className="h-6 w-6 cursor-pointer"
-                  style={{ transition: "0.3s" }}
+                  style={{ transition: '0.3s' }}
                   onClick={() => setShowMenu(false)}
                 />
               ) : (
                 <Cog6ToothIcon
                   className={`h-6 w-6 hover:stroke-[#82A0BC] cursor-pointer`}
-                  style={{ transition: "0.3s" }}
+                  style={{ transition: '0.3s' }}
                   onClick={() => setShowMenu(!showMenu)}
                 />
               )}
               {!showMenu && gameOver ? (
                 <ShareIcon
                   className="h-6 w-6 hover:fill-[#82A0BC] cursor-pointer"
-                  style={{ transition: "0.3s" }}
+                  style={{ transition: '0.3s' }}
                   onClick={() => setShowGameOverModal(true)}
                 />
               ) : (
                 <div
-                  className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? "opacity-0" : "opacity-100"}`}
+                  className={`self-end flex flex-row items-center gap-2 font-base text-base ${showMenu ? 'opacity-0' : 'opacity-100'}`}
                 >
                   <span
-                    className={`text-xl ${animateChange ? "lives-change" : ""}`}
+                    className={`text-xl ${animateChange ? 'lives-change' : ''}`}
                   >
                     {lives}
                   </span>
@@ -98,7 +98,7 @@ export default function Header({
                       <div className="explode absolute inset-0 bg-red-500 rounded-full"></div>
                     )}
                     <HeartIcon
-                      className={`h-6 w-6 ${isExploding ? "shrink text-red-500" : ""}`}
+                      className={`h-6 w-6 ${isExploding ? 'shrink text-red-500' : ''}`}
                     />
                   </div>
                 </div>

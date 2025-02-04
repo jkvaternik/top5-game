@@ -1,11 +1,11 @@
-import React from "react";
-import { Answer, puzzles } from "../../hooks/useDailyPuzzle";
+import React from 'react';
+import { Answer, puzzles } from '../../hooks/useDailyPuzzle';
 
 import {
   ArrowLeftCircleIcon,
   ArrowRightCircleIcon,
-} from "@heroicons/react/24/solid";
-import { getCurrentLocalDateAsString, getPuzzleNumber } from "@/app/utils";
+} from '@heroicons/react/24/solid';
+import { getCurrentLocalDateAsString, getPuzzleNumber } from '@/app/utils';
 
 interface PickerProps {
   onClick: (key: string) => void;
@@ -38,27 +38,27 @@ const Picker = ({ onClick }: PickerProps) => {
 
   const puzzleKeys = Object.keys(puzzles).filter(
     (key: string) =>
-      Date.parse(key) <= Date.parse(getCurrentLocalDateAsString()),
+      Date.parse(key) <= Date.parse(getCurrentLocalDateAsString())
   );
   const puzzleMatrix = arrayTo3DArray(puzzleKeys, 5);
 
   const [index, setIndex] = React.useState(puzzleMatrix.length - 1);
 
   const isComplete = (key: string) => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       const localStorageValue = localStorage.getItem(key);
       if (localStorageValue === null) return false;
 
       const guesses: string[] = JSON.parse(localStorageValue);
       const answers: string[] = puzzles[key].answers.flatMap(
-        (answer: Answer) => answer.text,
+        (answer: Answer) => answer.text
       );
 
       const correctGuesses = guesses.filter((guess: string) =>
-        answers.includes(guess),
+        answers.includes(guess)
       );
       const incorrectGuesses = guesses.filter(
-        (guess: string) => !answers.includes(guess),
+        (guess: string) => !answers.includes(guess)
       );
 
       return correctGuesses.length === 5 || incorrectGuesses.length === 5;
@@ -68,19 +68,19 @@ const Picker = ({ onClick }: PickerProps) => {
   };
 
   const isAttempted = (key: string) => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       return localStorage.getItem(key) !== null;
     }
   };
 
   const getColor = (key: string) => {
     if (isComplete(key)) {
-      return "bg-[#D0DBF1] text-black-pearl";
+      return 'bg-[#D0DBF1] text-black-pearl';
     }
     if (isAttempted(key)) {
-      return "border border-2 border-dashed border-[#B0C3E8] text-black-pearl dark:text-white";
+      return 'border border-2 border-dashed border-[#B0C3E8] text-black-pearl dark:text-white';
     } else {
-      return "border border-gray-200 text-black-pearl dark:text-white";
+      return 'border border-gray-200 text-black-pearl dark:text-white';
     }
   };
 
@@ -96,9 +96,9 @@ const Picker = ({ onClick }: PickerProps) => {
     switch (label.length) {
       case 1:
       case 2:
-        return "py-1.5 px-2";
+        return 'py-1.5 px-2';
       case 3:
-        return "py-1.5 px-1.5";
+        return 'py-1.5 px-1.5';
     }
   };
 
@@ -125,16 +125,16 @@ const Picker = ({ onClick }: PickerProps) => {
                   </div>
                 );
               }
-            }),
+            })
         )}
       </div>
       <div className="flex flex-row justify-center mt-6">
         <ArrowLeftCircleIcon
-          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isLeftEnabled() ? "opacity-100" : "opacity-50"}`}
+          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isLeftEnabled() ? 'opacity-100' : 'opacity-50'}`}
           onClick={() => (isLeftEnabled() ? setIndex(index - 1) : null)}
         />
         <ArrowRightCircleIcon
-          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isRightEnabled() ? "opacity-100" : "opacity-50"}`}
+          className={`h-10 w-10 text-[#304d6d] dark:text-[#4F6479] cursor-pointer ${isRightEnabled() ? 'opacity-100' : 'opacity-50'}`}
           onClick={() => (isRightEnabled() ? setIndex(index + 1) : null)}
         />
       </div>

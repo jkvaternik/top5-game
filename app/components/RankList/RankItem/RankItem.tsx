@@ -1,5 +1,5 @@
-import { Answer } from "../../../hooks/useDailyPuzzle";
-import { NumberIcon, StringIcon } from "./Icon";
+import { Answer } from '../../../hooks/useDailyPuzzle';
+import { NumberIcon, StringIcon } from './Icon';
 
 export function RankItem({
   index,
@@ -12,7 +12,7 @@ export function RankItem({
   isCorrectOrGameOver: boolean;
   className?: string;
 }): JSX.Element {
-  const textAnimation = !isCorrectOrGameOver ? "animate-fade" : "";
+  const textAnimation = !isCorrectOrGameOver ? 'animate-fade' : '';
   return (
     <div
       key={index}
@@ -21,7 +21,7 @@ export function RankItem({
       <NumberIcon number={index} isEmpty={!isCorrectOrGameOver} />
       <div>
         <p className={`text-black-pearl dark:text-white ${textAnimation} `}>
-          {isCorrectOrGameOver && answer.text.join(", ")}
+          {isCorrectOrGameOver && answer.text.join(', ')}
         </p>
         <p
           className={`text-black-pearl text-opacity-70 dark:text-white ${textAnimation}`}
@@ -50,7 +50,7 @@ export function IncorrectRankItem({
       className={`flex flex-nowrap flex-row gap-2 p-2 rounded-md border border-gray-400 dark:border-gray-400 border-dashed items-center text-black-pearl dark:text-white animated_fadeIn`}
     >
       <StringIcon
-        string={index === -1 ? "X" : `${index}`}
+        string={index === -1 ? 'X' : `${index}`}
         isEmpty={!isCorrectOrGameOver}
       />
       <div>

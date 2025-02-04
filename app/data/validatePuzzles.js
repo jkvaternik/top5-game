@@ -1,7 +1,7 @@
-const fs = require("fs");
-const moment = require("moment");
+const fs = require('fs');
+const moment = require('moment');
 
-const SUCCESS_MSG = "Validation successful, all checks passed.";
+const SUCCESS_MSG = 'Validation successful, all checks passed.';
 
 /*
  * Validates the following conditions:
@@ -16,7 +16,7 @@ function isSortedAlphabetically(arr, optionsKey) {
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i] !== arrayCopy[i]) {
       console.log(
-        "options: " + optionsKey + ", " + arr[i] + " " + arrayCopy[i],
+        'options: ' + optionsKey + ', ' + arr[i] + ' ' + arrayCopy[i]
       );
       return false;
     }
@@ -24,24 +24,24 @@ function isSortedAlphabetically(arr, optionsKey) {
   return true;
 }
 
-const statParser = (stat) => {
+const statParser = stat => {
   // Example 1: "1.2 million" -> 1200000
   // Example 2: "1,200" -> 1200
   // Example 3: "1,200.50" -> 1200.5
   // Example 4: "5.6 billion" -> 5600000000
   const regex = /[-+]?[0-9]*\.?[0-9]+/g;
-  const cleanedStat = stat.replace(/,/g, "");
+  const cleanedStat = stat.replace(/,/g, '');
   const matches = cleanedStat.match(regex);
 
   if (!matches) return NaN;
 
   const parsedNumber = parseFloat(matches[0]);
 
-  if (cleanedStat.toLowerCase().includes("trillion")) {
+  if (cleanedStat.toLowerCase().includes('trillion')) {
     return parsedNumber * 1e12;
-  } else if (cleanedStat.toLowerCase().includes("billion")) {
+  } else if (cleanedStat.toLowerCase().includes('billion')) {
     return parsedNumber * 1e9;
-  } else if (cleanedStat.toLowerCase().includes("million")) {
+  } else if (cleanedStat.toLowerCase().includes('million')) {
     return parsedNumber * 1e6;
   }
 
@@ -49,15 +49,15 @@ const statParser = (stat) => {
 };
 
 const skipStatValidationForThesePuzzles = [
-  "2024-09-04", // Dates
+  '2024-09-04', // Dates
 ];
 
 function validateStatsAreInOrder(puzzle, date) {
   if (skipStatValidationForThesePuzzles.includes(date)) {
     return;
   }
-  const answerStats = puzzle.answers.map((answer) => statParser(answer.stat));
-  const optionStats = puzzle.options.map((option) => statParser(option.stat));
+  const answerStats = puzzle.answers.map(answer => statParser(answer.stat));
+  const optionStats = puzzle.options.map(option => statParser(option.stat));
   const allStats = [...answerStats, ...optionStats];
 
   const validateHighestFirst = allStats[0] > allStats[1];
@@ -85,9 +85,9 @@ function validateStatsAreInOrder(puzzle, date) {
 function validatePuzzles() {
   // Load and parse JSON files
   const puzzles = JSON.parse(
-    fs.readFileSync("app/data/puzzlesV2.json", "utf8"),
+    fs.readFileSync('app/data/puzzlesV2.json', 'utf8')
   );
-  const options = JSON.parse(fs.readFileSync("app/data/options.json", "utf8"));
+  const options = JSON.parse(fs.readFileSync('app/data/options.json', 'utf8'));
 
   const puzzleDates = Object.keys(puzzles).sort();
   const earliestDate = moment(puzzleDates[0]);
@@ -96,11 +96,11 @@ function validatePuzzles() {
   // Validate no missing dates
   for (
     let m = moment(earliestDate);
-    m.diff(latestDate, "days") <= 0;
-    m.add(1, "days")
+    m.diff(latestDate, 'days') <= 0;
+    m.add(1, 'days')
   ) {
-    if (!puzzles[m.format("YYYY-MM-DD")]) {
-      return `Missing date: ${m.format("YYYY-MM-DD")}`;
+    if (!puzzles[m.format('YYYY-MM-DD')]) {
+      return `Missing date: ${m.format('YYYY-MM-DD')}`;
     }
   }
 
@@ -124,8 +124,8 @@ function validatePuzzles() {
 
       // Create a set of all the text values in the answers list
       const answerTextSet = new Set();
-      puzzle.answers.forEach((answer) => {
-        answer.text.forEach((text) => answerTextSet.add(text));
+      puzzle.answers.forEach(answer => {
+        answer.text.forEach(text => answerTextSet.add(text));
       });
 
       for (const option of puzzle.options) {

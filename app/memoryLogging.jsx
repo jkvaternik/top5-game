@@ -1,6 +1,6 @@
 (function () {
   if (!performance || !performance.memory) {
-    console.log("Memory API not supported");
+    console.log('Memory API not supported');
     return;
   }
 
@@ -22,7 +22,7 @@
     }
 
     console.log(
-      `Memory Usage: ${usage.usedJSHeapSize}MB / ${usage.totalJSHeapSize}MB`,
+      `Memory Usage: ${usage.usedJSHeapSize}MB / ${usage.totalJSHeapSize}MB`
     );
   }
 

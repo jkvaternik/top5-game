@@ -1,15 +1,15 @@
-import { toast, Bounce, ToastContainer } from "react-toastify";
-import React from "react";
-import { Montserrat } from "next/font/google";
-import { ModalComponent } from "../ModalComponent";
-import { Puzzle } from "@/app/hooks/useDailyPuzzle";
+import { toast, Bounce, ToastContainer } from 'react-toastify';
+import React from 'react';
+import { Montserrat } from 'next/font/google';
+import { ModalComponent } from '../ModalComponent';
+import { Puzzle } from '@/app/hooks/useDailyPuzzle';
 import {
   getShareableEmojiScore,
   getScoreMessage,
   getLocalStorageOrDefault,
-} from "@/app/utils";
-import { ShareIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
-import Button from "../../Button";
+} from '@/app/utils';
+import { ShareIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
+import Button from '../../Button';
 
 type Props = {
   isOpen: boolean;
@@ -20,15 +20,15 @@ type Props = {
 };
 
 const montserrat = Montserrat({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
 });
 
 const SuggestionLink = () => (
   <>
     <p className="text-sm">Have an idea for a Top 5 puzzle?</p>
     <p className="text-sm">
-      Submit it{" "}
+      Submit it{' '}
       <a
         href="https://forms.gle/WgG9wnRADQxwZjEE9"
         target="_blank"
@@ -48,7 +48,7 @@ const GameOverModal = ({
   onClose,
   isArchiveMode,
 }: Props) => {
-  const streak = getLocalStorageOrDefault("streak", 0);
+  const streak = getLocalStorageOrDefault('streak', 0);
   const createShareMessage = (includeUrl: boolean) => {
     const message = {
       title: `Top 5 #${puzzle.num}`,
@@ -58,10 +58,10 @@ const GameOverModal = ({
   };
 
   const getUrlSetting = () => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== 'undefined') {
       return (
-        localStorage.getItem("includeUrl") === "true" ||
-        localStorage.getItem("includeUrl") === null
+        localStorage.getItem('includeUrl') === 'true' ||
+        localStorage.getItem('includeUrl') === null
       );
     } else {
       // Default to true if not in browser
@@ -73,34 +73,34 @@ const GameOverModal = ({
     const includeUrl: boolean = getUrlSetting();
     const isMobile =
       /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent,
+        navigator.userAgent
       );
 
-    const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${window.location.href}` : "")}`;
+    const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${window.location.href}` : '')}`;
 
     if (isMobile) {
       navigator
         .share(createShareMessage(includeUrl))
         .then(() => {
-          console.log("Successful share");
+          console.log('Successful share');
         })
-        .catch((error) => {
-          console.log("Error sharing", error);
+        .catch(error => {
+          console.log('Error sharing', error);
 
           navigator.clipboard.writeText(shareableText);
         });
     } else {
       navigator.clipboard.writeText(shareableText);
 
-      toast.success("Score copied to clipboard", {
-        position: "top-center",
+      toast.success('Score copied to clipboard', {
+        position: 'top-center',
         autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: false,
         pauseOnHover: false,
         draggable: false,
         progress: undefined,
-        theme: "light",
+        theme: 'light',
         transition: Bounce,
       });
     }
@@ -122,15 +122,15 @@ const GameOverModal = ({
           <p className="mb-2 left-align font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-4 text-3xl">{getShareableEmojiScore(score)}</p>
           <Button onClick={copyScore}>
-            Share{" "}
+            Share{' '}
             <ShareIcon
               className="h-6 w-6"
-              style={{ display: "inline-block" }}
+              style={{ display: 'inline-block' }}
             />
           </Button>
           {!!isArchiveMode && (
             <Button
-              onClick={() => (window.location.href = "/")}
+              onClick={() => (window.location.href = '/')}
               buttonType="secondary"
             >
               Play Today&apos;s Quiz!
