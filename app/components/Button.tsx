@@ -31,7 +31,7 @@ export default function Button({
 
   return (
     <button
-      className={`py-3 px-12 font-medium rounded-full mb-4 ${colors} ${styles}`}
+      className={`py-3 px-12 font-medium rounded-full ${colors} ${styles}`}
       onClick={onClick}
       style={{ transition: '0.3s' }}
     >

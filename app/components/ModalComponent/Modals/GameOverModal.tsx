@@ -121,7 +121,7 @@ const GameOverModal = ({
           </h2>
           <p className="mb-2 left-align font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-4 text-3xl">{getShareableEmojiScore(score)}</p>
-          <Button onClick={copyScore}>
+          <Button onClick={copyScore} styles="mb-4">
             Share{' '}
             <ShareIcon
               className="h-6 w-6"
@@ -132,6 +132,7 @@ const GameOverModal = ({
             <Button
               onClick={() => (window.location.href = '/')}
               buttonType="secondary"
+              styles="mb-4"
             >
               Play Today&apos;s Quiz!
             </Button>
