@@ -3,10 +3,11 @@ import React from 'react';
 type ButtonType = 'primary' | 'secondary';
 
 interface ButtonProps {
-  onClick: () => void;
+  onClick?: () => void;
   children: React.ReactNode;
   colorClasses?: string;
   buttonType?: ButtonType;
+  styles?: string;
 }
 
 export default function Button({
@@ -14,6 +15,7 @@ export default function Button({
   children,
   colorClasses,
   buttonType = 'primary',
+  styles = '',
 }: ButtonProps) {
   // Default color classes
   const defaultColors =
@@ -29,7 +31,7 @@ export default function Button({
 
   return (
     <button
-      className={`py-3 px-12 font-medium rounded-full mb-4 ${colors}`}
+      className={`py-3 px-12 font-medium rounded-full mb-4 ${colors} ${styles}`}
       onClick={onClick}
       style={{ transition: '0.3s' }}
     >

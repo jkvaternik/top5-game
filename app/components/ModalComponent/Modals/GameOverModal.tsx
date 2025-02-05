@@ -159,6 +159,11 @@ const GameOverModal = ({
             </a>
           ) : null}
           <SuggestionLink />
+          <Button buttonType="secondary" styles="mt-4">
+            <a href="https://buymeacoffee.com/top5game" target="blank">
+              ☕️ Buy me a coffee
+            </a>
+          </Button>
         </div>
       </ModalComponent>
     </>
