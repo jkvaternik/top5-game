@@ -45,6 +45,7 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
   return (
     <>
       {gridView}
+      <br></br>
       {incorrectGuesses.length > 0 ? (
         <IncorrectRankList
           newIncorrectGuess={

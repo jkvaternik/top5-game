@@ -11,7 +11,7 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
   const [items, setItems] = useState<RankedAnswer[]>(incorrectAnswers);
   const [newItem, setNewItem] = useState<RankedAnswer | null>(null);
   const [shouldAnimate, setShouldAnimate] = useState(false);
-  const itemHeight = 64;
+  const itemHeight = 48;
 
   useEffect(() => {
     const today = new Date().toISOString().split('T')[0];
@@ -34,10 +34,13 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
       const sortTimer = setTimeout(() => {
         setShouldAnimate(true);
         sessionStorage.setItem(animationKey, 'true');
-        setItems(prev => [...prev].sort((a, b) => a.rank - b.rank));
+        setItems(prev => {
+          return [...prev].sort((a, b) => a.rank - b.rank);
+        });
       }, 2000);
 
       return () => {
+        setShouldAnimate(false);
         clearTimeout(addItemTimer);
         clearTimeout(sortTimer);
       };
@@ -48,9 +51,11 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
     }
   }, [newIncorrectGuess, incorrectAnswers]);
 
+  console.log('rerendering');
+
   return (
     <div className="relative w-full mb-8">
-      <div className="flex flex-col gap-3 text-nowrap w-full relative">
+      <div className="flex flex-col text-nowrap w-full relative">
         {items.map((guess, index) => {
           const isNewItem = newItem?.text === guess.text;
           const itemPosition = items.findIndex(i => i.text === guess.text);
@@ -60,7 +65,6 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
               key={guess.text[0]}
               className={`
                 flex flex-nowrap flex-row gap-4 rounded-md 
-                ${isNewItem ? `p-2 border border-gray-400 dark:border-gray-400 border-dashed` : ``}
                 items-center text-black-pearl dark:text-white
                 bg-white dark:bg-dark-purple
               `}
@@ -74,8 +78,8 @@ const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
                     ? 'translateY(0)'
                     : `translateY(${index * (itemHeight + 12)}px)`,
                 transition: isNewItem
-                  ? 'transform 800ms cubic-bezier(0.34, 1.56, 0.64, 1)'
-                  : `all 800ms cubic-bezier(0.4, 0, 0.2, 1) ${
+                  ? 'transform 1600ms cubic-bezier(0.34, 1.56, 0.64, 1)'
+                  : `all 1600ms cubic-bezier(0.4, 0, 0.2, 1) ${
                       itemPosition * 50
                     }ms`,
                 willChange: 'transform',
