@@ -4,25 +4,42 @@ import { RankedAnswer } from '@/app/hooks/useDailyPuzzle';
 import { StringIcon } from './RankItem/Icon';
 
 interface Props {
+  // list of incorrect answers in guess order (most recent last)
   incorrectAnswers: RankedAnswer[];
+  // whether the user just guessed a wrong answer. used to animate the list.
+  mostRecentWasIncorrect: boolean;
 }
 
-const IncorrectRankList = ({ incorrectAnswers }: Props) => {
+const IncorrectRankList = ({
+  incorrectAnswers,
+  mostRecentWasIncorrect,
+}: Props) => {
   const [items, setItems] = useState<RankedAnswer[]>(incorrectAnswers);
 
   useEffect(() => {
-    setItems(incorrectAnswers);
-  }, [incorrectAnswers]);
+    // if most recent was incorrect, put the last guess at the top of the items and sort all others
+    if (mostRecentWasIncorrect) {
+      setItems([
+        incorrectAnswers[incorrectAnswers.length - 1],
+        ...incorrectAnswers.slice(0, -1).sort((a, b) => a.rank - b.rank),
+      ]);
+    } else {
+      // if most recent was correct, sort all incorrect answers (no need to animate)
+      setItems(incorrectAnswers.slice().sort((a, b) => a.rank - b.rank));
+    }
+  }, [incorrectAnswers, mostRecentWasIncorrect]);
 
   useEffect(() => {
-    const isSorted = items.every((item, index) => {
-      if (index === 0) return true;
-      return items[index - 1].rank <= item.rank;
-    });
+    // when items change, if they are not sorted, set a timeout to sort them
+    const sorted = items.every(
+      (item, index) => index === 0 || items[index - 1].rank <= item.rank
+    );
 
-    if (!isSorted) {
-      const sortedItems = items.slice().sort((a, b) => a.rank - b.rank);
-      setTimeout(() => setItems(sortedItems), 2000);
+    if (!sorted) {
+      setTimeout(() => {
+        const sortedItems = items.slice().sort((a, b) => a.rank - b.rank);
+        setItems(sortedItems);
+      }, 1500);
     }
   }, [items]);
 
