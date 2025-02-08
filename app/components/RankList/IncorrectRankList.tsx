@@ -45,39 +45,35 @@ const IncorrectRankList = ({
 
   const itemKeys = items.map(i => i.text[0]).join('');
   return (
-    <div className="relative w-full mb-8">
-      <div className="flex flex-col text-nowrap w-full relative">
-        <Flipper flipKey={itemKeys}>
-          {items.map((guess, index) => {
-            return (
-              <Flipped key={guess.text[0]} flipId={guess.text[0]}>
-                <div
-                  key={guess.text[0] + '-div'}
-                  className={`
-                            flex flex-nowrap flex-row gap-4 rounded-md
+    <Flipper flipKey={itemKeys} className="flex flex-col gap-3">
+      {items.map((guess, index) => {
+        return (
+          <Flipped key={guess.text[0]} flipId={guess.text[0]}>
+            <div
+              key={guess.text[0] + '-div'}
+              className={`
+                            flex flex-row gap-4
                             items-center text-black-pearl dark:text-white
                             bg-white dark:bg-dark-purple
                           `}
-                >
-                  <StringIcon
-                    string={guess.rank === -1 ? 'X' : `${guess.rank}`}
-                    isEmpty={true}
-                  />
-                  <div>
-                    <p className="text-gray-700 dark:text-white font-base">
-                      {guess.text}
-                    </p>
-                    <p className="text-gray-700 dark:text-white font-base text-opacity-70">
-                      {guess.stat}
-                    </p>
-                  </div>
-                </div>
-              </Flipped>
-            );
-          })}
-        </Flipper>
-      </div>
-    </div>
+            >
+              <StringIcon
+                string={guess.rank === -1 ? 'X' : `${guess.rank}`}
+                isEmpty={true}
+              />
+              <div>
+                <p className="text-gray-700 dark:text-white font-base">
+                  {guess.text}
+                </p>
+                <p className="text-gray-700 dark:text-white font-base text-opacity-70">
+                  {guess.stat}
+                </p>
+              </div>
+            </div>
+          </Flipped>
+        );
+      })}
+    </Flipper>
   );
 };
 

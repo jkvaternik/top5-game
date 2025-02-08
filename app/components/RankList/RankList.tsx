@@ -55,12 +55,14 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
   return (
     <>
       {gridView}
-      <br></br>
       {incorrectAnswers.length > 0 ? (
-        <IncorrectRankList
-          incorrectAnswers={incorrectAnswers}
-          mostRecentWasIncorrect={mostRecentWasIncorrect}
-        />
+        <>
+          <hr className="border-t-1 dark:border-gray-600 border-gray-400" />
+          <IncorrectRankList
+            incorrectAnswers={incorrectAnswers}
+            mostRecentWasIncorrect={mostRecentWasIncorrect}
+          />
+        </>
       ) : null}
     </>
   );

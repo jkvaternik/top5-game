@@ -108,7 +108,7 @@ export default function GameView({ setShowInstructionsModal }: GameViewProps) {
             />
           </section>
           <br></br>
-          <section className="flex flex-col gap-4">
+          <section className="flex flex-col gap-3">
             <RankList
               guesses={guesses}
               answers={puzzle.answers}
