@@ -1,108 +1,65 @@
 import React, { useEffect, useState } from 'react';
+import { Flipper, Flipped } from 'react-flip-toolkit';
 import { RankedAnswer } from '@/app/hooks/useDailyPuzzle';
 import { StringIcon } from './RankItem/Icon';
 
 interface Props {
-  newIncorrectGuess: RankedAnswer;
   incorrectAnswers: RankedAnswer[];
 }
 
-const IncorrectRankList = ({ newIncorrectGuess, incorrectAnswers }: Props) => {
+const IncorrectRankList = ({ incorrectAnswers }: Props) => {
   const [items, setItems] = useState<RankedAnswer[]>(incorrectAnswers);
-  const [newItem, setNewItem] = useState<RankedAnswer | null>(null);
-  const [shouldAnimate, setShouldAnimate] = useState(false);
-  const itemHeight = 48;
 
   useEffect(() => {
-    const today = new Date().toISOString().split('T')[0];
-    const animationKey = `rankList_animated_${today}_${newIncorrectGuess.text}`;
+    setItems(incorrectAnswers);
+  }, [incorrectAnswers]);
 
-    Object.keys(sessionStorage).forEach(key => {
-      if (key.startsWith('rankList_animated_') && !key.includes(today)) {
-        sessionStorage.removeItem(key);
-      }
+  useEffect(() => {
+    const isSorted = items.every((item, index) => {
+      if (index === 0) return true;
+      return items[index - 1].rank <= item.rank;
     });
 
-    const hasAnimated = sessionStorage.getItem(animationKey);
-
-    if (!hasAnimated) {
-      const addItemTimer = setTimeout(() => {
-        setNewItem(newIncorrectGuess);
-        setItems(prev => [newIncorrectGuess, ...prev]);
-      }, 100);
-
-      const sortTimer = setTimeout(() => {
-        setShouldAnimate(true);
-        sessionStorage.setItem(animationKey, 'true');
-        setItems(prev => {
-          return [...prev].sort((a, b) => a.rank - b.rank);
-        });
-      }, 2000);
-
-      return () => {
-        setShouldAnimate(false);
-        clearTimeout(addItemTimer);
-        clearTimeout(sortTimer);
-      };
-    } else {
-      setItems(
-        [...incorrectAnswers, newIncorrectGuess].sort((a, b) => a.rank - b.rank)
-      );
+    if (!isSorted) {
+      const sortedItems = items.slice().sort((a, b) => a.rank - b.rank);
+      setTimeout(() => setItems(sortedItems), 2000);
     }
-  }, [newIncorrectGuess, incorrectAnswers]);
+  }, [items]);
 
-  console.log('rerendering');
-
+  const itemKeys = items.map(i => i.text[0]).join('');
   return (
     <div className="relative w-full mb-8">
       <div className="flex flex-col text-nowrap w-full relative">
-        {items.map((guess, index) => {
-          const isNewItem = newItem?.text === guess.text;
-          const itemPosition = items.findIndex(i => i.text === guess.text);
-
-          return (
-            <div
-              key={guess.text[0]}
-              className={`
-                flex flex-nowrap flex-row gap-4 rounded-md 
-                items-center text-black-pearl dark:text-white
-                bg-white dark:bg-dark-purple
-              `}
-              style={{
-                position: 'absolute',
-                width: '100%',
-                height: itemHeight,
-                opacity: 1,
-                transform:
-                  isNewItem && !shouldAnimate
-                    ? 'translateY(0)'
-                    : `translateY(${index * (itemHeight + 12)}px)`,
-                transition: isNewItem
-                  ? 'transform 1600ms cubic-bezier(0.34, 1.56, 0.64, 1)'
-                  : `all 1600ms cubic-bezier(0.4, 0, 0.2, 1) ${
-                      itemPosition * 50
-                    }ms`,
-                willChange: 'transform',
-              }}
-            >
-              <StringIcon
-                string={guess.rank === -1 ? 'X' : `${guess.rank}`}
-                isEmpty={true}
-              />
-              <div>
-                <p className="text-gray-700 dark:text-white font-base">
-                  {guess.text}
-                </p>
-                <p className="text-gray-700 dark:text-white font-base text-opacity-70">
-                  {guess.stat}
-                </p>
-              </div>
-            </div>
-          );
-        })}
+        <Flipper flipKey={itemKeys}>
+          {items.map((guess, index) => {
+            return (
+              <Flipped key={guess.text[0]} flipId={guess.text[0]}>
+                <div
+                  key={guess.text[0] + '-div'}
+                  className={`
+                            flex flex-nowrap flex-row gap-4 rounded-md
+                            items-center text-black-pearl dark:text-white
+                            bg-white dark:bg-dark-purple
+                          `}
+                >
+                  <StringIcon
+                    string={guess.rank === -1 ? 'X' : `${guess.rank}`}
+                    isEmpty={true}
+                  />
+                  <div>
+                    <p className="text-gray-700 dark:text-white font-base">
+                      {guess.text}
+                    </p>
+                    <p className="text-gray-700 dark:text-white font-base text-opacity-70">
+                      {guess.stat}
+                    </p>
+                  </div>
+                </div>
+              </Flipped>
+            );
+          })}
+        </Flipper>
       </div>
-      {/* Spacer */}
-      <div style={{ height: `${items.length * (itemHeight + 12)}px` }} />
     </div>
   );
 };

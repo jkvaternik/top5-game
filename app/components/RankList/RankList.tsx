@@ -42,19 +42,26 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
         }
     );
 
+  const sortedMinusLast = incorrectGuesses
+    .slice(0, incorrectGuesses.length - 1)
+    .sort((a, b) => a.rank - b.rank);
+
+  const sortedIncorrectGuesses =
+    incorrectGuesses.length > 0
+      ? [incorrectGuesses[incorrectGuesses.length - 1], ...sortedMinusLast]
+      : [];
+
+  console.log(
+    'Rank List incorrect guesses = ',
+    sortedIncorrectGuesses.map(i => i.text).join(', ')
+  );
+
   return (
     <>
       {gridView}
       <br></br>
       {incorrectGuesses.length > 0 ? (
-        <IncorrectRankList
-          newIncorrectGuess={
-            incorrectGuesses.slice(incorrectGuesses.length - 1)[0]
-          }
-          incorrectAnswers={incorrectGuesses
-            .slice(0, incorrectGuesses.length - 1)
-            .sort((a, b) => a.rank - b.rank)}
-        />
+        <IncorrectRankList incorrectAnswers={sortedIncorrectGuesses} />
       ) : null}
     </>
   );
