@@ -31,30 +31,38 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
     );
   });
 
-  const incorrectGuesses: RankedAnswer[] = guesses
-    .filter(guess => !answers.flatMap(a => a.text).includes(guess))
-    .map(
-      guess =>
-        options?.find(o => o.text.includes(guess)) ?? {
-          text: [guess],
-          stat: null,
-          rank: -1,
-        }
+  const answersInGuessOrder = guesses.map(
+    guess =>
+      options?.find(o => o.text.includes(guess)) ?? {
+        text: [guess],
+        stat: null,
+        rank: -1,
+      }
+  );
+
+  let mostRecentWasIncorrect = false;
+  if (guesses.length > 0) {
+    const mostRecentGuess = guesses[guesses.length - 1];
+    mostRecentWasIncorrect = !answers.find(a =>
+      a.text.includes(mostRecentGuess)
     );
+  }
+
+  const incorrectAnswers = answersInGuessOrder.filter(
+    answer => !answers.find(a => a.text.includes(answer.text[0]))
+  );
 
   return (
     <>
       {gridView}
-      <br></br>
-      {incorrectGuesses.length > 0 ? (
-        <IncorrectRankList
-          newIncorrectGuess={
-            incorrectGuesses.slice(incorrectGuesses.length - 1)[0]
-          }
-          incorrectAnswers={incorrectGuesses
-            .slice(0, incorrectGuesses.length - 1)
-            .sort((a, b) => a.rank - b.rank)}
-        />
+      {incorrectAnswers.length > 0 ? (
+        <>
+          <hr className="border-t-1 dark:border-gray-600 border-gray-400" />
+          <IncorrectRankList
+            incorrectAnswers={incorrectAnswers}
+            mostRecentWasIncorrect={mostRecentWasIncorrect}
+          />
+        </>
       ) : null}
     </>
   );
