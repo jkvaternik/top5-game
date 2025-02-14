@@ -7772,5 +7772,33 @@
       { "text": ["A Real Pain"], "stat": "2 nominations" }
     ],
     "url": "https://en.wikipedia.org/wiki/97th_Academy_Awards#Films_with_multiple_nominations"
+  },
+  "2025-02-15": {
+    "category": "American Idol alumni by album sales",
+    "answers": [
+      { "text": ["Carrie Underwood"], "stat": "16.4 million albums" },
+      { "text": ["Kelly Clarkson"], "stat": "14.2 million albums" },
+      { "text": ["Chris Daughtry"], "stat": "7.2 million albums" },
+      { "text": ["Clay Aiken"], "stat": "5.1 million albums" },
+      { "text": ["Fantasia Barrino"], "stat": "3.3 million albums" }
+    ],
+    "options": [
+      { "text": ["Ruben Studdard"], "stat": "2.6 million albums" },
+      { "text": ["Scotty McCreery"], "stat": "2.3 million albums" },
+      { "text": ["Kellie Pickler"], "stat": "1.6 million albums" },
+      { "text": ["David Cook"], "stat": "1.5 million albums" },
+      { "text": ["Phillip Phillips"], "stat": "1.5 million albums" },
+      { "text": ["Jennifer Hudson"], "stat": "1.4 million albums" },
+      { "text": ["Jordin Sparks"], "stat": "1.3 million albums" },
+      { "text": ["Adam Lambert"], "stat": "1.2 million albums" },
+      { "text": ["David Archuleta"], "stat": "1.2 million albums" },
+      { "text": ["Gabby Barrett"], "stat": "1.0 million albums" },
+      { "text": ["Mandisa"], "stat": "0.9 million albums" },
+      { "text": ["Josh Gracin"], "stat": "0.8 million albums" },
+      { "text": ["Taylor Hicks"], "stat": "0.8 million albums" },
+      { "text": ["Bo Bice"], "stat": "0.8 million albums" },
+      { "text": ["Elliott Yamin"], "stat": "0.7 million albums" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_American_Idol_alumni_album_sales"
   }
 }
