@@ -7880,5 +7880,38 @@
       { "text": ["Falkland Islands (UK)"], "stat": "4,700 square miles" }
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_South_American_countries_by_area"
+  },
+  "2025-02-19": {
+    "category": "U.S. cities by population in 1790",
+    "answers": [
+      { "text": ["New York, NY"], "stat": "33,131" },
+      { "text": ["Philadelphia, PA"], "stat": "28,522" },
+      { "text": ["Boston, MA"], "stat": "18,320" },
+      { "text": ["Charleston, SC"], "stat": "16,359" },
+      { "text": ["Baltimore, MD"], "stat": "13,503" }
+    ],
+    "options": [
+      { "text": ["Norwalk, CT"], "stat": "11,942" },
+      { "text": ["Northern Liberties, PA"], "stat": "9,913" },
+      { "text": ["Rensselaerswyck, NY"], "stat": "8,318" },
+      { "text": ["Salem, MA"], "stat": "7,921" },
+      { "text": ["Watervliet, NY"], "stat": "7,419" },
+      { "text": ["Ballston, NY"], "stat": "7,333" },
+      { "text": ["Stephentown, NY"], "stat": "6,795" },
+      { "text": ["Newport, RI"], "stat": "6,716" },
+      { "text": ["Canaan, NY"], "stat": "6,692" },
+      { "text": ["Providence, RI"], "stat": "6,380" },
+      { "text": ["Canajoharie, NY"], "stat": "6,156" },
+      { "text": ["Fishkill, NY"], "stat": "5,941" },
+      { "text": ["Frederickstown, NY"], "stat": "5,932" },
+      { "text": ["Marblehead, MA"], "stat": "5,661" },
+      { "text": ["Southwark, PA"], "stat": "5,661" },
+      { "text": ["Middletown, CT"], "stat": "5,375" },
+      { "text": ["Gloucester, MA"], "stat": "5,317" },
+      { "text": ["Amwell, NJ"], "stat": "5,201" },
+      { "text": ["Washington, NY"], "stat": "5,189" },
+      { "text": ["Cambridge, NY"], "stat": "4,996" }
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_most_populous_cities_in_the_United_States_by_decade"
   }
 }
