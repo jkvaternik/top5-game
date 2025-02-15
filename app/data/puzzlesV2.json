@@ -7833,5 +7833,30 @@
       { "text": ["$CHEEMS (Cheems - cheems.pet)"], "stat": "$185 million" }
     ],
     "url": "https://coinmarketcap.com/view/memes/"
+  },
+  "2025-02-17": {
+    "category": "U.S. Universities (U.S. News Rankings 2024)",
+    "answers": [
+      { "text": ["Princeton University"], "stat": "#1" },
+      { "text": ["Massachusetts Institute of Technology"], "stat": "#2" },
+      { "text": ["Harvard University"], "stat": "#3" },
+      { "text": ["Stanford University"], "stat": "#4" },
+      { "text": ["Yale University"], "stat": "#5" }
+    ],
+    "options": [
+      { "text": ["California Institute of Technology", "Duke University", "Johns Hopkins University", "Northwestern University"], "stat": "#6" },
+      { "text": ["University of Pennsylvania"], "stat": "#10" },
+      { "text": ["Cornell University", "University of Chicago"], "stat": "#11" },
+      { "text": ["Brown University", "Columbia University"], "stat": "#13" },
+      { "text": ["Dartmouth College", "University of California--Los Angeles"], "stat": "#15" },
+      { "text": ["University of California, Berkeley"], "stat": "#17" },
+      { "text": ["Rice University", "University of Notre Dame", "Vanderbilt University"], "stat": "#18" },
+      { "text": ["Carnegie Mellon University", "University of Michigan--Ann Arbor", "Washington University in St. Louis"], "stat": "#21" },
+      { "text": ["Emory University", "Georgetown University", "University of Virginia"], "stat": "#24" },
+      { "text": ["University of North Carolina--Chapel Hill", "University of Southern California"], "stat": "#27" },
+      { "text": ["University of California, San Diego"], "stat": "#29" },
+      { "text": ["New York University"], "stat": "#30" }
+    ],
+    "url": "https://www.usnews.com/best-colleges/rankings/national-universities?_sort=rank&_sortDirection=asc"
   }
 }
