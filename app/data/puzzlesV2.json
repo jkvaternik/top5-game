@@ -7913,5 +7913,21 @@
       { "text": ["Cambridge, NY"], "stat": "4,996" }
     ],
     "url": "https://en.m.wikipedia.org/wiki/List_of_most_populous_cities_in_the_United_States_by_decade"
+  },
+  "2025-02-20": {
+    "category": "Planets by longest day",
+    "answers": [
+      { "text": ["Venus"], "stat": "5,832 hours" },
+      { "text": ["Mercury"], "stat": "1,408 hours" },
+      { "text": ["Mars"], "stat": "25 hours" },
+      { "text": ["Earth"], "stat": "24 hours" },
+      { "text": ["Uranus"], "stat": "17 hours" }
+    ],
+    "options": [
+      { "text": ["Neptune"], "stat": "16 hours" },
+      { "text": ["Saturn"], "stat": "11 hours" },
+      { "text": ["Jupiter"], "stat": "10 hours" }
+    ],
+    "url": "https://spaceplace.nasa.gov/days/en/"
   }
 }
