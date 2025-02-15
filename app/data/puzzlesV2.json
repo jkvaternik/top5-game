@@ -7858,5 +7858,27 @@
       { "text": ["New York University"], "stat": "#30" }
     ],
     "url": "https://www.usnews.com/best-colleges/rankings/national-universities?_sort=rank&_sortDirection=asc"
+  },
+  "2025-02-18": {
+    "category": "South American countries by area",
+    "answers": [
+      { "text": ["Brazil"], "stat": "3,285,862 square miles" },
+      { "text": ["Argentina"], "stat": "1,079,706 square miles" },
+      { "text": ["Peru"], "stat": "496,224 square miles" },
+      { "text": ["Colombia"], "stat": "440,831 square miles" },
+      { "text": ["Bolivia"], "stat": "424,164 square miles" }
+    ],
+    "options": [
+      { "text": ["Venezuela"], "stat": "358,955 square miles" },
+      { "text": ["Chile"], "stat": "291,932 square miles" },
+      { "text": ["Paraguay"], "stat": "157,048 square miles" },
+      { "text": ["Ecuador"], "stat": "99,311 square miles" },
+      { "text": ["Guyana"], "stat": "83,000 square miles" },
+      { "text": ["Uruguay"], "stat": "67,037 square miles" },
+      { "text": ["Suriname"], "stat": "63,251 square miles" },
+      { "text": ["French Guiana (France)"], "stat": "32,253 square miles" },
+      { "text": ["Falkland Islands (UK)"], "stat": "4,700 square miles" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_South_American_countries_by_area"
   }
 }
