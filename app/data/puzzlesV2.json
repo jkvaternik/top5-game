@@ -7930,5 +7930,38 @@
       { "text": ["Jupiter"], "stat": "10 hours" }
     ],
     "url": "https://spaceplace.nasa.gov/days/en/"
+  },
+  "2025-02-21": {
+    "category": "Countries with the least fresh water per capita",
+    "answers": [
+      { "text": ["Bahrain"], "stat": "3 cubic meters" },
+      { "text": ["Egypt"], "stat": "9 cubic meters" },
+      { "text": ["United Arab Emirates"], "stat": "16 cubic meters" },
+      { "text": ["Qatar"], "stat": "20 cubic meters" },
+      { "text": ["Yemen"], "stat": "58 cubic meters" }
+    ],
+    "options": [
+      { "text": ["Maldives"], "stat": "60 cubic meters" },
+      { "text": ["Jordan"], "stat": "63 cubic meters" },
+      { "text": ["Saudi Arabia"], "stat": "77 cubic meters" },
+      { "text": ["Israel", "Sudan"], "stat": "85 cubic meters" },
+      { "text": ["Mauritania"], "stat": "87 cubic meters" },
+      { "text": ["Malta"], "stat": "97 cubic meters" },
+      { "text": ["Libya"], "stat": "99 cubic meters" },
+      { "text": ["Singapore"], "stat": "107 cubic meters" },
+      { "text": ["Niger"], "stat": "148 cubic meters" },
+      { "text": ["Palestine"], "stat": "160 cubic meters" },
+      { "text": ["Turkmenistan"], "stat": "202 cubic meters" },
+      { "text": ["Pakistan"], "stat": "234 cubic meters" },
+      { "text": ["Algeria"], "stat": "255 cubic meters" },
+      { "text": ["Djibouti"], "stat": "271 cubic meters" },
+      { "text": ["Barbados"], "stat": "284 cubic meters" },
+      { "text": ["Oman"], "stat": "310 cubic meters" },
+      { "text": ["Syria"], "stat": "339 cubic meters" },
+      { "text": ["Tunisia"], "stat": "350 cubic meters" },
+      { "text": ["Somalia"], "stat": "360 cubic meters" }
+    ],
+    "url": "https://worldpopulationreview.com/country-rankings/fresh-water-by-country",
+    "submitter": "Matt"
   }
 }
