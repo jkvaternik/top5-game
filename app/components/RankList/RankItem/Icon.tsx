@@ -88,7 +88,7 @@ export function StringIcon({
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600`}
+          className={`flex items-center justify-center rounded-md border-2 border-solid border-gray-500 text-gray-500 dark:border-white text-white`}
         >
           {string}
         </div>
