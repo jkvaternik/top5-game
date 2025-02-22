@@ -7963,5 +7963,33 @@
     ],
     "url": "https://worldpopulationreview.com/country-rankings/fresh-water-by-country",
     "submitter": "Matt"
+  },
+  "2025-02-22": {
+    "category": "Banana exporters by country",
+    "answers": [
+      { "text": ["Ecuador"], "stat": "$4.51 billion" },
+      { "text": ["Costa Rica"], "stat": "$1.74 billion" },
+      { "text": ["Guatemala"], "stat": "$1.55 billion" },
+      { "text": ["Philippines"], "stat": "$1.52 billion" },
+      { "text": ["Colombia"], "stat": "$1.30 billion" }
+    ],
+    "options": [
+      { "text": ["Cote d'Ivoire"], "stat": "$381.8 million" },
+      { "text": ["Netherlands"], "stat": "$380.1 million" },
+      { "text": ["Belgium"], "stat": "$353.7 million" },
+      { "text": ["Mexico"], "stat": "$332.7 million" },
+      { "text": ["Honduras"], "stat": "$301.9 million" },
+      { "text": ["Dominican Republic"], "stat": "$285.8 million" },
+      { "text": ["Vietnam"], "stat": "$276.1 million" },
+      { "text": ["Panama"], "stat": "$272.8 million" },
+      { "text": ["Germany"], "stat": "$249.7 million" },
+      { "text": ["Spain"], "stat": "$249.0 million" },
+      { "text": ["India"], "stat": "$221.7 million" },
+      { "text": ["Cambodia"], "stat": "$191.2 million" },
+      { "text": ["Burma"], "stat": "$161.8 million" },
+      { "text": ["Peru"], "stat": "$143.7 million" },
+      { "text": ["Cameroon"], "stat": "$139.8 million" }
+    ],
+    "url": "https://oec.world/en/profile/hs/bananas"
   }
 }
