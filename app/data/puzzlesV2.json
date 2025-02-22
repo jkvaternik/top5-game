@@ -7991,5 +7991,38 @@
       { "text": ["Cameroon"], "stat": "$139.8 million" }
     ],
     "url": "https://oec.world/en/profile/hs/bananas"
+  },
+  "2025-02-23": {
+    "category": "Largest European countries by area",
+    "answers": [
+      { "text": ["Russia"], "stat": "3,952,550 sq km" },
+      { "text": ["Ukraine"], "stat": "603,549 sq km" },
+      { "text": ["France"], "stat": "543,941 sq km" },
+      { "text": ["Spain"], "stat": "498,485 sq km" },
+      { "text": ["Sweden"], "stat": "438,574 sq km" }
+    ],
+    "options": [
+      { "text": ["Germany"], "stat": "357,581 sq km" },
+      { "text": ["Finland"], "stat": "336,884 sq km" },
+      { "text": ["Norway"], "stat": "323,772 sq km" },
+      { "text": ["Poland"], "stat": "312,679 sq km" },
+      { "text": ["Italy"], "stat": "301,958 sq km" },
+      { "text": ["United Kingdom"], "stat": "244,381 sq km" },
+      { "text": ["Romania"], "stat": "238,298 sq km" },
+      { "text": ["Belarus"], "stat": "207,600 sq km" },
+      { "text": ["Kazakhstan"], "stat": "148,000 sq km" },
+      { "text": ["Greece"], "stat": "131,957 sq km" },
+      { "text": ["Bulgaria"], "stat": "110,372 sq km" },
+      { "text": ["Iceland"], "stat": "103,000 sq km" },
+      { "text": ["Hungary"], "stat": "93,025 sq km" },
+      { "text": ["Portugal"], "stat": "92,230 sq km" },
+      { "text": ["Austria"], "stat": "83,878 sq km" },
+      { "text": ["Czech Republic"], "stat": "78,871 sq km" },
+      { "text": ["Serbia"], "stat": "77,589 sq km" },
+      { "text": ["Ireland"], "stat": "69,825 sq km" },
+      { "text": ["Lithuania"], "stat": "65,286 sq km" },
+      { "text": ["Latvia"], "stat": "64,594 sq km" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_European_countries_by_area#List_of_European_countries_and_dependencies_by_area"
   }
 }
