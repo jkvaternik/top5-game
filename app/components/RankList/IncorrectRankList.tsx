@@ -14,6 +14,7 @@ const IncorrectRankList = ({
   incorrectAnswers,
   mostRecentWasIncorrect,
 }: Props) => {
+  // useRef to persist state
   const isFirstRender = useRef(true);
   const prevIncorrectAnswers = useRef(incorrectAnswers);
 
@@ -33,6 +34,7 @@ const IncorrectRankList = ({
 
   const [sortedItems, setSortedItems] = useState(items);
 
+  // Handle sorting animation when incorrect answers change
   useEffect(() => {
     const answersChanged =
       prevIncorrectAnswers.current.length !== incorrectAnswers.length;
