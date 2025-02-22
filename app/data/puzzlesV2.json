@@ -7654,7 +7654,7 @@
       { "text": ["Roast Beef"], "stat": "178 severity index" },
       { "text": ["Ham"], "stat": "57 severity index" },
       { "text": ["Sausage"], "stat": "56 severity index" },
-      { "text": ["Chicken Nuggest"], "stat": "18 severity index" }
+      { "text": ["Chicken Nuggets"], "stat": "18 severity index" }
     ],
     "url": "https://www.cspinet.org/eating-healthy/avoiding-foodborne-illness/risky-meat"
   },
@@ -7772,5 +7772,224 @@
       { "text": ["A Real Pain"], "stat": "2 nominations" }
     ],
     "url": "https://en.wikipedia.org/wiki/97th_Academy_Awards#Films_with_multiple_nominations"
+  },
+  "2025-02-15": {
+    "category": "American Idol alumni by album sales",
+    "answers": [
+      { "text": ["Carrie Underwood"], "stat": "16.4 million albums" },
+      { "text": ["Kelly Clarkson"], "stat": "14.2 million albums" },
+      { "text": ["Chris Daughtry"], "stat": "7.2 million albums" },
+      { "text": ["Clay Aiken"], "stat": "5.1 million albums" },
+      { "text": ["Fantasia Barrino"], "stat": "3.3 million albums" }
+    ],
+    "options": [
+      { "text": ["Ruben Studdard"], "stat": "2.6 million albums" },
+      { "text": ["Scotty McCreery"], "stat": "2.3 million albums" },
+      { "text": ["Kellie Pickler"], "stat": "1.6 million albums" },
+      { "text": ["David Cook"], "stat": "1.5 million albums" },
+      { "text": ["Phillip Phillips"], "stat": "1.5 million albums" },
+      { "text": ["Jennifer Hudson"], "stat": "1.4 million albums" },
+      { "text": ["Jordin Sparks"], "stat": "1.3 million albums" },
+      { "text": ["Adam Lambert"], "stat": "1.2 million albums" },
+      { "text": ["David Archuleta"], "stat": "1.2 million albums" },
+      { "text": ["Gabby Barrett"], "stat": "1.0 million albums" },
+      { "text": ["Mandisa"], "stat": "0.9 million albums" },
+      { "text": ["Josh Gracin"], "stat": "0.8 million albums" },
+      { "text": ["Taylor Hicks"], "stat": "0.8 million albums" },
+      { "text": ["Bo Bice"], "stat": "0.8 million albums" },
+      { "text": ["Elliott Yamin"], "stat": "0.7 million albums" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_American_Idol_alumni_album_sales",
+    "submitter": "Jackie Walsh"
+  },
+  "2025-02-16": {
+    "category": "Meme coins by market capitalization",
+    "answers": [
+      { "text": ["$DOGE (Dogecoin)"], "stat": "$40.1 billion" },
+      { "text": ["$SHIB (Shiba Inu)"], "stat": "$9.7 billion" },
+      { "text": ["$PEPE (Pepe)"], "stat": "$4.2 billion" },
+      { "text": ["$TRUMP (OFFICIAL TRUMP)"], "stat": "$3.7 billion" },
+      { "text": ["$BONK (Bonk)"], "stat": "$1.4 billion" }
+    ],
+    "options": [
+      { "text": ["$FLOKI (FLOKI)"], "stat": "$928 million" },
+      { "text": ["$SPX (SPX6900)"], "stat": "$700 million" },
+      { "text": ["$WIF (dogwifhat)"], "stat": "$684 million" },
+      { "text": ["$MELANIA (Official Melania Meme)"], "stat": "$644 million" },
+      { "text": ["$PENGU (Pudgy Penguins)"], "stat": "$625 million" },
+      { "text": ["$AI16Z (ai16z)"], "stat": "$465 million" },
+      { "text": ["$BRETT (Brett - Based)"], "stat": "$451 million" },
+      { "text": ["$FARTCOIN (Fartcoin)"], "stat": "$431 million" },
+      { "text": ["$SNEK (Snek)"], "stat": "$358 million" },
+      { "text": ["$MOG (Mog Coin)"], "stat": "$311 million" },
+      { "text": ["$NOT (Notcoin)"], "stat": "$305 million" },
+      { "text": ["$DOG (Dog - Bitcoin)"], "stat": "$287 million" },
+      { "text": ["$POPCAT (Popcat - SOL)"], "stat": "$287 million" },
+      { "text": ["$GIGA (Gigachad)"], "stat": "$286 million" },
+      { "text": ["$TOSHI (Toshi)"], "stat": "$281 million" },
+      { "text": ["$BabyDoge (Baby Doge Coin)"], "stat": "$272 million" },
+      { "text": ["$MEW (cat in a dogs world)"], "stat": "$270 million" },
+      { "text": ["$TURBO (Turbo)"], "stat": "$252 million" },
+      { "text": ["$AIC (AI Companions)"], "stat": "$247 million" },
+      { "text": ["$CHEEMS (Cheems - cheems.pet)"], "stat": "$185 million" }
+    ],
+    "url": "https://coinmarketcap.com/view/memes/"
+  },
+  "2025-02-17": {
+    "category": "U.S. Universities (U.S. News Rankings 2024)",
+    "answers": [
+      { "text": ["Princeton University"], "stat": "#1" },
+      { "text": ["Massachusetts Institute of Technology"], "stat": "#2" },
+      { "text": ["Harvard University"], "stat": "#3" },
+      { "text": ["Stanford University"], "stat": "#4" },
+      { "text": ["Yale University"], "stat": "#5" }
+    ],
+    "options": [
+      { "text": ["California Institute of Technology", "Duke University", "Johns Hopkins University", "Northwestern University"], "stat": "#6" },
+      { "text": ["University of Pennsylvania"], "stat": "#10" },
+      { "text": ["Cornell University", "University of Chicago"], "stat": "#11" },
+      { "text": ["Brown University", "Columbia University"], "stat": "#13" },
+      { "text": ["Dartmouth College", "University of California--Los Angeles"], "stat": "#15" },
+      { "text": ["University of California, Berkeley"], "stat": "#17" },
+      { "text": ["Rice University", "University of Notre Dame", "Vanderbilt University"], "stat": "#18" },
+      { "text": ["Carnegie Mellon University", "University of Michigan--Ann Arbor", "Washington University in St. Louis"], "stat": "#21" },
+      { "text": ["Emory University", "Georgetown University", "University of Virginia"], "stat": "#24" },
+      { "text": ["University of North Carolina--Chapel Hill", "University of Southern California"], "stat": "#27" },
+      { "text": ["University of California, San Diego"], "stat": "#29" },
+      { "text": ["New York University"], "stat": "#30" }
+    ],
+    "url": "https://www.usnews.com/best-colleges/rankings/national-universities?_sort=rank&_sortDirection=asc"
+  },
+  "2025-02-18": {
+    "category": "South American countries by area",
+    "answers": [
+      { "text": ["Brazil"], "stat": "3,285,862 square miles" },
+      { "text": ["Argentina"], "stat": "1,079,706 square miles" },
+      { "text": ["Peru"], "stat": "496,224 square miles" },
+      { "text": ["Colombia"], "stat": "440,831 square miles" },
+      { "text": ["Bolivia"], "stat": "424,164 square miles" }
+    ],
+    "options": [
+      { "text": ["Venezuela"], "stat": "358,955 square miles" },
+      { "text": ["Chile"], "stat": "291,932 square miles" },
+      { "text": ["Paraguay"], "stat": "157,048 square miles" },
+      { "text": ["Ecuador"], "stat": "99,311 square miles" },
+      { "text": ["Guyana"], "stat": "83,000 square miles" },
+      { "text": ["Uruguay"], "stat": "67,037 square miles" },
+      { "text": ["Suriname"], "stat": "63,251 square miles" },
+      { "text": ["French Guiana (France)"], "stat": "32,253 square miles" },
+      { "text": ["Falkland Islands (UK)"], "stat": "4,700 square miles" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_South_American_countries_by_area"
+  },
+  "2025-02-19": {
+    "category": "U.S. cities by population in 1790",
+    "answers": [
+      { "text": ["New York, NY"], "stat": "33,131" },
+      { "text": ["Philadelphia, PA"], "stat": "28,522" },
+      { "text": ["Boston, MA"], "stat": "18,320" },
+      { "text": ["Charleston, SC"], "stat": "16,359" },
+      { "text": ["Baltimore, MD"], "stat": "13,503" }
+    ],
+    "options": [
+      { "text": ["Norwalk, CT"], "stat": "11,942" },
+      { "text": ["Northern Liberties, PA"], "stat": "9,913" },
+      { "text": ["Rensselaerswyck, NY"], "stat": "8,318" },
+      { "text": ["Salem, MA"], "stat": "7,921" },
+      { "text": ["Watervliet, NY"], "stat": "7,419" },
+      { "text": ["Ballston, NY"], "stat": "7,333" },
+      { "text": ["Stephentown, NY"], "stat": "6,795" },
+      { "text": ["Newport, RI"], "stat": "6,716" },
+      { "text": ["Canaan, NY"], "stat": "6,692" },
+      { "text": ["Providence, RI"], "stat": "6,380" },
+      { "text": ["Canajoharie, NY"], "stat": "6,156" },
+      { "text": ["Fishkill, NY"], "stat": "5,941" },
+      { "text": ["Frederickstown, NY"], "stat": "5,932" },
+      { "text": ["Marblehead, MA"], "stat": "5,661" },
+      { "text": ["Southwark, PA"], "stat": "5,661" },
+      { "text": ["Middletown, CT"], "stat": "5,375" },
+      { "text": ["Gloucester, MA"], "stat": "5,317" },
+      { "text": ["Amwell, NJ"], "stat": "5,201" },
+      { "text": ["Washington, NY"], "stat": "5,189" },
+      { "text": ["Cambridge, NY"], "stat": "4,996" }
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_most_populous_cities_in_the_United_States_by_decade"
+  },
+  "2025-02-20": {
+    "category": "Planets by longest day",
+    "answers": [
+      { "text": ["Venus"], "stat": "5,832 hours" },
+      { "text": ["Mercury"], "stat": "1,408 hours" },
+      { "text": ["Mars"], "stat": "25 hours" },
+      { "text": ["Earth"], "stat": "24 hours" },
+      { "text": ["Uranus"], "stat": "17 hours" }
+    ],
+    "options": [
+      { "text": ["Neptune"], "stat": "16 hours" },
+      { "text": ["Saturn"], "stat": "11 hours" },
+      { "text": ["Jupiter"], "stat": "10 hours" }
+    ],
+    "url": "https://spaceplace.nasa.gov/days/en/"
+  },
+  "2025-02-21": {
+    "category": "Countries with the least fresh water per capita",
+    "answers": [
+      { "text": ["Bahrain"], "stat": "3 cubic meters" },
+      { "text": ["Egypt"], "stat": "9 cubic meters" },
+      { "text": ["United Arab Emirates"], "stat": "16 cubic meters" },
+      { "text": ["Qatar"], "stat": "20 cubic meters" },
+      { "text": ["Yemen"], "stat": "58 cubic meters" }
+    ],
+    "options": [
+      { "text": ["Maldives"], "stat": "60 cubic meters" },
+      { "text": ["Jordan"], "stat": "63 cubic meters" },
+      { "text": ["Saudi Arabia"], "stat": "77 cubic meters" },
+      { "text": ["Israel", "Sudan"], "stat": "85 cubic meters" },
+      { "text": ["Mauritania"], "stat": "87 cubic meters" },
+      { "text": ["Malta"], "stat": "97 cubic meters" },
+      { "text": ["Libya"], "stat": "99 cubic meters" },
+      { "text": ["Singapore"], "stat": "107 cubic meters" },
+      { "text": ["Niger"], "stat": "148 cubic meters" },
+      { "text": ["Palestine"], "stat": "160 cubic meters" },
+      { "text": ["Turkmenistan"], "stat": "202 cubic meters" },
+      { "text": ["Pakistan"], "stat": "234 cubic meters" },
+      { "text": ["Algeria"], "stat": "255 cubic meters" },
+      { "text": ["Djibouti"], "stat": "271 cubic meters" },
+      { "text": ["Barbados"], "stat": "284 cubic meters" },
+      { "text": ["Oman"], "stat": "310 cubic meters" },
+      { "text": ["Syria"], "stat": "339 cubic meters" },
+      { "text": ["Tunisia"], "stat": "350 cubic meters" },
+      { "text": ["Somalia"], "stat": "360 cubic meters" }
+    ],
+    "url": "https://worldpopulationreview.com/country-rankings/fresh-water-by-country",
+    "submitter": "Matt"
+  },
+  "2025-02-22": {
+    "category": "Banana exporters by country",
+    "answers": [
+      { "text": ["Ecuador"], "stat": "$4.51 billion" },
+      { "text": ["Costa Rica"], "stat": "$1.74 billion" },
+      { "text": ["Guatemala"], "stat": "$1.55 billion" },
+      { "text": ["Philippines"], "stat": "$1.52 billion" },
+      { "text": ["Colombia"], "stat": "$1.30 billion" }
+    ],
+    "options": [
+      { "text": ["Cote d'Ivoire"], "stat": "$381.8 million" },
+      { "text": ["Netherlands"], "stat": "$380.1 million" },
+      { "text": ["Belgium"], "stat": "$353.7 million" },
+      { "text": ["Mexico"], "stat": "$332.7 million" },
+      { "text": ["Honduras"], "stat": "$301.9 million" },
+      { "text": ["Dominican Republic"], "stat": "$285.8 million" },
+      { "text": ["Vietnam"], "stat": "$276.1 million" },
+      { "text": ["Panama"], "stat": "$272.8 million" },
+      { "text": ["Germany"], "stat": "$249.7 million" },
+      { "text": ["Spain"], "stat": "$249.0 million" },
+      { "text": ["India"], "stat": "$221.7 million" },
+      { "text": ["Cambodia"], "stat": "$191.2 million" },
+      { "text": ["Burma"], "stat": "$161.8 million" },
+      { "text": ["Peru"], "stat": "$143.7 million" },
+      { "text": ["Cameroon"], "stat": "$139.8 million" }
+    ],
+    "url": "https://oec.world/en/profile/hs/bananas"
   }
 }
