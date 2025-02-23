@@ -28,7 +28,7 @@ export function NumberIcon({
   return (
     <div className={`h-12 w-12 shrink-0`}>
       <div
-        className={`flex items-center justify-center text-white font-bold text-xl sm:text-base rounded-md`}
+        className={`flex items-center justify-center text-white font-bold  sm:text-base md:text-xl rounded-md`}
         style={{
           position: 'relative',
           width: '100%',
@@ -41,14 +41,14 @@ export function NumberIcon({
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600 text-lg`}
+          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600 sm:text-base md:text-xl`}
         >
           {number + 1}
         </div>
         <div
           id="flip-back"
           style={{ ...styles, transform: 'rotateX(180deg)' }}
-          className={`flex items-center justify-center rounded-md ${getColor()} text-lg`}
+          className={`flex items-center justify-center rounded-md ${getColor()} sm:text-base md:text-xl`}
         >
           {number + 1}
         </div>
@@ -75,7 +75,7 @@ export function StringIcon({
   return (
     <div className={`h-12 w-12 shrink-0`}>
       <div
-        className={`flex items-center justify-center text-white font-bold text-xl sm:text-base rounded-md`}
+        className={`flex items-center justify-center text-white font-bold sm:text-base md:text-xl rounded-md`}
         style={{
           position: 'relative',
           width: '100%',
@@ -88,7 +88,7 @@ export function StringIcon({
         <div
           id="flip-front"
           style={styles}
-          className={`flex items-center justify-center rounded-md bg-gray-400 dark:bg-gray-600`}
+          className={`flex items-center justify-center rounded-md border-2 border-solid border-gray-500 text-gray-500 dark:border-gray-200 dark:text-gray-200`}
         >
           {string}
         </div>

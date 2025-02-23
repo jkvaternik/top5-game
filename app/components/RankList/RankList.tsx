@@ -1,5 +1,6 @@
 import { Answer, RankedAnswer } from '../../hooks/useDailyPuzzle';
-import { IncorrectRankItem, RankItem } from './RankItem/RankItem';
+import IncorrectRankList from './IncorrectRankList';
+import { RankItem } from './RankItem/RankItem';
 
 interface Props {
   guesses: string[];
@@ -30,32 +31,37 @@ const RankList = ({ guesses, answers, options, isGameOver }: Props) => {
     );
   });
 
-  const incorrectView = guesses
-    .filter(guess => !answers.flatMap(a => a.text).includes(guess))
-    .map((guess, i) => {
-      const indexOfGuess =
-        options?.find(o => o.text.includes(guess))?.rank ?? -1;
-      return (
-        <IncorrectRankItem
-          key={i}
-          guess={guess}
-          index={indexOfGuess}
-          stat={options?.find(o => o.text.includes(guess))?.stat || ''}
-          isCorrectOrGameOver={false}
-        />
-      );
-    })
-    .reverse();
+  const answersInGuessOrder = guesses.map(
+    guess =>
+      options?.find(o => o.text.includes(guess)) ?? {
+        text: [guess],
+        stat: null,
+        rank: -1,
+      }
+  );
+
+  let mostRecentWasIncorrect = false;
+  if (guesses.length > 0) {
+    const mostRecentGuess = guesses[guesses.length - 1];
+    mostRecentWasIncorrect = !answers.find(a =>
+      a.text.includes(mostRecentGuess)
+    );
+  }
+
+  const incorrectAnswers = answersInGuessOrder.filter(
+    answer => !answers.find(a => a.text.includes(answer.text[0]))
+  );
 
   return (
     <>
       {gridView}
-      {incorrectView.length > 0 ? (
+      {incorrectAnswers.length > 0 ? (
         <>
           <br></br>
-          <div className="flex flex-row gap-3 text-nowrap items-end w-full overflow-scroll animate-fadeIn mb-12">
-            {incorrectView}
-          </div>
+          <IncorrectRankList
+            incorrectAnswers={incorrectAnswers}
+            mostRecentWasIncorrect={mostRecentWasIncorrect}
+          />
         </>
       ) : null}
     </>
