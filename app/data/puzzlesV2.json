@@ -8028,28 +8028,28 @@
   "2025-02-24": {
     "category": "Most streamed albums on Spotify",
     "answers": [
-      { "text": ["Un Verano Sin Ti", "Bad Bunny"], "stat": "18.7 billion streams" },
-      { "text": ["Starboy", "The Weeknd"], "stat": "16.2 billion streams" },
-      { "text": ["Divide", "Ed Sheeran"], "stat": "16.0 billion streams" },
-      { "text": ["Sour", "Olivia Rodrigo"], "stat": "14.3 billion streams" },
-      { "text": ["After Hours", "The Weeknd"], "stat": "13.9 billion streams" }
+      { "text": ["Un Verano Sin Ti by Bad Bunny"], "stat": "18.7 billion streams" },
+      { "text": ["Starboy by The Weeknd"], "stat": "16.2 billion streams" },
+      { "text": ["Divide by Ed Sheeran"], "stat": "16.0 billion streams" },
+      { "text": ["Sour by Olivia Rodrigo"], "stat": "14.3 billion streams" },
+      { "text": ["After Hours by The Weeknd"], "stat": "13.9 billion streams" }
     ],
     "options": [
-      { "text": ["Hollywood's Bleeding", "Post Malone"], "stat": "13.8 billion streams" },
-      { "text": ["Future Nostalgia", "Dua Lipa"], "stat": "13.4 billion streams" },
-      { "text": ["Dua Lipa", "Dua Lipa"], "stat": "13.4 billion streams" },
-      { "text": ["Beerbongs & Bentleys", "Post Malone"], "stat": "12.3 billion streams" },
-      { "text": ["Lover", "Taylor Swift"], "stat": "12.2 billion streams" },
-      { "text": ["SOS", "SZA"], "stat": "12.2 billion streams" },
-      { "text": ["When We All Fall Asleep, Where Do We Go?", "Billie Eilish"], "stat": "12.1 billion streams" },
-      { "text": ["?", "XXXTentacion"], "stat": "11.7 billion streams" },
-      { "text": ["Multiply", "Ed Sheeran"], "stat": "11.4 billion streams" },
-      { "text": ["AM", "Arctic Monkeys"], "stat": "11.4 billion streams" },
-      { "text": ["Purpose", "Justin Bieber"], "stat": "11.1 billion streams" },
-      { "text": ["Scorpion", "Drake"], "stat": "10.7 billion streams" },
-      { "text": ["Don't Smile At Me", "Billie Eilish"], "stat": "10.7 billion streams" },
-      { "text": ["YHLQMDLG", "Bad Bunny"], "stat": "10.7 billion streams" },
-      { "text": ["Views", "Drake"], "stat": "10.5 billion streams" }
+      { "text": ["Hollywood's Bleeding by Post Malone"], "stat": "13.8 billion streams" },
+      { "text": ["Future Nostalgia by Dua Lipa"], "stat": "13.4 billion streams" },
+      { "text": ["Dua Lipa by Dua Lipa"], "stat": "13.4 billion streams" },
+      { "text": ["Beerbongs & Bentleys by Post Malone"], "stat": "12.3 billion streams" },
+      { "text": ["Lover by Taylor Swift"], "stat": "12.2 billion streams" },
+      { "text": ["SOS by SZA"], "stat": "12.2 billion streams" },
+      { "text": ["When We All Fall Asleep, Where Do We Go? by Billie Eilish"], "stat": "12.1 billion streams" },
+      { "text": ["? by XXXTentacion"], "stat": "11.7 billion streams" },
+      { "text": ["Multiply by Ed Sheeran"], "stat": "11.4 billion streams" },
+      { "text": ["AM by Arctic Monkeys"], "stat": "11.4 billion streams" },
+      { "text": ["Purpose by Justin Bieber"], "stat": "11.1 billion streams" },
+      { "text": ["Scorpion by Drake"], "stat": "10.7 billion streams" },
+      { "text": ["Don't Smile At Me by Billie Eilish"], "stat": "10.7 billion streams" },
+      { "text": ["YHLQMDLG by Bad Bunny"], "stat": "10.7 billion streams" },
+      { "text": ["Views by Drake"], "stat": "10.5 billion streams" }
     ],
     "url": "https://chartmasters.org/spotify-most-streamed-albums/"
   },
