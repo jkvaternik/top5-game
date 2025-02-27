@@ -8178,5 +8178,39 @@
       { "text": ["Belgium"], "stat": "1 laureate" }
     ],
     "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_in_Physics#Number_of_Nobel_laureates_in_Physics_by_country"
+  },
+  "2025-02-28": {
+    "category": "Most abundant elements in the Earth's crust",
+    "answers": [
+      { "text": ["Oxygen"], "stat": "46.1%" },
+      { "text": ["Silicon"], "stat": "28.2%" },
+      { "text": ["Aluminium"], "stat": "8.23%" },
+      { "text": ["Iron"], "stat": "5.63%" },
+      { "text": ["Calcium"], "stat": "4.15%" }
+    ],
+    "options": [
+      { "text": ["Sodium"], "stat": "2.36%" },
+      { "text": ["Magnesium"], "stat": "2.33%" },
+      { "text": ["Potassium"], "stat": "2.09%" },
+      { "text": ["Titanium"], "stat": "0.565%" },
+      { "text": ["Hydrogen"], "stat": "0.14%" },
+      { "text": ["Phosphorus"], "stat": "0.105%" },
+      { "text": ["Manganese"], "stat": "0.095%" },
+      { "text": ["Fluorine"], "stat": "0.0585%" },
+      { "text": ["Barium"], "stat": "0.0425%" },
+      { "text": ["Strontium"], "stat": "0.037%" },
+      { "text": ["Sulfur"], "stat": "0.035%" },
+      { "text": ["Carbon"], "stat": "0.02%" },
+      { "text": ["Zirconium"], "stat": "0.0165%" },
+      { "text": ["Chlorine"], "stat": "0.0145%" },
+      { "text": ["Vanadium"], "stat": "0.012%" },
+      { "text": ["Chromium"], "stat": "0.0102%" },
+      { "text": ["Rubidium"], "stat": "0.009%" },
+      { "text": ["Nickel"], "stat": "0.0084%" },
+      { "text": ["Zinc"], "stat": "0.007%" },
+      { "text": ["Cerium"], "stat": "0.00665%" },
+      { "text": ["Copper"], "stat": "0.006%" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust#List_of_abundance_by_element"
   }
 }
