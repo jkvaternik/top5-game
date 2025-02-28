@@ -8212,5 +8212,31 @@
       { "text": ["Copper"], "stat": "0.006%" }
     ],
     "url": "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust#List_of_abundance_by_element"
-  }
+  },
+  "2025-03-01":
+{
+    "category": "Oscar hosts by number of ceremonies hosted",
+    "answers": [
+        {"text": ["Bob Hope"], "stat": "19 ceremonies"},
+        {"text": ["Billy Crystal"], "stat": "9 ceremonies"},
+        {"text": ["Johnny Carson"], "stat": "5 ceremonies"},
+        {"text": ["Whoopi Goldberg"], "stat": "4 ceremonies"},
+        {"text": ["Jimmy Kimmel", "Jack Lemmon", "Jerry Lewis", "Steve Martin", "Conrad Nagel", "David Niven"], "stat": "3 ceremonies"}
+    ],
+    "options": [
+        {"text": ["Jack Benny"], "stat": "2 ceremonies"},
+        {"text": ["Chevy Chase"], "stat": "2 ceremonies"},
+        {"text": ["Sammy Davis Jr."], "stat": "2 ceremonies"},
+        {"text": ["Ellen DeGeneres"], "stat": "2 ceremonies"},
+        {"text": ["Jane Fonda"], "stat": "2 ceremonies"},
+        {"text": ["Goldie Hawn"], "stat": "2 ceremonies"},
+        {"text": ["Walter Matthau"], "stat": "2 ceremonies"},
+        {"text": ["Richard Pryor"], "stat": "2 ceremonies"},
+        {"text": ["Chris Rock"], "stat": "2 ceremonies"},
+        {"text": ["Frank Sinatra"], "stat": "2 ceremonies"},
+        {"text": ["James Stewart"], "stat": "2 ceremonies"},
+        {"text": ["Jon Stewart"], "stat": "2 ceremonies"}
+    ],
+    "url": "https://en.m.wikipedia.org/wiki/List_of_Academy_Awards_ceremonies"
+}
 }
