@@ -2,6 +2,7 @@
 
 import React, { Suspense } from 'react';
 import { useEffect, useState } from 'react';
+import Script from 'next/script';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSearchParams } from 'next/navigation';
 
@@ -43,6 +44,11 @@ export default function Home() {
           onClose={() => setShowInstructionsModal(false)}
         />
       )}
+      <Script
+        src="https://umami.zachwal.sh/script.js"
+        data-website-id="64aba0b2-61d2-43cf-9368-94c909d3ba06"
+        strategy="afterInteractive"
+      />
     </main>
   );
 }
