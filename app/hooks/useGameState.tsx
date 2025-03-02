@@ -57,26 +57,24 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
       }
     }
 
+    const eventName = isCorrect ? 'Correct Guess' : 'Incorrect Guess';
+    emitEvent(eventName, { date: puzzleDate });
+
     return isCorrect;
   };
 
   useEffect(() => {
+    if (!puzzleDate) {
+      // prevent double-firing
+      return;
+    }
+
     if (gameOver && lives === 0) {
       emitEvent('Game Lost', { date: puzzleDate });
     } else if (gameOver && correctGuesses === 5) {
       emitEvent('Game Won', { date: puzzleDate });
     }
   }, [gameOver, puzzleDate]);
-
-  useEffect(() => {
-    if (guesses.length === 0) {
-      return;
-    }
-    const lastGuess = guesses[guesses.length - 1];
-    const isLastGuessCorrect = isCorrect(lastGuess, puzzle);
-    const eventName = isLastGuessCorrect ? 'Correct Guess' : 'Incorrect Guess';
-    emitEvent(eventName, { date: puzzleDate });
-  }, [guesses]);
 
   return { guesses, setGuesses, lives, gameOver, handleGuess, correctGuesses };
 }
