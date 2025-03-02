@@ -8316,8 +8316,7 @@
     ],
     "url": "https://oec.world/en/profile/hs/tea"
   },
-  "2025-03-04": {},
-  "2025-03-05": {
+  "2025-03-04": {
     "category": "Largest companies in the U.S. by revenue in 1956",
     "answers": [
       { "text": ["General Motors"], "stat": "$12.44 billion" },
@@ -8356,5 +8355,38 @@
       { "text": ["Boeing"], "stat": "$854 million" }
     ],
     "url": "https://money.cnn.com/magazines/fortune/fortune500_archive/full/1956/"
+  },
+  "2025-03-05": {
+    "category": "Current Billboard Hot 100 Songs",
+    "answers": [
+      { "text": ["Luther (Kendrick Lamar & SZA)"], "stat": "1" },
+      { "text": ["Not Like Us (Kendrick Lamar)"], "stat": "2" },
+      { "text": ["Die With A Smile (Lady Gaga & Bruno Mars)"], "stat": "3" },
+      { "text": ["TV Off (Kendrick Lamar Featuring Lefty Gunplay)"], "stat": "4" },
+      { "text": ["Squabble Up (Kendrick Lamar)"], "stat": "5" }
+    ],
+    "options": [
+      { "text": ["Gimme A Hug (Drake)"], "stat": "6" },
+      { "text": ["APT. (ROSE & Bruno Mars)"], "stat": "7" },
+      { "text": ["Birds Of A Feather (Billie Eilish)"], "stat": "8" },
+      { "text": ["A Bar Song (Tipsy) (Shaboozey)"], "stat": "9" },
+      { "text": ["Nokia (Drake)"], "stat": "10" },
+      { "text": ["Pink Pony Club (Chappell Roan)"], "stat": "11" },
+      { "text": ["Lose Control (Teddy Swims)"], "stat": "12" },
+      { "text": ["Beautiful Things (Benson Boone)"], "stat": "13" },
+      { "text": ["30 For 30 (SZA With Kendrick Lamar)"], "stat": "14" },
+      { "text": ["All The Stars (Kendrick Lamar & SZA)"], "stat": "15" },
+      { "text": ["That's So True (Gracie Abrams)"], "stat": "16" },
+      { "text": ["Espresso (Sabrina Carpenter)"], "stat": "17" },
+      { "text": ["CN Tower (PARTYNEXTDOOR & Drake)"], "stat": "18" },
+      { "text": ["Love Somebody (Morgan Wallen)"], "stat": "19" },
+      { "text": ["I Had Some Help (Post Malone Featuring Morgan Wallen)"], "stat": "20" },
+      { "text": ["Die Trying (PARTYNEXTDOOR, Drake & Yebba)"], "stat": "21" },
+      { "text": ["Taste (Sabrina Carpenter)"], "stat": "22" },
+      { "text": ["I'm The Problem (Morgan Wallen)"], "stat": "23" },
+      { "text": ["Timeless (The Weeknd & Playboi Carti)"], "stat": "24" },
+      { "text": ["Please Please Please (Sabrina Carpenter)"], "stat": "25" }
+    ],
+    "url": "https://www.billboard.com/charts/hot-100"
   }
 }
