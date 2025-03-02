@@ -8281,5 +8281,39 @@
     ],
     "url": "https://kworb.net/spotify/artist/06HL4z0CvFAxyc27GXpf02.html",
     "submitter": "Abigail Naylor"
+  },
+  "2025-03-03": {
+    "category": "Countries by tea exports",
+    "answers": [
+      { "text": ["China"], "stat": "$1.39 billion" },
+      { "text": ["Kenya"], "stat": "$1.37 billion" },
+      { "text": ["Sri Lanka"], "stat": "$1.12 billion" },
+      { "text": ["India"], "stat": "$700 million" },
+      { "text": ["United Arab Emirates"], "stat": "$398 million" }
+    ],
+    "options": [
+      { "text": ["Poland"], "stat": "$255 million" },
+      { "text": ["Japan"], "stat": "$218 million" },
+      { "text": ["Germany"], "stat": "$194 million" },
+      { "text": ["United Kingdom"], "stat": "$120 million" },
+      { "text": ["Chinese Taipei"], "stat": "$95 million" },
+      { "text": ["Vietnam"], "stat": "$90 million" },
+      { "text": ["Indonesia"], "stat": "$88 million" },
+      { "text": ["Argentina"], "stat": "$81 million" },
+      { "text": ["United States"], "stat": "$79 million" },
+      { "text": ["Malawi"], "stat": "$76 million" },
+      { "text": ["Netherlands"], "stat": "$68 million" },
+      { "text": ["Uganda"], "stat": "$61 million" },
+      { "text": ["France"], "stat": "$51 million" },
+      { "text": ["Rwanda"], "stat": "$49 million" },
+      { "text": ["Spain"], "stat": "$47 million" },
+      { "text": ["Russia"], "stat": "$47 million" },
+      { "text": ["Jordan"], "stat": "$38 million" },
+      { "text": ["Tanzania"], "stat": "$33 million" },
+      { "text": ["Singapore"], "stat": "$33 million" },
+      { "text": ["South Africa"], "stat": "$30 million" },
+      { "text": ["Egypt"], "stat": "$28 million" }
+    ],
+    "url": "https://oec.world/en/profile/hs/tea"
   }
 }
