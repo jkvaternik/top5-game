@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import puzzlesData from '../data/puzzlesV2.json';
 import optionsData from '../data/options.json';
 import { getCurrentLocalDateAsString, getPuzzleNumber } from '../utils';
+import { emitEvent } from '../umami/umami';
 
 export type Answer = {
   text: string[];
@@ -90,6 +91,7 @@ const useDailyPuzzle: (day: string | null) => Puzzle | null = (
     } else {
       // Handle the case where there is no puzzle for today
       setTodayPuzzle(null);
+      emitEvent('No Puzzle', { date: getCurrentLocalDateAsString() });
     }
   }, [day]);
 
