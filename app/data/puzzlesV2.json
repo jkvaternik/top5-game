@@ -8388,5 +8388,27 @@
       { "text": ["Please Please Please (Sabrina Carpenter)"], "stat": "25" }
     ],
     "url": "https://www.billboard.com/charts/hot-100"
+  },
+  "2025-03-06": {
+    "category": "Most popular burger chains",
+    "answers": [
+      { "text": ["Wendy's"], "stat": "69% favorable" },
+      { "text": ["Burger King", "Sonic"], "stat": "64% favorable" },
+      { "text": ["Five Guys"], "stat": "60% favorable" },
+      { "text": ["McDonald's", "Red Robin"], "stat": "58% favorable" },
+      { "text": ["In-N-Out Burger"], "stat": "57% favorable" }
+    ],
+    "options": [
+      { "text": ["Hardee's", "White Castle"], "stat": "54% favorable" },
+      { "text": ["Steak 'n Shake"], "stat": "50% favorable" },
+      { "text": ["Jack in the Box", "Ruby Tuesday"], "stat": "49% favorable" },
+      { "text": ["Whataburger"], "stat": "48% favorable" },
+      { "text": ["Carl's Jr.", "Fuddruckers"], "stat": "47% favorable" },
+      { "text": ["Shake Shack", "Big Boy"], "stat": "45% favorable" },
+      { "text": ["Culver's"], "stat": "44% favorable" },
+      { "text": ["Smashburger"], "stat": "41% favorable" },
+      { "text": ["Johnny Rockets"], "stat": "38% favorable" }
+    ],
+    "url": "https://screencrush.com/best-burger-chains/"
   }
 }
