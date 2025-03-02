@@ -8,6 +8,7 @@ interface ButtonProps {
   colorClasses?: string;
   buttonType?: ButtonType;
   styles?: string;
+  umamiEvent?: string;
 }
 
 export default function Button({
@@ -16,6 +17,7 @@ export default function Button({
   colorClasses,
   buttonType = 'primary',
   styles = '',
+  umamiEvent,
 }: ButtonProps) {
   // Default color classes
   const defaultColors =
@@ -34,6 +36,7 @@ export default function Button({
       className={`py-3 px-12 font-medium rounded-full ${colors} ${styles}`}
       onClick={onClick}
       style={{ transition: '0.3s' }}
+      {...(umamiEvent ? { 'data-umami-event': umamiEvent } : {})}
     >
       <div className="flex flex-row justify-center gap-2 text-nowrap">
         {children}

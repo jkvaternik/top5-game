@@ -121,7 +121,11 @@ const GameOverModal = ({
           </h2>
           <p className="mb-2 left-align font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-4 text-3xl">{getShareableEmojiScore(score)}</p>
-          <Button onClick={copyScore} styles="mb-4">
+          <Button
+            onClick={copyScore}
+            styles="mb-4"
+            umamiEvent="Share Button Clicked"
+          >
             Share{' '}
             <ShareIcon
               className="h-6 w-6"
