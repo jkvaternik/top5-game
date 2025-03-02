@@ -41,6 +41,11 @@ const SuggestionLink = () => (
   </>
 );
 
+const url = () => {
+  const utmParams = ''; // '?utm_medium=share'; // This would let us know when people are arriving at Top 5 via a shared link, but it makes our link uglier
+  return window.location.href + utmParams;
+};
+
 const GameOverModal = ({
   puzzle,
   score,
@@ -54,7 +59,7 @@ const GameOverModal = ({
       title: `Top 5 #${puzzle.num}`,
       text: `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score)}`,
     };
-    return includeUrl ? { ...message, url: window.location.href } : message;
+    return includeUrl ? { ...message, url: url() } : message;
   };
 
   const getUrlSetting = () => {
@@ -76,7 +81,7 @@ const GameOverModal = ({
         navigator.userAgent
       );
 
-    const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${window.location.href}` : '')}`;
+    const shareableText = `Top 5 #${puzzle.num}\n${getShareableEmojiScore(score) + (includeUrl ? `\n${url()}` : '')}`;
 
     if (isMobile) {
       navigator
@@ -121,7 +126,11 @@ const GameOverModal = ({
           </h2>
           <p className="mb-2 left-align font-semibold">Top 5 #{puzzle.num}</p>
           <p className="mb-4 text-3xl">{getShareableEmojiScore(score)}</p>
-          <Button onClick={copyScore} styles="mb-4">
+          <Button
+            onClick={copyScore}
+            styles="mb-4"
+            umamiEvent="Share Button Clicked"
+          >
             Share{' '}
             <ShareIcon
               className="h-6 w-6"

@@ -46,7 +46,7 @@ export default function Home() {
       )}
       <Script
         src="https://umami.zachwal.sh/script.js"
-        data-website-id="64aba0b2-61d2-43cf-9368-94c909d3ba06"
+        data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
         strategy="afterInteractive"
       />
     </main>

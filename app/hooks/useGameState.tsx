@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   getCurrentLocalDateAsString,
   getLocalStorageOrDefault,
@@ -6,6 +6,7 @@ import {
   setLocalStorageAndState,
 } from '../utils';
 import { Puzzle } from './useDailyPuzzle';
+import { emitEvent } from '../umami/umami';
 
 export const LIVES = 5;
 
@@ -56,8 +57,24 @@ export function useGameState(puzzle: Puzzle | null, date: string | null) {
       }
     }
 
+    const eventName = isCorrect ? 'Correct Guess' : 'Incorrect Guess';
+    emitEvent(eventName, { date: puzzleDate });
+
     return isCorrect;
   };
+
+  useEffect(() => {
+    if (!puzzleDate) {
+      // prevent double-firing
+      return;
+    }
+
+    if (gameOver && lives === 0) {
+      emitEvent('Game Lost', { date: puzzleDate });
+    } else if (gameOver && correctGuesses === 5) {
+      emitEvent('Game Won', { date: puzzleDate });
+    }
+  }, [gameOver, puzzleDate]);
 
   return { guesses, setGuesses, lives, gameOver, handleGuess, correctGuesses };
 }
