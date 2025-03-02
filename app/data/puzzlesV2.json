@@ -8315,5 +8315,45 @@
       { "text": ["Egypt"], "stat": "$28 million" }
     ],
     "url": "https://oec.world/en/profile/hs/tea"
+  },
+  "2025-03-04": {
+    "category": "Largest companies in the U.S. by revenue in 1956",
+    "answers": [
+      { "text": ["General Motors"], "stat": "$12.44 billion" },
+      { "text": ["Exxon Mobil"], "stat": "$6.27 billion" },
+      { "text": ["Ford Motor"], "stat": "$5.59 billion" },
+      { "text": ["U.S. Steel"], "stat": "$4.10 billion" },
+      { "text": ["Chrysler"], "stat": "$3.47 billion" }
+    ],
+    "options": [
+      { "text": ["General Electric"], "stat": "$3.10 billion" },
+      { "text": ["Esmark"], "stat": "$2.40 billion" },
+      { "text": ["Bethlehem Steel"], "stat": "$2.10 billion" },
+      { "text": ["Armour"], "stat": "$1.97 billion" },
+      { "text": ["DuPont"], "stat": "$1.91 billion" },
+      { "text": ["Gulf Oil"], "stat": "$1.90 billion" },
+      { "text": ["AT&T Technologies"], "stat": "$1.85 billion" },
+      { "text": ["Mobil"], "stat": "$1.84 billion" },
+      { "text": ["Amoco"], "stat": "$1.78 billion" },
+      { "text": ["Texaco"], "stat": "$1.77 billion" },
+      { "text": ["Shell Oil"], "stat": "$1.48 billion" },
+      { "text": ["CBS"], "stat": "$1.44 billion" },
+      { "text": ["Goodyear Tire & Rubber"], "stat": "$1.37 billion" },
+      { "text": ["ChevronTexaco"], "stat": "$1.28 billion" },
+      { "text": ["Kraft"], "stat": "$1.26 billion" },
+      { "text": ["Republic Steel"], "stat": "$1.19 billion" },
+      { "text": ["Union Carbide"], "stat": "$1.19 billion" },
+      { "text": ["Navistar International"], "stat": "$1.17 billion" },
+      { "text": ["Firestone Tire & Rubber"], "stat": "$1.11 billion" },
+      { "text": ["Sinclair Oil"], "stat": "$1.11 billion" },
+      { "text": ["RCA"], "stat": "$1.06 billion" },
+      { "text": ["Procter & Gamble"], "stat": "$966 million" },
+      { "text": ["Uniroyal"], "stat": "$926 million" },
+      { "text": ["Citgo Petroleum"], "stat": "$923 million" },
+      { "text": ["ConocoPhillips"], "stat": "$911 million" },
+      { "text": ["Douglas Aircraft"], "stat": "$868 million" },
+      { "text": ["Boeing"], "stat": "$854 million" }
+    ],
+    "url": "https://money.cnn.com/magazines/fortune/fortune500_archive/full/1956/"
   }
 }
