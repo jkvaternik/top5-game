@@ -8357,6 +8357,29 @@
     "url": "https://money.cnn.com/magazines/fortune/fortune500_archive/full/1956/"
   },
   "2025-03-05": {
+    "category": "Movies by wins at the 2025 Oscars",
+    "answers": [
+      { "text": ["Anora"], "stat": "5 wins" },
+      { "text": ["The Brutalist"], "stat": "3 wins" },
+      { "text": ["Emilia Pérez"], "stat": "2 wins" },
+      { "text": ["Wicked"], "stat": "2 wins" },
+      { "text": ["Dune: Part Two"], "stat": "2 wins" }
+    ],
+    "options": [
+      { "text": ["A Real Pain"], "stat": "1 win" },
+      { "text": ["Conclave"], "stat": "1 win" },
+      { "text": ["Flow"], "stat": "1 win" },
+      { "text": ["I'm Still Here"], "stat": "1 win" },
+      { "text": ["No Other Land"], "stat": "1 win" },
+      { "text": ["The Only Girl in the Orchestra"], "stat": "1 win" },
+      { "text": ["I'm Not a Robot"], "stat": "1 win" },
+      { "text": ["In the Shadow of the Cypress"], "stat": "1 win" },
+      { "text": ["The Substance"], "stat": "1 win" }
+    ],
+    "url": "https://en.wikipedia.org/wiki/97th_Academy_Awards#Films_with_multiple_nominations_and_awards"
+  },
+
+  "2025-03-06": {
     "category": "Current Billboard Hot 100 Songs",
     "answers": [
       { "text": ["Luther (Kendrick Lamar & SZA)"], "stat": "1" },
@@ -8389,7 +8412,7 @@
     ],
     "url": "https://www.billboard.com/charts/hot-100"
   },
-  "2025-03-06": {
+  "2025-03-07": {
     "category": "Most popular burger chains",
     "answers": [
       { "text": ["Wendy's"], "stat": "69% favorable" },
